@@ -1,0 +1,538 @@
+{
+  "id": "WL-CHR-001",
+  "version": "v001",
+  "status": "needs_review",
+  "kind": "rigged_mesh",
+  "blender": "5.2.2 LTS",
+  "source": "项目原创 Blender Python 灰盒造型、拓扑、骨架、权重与棚拍。",
+  "rights": "项目内原创制作。无外部模型、图像、贴图或署名要求。",
+  "dependencies": [],
+  "reference": [
+    "docs/adr/0003-realitykit-third-person.md",
+    "Sources/FeatherTide/Systems/Camera/ThirdPersonRig.swift",
+    "完整AI建模任务包/Whale/羽与潮_鲸_Blender资源制作规格书_v1.0.md"
+  ],
+  "files": {
+    "blend": "WL-CHR-001_whale_rig.blend",
+    "glb": "WL-CHR-001_whale_rig.glb",
+    "script": "WL-CHR-001_whale_rig_generate.py",
+    "qa": "qa.json",
+    "previews": {
+      "fixed_gameplay": "preview_gameplay.png",
+      "fixed_gameplay_pod": "preview_gameplay_pod.png",
+      "near_rear_review": "preview_rear_detail.png",
+      "right_profile": "preview_side.png",
+      "top": "preview_top.png",
+      "empty_scene_glb_reimport": "preview_glb_roundtrip.png"
+    },
+    "pose_previews": {
+      "Tail up": "preview_pose_tail_up.png",
+      "Tail down": "preview_pose_tail_down.png",
+      "Bend left": "preview_pose_bend_left.png",
+      "Bend right": "preview_pose_bend_right.png",
+      "Rise and trim": "preview_pose_rise_and_trim.png",
+      "Dive and trim": "preview_pose_dive_and_trim.png"
+    }
+  },
+  "sha256": {
+    "WL-CHR-001_whale_rig.blend": "bdc8218a90e36d190ec22cc8f7947e32609c6c13a0d1f78a8e0d1c3282d1e344",
+    "WL-CHR-001_whale_rig.glb": "fce7a3ae1c7044f9675898941c94bb77b727d58691f50b584bd58831839368a7",
+    "preview_gameplay.png": "c43fdcbbae2ae31b631ba4cb21f12b04452fb4c2a247e2fd2a2de8a4cbbb05b0",
+    "preview_gameplay_pod.png": "6f3c53487365402279e2696a9246cc6f8488e1eb53e8d82fe9466da3c9ee2e41",
+    "preview_rear_detail.png": "c8e1b91df55049f96b34fb0631c9621af354e39d9d23e653527b4eec37667647",
+    "preview_side.png": "83af10fc9d74deb2bdfe1b4b2d27302a1fdcfc8077f32397457d8a32c97e60fe",
+    "preview_top.png": "63259603cd4ff39a069c9726d423739fc79b9f540745bb2ddb76f5e50204042c",
+    "preview_glb_roundtrip.png": "bc2fb863a42707ea8f4679b1f23e317ded42e86d9793cdbff398d0f530430eb1",
+    "preview_pose_tail_up.png": "7c16f240858931be4b566d406ab42dab54096af904260188d628acf67b9cc3e0",
+    "preview_pose_tail_down.png": "381b104f2e699371ab4293970c3fa5ad327d986053b957b9d3187d228a408925",
+    "preview_pose_bend_left.png": "0a1de6726bf0f0f2297f7929a94752c8d19f9fec43303c2682a0846640c66651",
+    "preview_pose_bend_right.png": "76967494c3b649632c83ae9b6abedc45e5d30ef553d18f53d91bb051e5653c91",
+    "preview_pose_rise_and_trim.png": "edf428642cf0f8d9a05200489a3bec7f32ac0b5a996d46f348603547648e23c7",
+    "preview_pose_dive_and_trim.png": "95ff54a6c05db47d8b4afb0cbc85022890da6ec9700975d4cdbc67261af9d335",
+    "WL-CHR-001_whale_rig_generate.py": "5e48e3bf36d6fa5c995780078a1fd4e4d34989977b1329dd37110ff8b4ae6363"
+  },
+  "axes_blender": {
+    "right": "+X",
+    "forward": "+Y",
+    "up": "+Z"
+  },
+  "axes_glb": {
+    "right": "+X",
+    "forward": "-Z",
+    "up": "+Y"
+  },
+  "blender_to_glb": "(x, y, z) → (x, z, -y)",
+  "pivot_BU": [
+    0,
+    0,
+    0
+  ],
+  "object_scale": [
+    1,
+    1,
+    1
+  ],
+  "bounds_BU": [
+    [
+      -2.890000104904175,
+      -5.689000129699707,
+      -1.2929999828338623
+    ],
+    [
+      2.890000104904175,
+      5.01200008392334,
+      1.4160616397857666
+    ]
+  ],
+  "dimensions_BU": {
+    "width_X": 5.78000020980835,
+    "length_Y": 10.701000213623047,
+    "height_Z": 2.709061622619629
+  },
+  "collections": {
+    "export": "EXPORT_WL-CHR-001",
+    "export_objects": [
+      "Whale_LOD0",
+      "WhaleRig"
+    ],
+    "guide": "GUIDE_WL-CHR-001",
+    "pod": "GUIDE_WL-CHR-001_POD"
+  },
+  "surface": {
+    "connected_components": 1,
+    "vertices": 1698,
+    "faces": 1760,
+    "triangles": 3392,
+    "boundary_or_non_manifold_edges": 0,
+    "minimum_triangle_area_BU2": 6.148854299681261e-05,
+    "weight_sum_max_error": 2.9802322387695312e-08,
+    "max_weights_per_vertex": 3,
+    "uv_atlas": "Whale_Atlas"
+  },
+  "bones": {
+    "Root": {
+      "parent": null,
+      "deform": false,
+      "connected": false,
+      "head_BU": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tail_BU": [
+        0.0,
+        0.550000011920929,
+        0.0
+      ],
+      "local_axes_in_blender": {
+        "X": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "Y": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "Z": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    "Body": {
+      "parent": "Root",
+      "deform": true,
+      "connected": false,
+      "head_BU": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tail_BU": [
+        0.0,
+        2.299999952316284,
+        0.0
+      ],
+      "local_axes_in_blender": {
+        "X": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "Y": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "Z": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    "Spine.01": {
+      "parent": "Body",
+      "deform": true,
+      "connected": false,
+      "head_BU": [
+        0.0,
+        -0.25999999046325684,
+        0.017999999225139618
+      ],
+      "tail_BU": [
+        0.0,
+        -1.7899999618530273,
+        0.03999999910593033
+      ],
+      "local_axes_in_blender": {
+        "X": [
+          -1.0,
+          -2.170956747704622e-09,
+          -1.5098019900960935e-07
+        ],
+        "Y": [
+          2.220446049250313e-16,
+          -0.9998966455459595,
+          0.014377596788108349
+        ],
+        "Z": [
+          -1.5099580252808664e-07,
+          0.014377596788108349,
+          0.9998966455459595
+        ]
+      }
+    },
+    "Spine.02": {
+      "parent": "Spine.01",
+      "deform": true,
+      "connected": true,
+      "head_BU": [
+        0.0,
+        -1.7899999618530273,
+        0.03999999910593033
+      ],
+      "tail_BU": [
+        0.0,
+        -3.240000009536743,
+        0.02500000037252903
+      ],
+      "local_axes_in_blender": {
+        "X": [
+          -1.0,
+          9.043248372364587e-10,
+          -8.74180940968472e-08
+        ],
+        "Y": [
+          0.0,
+          -0.9999465346336365,
+          -0.010344273410737514
+        ],
+        "Z": [
+          -8.742277657347586e-08,
+          -0.010344273410737514,
+          0.9999465346336365
+        ]
+      }
+    },
+    "TailStock": {
+      "parent": "Spine.02",
+      "deform": true,
+      "connected": true,
+      "head_BU": [
+        0.0,
+        -3.240000009536743,
+        0.02500000037252903
+      ],
+      "tail_BU": [
+        0.0,
+        -4.519999980926514,
+        0.004999999888241291
+      ],
+      "local_axes_in_blender": {
+        "X": [
+          -1.0,
+          1.365814239484564e-09,
+          -8.741211843243946e-08
+        ],
+        "Y": [
+          2.7755575615628914e-17,
+          -0.9998781085014343,
+          -0.015623094514012337
+        ],
+        "Z": [
+          -8.742278367890322e-08,
+          -0.015623094514012337,
+          0.9998779892921448
+        ]
+      }
+    },
+    "Flukes": {
+      "parent": "TailStock",
+      "deform": true,
+      "connected": true,
+      "head_BU": [
+        0.0,
+        -4.519999980926514,
+        0.004999999888241291
+      ],
+      "tail_BU": [
+        0.0,
+        -5.21999979019165,
+        0.017999999225139618
+      ],
+      "local_axes_in_blender": {
+        "X": [
+          -1.0,
+          -1.6232873933930136e-09,
+          -8.74077201729051e-08
+        ],
+        "Y": [
+          2.220446049250313e-16,
+          -0.9998277425765991,
+          0.018568232655525208
+        ],
+        "Z": [
+          -8.742279078433057e-08,
+          0.018568236380815506,
+          0.9998276233673096
+        ]
+      }
+    },
+    "Fluke.R": {
+      "parent": "Flukes",
+      "deform": true,
+      "connected": false,
+      "head_BU": [
+        0.7200000286102295,
+        -4.909999847412109,
+        0.024000000208616257
+      ],
+      "tail_BU": [
+        2.200000047683716,
+        -5.53000020980835,
+        0.23000000417232513
+      ],
+      "local_axes_in_blender": {
+        "X": [
+          -0.3863848149776459,
+          -0.9223378300666809,
+          -3.725290298461914e-09
+        ],
+        "Y": [
+          0.9148297309875488,
+          -0.3832397162914276,
+          0.12733441591262817
+        ],
+        "Z": [
+          -0.11744533479213715,
+          0.04920009523630142,
+          0.9918597936630249
+        ]
+      }
+    },
+    "Fluke.L": {
+      "parent": "Flukes",
+      "deform": true,
+      "connected": false,
+      "head_BU": [
+        -0.7200000286102295,
+        -4.909999847412109,
+        0.024000000208616257
+      ],
+      "tail_BU": [
+        -2.200000047683716,
+        -5.53000020980835,
+        0.23000000417232513
+      ],
+      "local_axes_in_blender": {
+        "X": [
+          -0.3863849937915802,
+          0.9223377108573914,
+          -9.313225746154785e-09
+        ],
+        "Y": [
+          -0.914829671382904,
+          -0.3832396864891052,
+          0.12733441591262817
+        ],
+        "Z": [
+          0.11744531244039536,
+          0.049200110137462616,
+          0.9918598532676697
+        ]
+      }
+    },
+    "Pectoral.R": {
+      "parent": "Body",
+      "deform": true,
+      "connected": false,
+      "head_BU": [
+        1.2999999523162842,
+        1.5399999618530273,
+        -0.3449999988079071
+      ],
+      "tail_BU": [
+        2.819999933242798,
+        0.11999999731779099,
+        -0.7250000238418579
+      ],
+      "local_axes_in_blender": {
+        "X": [
+          -0.6826611161231995,
+          -0.7307354211807251,
+          -1.4901161193847656e-07
+        ],
+        "Y": [
+          0.7188388705253601,
+          -0.6715468764305115,
+          -0.17970973253250122
+        ],
+        "Z": [
+          0.13132023811340332,
+          -0.12268085777759552,
+          0.9837197065353394
+        ]
+      }
+    },
+    "Pectoral.L": {
+      "parent": "Body",
+      "deform": true,
+      "connected": false,
+      "head_BU": [
+        -1.2999999523162842,
+        1.5399999618530273,
+        -0.3449999988079071
+      ],
+      "tail_BU": [
+        -2.819999933242798,
+        0.11999999731779099,
+        -0.7250000238418579
+      ],
+      "local_axes_in_blender": {
+        "X": [
+          -0.6826611161231995,
+          0.7307354211807251,
+          1.4901161193847656e-07
+        ],
+        "Y": [
+          -0.7188388705253601,
+          -0.6715468764305115,
+          -0.17970973253250122
+        ],
+        "Z": [
+          -0.13132023811340332,
+          -0.12268085777759552,
+          0.9837197065353394
+        ]
+      }
+    }
+  },
+  "control_notes": {
+    "Root": "母版原点。测试姿势均原地。",
+    "Body": "局部 X 浮潜俯仰。",
+    "Spine.01 / Spine.02": "局部 Z 侧弯，局部 X 可分担尾摆。",
+    "TailStock / Flukes": "局部 X 抬降尾轴。",
+    "Fluke.L / Fluke.R": "外侧尾鳍微调。",
+    "Pectoral.L / Pectoral.R": "胸鳍摆角和轴向调姿。"
+  },
+  "attachment_points": {
+    "runtime_empty_count": 0,
+    "joints": "Use the named bone heads recorded above."
+  },
+  "material": "单槽纯色 PBR，预留无重叠 UV 岛。正式材质由 WL-MAT-001 接续。",
+  "pose_assets": [
+    "QA · Neutral",
+    "QA · Tail up",
+    "QA · Tail down",
+    "QA · Bend left",
+    "QA · Bend right",
+    "QA · Rise and trim",
+    "QA · Dive and trim"
+  ],
+  "gameplay_preview": {
+    "resolution": [
+      1280,
+      640
+    ],
+    "projection": "perspective, directly behind leader",
+    "eye_BU": [
+      0.0,
+      -15.965909004211426,
+      8.31202507019043
+    ],
+    "target_BU": [
+      0,
+      0,
+      0.6
+    ],
+    "vertical_fov_deg": 50.0,
+    "actual_down_angle_deg": 25.78197137314681,
+    "ThirdPersonRig_parameters": {
+      "distance_game_units": 180.0,
+      "pitch_rad": 0.48,
+      "target_height_game_units": 6.0
+    },
+    "review_only_game_units_per_BU": 10.0,
+    "water_plane_BU": null,
+    "water_plane_note": "预览使用无水面的中性棚拍。海面高程由 WL-LVL-M12-SAMPLE 校准。"
+  },
+  "pod_instances": [
+    {
+      "name": "Leader",
+      "origin_BU": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1,
+      "yaw_deg": 0
+    },
+    {
+      "name": "Companion L",
+      "origin_BU": [
+        -4.95,
+        -0.72,
+        -0.22
+      ],
+      "scale": 0.72,
+      "yaw_deg": -3.0,
+      "test_pose": "Tail up",
+      "pose_factor": 0.24
+    },
+    {
+      "name": "Companion R",
+      "origin_BU": [
+        5.25,
+        -2.4,
+        -0.4
+      ],
+      "scale": 0.76,
+      "yaw_deg": 5.0,
+      "test_pose": "Tail down",
+      "pose_factor": 0.28
+    },
+    {
+      "name": "Companion aft L",
+      "origin_BU": [
+        -9.15,
+        -2.45,
+        -0.3
+      ],
+      "scale": 0.58,
+      "yaw_deg": -3.0,
+      "test_pose": "Bend left",
+      "pose_factor": 0.18
+    }
+  ],
+  "pending": [
+    "负责人审阅通用鲸灰盒轮廓、鳍根和骨骼操作",
+    "WL-ANM-001 慢游循环与过渡，WL-ANM-002 惯性转向",
+    "WL-LVL-M12-SAMPLE 固定机位中校准鲸长、队形、近中远取景及海面高程",
+    "WL-MAT-001 水彩材质",
+    "USDZ / RealityKit 的轴向、材质与动画，以及 iPhone / iPad 显示与性能，待真机验证"
+  ]
+}

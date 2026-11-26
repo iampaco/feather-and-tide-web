@@ -1,0 +1,148 @@
+{
+  "version": "v001",
+  "status": "needs_review",
+  "axes": {
+    "blender": "+X right, +Y forward, +Z up",
+    "glb": "(x,z,-y)",
+    "BU_per_game_unit": 0.036
+  },
+  "camera": {
+    "source": "Sources/FeatherTide/Systems/Camera/ThirdPersonRig.swift",
+    "distance_game_units": 180,
+    "pitch_parameter_radians": 0.48,
+    "vertical_fov_deg": 50,
+    "target_lift_game_units": 6,
+    "resolution": [
+      852,
+      393
+    ],
+    "preview_base_lead_height_game_units": 8,
+    "altitude_input": "scene depthLift added to eye, aim and lead base planes"
+  },
+  "gate": {
+    "width_BU": 24,
+    "half_width_BU": 12,
+    "dry_flat_ground_z_BU": 0,
+    "reference_water_z_BU": -0.18,
+    "water_crosses_gate": false,
+    "flat_clearance_inward_BU": 2,
+    "heading_blender": [
+      0,
+      1,
+      0
+    ]
+  },
+  "layout": {
+    "LVL-S0": {
+      "entry": [
+        0,
+        0,
+        0
+      ],
+      "exit": [
+        0,
+        36,
+        0
+      ],
+      "entry_node": "S0_Entry",
+      "exit_node": "S0_Exit_to_S1",
+      "glb": "LVL-S0_S0_StartWetland.glb"
+    },
+    "LVL-S1": {
+      "entry": [
+        0,
+        0,
+        0
+      ],
+      "exit": [
+        0,
+        60,
+        0
+      ],
+      "exit_semantic": "Checkpoint_A",
+      "entry_node": "Entry",
+      "exit_node": "Checkpoint_A",
+      "glb": "LVL-S1_S1_Tailwind.glb"
+    },
+    "LVL-S2": {
+      "entry": [
+        0,
+        0,
+        0
+      ],
+      "exit": [
+        0,
+        76,
+        0
+      ],
+      "exit_semantic": "Merge",
+      "entry_node": "S2_Entry",
+      "exit_node": "S2_Merge",
+      "glb": "LVL-S2_S2_Fork.glb"
+    },
+    "LVL-S3": {
+      "entry": [
+        0,
+        0,
+        0
+      ],
+      "exit": [
+        0,
+        64,
+        0
+      ],
+      "entry_node": "S3_Entry",
+      "exit_node": "S3_Exit",
+      "glb": "LVL-S3_S3_Rescue.glb"
+    },
+    "LVL-S4": {
+      "entry": [
+        2,
+        -45,
+        0
+      ],
+      "exit": [
+        2,
+        45,
+        0
+      ],
+      "anchor_source": "MarshStitch external bounds / s4_layout.json outer_lane_and_marsh.leader_x_BU",
+      "internal_gates_y_BU": [
+        -14,
+        22
+      ],
+      "glb": "LVL-S4_S4_WindFarm.glb"
+    },
+    "LVL-S5": {
+      "entry": [
+        0,
+        0,
+        0
+      ],
+      "exit": [
+        0,
+        64,
+        0
+      ],
+      "entry_node": "S5_Entry",
+      "exit_node": "S5_Exit",
+      "glb": "LVL-S5_S5_Headwind.glb"
+    },
+    "LVL-S6": {
+      "entry": [
+        0,
+        0,
+        0
+      ],
+      "terminal_semantic": "LandingBasin",
+      "entry_node": "S6_Entry",
+      "terminal": [
+        0,
+        21,
+        0
+      ],
+      "terminal_node": "S6_Terminal",
+      "glb": "LVL-S6_S6_Landing.glb"
+    }
+  }
+}

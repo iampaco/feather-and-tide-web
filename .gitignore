@@ -1,0 +1,50 @@
+.DS_Store
+__pycache__/
+node_modules/
+dist/
+coverage/
+playwright-report/
+test-results/
+*.local
+*.log
+
+# Local editor and Blender backups
+/src/**/* 2.ts
+/src/**/* 3.ts
+/tests/**/* 2.ts
+/public/levels/whale 2.json
+*.blend1
+
+# Local art production files and presentation exports
+/Assets/**/*.blend
+/Assets/**/*.glb
+/Assets/**/*.jpeg
+/Assets/**/*.jpg
+/Assets/**/*.mov
+/Assets/**/*.mp4
+/Assets/**/*.png
+/Assets/**/*.webp
+/docs/plans/**/evidence/**/*.jpg
+/docs/plans/**/evidence/**/*.png
+/output/
+/presentation/
+
+# Keep the source files required by the asset validator and coat regression test.
+!/Assets/Watercolor/Deer/Blender/RD-CHR-001/v001/reindeer-v001.glb
+!/Assets/Watercolor/Deer/Blender/RD-CHR-001/v002/reindeer-v002.blend
+!/Assets/Watercolor/Deer/Characters/deer_char_walk_01.png
+!/Assets/Watercolor/Deer/Scenes/VAL/deer_scene_val_sky.png
+!/Assets/Watercolor/Goose/Blender/ANM-001/v001/ANM-001_cruise_flap.glb
+!/Assets/Watercolor/Goose/Blender/ANM-002/v001/ANM-002_takeoff_climb.glb
+!/Assets/Watercolor/Goose/Blender/ANM-003/v001/ANM-003_glide_circle.glb
+!/Assets/Watercolor/Goose/Blender/ANM-006/v001/ANM-006_formation_blend.glb
+!/Assets/Watercolor/Goose/Blender/ANM-007/v001/ANM-007_landing.glb
+!/Assets/Watercolor/Goose/Blender/ANM-009/v001/ANM-009_call_rejoin.glb
+!/Assets/Watercolor/Goose/Blender/ENV-012/v001/ENV-012_LeaningTree.glb
+!/Assets/Watercolor/Goose/Blender/STR-001/v001/STR-001_Main_Turbine.glb
+!/Assets/Watercolor/Goose/Characters/goose_char_feed_01.png
+!/Assets/Watercolor/Goose/Scenes/WET/goose_scene_wet_near.png
+!/Assets/Watercolor/Goose/Scenes/WET/goose_scene_wet_sky.png
+!/Assets/Watercolor/Whale/Blender/WL-CHR-001/v004/WL-CHR-001_whale_rig.glb
+!/Assets/Watercolor/Whale/Characters/whale_char_body_01.png
+!/Assets/Watercolor/Whale/Scenes/OPEN/whale_scene_open_sky.png

@@ -1,0 +1,612 @@
+{
+  "id": "WL-CHR-001",
+  "version": "v001",
+  "blender": "5.2.2 LTS",
+  "date_local": "2026-11-16",
+  "timezone": "Asia/Shanghai",
+  "status": "needs_review",
+  "scope": "Blender 离线灰盒",
+  "surface": {
+    "connected_components": 1,
+    "vertices": 1698,
+    "faces": 1760,
+    "triangles": 3392,
+    "boundary_or_non_manifold_edges": 0,
+    "minimum_triangle_area_BU2": 6.148854299681261e-05,
+    "weight_sum_max_error": 2.9802322387695312e-08,
+    "max_weights_per_vertex": 3,
+    "uv_atlas": "Whale_Atlas"
+  },
+  "poses": {
+    "Neutral": {
+      "root_BU": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "local_euler_XYZ_deg": {},
+      "tail_center_delta_BU": [
+        1.0942358071413237e-16,
+        4.76837158203125e-07,
+        -9.313225746154785e-09
+      ],
+      "self_intersections_non_neighbor_triangle_pairs": 0,
+      "minimum_triangle_area_ratio": 0.9999987304565202,
+      "junction_edge_length_ratios": {
+        "Pectoral.R": [
+          0.9999990175934307,
+          1.000000245874351
+        ],
+        "Pectoral.L": [
+          0.9999990175934307,
+          1.000000245874351
+        ],
+        "Fluke.R": [
+          0.9999999257364083,
+          1.0000000589369948
+        ],
+        "Fluke.L": [
+          0.9999999257364083,
+          1.0000000589369948
+        ],
+        "TailStock": [
+          0.9999993526866302,
+          1.0000000527307022
+        ]
+      }
+    },
+    "Tail up": {
+      "root_BU": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "local_euler_XYZ_deg": {
+        "Spine.02": [
+          12,
+          0,
+          0
+        ],
+        "TailStock": [
+          34,
+          0,
+          0
+        ],
+        "Flukes": [
+          15,
+          0,
+          0
+        ]
+      },
+      "tail_center_delta_BU": [
+        -1.4671104509034194e-07,
+        0.6871647834777832,
+        1.6868511959910393
+      ],
+      "self_intersections_non_neighbor_triangle_pairs": 0,
+      "minimum_triangle_area_ratio": 0.7482782277281039,
+      "junction_edge_length_ratios": {
+        "Pectoral.R": [
+          0.9999990175934307,
+          1.000000245874351
+        ],
+        "Pectoral.L": [
+          0.9999990175934307,
+          1.000000245874351
+        ],
+        "Fluke.R": [
+          0.921575901137597,
+          1.0536362336380436
+        ],
+        "Fluke.L": [
+          0.921575901137597,
+          1.0536362336380436
+        ],
+        "TailStock": [
+          0.7825754322309931,
+          1.1951222780168265
+        ]
+      }
+    },
+    "Tail down": {
+      "root_BU": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "local_euler_XYZ_deg": {
+        "Spine.02": [
+          -12,
+          0,
+          0
+        ],
+        "TailStock": [
+          -34,
+          0,
+          0
+        ],
+        "Flukes": [
+          -15,
+          0,
+          0
+        ]
+      },
+      "tail_center_delta_BU": [
+        1.4804317061134498e-07,
+        0.7039828300476074,
+        -1.6846981719136238
+      ],
+      "self_intersections_non_neighbor_triangle_pairs": 0,
+      "minimum_triangle_area_ratio": 0.7369113506052859,
+      "junction_edge_length_ratios": {
+        "Pectoral.R": [
+          0.9999990175934307,
+          1.000000245874351
+        ],
+        "Pectoral.L": [
+          0.9999990175934307,
+          1.000000245874351
+        ],
+        "Fluke.R": [
+          0.9428016894319027,
+          1.0855828439462805
+        ],
+        "Fluke.L": [
+          0.9428013444915418,
+          1.0855828439462805
+        ],
+        "TailStock": [
+          0.7826643981750415,
+          1.189932560952978
+        ]
+      }
+    },
+    "Bend left": {
+      "root_BU": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "local_euler_XYZ_deg": {
+        "Spine.01": [
+          0,
+          0,
+          -22
+        ],
+        "Spine.02": [
+          0,
+          0,
+          -24
+        ],
+        "TailStock": [
+          0,
+          0,
+          -18
+        ]
+      },
+      "tail_center_delta_BU": [
+        -3.2428946495056152,
+        1.5705389976501465,
+        -0.007522947154939175
+      ],
+      "self_intersections_non_neighbor_triangle_pairs": 0,
+      "minimum_triangle_area_ratio": 0.6965119625705043,
+      "junction_edge_length_ratios": {
+        "Pectoral.R": [
+          0.9943038890957725,
+          1.1044536681385266
+        ],
+        "Pectoral.L": [
+          0.9147724451636684,
+          1.0267590688098005
+        ],
+        "Fluke.R": [
+          0.9999958141209496,
+          1.000006421829949
+        ],
+        "Fluke.L": [
+          0.9999922956368842,
+          1.0000079725893052
+        ],
+        "TailStock": [
+          0.8834729708608281,
+          1.1095796887011593
+        ]
+      }
+    },
+    "Bend right": {
+      "root_BU": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "local_euler_XYZ_deg": {
+        "Spine.01": [
+          0,
+          0,
+          22
+        ],
+        "Spine.02": [
+          0,
+          0,
+          24
+        ],
+        "TailStock": [
+          0,
+          0,
+          18
+        ]
+      },
+      "tail_center_delta_BU": [
+        3.2428946495056152,
+        1.5705389976501465,
+        -0.007522209547460079
+      ],
+      "self_intersections_non_neighbor_triangle_pairs": 0,
+      "minimum_triangle_area_ratio": 0.6968299181546752,
+      "junction_edge_length_ratios": {
+        "Pectoral.R": [
+          0.9147724451636684,
+          1.0267590569772667
+        ],
+        "Pectoral.L": [
+          0.99430377816451,
+          1.1044536681385266
+        ],
+        "Fluke.R": [
+          0.9999922973318699,
+          1.0000079317949695
+        ],
+        "Fluke.L": [
+          0.9999962795053008,
+          1.0000063185465535
+        ],
+        "TailStock": [
+          0.8834729655218412,
+          1.1095796847444237
+        ]
+      }
+    },
+    "Rise and trim": {
+      "root_BU": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "local_euler_XYZ_deg": {
+        "Body": [
+          18,
+          0,
+          0
+        ],
+        "TailStock": [
+          -10,
+          0,
+          0
+        ],
+        "Pectoral.L": [
+          28,
+          -10,
+          9
+        ],
+        "Pectoral.R": [
+          -26,
+          11,
+          -8
+        ]
+      },
+      "tail_center_delta_BU": [
+        2.7500973942551354e-08,
+        0.36722373962402344,
+        -1.8510580733418465
+      ],
+      "self_intersections_non_neighbor_triangle_pairs": 0,
+      "minimum_triangle_area_ratio": 0.5966973150008827,
+      "junction_edge_length_ratios": {
+        "Pectoral.R": [
+          0.7628073205134924,
+          1.2133918277894322
+        ],
+        "Pectoral.L": [
+          0.6658236157782593,
+          1.2248799259848766
+        ],
+        "Fluke.R": [
+          0.9999926841931863,
+          1.0000077748828142
+        ],
+        "Fluke.L": [
+          0.9999926841931863,
+          1.0000077748828142
+        ],
+        "TailStock": [
+          0.9354986001447155,
+          1.0611402893356012
+        ]
+      }
+    },
+    "Dive and trim": {
+      "root_BU": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "local_euler_XYZ_deg": {
+        "Body": [
+          -18,
+          0,
+          0
+        ],
+        "Spine.01": [
+          7,
+          0,
+          -12
+        ],
+        "TailStock": [
+          24,
+          0,
+          -10
+        ],
+        "Flukes": [
+          -11,
+          0,
+          0
+        ],
+        "Fluke.L": [
+          12,
+          0,
+          0
+        ],
+        "Fluke.R": [
+          11,
+          0,
+          0
+        ],
+        "Pectoral.L": [
+          -24,
+          12,
+          -9
+        ],
+        "Pectoral.R": [
+          28,
+          -11,
+          8
+        ]
+      },
+      "tail_center_delta_BU": [
+        -1.2316608428955078,
+        1.0192503929138184,
+        2.5731081292033195
+      ],
+      "self_intersections_non_neighbor_triangle_pairs": 0,
+      "minimum_triangle_area_ratio": 0.7072699787505619,
+      "junction_edge_length_ratios": {
+        "Pectoral.R": [
+          0.7902148434665015,
+          1.3615959148491557
+        ],
+        "Pectoral.L": [
+          0.7937265289096964,
+          1.1949593733129928
+        ],
+        "Fluke.R": [
+          0.9582160418144301,
+          1.0598400730932829
+        ],
+        "Fluke.L": [
+          0.9582116444393027,
+          1.059836386985341
+        ],
+        "TailStock": [
+          0.833437052993689,
+          1.1534999993287935
+        ]
+      }
+    }
+  },
+  "wire_GLTF": {
+    "meshes": 1,
+    "skins": 1,
+    "joints": 10,
+    "triangles": 3392,
+    "bounds_gltf": [
+      [
+        -2.890000104904175,
+        -1.2929999828338623,
+        -5.01200008392334
+      ],
+      [
+        2.890000104904175,
+        1.4160616397857666,
+        5.689000129699707
+      ]
+    ],
+    "position_count": 1961,
+    "animations": 0,
+    "textures": 0
+  },
+  "GLB_roundtrip_empty_scene": {
+    "initial_scene_object_count": 0,
+    "imported_object_count": 2,
+    "object_world_transforms": "identity",
+    "root_BU": [
+      0,
+      0,
+      0
+    ],
+    "hierarchy": {
+      "Root": null,
+      "Body": "Root",
+      "Spine.01": "Body",
+      "Spine.02": "Spine.01",
+      "TailStock": "Spine.02",
+      "Flukes": "TailStock",
+      "Fluke.R": "Flukes",
+      "Fluke.L": "Flukes",
+      "Pectoral.R": "Body",
+      "Pectoral.L": "Body"
+    },
+    "imported_vertices": 1961,
+    "bone_rest_matrix_max_error": 7.152557373046875e-07,
+    "vertex_position_max_error_BU": 1.0864571322599659e-06,
+    "weight_max_error": 5.960464477539063e-08,
+    "uv_max_error": 2.9802322387695312e-08,
+    "pose_deformation_max_error_BU": {
+      "Neutral": 1.975570302663835e-06,
+      "Tail up": 3.6471029617257965e-06,
+      "Tail down": 3.27771355745018e-06,
+      "Bend left": 4.696395926283602e-06,
+      "Bend right": 4.696395926283602e-06,
+      "Rise and trim": 2.9897537717782148e-06,
+      "Dive and trim": 2.9102696456274276e-06
+    },
+    "passed": true
+  },
+  "fixed_camera": {
+    "resolution": [
+      1280,
+      640
+    ],
+    "projection": "perspective, directly behind leader",
+    "eye_BU": [
+      0.0,
+      -15.965909004211426,
+      8.31202507019043
+    ],
+    "target_BU": [
+      0,
+      0,
+      0.6
+    ],
+    "vertical_fov_deg": 50.0,
+    "actual_down_angle_deg": 25.78197137314681,
+    "ThirdPersonRig_parameters": {
+      "distance_game_units": 180.0,
+      "pitch_rad": 0.48,
+      "target_height_game_units": 6.0
+    },
+    "review_only_game_units_per_BU": 10.0,
+    "water_plane_BU": null,
+    "water_plane_note": "预览使用无水面的中性棚拍。海面高程由 WL-LVL-M12-SAMPLE 校准。",
+    "solo": {
+      "Whale_LOD0": {
+        "bounds_screen01_origin_lower_left": [
+          [
+            0.4053083658218384,
+            0.2548508942127228
+          ],
+          [
+            0.5946916341781616,
+            0.5894858837127686
+          ]
+        ],
+        "width_px": 242.41058349609375,
+        "height_px": 214.1663932800293,
+        "nose_above_tail_center_px": 184.62984085083008
+      }
+    },
+    "pod": {
+      "Leader · shared mesh": {
+        "bounds_screen01_origin_lower_left": [
+          [
+            0.4053083658218384,
+            0.2548508942127228
+          ],
+          [
+            0.5946916341781616,
+            0.5894858837127686
+          ]
+        ],
+        "width_px": 242.41058349609375,
+        "height_px": 214.1663932800293,
+        "nose_above_tail_center_px": 184.62984085083008
+      },
+      "Companion L · shared mesh": {
+        "bounds_screen01_origin_lower_left": [
+          [
+            0.23512671887874603,
+            0.3112051486968994
+          ],
+          [
+            0.41227272152900696,
+            0.5339359641075134
+          ]
+        ],
+        "width_px": 226.74688339233398,
+        "height_px": 142.54772186279297,
+        "nose_above_tail_center_px": 126.80484771728516
+      },
+      "Companion R · shared mesh": {
+        "bounds_screen01_origin_lower_left": [
+          [
+            0.6020466685295105,
+            0.12744837999343872
+          ],
+          [
+            0.8145026564598083,
+            0.49074915051460266
+          ]
+        ],
+        "width_px": 271.94366455078125,
+        "height_px": 232.51249313354492,
+        "nose_above_tail_center_px": 197.4085807800293
+      },
+      "Companion aft L · shared mesh": {
+        "bounds_screen01_origin_lower_left": [
+          [
+            0.055102813988924026,
+            0.22015701234340668
+          ],
+          [
+            0.25092148780822754,
+            0.46961966156959534
+          ]
+        ],
+        "width_px": 250.6479024887085,
+        "height_px": 159.65609550476074,
+        "nose_above_tail_center_px": 134.8637580871582
+      }
+    },
+    "shared_mesh_datablocks": 1,
+    "shared_rig_datablocks": 1
+  },
+  "pending": [
+    "负责人审阅通用鲸灰盒轮廓、鳍根和骨骼操作",
+    "WL-ANM-001 慢游循环与过渡，WL-ANM-002 惯性转向",
+    "WL-LVL-M12-SAMPLE 固定机位中校准鲸长、队形、近中远取景及海面高程",
+    "WL-MAT-001 水彩材质",
+    "USDZ / RealityKit 的轴向、材质与动画，以及 iPhone / iPad 显示与性能，待真机验证"
+  ],
+  "visual_review": {
+    "status": "pass_offline",
+    "neutral": "固定后上方、侧面和顶视均可辨躯干厚度、双胸鳍和横向尾鳍，头尾方向清楚。",
+    "pose_tests": "目检六张极限姿势样张。尾柄、尾鳍根和胸鳍根保持连接，无明显塌陷。极端侧弯内侧可见轻微压缩，待连续动作复查。",
+    "fixed_camera_pod": "1280 × 640 同机位，一领队三同伴的轮廓分开，四头均完整入镜；领队鲸首在画面上方，四头游向均可分辨。",
+    "master_reopen": "在 Blender 桌面打开最终交付文件，模型与导出集合可见。重新读取文件确认七个单帧姿势资产，实际求值上摆与下摆动作，核对 Root 控制、蒙皮绑定及编队的共享数据和相机。",
+    "visual_evidence": [
+      "preview_gameplay.png",
+      "preview_gameplay_pod.png",
+      "preview_rear_detail.png",
+      "preview_side.png",
+      "preview_top.png",
+      "preview_glb_roundtrip.png",
+      "preview_pose_tail_up.png",
+      "preview_pose_tail_down.png",
+      "preview_pose_bend_left.png",
+      "preview_pose_bend_right.png",
+      "preview_pose_rise_and_trim.png",
+      "preview_pose_dive_and_trim.png"
+    ]
+  },
+  "failed_offline_criteria": [],
+  "project_baseline": {
+    "destination": "Feather & Tide Art Pass Tests · iOS Simulator 27.2",
+    "build_script": "./Scripts/build.sh",
+    "build": "passed",
+    "test_script": "./Scripts/test.sh",
+    "tests_executed": 369,
+    "failures": 0,
+    "scope": "App 基线回归。鲸鱼候选的验证在 Blender 完成。"
+  },
+  "design_redline_review": "纯色原创通用鲸灰盒，物种待定。真机显示、性能及体验待验证。"
+}

@@ -1,0 +1,109 @@
+{
+  "id": "ENV-011",
+  "version": "v001",
+  "status": "needs_review",
+  "production_order_1_based": 51,
+  "owner_request_scope": "Include v001 together with ENV-012 through ENV-014",
+  "depends": [
+    "MAT-003/v001"
+  ],
+  "materials": {
+    "RockAtlas": {
+      "path": "textures/ft_goose_env_rock_sets_basecolor.png",
+      "sha256": "0e6d6b765596aee8d4faa3fc79b19684b93588805ee0a955096080cd1421cad9",
+      "extent_px": [
+        512,
+        512
+      ],
+      "mode": "opaque sRGB",
+      "wrap_u_edge_rgb8_max_delta": 0,
+      "rgb8_low_high": [
+        103,
+        159
+      ]
+    }
+  },
+  "texture_sources": {
+    "MossStone": {
+      "path_relative_to_candidate": "../../MAT-003/v001/textures/ft_goose_mat_moss_stone_basecolor.png",
+      "sha256": "10670b355497a7e1f53116859dd31128377e892f263ce8f0de58d125cff265c7",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "color_space": "sRGB",
+      "wrap": "repeat U/V",
+      "roughness": 0.94
+    },
+    "MountainRock": {
+      "path_relative_to_candidate": "../../MAT-003/v001/textures/ft_goose_mat_mountain_rock_basecolor.png",
+      "sha256": "4670d95b818253c1e5a4110d8a2f00ed6160e258a0ee9e056704fa43986e2393",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "color_space": "sRGB",
+      "wrap": "repeat U/V",
+      "roughness": 0.96
+    },
+    "MudBank": {
+      "path_relative_to_candidate": "../../MAT-003/v001/textures/ft_goose_mat_mud_bank_basecolor.png",
+      "sha256": "0343b68d4e256fca7b747c65b2fcebc74c46f3aa2334044051ac862e4e02c5b1",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "color_space": "sRGB",
+      "wrap": "repeat U/V",
+      "roughness": 0.95
+    }
+  },
+  "source_library_actual_sha256": "e6091a0b68863e57e0764fbf01241d6091830b1fc9e62f153e4f3850556acc52",
+  "source_library_manifest_sha256": "ac22a9e28ff64aa2d023e4ecf769fd6dff69b9ba5cd58b86ec2003ee8d5b27d2",
+  "expected_objects": [
+    "Rock_Round",
+    "Rock_Long",
+    "PebbleCluster"
+  ],
+  "blender_file": "ENV-011_rock_sets.blend",
+  "blender": "5.2.2 LTS",
+  "glb_files": [
+    "ENV-011_Rock_Round.glb",
+    "ENV-011_Rock_Long.glb",
+    "ENV-011_PebbleCluster.glb"
+  ],
+  "pivot_BU": [
+    0,
+    0,
+    0
+  ],
+  "model_local_xy_plus_y_forward": true,
+  "up_gltf": "Y",
+  "axis_swizzle_gltf": [
+    "x",
+    "z",
+    "-y"
+  ],
+  "review_only_sources": [
+    "ENV-001/v001",
+    "CHR-001/v001"
+  ],
+  "rights": "Project-original mesh geometry and recoloring of existing project textures. No third-party input.",
+  "files": {
+    "ENV-011_PebbleCluster.glb": "94a2b0bff413e01398ded14f2d95e33ec0bb0916609014380ae89503692b1593",
+    "ENV-011_Rock_Long.glb": "b086fd2554372ddafe05b17c4585c23bd2121495f0c31df619df719bbc4a3b0c",
+    "ENV-011_Rock_Round.glb": "0f2121751ef3ec4fbc1f284aa00e8bcd51ff11de1216a5d6e1b0193d4a98ee96",
+    "ENV-011_generate.py": "60effe9749af9734b58ae08302e58ad30fc0ba34e978feb21d2d811564d8cf7e",
+    "ENV-011_rock_sets.blend": "7d60bd17772e385304b4df11dc027b0b7814f3e80d78a46f8a2e9aa31fa7b4ca",
+    "README.md": "16b02b332e00a3c2deec63a2fba58684e3b8553b029831ffcb5c43a74739b859",
+    "graybox_fixed_rear.png": "f8354e8c07d4bc1839b3de8a26a28b56fae4599e2f4784c29f33eb9ee3971946",
+    "graybox_lineup.png": "22fed951ea4739d8ba643bcf82971a7cbd1e82bbaabd6b487feb66f35763d98e",
+    "preview_fixed_rear.png": "c0e2189b8fd46ba84b1f32e0a0d138110cebdfddd00d8f926c32421052d16d8b",
+    "preview_fixed_rear_approach.png": "1078e9e6efe54c4f3ae96ab37588f33b3312144efe5478b11da9ce124bdf627e",
+    "preview_glb_roundtrip.png": "489b8fe05039908bbc02284301d024a486d89b3f4d2c01f66dd3e88598c69e4d",
+    "preview_lineup.png": "dcd3b19583b2accead47cc7593e21947eaca55338f2185fba65f71b366b39fd1",
+    "qa.json": "64a12b62faf1161d9f3b2fdc332f460101dc30ad6d9676e145eac27cb4917ac1",
+    "roundtrip_fixed_rear.png": "30a43fe742e858b355bbca31f10d37ad684990c7d00acd1281618fcf8b12b709",
+    "textures/ft_goose_env_rock_sets_basecolor.png": "0e6d6b765596aee8d4faa3fc79b19684b93588805ee0a955096080cd1421cad9"
+  }
+}

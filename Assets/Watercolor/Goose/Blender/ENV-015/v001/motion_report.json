@@ -1,0 +1,20 @@
+{
+  "result": "pass",
+  "section_order": [
+    "See the lake branch",
+    "Move in from lake",
+    "Return to main lake"
+  ],
+  "source_frame_size": [
+    852,
+    393
+  ],
+  "video_frame_size": [
+    852,
+    394
+  ],
+  "source_frame_count": 36,
+  "output_fps": 20,
+  "h264_decode": "pass",
+  "fps_is_review_video_only": true
+}

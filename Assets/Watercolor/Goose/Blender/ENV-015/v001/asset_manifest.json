@@ -1,0 +1,204 @@
+{
+  "asset_id": "ENV-015",
+  "version": "v001",
+  "status": "needs_review",
+  "chapter": "S2",
+  "priority": "P0",
+  "execution_order_1_based": 26,
+  "depends": [
+    "ENV-002/v001",
+    "ENV-003/v001",
+    "ENV-005/v001"
+  ],
+  "context": [
+    "ENV-008/v001",
+    "ENV-010/v001",
+    "ANM-007/v001",
+    "CHR-001/v001"
+  ],
+  "source_blends_sha256": {
+    "ENV-002": "f9c3f7dfd1c9be05f455bfca9f29456acea30b0e4b8a05967d11249201214548",
+    "ENV-003": "4749482368f04ad753eb7069fc7d6a23cb097b49bd4a38b078f1b48a3a4ac821",
+    "ENV-005": "af37499f31cede3a88fee47799fc0b35fc9dfc46419e80efc5aa29e220eaf716",
+    "ENV-008": "5f9ecdab4d180ab39f3ab35aa18cbbb13284334333ecdb36edaff5451c7a75b6",
+    "ENV-010": "1941f405e170d840b59efd900826a2267bd0e33df5fb0b0753faf681ced98c12",
+    "ANM-007": "bf8ed361fb9e06706e4a78e7fcbf2d4f61edc8cdbeea6018f2339dfecc35e5f0",
+    "CHR-001": "db0c8d55c5efc499c99f7787228967451d071f36294962b12dc4b34d02f350f5",
+    "MAT-003": "e6091a0b68863e57e0764fbf01241d6091830b1fc9e62f153e4f3850556acc52"
+  },
+  "blend": "ENV-015_lakeside_rest.blend",
+  "glb": "ENV-015_LakesideRest.glb",
+  "root": "LakesideRest",
+  "layers": [
+    "LakesideRest_Ground",
+    "LakesideRest_Water",
+    "LakesideRest_Reeds"
+  ],
+  "root_local_BU": [
+    0,
+    0,
+    0
+  ],
+  "placement_in_ENV008_BU": [
+    4.0,
+    10.0,
+    0.0
+  ],
+  "size_xy_BU": [
+    10,
+    10
+  ],
+  "land_edge_vertex_pitch_BU": 0.625,
+  "land_edge_base_BU": 0,
+  "reference_water_BU": -0.18,
+  "axis_GLTF_from_Blender": [
+    "x",
+    "z",
+    "-y"
+  ],
+  "camera_source_sha256": {
+    "Sources/FeatherTide/Systems/Camera/ThirdPersonRig.swift": "274b58f0b910a280c676540dde54343c35e2e0709744e20e7e5ee4f9515476a2",
+    "Sources/FeatherTide/Rendering/PlayfieldView.swift": "8c37c08a35b8b299cc9af9f9e63e64ef5d50947e12822356fee8de398bc110dc"
+  },
+  "camera": {
+    "distance_game_units": 180,
+    "pitch_parameter_rad": 0.48,
+    "vertical_FOV_degrees": 50,
+    "look_target_height_game_units": 6,
+    "goose_root_height_game_units": 8,
+    "frame_px": [
+      852,
+      393
+    ],
+    "review_scale_0_9900_BU_in_game_units": 27.5
+  },
+  "draw_triangles": {
+    "LakesideRest_Ground": 512,
+    "LakesideRest_Water": 312,
+    "LakesideRest_Reeds": 5622
+  },
+  "edge_bindings": {
+    "west": "reference forecourt",
+    "east": "ENV-008",
+    "north": "ENV-008",
+    "south": "ENV-008"
+  },
+  "textures": {
+    "LakesideRest_GroundPaint": {
+      "filename": "ft_goose_env_lakeside_rest_ground_basecolor.png",
+      "sha256": "9e03d79c4a047cf999b95220f4233f2add4f7785336162be2917726318c43b0e",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "alpha": "OPAQUE",
+      "generated_path": "textures/ft_goose_env_lakeside_rest_ground_basecolor.png"
+    },
+    "LakesideRest_ShallowWater": {
+      "filename": "ft_goose_env_lakeside_rest_basecolor_alpha.png",
+      "sha256": "19f58d27f5cc0b06c1ffe6534d5beb4ee0fa72d7a15cf14a95c5c78eed9f329f",
+      "dimensions": [
+        512,
+        512
+      ],
+      "alpha": "BLEND",
+      "generated_path": "textures/ft_goose_env_lakeside_rest_basecolor_alpha.png"
+    },
+    "FogLeaf": {
+      "filename": "ft_goose_mat_plant_opaque_basecolor.png",
+      "sha256": "a4fbb2db73897427d8172297edb7b59d80a17707b3a3f1a198857f4996e6ed26",
+      "dimensions": [
+        512,
+        512
+      ],
+      "alpha": "OPAQUE",
+      "repo_relative_from_Blender": "MAT-001/v001/textures/ft_goose_mat_plant_opaque_basecolor.png"
+    },
+    "SedgeLeaf": {
+      "filename": "ft_goose_mat_plant_opaque_basecolor.png",
+      "sha256": "a4fbb2db73897427d8172297edb7b59d80a17707b3a3f1a198857f4996e6ed26",
+      "dimensions": [
+        512,
+        512
+      ],
+      "alpha": "OPAQUE",
+      "repo_relative_from_Blender": "MAT-001/v001/textures/ft_goose_mat_plant_opaque_basecolor.png"
+    },
+    "DrySedge": {
+      "filename": "ft_goose_mat_dry_ground_basecolor.png",
+      "sha256": "e201e626c70ba88af6cbeae9662dc76375930208e121c4af5dbdfc52cfcefab0",
+      "dimensions": [
+        512,
+        512
+      ],
+      "alpha": "OPAQUE",
+      "repo_relative_from_Blender": "MAT-001/v001/textures/ft_goose_mat_dry_ground_basecolor.png"
+    },
+    "SeedHead": {
+      "filename": "ft_goose_mat_dry_ground_basecolor.png",
+      "sha256": "e201e626c70ba88af6cbeae9662dc76375930208e121c4af5dbdfc52cfcefab0",
+      "dimensions": [
+        512,
+        512
+      ],
+      "alpha": "OPAQUE",
+      "repo_relative_from_Blender": "MAT-001/v001/textures/ft_goose_mat_dry_ground_basecolor.png"
+    }
+  },
+  "water_bake": {
+    "path": "textures/ft_goose_env_lakeside_rest_basecolor_alpha.png",
+    "sha256": "19f58d27f5cc0b06c1ffe6534d5beb4ee0fa72d7a15cf14a95c5c78eed9f329f",
+    "mat004_source": "textures/ft_goose_mat_water_shallow_basecolor_alpha.png",
+    "mat004_png_sha256": "ac34951540216c795b54b25d1dfd929d282dcc9a741f8d53b562621b29dead79",
+    "pixels": [
+      512,
+      512
+    ],
+    "alpha_min_max_rgb8": [
+      0,
+      166
+    ],
+    "partial_alpha_pixels": 52559,
+    "channel_NS_full_RGBA8_max_delta": null,
+    "dry_pixels_with_nonzero_alpha": 0,
+    "ENV003_reference_packed_png_sha256": "2d51dc4509c523d3d7f9f030f42e456ee60c963eb54b57df49629b94c9954341"
+  },
+  "ground_bake": {
+    "path": "textures/ft_goose_env_lakeside_rest_ground_basecolor.png",
+    "sha256": "9e03d79c4a047cf999b95220f4233f2add4f7785336162be2917726318c43b0e",
+    "source_textures": {
+      "GrassFlat": "e06d76e88c90a29ad97a810ed7578ce67f79da1b915940d5406750228f36996b",
+      "MudBank": "0343b68d4e256fca7b747c65b2fcebc74c46f3aa2334044051ac862e4e02c5b1",
+      "ShallowMargin": "bd12529acd7f63aefad1df09111aa6b9a84c95161bbdb1d0c64f1cbc66d2c6f7",
+      "MossStone": "10670b355497a7e1f53116859dd31128377e892f263ce8f0de58d125cff265c7"
+    },
+    "uv_period_BU": 10,
+    "edge_paint_borrowed_from": "MAT-003/v001 GrassFlat"
+  },
+  "files_sha256": {
+    "ENV-015_LakesideRest.glb": "6b2b4b4027a464cb6f3ee428461be2a27c9701dca444b1552208e1a4ad59aa23",
+    "ENV-015_compare_previews.py": "5c41195f393b871bc1cfc85b29b171fb813a09d5ddf26aacb0da6f109835a683",
+    "ENV-015_generate.py": "170b99bb865ae1b10e20f10a9713d278a3c29027e171dd00872c17969817e2e6",
+    "ENV-015_lakeside_rest.blend": "cd031e141cd4e4e37daba33c9062f12cb947ed5707c7e7a19ebedfc819dc545b",
+    "ENV-015_motion.py": "cd9a76dc276172f9f4a8177e7366499e14fa3cf721bcd6fb756dd14d7a758914",
+    "README.md": "4e66835ef1a5eef9e55958acaa34a20c7d09674832118f67fc4aab081abed162",
+    "graybox_before_fork.png": "94ec4cee92d267ea4dcb8bbd06e7ee90045cbcae0a04acfdf3d847e9400fe45e",
+    "graybox_top.png": "14e9e7988f03e191ef435f1a086dd26b541634172d3c01da2f6b5a890ac97a04",
+    "motion_report.json": "c4366017c8b434c101d79bab04c098ba53859f298838839081668a57a67cc652",
+    "qa.json": "fd12005b89c50f6f44bc253d72428e1651cd5e2aba56842a60946d6f5b6b12a4",
+    "recheck.json": "8c297069f443a4c23dfe446613fec222669e2e2b317cfe9ba3448e92c61442b0",
+    "review_before_fork.png": "14c0f70c2f40d7bac2fd0916fc2c9d594c58e7faf051287844d6f836da8ca24b",
+    "review_entry.png": "d00a002761edf5ac5a1a51ca3c36792723d5d54068b623cae86f7ed94a005e3b",
+    "review_exit.png": "c9033362c71da3717076b196ac0fad48a6c4146467f0b1dcbe1952c259ea69d9",
+    "review_lake_route.mp4": "d970aa715e180afba6ea9af1b440a46f40dc8540a871fd47f8f2c08025222f3c",
+    "review_shore_detail.png": "f19b70bb597befd9bfbf3d7125566a22d395d504eba03df14d4095739fd22158",
+    "review_top.png": "90a155c938bd7a3774f3203962a5ddb5bb17249c50d0a956a70b433b1ec639bd",
+    "roundtrip_before_fork.png": "cf630ca3f6d414fa843f2bd7a16493d2155caa147c5035add34959977617d3c5",
+    "textures/ft_goose_env_lakeside_rest_basecolor_alpha.png": "19f58d27f5cc0b06c1ffe6534d5beb4ee0fa72d7a15cf14a95c5c78eed9f329f",
+    "textures/ft_goose_env_lakeside_rest_ground_basecolor.png": "9e03d79c4a047cf999b95220f4233f2add4f7785336162be2917726318c43b0e"
+  },
+  "rights": "Original project-authored geometry with internal assets and candidate materials.",
+  "motion_video": "review_lake_route.mp4",
+  "motion_report": "motion_report.json",
+  "independent_reimport_report": "recheck.json"
+}

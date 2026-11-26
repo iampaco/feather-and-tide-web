@@ -1,0 +1,160 @@
+{
+  "id": "FX-002",
+  "version": "v001",
+  "status": "needs_review",
+  "coordinates": {
+    "blender_up": "+Z",
+    "blender_forward": "+Y",
+    "gltf_conversion": "(x,z,-y)",
+    "bu_per_game_unit": 0.036,
+    "reference": "CHR-001 bill-to-tail .9900 BU = 27.5 game units"
+  },
+  "pivot_and_uv": "Each module uses upstream center and U=0 upstream to U=1 downstream. Local +Y is downwind. V crosses ribbon width. Root and child basis transforms are identity.",
+  "prefabs": {
+    "CrosswindWarn": {
+      "file": "FX-002_CrosswindWarn.glb",
+      "mesh_nodes": [
+        "WarnBand",
+        "CrownSweep"
+      ]
+    },
+    "Gust": {
+      "file": "FX-002_Gust.glb",
+      "mesh_nodes": [
+        "GustBand",
+        "Leaf"
+      ]
+    }
+  },
+  "inputs": {
+    "direction": "Shared FX-007 normalized horizontal world downwind. Blender (dx,dy,0), RealityKit (dx,0,-dy). For zero direction set strength=0. Yaw is atan2(-dx,dy) about Blender +Z.",
+    "strength": "Normalized 0–1 signal shared by FX-002 bands and ENV-012 tree rigs. Strength drives vegetation angle and visual opacity.",
+    "clockSeconds": "Common elapsed time. Mesh downstream drift = speed times elapsed phase, aligned to direction. Fade at field ends before reusing.",
+    "motionScale": "0–1; zero freezes advection and neutralizes the tree bend, hides leaves, and retains softly fading low-opacity fixed bands.",
+    "windSpeedBUPerSecond": "Nonnegative magnitude, multiply the game-unit speed by 0.036. Default offline sample 1.95 BU/s.",
+    "phaseRad": "Optional per-tree stable phase (see FX-007 shared joint basis). Crown lags Stem by .43 rad.",
+    "treeEnvelope": "Start wind indicator before all wind ribbons. Bend Stem/Crown about inverse-rest (up cross downwind), preserve Root. Offline max 8/18 degrees before normalized strength.",
+    "warnEnvelope": "Drive low alpha on WarnBand and CrownSweep. CrownSweep is a short independent mask placed on exposed treetop edges.",
+    "gustEnvelope": "Drive GustBand plus optional Leaf instances. Leaves can tumble locally and fade. Transform all from one wind field.",
+    "rescueAnchorWorld": "Host supplies reachable anchor. Leave enough world and projected screen room to keep the beacon and separated goose visible.",
+    "zoneEvent": "Game owns all activation, movement, loss/rejoin, and timing. No collisions, event geometry or rescue logic in the export."
+  },
+  "review": {
+    "direction": [
+      -0.9798040390014648,
+      0.19996000826358795
+    ],
+    "source_fx007_S3": [
+      -0.98,
+      0.2
+    ],
+    "fixed_S3_world_anchor_BU": [
+      3.72,
+      10.75,
+      0.19
+    ],
+    "tree_starts_seconds": 0.25,
+    "warn_starts_seconds": 0.6,
+    "gust_starts_seconds": 1.26,
+    "example_separation_seconds": 1.9166666666666667,
+    "strength": 0.9,
+    "preset_intensity_curves": {
+      "treeEnvelope": [
+        [
+          0,
+          0
+        ],
+        [
+          0.25,
+          0
+        ],
+        [
+          0.58,
+          0.69
+        ],
+        [
+          1.36,
+          0.96
+        ],
+        [
+          2.2,
+          1
+        ],
+        [
+          2.8,
+          0.55
+        ],
+        [
+          3.8,
+          0
+        ]
+      ],
+      "warnEnvelope": [
+        [
+          0,
+          0
+        ],
+        [
+          0.6,
+          0
+        ],
+        [
+          0.85,
+          0.88
+        ],
+        [
+          1.25,
+          1
+        ],
+        [
+          1.55,
+          0.42
+        ],
+        [
+          1.9,
+          0
+        ]
+      ],
+      "gustEnvelope": [
+        [
+          0,
+          0
+        ],
+        [
+          1.26,
+          0
+        ],
+        [
+          1.48,
+          0.76
+        ],
+        [
+          1.87,
+          1
+        ],
+        [
+          2.5,
+          0.82
+        ],
+        [
+          3.13,
+          0.28
+        ],
+        [
+          3.62,
+          0
+        ]
+      ]
+    },
+    "camera": {
+      "viewport_px": [
+        852,
+        393
+      ],
+      "distance_game_units": 180,
+      "pitch_rad": 0.48,
+      "vertical_fov_deg": 50,
+      "target_lift_game_units": 6
+    }
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "id": "ENV-012",
+  "status": "needs_review",
+  "version": "v001",
+  "execution_order_1_based": 24,
+  "depends": [
+    "MAT-001/v001"
+  ],
+  "review_scene_only": [
+    "ENV-007/v001",
+    "ENV-010/v001",
+    "CHR-001/v001",
+    "ANM-007/v001"
+  ],
+  "scene_inputs_sha256": {
+    "ENV-007_river_valley.blend": "b5e4d3665c433751273051507009528f0350ee7395e949c4d11ef2e3dbf33d58",
+    "ENV-010_short_pass.blend": "1941f405e170d840b59efd900826a2267bd0e33df5fb0b0753faf681ced98c12",
+    "MAT-001_watercolor_master.blend": "9fc0305a78264733d2a2f5747a67833158c59470eff3e3d71c4f6da5b9d11de0",
+    "CHR-001_goose_rig.blend": "db0c8d55c5efc499c99f7787228967451d071f36294962b12dc4b34d02f350f5",
+    "ANM-007_landing.blend": "bf8ed361fb9e06706e4a78e7fcbf2d4f61edc8cdbeea6018f2339dfecc35e5f0"
+  },
+  "materials": {
+    "TreeBark": {
+      "material_template": "DryGround",
+      "image_path_relative": "../../MAT-001/v001/textures/ft_goose_mat_dry_ground_basecolor.png",
+      "embedded_png_sha256": "e201e626c70ba88af6cbeae9662dc76375930208e121c4af5dbdfc52cfcefab0",
+      "color_factor_srgb": "BCBBB4",
+      "roughness": 0.92
+    },
+    "CanopyShade": {
+      "material_template": "PlantOpaque",
+      "image_path_relative": "../../MAT-001/v001/textures/ft_goose_mat_plant_opaque_basecolor.png",
+      "embedded_png_sha256": "a4fbb2db73897427d8172297edb7b59d80a17707b3a3f1a198857f4996e6ed26",
+      "color_factor_srgb": "9DA7A0",
+      "roughness": 0.91
+    },
+    "CanopyLeaf": {
+      "material_template": "PlantOpaque",
+      "image_path_relative": "../../MAT-001/v001/textures/ft_goose_mat_plant_opaque_basecolor.png",
+      "embedded_png_sha256": "a4fbb2db73897427d8172297edb7b59d80a17707b3a3f1a198857f4996e6ed26",
+      "color_factor_srgb": "BAC6BB",
+      "roughness": 0.87
+    },
+    "CanopyLight": {
+      "material_template": "PlantOpaque",
+      "image_path_relative": "../../MAT-001/v001/textures/ft_goose_mat_plant_opaque_basecolor.png",
+      "embedded_png_sha256": "a4fbb2db73897427d8172297edb7b59d80a17707b3a3f1a198857f4996e6ed26",
+      "color_factor_srgb": "D1D3C0",
+      "roughness": 0.87
+    }
+  },
+  "axis_map_Blender_to_glTF": [
+    "x",
+    "z",
+    "-y"
+  ],
+  "local_root_BU": [
+    0,
+    0,
+    0
+  ],
+  "variant_names": [
+    "RiverTree_A",
+    "RiverTree_B",
+    "LeaningTree"
+  ],
+  "wind_clip_names": [
+    "RiverTree_A_WindCue",
+    "RiverTree_B_WindCue",
+    "LeaningTree_WindCue"
+  ],
+  "neutral_pose_frame": 1,
+  "recommended_runtime_bend_joints": [
+    "Stem",
+    "Crown"
+  ],
+  "controller_reference": {
+    "demo_downwind_Blender_XYZ": [
+      -1,
+      0,
+      0
+    ],
+    "demo_downwind_glTF_XYZ": [
+      -1,
+      0,
+      0
+    ],
+    "sources": "local quaternion pose rotations, per-instance world-aligned preview; runtime direction separate",
+    "preview_crosswind_frame": 22,
+    "duration_seconds": 2
+  },
+  "rights": "Original geometry and actions with project-owned MAT-001 images.",
+  "blender": "5.2.2 LTS",
+  "blender_file": "ENV-012_wind_trees.blend",
+  "production_spec_pages": [
+    11,
+    12
+  ],
+  "variants": {
+    "RiverTree_A": {
+      "glb": "ENV-012_RiverTree_A.glb",
+      "mesh": "RiverTree_A",
+      "armature": "RiverTree_A_Rig",
+      "clip": "RiverTree_A_WindCue",
+      "height_BU": 1.9479153156280518,
+      "triangles": 984
+    },
+    "RiverTree_B": {
+      "glb": "ENV-012_RiverTree_B.glb",
+      "mesh": "RiverTree_B",
+      "armature": "RiverTree_B_Rig",
+      "clip": "RiverTree_B_WindCue",
+      "height_BU": 1.721881628036499,
+      "triangles": 828
+    },
+    "LeaningTree": {
+      "glb": "ENV-012_LeaningTree.glb",
+      "mesh": "LeaningTree",
+      "armature": "LeaningTree_Rig",
+      "clip": "LeaningTree_WindCue",
+      "height_BU": 2.175612211227417,
+      "triangles": 984
+    }
+  },
+  "mat001_source_blend_sha256_manifest": "9fc0305a78264733d2a2f5747a67833158c59470eff3e3d71c4f6da5b9d11de0",
+  "files": {
+    "ENV-012_LeaningTree.glb": "a830633f430641a08db94e59d7d871c2ea1060aed8e819c08daa1060babe8f51",
+    "ENV-012_RiverTree_A.glb": "30b5f3a1615ce4540108b04f51a4237be1dcfc08b29ef00d8b1e81766b9e1eba",
+    "ENV-012_RiverTree_B.glb": "bcb584473b5b9ea54faf901f2afa5b795ca6580eb0deed251a4a0bb634874120",
+    "ENV-012_generate.py": "bfac7257a7b60ceca623622bfdd8f0f3bf69c145111102b4ca9f58ecb4e04e2c",
+    "ENV-012_wind_trees.blend": "d6410e66959527d3d9f65ca67239a0494f03d3bd13783bbdba550ead6c466862",
+    "README.md": "7ae5c671ecf1236b9cce6144f7e0e64d1b5373ec458d6b6e95e1d952f2c01dbb",
+    "graybox_lineup.png": "dfd5feef6f78d762ad75417641c5a6df9db4bf3ed63a4299c3db278eefc3b279",
+    "graybox_pass.png": "fc295d7a0539dc96a53092d36bc940c0e623bb19a5f580afac9e1391e3a8f66b",
+    "graybox_river.png": "10ac4499e2dc2578bde3d054797a092df8e774b843ee835035d15fa159a6f52d",
+    "preview_WindCue.mp4": "0c6c8d6e9aace54b7941fd24f317ddeded6ade700b1a458cc4e13df5fc72ebb8",
+    "preview_glb_roundtrip.png": "76e463ef1e1664403da8d994484a1c318ec5281bc585054a94b9bc9af834033b",
+    "preview_lineup.png": "0f26a2d3ecff366eaeb36093dca3d77efe91ecd26b639e4443c83f9a47e1fda3",
+    "preview_pass_before.png": "088636d7a05c2cc1155e136395d023d52fec1530c22e9dc1a69b52e11f44b37c",
+    "preview_pass_crest.png": "8631142fa290f33a908561d5ce10a4941bc89f62e1786785aa4ed3b565839ef8",
+    "preview_pass_early.png": "94965f2dab97356c0466172a96d29a8619433f00bca5b95a5abe01505fb16502",
+    "preview_river_before.png": "3d96af83c786940fac86fc5edda0e3a2bcde7c230f7fc94fc8ccaa904dcd78b0",
+    "preview_river_crest.png": "53fed7546b6bfe317c3e8e95b4522e911aa7a3a1f69f6cefee5e2cb5c2085843",
+    "preview_river_early.png": "ba3d9ac80fe6227ac2d8bab0cad6b5d08fe72864fd5a4dcfdd3e0b51fadf94f4",
+    "preview_wind.png": "4a9368f95c9d606c2efd42daa654baf844afad52af0fa9bec7989fc5595c2ed2",
+    "qa.json": "098122706080e59d9f836a870edb8aeee5ee1e1f36c9038367263519576a4886"
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "id": "STR-001",
+  "version": "v001",
+  "status": "needs_review",
+  "source": {
+    "geometry": {
+      "continuous_in_plane_tip_radius_BU": 1.87981601473839,
+      "continuous_ground_envelope_radius_about_base_BU": 1.9251185813365128,
+      "sampled_ground_envelope_radius_BU": 1.9250932839641077,
+      "sampled_phases": 361,
+      "minimum_tip_to_ground_BU": 0.5701839852616102,
+      "maximum_tip_height_BU": 4.32981601473839,
+      "reference_sweep_radius_BU": 2.808,
+      "margin_BU": 0.882881418663487,
+      "hub_pivot_BU": [
+        0.0,
+        -0.46000000834465027,
+        2.450000047683716
+      ],
+      "reference_envelope_verification_epsilon_BU": 0.001
+    },
+    "texture_mapping": {
+      "mother_blend": "MAT-001/v001/MAT-001_watercolor_master.blend",
+      "mother_sha256": "9fc0305a78264733d2a2f5747a67833158c59470eff3e3d71c4f6da5b9d11de0",
+      "material_template": "SoftStone",
+      "source_png": "MAT-001/v001/textures/ft_goose_mat_soft_stone_basecolor.png",
+      "source_png_sha256": "931bb3b12c975c2dbbe37a695bf8dc1d49cf29e3b92bf3296c9896b6e0c5022f",
+      "outputs": [
+        {
+          "material": "Warm porcelain",
+          "file": "textures/ft_goose_str_turbine_shell.png",
+          "sha256": "485f45df96272697ce44dbc081d50776f7cf5155b97a08e3df245866edef8cd3",
+          "palette_sRGB": [
+            "D9D5C9",
+            "F1ECE1"
+          ],
+          "roughness": 0.73
+        },
+        {
+          "material": "Aluminum shadow",
+          "file": "textures/ft_goose_str_turbine_alloy.png",
+          "sha256": "3ae31472fe7b5355a5f48d48d456f69d2f4dab9a58c850e357455cafb42afc5b",
+          "palette_sRGB": [
+            "A9ADB0",
+            "CBD0CF"
+          ],
+          "roughness": 0.63
+        },
+        {
+          "material": "Dull zinc",
+          "file": "textures/ft_goose_str_turbine_zinc.png",
+          "sha256": "43a959951dd8b2ac777dc6f9942619e717b5aadd1b53012837a28e541696716a",
+          "palette_sRGB": [
+            "737C7D",
+            "A4ABAA"
+          ],
+          "roughness": 0.77
+        },
+        {
+          "material": "Foundation",
+          "file": "textures/ft_goose_str_turbine_footing.png",
+          "sha256": "00cb4a4e9e5b10db2f5e693eb8b6e47ed7f880bec68d24250401e9639efd1aa4",
+          "palette_sRGB": [
+            "93908A",
+            "C0B9AB"
+          ],
+          "roughness": 0.91
+        },
+        {
+          "material": "Pale lichen | index stripe",
+          "file": "textures/ft_goose_str_turbine_stripe.png",
+          "sha256": "c924e0fe9c2bad0d505af1fa1c658b7ecc0d65673159aed22df1f2bf3d7d5156",
+          "palette_sRGB": [
+            "A19678",
+            "C3BBA4"
+          ],
+          "roughness": 0.78
+        }
+      ]
+    },
+    "source_screen_tracking": {
+      "all_blade_vertices_min_frame_margin_px": 8.822697758674622,
+      "unique_blade_screen_samples_including_seam": 109,
+      "screen_clockwise_step_min_max_degrees": [
+        2.9997600101856166,
+        3.703524920736783
+      ],
+      "min_marker_radius_pixels": 56.365650425161974,
+      "source_degrees_per_video_frame": 3.3333333333333335,
+      "three_blade_alias_limit_degrees_per_frame": 60
+    }
+  },
+  "independent_delivery_recheck": {
+    "result": "pass",
+    "blender": "5.2.2 LTS",
+    "checks": {
+      "source_and_GLTF_object_count": 10,
+      "triangles": 2656,
+      "basis_parent_and_local_TRS_match": true,
+      "mesh_vertices_uv_and_materials_match": true,
+      "per_corner_roundtrip_fallback_errors": {},
+      "GLTF_rotation_channel_interpolation": "LINEAR",
+      "GLTF_animation_name": "Rotor_Constant_Loop",
+      "GLTF_animation_end_s": 9,
+      "GLTF_hub_parent_translation": [
+        0,
+        2.450000047683716,
+        0.46000000834465027
+      ],
+      "five_embedded_png_match_by_sha256": true,
+      "source_animation": {
+        "half_frame_samples": 433,
+        "period_seconds": 9.0,
+        "axis_Blender_local": "+Y",
+        "angle_max_error_rad": 0.000242953311573757,
+        "seam_unit_vector_gap": 2.4492936975038235e-16,
+        "half_frame_step_min_max_degrees": [
+          0.8285513049945652,
+          0.836025913774703
+        ]
+      },
+      "roundtrip_animation": {
+        "half_frame_samples": 433,
+        "period_seconds": 9.0,
+        "axis_Blender_local": "+Y",
+        "angle_max_error_rad": 0.0002430902630452536,
+        "seam_unit_vector_gap": 2.4492936975038235e-16,
+        "half_frame_step_min_max_degrees": [
+          0.8285512679567285,
+          0.8360090145208143
+        ]
+      },
+      "source_screen_rotation": {
+        "all_blade_vertices_min_frame_margin_px": 8.822697758674622,
+        "unique_blade_screen_samples_including_seam": 109,
+        "screen_clockwise_step_min_max_degrees": [
+          2.9997600101856166,
+          3.703524920736783
+        ],
+        "min_marker_radius_pixels": 56.365650425161974,
+        "source_degrees_per_video_frame": 3.3333333333333335,
+        "three_blade_alias_limit_degrees_per_frame": 60
+      },
+      "roundtrip_geometry": {
+        "continuous_in_plane_tip_radius_BU": 1.8798159728841777,
+        "continuous_ground_envelope_radius_about_base_BU": 1.9251185059851212,
+        "sampled_ground_envelope_radius_BU": 1.9250932839641077,
+        "sampled_phases": 361,
+        "minimum_tip_to_ground_BU": 0.5701840271158225,
+        "maximum_tip_height_BU": 4.329815972884178,
+        "reference_sweep_radius_BU": 2.808,
+        "margin_BU": 0.8828814940148786,
+        "hub_pivot_BU": [
+          0.0,
+          -0.46000000834465027,
+          2.450000047683716
+        ],
+        "reference_envelope_verification_epsilon_BU": 0.001
+      },
+      "decoded_video": {
+        "codec_name": "h264",
+        "width": 852,
+        "height": 394,
+        "r_frame_rate": "12/1",
+        "duration": "9.000000",
+        "nb_read_frames": "108"
+      }
+    }
+  },
+  "human_art_approval": "pending",
+  "iphone_ipad": "待真机验证",
+  "pending": [
+    "FX-010/Zone appearance, boundary, trigger and timing",
+    "USDZ and RealityKit / App integration",
+    "iPhone/iPad"
+  ],
+  "redline_review": {
+    "status": "reviewed",
+    "reference": "plans/_templates/redline-checklist.md",
+    "contrast": "S4 protected marsh in STR-002",
+    "device_performance": "unmeasured"
+  }
+}

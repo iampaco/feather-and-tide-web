@@ -1,0 +1,346 @@
+{
+  "id": "LVL-S2",
+  "version": "v001",
+  "status": "needs_review",
+  "variant": "S2_Fork",
+  "execution_order_1_based": 44,
+  "blender": "5.2.2 LTS",
+  "source": "完整AI建模任务包/羽与潮_斑头雁_Blender资源制作规格书_v1.0.pdf 第 17 页及 LVL-S2 task JSON",
+  "dependencies": [
+    "ENV-008",
+    "ENV-010",
+    "ENV-012",
+    "ENV-015",
+    "FX-002",
+    "ENV-018",
+    "CHR-001"
+  ],
+  "source_files_relative_to_Blender_library": {
+    "ENV-008/v001/ENV-008_LakeShore.glb": {
+      "sha256": "f18ec8869d7ee76e985a8e7e69c7083efbe2208767165b1587d2f9c69f05f524",
+      "bytes": 4381736,
+      "status": "needs_review",
+      "version": "v001"
+    },
+    "ENV-008/v001/ENV-008_LakeWide.glb": {
+      "sha256": "7b94509849729a533ef23f18500d457d10dee217c89c934a0f3769356c5a679c",
+      "bytes": 956336,
+      "status": "needs_review",
+      "version": "v001"
+    },
+    "ENV-008/v001/asset_manifest.json": {
+      "sha256": "7f8b77273a11a304892057114574587e5dafaf990ba1b40c235985d37cc6cdbf",
+      "bytes": 6296,
+      "status": "needs_review",
+      "version": "v001"
+    },
+    "ENV-008/v001/qa.json": {
+      "sha256": "ea0a0f6f408b804e1e436d9ed65037c073a9054b80f2e6e9d73943a187a1296a",
+      "bytes": 5811,
+      "status": "needs_review",
+      "version": "v001"
+    },
+    "ENV-008/v001/README.md": {
+      "sha256": "06aa294515dacef01824f0e23e7d6091e79cf4fbe4dc1b4fce5aa73cf7b17cf0",
+      "bytes": 4594,
+      "status": "needs_review",
+      "version": "v001"
+    },
+    "ENV-010/v001/ENV-010_Mouth.glb": {
+      "sha256": "faa0c248e0df4b38389c9e06f0b6255c369cebf5a749f964a6ee9c0a7aff0550",
+      "bytes": 3172668,
+      "status": "needs_review",
+      "version": "v001"
+    },
+    "ENV-010/v001/ENV-010_Pass_Left.glb": {
+      "sha256": "74aaef138d7e3e01c0bcdf595ea74508d8ad1db377afdc2abf94acf9095ef109",
+      "bytes": 3197848,
+      "status": "needs_review",
+      "version": "v001"
+    },
+    "ENV-010/v001/ENV-010_Pass_Right.glb": {
+      "sha256": "06d327ad3807683ea224580dbce5629024b62a3230b5bc19fd75c2217184629a",
+      "bytes": 3197128,
+      "status": "needs_review",
+      "version": "v001"
+    },
+    "ENV-010/v001/asset_manifest.json": {
+      "sha256": "a4714c7936905b320774c03ec46484583414203bb7a561a1115da8aef36120d6",
+      "bytes": 4600,
+      "status": "needs_review",
+      "version": "v001"
+    },
+    "ENV-010/v001/qa.json": {
+      "sha256": "d6d94c4c3da9491d4726affc55da17fa268b8a0da6a85873096b465907eb1806",
+      "bytes": 38141,
+      "status": "needs_review",
+      "version": "v001"
+    },
+    "ENV-010/v001/README.md": {
+      "sha256": "1e3a895adb397155fa55658f8f6fb9cb6438643b8584b0cfbc28428564a4df5a",
+      "bytes": 4982,
+      "status": "needs_review",
+      "version": "v001"
+    },
+    "ENV-012/v001/ENV-012_RiverTree_A.glb": {
+      "sha256": "30b5f3a1615ce4540108b04f51a4237be1dcfc08b29ef00d8b1e81766b9e1eba",
+      "bytes": 589800,
+      "status": "needs_review",
+      "version": "v001"
+    },
+    "ENV-012/v001/ENV-012_RiverTree_B.glb": {
+      "sha256": "bcb584473b5b9ea54faf901f2afa5b795ca6580eb0deed251a4a0bb634874120",
+      "bytes": 584704,
+      "status": "needs_review",
+      "version": "v001"
+    },
+    "ENV-012/v001/ENV-012_LeaningTree.glb": {
+      "sha256": "a830633f430641a08db94e59d7d871c2ea1060aed8e819c08daa1060babe8f51",
+      "bytes": 589800,
+      "status": "needs_review",
+      "version": "v001"
+    },
+    "ENV-012/v001/asset_manifest.json": {
+      "sha256": "41894113f70811fd5c328324b2825e9e5236db0a36cd607cc47e634eafa5c606",
+      "bytes": 5809,
+      "status": "needs_review",
+      "version": "v001"
+    },
+    "ENV-012/v001/qa.json": {
+      "sha256": "098122706080e59d9f836a870edb8aeee5ee1e1f36c9038367263519576a4886",
+      "bytes": 11121,
+      "status": "needs_review",
+      "version": "v001"
+    },
+    "ENV-012/v001/README.md": {
+      "sha256": "7ae5c671ecf1236b9cce6144f7e0e64d1b5373ec458d6b6e95e1d952f2c01dbb",
+      "bytes": 5194,
+      "status": "needs_review",
+      "version": "v001"
+    },
+    "ENV-015/v001/ENV-015_LakesideRest.glb": {
+      "sha256": "6b2b4b4027a464cb6f3ee428461be2a27c9701dca444b1552208e1a4ad59aa23",
+      "bytes": 2535772,
+      "status": "needs_review",
+      "version": "v001"
+    },
+    "ENV-015/v001/asset_manifest.json": {
+      "sha256": "b0d952866ee7bef14cd96bb740ecb65461e37cb6cea807d9ae3bec769004bb88",
+      "bytes": 8024,
+      "status": "needs_review",
+      "version": "v001"
+    },
+    "ENV-015/v001/qa.json": {
+      "sha256": "fd12005b89c50f6f44bc253d72428e1651cd5e2aba56842a60946d6f5b6b12a4",
+      "bytes": 39648,
+      "status": "needs_review",
+      "version": "v001"
+    },
+    "ENV-015/v001/README.md": {
+      "sha256": "4e66835ef1a5eef9e55958acaa34a20c7d09674832118f67fc4aab081abed162",
+      "bytes": 5533,
+      "status": "needs_review",
+      "version": "v001"
+    },
+    "FX-002/v001/FX-002_CrosswindWarn.glb": {
+      "sha256": "f6de2291d0603c3cefa67a905cd0f9d785be1bb4fa514a6ba5b0ceb605cadb65",
+      "bytes": 44108,
+      "status": "needs_review",
+      "version": "v001"
+    },
+    "FX-002/v001/FX-002_Gust.glb": {
+      "sha256": "8e881781be05a625f07943a690530336108be33b2ed0198d58e5d099178481d1",
+      "bytes": 46732,
+      "status": "needs_review",
+      "version": "v001"
+    },
+    "FX-002/v001/runtime_mapping.json": {
+      "sha256": "8ff3ac1be37f9a0151e030b0aa4d613ca498bcd8cf29645f54ebc73867ff9c17",
+      "bytes": 4124,
+      "status": "needs_review",
+      "version": "v001"
+    },
+    "FX-002/v001/asset_manifest.json": {
+      "sha256": "f86ea40a0ee9a4ae0804124ce6a4c182d8bbe17ff799a677a4ee51a3339649ed",
+      "bytes": 5936,
+      "status": "needs_review",
+      "version": "v001"
+    },
+    "FX-002/v001/qa.json": {
+      "sha256": "5a8c320f7ab4e2417da06273faced992c23900ef6f20cbc0df7fd4c30d2b349c",
+      "bytes": 6109,
+      "status": "needs_review",
+      "version": "v001"
+    },
+    "FX-002/v001/README.md": {
+      "sha256": "24be305c985f97b349391c40fef136bf2cae7d56f3d6c5db5f3bbc3a7451eeab",
+      "bytes": 5547,
+      "status": "needs_review",
+      "version": "v001"
+    },
+    "ENV-018/v001/ENV-018_CloudStreak.glb": {
+      "sha256": "a1e57fba2d50049415c321d8afc1aa143b30eca22bfc30a5340366c97bdfe2e7",
+      "bytes": 271752,
+      "status": "needs_review",
+      "version": "v001"
+    },
+    "ENV-018/v001/asset_manifest.json": {
+      "sha256": "4227064d8cb97461019ff82d9a6294aba3a0026567944045067a828b3aa83ff4",
+      "bytes": 6100,
+      "status": "needs_review",
+      "version": "v001"
+    },
+    "ENV-018/v001/qa.json": {
+      "sha256": "e4fbb1855954d8ad8fbace0c65eb7acb604911c7ed124fe4a7a0034af7effeab",
+      "bytes": 6330,
+      "status": "needs_review",
+      "version": "v001"
+    },
+    "ENV-018/v001/README.md": {
+      "sha256": "f08866c7d80229658dc09f6f8f17c2486f7acd9da90cd188b607740f0d7a897e",
+      "bytes": 5698,
+      "status": "needs_review",
+      "version": "v001"
+    },
+    "CHR-001/v001/CHR-001_goose_rig.glb": {
+      "sha256": "cd11419a47a2c8e2d67d636015675540581a74720a83c23ef8531437c7161b81",
+      "bytes": 3823180,
+      "status": "done",
+      "version": "v001"
+    },
+    "CHR-001/v001/asset_manifest.json": {
+      "sha256": "8daa953c8b45b97f750e45e33a751869470f9baead7182d253e5bf7fd1441921",
+      "bytes": 15048,
+      "status": "done",
+      "version": "v001"
+    },
+    "CHR-001/v001/qa.json": {
+      "sha256": "de7e7d6eed73a5aa4d993113b4713e81f470480d982d981e80ef58acb56488ea",
+      "bytes": 12907,
+      "status": "done",
+      "version": "v001"
+    },
+    "CHR-001/v001/README.md": {
+      "sha256": "fca1e84b2f0c7dfdac8ffa4cd929cd20a529b2dcd18a71821249b7315d31f659",
+      "bytes": 4899,
+      "status": "done",
+      "version": "v001"
+    }
+  },
+  "camera_source_sha256": {
+    "Sources/FeatherTide/Systems/Camera/ThirdPersonRig.swift": "274b58f0b910a280c676540dde54343c35e2e0709744e20e7e5ee4f9515476a2",
+    "Sources/FeatherTide/Rendering/PlayfieldView.swift": "8c37c08a35b8b299cc9af9f9e63e64ef5d50947e12822356fee8de398bc110dc"
+  },
+  "embedding": {
+    "image_count": 15,
+    "upstream_PNG_hashes": [
+      "013fbde91649c3a2dbd5e4d1adb71649b479c88fc5b83ae4d960b9773ebf6200",
+      "0343b68d4e256fca7b747c65b2fcebc74c46f3aa2334044051ac862e4e02c5b1",
+      "0b96c63edf1a33a3015b3341112aeb154a7700dfd3e82e93a923103f6c981995",
+      "10670b355497a7e1f53116859dd31128377e892f263ce8f0de58d125cff265c7",
+      "19f58d27f5cc0b06c1ffe6534d5beb4ee0fa72d7a15cf14a95c5c78eed9f329f",
+      "4670d95b818253c1e5a4110d8a2f00ed6160e258a0ee9e056704fa43986e2393",
+      "580db4fab27d71595eec97ebd3bb95600f7875c822ca6b7017e483aff10ce7c0",
+      "8fef579ec6eb2cab8b34693ff698a8f647bf6ef3121c6b67eb83f3bb656ce066",
+      "906631aa073af79112dd3c84a3c877ec77653fc4238d76de2a82f6d7712026ec",
+      "9e03d79c4a047cf999b95220f4233f2add4f7785336162be2917726318c43b0e",
+      "a4fbb2db73897427d8172297edb7b59d80a17707b3a3f1a198857f4996e6ed26",
+      "bd12529acd7f63aefad1df09111aa6b9a84c95161bbdb1d0c64f1cbc66d2c6f7",
+      "e06d76e88c90a29ad97a810ed7578ce67f79da1b915940d5406750228f36996b",
+      "e201e626c70ba88af6cbeae9662dc76375930208e121c4af5dbdfc52cfcefab0",
+      "fb7ba1defecfa9afe0a42bc4178589fe17185639f3c2a6d307976e6e44ceb728"
+    ],
+    "source_mapping": "s2_layout.json dependencies and corresponding v001 manifests"
+  },
+  "runtime_export": {
+    "file": "LVL-S2_S2_Fork.glb",
+    "axis_map": "(x,y,z) -> (x,z,-y)",
+    "root": "S2_Fork",
+    "wind_parent": "S2_WindField",
+    "anchors": [
+      "S2_Entry",
+      "S2_Merge",
+      "S2_Checkpoint_A",
+      "S2_Pass",
+      "S2_Lake",
+      "S2_Rest",
+      "S2_JoinBeforeGate"
+    ],
+    "mesh_count": 39,
+    "skin_count": 8,
+    "textures": "embedded",
+    "layout": "s2_layout.json",
+    "collision_and_rules": "runtime"
+  },
+  "rights": "Project-local original assembly and inherited project candidate textures. No third-party content was added.",
+  "pending": [
+    "art review",
+    "human branch contrast glance",
+    "runtime collision, full flock formation and branch gameplay",
+    "Checkpoint A retry/refill, energy and wind response",
+    "USDZ / RealityKit / App",
+    "iPhone / iPad"
+  ],
+  "files": {
+    "LVL-S2_S2_Fork.blend": {
+      "sha256": "30f28bc35fbd9e22530101a4eaa6658db9abcf8f8c6b491d2f55d86117dcb86d",
+      "bytes": 19457553
+    },
+    "LVL-S2_S2_Fork.glb": {
+      "sha256": "1ea7b93a8b70ca3edc169425d11e2a5926f793c8cac561d7c0e7802f85428b49",
+      "bytes": 9662392
+    },
+    "LVL-S2_generate.py": {
+      "sha256": "b0f0543b16e12c6ec2b79ed70ef0481284f2b35b57e343716ce1a5d61397a6fc",
+      "bytes": 44465
+    },
+    "README.md": {
+      "sha256": "428dd04313fff354bc66ddcc56f974e04d7d8865a6a4ad683cd1d2892689195b",
+      "bytes": 5593
+    },
+    "graybox_fixed_rear.png": {
+      "sha256": "aff59f8320d0dae16313bc8491b4bf880e295c952fecce896deff340ff3791b5",
+      "bytes": 341336
+    },
+    "preview_both_routes_top.png": {
+      "sha256": "c044b8b930eca6e905d94228689bc2f2d70d74ed08385afa89a7389e646125c6",
+      "bytes": 1077308
+    },
+    "preview_checkpoint_A.png": {
+      "sha256": "4472fa5c79755226b99dac182242f6908aa6c0e0a82f2126df6e949bdf88e61e",
+      "bytes": 369068
+    },
+    "preview_fixed_rear.mp4": {
+      "sha256": "aa9a32e923b7844df296a6f64810c87bae961cc833d6b8c679b0572430901a24",
+      "bytes": 996449
+    },
+    "preview_lakeside_rest.png": {
+      "sha256": "792c3a72d5a39482411ea4e739eceadd6e3f6eb24bc37bb6e6a1caa835e1885f",
+      "bytes": 335937
+    },
+    "preview_long_lake.png": {
+      "sha256": "e6f37a4585ad0b82201c6ea4458c1dbd67e718d90941cf59b97f14b451ef6154",
+      "bytes": 347405
+    },
+    "preview_merge.png": {
+      "sha256": "2c82d29c4e75a41e25d3384e972dc21ed1d31062fa1f66c768a7db8a69c82285",
+      "bytes": 351371
+    },
+    "preview_short_pass.png": {
+      "sha256": "d86536e67e490bfd2cd10117821a74a2ec38c6f8932a2c0308ef2c13b526cda5",
+      "bytes": 378588
+    },
+    "qa.json": {
+      "sha256": "083050cb5038c6087b12e54f8270fac3afd5aa64df340399467cdb827c07b47c",
+      "bytes": 12169
+    },
+    "roundtrip_fixed_rear.png": {
+      "sha256": "94215b48e5f068d81ed0e4a365b614b59ddc17ad6847a1806ecee625a57a4595",
+      "bytes": 369823
+    },
+    "s2_layout.json": {
+      "sha256": "c409e56f2e35cd9c19d7529240c20865c6031a8bbf6e54ad2fd6e046e1fc44cd",
+      "bytes": 12502
+    }
+  }
+}

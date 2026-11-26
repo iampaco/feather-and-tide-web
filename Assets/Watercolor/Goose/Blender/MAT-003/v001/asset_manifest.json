@@ -1,0 +1,123 @@
+{
+  "id": "MAT-003",
+  "version": "v001",
+  "depends": [
+    "MAT-001/v001"
+  ],
+  "blender": "5.2.2 LTS",
+  "source": "程序生成原创纹理。使用 MAT-001/v001 材质节点、周期噪声与相同纸纹振幅。",
+  "dependency_hashes": {
+    "MAT-001_watercolor_master.blend": "9fc0305a78264733d2a2f5747a67833158c59470eff3e3d71c4f6da5b9d11de0",
+    "MAT-001_watercolor_master_generate.py": "16bf8aaa6ecb2e52cc575c91d36d5256494df72c72a727741e5542de5b14364d"
+  },
+  "materials": {
+    "GrassFlat": {
+      "file": "textures/ft_goose_mat_grass_flat_basecolor.png",
+      "color_space": "sRGB",
+      "size": [
+        1024,
+        1024
+      ],
+      "wrap": "repeat U/V",
+      "roughness": 0.94,
+      "palette": [
+        "#879478",
+        "#A4AD8B",
+        "#C0C29E"
+      ]
+    },
+    "MudBank": {
+      "file": "textures/ft_goose_mat_mud_bank_basecolor.png",
+      "color_space": "sRGB",
+      "size": [
+        1024,
+        1024
+      ],
+      "wrap": "repeat U/V",
+      "roughness": 0.95,
+      "palette": [
+        "#95806B",
+        "#AC967E",
+        "#C4AC8D"
+      ]
+    },
+    "MossStone": {
+      "file": "textures/ft_goose_mat_moss_stone_basecolor.png",
+      "color_space": "sRGB",
+      "size": [
+        1024,
+        1024
+      ],
+      "wrap": "repeat U/V",
+      "roughness": 0.94,
+      "palette": [
+        "#7D8B80",
+        "#9DA69B",
+        "#BDC2AF"
+      ]
+    },
+    "MountainRock": {
+      "file": "textures/ft_goose_mat_mountain_rock_basecolor.png",
+      "color_space": "sRGB",
+      "size": [
+        1024,
+        1024
+      ],
+      "wrap": "repeat U/V",
+      "roughness": 0.96,
+      "palette": [
+        "#7B8D95",
+        "#9BAAB0",
+        "#BDC6C5"
+      ]
+    },
+    "ShallowMargin": {
+      "file": "textures/ft_goose_mat_shallow_margin_basecolor.png",
+      "color_space": "sRGB",
+      "size": [
+        1024,
+        1024
+      ],
+      "wrap": "repeat U/V",
+      "roughness": 0.89,
+      "palette": [
+        "#91AAA1",
+        "#A8BBB0",
+        "#C4CBBB"
+      ]
+    }
+  },
+  "object_triangle_counts": {
+    "GrassFlat_1": 2,
+    "GrassFlat_2": 2,
+    "GrassFlat_3": 2,
+    "MudBank_1": 2,
+    "MudBank_2": 2,
+    "MudBank_3": 2,
+    "ShallowMargin_1": 2,
+    "ShallowMargin_2": 2,
+    "ShallowMargin_3": 2,
+    "MossStone_1": 2,
+    "MossStone_2": 2,
+    "MossStone_3": 2,
+    "MossStone_4": 2,
+    "MountainRock_1": 2,
+    "MountainRock_2": 2,
+    "MountainRock_3": 2,
+    "MountainRock_4": 2
+  },
+  "files": {
+    "MAT-003_wetland_rock.blend": "ac22a9e28ff64aa2d023e4ecf769fd6dff69b9ba5cd58b86ec2003ee8d5b27d2",
+    "MAT-003_wetland_rock.glb": "4cb3a5b1d2278edee82398865dae4c616f7c119e26f622c9a02a3e25330034d3",
+    "textures/ft_goose_mat_grass_flat_basecolor.png": "e06d76e88c90a29ad97a810ed7578ce67f79da1b915940d5406750228f36996b",
+    "textures/ft_goose_mat_mud_bank_basecolor.png": "0343b68d4e256fca7b747c65b2fcebc74c46f3aa2334044051ac862e4e02c5b1",
+    "textures/ft_goose_mat_moss_stone_basecolor.png": "10670b355497a7e1f53116859dd31128377e892f263ce8f0de58d125cff265c7",
+    "textures/ft_goose_mat_mountain_rock_basecolor.png": "4670d95b818253c1e5a4110d8a2f00ed6160e258a0ee9e056704fa43986e2393",
+    "textures/ft_goose_mat_shallow_margin_basecolor.png": "bd12529acd7f63aefad1df09111aa6b9a84c95161bbdb1d0c64f1cbc66d2c6f7",
+    "preview_corner.png": "b22a8b79a3b9489bb3d6d50d4ad62f4d80a5f18079806d56b6a93e65afaba578",
+    "preview_glb_roundtrip.png": "7300e4b0a7dc70d9d951edd3a5d41fd6117e1c8aa8f245ab5b9727f33597008f",
+    "preview_repeat_small.png": "9b1f259eb367f963ee4e9f6d609366c9b39b6e24566ab6e1e7740bc7c8bb6b89",
+    "preview_top.png": "3c38e6d4074d5774a952cd233d6a0ca425828c53e350d7b6d0bfef60be420bf0",
+    "MAT-003_wetland_rock_generate.py": "15a2d3c06ac90d1eb7e6b8c5c1a07aaeed993d23267c65d2df264a189e7bdd08"
+  }
+}

@@ -1,0 +1,831 @@
+{
+  "id": "LVL-S6",
+  "variant": "S6_Landing",
+  "version": "v001",
+  "status": "needs_review",
+  "axes_blender": "+Y forward, +Z up",
+  "gltf_conversion": [
+    "x",
+    "z",
+    "-y"
+  ],
+  "BU_per_game_unit": 0.036,
+  "entry": {
+    "name": "S6_Entry",
+    "role": "entry seam",
+    "blender_BU": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "glb_BU": [
+      0.0,
+      0.0,
+      -0.0
+    ],
+    "forward_blender": [
+      0,
+      1,
+      0
+    ]
+  },
+  "terminal": {
+    "name": "S6_Terminal",
+    "role": "terminal basin focus",
+    "blender_BU": [
+      0.0,
+      21.0,
+      0.0
+    ],
+    "glb_BU": [
+      0.0,
+      0.0,
+      -21.0
+    ],
+    "forward_blender": [
+      0,
+      1,
+      0
+    ]
+  },
+  "reference_ground_z_BU": 0,
+  "reference_water_z_BU": -0.18,
+  "export_terrain_bounds_xy_BU": [
+    [
+      -20,
+      20
+    ],
+    [
+      0,
+      40
+    ]
+  ],
+  "entry_open_strip_BU": {
+    "x": [
+      -12,
+      12
+    ],
+    "inside_y": [
+      0,
+      2
+    ],
+    "water_at_boundary": false
+  },
+  "module_placement": {
+    "id": "ENV-017",
+    "version": "v001",
+    "translation_BU": [
+      0.0,
+      20.0,
+      0.0
+    ],
+    "local_shoal_vertex_edits": [
+      22,
+      21
+    ],
+    "seam_reed_vertices_removed": 449,
+    "world_yaw_degrees": 0
+  },
+  "landing_zone_candidate_rect_xy_BU": [
+    -6.75,
+    6.75,
+    16.55,
+    25.65
+  ],
+  "anchors": [
+    {
+      "name": "S6_Entry",
+      "role": "entry seam",
+      "blender_BU": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "glb_BU": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "forward_blender": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "S6_Terminal",
+      "role": "terminal basin focus",
+      "blender_BU": [
+        0.0,
+        21.0,
+        0.0
+      ],
+      "glb_BU": [
+        0.0,
+        0.0,
+        -21.0
+      ],
+      "forward_blender": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "S6_BasinOrigin",
+      "role": "ENV-017 local origin",
+      "blender_BU": [
+        0.0,
+        20.0,
+        0.0
+      ],
+      "glb_BU": [
+        0.0,
+        0.0,
+        -20.0
+      ],
+      "forward_blender": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "S6_LandingSlot_01",
+      "role": "mudflat",
+      "blender_BU": [
+        0,
+        17.39,
+        0.0
+      ],
+      "glb_BU": [
+        0,
+        0.0,
+        -17.39
+      ],
+      "forward_blender": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "S6_LandingSlot_02",
+      "role": "mudflat",
+      "blender_BU": [
+        -2.16,
+        17.65,
+        0.0
+      ],
+      "glb_BU": [
+        -2.16,
+        0.0,
+        -17.65
+      ],
+      "forward_blender": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "S6_LandingSlot_03",
+      "role": "mudflat",
+      "blender_BU": [
+        2.16,
+        17.59,
+        0.0
+      ],
+      "glb_BU": [
+        2.16,
+        0.0,
+        -17.59
+      ],
+      "forward_blender": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "S6_LandingSlot_04",
+      "role": "mudflat",
+      "blender_BU": [
+        -2.4,
+        19.94,
+        0.0
+      ],
+      "glb_BU": [
+        -2.4,
+        0.0,
+        -19.94
+      ],
+      "forward_blender": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "S6_LandingSlot_05",
+      "role": "mudflat",
+      "blender_BU": [
+        -0.33,
+        19.91,
+        0.0
+      ],
+      "glb_BU": [
+        -0.33,
+        0.0,
+        -19.91
+      ],
+      "forward_blender": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "S6_LandingSlot_06",
+      "role": "mudflat",
+      "blender_BU": [
+        1.99,
+        19.97,
+        0.0
+      ],
+      "glb_BU": [
+        1.99,
+        0.0,
+        -19.97
+      ],
+      "forward_blender": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "S6_LandingSlot_07",
+      "role": "mudflat",
+      "blender_BU": [
+        -2.1,
+        22.03,
+        0.0
+      ],
+      "glb_BU": [
+        -2.1,
+        0.0,
+        -22.03
+      ],
+      "forward_blender": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "S6_LandingSlot_08",
+      "role": "mudflat",
+      "blender_BU": [
+        0.09,
+        22.05,
+        0.0
+      ],
+      "glb_BU": [
+        0.09,
+        0.0,
+        -22.05
+      ],
+      "forward_blender": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "S6_LandingSlot_09",
+      "role": "mudflat",
+      "blender_BU": [
+        2.35,
+        22.09,
+        0.0
+      ],
+      "glb_BU": [
+        2.35,
+        0.0,
+        -22.09
+      ],
+      "forward_blender": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "S6_LandingSlot_10",
+      "role": "water",
+      "blender_BU": [
+        -5.67,
+        24.6,
+        -0.18
+      ],
+      "glb_BU": [
+        -5.67,
+        -0.18,
+        -24.6
+      ],
+      "forward_blender": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "S6_LandingSlot_11",
+      "role": "mudflat",
+      "blender_BU": [
+        -0.22,
+        24.29,
+        0.0
+      ],
+      "glb_BU": [
+        -0.22,
+        0.0,
+        -24.29
+      ],
+      "forward_blender": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "S6_LandingSlot_12",
+      "role": "water",
+      "blender_BU": [
+        5.69,
+        24.63,
+        -0.18
+      ],
+      "glb_BU": [
+        5.69,
+        -0.18,
+        -24.63
+      ],
+      "forward_blender": [
+        0,
+        1,
+        0
+      ]
+    }
+  ],
+  "landing_slots": [
+    {
+      "name": "S6_LandingSlot_01",
+      "role": "mudflat",
+      "blender_BU": [
+        0,
+        17.39,
+        0.0
+      ],
+      "glb_BU": [
+        0,
+        0.0,
+        -17.39
+      ],
+      "forward_blender": [
+        0,
+        1,
+        0
+      ],
+      "goose_index": 1,
+      "visual_actor_name": "S6_Goose_01",
+      "animation": "Land_Mudflat",
+      "start_frame": 105,
+      "contact_frame": 151,
+      "rest_frame": 186,
+      "measured_support_touch_BU": [
+        -4.0978193283081055e-08,
+        17.172157287597656,
+        0.0
+      ]
+    },
+    {
+      "name": "S6_LandingSlot_02",
+      "role": "mudflat",
+      "blender_BU": [
+        -2.16,
+        17.65,
+        0.0
+      ],
+      "glb_BU": [
+        -2.16,
+        0.0,
+        -17.65
+      ],
+      "forward_blender": [
+        0,
+        1,
+        0
+      ],
+      "goose_index": 2,
+      "visual_actor_name": "S6_Goose_02",
+      "animation": "Land_Mudflat",
+      "start_frame": 111,
+      "contact_frame": 157,
+      "rest_frame": 192,
+      "measured_support_touch_BU": [
+        -2.1600000858306885,
+        17.432157516479492,
+        0.0
+      ]
+    },
+    {
+      "name": "S6_LandingSlot_03",
+      "role": "mudflat",
+      "blender_BU": [
+        2.16,
+        17.59,
+        0.0
+      ],
+      "glb_BU": [
+        2.16,
+        0.0,
+        -17.59
+      ],
+      "forward_blender": [
+        0,
+        1,
+        0
+      ],
+      "goose_index": 3,
+      "visual_actor_name": "S6_Goose_03",
+      "animation": "Land_Mudflat",
+      "start_frame": 117,
+      "contact_frame": 163,
+      "rest_frame": 198,
+      "measured_support_touch_BU": [
+        2.1600000858306885,
+        17.37215805053711,
+        0.0
+      ]
+    },
+    {
+      "name": "S6_LandingSlot_04",
+      "role": "mudflat",
+      "blender_BU": [
+        -2.4,
+        19.94,
+        0.0
+      ],
+      "glb_BU": [
+        -2.4,
+        0.0,
+        -19.94
+      ],
+      "forward_blender": [
+        0,
+        1,
+        0
+      ],
+      "goose_index": 4,
+      "visual_actor_name": "S6_Goose_04",
+      "animation": "Land_Mudflat",
+      "start_frame": 123,
+      "contact_frame": 169,
+      "rest_frame": 204,
+      "measured_support_touch_BU": [
+        -2.4000000953674316,
+        19.722158432006836,
+        0.0
+      ]
+    },
+    {
+      "name": "S6_LandingSlot_05",
+      "role": "mudflat",
+      "blender_BU": [
+        -0.33,
+        19.91,
+        0.0
+      ],
+      "glb_BU": [
+        -0.33,
+        0.0,
+        -19.91
+      ],
+      "forward_blender": [
+        0,
+        1,
+        0
+      ],
+      "goose_index": 5,
+      "visual_actor_name": "S6_Goose_05",
+      "animation": "Land_Mudflat",
+      "start_frame": 129,
+      "contact_frame": 175,
+      "rest_frame": 210,
+      "measured_support_touch_BU": [
+        -0.33000005781650543,
+        19.692157745361328,
+        0.0
+      ]
+    },
+    {
+      "name": "S6_LandingSlot_06",
+      "role": "mudflat",
+      "blender_BU": [
+        1.99,
+        19.97,
+        0.0
+      ],
+      "glb_BU": [
+        1.99,
+        0.0,
+        -19.97
+      ],
+      "forward_blender": [
+        0,
+        1,
+        0
+      ],
+      "goose_index": 6,
+      "visual_actor_name": "S6_Goose_06",
+      "animation": "Land_Mudflat",
+      "start_frame": 135,
+      "contact_frame": 181,
+      "rest_frame": 216,
+      "measured_support_touch_BU": [
+        1.9900000095367432,
+        19.75215721130371,
+        0.0
+      ]
+    },
+    {
+      "name": "S6_LandingSlot_07",
+      "role": "mudflat",
+      "blender_BU": [
+        -2.1,
+        22.03,
+        0.0
+      ],
+      "glb_BU": [
+        -2.1,
+        0.0,
+        -22.03
+      ],
+      "forward_blender": [
+        0,
+        1,
+        0
+      ],
+      "goose_index": 7,
+      "visual_actor_name": "S6_Goose_07",
+      "animation": "Land_Mudflat",
+      "start_frame": 141,
+      "contact_frame": 187,
+      "rest_frame": 222,
+      "measured_support_touch_BU": [
+        -2.0999999046325684,
+        21.812158584594727,
+        0.0
+      ]
+    },
+    {
+      "name": "S6_LandingSlot_08",
+      "role": "mudflat",
+      "blender_BU": [
+        0.09,
+        22.05,
+        0.0
+      ],
+      "glb_BU": [
+        0.09,
+        0.0,
+        -22.05
+      ],
+      "forward_blender": [
+        0,
+        1,
+        0
+      ],
+      "goose_index": 8,
+      "visual_actor_name": "S6_Goose_08",
+      "animation": "Land_Mudflat",
+      "start_frame": 147,
+      "contact_frame": 193,
+      "rest_frame": 228,
+      "measured_support_touch_BU": [
+        0.0899999588727951,
+        21.832157135009766,
+        0.0
+      ]
+    },
+    {
+      "name": "S6_LandingSlot_09",
+      "role": "mudflat",
+      "blender_BU": [
+        2.35,
+        22.09,
+        0.0
+      ],
+      "glb_BU": [
+        2.35,
+        0.0,
+        -22.09
+      ],
+      "forward_blender": [
+        0,
+        1,
+        0
+      ],
+      "goose_index": 9,
+      "visual_actor_name": "S6_Goose_09",
+      "animation": "Land_Mudflat",
+      "start_frame": 153,
+      "contact_frame": 199,
+      "rest_frame": 234,
+      "measured_support_touch_BU": [
+        2.3499999046325684,
+        21.87215805053711,
+        0.0
+      ]
+    },
+    {
+      "name": "S6_LandingSlot_10",
+      "role": "water",
+      "blender_BU": [
+        -5.67,
+        24.6,
+        -0.18
+      ],
+      "glb_BU": [
+        -5.67,
+        -0.18,
+        -24.6
+      ],
+      "forward_blender": [
+        0,
+        1,
+        0
+      ],
+      "goose_index": 10,
+      "visual_actor_name": "S6_Goose_10",
+      "animation": "Land_ShallowWater",
+      "start_frame": 159,
+      "contact_frame": 209,
+      "rest_frame": 240,
+      "measured_support_touch_BU": [
+        -5.670000076293945,
+        24.382158279418945,
+        -0.18000000715255737
+      ]
+    },
+    {
+      "name": "S6_LandingSlot_11",
+      "role": "mudflat",
+      "blender_BU": [
+        -0.22,
+        24.29,
+        0.0
+      ],
+      "glb_BU": [
+        -0.22,
+        0.0,
+        -24.29
+      ],
+      "forward_blender": [
+        0,
+        1,
+        0
+      ],
+      "goose_index": 11,
+      "visual_actor_name": "S6_Goose_11",
+      "animation": "Land_Mudflat",
+      "start_frame": 165,
+      "contact_frame": 211,
+      "rest_frame": 246,
+      "measured_support_touch_BU": [
+        -0.22000004351139069,
+        24.072158813476562,
+        0.0
+      ]
+    },
+    {
+      "name": "S6_LandingSlot_12",
+      "role": "water",
+      "blender_BU": [
+        5.69,
+        24.63,
+        -0.18
+      ],
+      "glb_BU": [
+        5.69,
+        -0.18,
+        -24.63
+      ],
+      "forward_blender": [
+        0,
+        1,
+        0
+      ],
+      "goose_index": 12,
+      "visual_actor_name": "S6_Goose_12",
+      "animation": "Land_ShallowWater",
+      "start_frame": 171,
+      "contact_frame": 221,
+      "rest_frame": 252,
+      "measured_support_touch_BU": [
+        5.690000057220459,
+        24.41215705871582,
+        -0.18000000715255737
+      ]
+    }
+  ],
+  "review": {
+    "frames": [
+      1,
+      360
+    ],
+    "fps": 48,
+    "fixed_third_person_source": [
+      852,
+      393
+    ],
+    "window": 7.5,
+    "runtime_design_target_seconds": 20,
+    "camera": {
+      "distance_game_units": 180,
+      "pitch_rad": 0.48,
+      "vertical_fov_deg": 50,
+      "look_height_game_units": 6,
+      "leader_body_base_height_game_units": 8,
+      "follows": "goose 1 placed carrier; +Y"
+    },
+    "events_are_preview_only": true
+  },
+  "runtime_inputs": {
+    "landing": {
+      "animation": {
+        "ANM-007": "ANM-007_landing.glb",
+        "ANM-008": "ANM-008_rest_idle.glb"
+      },
+      "controls": [
+        "sessionID",
+        "assignedGooseIDs",
+        "slotInWorld",
+        "substrate",
+        "approachHeading",
+        "contactSurfaceHeight",
+        "contactEventTimestamp",
+        "phase",
+        "hasSettled",
+        "actorInCompletionZone"
+      ],
+      "responsibilities": [
+        "collision and slot assignment",
+        "participant eligibility and retry",
+        "landed-only-and-in-zone completion",
+        "input locking after approach commit"
+      ]
+    },
+    "water": {
+      "asset": "FX-006/v001/FX-006_ripples.glb",
+      "control": "FX-006/v001/ripple_controls.json",
+      "parameters": [
+        "worldWaterPlane",
+        "waterCoverage",
+        "timeSeconds",
+        "gooseID",
+        "waterContactPositionWorld",
+        "contactStrength",
+        "contactEventTimestamp"
+      ],
+      "default_idle_pigment_gain_multiplier": 0.4,
+      "contact_reference_plane_Z_BU": -0.18,
+      "review_contact_slots": [
+        10,
+        12
+      ]
+    },
+    "feather_motes": {
+      "asset": "FX-013/v001/FX-013_FeatherMotes.glb",
+      "optional": true,
+      "parameters": [
+        "enabled",
+        "intensity",
+        "allLandingStartFrame",
+        "sideDriftBUPerSecond",
+        "fallSpeedMultiplier"
+      ],
+      "review_all_started_frame": 171,
+      "runtime_event": "emit once when all designated geese have begun landing for session",
+      "world_anchor": "S6_BasinOrigin"
+    }
+  },
+  "texture_mapping": {
+    "transport_texture_layers": "ENV-017/v001/asset_manifest.json#/texture_layers",
+    "ripple_textures": "FX-006/v001/asset_manifest.json#/textures",
+    "feather_textures": "FX-013/v001/asset_manifest.json#/export",
+    "goose_skin": "ANM-007/v001/asset_manifest.json#/texture_mapping"
+  }
+}

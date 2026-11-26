@@ -1,0 +1,233 @@
+{
+  "id": "ENV-007",
+  "version": "v001",
+  "status": "needs_review",
+  "blender": "5.2.2 LTS",
+  "execution_order_1_based": 20,
+  "production_spec_page": 10,
+  "levels": [
+    "S2",
+    "S3",
+    "S5"
+  ],
+  "depends": [
+    "ENV-001/v001",
+    "MAT-004/v001"
+  ],
+  "material_inputs": [
+    "MAT-003/v001",
+    "MAT-004/v001"
+  ],
+  "blender_file": "ENV-007_river_valley.blend",
+  "module_pitch_BU": 10.0,
+  "axis_map_xyz_to_gltf": [
+    "x",
+    "z",
+    "-y"
+  ],
+  "centre_pivot_local_BU": [
+    0,
+    0,
+    0
+  ],
+  "translation_stride_BU": [
+    10,
+    10
+  ],
+  "rotation_qualified_deg": 0,
+  "edge_types": {
+    "W": "L",
+    "E": "L",
+    "S": "R",
+    "N": "R"
+  },
+  "water_level_local_z_BU": -0.18,
+  "water_flow_UV": [
+    "U across the channel from left to right",
+    "V along +Y with period 10 BU"
+  ],
+  "R_profile_station_xz_BU": [
+    [
+      -5,
+      0
+    ],
+    [
+      -4.375,
+      0
+    ],
+    [
+      -3.43405,
+      0.0
+    ],
+    [
+      -2.08,
+      0.0
+    ],
+    [
+      -1.66,
+      -0.077
+    ],
+    [
+      -1.39,
+      -0.18
+    ],
+    [
+      -0.9452,
+      -0.39
+    ],
+    [
+      -0.5004,
+      -0.535
+    ],
+    [
+      0.0,
+      -0.545
+    ],
+    [
+      0.5004,
+      -0.535
+    ],
+    [
+      0.9452,
+      -0.388
+    ],
+    [
+      1.39,
+      -0.18
+    ],
+    [
+      1.66,
+      -0.077
+    ],
+    [
+      2.07,
+      0
+    ],
+    [
+      3.10725,
+      0.0
+    ],
+    [
+      4.375,
+      0
+    ],
+    [
+      5,
+      0
+    ]
+  ],
+  "variants": {
+    "Straight": {
+      "file": "ENV-007_Straight.glb",
+      "nodes": [
+        "Straight_Bed",
+        "Straight_Water"
+      ],
+      "bed_triangles": 512,
+      "water_triangles": 128
+    },
+    "Bend": {
+      "file": "ENV-007_Bend.glb",
+      "nodes": [
+        "Bend_Bed",
+        "Bend_Water"
+      ],
+      "bed_triangles": 512,
+      "water_triangles": 128
+    },
+    "OpenBank": {
+      "file": "ENV-007_OpenBank.glb",
+      "nodes": [
+        "OpenBank_Bed",
+        "OpenBank_Water"
+      ],
+      "bed_triangles": 512,
+      "water_triangles": 128
+    }
+  },
+  "source_hashes": {
+    "ENV-001_terrain.blend": "9979e7606a115a16e9dc35fdf81684d5285b649692cd969692f195dfc1e3743d",
+    "ENV-001_generate.py": "ba9f27275913d194b1df183bf2554885a76cd110d0920e81dbc620f51ffaf06f",
+    "MAT-003_wetland_rock.blend": "e6091a0b68863e57e0764fbf01241d6091830b1fc9e62f153e4f3850556acc52",
+    "MAT-004_water_surfaces.blend": "ce6b3f7d9130ce6379659331a0d41c86804553aa5ae3a8ab9fdf6758e7bd7baa",
+    "ENV-002_generate.py (review only)": "92265bc6f7efaf61ca69713e23f0874144607a4dc0f45d83a988cd2dddd1583a",
+    "ANM-007_landing.blend (review only)": "bf8ed361fb9e06706e4a78e7fcbf2d4f61edc8cdbeea6018f2339dfecc35e5f0",
+    "ENV-004_reeds.blend (review only)": "8885406321f8c4ba84537c6a437f54a3d160fdfcbfa670ce19565140e6030947",
+    "ENV-006_grass.blend (review only)": "6324b461da066600063c5a91635bfd128b94d49cdfb5b441593220436abbcc9b"
+  },
+  "images": {
+    "GrassFlat": {
+      "path_relative_to_candidate": "../../MAT-003/v001/textures/ft_goose_mat_grass_flat_basecolor.png",
+      "sha256": "e06d76e88c90a29ad97a810ed7578ce67f79da1b915940d5406750228f36996b",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "color_space": "sRGB",
+      "wrap": "repeat U/V",
+      "roughness": 0.94
+    },
+    "MudBank": {
+      "path_relative_to_candidate": "../../MAT-003/v001/textures/ft_goose_mat_mud_bank_basecolor.png",
+      "sha256": "0343b68d4e256fca7b747c65b2fcebc74c46f3aa2334044051ac862e4e02c5b1",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "color_space": "sRGB",
+      "wrap": "repeat U/V",
+      "roughness": 0.95
+    },
+    "MossStone": {
+      "path_relative_to_candidate": "../../MAT-003/v001/textures/ft_goose_mat_moss_stone_basecolor.png",
+      "sha256": "10670b355497a7e1f53116859dd31128377e892f263ce8f0de58d125cff265c7",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "color_space": "sRGB",
+      "wrap": "repeat U/V",
+      "roughness": 0.94
+    },
+    "ShallowMargin": {
+      "path_relative_to_candidate": "../../MAT-003/v001/textures/ft_goose_mat_shallow_margin_basecolor.png",
+      "sha256": "bd12529acd7f63aefad1df09111aa6b9a84c95161bbdb1d0c64f1cbc66d2c6f7",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "color_space": "sRGB",
+      "wrap": "repeat U/V",
+      "roughness": 0.89
+    },
+    "ENV007_Water_River": {
+      "sha256": "f470fd1a2c206a618f27c177f7d6d613a4681135a47207103fa0b353c923fcaf",
+      "path_relative_to_candidate": "../../MAT-004/v001/textures/ft_goose_mat_water_river_basecolor_alpha.png",
+      "alpha_mode": "BLEND",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "wrap": "repeat U/V",
+      "roughness": 0.81
+    }
+  },
+  "source_notes": "Original geometry; environment inputs and materials retain their existing candidate states.",
+  "files": {
+    "ENV-007_Bend.glb": "5ee1c9ee6aa0a2c8c29b6be7b3edcb6c99b5cc4d74a60baa44b3c8839122eb62",
+    "ENV-007_OpenBank.glb": "f135d7a2cca11d385cd2b318794dcd8ca42b2961805e4a317d8ce67266b857f4",
+    "ENV-007_Straight.glb": "cc472484c96e45858a07e742bd17d6b53ab12a541e7b8b369a20f4ed08a01579",
+    "ENV-007_generate.py": "4c0572f02f5ad69160e62f1349d738dd0a19df38a63c81757bbc00c05d58035b",
+    "ENV-007_river_valley.blend": "b5e4d3665c433751273051507009528f0350ee7395e949c4d11ef2e3dbf33d58",
+    "README.md": "9f7360dd16b499f1c73862ffd4634b5abe6363d6b59bbdead7d3f518c30658ec",
+    "graybox_fixed_rear.png": "665ad682a829108a0c28ce5c2486e859d551b69604cd433262a5b8b123621ce0",
+    "graybox_top.png": "4f6969adbb30f744d5c804bf68a9d643110abaf060cc5d4e48f56caf5a23c927",
+    "preview_bend_approach.png": "c1966bf30e75bd0a226c0e0bec72bd6b0f9f186f8d07472e4949f1c06755a47e",
+    "preview_fixed_rear.png": "3411c3ec5c7feda29da56821b76b48967df38b600e5cbdf0a9d46b8557f36ed3",
+    "preview_glb_roundtrip.png": "30907330532fffb9411ac0e4296aa6804bd4f402feae7d1525c58a9ce093e0be",
+    "preview_open_bank.png": "9fc90728b696650dc36ba542e82378316ed9ab236e5f71ba676547f680d413a0",
+    "preview_top.png": "ad8893346910d7ea87cd29da1abe1540747077ebfa656f73bafeb59f1f94d080",
+    "qa.json": "039f9fb3796025318cd75f400a25c19ea048f5bceb91e41f6706ea29e986cead"
+  },
+  "MAT004_blend_hash_listed_by_source_manifest": "50b0904e119b759d05befe89b5bc9844b5a527a879b966cdbba4d981cab1111b"
+}

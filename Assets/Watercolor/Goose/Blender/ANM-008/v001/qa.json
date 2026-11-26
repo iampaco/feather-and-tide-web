@@ -1,0 +1,256 @@
+{
+  "id": "ANM-008",
+  "version": "v001",
+  "status": "needs_review",
+  "blender": {
+    "idle": {
+      "samples": 289,
+      "step_frames": 0.5,
+      "edge_length_ratio": [
+        0.4195588240374557,
+        1.6078124542975332
+      ],
+      "root_and_objects_fixed": "pass",
+      "shoulders_and_specified_intersections": "pass",
+      "pairs": [
+        [
+          "Body and crown",
+          "Flight feather 7.L"
+        ],
+        [
+          "Body and crown",
+          "Flight feather 8.L"
+        ],
+        [
+          "Body and crown",
+          "Flight feather 9.L"
+        ],
+        [
+          "Body and crown",
+          "Outer primary.L"
+        ],
+        [
+          "Body and crown",
+          "Flight feather 7.R"
+        ],
+        [
+          "Body and crown",
+          "Flight feather 8.R"
+        ],
+        [
+          "Body and crown",
+          "Flight feather 9.R"
+        ],
+        [
+          "Body and crown",
+          "Outer primary.R"
+        ],
+        [
+          "Wing.L",
+          "Wing.R"
+        ],
+        [
+          "Foot.L",
+          "Foot.R"
+        ],
+        [
+          "Bill",
+          "Wing.L"
+        ],
+        [
+          "Foot.L",
+          "Wing.L"
+        ],
+        [
+          "Bill",
+          "Wing.R"
+        ],
+        [
+          "Foot.R",
+          "Wing.R"
+        ]
+      ],
+      "foot_min_z_BU_range_each": [
+        [
+          -0.16895467042922974,
+          -0.16895467042922974
+        ],
+        [
+          -0.16895467042922974,
+          -0.16895467042922974
+        ]
+      ],
+      "loop_seam": {
+        "position_BU": 0.0,
+        "velocity_delta_BU_per_s": 0.00035762786865234375,
+        "step_frames": 0.02
+      },
+      "planted_feet": {
+        "vertex_travel_BU_each": {
+          "L": 0.0,
+          "R": 0.0
+        },
+        "flat_reference_min_clearance_game_units": 0.0
+      },
+      "landing_handoffs": {
+        "Land_Mudflat": {
+          "position_BU": 1.4057727354849294e-07,
+          "velocity_delta_BU_per_s": 0.00035762786865234375
+        },
+        "Land_ShallowWater": {
+          "position_BU": 1.4057727354849294e-07,
+          "velocity_delta_BU_per_s": 0.00035762786865234375
+        }
+      }
+    },
+    "glb": {
+      "clips": {
+        "Rest_Idle": {
+          "duration_s": 3.0,
+          "targets": [
+            [
+              "Foot.L",
+              "rotation"
+            ],
+            [
+              "Foot.R",
+              "rotation"
+            ],
+            [
+              "Neck",
+              "rotation"
+            ],
+            [
+              "Head",
+              "rotation"
+            ],
+            [
+              "Tail",
+              "rotation"
+            ],
+            [
+              "WingRoot.L",
+              "rotation"
+            ],
+            [
+              "Elbow.L",
+              "rotation"
+            ],
+            [
+              "Wrist.L",
+              "rotation"
+            ],
+            [
+              "Tip.L",
+              "rotation"
+            ],
+            [
+              "WingRoot.R",
+              "rotation"
+            ],
+            [
+              "Elbow.R",
+              "rotation"
+            ],
+            [
+              "Wrist.R",
+              "rotation"
+            ],
+            [
+              "Tip.R",
+              "rotation"
+            ]
+          ],
+          "root_and_object_channels": 0
+        }
+      },
+      "same_topology_uv_skin_axes_material_variants_and_texture_bytes": "pass"
+    },
+    "roundtrip": {
+      "clips": {
+        "Rest_Idle": {
+          "samples": 289,
+          "duration_s": 3.0,
+          "max_mesh_error_BU_integer_and_half": [
+            2.4905899066658233e-06,
+            0.0006112574652573684
+          ],
+          "loop_seam": {
+            "position_BU": 0.0,
+            "velocity_delta_BU_per_s": 1.1731066322462601e-05,
+            "step_frames": 1
+          }
+        }
+      },
+      "imported_skin_axes_pivot_scale_and_plumage": "pass"
+    },
+    "flock": {
+      "frames": 144,
+      "frame_step": 1,
+      "birds": 12,
+      "shared_mesh_datablocks": 1,
+      "min_screen_margin_px": 52.9882034834373,
+      "interbird_intersections": 0,
+      "max_carrier_step_game_units_per_frame": 0.0,
+      "min_mesh_clearance_game_units": -2.1711662671994045e-06
+    },
+    "editable_source_reopen": {
+      "status": "pass",
+      "actions": [
+        "Rest_Idle"
+      ],
+      "packed_images": 4
+    }
+  },
+  "preview_decode": {
+    "status": "pass",
+    "streams": {
+      "preview_rest_detail.mp4": {
+        "codec_name": "h264",
+        "width": 832,
+        "height": 468,
+        "r_frame_rate": "12/1",
+        "duration": "3.000000",
+        "nb_frames": "36"
+      },
+      "preview_rest_flock_12.mp4": {
+        "codec_name": "h264",
+        "width": 852,
+        "height": 394,
+        "r_frame_rate": "12/1",
+        "duration": "3.000000",
+        "nb_frames": "36"
+      }
+    }
+  },
+  "app_graybox_simulator": {
+    "date": "2026-11-14 Asia/Shanghai",
+    "device": "iPhone 18 Pro",
+    "ios": "27.2",
+    "commands": [
+      "./Scripts/build.sh",
+      "./Scripts/test.sh"
+    ],
+    "build": "pass",
+    "tests": "pass",
+    "tests_run": 340,
+    "failures": 0,
+    "xcresult": "/Users/pacoramirez/Library/Developer/Xcode/DerivedData/FeatherTide-bjxcplhjeiulklfoeorevomninlb/Logs/Test/Test-FeatherTide-2026.11.14_15-54-38-+0800.xcresult",
+    "scope": "Shared App graybox baseline for ANM-007–009."
+  },
+  "visual_review": {
+    "rear_1x": "Dark flight feather edge and head bars read in appropriate poses.",
+    "rear_half": "Forward bar is faint; dark flight feather edge reads.",
+    "method": "Blender native-size stills and decoded video frames.",
+    "paco_signoff": "pending"
+  },
+  "redline_review": {
+    "scope": "Animation assets and review renders. No new player-facing rules or feedback.",
+    "runtime_performance": "待真机验证"
+  },
+  "pending": {
+    "paco": "Motion, screen readability and separate MAT-002 review.",
+    "realitykit_usdz": "Clip conversion, in-game state/phase handoffs, terrain and actual flock.",
+    "iphone_ipad": "Display, touch, camera, performance."
+  }
+}

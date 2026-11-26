@@ -1,0 +1,310 @@
+{
+  "id": "FX-004",
+  "version": "v001",
+  "status": "needs_review",
+  "blender": "5.2.2 LTS",
+  "checked_from_delivery": {
+    "FX-004_Fog_Start.blend": "181ba2882f206462d2be8dd5a6470f4addb3f4580f36446055a601bfb3043955",
+    "FX-004_Fog_Start.glb": "ddcbe2c03c76b35cb1cff4d10a8f8808255bcd0edf42da377ebd403b67e38778"
+  },
+  "scene_controls": {
+    "1.0": {
+      "measured_peak_abs_horizontal_motion_BU": 1.2897491455078125,
+      "cycle_closure_error_BU": 0.0,
+      "sampled_material_gain": 1.0
+    },
+    "0.35": {
+      "measured_peak_abs_horizontal_motion_BU": 0.4514122009277344,
+      "cycle_closure_error_BU": 0.0,
+      "sampled_material_gain": 0.35
+    },
+    "0.0": {
+      "measured_peak_abs_horizontal_motion_BU": 1.9073486345888568e-07,
+      "cycle_closure_error_BU": 0.0,
+      "sampled_material_gain": 0.0
+    }
+  },
+  "verification_kind": "Independent Blender reopen, full GLB import, render comparison and MP4 full decode",
+  "visibility": {
+    "camera_poses": [
+      [
+        [
+          0,
+          0
+        ],
+        0,
+        0
+      ],
+      [
+        [
+          -0.34,
+          1.3
+        ],
+        -0.028,
+        2.5
+      ],
+      [
+        [
+          0.46,
+          2.6
+        ],
+        0.045,
+        5
+      ]
+    ],
+    "motion_phases_per_pose": 16,
+    "settings": {
+      "1.0": {
+        "sample_count": {
+          "start": 2160,
+          "corridor": 3456,
+          "stick": 18432,
+          "flank": 864
+        },
+        "max_composite_alpha": {
+          "start": 0.0,
+          "corridor": 0.0,
+          "stick": 0.0,
+          "flank": 0.4607844352722168
+        },
+        "route_alpha_limit": 0.075,
+        "stick_alpha_limit": 0.01
+      },
+      "0.35": {
+        "sample_count": {
+          "start": 2160,
+          "corridor": 3456,
+          "stick": 18432,
+          "flank": 864
+        },
+        "max_composite_alpha": {
+          "start": 0.0,
+          "corridor": 0.0,
+          "stick": 0.0,
+          "flank": 0.16127455234527588
+        },
+        "route_alpha_limit": 0.028,
+        "stick_alpha_limit": 0.01
+      },
+      "0.0": {
+        "sample_count": {
+          "start": 2160,
+          "corridor": 3456,
+          "stick": 18432,
+          "flank": 864
+        },
+        "max_composite_alpha": {
+          "start": 0.0,
+          "corridor": 0.0,
+          "stick": 0.0,
+          "flank": 0.0
+        },
+        "route_alpha_limit": 0.0,
+        "stick_alpha_limit": 0.01
+      }
+    },
+    "safe_insets_examples_left_bottom_px": [
+      [
+        0,
+        0
+      ],
+      [
+        32,
+        21
+      ],
+      [
+        64,
+        34
+      ]
+    ],
+    "joystick_reference": {
+      "leftInset": 28,
+      "bottomInset": 24,
+      "radius": 72,
+      "grabRadius": 108,
+      "fullTravelVisualRadius": 95
+    },
+    "method": "Trace rays through all card planes and bilinearly sample alpha; multiply transmittance."
+  },
+  "raw_glb": {
+    "Fog_LowWest": {
+      "triangles": 16,
+      "center_glTF": [
+        -6.95,
+        0.24,
+        -10.25
+      ],
+      "width_height_BU": [
+        7.1,
+        0.63
+      ],
+      "image_sha256": "0a24b950e6575f9632ff625ca407dd1d2a9b67ad26505f66235e14560ed6280e",
+      "double_sided": true,
+      "alpha_mode": "BLEND",
+      "wrap": "CLAMP_TO_EDGE"
+    },
+    "Fog_LowEast": {
+      "triangles": 16,
+      "center_glTF": [
+        6.7,
+        0.3,
+        -11.8
+      ],
+      "width_height_BU": [
+        7.25,
+        0.74
+      ],
+      "image_sha256": "0a24b950e6575f9632ff625ca407dd1d2a9b67ad26505f66235e14560ed6280e",
+      "double_sided": true,
+      "alpha_mode": "BLEND",
+      "wrap": "CLAMP_TO_EDGE"
+    },
+    "Fog_ShoreWest": {
+      "triangles": 16,
+      "center_glTF": [
+        -9.2,
+        0.57,
+        -14.0
+      ],
+      "width_height_BU": [
+        13.4,
+        1.36
+      ],
+      "image_sha256": "dcb813eb8c45677dd201fbe44087b8ac31235c54b99c49ab9b7b8495c60cd286",
+      "double_sided": true,
+      "alpha_mode": "BLEND",
+      "wrap": "CLAMP_TO_EDGE"
+    },
+    "Fog_ShoreEast": {
+      "triangles": 16,
+      "center_glTF": [
+        10.0,
+        0.83,
+        -17.6
+      ],
+      "width_height_BU": [
+        14.6,
+        1.72
+      ],
+      "image_sha256": "dcb813eb8c45677dd201fbe44087b8ac31235c54b99c49ab9b7b8495c60cd286",
+      "double_sided": true,
+      "alpha_mode": "BLEND",
+      "wrap": "CLAMP_TO_EDGE"
+    },
+    "Fog_DistantWest": {
+      "triangles": 16,
+      "center_glTF": [
+        -15.0,
+        1.06,
+        -25.0
+      ],
+      "width_height_BU": [
+        22.2,
+        2.02
+      ],
+      "image_sha256": "1c4cd29f99fe0f50c59eeed76681afc890c39233da8b75f4f98fe78ecbe3e4f6",
+      "double_sided": true,
+      "alpha_mode": "BLEND",
+      "wrap": "CLAMP_TO_EDGE"
+    },
+    "Fog_DistantEast": {
+      "triangles": 16,
+      "center_glTF": [
+        17.5,
+        1.25,
+        -33.0
+      ],
+      "width_height_BU": [
+        24.0,
+        2.4
+      ],
+      "image_sha256": "1c4cd29f99fe0f50c59eeed76681afc890c39233da8b75f4f98fe78ecbe3e4f6",
+      "double_sided": true,
+      "alpha_mode": "BLEND",
+      "wrap": "CLAMP_TO_EDGE"
+    }
+  },
+  "glb_roundtrip_render": {
+    "maximum_channel_delta_8bit": 12,
+    "mean_absolute_channel_delta_8bit": 0.14400183970660263,
+    "pixels_channel_delta_at_least_5": 790,
+    "fraction_of_pixels_with_channel_delta_at_least_5": 0.002359363987145946
+  },
+  "pixel_comparisons": {
+    "default_vs_off": {
+      "maximum_channel_delta_8bit": 94,
+      "mean_absolute_channel_delta_8bit": 2.3403497035364578,
+      "pixels_channel_delta_at_least_5": 24729
+    },
+    "reduced_vs_off": {
+      "maximum_channel_delta_8bit": 52,
+      "mean_absolute_channel_delta_8bit": 1.0848445208997837,
+      "pixels_channel_delta_at_least_5": 20396
+    },
+    "takeoff_opening": {
+      "center_box_xyxy": [
+        398,
+        42,
+        454,
+        91
+      ],
+      "flank_boxes_xyxy": [
+        [
+          204,
+          42,
+          277,
+          91
+        ],
+        [
+          585,
+          42,
+          658,
+          91
+        ]
+      ],
+      "average_luma_center_8bit": 144.86442551020406,
+      "average_luma_flanks_8bit": 126.63096005032149,
+      "difference_8bit": 18.233465459882567
+    }
+  },
+  "video": {
+    "file": "preview_fixed_rear.mp4",
+    "codec": "h264",
+    "render_source_size_px": [
+      852,
+      393
+    ],
+    "encoded_size_px": [
+      852,
+      394
+    ],
+    "padded_bottom_rows": 1,
+    "fps": 12,
+    "frames_decoded": 48,
+    "duration_seconds": 4.0,
+    "audio_streams": 0,
+    "source_first_vs_last": {
+      "maximum_channel_delta_8bit": 49,
+      "mean_absolute_channel_delta_8bit": 0.6354464075945637,
+      "pixels_channel_delta_at_least_5": 16904
+    }
+  },
+  "pending": {
+    "art_approval_and_new_player_readability": "pending",
+    "USDZ_and_RealityKit_import_compositing_and_depth": "pending",
+    "S0_final_layout_runtime_safety_accessibility_and_stick_composition": "pending",
+    "iPhone_iPad_visual_touch_performance": "pending",
+    "asset_index_ledgers_task_json_active_plan": "pending"
+  },
+  "simulator_baseline": {
+    "os": "iOS 27.2",
+    "tests_passed": 340,
+    "source": "plans/active/goose-preview-model-cleanup.md",
+    "new_app_run": false
+  },
+  "redline_self_check": {
+    "review_context_only": true,
+    "source": "plans/_templates/redline-checklist.md",
+    "gameplay_UI_audio_changes": false
+  }
+}

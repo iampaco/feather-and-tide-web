@@ -1,0 +1,269 @@
+{
+  "result": "pass",
+  "roundtrip": {
+    "layer_geometry": {
+      "ProtectedMarsh_Ground": {
+        "triangles": 10240,
+        "max_normal_delta_deg": 0.024709531991911206,
+        "axis_checked_gltf_xyz_bounds_BU": [
+          [
+            -25,
+            15
+          ],
+          [
+            -0.64955073595047,
+            0
+          ],
+          [
+            -25,
+            25
+          ]
+        ]
+      },
+      "ProtectedMarsh_Water": {
+        "triangles": 822,
+        "max_normal_delta_deg": 0.0,
+        "axis_checked_gltf_xyz_bounds_BU": [
+          [
+            -14.260602951049805,
+            14.142807960510254
+          ],
+          [
+            -0.18000000715255737,
+            -0.18000000715255737
+          ],
+          [
+            -4.200684547424316,
+            14.11880111694336
+          ]
+        ]
+      },
+      "ProtectedMarsh_Reeds": {
+        "triangles": 26004,
+        "max_normal_delta_deg": 0.004845430799851908,
+        "axis_checked_gltf_xyz_bounds_BU": [
+          [
+            -24.166362762451172,
+            15.29572868347168
+          ],
+          [
+            -0.15335561335086823,
+            1.3155713081359863
+          ],
+          [
+            -14.414286613464355,
+            23.757957458496094
+          ]
+        ]
+      }
+    },
+    "identical_GLTF_embedded_PNG_SHA256": {
+      "GrassFlat": "e06d76e88c90a29ad97a810ed7578ce67f79da1b915940d5406750228f36996b",
+      "MudBank": "0343b68d4e256fca7b747c65b2fcebc74c46f3aa2334044051ac862e4e02c5b1",
+      "ShallowMargin": "bd12529acd7f63aefad1df09111aa6b9a84c95161bbdb1d0c64f1cbc66d2c6f7",
+      "MossStone": "10670b355497a7e1f53116859dd31128377e892f263ce8f0de58d125cff265c7",
+      "FogLeaf": "a4fbb2db73897427d8172297edb7b59d80a17707b3a3f1a198857f4996e6ed26",
+      "SedgeLeaf": "a4fbb2db73897427d8172297edb7b59d80a17707b3a3f1a198857f4996e6ed26",
+      "SeedHead": "e201e626c70ba88af6cbeae9662dc76375930208e121c4af5dbdfc52cfcefab0",
+      "ProtectedWestReedwater": "fdb2ecbafdf57471aa36973258cbeb1da538753a197c29f5966460fee0acec1e",
+      "ENV003_ShallowPool_StartMudflat": "915bf85fc4c0f2271c73b3d14fb1a324182a07ebe757138696263312d5f17dc5",
+      "ENV003_ShallowPool_RestPatch": "2d51dc4509c523d3d7f9f030f42e456ee60c963eb54b57df49629b94c9954341",
+      "ProtectedEastShallows": "fb10a5d204c78bd25029ea921cbe289a5931ec63e59e5c7c13e296b67999c314"
+    }
+  },
+  "flight": {
+    "positions": 121,
+    "full_formation_count": 12,
+    "fit_probe_count": 4356,
+    "minimum_static_mesh_clearance_above_ground_BU": 0.11099976485967636,
+    "continuous_flock_envelope_to_sweep_gap_BU": 6.492590112143743,
+    "wetland_layer_AABB_to_sweep_gaps_BU": {
+      "ProtectedMarsh_Ground": 0.7920003814697267,
+      "ProtectedMarsh_Water": 3.88973972058732,
+      "ProtectedMarsh_Reeds": 0.49627169799804705
+    },
+    "conservative_CHR001_neutral_pose_footprint_radius_BU": 0.8194102502524975,
+    "wingtip_to_wingtip_formation_width_BU": 15.856436610221863,
+    "slot_offsets_xy_BU": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        -1.2960000038146973,
+        -1.2960000038146973
+      ],
+      [
+        1.2960000038146973,
+        -1.2960000038146973
+      ],
+      [
+        -2.5920000076293945,
+        -2.5920000076293945
+      ],
+      [
+        2.5920000076293945,
+        -2.5920000076293945
+      ],
+      [
+        -3.888000011444092,
+        -3.888000011444092
+      ],
+      [
+        3.888000011444092,
+        -3.888000011444092
+      ],
+      [
+        -5.184000015258789,
+        -5.184000015258789
+      ],
+      [
+        5.184000015258789,
+        -5.184000015258789
+      ],
+      [
+        -6.480000019073486,
+        -6.480000019073486
+      ],
+      [
+        6.480000019073486,
+        -6.480000019073486
+      ],
+      [
+        -7.776000022888184,
+        -7.776000022888184
+      ]
+    ],
+    "leader_ingress_exit_y_BU": [
+      -14.0,
+      22.0
+    ],
+    "leader_x_BU": 2.0,
+    "proof": "Analytic closest distance from every straight slot trajectory with a full-size bird bounding disc; center and two wingtip BVH rays at 121 stations."
+  },
+  "water": {
+    "ProtectedMarsh_Water.001": {
+      "triangles": 822,
+      "wet_area_BU2": 114.29640382173966,
+      "max_dry_penetration_BU": 6.484985351495887e-07
+    }
+  },
+  "boundary_crossing": {
+    "connection_joins": [
+      {
+        "label": "ProtectedMarsh to Flat at -10,-25",
+        "samples": 17,
+        "max_gap_BU": 0.0,
+        "max_normal_error_deg": 0.0,
+        "max_uv_modulo_error": 0.0
+      },
+      {
+        "label": "ProtectedMarsh to Flat at -10,25",
+        "samples": 17,
+        "max_gap_BU": 0.0,
+        "max_normal_error_deg": 0.0,
+        "max_uv_modulo_error": 0.0
+      },
+      {
+        "label": "ProtectedMarsh to Flat at 0,-25",
+        "samples": 17,
+        "max_gap_BU": 0.0,
+        "max_normal_error_deg": 0.0,
+        "max_uv_modulo_error": 0.0
+      },
+      {
+        "label": "ProtectedMarsh to Flat at 0,25",
+        "samples": 17,
+        "max_gap_BU": 0.0,
+        "max_normal_error_deg": 0.0,
+        "max_uv_modulo_error": 0.0
+      },
+      {
+        "label": "ProtectedMarsh to Flat at 10,-25",
+        "samples": 17,
+        "max_gap_BU": 0.0,
+        "max_normal_error_deg": 0.0,
+        "max_uv_modulo_error": 0.0
+      },
+      {
+        "label": "ProtectedMarsh to Flat at 10,25",
+        "samples": 17,
+        "max_gap_BU": 0.0,
+        "max_normal_error_deg": 0.0,
+        "max_uv_modulo_error": 0.0
+      }
+    ],
+    "flight": {
+      "positions": 121,
+      "full_formation_count": 12,
+      "fit_probe_count": 4356,
+      "minimum_static_mesh_clearance_above_ground_BU": 0.11099976485967636,
+      "continuous_flock_envelope_to_sweep_gap_BU": 6.492590112143743,
+      "wetland_layer_AABB_to_sweep_gaps_BU": {
+        "ProtectedMarsh_Ground": 0.7920003814697267,
+        "ProtectedMarsh_Water": 3.88973972058732,
+        "ProtectedMarsh_Reeds": 0.49627169799804705
+      },
+      "conservative_CHR001_neutral_pose_footprint_radius_BU": 0.8194102502524975,
+      "wingtip_to_wingtip_formation_width_BU": 15.856436610221863,
+      "slot_offsets_xy_BU": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          -1.2960000038146973,
+          -1.2960000038146973
+        ],
+        [
+          1.2960000038146973,
+          -1.2960000038146973
+        ],
+        [
+          -2.5920000076293945,
+          -2.5920000076293945
+        ],
+        [
+          2.5920000076293945,
+          -2.5920000076293945
+        ],
+        [
+          -3.888000011444092,
+          -3.888000011444092
+        ],
+        [
+          3.888000011444092,
+          -3.888000011444092
+        ],
+        [
+          -5.184000015258789,
+          -5.184000015258789
+        ],
+        [
+          5.184000015258789,
+          -5.184000015258789
+        ],
+        [
+          -6.480000019073486,
+          -6.480000019073486
+        ],
+        [
+          6.480000019073486,
+          -6.480000019073486
+        ],
+        [
+          -7.776000022888184,
+          -7.776000022888184
+        ]
+      ],
+      "leader_ingress_exit_y_BU": [
+        -28.0,
+        35.0
+      ],
+      "leader_x_BU": 2.0,
+      "proof": "Analytic closest distance from every straight slot trajectory with a full-size bird bounding disc; center and two wingtip BVH rays at 121 stations."
+    },
+    "all_birds_clear_of_marsh_at_ingress_BU": 2.180589749747501,
+    "all_birds_clear_of_marsh_at_egress_BU": 1.4045897268593173
+  }
+}

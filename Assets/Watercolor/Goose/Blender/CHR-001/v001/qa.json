@@ -1,0 +1,563 @@
+{
+  "id": "CHR-001",
+  "version": "v001",
+  "status": "done",
+  "blender": {
+    "source": {
+      "triangles": 3940,
+      "vertices": 2036,
+      "max_influences": 2,
+      "max_weight_sum_error": 2.9802322387695312e-08,
+      "uv_finite_bounded_and_nondegenerate": "pass"
+    },
+    "poses": {
+      "Neutral": {
+        "edge_length_ratio_min": 1.0,
+        "edge_length_ratio_max": 1.0,
+        "unintended_pairs_intersecting": [],
+        "shoulder_attachment": [
+          true,
+          true
+        ],
+        "minimum_z_BU": -0.105
+      },
+      "Upstroke": {
+        "edge_length_ratio_min": 0.574,
+        "edge_length_ratio_max": 1.3306,
+        "unintended_pairs_intersecting": [],
+        "shoulder_attachment": [
+          true,
+          true
+        ],
+        "minimum_z_BU": -0.105
+      },
+      "Downstroke": {
+        "edge_length_ratio_min": 0.6435,
+        "edge_length_ratio_max": 1.3416,
+        "unintended_pairs_intersecting": [],
+        "shoulder_attachment": [
+          true,
+          true
+        ],
+        "minimum_z_BU": -0.29549
+      },
+      "Wrist flex": {
+        "edge_length_ratio_min": 0.6539,
+        "edge_length_ratio_max": 1.2561,
+        "unintended_pairs_intersecting": [],
+        "shoulder_attachment": [
+          true,
+          true
+        ],
+        "minimum_z_BU": -0.105
+      },
+      "Neck turn": {
+        "edge_length_ratio_min": 0.8169,
+        "edge_length_ratio_max": 1.1484,
+        "unintended_pairs_intersecting": [],
+        "shoulder_attachment": [
+          true,
+          true
+        ],
+        "minimum_z_BU": -0.105
+      }
+    },
+    "export": {
+      "one_mesh_one_skin": "pass",
+      "joint_count": 15,
+      "axes": "+X right, +Y up, -Z forward",
+      "bounds_gltf": [
+        [
+          -0.8002182841300964,
+          -0.10499999672174454,
+          -0.6140000224113464
+        ],
+        [
+          0.8002182841300964,
+          0.35899999737739563,
+          0.37601062655448914
+        ]
+      ],
+      "root_translation": [
+        0,
+        0,
+        0
+      ],
+      "pbr_textures_exact_png_match": "pass",
+      "variants": [
+        "Leader",
+        "Follower A",
+        "Follower B",
+        "Follower C"
+      ],
+      "animation_count": 0
+    },
+    "roundtrip": {
+      "bone_rest_matrix_error": 1.9669532775878906e-06,
+      "position_error_BU": 3.9740311308378296e-07,
+      "weights_max_error": 4.172325134277344e-05,
+      "uv_error": 2.9802322387695312e-08,
+      "packed_1k_images": 4
+    },
+    "gameplay_frame_measurements": {
+      "1x": {
+        "bounds_px": [
+          371.33,
+          158.87,
+          480.67,
+          206.03
+        ],
+        "crown_samples": {
+          "front_white": {
+            "px": [
+              425.5,
+              158.53
+            ],
+            "luma_rgb8": 111.4
+          },
+          "front_bar": {
+            "px": [
+              425.5,
+              159.05
+            ],
+            "luma_rgb8": 83.0
+          },
+          "white_gap": {
+            "px": [
+              425.5,
+              161.86
+            ],
+            "luma_rgb8": 175.8
+          },
+          "rear_bar": {
+            "px": [
+              425.5,
+              167.97
+            ],
+            "luma_rgb8": 90.4
+          },
+          "rear_white": {
+            "px": [
+              425.5,
+              169.64
+            ],
+            "luma_rgb8": 162.4
+          }
+        },
+        "raw_center_column_samples": {
+          "front_bar": {
+            "px": [
+              426,
+              159
+            ],
+            "luma_rgb8": 79.3
+          },
+          "white_gap": {
+            "px": [
+              426,
+              162
+            ],
+            "luma_rgb8": 176.0
+          },
+          "rear_bar": {
+            "px": [
+              426,
+              166
+            ],
+            "luma_rgb8": 50.0
+          }
+        }
+      },
+      "1x_cool": {
+        "bounds_px": [
+          371.33,
+          158.87,
+          480.67,
+          206.03
+        ],
+        "crown_samples": {
+          "front_white": {
+            "px": [
+              425.5,
+              158.53
+            ],
+            "luma_rgb8": 98.8
+          },
+          "front_bar": {
+            "px": [
+              425.5,
+              159.05
+            ],
+            "luma_rgb8": 71.8
+          },
+          "white_gap": {
+            "px": [
+              425.5,
+              161.86
+            ],
+            "luma_rgb8": 162.5
+          },
+          "rear_bar": {
+            "px": [
+              425.5,
+              167.97
+            ],
+            "luma_rgb8": 76.3
+          },
+          "rear_white": {
+            "px": [
+              425.5,
+              169.64
+            ],
+            "luma_rgb8": 148.3
+          }
+        },
+        "raw_center_column_samples": {
+          "front_bar": {
+            "px": [
+              426,
+              159
+            ],
+            "luma_rgb8": 69.0
+          },
+          "white_gap": {
+            "px": [
+              426,
+              162
+            ],
+            "luma_rgb8": 162.8
+          },
+          "rear_bar": {
+            "px": [
+              426,
+              166
+            ],
+            "luma_rgb8": 41.0
+          }
+        }
+      },
+      "half": {
+        "bounds_px": [
+          399.07,
+          175.19,
+          452.93,
+          199.0
+        ],
+        "crown_samples": {
+          "front_white": {
+            "px": [
+              425.5,
+              174.74
+            ],
+            "luma_rgb8": 119.2
+          },
+          "front_bar": {
+            "px": [
+              425.5,
+              175.07
+            ],
+            "luma_rgb8": 113.2
+          },
+          "white_gap": {
+            "px": [
+              425.5,
+              176.54
+            ],
+            "luma_rgb8": 167.8
+          },
+          "rear_bar": {
+            "px": [
+              425.5,
+              179.67
+            ],
+            "luma_rgb8": 117.5
+          },
+          "rear_white": {
+            "px": [
+              425.5,
+              180.53
+            ],
+            "luma_rgb8": 148.5
+          }
+        },
+        "raw_center_column_samples": {
+          "front_bar": {
+            "px": [
+              426,
+              175
+            ],
+            "luma_rgb8": 109.9
+          },
+          "white_gap": {
+            "px": [
+              426,
+              177
+            ],
+            "luma_rgb8": 174.2
+          },
+          "rear_bar": {
+            "px": [
+              426,
+              179
+            ],
+            "luma_rgb8": 60.1
+          }
+        }
+      },
+      "half_cool": {
+        "bounds_px": [
+          399.07,
+          175.19,
+          452.93,
+          199.0
+        ],
+        "crown_samples": {
+          "front_white": {
+            "px": [
+              425.5,
+              174.74
+            ],
+            "luma_rgb8": 104.9
+          },
+          "front_bar": {
+            "px": [
+              425.5,
+              175.07
+            ],
+            "luma_rgb8": 98.8
+          },
+          "white_gap": {
+            "px": [
+              425.5,
+              176.54
+            ],
+            "luma_rgb8": 153.9
+          },
+          "rear_bar": {
+            "px": [
+              425.5,
+              179.67
+            ],
+            "luma_rgb8": 103.3
+          },
+          "rear_white": {
+            "px": [
+              425.5,
+              180.53
+            ],
+            "luma_rgb8": 132.2
+          }
+        },
+        "raw_center_column_samples": {
+          "front_bar": {
+            "px": [
+              426,
+              175
+            ],
+            "luma_rgb8": 95.8
+          },
+          "white_gap": {
+            "px": [
+              426,
+              177
+            ],
+            "luma_rgb8": 161.6
+          },
+          "rear_bar": {
+            "px": [
+              426,
+              179
+            ],
+            "luma_rgb8": 50.9
+          }
+        }
+      }
+    },
+    "flock_preview": {
+      "leader_count": 1,
+      "follower_count": 11,
+      "shared_mesh_datablocks": 1,
+      "follower_scale": 0.8,
+      "follower_root_positions_game_xy": [
+        [
+          -45,
+          -25
+        ],
+        [
+          45,
+          -25
+        ],
+        [
+          0,
+          -30
+        ],
+        [
+          -76,
+          -48
+        ],
+        [
+          -25,
+          -49
+        ],
+        [
+          25,
+          -49
+        ],
+        [
+          76,
+          -48
+        ],
+        [
+          -71,
+          -69
+        ],
+        [
+          -23,
+          -71
+        ],
+        [
+          23,
+          -72
+        ],
+        [
+          71,
+          -71
+        ]
+      ],
+      "screen_bounds_px": {
+        "Goose_LOD0": [
+          371.33,
+          158.87,
+          480.67,
+          206.03
+        ],
+        "Follower A · 01": [
+          250.45,
+          194.36,
+          349.9,
+          239.68
+        ],
+        "Follower B · 02": [
+          502.1,
+          194.36,
+          601.55,
+          239.68
+        ],
+        "Follower C · 03": [
+          374.75,
+          200.15,
+          477.25,
+          247.3
+        ],
+        "Follower A · 04": [
+          121.97,
+          224.04,
+          237.29,
+          279.11
+        ],
+        "Follower B · 05": [
+          286.35,
+          225.53,
+          402.44,
+          281.14
+        ],
+        "Follower C · 06": [
+          449.56,
+          225.53,
+          565.65,
+          281.14
+        ],
+        "Follower A · 07": [
+          614.71,
+          224.04,
+          730.03,
+          279.11
+        ],
+        "Follower B · 08": [
+          89.17,
+          259.95,
+          224.13,
+          329.28
+        ],
+        "Follower C · 09": [
+          268.75,
+          263.96,
+          405.88,
+          334.99
+        ],
+        "Follower A · 10": [
+          446.28,
+          266.01,
+          584.56,
+          337.92
+        ],
+        "Follower B · 11": [
+          631.2,
+          263.96,
+          768.38,
+          334.99
+        ]
+      }
+    },
+    "reopen_source": {
+      "status": "pass",
+      "checked_pose_assets": 5,
+      "neutral_on_open": true,
+      "mesh_and_rig_unit_scale": true
+    },
+    "downstroke_ground_clearance": {
+      "status": "follow_up",
+      "blender_pose_min_z_BU": -0.29549,
+      "root_height_game_units": 8,
+      "projected_clearance_game_units": -0.208,
+      "note": "姿势图底板降低到 -0.54 BU 以看清蒙皮。正式巡航需校验翼尖离地。"
+    }
+  },
+  "visual_review": {
+    "graybox": "pass — 固定后上方可分辨头、颈、翼尖和尾羽。已看顶视及后上方近看。",
+    "top_and_detail": "pass — 可辨暖白头、两道独立深色横纹、灰褐覆羽、深色飞羽和暖橘喙脚。",
+    "1x_neutral_and_cool": "pass — 852 × 393 原图双纹及纹间亮区可辨，深飞羽与覆羽分开。",
+    "0.5x_neutral_and_cool": "pass_for_blender_static_frame — 原图两条独立暗带及亮间隔可辨。前纹约 1 px，动态和手机屏待复核。飞羽可辨为深边，单根羽片在此尺寸下不稳定。",
+    "flock_12": "pass_for_blender_static_frame — 领队与 11 同伴均在固定画幅中，复用一个网格数据块。用人工审阅摆位，未验证游戏中的动态间距。",
+    "poses": "pass_for_tested_poses — 对照中立、上举、下压、腕部弯折及转颈，肩翼保持连接，指定部件对无意外相交，渲染未见明显撕裂。翼根与重叠羽层存在有意相接。",
+    "glb_roundtrip": "pass — 回导外观与源文件一致，骨骼矩阵、UV 和蒙皮权重误差见技术记录。"
+  },
+  "realitykit_asset_integration": {
+    "status": "pending",
+    "checks": [
+      "USDZ 导入、朝向和缩放",
+      "振翅与离地",
+      "动态 1+11 同屏、可辨性与队形间距"
+    ]
+  },
+  "iphone_ipad": {
+    "status": "pending",
+    "checks": [
+      "横屏实际显示和运动下的双纹/飞羽",
+      "性能与发热"
+    ]
+  },
+  "simulator": {
+    "status": "pass",
+    "scope": "App 灰盒基线。CHR-001 的 GLB 与 USDZ 尚未接入。",
+    "device": "iPhone 18 Pro",
+    "os": "iOS 27.2",
+    "build": "./Scripts/build.sh",
+    "test": "./Scripts/test.sh",
+    "tests": 340,
+    "failures": 0,
+    "xcresult": "Test-FeatherTide-2026.11.14_01-02-35-+0800.xcresult"
+  },
+  "art_review": {
+    "status": "pass",
+    "dependencies": {
+      "MAT-001/v001": "done",
+      "MAT-002/v001": "needs_review"
+    },
+    "reviewer": "Paco",
+    "date": "2026-11-14",
+    "scope": "CHR-001/v001 角色候选制作验收，作为 ANM-001 输入。MAT-002 独立材质审阅和运行时验收见各自记录。"
+  },
+  "redline_check": "已对照项目清单。交付为候选角色资产和审阅证据。真机项目标为待验证。",
+  "next_asset": "ANM-001"
+}

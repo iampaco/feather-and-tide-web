@@ -1,0 +1,91 @@
+{
+  "source_scene_inputs": {
+    "ENV-004": {
+      "blend": "ENV-004/v001/ENV-004_reeds.blend",
+      "sha256": "8885406321f8c4ba84537c6a437f54a3d160fdfcbfa670ce19565140e6030947"
+    },
+    "ENV-012": {
+      "blend": "ENV-012/v001/ENV-012_wind_trees.blend",
+      "sha256": "d6410e66959527d3d9f65ca67239a0494f03d3bd13783bbdba550ead6c466862"
+    },
+    "ENV-002": {
+      "blend": "ENV-002/v001/ENV-002_wetland.blend",
+      "sha256": "f9c3f7dfd1c9be05f455bfca9f29456acea30b0e4b8a05967d11249201214548"
+    },
+    "CHR-001": {
+      "blend": "CHR-001/v001/CHR-001_goose_rig.blend",
+      "sha256": "db0c8d55c5efc499c99f7787228967451d071f36294962b12dc4b34d02f350f5"
+    }
+  },
+  "wind": {
+    "direction": "Normalized horizontal world downwind vector. In Blender (dx,dy,0); in RealityKit (dx,0,-dy). Map a zero vector to strength=0.",
+    "strength": [
+      0,
+      1
+    ],
+    "motionScale": [
+      0,
+      1
+    ],
+    "reduceMotion": "Set motionScale=0 for a still neutral pose.",
+    "periodSeconds_default": 1.75,
+    "periodSeconds_range": [
+      0.35,
+      8.0
+    ],
+    "clockSeconds": "Elapsed effect time in seconds, continuous across sample calls.",
+    "phaseRad": "Stable per-instance value in [0,2pi), e.g. stable seeded random.",
+    "response": "Optional per-instance amplitude in [0,1], default 1.",
+    "yaw": "Inverse instance rotation transforms world downwind into plant space.",
+    "root": "Root remains identity. Stem and distal joint rotate in local rest coordinates.",
+    "local_bend_axis": "normalize(upLocal cross downwindLocal), then inverse joint rest basis rotates the axis into bone-local coordinates.",
+    "angleRadians": "radians(maxAngleDegrees[j]) * strength * motionScale * response * (0.71 + 0.29*sin(2*pi*clockSeconds/periodSeconds + phaseRad - j*0.43))",
+    "reed_joint_degrees": {
+      "Stem": 14,
+      "Tip": 20
+    },
+    "tree_joint_degrees": {
+      "Stem": 7,
+      "Crown": 13
+    },
+    "cueTiming": "Supply an early visual strength ramp from the runtime if needed. The S3 preview marker at local frame 28 represents a demonstration."
+  },
+  "review_defaults": {
+    "S1": {
+      "direction": [
+        0.96,
+        0.27
+      ],
+      "strength": 0.24,
+      "review": "Light wind"
+    },
+    "S3": {
+      "direction": [
+        -0.98,
+        0.2
+      ],
+      "strength": 0.84,
+      "review": "Early gust cue"
+    },
+    "S5": {
+      "direction": [
+        0.42,
+        -0.91
+      ],
+      "strength": 0.94,
+      "review": "Headwind"
+    }
+  },
+  "fixed_camera": {
+    "pixels": [
+      852,
+      393
+    ],
+    "distance_game_units": 180,
+    "pitch_rad": 0.48,
+    "vertical_fov_deg": 50,
+    "target_height_game_units": 6,
+    "game_units_per_BU": 27.77777777777778,
+    "beak_to_tail_BU": 0.99
+  }
+}

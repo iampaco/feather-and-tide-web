@@ -1,0 +1,208 @@
+{
+  "id": "FX-008",
+  "version": "v001",
+  "status": "needs_review",
+  "blender": "5.2.2 LTS",
+  "variant": "FormationGuide",
+  "task_type": "vfx_guide",
+  "source": "Original procedural ribbon and watercolor texture. Flock visuals and phase-aligned actions shown only in the review scene come from the CHR-001 and ANM-006 v001 lineage.",
+  "rights": "Original project production and existing project dependency assets.",
+  "dependencies": {
+    "CHR-001": {
+      "status": "done",
+      "qa_status": "done",
+      "sha256": {
+        "CHR-001_goose_rig.blend": "db0c8d55c5efc499c99f7787228967451d071f36294962b12dc4b34d02f350f5",
+        "CHR-001_goose_rig.glb": "cd11419a47a2c8e2d67d636015675540581a74720a83c23ef8531437c7161b81",
+        "README.md": "fca1e84b2f0c7dfdac8ffa4cd929cd20a529b2dcd18a71821249b7315d31f659",
+        "asset_manifest.json": "8daa953c8b45b97f750e45e33a751869470f9baead7182d253e5bf7fd1441921",
+        "qa.json": "de7e7d6eed73a5aa4d993113b4713e81f470480d982d981e80ef58acb56488ea"
+      }
+    },
+    "ANM-006": {
+      "status": "needs_review",
+      "qa_status": "needs_review",
+      "sha256": {
+        "ANM-006_formation_blend.blend": "b4690d3f11dd225f51413c0dbf2f75fe900e630222432568b37d426f924f1cb5",
+        "ANM-006_formation_blend.glb": "f66466196668e7aaa8f36cde867a7ada83d87d56acfb121c7428aad4d7c129fe",
+        "README.md": "5d2a7fc1c485b688f62ac61c9c4859b6e1a39297bcbf70e3a61d2d9db3620ace",
+        "asset_manifest.json": "f6965e0925ac5f5822c9a1930ce607bed2c16287d1a868998b0d689849257a61",
+        "qa.json": "b45884f33e3d91d28a764e8154d0e743c2a22042b11672541157f1eb6865ab71"
+      }
+    }
+  },
+  "reference": [
+    "完整AI建模任务包/羽与潮_斑头雁_Blender资源制作规格书_v1.0.pdf, FX-008 on page 15",
+    "完整AI建模任务包/羽与潮_斑头雁_资源任务清单_v1.0.json, FX-008",
+    "docs/adr/0003-realitykit-third-person.md",
+    "plans/active/goose-preview-model-cleanup.md"
+  ],
+  "source_sha256": {
+    "Sources/FeatherTide/Systems/Camera/ThirdPersonRig.swift": "274b58f0b910a280c676540dde54343c35e2e0709744e20e7e5ee4f9515476a2",
+    "Sources/FeatherTide/Rendering/PlayfieldView.swift": "8c37c08a35b8b299cc9af9f9e63e64ef5d50947e12822356fee8de398bc110dc",
+    "Sources/FeatherTide/Systems/Input/PlayfieldPilot.swift": "95162d30d29f1fea8d36c67430d1073af297656eb84a8b1a2a0c3d1a9997e621",
+    "Sources/FeatherTide/Systems/Flock/FlockFormation.swift": "6c5347ca2fa050afdd4573c01dda97b617b2f0e82ff06e38df9bde71f3014eb9",
+    "Sources/FeatherTide/Data/FlockTuning.swift": "37b15ad66a1164738ecf651dde6c507ae6db2ffbba7f8e4c4394f87b655080b1"
+  },
+  "model": {
+    "pivot_BU": [
+      0,
+      0,
+      0
+    ],
+    "object_scale": [
+      1,
+      1,
+      1
+    ],
+    "length_BU": 0.64,
+    "triangles": 10,
+    "blender_axes": {
+      "right": "+X",
+      "up": "+Z",
+      "forward": "+Y"
+    },
+    "gltf_axes": {
+      "right": "+X",
+      "up": "+Y",
+      "forward": "-Z"
+    },
+    "gltf_from_blender": "(x,y,z) -> (x,z,-y)",
+    "maximum_cross_section_width_BU": 0.155,
+    "overall_lateral_bounds_width_BU": 0.1629314422607422
+  },
+  "texture": {
+    "file": "textures/ft_goose_fx_formation_guide_basecolor_alpha.png",
+    "dimensions_px": [
+      256,
+      64
+    ],
+    "channels": "sRGB Base Color RGB and straight Alpha",
+    "max_alpha_8bit": 100,
+    "usage": "Packed in .blend and embedded verbatim in .glb. Unlit normal blend; no emissive bloom."
+  },
+  "camera": {
+    "frame_px": [
+      852,
+      393
+    ],
+    "distance_game_units": 180,
+    "pitch_parameter_rad": 0.48,
+    "vertical_fov_deg": 50,
+    "target_height_game_units": 6,
+    "leader_height_game_units": 8,
+    "follower_height_game_units": 6,
+    "relative_center_unit_scale": "0.9900 BU bill-to-tail = 27.5 game units",
+    "fixed_third_person": true,
+    "birds": 12,
+    "placement": "Compact ANM-006 review poses; runtime flock draws from its own world anchors."
+  },
+  "controls": "runtime_mapping.json",
+  "video": {
+    "codec_name": "prores",
+    "codec_type": "video",
+    "width": 852,
+    "height": 393,
+    "pix_fmt": "yuv422p10le",
+    "r_frame_rate": "12/1",
+    "duration": "8.000000",
+    "nb_read_frames": "96"
+  },
+  "quality": "qa.json",
+  "pending": {
+    "art": "Owner art review, and legibility over final backgrounds and any combined adjacent effects.",
+    "runtime": "RealityKit visibility, texture/shader transparency and ordering, actual flock anchors, timing and route.",
+    "usdz_app": "USDZ and App integration.",
+    "hardware": "iPhone and iPad visual read, controls, frame rate, thermal behavior, and memory."
+  },
+  "files": {
+    "FX-008_FormationGuide.blend": {
+      "bytes": 4821804,
+      "sha256": "6f2eee2c6c87d2925dc9e72505785a4b711d10b57d7ce39285227ca521204c99"
+    },
+    "FX-008_FormationGuide.glb": {
+      "bytes": 14660,
+      "sha256": "46499e9e1aa509a8db8d2d05efef67d0ed1b36b03296135b30cddaa2d37aa2a9"
+    },
+    "FX-008_generate.py": {
+      "bytes": 21014,
+      "sha256": "bda38b48002e81391ae4d1142c60d024a5101a4c3b36e1e0392eb7afeb8dffca"
+    },
+    "FX-008_verify.py": {
+      "bytes": 16311,
+      "sha256": "5fee68bfd9830cc7c490df1342c99aa6386d6998cf37c7dcdf5b6023e47f3d39"
+    },
+    "README.md": {
+      "bytes": 4713,
+      "sha256": "1217add7708c764bf2f48d42f03e4b56548f755ac4cef027fd86fd7943a8df85"
+    },
+    "comparison_broken_without_trace.png": {
+      "bytes": 325813,
+      "sha256": "821c35e3a69abb88b9b24da1bef478c1176c9fd29d5c4612d4b141809b6c3f84"
+    },
+    "comparison_formed_without_trace.png": {
+      "bytes": 323448,
+      "sha256": "55bb016489e26214acc8c1194b669334b81602769ef0d825e84e40994890d448"
+    },
+    "comparison_released_without_trace.png": {
+      "bytes": 328280,
+      "sha256": "6516fb1121bd944d30d99ba525bb4f32b42589c7a88967b3ff952c25dcc38fd1"
+    },
+    "graybox_fixed_rear.png": {
+      "bytes": 318701,
+      "sha256": "af66246adf2f9927d8ddc9f6169c9fbd43f949fec023ef49e2d2dd6e9e92c46e"
+    },
+    "graybox_overhead.png": {
+      "bytes": 389507,
+      "sha256": "0185165436312828d2dde59d50812be093f2bab9a42248beadb26091bacf883e"
+    },
+    "preview_broken.png": {
+      "bytes": 325700,
+      "sha256": "4d6f0cf2facc9c978c2aa3a97a46a2a8d0a190cf3d85958b81458cc28abcdf5e"
+    },
+    "preview_fixed_rear_formation.mov": {
+      "bytes": 7379949,
+      "sha256": "d96f36c73c3dbe941015a09dbd2295087e980243f1674fe8de08ab8179c0e9e4"
+    },
+    "preview_formed.png": {
+      "bytes": 325154,
+      "sha256": "a7730df1c1e507fad0f4d8514fa38d57bd6d82d6c7a59fff335230786aad6e75"
+    },
+    "preview_forming.png": {
+      "bytes": 327010,
+      "sha256": "b793dc3ab40311f2d6037c7f2595ef8dc6efe8d95cd2ef8bf4f94c6a770244a1"
+    },
+    "preview_loose.png": {
+      "bytes": 328678,
+      "sha256": "545ad4c758513b599d223dba4b45da500405867c84b5efb80b5c233f6ffdd614"
+    },
+    "preview_released.png": {
+      "bytes": 328169,
+      "sha256": "05a21dfb478c074c7e6270eb1fe629f6dad09ae18b028f8caf3a7ad4d1daf559"
+    },
+    "preview_releasing.png": {
+      "bytes": 327573,
+      "sha256": "9d9dcf0839a9bf09db964be2bea42b9291aa46c8bab49e1be2ef0e986fcd4732"
+    },
+    "preview_top_formed.png": {
+      "bytes": 395709,
+      "sha256": "8b37089a2b10e906e2081a11c1e7acd3d0cf94ebf054e8866b45a287e917051f"
+    },
+    "qa.json": {
+      "bytes": 5517,
+      "sha256": "704fb42869bad9c34dde1b15f1db0651d607264666c23aeb17ec44f57515ebab"
+    },
+    "roundtrip_fixed_rear.png": {
+      "bytes": 325295,
+      "sha256": "8f34ffd770e2240802e0fd0ea8f138e0d5a0a397092b86e25cafa209e0dc7a72"
+    },
+    "runtime_mapping.json": {
+      "bytes": 3358,
+      "sha256": "5c54d58b16ffe96c39d23c6bd6c87f508cd60f144a31125200ed84855fd81363"
+    },
+    "textures/ft_goose_fx_formation_guide_basecolor_alpha.png": {
+      "bytes": 12439,
+      "sha256": "ab0c275ec6f22a8dfa4c94c87135bb0159bdd924f89d5ef4cd3e3cf4c875b8d6"
+    }
+  }
+}

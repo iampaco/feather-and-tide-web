@@ -1,0 +1,177 @@
+{
+  "id": "ANM-008",
+  "version": "v001",
+  "status": "needs_review",
+  "blender": "5.2.2 LTS",
+  "dependencies": {
+    "CHR-001/v001": "done",
+    "ANM-007/v001": "needs_review"
+  },
+  "source_hashes": {
+    "CHR-001/v001/CHR-001_goose_rig.blend": "db0c8d55c5efc499c99f7787228967451d071f36294962b12dc4b34d02f350f5",
+    "CHR-001/v001/CHR-001_goose_rig.glb": "cd11419a47a2c8e2d67d636015675540581a74720a83c23ef8531437c7161b81",
+    "ANM-001/v001/ANM-001_cruise_flap.blend": "b7faafee6aa4f0fd9e3c05224162fa5ff73b8bbd8c01818e101e5cdad0676111",
+    "ANM-001/v001/ANM-001_cruise_flap_generate.py": "ff7613de9a9a61ca857b0f363ab16ea6e3cf2dce894c9e0cbcad9d45312acd66",
+    "ANM-003/v001/ANM-003_glide_circle_generate.py": "4f17c8a2391ff11dc4861d9c407dde516d8bd74bde4cd2aaa53883d46c5eaee2",
+    "CHR-001/v001/CHR-001_goose_rig_generate.py": "9c56676574b80c6642dc11f4015f9460a14eb0ca6407acee440c9732071b4a90",
+    "ANM-007/v001/ANM-007_landing.blend": "bf8ed361fb9e06706e4a78e7fcbf2d4f61edc8cdbeea6018f2339dfecc35e5f0",
+    "ANM-007/v001/ANM-007_landing_generate.py": "dfd54fd3ab465b442f5bea5ee29dbe8bec9f1f747be6555ab3fdb546fb362f08"
+  },
+  "clips": {
+    "Rest_Idle": {
+      "frames": [
+        1.0,
+        145.0
+      ],
+      "fps": 48,
+      "duration_s": 3.0,
+      "cyclic": true,
+      "root_motion": false
+    }
+  },
+  "rig": {
+    "triangles_lod0": 3940,
+    "bones": 15,
+    "scale": [
+      1,
+      1,
+      1
+    ],
+    "pivot_BU": [
+      0,
+      0,
+      0
+    ],
+    "axes_blender": {
+      "right": "+X",
+      "up": "+Z",
+      "forward": "+Y"
+    },
+    "axes_gltf": {
+      "right": "+X",
+      "up": "+Y",
+      "forward": "-Z"
+    }
+  },
+  "rights": "Project-original animation on CHR-001 packed plumage.",
+  "variants": {
+    "Leader": [
+      1.0,
+      0.976,
+      0.925,
+      1.0
+    ],
+    "Follower A": [
+      0.965,
+      0.985,
+      1.0,
+      1.0
+    ],
+    "Follower B": [
+      0.91,
+      0.925,
+      0.94,
+      1.0
+    ],
+    "Follower C": [
+      0.98,
+      0.96,
+      0.94,
+      1.0
+    ]
+  },
+  "texture_mapping": {
+    "ft_goose_mat_billfeet_basecolor.png": {
+      "from": "Assets/Watercolor/Goose/Blender/MAT-002/v001/textures/ft_goose_mat_billfeet_basecolor.png",
+      "sha256": "ccf80ec9272f2dd56733c69d9536ccf7b41fabde7a9b396847f185c2dd8b97d0",
+      "embedded_in": [
+        ".blend",
+        ".glb"
+      ]
+    },
+    "ft_goose_mat_body_basecolor.png": {
+      "from": "Assets/Watercolor/Goose/Blender/MAT-002/v001/textures/ft_goose_mat_body_basecolor.png",
+      "sha256": "593d054ebf19385359ced9af9faa15c9e02ded94763481bf4ececfe14b8a8cc5",
+      "embedded_in": [
+        ".blend",
+        ".glb"
+      ]
+    },
+    "ft_goose_mat_flightfeather_basecolor.png": {
+      "from": "Assets/Watercolor/Goose/Blender/MAT-002/v001/textures/ft_goose_mat_flightfeather_basecolor.png",
+      "sha256": "2c0d67e50dfdb29a423cdcd1a000c0139588e1957cbb032d6696eca83c551014",
+      "embedded_in": [
+        ".blend",
+        ".glb"
+      ]
+    },
+    "ft_goose_mat_head_basecolor.png": {
+      "from": "Assets/Watercolor/Goose/Blender/MAT-002/v001/textures/ft_goose_mat_head_basecolor.png",
+      "sha256": "7d7bb772387c9d48517cd35e3554a9690791b2fa21af0f9241a18fad8592c205",
+      "embedded_in": [
+        ".blend",
+        ".glb"
+      ]
+    }
+  },
+  "camera": {
+    "distance_game_units": 180,
+    "pitch_parameter_rad": 0.48,
+    "vertical_fov_deg": 50,
+    "aim_height_game_units": 6,
+    "leader_height_game_units": 8,
+    "follower_height_game_units": 6,
+    "leader_bill_to_tail_game_units": 27.5,
+    "preview_game_units_per_BU": 27.777479617271997,
+    "render_px": [
+      852,
+      393
+    ],
+    "camera_location_BU": [
+      0.0,
+      -5.747788906097412,
+      2.7043581008911133
+    ]
+  },
+  "review": {
+    "surface": "flat wetland reference plane",
+    "follower_phase_offsets_frames": [
+      7,
+      19,
+      31,
+      43,
+      55,
+      67,
+      79,
+      91,
+      103,
+      115,
+      127
+    ],
+    "landed_pose_frame": 81,
+    "seam_frame": 145
+  },
+  "files": {
+    "ANM-008_rest_idle.blend": "7e920281c3d5fa0c9494c63688c809ec8f9f168245f8ef9dfa6ed55bf0e74e94",
+    "ANM-008_rest_idle.glb": "2ec12deaae2ff0ddaa7d2607cb244fb9552f1966ba05bf6db15fcfe8ecf4b51f",
+    "ANM-008_rest_idle_generate.py": "ac0a61c099402fe5bd859a489a2232364fb0dd466047e4818ced523032f683a7",
+    "README.md": "b8bd9e828373235851aa7d4a450abaafbfc7d8c923993e09d93af7d94a76e978",
+    "preview_feet_contact_side.png": "41ca57ba71f8086425619952cf9f3d50fa73dd4fb573e99a6be3434f387548a3",
+    "preview_glb_rest_idle.png": "513f7ac8f817425c782d826fa50468bb6bd6bd4a8c39f282047fdf84c9dfcb3a",
+    "preview_rear_1x_stand.png": "e5cf0d0c816a12aeaf06979c46c2098af037e1750ce41a61d5f92684361dd8b2",
+    "preview_rear_1x_tend.png": "cec60970ec8199b1acfe5367945c3c47c69efc8ae08a4bdf9af0c8cd98ae9af4",
+    "preview_rear_flock_12.png": "b390105f087ddcd1d4677ede74d4d8c877e30d100ac9d3c9409fb56a9b680d59",
+    "preview_rear_half_tend.png": "ddb21d3e7c47294031ecd89dba1bd67b55e7b9debdc2bbec8e68b85133f0ee6d",
+    "preview_rest_detail.mp4": "fc137cc8b3589f605516b6ca2bf85d7adadab72900bca8d020d389e0de545ae6",
+    "preview_rest_flock_12.mp4": "3fe78f8234c8ceb3d2426ce3e80be828ecab2526b8b7fefcd922415a14820dfb",
+    "preview_top_1x_tend.png": "69362674eedea646f5dc1b6aea91d1ba5454bcdc23cad4486a6ba50d6cdc8bc3",
+    "preview_top_flock_12.png": "1cf0d9eef890b213b995a7422366b6f810deb71a956fd3ce3bd45efa08c37544",
+    "preview_top_half_tend.png": "c08993950f10ef7ee184eb790396b77987dab614289bdfe8541f01f0c2656fc2",
+    "qa.json": "8316e6de73ff4f982049d8a337da862c0159ce51ffc5c91db0470f0c400eb076"
+  },
+  "texture_dependency": {
+    "packed_from": "CHR-001/v001",
+    "original_texture_task": "MAT-002/v001",
+    "review": "pending"
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "id": "ENV-004",
+  "version": "v001",
+  "status": "needs_review",
+  "execution_order_1_based": 18,
+  "depends": [
+    "MAT-001/v001"
+  ],
+  "variants": [
+    "Reed_A_Height_S",
+    "Reed_A_Height_M",
+    "Reed_B_Height_S",
+    "Reed_B_Height_M",
+    "Reed_C_Height_S",
+    "Reed_C_Height_M"
+  ],
+  "root_blender_BU": [
+    0,
+    0,
+    0
+  ],
+  "blender_xyz_to_gltf": [
+    "x",
+    "z",
+    "-y"
+  ],
+  "textures": {
+    "FogLeaf": {
+      "path_relative_to_candidate": "../../MAT-001/v001/textures/ft_goose_mat_plant_opaque_basecolor.png",
+      "sha256": "a4fbb2db73897427d8172297edb7b59d80a17707b3a3f1a198857f4996e6ed26",
+      "sRGB_tint": "FFFFFF"
+    },
+    "SedgeLeaf": {
+      "path_relative_to_candidate": "../../MAT-001/v001/textures/ft_goose_mat_plant_opaque_basecolor.png",
+      "sha256": "a4fbb2db73897427d8172297edb7b59d80a17707b3a3f1a198857f4996e6ed26",
+      "sRGB_tint": "D3D6A0"
+    },
+    "DrySedge": {
+      "path_relative_to_candidate": "../../MAT-001/v001/textures/ft_goose_mat_dry_ground_basecolor.png",
+      "sha256": "e201e626c70ba88af6cbeae9662dc76375930208e121c4af5dbdfc52cfcefab0",
+      "sRGB_tint": "E9BC83"
+    },
+    "SeedHead": {
+      "path_relative_to_candidate": "../../MAT-001/v001/textures/ft_goose_mat_dry_ground_basecolor.png",
+      "sha256": "e201e626c70ba88af6cbeae9662dc76375930208e121c4af5dbdfc52cfcefab0",
+      "sRGB_tint": "FFFFFF"
+    }
+  },
+  "source_library_sha256": "9fc0305a78264733d2a2f5747a67833158c59470eff3e3d71c4f6da5b9d11de0",
+  "rights": "Project-original geometry with project-owned MAT-001 PlantOpaque and DryGround.",
+  "geometry": {
+    "Reed_A_Height_S": {
+      "triangles": 76,
+      "vertices": 65,
+      "bounds_BU": [
+        [
+          -0.07767131179571152,
+          0.16413505375385284
+        ],
+        [
+          -0.11998774111270905,
+          0.07984612137079239
+        ],
+        [
+          0.0,
+          0.5128655433654785
+        ]
+      ],
+      "height_BU": 0.5128655433654785,
+      "max_horizontal_radius_BU": 0.1752496954174922
+    },
+    "Reed_A_Height_M": {
+      "triangles": 76,
+      "vertices": 65,
+      "bounds_BU": [
+        [
+          -0.11075352132320404,
+          0.23404446244239807
+        ],
+        [
+          -0.1710936427116394,
+          0.11385464668273926
+        ],
+        [
+          0.0,
+          0.7306157350540161
+        ]
+      ],
+      "height_BU": 0.7306157350540161,
+      "max_horizontal_radius_BU": 0.24989311719992272
+    },
+    "Reed_B_Height_S": {
+      "triangles": 118,
+      "vertices": 104,
+      "bounds_BU": [
+        [
+          -0.13166449964046478,
+          0.14804863929748535
+        ],
+        [
+          -0.13856816291809082,
+          0.19897285103797913
+        ],
+        [
+          0.0,
+          0.6806259751319885
+        ]
+      ],
+      "height_BU": 0.6806259751319885,
+      "max_horizontal_radius_BU": 0.2293394859044649
+    },
+    "Reed_B_Height_M": {
+      "triangles": 118,
+      "vertices": 104,
+      "bounds_BU": [
+        [
+          -0.18997305631637573,
+          0.21361301839351654
+        ],
+        [
+          -0.19993408024311066,
+          0.28708940744400024
+        ],
+        [
+          0.0,
+          0.9813259840011597
+        ]
+      ],
+      "height_BU": 0.9813259840011597,
+      "max_horizontal_radius_BU": 0.3309041274473964
+    },
+    "Reed_C_Height_S": {
+      "triangles": 198,
+      "vertices": 140,
+      "bounds_BU": [
+        [
+          -0.16946031153202057,
+          0.20661987364292145
+        ],
+        [
+          -0.24266840517520905,
+          0.2095818817615509
+        ],
+        [
+          0.0,
+          0.8245815634727478
+        ]
+      ],
+      "height_BU": 0.8245815634727478,
+      "max_horizontal_radius_BU": 0.26952061770380076
+    },
+    "Reed_C_Height_M": {
+      "triangles": 198,
+      "vertices": 140,
+      "bounds_BU": [
+        [
+          -0.23972433805465698,
+          0.2922915518283844
+        ],
+        [
+          -0.34328705072402954,
+          0.2964816689491272
+        ],
+        [
+          0.0,
+          1.1657443046569824
+        ]
+      ],
+      "height_BU": 1.1657443046569824,
+      "max_horizontal_radius_BU": 0.38127305477037066
+    }
+  },
+  "blender": "5.2.2 LTS",
+  "glb_files": [
+    "ENV-004_Reed_A_Height_M.glb",
+    "ENV-004_Reed_A_Height_S.glb",
+    "ENV-004_Reed_B_Height_M.glb",
+    "ENV-004_Reed_B_Height_S.glb",
+    "ENV-004_Reed_C_Height_M.glb",
+    "ENV-004_Reed_C_Height_S.glb"
+  ],
+  "blender_file": "ENV-004_reeds.blend",
+  "files": {
+    "ENV-004_Reed_A_Height_M.glb": "18521c42bca821ae2f29fdfab821a0ffe31c4437946d658541ff6a3d7052aeec",
+    "ENV-004_Reed_A_Height_S.glb": "601d9f87c9445efeef6bb98c0f49a0f6194a2c978c5c0d707c8c03a1e12b8762",
+    "ENV-004_Reed_B_Height_M.glb": "eff4656d2d02cfcb432135ea5dfcf004d036ad0d6ea2b661cc9af42451026fa7",
+    "ENV-004_Reed_B_Height_S.glb": "fcf24d9787f5df89bf7ade9d098c1c374db088dd878c7f758f57768a5e2686ad",
+    "ENV-004_Reed_C_Height_M.glb": "11790a008f6bb2634ea9055007264af7f995e01afa06b17ef269368522f2e247",
+    "ENV-004_Reed_C_Height_S.glb": "44c3a8a938f6413cddb5e6d5332be8136929a9a0bbde7207db1ca3019f411633",
+    "ENV-004_generate.py": "6ecce8d4eebfc190e2d91074b0ef5ef32f652945db7b8d82f23a1ac074f841a7",
+    "ENV-004_reeds.blend": "8885406321f8c4ba84537c6a437f54a3d160fdfcbfa670ce19565140e6030947",
+    "README.md": "8ccde794ceac66089b0ab62a4fb8880f7158e20c5c82de5116d3176bbe6060fa",
+    "graybox_lineup.png": "bfed227be34bee7cd61067aa2065955e4afbecbaa3b388ca3b9fa65be181fbcb",
+    "preview_fixed_rear.png": "e9bcbfec5858d63d1046690dd96bb5500b6c824fdc7e443f40c8ef54741920ad",
+    "preview_glb_roundtrip.png": "337b59c5399f79fc121d0a48b97743516157e42182ed1fe18b05afdb9cf6cfa4",
+    "preview_lineup.png": "56c599963eb4178a31bd3bf5af3f78f7edf954a3af1a6fdeb1a3d614db094f95",
+    "qa.json": "75370cdb176324b468461e89a1c3876b17b062a5134c5beb13818c5309628ab7"
+  }
+}

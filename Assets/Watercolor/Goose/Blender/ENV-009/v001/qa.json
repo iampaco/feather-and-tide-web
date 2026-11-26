@@ -1,0 +1,263 @@
+{
+  "id": "ENV-009",
+  "version": "v001",
+  "status": "needs_review",
+  "graybox": {
+    "FarRidge_A": {
+      "triangles": 598,
+      "vertices": 301,
+      "bounds_BU": [
+        [
+          -18.5,
+          18.5
+        ],
+        [
+          -2.4823687076568604,
+          2.672988176345825
+        ],
+        [
+          -0.1599999964237213,
+          1.5647894144058228
+        ]
+      ],
+      "enclosed_volume_BU3": 93.3823151389661
+    },
+    "FarRidge_B": {
+      "triangles": 598,
+      "vertices": 301,
+      "bounds_BU": [
+        [
+          -26.5,
+          26.5
+        ],
+        [
+          -2.990125894546509,
+          3.219735860824585
+        ],
+        [
+          -0.1599999964237213,
+          2.6816978454589844
+        ]
+      ],
+      "enclosed_volume_BU3": 262.1558617468109
+    },
+    "FarRidge_C": {
+      "triangles": 598,
+      "vertices": 301,
+      "bounds_BU": [
+        [
+          -39.0,
+          39.0
+        ],
+        [
+          -3.610718250274658,
+          3.8879828453063965
+        ],
+        [
+          -0.1599999964237213,
+          4.005411624908447
+        ]
+      ],
+      "enclosed_volume_BU3": 690.9510503229878
+    }
+  },
+  "fixed_rear_852x393": {
+    "1": {
+      "max_background_band_fraction": 0.07564371824264526,
+      "min_route_to_background_gap_px": 15.227177739143372,
+      "world_buffer_to_demo_flight_y_BU": 13.917631292343138,
+      "individual_ridge_projections": {
+        "A left": {
+          "highest_y_from_top_px": 11.13231897354126,
+          "lowest_y_from_top_px": 29.72798126935959
+        },
+        "A right": {
+          "highest_y_from_top_px": 11.288725197315216,
+          "lowest_y_from_top_px": 27.750942885875702
+        },
+        "B middle": {
+          "highest_y_from_top_px": 5.857514977455139,
+          "lowest_y_from_top_px": 23.44327139854431
+        },
+        "C far": {
+          "highest_y_from_top_px": 2.0668015480041504,
+          "lowest_y_from_top_px": 18.020025551319122
+        }
+      }
+    },
+    "2": {
+      "max_background_band_fraction": 0.08825463056564331,
+      "min_route_to_background_gap_px": 18.91034871339798,
+      "world_buffer_to_demo_flight_y_BU": 13.917631292343138,
+      "individual_ridge_projections": {
+        "A left": {
+          "highest_y_from_top_px": 13.97150069475174,
+          "lowest_y_from_top_px": 34.68406981229782
+        },
+        "A right": {
+          "highest_y_from_top_px": 12.486168622970581,
+          "lowest_y_from_top_px": 29.230723321437836
+        },
+        "B middle": {
+          "highest_y_from_top_px": 6.431980490684509,
+          "lowest_y_from_top_px": 25.24450796842575
+        },
+        "C far": {
+          "highest_y_from_top_px": 2.7146095633506775,
+          "lowest_y_from_top_px": 18.616791307926178
+        }
+      }
+    },
+    "3": {
+      "max_background_band_fraction": 0.1123356819152832,
+      "min_route_to_background_gap_px": 21.519711434841156,
+      "world_buffer_to_demo_flight_y_BU": 13.917631292343138,
+      "individual_ridge_projections": {
+        "A left": {
+          "highest_y_from_top_px": 18.019439935684204,
+          "lowest_y_from_top_px": 44.1479229927063
+        },
+        "A right": {
+          "highest_y_from_top_px": 13.872555077075958,
+          "lowest_y_from_top_px": 32.47236353158951
+        },
+        "B middle": {
+          "highest_y_from_top_px": 7.068544685840607,
+          "lowest_y_from_top_px": 30.07745325565338
+        },
+        "C far": {
+          "highest_y_from_top_px": 3.501114785671234,
+          "lowest_y_from_top_px": 22.62214457988739
+        }
+      }
+    }
+  },
+  "roundtrip": {
+    "FarRidge_A": {
+      "triangles": 598,
+      "vertices": 301,
+      "bounds_BU": [
+        [
+          -18.5,
+          18.5
+        ],
+        [
+          -2.4823687076568604,
+          2.672988176345825
+        ],
+        [
+          -0.1599999964237213,
+          1.5647894144058228
+        ]
+      ],
+      "enclosed_volume_BU3": 93.3823151389661,
+      "embedded_png_sha256": "dc7762ed08940ffa880135f046970e4f5d0d015d033397985e2b4c91d0ea1694",
+      "max_delta_BU": 0.0,
+      "max_normal_error_degrees": 8.543737682226821e-06,
+      "max_uv_error": 2.9802322387695312e-08
+    },
+    "FarRidge_B": {
+      "triangles": 598,
+      "vertices": 301,
+      "bounds_BU": [
+        [
+          -26.5,
+          26.5
+        ],
+        [
+          -2.990125894546509,
+          3.219735860824585
+        ],
+        [
+          -0.1599999964237213,
+          2.6816978454589844
+        ]
+      ],
+      "enclosed_volume_BU3": 262.1558617468109,
+      "embedded_png_sha256": "a94bbf0572c0b239187315dd5b3951426758a1fada507410e2a3acdfa723006c",
+      "max_delta_BU": 0.0,
+      "max_normal_error_degrees": 1.0316186968101795e-05,
+      "max_uv_error": 2.9802322387695312e-08
+    },
+    "FarRidge_C": {
+      "triangles": 598,
+      "vertices": 301,
+      "bounds_BU": [
+        [
+          -39.0,
+          39.0
+        ],
+        [
+          -3.610718250274658,
+          3.8879828453063965
+        ],
+        [
+          -0.1599999964237213,
+          4.005411624908447
+        ]
+      ],
+      "enclosed_volume_BU3": 690.9510503229878,
+      "embedded_png_sha256": "c942253a4441febeb6834aab69d3f364c14f8bb868f9c9e6b315ff463aaf5b1b",
+      "max_delta_BU": 0.0,
+      "max_normal_error_degrees": 8.548402221098452e-06,
+      "max_uv_error": 2.9802322387695312e-08
+    }
+  },
+  "roundtrip_sample_camera": {
+    "max_background_band_fraction": 0.07564371824264526,
+    "min_route_to_background_gap_px": 15.227177739143372,
+    "world_buffer_to_demo_flight_y_BU": 13.917631292343138,
+    "individual_ridge_projections": {
+      "A left": {
+        "highest_y_from_top_px": 11.13231897354126,
+        "lowest_y_from_top_px": 29.72798126935959
+      },
+      "A right": {
+        "highest_y_from_top_px": 11.288725197315216,
+        "lowest_y_from_top_px": 27.750942885875702
+      },
+      "B middle": {
+        "highest_y_from_top_px": 5.857514977455139,
+        "lowest_y_from_top_px": 23.44327139854431
+      },
+      "C far": {
+        "highest_y_from_top_px": 2.0668015480041504,
+        "lowest_y_from_top_px": 18.020025551319122
+      }
+    }
+  },
+  "normal_tolerance_degrees": 0.16,
+  "pending": [
+    "Paco art review, USDZ/RealityKit, real flight bounds, and iPhone/iPad validation."
+  ],
+  "independent_reopen": {
+    "result": "pass",
+    "match": true
+  },
+  "motion": {
+    "result": "pass",
+    "frames_checked": 34,
+    "display_rig_size_px": [
+      852,
+      393
+    ],
+    "max_background_band_fraction": 0.1123356819152832,
+    "min_route_to_background_gap_px": 15.227177739143372,
+    "world_buffer_to_demo_flight_y_BU": 13.917631292343138,
+    "peak_to_peak_bearing_degrees": 7.906817572805362,
+    "codec_readback": "pass"
+  },
+  "reassembly_render": {
+    "mean_rgb8_absolute_channel_difference": 1.3937171232085757e-05
+  },
+  "app_baseline": {
+    "source": "plans/active/goose-preview-model-cleanup.md",
+    "iOS": "27.2",
+    "app_tests": 340,
+    "rerun_in_this_task": false
+  },
+  "redline_check": {
+    "result": "pass",
+    "scope": "offline background assets"
+  }
+}

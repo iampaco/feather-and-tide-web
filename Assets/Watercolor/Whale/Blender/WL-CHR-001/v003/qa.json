@@ -1,0 +1,25 @@
+{
+  "surface": {
+    "connected_components": 1,
+    "vertices": 1698,
+    "faces": 1760,
+    "triangles": 3392,
+    "boundary_or_non_manifold_edges": 0,
+    "minimum_triangle_area_BU2": 7.619700772920623e-05,
+    "weight_sum_max_error": 2.9802322387695312e-08,
+    "max_weights_per_vertex": 3,
+    "uv_atlas": "Whale_Atlas"
+  },
+  "morph": {
+    "0.5": {
+      "pose_count": 7,
+      "minimum_triangle_area_ratio": 0.6942627355540836,
+      "self_intersections": 0
+    },
+    "1.0": {
+      "pose_count": 7,
+      "minimum_triangle_area_ratio": 0.48254618708179714,
+      "self_intersections": 0
+    }
+  }
+}

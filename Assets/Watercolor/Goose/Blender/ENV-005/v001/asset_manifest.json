@@ -1,0 +1,69 @@
+{
+  "id": "ENV-005",
+  "version": "v001",
+  "status": "needs_review",
+  "execution_order_1_based": 19,
+  "depends": [
+    "ENV-004/v001",
+    "ENV-002/v001"
+  ],
+  "review_water": "ENV-003/v001",
+  "source_hashes": {
+    "ENV-004.blend": "8885406321f8c4ba84537c6a437f54a3d160fdfcbfa670ce19565140e6030947",
+    "ENV-002.blend": "f9c3f7dfd1c9be05f455bfca9f29456acea30b0e4b8a05967d11249201214548",
+    "ENV-002_qa.json": "e29f45177ba195a6b58b658ba313859bd9f2c0310cfb7604aae2ae33aaafddbf",
+    "ENV-003.blend_preview": "4749482368f04ad753eb7069fc7d6a23cb097b49bd4a38b078f1b48a3a4ac821"
+  },
+  "presets": {
+    "Sparse": {
+      "density_per_BU2": 0.34,
+      "interior_fraction": 0.68,
+      "seed": 24011
+    },
+    "Dense": {
+      "density_per_BU2": 1.24,
+      "interior_fraction": 0.82,
+      "seed": 24011
+    },
+    "ShoreEdge": {
+      "density_per_BU2": 1.82,
+      "interior_fraction": 0.2,
+      "seed": 24011
+    }
+  },
+  "geometry_nodes": "ENV-005 | Wetland reed distribution",
+  "blender_xyz_to_gltf": [
+    "x",
+    "z",
+    "-y"
+  ],
+  "density_attribute": "reed_shore_weight",
+  "rights": "Project-original Geometry Nodes and previously authored project inputs.",
+  "blender": "5.2.2 LTS",
+  "glb_files": [
+    "ENV-005_Dense.glb",
+    "ENV-005_ShoreEdge.glb",
+    "ENV-005_Sparse.glb"
+  ],
+  "blender_file": "ENV-005_reed_distribution.blend",
+  "texture_source_map": "../../ENV-004/v001/asset_manifest.json",
+  "files": {
+    "ENV-005_Dense.glb": "ea1a16b8f4715db692be39d5aa0df081365c18c255aae38eff760eb6c6194a4e",
+    "ENV-005_ShoreEdge.glb": "e74510ff59a20a778559a4c7371de7f84f6a10618901a19137ab0abcdeb2e66d",
+    "ENV-005_Sparse.glb": "8eeed7e031b9a0631e477b368ea39c04a1a8c3cae0d89aa68352f24ffe8e1a3f",
+    "ENV-005_generate.py": "da27f510ff1faac8490c943bddd4d500f74c021c46c1bfafb71e10f3cf40bce3",
+    "ENV-005_reed_distribution.blend": "af37499f31cede3a88fee47799fc0b35fc9dfc46419e80efc5aa29e220eaf716",
+    "ENV-005_wind_preview.py": "b489a71eb96046b78cd62acdeea3493e1ccfbdad9deadb1cbeb6d526c75503f8",
+    "README.md": "4f8ece421b22b08e9b922b57c036247feb912019fa3ff38694946c831b47df05",
+    "graybox_top.png": "1b327c32f7ae473ec3a35c82c75acd8380560e8581299be612d128dfc355fa4d",
+    "preview_fixed_rear_Dense.png": "36409fe5d77c736f9eeafb42d274527759c2c22538da8427b50dc5832c9c06c6",
+    "preview_fixed_rear_ShoreEdge.png": "c0d54d61179b6d5969597fbe6315b11cd299fa816c4407bb5b47705d0842277f",
+    "preview_fixed_rear_Sparse.png": "25ddaeb0cb06bb5d7a15c424514570cbe655554832a6dbc794b46735f77baed4",
+    "preview_glb_roundtrip.png": "5f5d73b861defb62b283e898f1a371084958eb2cbef43bed974e83c9b2693722",
+    "preview_top_Dense.png": "3dd4c1fd6e5956d8914b116ad0e32234d9548adb6053286db7f3abc5bc76770f",
+    "preview_top_ShoreEdge.png": "04a08cb9a3899478ade1ae86780ff28014775c58e4cf44e1411dcb62bccfa121",
+    "preview_top_Sparse.png": "b5f52e24b08ee1f90f134a4d3f27214b740a1f4a86585ead89a2f0a224bc0813",
+    "preview_wind_fixed_rear.mp4": "1cb8daa632506ab0ae794a3da2ac01712cf1df33e5e5fdb4c91c4e04b7ff5ca1",
+    "qa.json": "05643006b9e8d8b4c387b9af387b43a9012c7d231ff9815c8937995a4aa73f85"
+  }
+}

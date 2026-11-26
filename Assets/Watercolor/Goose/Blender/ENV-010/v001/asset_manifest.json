@@ -1,0 +1,122 @@
+{
+  "id": "ENV-010",
+  "version": "v001",
+  "status": "needs_review",
+  "execution_order_1_based": 23,
+  "depends": [
+    "ENV-001/v001",
+    "ENV-009/v001"
+  ],
+  "materials": "MAT-003/v001",
+  "source_hashes": {
+    "ENV-001.blend": "9979e7606a115a16e9dc35fdf81684d5285b649692cd969692f195dfc1e3743d",
+    "ENV-009.blend": "b73406249077baec5f35de5f15f2bc8761eca612b3ade89d9fde102154f2cc3a",
+    "MAT-003.blend": "e6091a0b68863e57e0764fbf01241d6091830b1fc9e62f153e4f3850556acc52"
+  },
+  "textures": {
+    "GrassFlat": {
+      "path_relative_to_candidate": "../../MAT-003/v001/textures/ft_goose_mat_grass_flat_basecolor.png",
+      "sha256": "e06d76e88c90a29ad97a810ed7578ce67f79da1b915940d5406750228f36996b",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "color_space": "sRGB",
+      "wrap": "repeat U/V",
+      "roughness": 0.94
+    },
+    "MossStone": {
+      "path_relative_to_candidate": "../../MAT-003/v001/textures/ft_goose_mat_moss_stone_basecolor.png",
+      "sha256": "10670b355497a7e1f53116859dd31128377e892f263ce8f0de58d125cff265c7",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "color_space": "sRGB",
+      "wrap": "repeat U/V",
+      "roughness": 0.94
+    },
+    "MountainRock": {
+      "path_relative_to_candidate": "../../MAT-003/v001/textures/ft_goose_mat_mountain_rock_basecolor.png",
+      "sha256": "4670d95b818253c1e5a4110d8a2f00ed6160e258a0ee9e056704fa43986e2393",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "color_space": "sRGB",
+      "wrap": "repeat U/V",
+      "roughness": 0.96
+    }
+  },
+  "blender_file": "ENV-010_short_pass.blend",
+  "variants": [
+    "Pass_Left",
+    "Pass_Right",
+    "Mouth"
+  ],
+  "glb_files": [
+    "ENV-010_Pass_Left.glb",
+    "ENV-010_Pass_Right.glb",
+    "ENV-010_Mouth.glb"
+  ],
+  "blender_to_gltf_xyz": [
+    "x",
+    "z",
+    "-y"
+  ],
+  "pivot_BU": [
+    0,
+    0,
+    0
+  ],
+  "checkpoint_A_BU": [
+    0,
+    0,
+    0
+  ],
+  "heading": [
+    0,
+    1
+  ],
+  "layout": {
+    "pitch_BU": 0.625,
+    "section_xy_BU": [
+      -21.5,
+      -1.5,
+      10.0,
+      50.0
+    ],
+    "mouth_join_y_BU": 20.0,
+    "shared_origin_placement": true,
+    "envelope_width_BU": 5.2
+  },
+  "rights": "Project-original modeled terrain and review cues, project-owned MAT-003 and ENV-009 inputs.",
+  "blender": "5.2.2 LTS",
+  "review_only_sources": {
+    "ENV-008_long_lake.blend": "5f9ecdab4d180ab39f3ab35aa18cbbb13284334333ecdb36edaff5451c7a75b6",
+    "ENV-010_short_pass.blend": "1941f405e170d840b59efd900826a2267bd0e33df5fb0b0753faf681ced98c12"
+  },
+  "files": {
+    "ENV-010_Mouth.glb": "faa0c248e0df4b38389c9e06f0b6255c369cebf5a749f964a6ee9c0a7aff0550",
+    "ENV-010_Pass_Left.glb": "74aaef138d7e3e01c0bcdf595ea74508d8ad1db377afdc2abf94acf9095ef109",
+    "ENV-010_Pass_Right.glb": "06d327ad3807683ea224580dbce5629024b62a3230b5bc19fd75c2217184629a",
+    "ENV-010_fork_preview.py": "67472487919025b03c5c409759d499987a53fd90b2b931ecffa5162e0c469757",
+    "ENV-010_generate.py": "6257380db9ffb26d93ac9373c4baf512d0b7ecb3732b9b3f0b02981eb537f7e6",
+    "ENV-010_motion_preview.py": "74fa9531cd31cf983344204da92a547e0d35b8f70ae9780768b1293201e4dce1",
+    "ENV-010_short_pass.blend": "1941f405e170d840b59efd900826a2267bd0e33df5fb0b0753faf681ced98c12",
+    "README.md": "1e3a895adb397155fa55658f8f6fb9cb6438643b8584b0cfbc28428564a4df5a",
+    "graybox_checkpoint_a.png": "426b8cd95c1fa33eba490acaa19a1e4a2ec049093637b460ba1fc99531accdcf",
+    "graybox_top.png": "9bc6dd25960c55686ab5a7b1b58036ccf87d574ace314d234d2cf44e9aa5df39",
+    "preview_approach.png": "817df77183525814b68cf0571efd5342fba136a053d59c727c3612e6ce63e8d1",
+    "preview_checkpoint_a.png": "124dfa33c4ae25576a2ef0dfd36f2c68559b554865a120fd2b2d5dce4c2293ef",
+    "preview_checkpoint_a_fork.png": "3cc6847cea1d0d3775c27a23f6bdf4a388db21a130b8d7d42f249aee13b693f8",
+    "preview_exit.png": "ef6894e119e13c0bb4412842e7fab935e8d64487338edce713c57a90a88b49af",
+    "preview_glb_roundtrip_checkpoint_a.png": "6363b29ae342fef6ac092c28fb4d2ec2ddaec4ccef2ab8c998816bd6d045724e",
+    "preview_glb_roundtrip_top.png": "74ccb2cf4640dde34b09961ba31085f6f82749ded313f690bb3e48ea8de8bf31",
+    "preview_mouth.png": "6dcd457e49c44f8b53e1b51472c48e670cadb6bbdcd153c2266b2105b1f7c449",
+    "preview_pass_motion.mp4": "778f59c1a0b5703616f1860ef2f42470550f356986ea947355658a5e3ae33ab1",
+    "preview_throat.png": "46eda47224e1d25f7f6fb1725a8047902c1de8f00db42427371029f9749d414f",
+    "preview_top.png": "326cbde62272e78b410e0d0650855c30953f077d016fbced8b25e7421a7f8ea1",
+    "qa.json": "d6d94c4c3da9491d4726affc55da17fa268b8a0da6a85873096b465907eb1806"
+  }
+}

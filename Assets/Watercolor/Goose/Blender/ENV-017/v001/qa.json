@@ -1,0 +1,458 @@
+{
+  "id": "ENV-017",
+  "version": "v001",
+  "status": "needs_review",
+  "graybox_tile_joins": [
+    {
+      "label": "Flat | -15,-15 -> StartMudflat | -15,-5",
+      "samples": 17,
+      "max_gap_BU": 0.0,
+      "max_normal_error_deg": 0.0,
+      "max_uv_modulo_error": 0.0
+    },
+    {
+      "label": "Flat | -15,-15 -> Flat | -5,-15",
+      "samples": 17,
+      "max_gap_BU": 0.0,
+      "max_normal_error_deg": 0.0,
+      "max_uv_modulo_error": 0.0
+    },
+    {
+      "label": "StartMudflat | -15,-5 -> Flat | -15,5",
+      "samples": 17,
+      "max_gap_BU": 0.0,
+      "max_normal_error_deg": 0.0,
+      "max_uv_modulo_error": 0.0
+    },
+    {
+      "label": "StartMudflat | -15,-5 -> Entry collar | -5,-10",
+      "samples": 9,
+      "max_gap_BU": 0.0,
+      "max_normal_error_deg": 0.0,
+      "max_uv_modulo_error": 0.0
+    },
+    {
+      "label": "StartMudflat | -15,-5 -> Central bent landing basin",
+      "samples": 9,
+      "max_gap_BU": 0.0,
+      "max_normal_error_deg": 0.0,
+      "max_uv_modulo_error": 0.0
+    },
+    {
+      "label": "Flat | -15,5 -> Flat | -15,15",
+      "samples": 17,
+      "max_gap_BU": 0.0,
+      "max_normal_error_deg": 0.0,
+      "max_uv_modulo_error": 0.0
+    },
+    {
+      "label": "Flat | -15,5 -> Central bent landing basin",
+      "samples": 17,
+      "max_gap_BU": 0.0,
+      "max_normal_error_deg": 0.0026017895487713254,
+      "max_uv_modulo_error": 0.0
+    },
+    {
+      "label": "Flat | -15,15 -> Entry collar | -5,20",
+      "samples": 9,
+      "max_gap_BU": 0.0,
+      "max_normal_error_deg": 0.0,
+      "max_uv_modulo_error": 0.0
+    },
+    {
+      "label": "Flat | -15,15 -> Central bent landing basin",
+      "samples": 9,
+      "max_gap_BU": 0.0,
+      "max_normal_error_deg": 0.0,
+      "max_uv_modulo_error": 0.0
+    },
+    {
+      "label": "Flat | -5,-15 -> Flat | 5,-15",
+      "samples": 17,
+      "max_gap_BU": 0.0,
+      "max_normal_error_deg": 0.0,
+      "max_uv_modulo_error": 0.0
+    },
+    {
+      "label": "Flat | -5,-15 -> Entry collar | -5,-10",
+      "samples": 17,
+      "max_gap_BU": 0.0,
+      "max_normal_error_deg": 0.0,
+      "max_uv_modulo_error": 0.0
+    },
+    {
+      "label": "Flat | 5,-15 -> Flat | 15,-15",
+      "samples": 17,
+      "max_gap_BU": 0.0,
+      "max_normal_error_deg": 0.0,
+      "max_uv_modulo_error": 0.0
+    },
+    {
+      "label": "Flat | 5,-15 -> Entry collar | 5,-10",
+      "samples": 17,
+      "max_gap_BU": 0.0,
+      "max_normal_error_deg": 0.0,
+      "max_uv_modulo_error": 0.0
+    },
+    {
+      "label": "Flat | 15,-15 -> Flat | 15,-5",
+      "samples": 17,
+      "max_gap_BU": 0.0,
+      "max_normal_error_deg": 0.0,
+      "max_uv_modulo_error": 0.0
+    },
+    {
+      "label": "Flat | 15,-5 -> RestPatch | 15,5",
+      "samples": 17,
+      "max_gap_BU": 0.0,
+      "max_normal_error_deg": 0.0,
+      "max_uv_modulo_error": 0.0
+    },
+    {
+      "label": "Flat | 15,-5 -> Entry collar | 5,-10",
+      "samples": 9,
+      "max_gap_BU": 0.0,
+      "max_normal_error_deg": 0.0,
+      "max_uv_modulo_error": 0.0
+    },
+    {
+      "label": "Flat | 15,-5 -> Central bent landing basin",
+      "samples": 9,
+      "max_gap_BU": 0.0,
+      "max_normal_error_deg": 0.0,
+      "max_uv_modulo_error": 0.0
+    },
+    {
+      "label": "RestPatch | 15,5 -> Flat | 15,15",
+      "samples": 17,
+      "max_gap_BU": 0.0,
+      "max_normal_error_deg": 0.0,
+      "max_uv_modulo_error": 0.0
+    },
+    {
+      "label": "RestPatch | 15,5 -> Central bent landing basin",
+      "samples": 17,
+      "max_gap_BU": 0.0,
+      "max_normal_error_deg": 0.0015704477871606153,
+      "max_uv_modulo_error": 0.0
+    },
+    {
+      "label": "Flat | 15,15 -> Entry collar | 5,20",
+      "samples": 9,
+      "max_gap_BU": 0.0,
+      "max_normal_error_deg": 0.0,
+      "max_uv_modulo_error": 0.0
+    },
+    {
+      "label": "Flat | 15,15 -> Central bent landing basin",
+      "samples": 9,
+      "max_gap_BU": 0.0,
+      "max_normal_error_deg": 0.0,
+      "max_uv_modulo_error": 0.0
+    },
+    {
+      "label": "Entry collar | -5,-10 -> Entry collar | 5,-10",
+      "samples": 9,
+      "max_gap_BU": 0.0,
+      "max_normal_error_deg": 0.0,
+      "max_uv_modulo_error": 0.0
+    },
+    {
+      "label": "Entry collar | -5,-10 -> Central bent landing basin",
+      "samples": 17,
+      "max_gap_BU": 0.0,
+      "max_normal_error_deg": 0.0,
+      "max_uv_modulo_error": 0.0
+    },
+    {
+      "label": "Entry collar | -5,20 -> Entry collar | 5,20",
+      "samples": 9,
+      "max_gap_BU": 0.0,
+      "max_normal_error_deg": 0.0,
+      "max_uv_modulo_error": 0.0
+    },
+    {
+      "label": "Entry collar | -5,20 -> Central bent landing basin",
+      "samples": 17,
+      "max_gap_BU": 0.0,
+      "max_normal_error_deg": 0.0003163445767636411,
+      "max_uv_modulo_error": 0.0
+    },
+    {
+      "label": "Entry collar | 5,-10 -> Central bent landing basin",
+      "samples": 17,
+      "max_gap_BU": 0.0,
+      "max_normal_error_deg": 0.0,
+      "max_uv_modulo_error": 0.0
+    },
+    {
+      "label": "Entry collar | 5,20 -> Central bent landing basin",
+      "samples": 17,
+      "max_gap_BU": 0.0,
+      "max_normal_error_deg": 0.0048364651507768405,
+      "max_uv_modulo_error": 0.0
+    }
+  ],
+  "graybox_water_cover": {
+    "Main bowl | water": {
+      "triangles": 710,
+      "wet_area_BU2": 94.65050150215825,
+      "max_dry_penetration_BU": 1.7166137694646366e-07
+    },
+    "ShallowPool_StartMudflat placement": {
+      "triangles": 42,
+      "wet_area_BU2": 2.4700053948326968,
+      "max_dry_penetration_BU": 1.7166137694646366e-07
+    },
+    "ShallowPool_RestPatch placement": {
+      "triangles": 72,
+      "wet_area_BU2": 5.991221887648862,
+      "max_dry_penetration_BU": 6.484985351495887e-07
+    }
+  },
+  "reed_scatter": {
+    "seed": 17027,
+    "reed_count": 255,
+    "leaf_triangles": 33686,
+    "min_exclusion_gap_BU": 0.6501746940612794,
+    "shoreline_seed_reproduced": true,
+    "wind_angle_rad": 0.025,
+    "restricted_regions_xy_hwidth_BU": [
+      [
+        0,
+        -7.4,
+        3.5,
+        12
+      ],
+      [
+        0,
+        0.5,
+        3.57,
+        4.55
+      ],
+      [
+        0,
+        5.42,
+        4.0,
+        1.0
+      ]
+    ]
+  },
+  "flight_paths": {
+    "flight_clearance_rays": 909,
+    "lanes": 3,
+    "min_lower_bound_clearance_BU": 0.18299976485967634,
+    "span_BU": 1.6004365682601929,
+    "neutral_belly_Z_BU": 0.18300000327825544
+  },
+  "landing_48fps_source": {
+    "landing_frames_checked": 136,
+    "rest_frames_checked": 72,
+    "pair_tests": 13728,
+    "reed_hits": 0,
+    "contact_delay_frames": [
+      0,
+      5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50,
+      55
+    ],
+    "geese_inside_envelope": 12,
+    "tightest_AABB_axis_gap_BU": 0.32738447189331055,
+    "mesh_overlap_tests": 0,
+    "min_mesh_probe_clearance_BU": 0.0,
+    "max_landed_foot_gap_BU": 2.9802322387695312e-08,
+    "leader_stationary_BU": 0.0,
+    "leader_wait_seconds": 1.1458333333333333,
+    "max_final_screen_overlap_fraction_upper_bound": 0.09844559585492228,
+    "min_final_screen_silhouette_px": 185,
+    "min_final_screen_margin_px": 79.15532290935516,
+    "min_final_goose_width_px": 30.324273705482483
+  },
+  "reference_target_bounds_xy_BU": [
+    -3.35,
+    3.35,
+    -3.65,
+    4.97
+  ],
+  "roundtrip": {
+    "layer_geometry": {
+      "LandingBasin_Ground": {
+        "triangles": 8192,
+        "max_normal_delta_deg": 0.024709531991911206,
+        "axis_checked_gltf_xyz_bounds_BU": [
+          [
+            -20,
+            20
+          ],
+          [
+            -0.6222777962684631,
+            0
+          ],
+          [
+            -20,
+            20
+          ]
+        ]
+      },
+      "LandingBasin_Water": {
+        "triangles": 824,
+        "max_normal_delta_deg": 0.0,
+        "axis_checked_gltf_xyz_bounds_BU": [
+          [
+            -18.33841896057129,
+            18.63332748413086
+          ],
+          [
+            -0.18000000715255737,
+            -0.18000000715255737
+          ],
+          [
+            -13.64456844329834,
+            4.436452388763428
+          ]
+        ]
+      },
+      "LandingBasin_Reeds": {
+        "triangles": 33686,
+        "max_normal_delta_deg": 0.003472373797019632,
+        "axis_checked_gltf_xyz_bounds_BU": [
+          [
+            -19.99357795715332,
+            20.190202713012695
+          ],
+          [
+            -0.1578851342201233,
+            1.3542587757110596
+          ],
+          [
+            -19.819305419921875,
+            19.323646545410156
+          ]
+        ]
+      }
+    },
+    "identical_GLTF_embedded_PNG_SHA256": {
+      "GrassFlat": "e06d76e88c90a29ad97a810ed7578ce67f79da1b915940d5406750228f36996b",
+      "MudBank": "0343b68d4e256fca7b747c65b2fcebc74c46f3aa2334044051ac862e4e02c5b1",
+      "ShallowMargin": "bd12529acd7f63aefad1df09111aa6b9a84c95161bbdb1d0c64f1cbc66d2c6f7",
+      "MossStone": "10670b355497a7e1f53116859dd31128377e892f263ce8f0de58d125cff265c7",
+      "FogLeaf": "a4fbb2db73897427d8172297edb7b59d80a17707b3a3f1a198857f4996e6ed26",
+      "SedgeLeaf": "a4fbb2db73897427d8172297edb7b59d80a17707b3a3f1a198857f4996e6ed26",
+      "SeedHead": "e201e626c70ba88af6cbeae9662dc76375930208e121c4af5dbdfc52cfcefab0",
+      "LandingBasinWater": "b006552cc2e7384c4396682d1597a056c65df3d5eea4018d88946a4f292000f7",
+      "ENV003_ShallowPool_StartMudflat": "915bf85fc4c0f2271c73b3d14fb1a324182a07ebe757138696263312d5f17dc5",
+      "ENV003_ShallowPool_RestPatch": "2d51dc4509c523d3d7f9f030f42e456ee60c963eb54b57df49629b94c9954341"
+    },
+    "water": {
+      "LandingBasin_Water.001": {
+        "triangles": 824,
+        "wet_area_BU2": 103.11173028450935,
+        "max_dry_penetration_BU": 6.484985351495887e-07
+      }
+    },
+    "approach": {
+      "flight_clearance_rays": 909,
+      "lanes": 3,
+      "min_lower_bound_clearance_BU": 0.18299976485967634,
+      "span_BU": 1.6004365682601929,
+      "neutral_belly_Z_BU": 0.18300000327825544
+    }
+  },
+  "pending": [
+    "Actual S6 all-bird arrival gate, retry and runtime landing/rest handoff.",
+    "Shallow ripple FX and actual protected-state timing.",
+    "RealityKit transparency, USDZ/runtime integration and iPhone/iPad."
+  ],
+  "independent_delivery_reopen": {
+    "result": "pass",
+    "roundtrip_matches_staging_QA": true,
+    "opened_from_final_candidate_path": true,
+    "process": "Blender 5.2.2 LTS background"
+  },
+  "preview_motion": {
+    "result": "pass",
+    "source_fps": 48,
+    "source_frames": [
+      4,
+      8,
+      12,
+      16,
+      20,
+      24,
+      28,
+      32,
+      36,
+      40,
+      44,
+      48,
+      52,
+      56,
+      60,
+      64,
+      68,
+      72,
+      76,
+      80,
+      84,
+      88,
+      92,
+      96,
+      100,
+      104,
+      108,
+      112,
+      116,
+      120,
+      124,
+      128,
+      132,
+      136,
+      140,
+      144,
+      148,
+      152,
+      156,
+      160,
+      164,
+      168,
+      172,
+      176,
+      180,
+      184,
+      188,
+      192,
+      196,
+      200,
+      204,
+      208
+    ],
+    "sample_fps": 12,
+    "output_fps": 24,
+    "h264_fully_decoded_frames": 120,
+    "duration_s": 5,
+    "content_px": [
+      852,
+      393
+    ],
+    "encoded_px": [
+      852,
+      394
+    ],
+    "documented_final_frame": "preview_rest_idle.png"
+  },
+  "role_boundary": "App simulation and devices not run for this Blender-only candidate. Historical baseline iOS 27.2 / 340 tests.",
+  "redline_review": "pass",
+  "gltf_export_warning": {
+    "status": "review",
+    "count": 3,
+    "description": "Water materials use separate color and alpha image nodes. All nodes use the same per-material image bytes, and packed PNG hashes and BLEND mode survived import. Runtime sampler and transparency ordering remain for review."
+  }
+}

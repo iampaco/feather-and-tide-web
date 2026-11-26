@@ -1,0 +1,120 @@
+{
+  "id": "FX-013",
+  "version": "v001",
+  "status": "needs_review",
+  "variant": "FeatherMotes",
+  "priority": "P2",
+  "level": "S6",
+  "source_specification_pages": [
+    16,
+    17
+  ],
+  "blender": "5.2.2 LTS",
+  "dependencies": {
+    "ENV-017/v001": {
+      "status": "needs_review",
+      "files": {
+        "ENV-017_landing_basin.blend": "b037f2e8e57c195d2427139d4fda1d2a71f690f05f1b69cb4014ff12ad993f05",
+        "ENV-017_LandingBasin.glb": "ca1c1aecc76165fab46a294664bb79d98a1b9054796c23f9c43f8f8e73e06880"
+      }
+    },
+    "ANM-007/v001": {
+      "status": "needs_review",
+      "files": {
+        "ANM-007_landing.blend": "bf8ed361fb9e06706e4a78e7fcbf2d4f61edc8cdbeea6018f2339dfecc35e5f0",
+        "ANM-007_landing.glb": "65779e411f7b638d6770f3849725fb403997d1075f86de7558796bf8b7380f5e"
+      }
+    }
+  },
+  "camera_source": {
+    "Sources/FeatherTide/Systems/Camera/ThirdPersonRig.swift": "274b58f0b910a280c676540dde54343c35e2e0709744e20e7e5ee4f9515476a2"
+  },
+  "source_size": [
+    852,
+    393
+  ],
+  "camera": {
+    "distance_game_units": 180,
+    "pitch_rad": 0.48,
+    "vertical_fov_deg": 50,
+    "target_height_game_units": 6,
+    "source_scale_BU_per_game_unit": 0.036
+  },
+  "art_origin": "Production-original procedural card silhouettes, built for this workspace.",
+  "rights": "Project original FX; review scene reuses project-owned ENV-017 and ANM-007 candidates.",
+  "export": {
+    "file": "FX-013_FeatherMotes.glb",
+    "transform": "Blender (x,y,z) -> GLB (x,z,-y)",
+    "includes": "FeatherMotes root and two centered static local cards, no terrain, animation or camera",
+    "primitives": {
+      "FeatherMotes_Feather": {
+        "size": [
+          96,
+          192
+        ],
+        "card": [
+          0.125,
+          0.4
+        ],
+        "alpha": 0.47,
+        "tex": "textures/ft_goose_fx_feather_motes_feather_rgba.png",
+        "triangles": 2,
+        "alphaMode": "BLEND",
+        "doubleSided": true
+      },
+      "FeatherMotes_Mote": {
+        "size": [
+          96,
+          96
+        ],
+        "card": [
+          0.135,
+          0.135
+        ],
+        "alpha": 0.42,
+        "tex": "textures/ft_goose_fx_feather_motes_mote_rgba.png",
+        "triangles": 2,
+        "alphaMode": "BLEND",
+        "doubleSided": true
+      }
+    }
+  },
+  "runtime_inputs": {
+    "landingSessionID": "Stable ID per landing attempt. A new session clears effect state.",
+    "expectedParticipantIDs": "Non-empty frozen participant set for one attempt (12 in review).",
+    "landingStartedParticipantIDs": "Animation entry events; once expected participants all started, emit one batch.",
+    "landingAnchorWorld": "World pose or basin center from game. Rotate/translate the sparse emit locations around it.",
+    "elapsedSinceAllStartedSeconds": "Monotonic controller time; late opt-in may skip effect or evaluate only remaining tails.",
+    "enabled": "False stops spawning and immediately hides existing cards. Skip effect allocation while false.",
+    "intensity": "0–1, multiplicative straight alpha. Default 1 within texture alpha limits.",
+    "driftVector": "Optional world-horizontal visual drift; sample .13 BU/s side motion.",
+    "fallSpeedMultiplier": ".4–1.4 in review; scale base .21–.37 BU/s, fade before any ground interaction.",
+    "cameraOrientation": "Optional billboard orientation. GLB local +Y is card normal, local -Z is card up.",
+    "behavior": "One-shot presentation cue. Does not feed any collision, movement, completion or save state.",
+    "preview_counts": {
+      "Feather": 4,
+      "Mote": 8
+    },
+    "preview_duration_s": "3.32 maximum after last start"
+  },
+  "files": {
+    "FX-013_FeatherMotes.blend": "ae710b49a7f68910bcac7ab03a8e8c4a3619c3915a747126f4f7e935c47526dc",
+    "FX-013_FeatherMotes.glb": "d8f73985a68ed2b457b60a3c8600b66bd0cd5d53b54be65556d6d7aae257fdaa",
+    "FX-013_generate.py": "389fb08935c23f90ce3b0ea9b7f2e9f4d5bfdb14f5c25daf282b069a2d1ed401",
+    "README.md": "7c5b57ef84f4bde71e19ea8f2e62963c90a9b48c8bc9f6fdc525f8a822f44c1f",
+    "comparison_no_instances.png": "36b379db3202f103155de6c2d6c0635c5a0e731a3235c3f58ad8db29fb3546f7",
+    "graybox_fixed_rear.png": "dd217c52b521ce191335e6a4bd6b89c22e54254bba1ebf357cd9f0c5c1597ec7",
+    "graybox_top.png": "a1351908ca4e33b15b9a324645e195fcf78b54dcd4bb51d92c01458404a325d6",
+    "preview_disabled.png": "827e182552186bde495363cf9680e8963168cd4cfd68e05ecf423f33f3302c60",
+    "preview_fixed_rear.mp4": "255fddbf3e3087139009c0d0273902aa2c089afa4510c7a7af3ba5f08a24b0d1",
+    "preview_fixed_rear_clear.png": "dade7a33372cd02c6520e12654166569ad5283ab5ea42575dd99bc8a16d79327",
+    "preview_fixed_rear_peak.png": "15f32e5c1bec8962739073bcd5e90618cb66a954922472b69895963c29fed745",
+    "preview_fixed_rear_pre.png": "e073998cc82f152a1010d363215c0389ec6c41ec57110fc78a08b2cf829bd9b0",
+    "preview_fixed_rear_settling.png": "c2e1e376a08eb02fecfab9cc44601eef5799c1e8d6ca72376607fbcdb266646d",
+    "preview_top.png": "375d3fdc121416824733c352c2cbc9cad49fae9ec330ad8e477738bf43ee45ef",
+    "qa.json": "fafe250da5983e7fde47e31e8097f327beb1ff69a646d7c3c5734730606dfbaf",
+    "roundtrip_fixed_rear.png": "328141961dea61939de53a48d370e96d553f9b4866006331dc12f76755f5822b",
+    "textures/ft_goose_fx_feather_motes_feather_rgba.png": "643b41a4b836f9f7c082be0c29a01255a05d9c0e60cdbf3815b5a8e995eb0efd",
+    "textures/ft_goose_fx_feather_motes_mote_rgba.png": "46c63b68ea2b69a3c05ac0f603aed8fbdb5b352f22c5371cab8e123195397d72"
+  }
+}

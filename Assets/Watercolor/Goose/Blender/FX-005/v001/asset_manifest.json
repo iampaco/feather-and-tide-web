@@ -1,0 +1,187 @@
+{
+  "id": "FX-005",
+  "name": "云影与光照软遮罩",
+  "version": "v001",
+  "status": "needs_review",
+  "blender": "5.2.2 LTS",
+  "depends": {
+    "ENV-018/v001": "needs_review",
+    "MAT-001/v001": "done"
+  },
+  "review_only_sources": [
+    "CHR-001/v001"
+  ],
+  "source_hashes": {
+    "cloud": {
+      "asset": "ENV-018",
+      "path": "ENV-018/v001/textures/ft_shared_atmosphere_cloudpatch_basecolor_alpha.png",
+      "sha256": "fd6b200b9557a4c2bd29c92aa7bfab29c19e53f6c926a47eb906e8b065ddc60e",
+      "candidate_status": "needs_review",
+      "review_files": {
+        "asset_manifest.json": "4227064d8cb97461019ff82d9a6294aba3a0026567944045067a828b3aa83ff4",
+        "qa.json": "e4fbb1855954d8ad8fbace0c65eb7acb604911c7ed124fe4a7a0034af7effeab",
+        "README.md": "f08866c7d80229658dc09f6f8f17c2486f7acd9da90cd188b607740f0d7a897e"
+      },
+      "blend_path": "ENV-018/v001/ENV-018_atmosphere_cards.blend",
+      "blend_sha256": "b731176f235bc14666b504915df8756a4d66eaefa1cf6c49e9730c3d17e995fd"
+    },
+    "paper": {
+      "asset": "MAT-001",
+      "path": "MAT-001/v001/textures/ft_goose_mat_soft_stone_basecolor.png",
+      "sha256": "931bb3b12c975c2dbbe37a695bf8dc1d49cf29e3b92bf3296c9896b6e0c5022f",
+      "candidate_status": "done",
+      "review_files": {
+        "asset_manifest.json": "93e27426f9a7cd9c956f35cc4ca3527ade97613d2f5f3bfbb47562a3af83b521",
+        "qa.json": "21c67257d49dde67f7325bc74f853c665d5b1419a1daa4a20738867c771475ed",
+        "README.md": "289b27d1f2baabb27182d689c47b7fc8da7f4b62157b8b85370f05537dfd20c0"
+      },
+      "blend_path": "MAT-001/v001/MAT-001_watercolor_master.blend",
+      "blend_sha256": "9fc0305a78264733d2a2f5747a67833158c59470eff3e3d71c4f6da5b9d11de0"
+    },
+    "goose": {
+      "asset": "CHR-001",
+      "path": "CHR-001/v001/CHR-001_goose_rig.blend",
+      "sha256": "db0c8d55c5efc499c99f7787228967451d071f36294962b12dc4b34d02f350f5",
+      "candidate_status": "done",
+      "review_files": {
+        "asset_manifest.json": "8daa953c8b45b97f750e45e33a751869470f9baead7182d253e5bf7fd1441921",
+        "qa.json": "de7e7d6eed73a5aa4d993113b4713e81f470480d982d981e80ef58acb56488ea",
+        "README.md": "fca1e84b2f0c7dfdac8ffa4cd929cd20a529b2dcd18a71821249b7315d31f659"
+      }
+    }
+  },
+  "rights": "项目原创衍生程序化素材，复用 MAT-001 和 ENV-018 内部制作来源。",
+  "variant": "CloudShadow",
+  "blend": "FX-005_CloudShadow.blend",
+  "gltf": "FX-005_CloudShadow.glb",
+  "root_pivot_BU": [
+    0,
+    0,
+    0
+  ],
+  "blender_to_gltf": "(x,y,z) => (x,z,-y)",
+  "carrier": {
+    "CoolShadow": {
+      "dimensions_BU": [
+        32,
+        24
+      ],
+      "local_location_BU": [
+        -8,
+        9.5,
+        0.012
+      ],
+      "triangles": 2
+    },
+    "DiffuseLight": {
+      "dimensions_BU": [
+        37,
+        27.5
+      ],
+      "local_location_BU": [
+        10,
+        11.5,
+        0.024
+      ],
+      "triangles": 2
+    }
+  },
+  "camera": {
+    "Blender_location_BU": [
+      0.0,
+      -5.747726917266846,
+      2.9923291206359863
+    ],
+    "distance_game_units": 180,
+    "pitch_parameter_rad": 0.48,
+    "vertical_fov_deg": 50,
+    "aim_height_game_units": 6,
+    "scale_BU_per_game_unit": 0.036,
+    "resolution_px": [
+      852,
+      393
+    ]
+  },
+  "textures": {
+    "CoolShadow": {
+      "file": "textures/ft_goose_vfx_cloud_shadow_alpha.png",
+      "sha256": "b9d69e4a83926ca5efbbba670856247060b67d42eaa2050e699e9ec70e5350bd",
+      "max_alpha_8bit": 37,
+      "max_adjacent_alpha_step_8bit": 1,
+      "alpha_at_texture_edge_8bit": 0,
+      "resolution": [
+        512,
+        512
+      ]
+    },
+    "DiffuseLight": {
+      "file": "textures/ft_goose_vfx_cloud_light_alpha.png",
+      "sha256": "cfa691877e8d16f19e5cc6cde2abb12809d65d11e1acaf3d7be47b2a08079094",
+      "max_alpha_8bit": 29,
+      "max_adjacent_alpha_step_8bit": 1,
+      "alpha_at_texture_edge_8bit": 0,
+      "resolution": [
+        512,
+        512
+      ]
+    }
+  },
+  "materials": {
+    "color": "sRGB",
+    "alpha": "straight",
+    "glb_alpha_mode": "BLEND",
+    "glb_shader": "KHR_materials_unlit",
+    "sampling": "CLAMP_TO_EDGE"
+  },
+  "review_controls": {
+    "timeline": "CloudShadow_Drift_Review",
+    "frames": [
+      1,
+      97
+    ],
+    "fps": 24,
+    "default_speed_BU_per_s": 0.78,
+    "mountain_pass_proposed_BU_per_s": 1.28,
+    "material_node": "Review strength",
+    "strength_levels": {
+      "off": 0.0,
+      "reduced": 0.35,
+      "default": 1.0
+    }
+  },
+  "proposed_runtime_inputs": {
+    "receiver_transform": "ground / shallow water surface",
+    "world_wind_direction": "unit XY or engine XZ",
+    "drift_speed_BU_per_s": "0.78 default; 1.28 mountain pass example",
+    "elapsed_seconds": "continuous playback",
+    "strength_factors": "0...1 per layer × setting",
+    "placement": "receiver-following or equivalent projected visual material, below path and birds",
+    "collision_enabled": false
+  },
+  "pending": [
+    "负责人美术及实际玩法中对云影的辨识",
+    "USDZ",
+    "RealityKit / App 接入及透明排序",
+    "运行时地面遮罩、设置输入和山口漂移",
+    "iPhone / iPad 真机显示与性能"
+  ],
+  "files": {
+    "FX-005_CloudShadow.blend": "ab3a17a1ef5bb29aa4f71079445907b7a2b22af86a6c5aecb35ee15e7d7545fe",
+    "FX-005_CloudShadow.glb": "9148841d9f2927e45e2e2d5b3012dc4d9647f90097aae0640a84787929c32ef2",
+    "FX-005_generate.py": "f67ab9681f64f3e6a56b2e8cb0e1460ce9df421026bd107fdd56218b7190128c",
+    "FX-005_recheck.py": "3ec4570322a28aec0f5500ac05f9bbdafc8911290ef03769f409398a3e701521",
+    "README.md": "b3987c5d5b5da18e4e3f83288531b23bd3fcbee9bcb21635ae41de8c8acd8862",
+    "generation_evidence.json": "c0bc8eeb0d8d8d5035c4445159cd3f82f11128d4d9d5f7cf6f397f72f59c74b8",
+    "graybox_fixed_planes.png": "783f67939fee800673784eae6f569ee146df80c8663291db0423cbdf766b28ce",
+    "preview_fixed_coolshadow.png": "620fccb9db532a402c2e1562fc19a5ee41478285a8153a3f739012c5a9d90484",
+    "preview_fixed_default.png": "00433458cf32218eb527aeacbb7eb08d33eef2b71a07b2e6a0ab023d7a9cddb9",
+    "preview_fixed_diffuselight.png": "5aa7d259ecdb68019438b8de72fea1511b92db275497763b208a60215c2b3f9c",
+    "preview_fixed_off.png": "3b2a046132d29dc42429a5a0e3ade1f00be0a167698bf1fd8c013bcbb20436ef",
+    "preview_fixed_rear.mp4": "1720ee401ead0bd005981b3adb0bb45d610fee3acf6176437dbe451ba2c63aa7",
+    "preview_fixed_reduced.png": "ac8af84c23e589990bda0338b49c5d1aae06cec29c7713a00e94c4a87efb5e17",
+    "qa.json": "bc1b2d2aadf28be5407183bc201615c380b183c1ae93066d6ba5d805490c9cd0",
+    "roundtrip_fixed_rear.png": "fd4a04928a234e72f9fc84d2832efc3a344cbcbce3767a38dc6875c614c2f743",
+    "textures/ft_goose_vfx_cloud_light_alpha.png": "cfa691877e8d16f19e5cc6cde2abb12809d65d11e1acaf3d7be47b2a08079094",
+    "textures/ft_goose_vfx_cloud_shadow_alpha.png": "b9d69e4a83926ca5efbbba670856247060b67d42eaa2050e699e9ec70e5350bd"
+  }
+}

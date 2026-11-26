@@ -1,0 +1,1543 @@
+{
+  "schemaVersion": 1,
+  "levelRevision": "goose-p0-10",
+  "id": "migration",
+  "title": "斑头雁迁徙",
+  "titleEn": "Bar-headed Goose Migration",
+  "species": "goose",
+  "modes": ["journey"],
+  "bounds": {
+    "min": {
+      "x": -105,
+      "z": -32
+    },
+    "max": {
+      "x": 105,
+      "z": 867
+    }
+  },
+  "spawn": {
+    "x": 0,
+    "z": 0
+  },
+  "spawnSegment": "S0",
+  "encounters": {
+    "kite": {
+      "bank": { "x": 21, "z": 54 },
+      "aloft": { "x": 9, "z": 46 },
+      "noticeZ": 34,
+      "noticeHalfWidth": 78,
+      "clearZ": 62,
+      "reelTicks": 146,
+      "span": 4.8,
+      "depthRadius": 2,
+      "heightRadius": 1.65,
+      "height": 5.6,
+      "heldHeight": 1.9
+    },
+    "glider": {
+      "launch": { "x": 24, "z": 146 },
+      "crossTo": { "x": -12, "z": 155 },
+      "land": { "x": -53, "z": 177 },
+      "noticeZ": 108,
+      "inflateTicks": 180,
+      "crossTicks": 220,
+      "leaveTicks": 250,
+      "span": 8.4,
+      "depthRadius": 2.8,
+      "heightRadius": 2.9,
+      "harnessDrop": 1.55,
+      "departureLift": 8,
+      "height": 5.9
+    }
+  },
+  "segments": [
+    {
+      "id": "S0",
+      "title": "晨雾湿地",
+      "titleEn": "Dawn Wetlands",
+      "start": -32,
+      "wind": {
+        "x": 0,
+        "z": 0
+      },
+      "color": "#739d91"
+    },
+    {
+      "id": "S1",
+      "title": "顺风洲",
+      "titleEn": "Tailwind Reach",
+      "start": 104,
+      "wind": {
+        "x": 0,
+        "z": 0.07
+      },
+      "color": "#83a99b"
+    },
+    {
+      "id": "S2",
+      "title": "山口 / 长湖",
+      "titleEn": "Mountain Pass / Long Lake",
+      "start": 224,
+      "wind": {
+        "x": 0.05,
+        "z": 0
+      },
+      "color": "#82a5ac"
+    },
+    {
+      "id": "S3",
+      "title": "侧风河谷",
+      "titleEn": "Crosswind Valley",
+      "start": 410,
+      "wind": {
+        "x": 0.44,
+        "z": 0
+      },
+      "color": "#86a294"
+    },
+    {
+      "id": "S4",
+      "title": "风电外围",
+      "titleEn": "Wind Farm Perimeter",
+      "start": 505,
+      "wind": {
+        "x": 0.13,
+        "z": 0.1
+      },
+      "color": "#78998d"
+    },
+    {
+      "id": "S5",
+      "title": "逆风归途",
+      "titleEn": "Home Against the Wind",
+      "start": 665,
+      "wind": {
+        "x": 0,
+        "z": -0.64
+      },
+      "color": "#8b9c8a",
+      "motionWind": {
+        "speed": 2.5,
+        "transition": 10
+      }
+    },
+    {
+      "id": "S6",
+      "title": "芦苇落脚",
+      "titleEn": "Reedbed Landing",
+      "start": 778,
+      "wind": {
+        "x": 0,
+        "z": 0
+      },
+      "color": "#9da18a"
+    }
+  ],
+  "zones": [
+    {
+      "id": "opening",
+      "kind": "sanctuary",
+      "label": "晨雾湿地",
+      "labelEn": "Dawn Wetlands",
+      "points": [
+        {
+          "x": -105,
+          "z": -32
+        },
+        {
+          "x": 105,
+          "z": -32
+        },
+        {
+          "x": 105,
+          "z": 104
+        },
+        {
+          "x": -105,
+          "z": 104
+        },
+        {
+          "x": -105,
+          "z": -32
+        }
+      ]
+    },
+    {
+      "id": "tailwind-first",
+      "kind": "interference",
+      "label": "第一道顺风带",
+      "labelEn": "First Tailwind",
+      "points": [
+        {
+          "x": -37,
+          "z": 105
+        },
+        {
+          "x": 1,
+          "z": 105
+        },
+        {
+          "x": 6,
+          "z": 150
+        },
+        {
+          "x": -29,
+          "z": 150
+        },
+        {
+          "x": -37,
+          "z": 105
+        }
+      ],
+      "strain": 0,
+      "wind": {
+        "x": 0.12,
+        "z": 0.83
+      }
+    },
+    {
+      "id": "tailwind-wide-water",
+      "kind": "interference",
+      "label": "宽水面 · 迎风",
+      "labelEn": "Open Water · Headwind",
+      "points": [
+        { "x": -105, "z": 155 },
+        { "x": 3, "z": 155 },
+        { "x": 3, "z": 182 },
+        { "x": -105, "z": 182 },
+        { "x": -105, "z": 155 }
+      ],
+      "strain": 0,
+      "wind": { "x": 0, "z": -1 }
+    },
+    {
+      "id": "tailwind-second",
+      "kind": "interference",
+      "label": "第二道顺风带",
+      "labelEn": "Second Tailwind",
+      "points": [
+        {
+          "x": 4,
+          "z": 151
+        },
+        {
+          "x": 45,
+          "z": 151
+        },
+        {
+          "x": 42,
+          "z": 237
+        },
+        {
+          "x": 1,
+          "z": 237
+        },
+        {
+          "x": 4,
+          "z": 151
+        }
+      ],
+      "strain": 0,
+      "wind": {
+        "x": -0.08,
+        "z": 0.98
+      }
+    },
+    {
+      "id": "rest-a",
+      "kind": "sanctuary",
+      "label": "芦苇洲",
+      "labelEn": "Reedbank",
+      "points": [
+        {
+          "x": -105,
+          "z": 183
+        },
+        {
+          "x": 105,
+          "z": 183
+        },
+        {
+          "x": 105,
+          "z": 235
+        },
+        {
+          "x": -105,
+          "z": 235
+        },
+        {
+          "x": -105,
+          "z": 183
+        }
+      ]
+    },
+    {
+      "id": "tailwind-reed-bank",
+      "kind": "hazard",
+      "label": "顺风洲芦苇浅滩",
+      "labelEn": "Tailwind Reed Bank",
+      "points": [
+        {
+          "x": -13,
+          "z": 177
+        },
+        {
+          "x": 6,
+          "z": 177
+        },
+        {
+          "x": 6,
+          "z": 184
+        },
+        {
+          "x": -13,
+          "z": 184
+        },
+        {
+          "x": -13,
+          "z": 177
+        }
+      ],
+      "cost": 0
+    },
+    {
+      "id": "A",
+      "kind": "checkpoint",
+      "label": "检查点 A",
+      "labelEn": "Checkpoint A",
+      "points": [
+        {
+          "x": -105,
+          "z": 185
+        },
+        {
+          "x": 105,
+          "z": 185
+        },
+        {
+          "x": 105,
+          "z": 238
+        },
+        {
+          "x": -105,
+          "z": 238
+        },
+        {
+          "x": -105,
+          "z": 185
+        }
+      ]
+    },
+    {
+      "id": "ridge-warning",
+      "kind": "warning",
+      "label": "分水岭 · 两侧皆可通行",
+      "labelEn": "Ridge · Passage on Either Side",
+      "hazardId": "ridge-wall",
+      "points": [
+        {
+          "x": -103,
+          "z": 217
+        },
+        {
+          "x": 103,
+          "z": 217
+        },
+        {
+          "x": 103,
+          "z": 270
+        },
+        {
+          "x": -103,
+          "z": 270
+        },
+        {
+          "x": -103,
+          "z": 217
+        }
+      ]
+    },
+    {
+      "id": "ridge-wall",
+      "kind": "hazard",
+      "label": "分水岭",
+      "labelEn": "Ridge",
+      "cost": 0,
+      "points": [
+        {
+          "x": -8,
+          "z": 272
+        },
+        {
+          "x": -2,
+          "z": 263
+        },
+        {
+          "x": 15,
+          "z": 269
+        },
+        {
+          "x": 22,
+          "z": 283
+        },
+        {
+          "x": 18,
+          "z": 344
+        },
+        {
+          "x": 11,
+          "z": 365
+        },
+        {
+          "x": -4,
+          "z": 361
+        },
+        {
+          "x": -9,
+          "z": 346
+        },
+        {
+          "x": -8,
+          "z": 272
+        }
+      ]
+    },
+    {
+      "id": "pass-wind",
+      "kind": "interference",
+      "label": "山口横风向分水岭",
+      "labelEn": "Mountain Pass · Crosswind Toward the Ridge",
+      "points": [
+        {
+          "x": -86,
+          "z": 251
+        },
+        {
+          "x": -12,
+          "z": 251
+        },
+        {
+          "x": -12,
+          "z": 299
+        },
+        {
+          "x": -84,
+          "z": 299
+        },
+        {
+          "x": -86,
+          "z": 251
+        }
+      ],
+      "strain": 0.13,
+      "wind": {
+        "x": 0.82,
+        "z": 0.05
+      }
+    },
+    {
+      "id": "pass-wind-return",
+      "kind": "interference",
+      "label": "山口横风转向西坡",
+      "labelEn": "Mountain Pass · Crosswind Toward the West Slope",
+      "points": [
+        {
+          "x": -86,
+          "z": 317
+        },
+        {
+          "x": -12,
+          "z": 317
+        },
+        {
+          "x": -12,
+          "z": 380
+        },
+        {
+          "x": -83,
+          "z": 380
+        },
+        {
+          "x": -86,
+          "z": 317
+        }
+      ],
+      "strain": 0.18,
+      "wind": {
+        "x": -0.77,
+        "z": 0.08
+      }
+    },
+    {
+      "id": "lake-supply",
+      "kind": "supply",
+      "label": "长湖浅滩",
+      "labelEn": "Long Lake Shallows",
+      "points": [
+        {
+          "x": 72,
+          "z": 286
+        },
+        {
+          "x": 102,
+          "z": 286
+        },
+        {
+          "x": 102,
+          "z": 373
+        },
+        {
+          "x": 72,
+          "z": 373
+        },
+        {
+          "x": 72,
+          "z": 286
+        }
+      ],
+      "capacity": 0.38
+    },
+    {
+      "id": "valley-wind",
+      "kind": "interference",
+      "label": "侧风河谷",
+      "labelEn": "Crosswind Valley",
+      "points": [
+        {
+          "x": -104,
+          "z": 412
+        },
+        {
+          "x": 104,
+          "z": 412
+        },
+        {
+          "x": 104,
+          "z": 483
+        },
+        {
+          "x": -104,
+          "z": 483
+        },
+        {
+          "x": -104,
+          "z": 412
+        }
+      ],
+      "strain": 0.37
+    },
+    {
+      "id": "rescue-lee",
+      "kind": "sanctuary",
+      "label": "背风芦苇湾",
+      "labelEn": "Sheltered Reed Bay",
+      "points": [
+        {
+          "x": -76,
+          "z": 466
+        },
+        {
+          "x": -42,
+          "z": 466
+        },
+        {
+          "x": -42,
+          "z": 507
+        },
+        {
+          "x": -76,
+          "z": 507
+        },
+        {
+          "x": -76,
+          "z": 466
+        }
+      ]
+    },
+    {
+      "id": "wind-warning",
+      "kind": "warning",
+      "label": "前方风机 · 沿外侧水道绕行",
+      "labelEn": "Turbines Ahead · Take the Outer Channel",
+      "points": [
+        {
+          "x": -104,
+          "z": 512
+        },
+        {
+          "x": 104,
+          "z": 512
+        },
+        {
+          "x": 104,
+          "z": 649
+        },
+        {
+          "x": -104,
+          "z": 649
+        },
+        {
+          "x": -104,
+          "z": 512
+        }
+      ],
+      "hazardId": "sweep"
+    },
+    {
+      "id": "sweep",
+      "kind": "hazard",
+      "label": "风机扫掠区",
+      "labelEn": "Turbine Sweep Zone",
+      "points": [
+        {
+          "x": -23,
+          "z": 560
+        },
+        {
+          "x": -29,
+          "z": 575
+        },
+        {
+          "x": -23,
+          "z": 598
+        },
+        {
+          "x": -14,
+          "z": 618
+        },
+        {
+          "x": -3,
+          "z": 638
+        },
+        {
+          "x": 28,
+          "z": 647
+        },
+        {
+          "x": 40,
+          "z": 634
+        },
+        {
+          "x": 34,
+          "z": 613
+        },
+        {
+          "x": 29,
+          "z": 589
+        },
+        {
+          "x": 20,
+          "z": 567
+        },
+        {
+          "x": -1,
+          "z": 557
+        },
+        {
+          "x": -23,
+          "z": 560
+        }
+      ],
+      "cost": 0.12
+    },
+    {
+      "id": "reserve",
+      "kind": "sanctuary",
+      "label": "保护湿地",
+      "labelEn": "Protected Wetlands",
+      "points": [
+        {
+          "x": -103,
+          "z": 548
+        },
+        {
+          "x": -87,
+          "z": 539
+        },
+        {
+          "x": -72,
+          "z": 552
+        },
+        {
+          "x": -73,
+          "z": 610
+        },
+        {
+          "x": -79,
+          "z": 635
+        },
+        {
+          "x": -102,
+          "z": 632
+        },
+        {
+          "x": -103,
+          "z": 548
+        }
+      ]
+    },
+    {
+      "id": "reserve-supply",
+      "kind": "supply",
+      "label": "保护湿地补给",
+      "labelEn": "Protected Wetlands Supplies",
+      "points": [
+        {
+          "x": -98,
+          "z": 559
+        },
+        {
+          "x": -77,
+          "z": 559
+        },
+        {
+          "x": -77,
+          "z": 610
+        },
+        {
+          "x": -82,
+          "z": 627
+        },
+        {
+          "x": -98,
+          "z": 627
+        },
+        {
+          "x": -98,
+          "z": 559
+        }
+      ],
+      "capacity": 0.48
+    },
+    {
+      "id": "return-supply",
+      "kind": "supply",
+      "label": "逆风补给",
+      "labelEn": "Headwind Supplies",
+      "points": [
+        {
+          "x": 9,
+          "z": 671
+        },
+        {
+          "x": 40,
+          "z": 671
+        },
+        {
+          "x": 40,
+          "z": 727
+        },
+        {
+          "x": 9,
+          "z": 727
+        },
+        {
+          "x": 9,
+          "z": 671
+        }
+      ],
+      "capacity": 0.34
+    },
+    {
+      "id": "gallery-warning",
+      "kind": "warning",
+      "label": "前方玻璃幕墙",
+      "labelEn": "Glass Facade Ahead",
+      "hazardId": "gallery-panel-upstream",
+      "points": [
+        {
+          "x": -105,
+          "z": 666
+        },
+        {
+          "x": 104,
+          "z": 666
+        },
+        {
+          "x": 104,
+          "z": 806
+        },
+        {
+          "x": -105,
+          "z": 806
+        },
+        {
+          "x": -105,
+          "z": 666
+        }
+      ]
+    },
+    {
+      "id": "return-gust",
+      "kind": "interference",
+      "label": "潮口阵风",
+      "labelEn": "Estuary Gust",
+      "strain": 0,
+      "wind": {
+        "x": 0,
+        "z": -0.64
+      },
+      "gust": {
+        "periodTicks": 660,
+        "phaseTicks": 0,
+        "peak": {
+          "x": -0.66,
+          "z": -0.74
+        }
+      },
+      "points": [
+        {
+          "x": -14,
+          "z": 692
+        },
+        {
+          "x": 10,
+          "z": 692
+        },
+        {
+          "x": 12,
+          "z": 709
+        },
+        {
+          "x": 6,
+          "z": 724
+        },
+        {
+          "x": -14,
+          "z": 732
+        },
+        {
+          "x": -14,
+          "z": 692
+        }
+      ]
+    },
+    {
+      "id": "return-lee",
+      "kind": "interference",
+      "label": "背风水道",
+      "labelEn": "Sheltered Channel",
+      "strain": 0,
+      "wind": {
+        "x": 0,
+        "z": 0.99
+      },
+      "points": [
+        {
+          "x": 2,
+          "z": 721
+        },
+        {
+          "x": 30,
+          "z": 718
+        },
+        {
+          "x": 35,
+          "z": 755
+        },
+        {
+          "x": 32,
+          "z": 774
+        },
+        {
+          "x": 2,
+          "z": 772
+        },
+        {
+          "x": 2,
+          "z": 721
+        }
+      ]
+    },
+    {
+      "id": "gallery-lee",
+      "kind": "interference",
+      "label": "观景廊背风水巷",
+      "labelEn": "Sheltered Channel by the Gallery",
+      "points": [
+        {
+          "x": -100,
+          "z": 683
+        },
+        {
+          "x": -63,
+          "z": 683
+        },
+        {
+          "x": -63,
+          "z": 735
+        },
+        {
+          "x": -100,
+          "z": 735
+        },
+        {
+          "x": -100,
+          "z": 683
+        }
+      ],
+      "strain": 0,
+      "wind": {
+        "x": 0.03,
+        "z": 0.19
+      }
+    },
+    {
+      "id": "gallery-supply",
+      "kind": "supply",
+      "label": "观景廊浅湾",
+      "labelEn": "Gallery Shallow Bay",
+      "capacity": 0.19,
+      "points": [
+        {
+          "x": -101,
+          "z": 685
+        },
+        {
+          "x": -65,
+          "z": 685
+        },
+        {
+          "x": -65,
+          "z": 727
+        },
+        {
+          "x": -101,
+          "z": 727
+        },
+        {
+          "x": -101,
+          "z": 685
+        }
+      ]
+    },
+    {
+      "id": "gallery-panel-upstream",
+      "kind": "hazard",
+      "appearance": "glass",
+      "label": "观景廊玻璃幕墙",
+      "labelEn": "Gallery Glass Facade",
+      "cost": 0.09,
+      "points": [
+        {
+          "x": -60,
+          "z": 717
+        },
+        {
+          "x": -18,
+          "z": 717
+        },
+        {
+          "x": -18,
+          "z": 724
+        },
+        {
+          "x": -60,
+          "z": 724
+        },
+        {
+          "x": -60,
+          "z": 717
+        }
+      ]
+    },
+    {
+      "id": "gallery-panel-downstream",
+      "kind": "hazard",
+      "appearance": "glass",
+      "label": "河岸玻璃幕墙",
+      "labelEn": "Riverside Glass Facade",
+      "cost": 0.09,
+      "points": [
+        {
+          "x": -105,
+          "z": 754
+        },
+        {
+          "x": -53,
+          "z": 754
+        },
+        {
+          "x": -53,
+          "z": 762
+        },
+        {
+          "x": -105,
+          "z": 762
+        },
+        {
+          "x": -105,
+          "z": 754
+        }
+      ]
+    },
+    {
+      "id": "reeds",
+      "kind": "sanctuary",
+      "label": "芦苇落脚地",
+      "labelEn": "Reedbed Landing Area",
+      "points": [
+        {
+          "x": -77,
+          "z": 770
+        },
+        {
+          "x": 77,
+          "z": 770
+        },
+        {
+          "x": 77,
+          "z": 866
+        },
+        {
+          "x": -77,
+          "z": 866
+        },
+        {
+          "x": -77,
+          "z": 770
+        }
+      ]
+    },
+    {
+      "id": "goal",
+      "kind": "goal",
+      "label": "芦苇落脚地",
+      "labelEn": "Reedbed Landing Area",
+      "points": [
+        {
+          "x": -66,
+          "z": 799
+        },
+        {
+          "x": 66,
+          "z": 799
+        },
+        {
+          "x": 66,
+          "z": 865
+        },
+        {
+          "x": -66,
+          "z": 865
+        },
+        {
+          "x": -66,
+          "z": 799
+        }
+      ]
+    }
+  ],
+  "triggers": [
+    {
+      "id": "pass-entry",
+      "kind": "route",
+      "label": "短山口",
+      "labelEn": "Mountain Pass",
+      "points": [
+        {
+          "x": -105,
+          "z": 345
+        },
+        {
+          "x": 0,
+          "z": 345
+        },
+        {
+          "x": 0,
+          "z": 355
+        },
+        {
+          "x": -105,
+          "z": 355
+        },
+        {
+          "x": -105,
+          "z": 345
+        }
+      ],
+      "route": "mountain",
+      "crossingZ": 350
+    },
+    {
+      "id": "lake-entry",
+      "kind": "route",
+      "label": "长湖路",
+      "labelEn": "Long Lake Route",
+      "points": [
+        {
+          "x": 0,
+          "z": 345
+        },
+        {
+          "x": 105,
+          "z": 345
+        },
+        {
+          "x": 105,
+          "z": 355
+        },
+        {
+          "x": 0,
+          "z": 355
+        },
+        {
+          "x": 0,
+          "z": 345
+        }
+      ],
+      "route": "lake",
+      "crossingZ": 350
+    },
+    {
+      "id": "confluence",
+      "kind": "merge",
+      "label": "河谷汇流",
+      "labelEn": "River Valley Junction",
+      "points": [
+        {
+          "x": -105,
+          "z": 401
+        },
+        {
+          "x": 105,
+          "z": 401
+        },
+        {
+          "x": 105,
+          "z": 413
+        },
+        {
+          "x": -105,
+          "z": 413
+        },
+        {
+          "x": -105,
+          "z": 401
+        }
+      ]
+    },
+    {
+      "id": "crosswind",
+      "kind": "rescue",
+      "label": "侧风接应",
+      "labelEn": "Crosswind Rescue",
+      "points": [
+        {
+          "x": -105,
+          "z": 432
+        },
+        {
+          "x": 105,
+          "z": 432
+        },
+        {
+          "x": 105,
+          "z": 447
+        },
+        {
+          "x": -105,
+          "z": 447
+        },
+        {
+          "x": -105,
+          "z": 432
+        }
+      ],
+      "actorId": "goose-11"
+    }
+  ],
+  "landmarks": [
+    {
+      "id": "s0-reeds",
+      "kind": "reed",
+      "label": "浅滩芦苇",
+      "labelEn": "Shallow-Water Reeds",
+      "pos": {
+        "x": -18,
+        "z": 26
+      }
+    },
+    {
+      "id": "s0-waterway",
+      "kind": "beacon",
+      "label": "沿水道飞行",
+      "labelEn": "Follow the Channel",
+      "pos": {
+        "x": 3,
+        "z": 47
+      }
+    },
+    {
+      "id": "s0-reed-island",
+      "kind": "reed",
+      "label": "芦苇岛",
+      "labelEn": "Reed Island",
+      "pos": {
+        "x": 23,
+        "z": 58
+      }
+    },
+    {
+      "id": "s0-turn",
+      "kind": "beacon",
+      "label": "绕过芦苇岛",
+      "labelEn": "Fly Around Reed Island",
+      "pos": {
+        "x": -10,
+        "z": 66
+      }
+    },
+    {
+      "id": "s0-mark",
+      "kind": "beacon",
+      "label": "雾线",
+      "labelEn": "Mist Line",
+      "pos": {
+        "x": 0,
+        "z": 104
+      }
+    },
+    {
+      "id": "s1-mark",
+      "kind": "reed",
+      "label": "芦苇洲",
+      "labelEn": "Reedbank",
+      "pos": {
+        "x": -21,
+        "z": 205
+      }
+    },
+    {
+      "id": "pass-mark",
+      "kind": "beacon",
+      "label": "短山口 · 近，侧风强",
+      "labelEn": "Mountain Pass · Short with Strong Crosswinds",
+      "pos": {
+        "x": -32,
+        "z": 246
+      }
+    },
+    {
+      "id": "lake-mark",
+      "kind": "beacon",
+      "label": "长湖路 · 远，有补给",
+      "labelEn": "Long Lake Route · Longer with Supplies",
+      "pos": {
+        "x": 35,
+        "z": 246
+      }
+    },
+    {
+      "id": "pass-ridge",
+      "kind": "peak",
+      "label": "山脊",
+      "labelEn": "Ridgeline",
+      "pos": {
+        "x": -74,
+        "z": 307
+      }
+    },
+    {
+      "id": "fork-ridge",
+      "kind": "peak",
+      "label": "分水岭",
+      "labelEn": "Ridge",
+      "pos": {
+        "x": 6,
+        "z": 308
+      }
+    },
+    {
+      "id": "lake-water",
+      "kind": "water",
+      "label": "长湖",
+      "labelEn": "Long Lake",
+      "pos": {
+        "x": 63,
+        "z": 329
+      }
+    },
+    {
+      "id": "valley-mark",
+      "kind": "beacon",
+      "label": "河谷",
+      "labelEn": "River Valley",
+      "pos": {
+        "x": 0,
+        "z": 407
+      }
+    },
+    {
+      "id": "wetland-mark",
+      "kind": "reed",
+      "label": "保护湿地",
+      "labelEn": "Protected Wetlands",
+      "pos": {
+        "x": -91,
+        "z": 601
+      }
+    },
+    {
+      "id": "outer-mark",
+      "kind": "beacon",
+      "label": "外围直达航道",
+      "labelEn": "Direct Outer Channel",
+      "pos": {
+        "x": -56,
+        "z": 551
+      }
+    },
+    {
+      "id": "turbine-a",
+      "kind": "turbine",
+      "label": "风机",
+      "labelEn": "Wind Turbine",
+      "pos": {
+        "x": -12,
+        "z": 573
+      }
+    },
+    {
+      "id": "turbine-b",
+      "kind": "turbine",
+      "label": "风机",
+      "labelEn": "Wind Turbine",
+      "pos": {
+        "x": 13,
+        "z": 598
+      }
+    },
+    {
+      "id": "turbine-c",
+      "kind": "turbine",
+      "label": "风机",
+      "labelEn": "Wind Turbine",
+      "pos": {
+        "x": 25,
+        "z": 627
+      }
+    },
+    {
+      "id": "return-mark",
+      "kind": "beacon",
+      "label": "逆风补给",
+      "labelEn": "Headwind Supplies",
+      "pos": {
+        "x": 24,
+        "z": 698
+      }
+    },
+    {
+      "id": "goal-mark",
+      "kind": "beacon",
+      "label": "芦苇落脚地",
+      "labelEn": "Reedbed Landing Area",
+      "pos": {
+        "x": 0,
+        "z": 819
+      }
+    },
+    {
+      "id": "reeds-west",
+      "kind": "reed",
+      "label": "芦苇",
+      "labelEn": "Reeds",
+      "pos": {
+        "x": -37,
+        "z": 821
+      }
+    },
+    {
+      "id": "reeds-east",
+      "kind": "reed",
+      "label": "芦苇",
+      "labelEn": "Reeds",
+      "pos": {
+        "x": 37,
+        "z": 830
+      }
+    },
+    {
+      "id": "wind-exit",
+      "kind": "beacon",
+      "label": "外围出口",
+      "labelEn": "Outer Exit",
+      "pos": {
+        "x": -52,
+        "z": 659
+      }
+    },
+    {
+      "id": "wind-east-exit",
+      "kind": "beacon",
+      "label": "外围出口",
+      "labelEn": "Outer Exit",
+      "pos": {
+        "x": 56,
+        "z": 659
+      }
+    },
+    {
+      "id": "tailwind-entry",
+      "kind": "beacon",
+      "label": "顺风带 · 直飞结阵",
+      "labelEn": "Tailwind · Form Up and Fly Straight",
+      "pos": {
+        "x": -11,
+        "z": 119
+      }
+    },
+    {
+      "id": "tailwind-bend",
+      "kind": "reed",
+      "label": "芦苇弯 · 解阵转向",
+      "labelEn": "Reed Bend · Break Formation to Turn",
+      "pos": {
+        "x": -11,
+        "z": 144
+      }
+    },
+    {
+      "id": "tailwind-next",
+      "kind": "beacon",
+      "label": "第二道顺风带",
+      "labelEn": "Second Tailwind",
+      "pos": {
+        "x": 14,
+        "z": 177
+      }
+    },
+    {
+      "id": "tailwind-wide",
+      "kind": "beacon",
+      "label": "宽水面 · 绕芦苇浅滩",
+      "labelEn": "Open Water · Bank Around the Reeds",
+      "pos": {
+        "x": -28,
+        "z": 168
+      }
+    },
+    {
+      "id": "lake-bay",
+      "kind": "beacon",
+      "label": "长湖浅滩",
+      "labelEn": "Long Lake Shallows",
+      "pos": {
+        "x": 88,
+        "z": 327
+      }
+    },
+    {
+      "id": "rescue-bay",
+      "kind": "reed",
+      "label": "背风芦苇湾",
+      "labelEn": "Sheltered Reed Bay",
+      "pos": {
+        "x": -57,
+        "z": 487
+      }
+    },
+    {
+      "id": "gallery-inlet",
+      "kind": "beacon",
+      "label": "内廊 · 背风，两道弯",
+      "labelEn": "Inner Channel · Sheltered with Two Bends",
+      "pos": {
+        "x": -83,
+        "z": 704
+      }
+    },
+    {
+      "id": "gallery-bend",
+      "kind": "beacon",
+      "label": "解阵转弯",
+      "labelEn": "Break Formation to Turn",
+      "pos": {
+        "x": -83,
+        "z": 746
+      }
+    },
+    {
+      "id": "gallery-waterway",
+      "kind": "beacon",
+      "label": "外侧河道 · 宽阔",
+      "labelEn": "Wide Outer River Channel",
+      "pos": {
+        "x": 0,
+        "z": 738
+      }
+    },
+    {
+      "id": "gallery-exit",
+      "kind": "beacon",
+      "label": "内廊出口",
+      "labelEn": "Inner Channel Exit",
+      "pos": {
+        "x": -31,
+        "z": 746
+      }
+    },
+    {
+      "id": "gallery-clear",
+      "kind": "beacon",
+      "label": "内廊汇流",
+      "labelEn": "Inner Channel Junction",
+      "pos": {
+        "x": -29,
+        "z": 783
+      }
+    },
+    {
+      "id": "gallery-waterway-exit",
+      "kind": "beacon",
+      "label": "外侧河道出口",
+      "labelEn": "Outer River Channel Exit",
+      "pos": {
+        "x": 0,
+        "z": 777
+      }
+    },
+    {
+      "id": "reserve-entry",
+      "kind": "beacon",
+      "label": "补给浅湾",
+      "labelEn": "Shallow Bay Supplies",
+      "pos": {
+        "x": -87,
+        "z": 565
+      }
+    },
+    {
+      "id": "return-gust-approach",
+      "kind": "beacon",
+      "pos": {
+        "x": 0,
+        "z": 704
+      },
+      "label": "潮口阵风",
+      "labelEn": "Estuary Gust"
+    },
+    {
+      "id": "return-lee-entry",
+      "kind": "beacon",
+      "pos": {
+        "x": 14,
+        "z": 731
+      },
+      "label": "背风水道入口",
+      "labelEn": "Sheltered Channel Entrance"
+    },
+    {
+      "id": "return-lee-exit",
+      "kind": "beacon",
+      "pos": {
+        "x": 15,
+        "z": 763
+      },
+      "label": "背风水道出口",
+      "labelEn": "Sheltered Channel Exit"
+    }
+  ]
+}

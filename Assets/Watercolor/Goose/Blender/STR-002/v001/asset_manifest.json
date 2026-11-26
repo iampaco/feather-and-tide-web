@@ -1,0 +1,222 @@
+{
+  "id": "STR-002",
+  "version": "v001",
+  "execution_order_1_based": 39,
+  "status": "needs_review",
+  "variant": "CurvedFarm_Layout",
+  "blend": "STR-002_CurvedFarm_Layout.blend",
+  "final_visual_glb": "STR-002_CurvedFarm_Layout.glb",
+  "technical_review_guide_glb": "STR-002_RotorFootprint_Review.glb",
+  "layout": "farm_layout.json",
+  "scene_blender": "STR-002 | S4 farm and marsh review",
+  "root": "CurvedFarm_Layout",
+  "blender_to_glb": "(x,y,z) -> (x,z,-y)",
+  "depends": [
+    "STR-001/v001",
+    "FX-010/pending"
+  ],
+  "direct_candidate_asset": {
+    "turbine_count": 7,
+    "shared_meshes": 8,
+    "clip": "STR-002 | S4 farm and marsh review",
+    "rotation_channels": 7,
+    "cycle_seconds": 9
+  },
+  "sources": {
+    "Assets/Watercolor/Goose/Blender/STR-001/v001/STR-001_Main_Turbine.blend": {
+      "bytes": 5280248,
+      "sha256": "06742dcb9716563369f8efd8025829c1b252b963dc9ef6f8786b2d9e7a3575b7"
+    },
+    "Assets/Watercolor/Goose/Blender/STR-001/v001/STR-001_Main_Turbine.glb": {
+      "bytes": 1279828,
+      "sha256": "c6276d8c507bb1d90c5690b2792284c1201a48d134bb01f309ab3ae8eaa3482a"
+    },
+    "Assets/Watercolor/Goose/Blender/STR-001/v001/STR-001_generate.py": {
+      "bytes": 27244,
+      "sha256": "e6f8d496e1364c62f8e727d23d34546839a323872a828546c49b23feee466f9e"
+    },
+    "Assets/Watercolor/Goose/Blender/CHR-001/v001/CHR-001_goose_rig.blend": {
+      "bytes": 3847685,
+      "sha256": "db0c8d55c5efc499c99f7787228967451d071f36294962b12dc4b34d02f350f5"
+    },
+    "Assets/Watercolor/Goose/Blender/ENV-001/v001/ENV-001_terrain.blend": {
+      "bytes": 9186184,
+      "sha256": "9979e7606a115a16e9dc35fdf81684d5285b649692cd969692f195dfc1e3743d"
+    },
+    "Assets/Watercolor/Goose/Blender/ENV-001/v001/ENV-001_generate.py": {
+      "bytes": 44556,
+      "sha256": "ba9f27275913d194b1df183bf2554885a76cd110d0920e81dbc620f51ffaf06f"
+    },
+    "Assets/Watercolor/Goose/Blender/ENV-016/v001/ENV-016_protected_marsh.blend": {
+      "bytes": 22130359,
+      "sha256": "228583827b45d44c1bc877c3ed4decab177a121a4e374f0ef5da09a1c37c01d8"
+    },
+    "Assets/Watercolor/Goose/Blender/ENV-016/v001/ENV-016_ProtectedMarsh.glb": {
+      "bytes": 8745192,
+      "sha256": "a6c9ed997539d4c82f135c3101349a6729c75fbb4d5b3a0c5e7d10af21ccce23"
+    },
+    "Assets/Watercolor/Goose/Blender/ENV-016/v001/ENV-016_generate.py": {
+      "bytes": 29527,
+      "sha256": "dea57b1c3b6652a3b11aea5efe8018ec97f21a0d57bc2de4616d84a91608e7ab"
+    },
+    "Assets/Watercolor/Goose/Blender/ENV-016/v001/qa.json": {
+      "bytes": 49272,
+      "sha256": "44a9644518b94793a2b99390140dc27183c8d18598310fdb5ba3085131247fb5"
+    },
+    "Assets/Watercolor/Goose/Blender/ENV-018/v001/ENV-018_atmosphere_cards.blend": {
+      "bytes": 54295652,
+      "sha256": "b731176f235bc14666b504915df8756a4d66eaefa1cf6c49e9730c3d17e995fd"
+    },
+    "Assets/Watercolor/Goose/Blender/ENV-018/v001/ENV-018_generate.py": {
+      "bytes": 29400,
+      "sha256": "35c436513ecd84cb1cb052ab2d4dac62e4c2de3051628637cfe8a94bfbae7538"
+    },
+    "Assets/Watercolor/Goose/Blender/ENV-018/v001/qa.json": {
+      "bytes": 6330,
+      "sha256": "e4fbb1855954d8ad8fbace0c65eb7acb604911c7ed124fe4a7a0034af7effeab"
+    },
+    "Assets/Watercolor/Goose/Blender/ANM-007/v001/ANM-007_landing.blend": {
+      "bytes": 3939567,
+      "sha256": "bf8ed361fb9e06706e4a78e7fcbf2d4f61edc8cdbeea6018f2339dfecc35e5f0"
+    }
+  },
+  "texture_mapping": {
+    "array": {
+      "manifest": "../../STR-001/v001/asset_manifest.json",
+      "linked_shared_mesh_textures": [
+        {
+          "material": "Warm porcelain",
+          "file": "textures/ft_goose_str_turbine_shell.png",
+          "sha256": "485f45df96272697ce44dbc081d50776f7cf5155b97a08e3df245866edef8cd3",
+          "palette_sRGB": [
+            "D9D5C9",
+            "F1ECE1"
+          ],
+          "roughness": 0.73
+        },
+        {
+          "material": "Aluminum shadow",
+          "file": "textures/ft_goose_str_turbine_alloy.png",
+          "sha256": "3ae31472fe7b5355a5f48d48d456f69d2f4dab9a58c850e357455cafb42afc5b",
+          "palette_sRGB": [
+            "A9ADB0",
+            "CBD0CF"
+          ],
+          "roughness": 0.63
+        },
+        {
+          "material": "Dull zinc",
+          "file": "textures/ft_goose_str_turbine_zinc.png",
+          "sha256": "43a959951dd8b2ac777dc6f9942619e717b5aadd1b53012837a28e541696716a",
+          "palette_sRGB": [
+            "737C7D",
+            "A4ABAA"
+          ],
+          "roughness": 0.77
+        },
+        {
+          "material": "Foundation",
+          "file": "textures/ft_goose_str_turbine_footing.png",
+          "sha256": "00cb4a4e9e5b10db2f5e693eb8b6e47ed7f880bec68d24250401e9639efd1aa4",
+          "palette_sRGB": [
+            "93908A",
+            "C0B9AB"
+          ],
+          "roughness": 0.91
+        },
+        {
+          "material": "Pale lichen | index stripe",
+          "file": "textures/ft_goose_str_turbine_stripe.png",
+          "sha256": "c924e0fe9c2bad0d505af1fa1c658b7ecc0d65673159aed22df1f2bf3d7d5156",
+          "palette_sRGB": [
+            "A19678",
+            "C3BBA4"
+          ],
+          "roughness": 0.78
+        }
+      ],
+      "packed_png_bytes_match_STR001_GLTF": true
+    },
+    "review_only_environment": {
+      "wetland": "../../ENV-016/v001/asset_manifest.json#textures",
+      "fog": "../../ENV-018/v001/asset_manifest.json#textures",
+      "goose": "../../CHR-001/v001/asset_manifest.json#texture_mapping",
+      "ground": "../../ENV-001/v001/asset_manifest.json"
+    }
+  },
+  "rights": "Parametric layout and outline with in-project models and texture dependencies; no external media.",
+  "files": {
+    "README.md": {
+      "bytes": 6467,
+      "sha256": "4dae4b4b1179dfb542a5bd26a6a1bab6f89f46dc4ee487d4af171df15e88f40f"
+    },
+    "STR-002_CurvedFarm_Layout.blend": {
+      "bytes": 21948585,
+      "sha256": "70700aded24658e653185dd4affe0aaa20dfaca707c48995c27973850d6fbecc"
+    },
+    "STR-002_CurvedFarm_Layout.glb": {
+      "bytes": 1308944,
+      "sha256": "9a37ce637b0996059f2d547a7c515fa4952aa08d933eea923d5acfe45f11ceb6"
+    },
+    "STR-002_RotorFootprint_Review.glb": {
+      "bytes": 185036,
+      "sha256": "b60c0172f1aafa83c785f4679b2eebcac4eb453c8217f3e92c15b8f31f67bdb3"
+    },
+    "STR-002_generate.py": {
+      "bytes": 40090,
+      "sha256": "9372f5a485180c3fe5a305450e65e3db73a207c2a469fdd0011cfaca722266c4"
+    },
+    "farm_layout.json": {
+      "bytes": 2448,
+      "sha256": "85db55e5a9dc4e7f72ab5141ff5c1da52be4d1e9aab7977382841354eedc8657"
+    },
+    "graybox_fixed_rear.png": {
+      "bytes": 309835,
+      "sha256": "d2b3d25b641c367c91459d7f46afc449d7b875b03c0661c955014695bbcbe0b9"
+    },
+    "graybox_top.png": {
+      "bytes": 928266,
+      "sha256": "8dd8751cf32c210aab20795e6f39a4125741d2799713c5f2acb33f67a9578838"
+    },
+    "preview_egress.png": {
+      "bytes": 340806,
+      "sha256": "d833b0dc2bd84824c85da7e73117991d5702f9c32185e6abeaeeeae50d2a9001"
+    },
+    "preview_fixed_rear_flight.mp4": {
+      "bytes": 700899,
+      "sha256": "fbe084012c9a91a214b8e29325a7b79ba68307157aa3b02ca9653f277a2c71ac"
+    },
+    "preview_fog_default.png": {
+      "bytes": 369535,
+      "sha256": "fe2b1d2fbf74c271c0526ad98df57001a26d34706e56a9de0a7a951051e8c12d"
+    },
+    "preview_fog_off.png": {
+      "bytes": 369777,
+      "sha256": "2e2bfe7a89f4085c6e3d68a695ad1de62878b00a6e66c8e5213809a212686689"
+    },
+    "preview_fog_reduced.png": {
+      "bytes": 369518,
+      "sha256": "d192568625e7b2389c94a137375de802ca7e0f3a6e8dc8db545aca8496c41c27"
+    },
+    "preview_top.png": {
+      "bytes": 1233283,
+      "sha256": "11a5c72d4fc331a5b9255d1fea669030f6b651243a14847c5f384b5acf9b718d"
+    },
+    "preview_wetland_rest.png": {
+      "bytes": 354901,
+      "sha256": "baae704b2e0bb98d7faafec0360e65aef0f38f8a28dd27e0ddbdf2aa2e1281d5"
+    },
+    "qa.json": {
+      "bytes": 27774,
+      "sha256": "d41bc3c37947ddc314cb055e0338a6b82f97af2f71a901e08f00df3613d64932"
+    },
+    "roundtrip_fixed_rear.png": {
+      "bytes": 368863,
+      "sha256": "4252ed28dee3b62afa3d72d2bf73de92a3af6c6fdb3d3ed92c98eb6a44ec6c18"
+    },
+    "roundtrip_wetland_array_top.png": {
+      "bytes": 1235668,
+      "sha256": "7d203928f39325c35ecf4c15b3e1a13dda6333dd3ef52ee11e7b80faa28b3429"
+    }
+  }
+}

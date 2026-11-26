@@ -1,0 +1,25 @@
+{
+  "levelRevision": "whale-p2-1",
+  "fromTick": 9290,
+  "startEnergy": 1,
+  "shipping": {
+    "distanceSwum": 416.53609768477236,
+    "minimumEnergy": 0.9439061714386552,
+    "minimumCohesion": 0.9097600000000767,
+    "maximumTailGap": 23.80142126567206,
+    "cruisingMeanTailGap": 23.519909348427326,
+    "seconds": 65.21666666666667,
+    "c2Tick": 13203,
+    "c2Energy": 1
+  },
+  "quiet": {
+    "distanceSwum": 611.4167865426098,
+    "minimumEnergy": 0.9491030702735906,
+    "minimumCohesion": 1,
+    "maximumTailGap": 23.96870460329819,
+    "cruisingMeanTailGap": 23.170148466455863,
+    "seconds": 96.03333333333333,
+    "c2Tick": 15052,
+    "c2Energy": 1
+  }
+}

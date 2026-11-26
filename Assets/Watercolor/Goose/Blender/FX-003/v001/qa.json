@@ -1,0 +1,178 @@
+{
+  "id": "FX-003",
+  "version": "v001",
+  "status": "needs_review",
+  "preview_motion": {
+    "Headwind": {
+      "half_frames": 71,
+      "lanes": 12,
+      "min_in_frame_downstream_witnesses": 8,
+      "signed_world_velocity_BU_s": -2.55,
+      "max_world_velocity_error_BU_s": 1.8310546875177636e-05,
+      "median_screen_y_bottom_up_px_per_half_frame": -1.552162528038025,
+      "min_leader_projected_box_gap_px": 73.41084987288718,
+      "min_exit_projected_box_gap_px": 60.02185785770416
+    },
+    "WindTail": {
+      "half_frames": 71,
+      "lanes": 8,
+      "min_in_frame_downstream_witnesses": 8,
+      "signed_world_velocity_BU_s": 1.32,
+      "max_world_velocity_error_BU_s": 1.5563964843812172e-05,
+      "median_screen_y_bottom_up_px_per_half_frame": 0.23984473943710327,
+      "min_leader_projected_box_gap_px": 72.65925507906995,
+      "min_exit_projected_box_gap_px": 58.90815782546997
+    }
+  },
+  "fixed_view_effect_vs_off": {
+    "preview_fixed_rear_headwind.png": {
+      "mean_abs_rgb8": 0.10999315977096558,
+      "max_abs_rgb8": 46.0,
+      "pixels_at_least_threshold": 2331,
+      "threshold_rgb8": 4
+    },
+    "comparison_s1_tailwind.png": {
+      "mean_abs_rgb8": 0.01576991006731987,
+      "max_abs_rgb8": 57.0,
+      "pixels_at_least_threshold": 421,
+      "threshold_rgb8": 4
+    },
+    "preview_fixed_rear_reduced.png": {
+      "mean_abs_rgb8": 0.04376072809100151,
+      "max_abs_rgb8": 19.0,
+      "pixels_at_least_threshold": 1736,
+      "threshold_rgb8": 4
+    }
+  },
+  "video_build": {
+    "status": "pass",
+    "decoded_frames": 72,
+    "audio_streams": 0,
+    "source_size": [
+      852,
+      393
+    ],
+    "encoded_size": [
+      852,
+      394
+    ],
+    "fps": 12,
+    "tailwind_seconds": [
+      0,
+      3
+    ],
+    "headwind_seconds": [
+      3,
+      6
+    ]
+  },
+  "redline_check": "参照项目清单。灰金风纹与可见清水开口，静音。无计分、警报、伤亡、强推文本或现实生态数字。",
+  "pending": [
+    "负责人以静音盲看复核约 3 秒内的正反风向辨识、冷灰金风线、水彩观感和终点引导。",
+    "USDZ、RealityKit 和 App 接入，包括真实引擎风场、结阵、透明排序、减弱选项以及终点与雁投影遮挡测试。",
+    "能耗、补给、安全补救和通关条件由运行时判定。iPhone / iPad 真机待验。"
+  ],
+  "app_baseline_reference": "goose-preview-model-cleanup active 计划中的 iOS 27.2 模拟器构建和 340 项测试；本次为 Blender 资产制作。",
+  "independent_artifact_directory_reopen": {
+    "status": "pass",
+    "mother_file": "FX-003_Headwind.blend",
+    "roundtrip_source": "FX-003_Headwind.glb",
+    "rest_geometry": {
+      "vertices": 74,
+      "triangles": 72,
+      "length_BU": 2.799999952316284,
+      "uv_u_max_error": 5.108969558520471e-08,
+      "tile_endpoint_max_delta_BU": 0.0
+    },
+    "original_FX001_geometry_uv_exact": true,
+    "axes": {
+      "Blender": "+Y",
+      "GLB": "-Z"
+    },
+    "signed_wind_check_reopened": {
+      "Headwind": {
+        "half_frames": 71,
+        "lanes": 12,
+        "min_in_frame_downstream_witnesses": 8,
+        "signed_world_velocity_BU_s": -2.55,
+        "max_world_velocity_error_BU_s": 1.8310546875177636e-05,
+        "median_screen_y_bottom_up_px_per_half_frame": -1.552162528038025,
+        "min_leader_projected_box_gap_px": 73.41084987288718,
+        "min_exit_projected_box_gap_px": 60.02185785770416
+      },
+      "WindTail": {
+        "half_frames": 71,
+        "lanes": 8,
+        "min_in_frame_downstream_witnesses": 8,
+        "signed_world_velocity_BU_s": 1.32,
+        "max_world_velocity_error_BU_s": 1.5563964843812172e-05,
+        "median_screen_y_bottom_up_px_per_half_frame": 0.23984473943710327,
+        "min_leader_projected_box_gap_px": 72.65925507906995,
+        "min_exit_projected_box_gap_px": 58.90815782546997
+      }
+    },
+    "signed_wind_check_roundtrip": {
+      "Headwind": {
+        "half_frames": 71,
+        "lanes": 12,
+        "min_in_frame_downstream_witnesses": 8,
+        "signed_world_velocity_BU_s": -2.55,
+        "max_world_velocity_error_BU_s": 1.8310546875177636e-05,
+        "median_screen_y_bottom_up_px_per_half_frame": -1.552162528038025,
+        "min_leader_projected_box_gap_px": 73.41084987288718,
+        "min_exit_projected_box_gap_px": 60.02185785770416
+      },
+      "WindTail": {
+        "half_frames": 71,
+        "lanes": 8,
+        "min_in_frame_downstream_witnesses": 8,
+        "signed_world_velocity_BU_s": 1.32,
+        "max_world_velocity_error_BU_s": 1.5563964843812172e-05,
+        "median_screen_y_bottom_up_px_per_half_frame": 0.23984473943710327,
+        "min_leader_projected_box_gap_px": 72.65925507906995,
+        "min_exit_projected_box_gap_px": 58.90815782546997
+      }
+    },
+    "texture": {
+      "embedded_PNG_sha256": "8d69cb8c0b87eee9ffc4ae19d31c30f758da99fec09861dcef5b11553c4306a9",
+      "peak_straight_alpha": 0.34117648005485535,
+      "all_four_edges_alpha": 0,
+      "alpha_error_vs_source_times_0_93": 0.001960769295692444,
+      "clamped_2_sided_blend": true
+    },
+    "fixed_camera_reopened_rgb8_diff": {
+      "mean_abs_rgb8": 0.0,
+      "max_abs_rgb8": 0.0,
+      "pixels_at_least_threshold": 0,
+      "threshold_rgb8": 4
+    },
+    "fixed_camera_roundtrip_rgb8_diff": {
+      "mean_abs_rgb8": 0.0,
+      "max_abs_rgb8": 0.0,
+      "pixels_at_least_threshold": 0,
+      "threshold_rgb8": 4
+    },
+    "video_independent_decode": {
+      "status": "pass",
+      "decoded_frames": 72,
+      "audio_streams": 0,
+      "source_size": [
+        852,
+        393
+      ],
+      "encoded_size": [
+        852,
+        394
+      ],
+      "fps": 12,
+      "tailwind_seconds": [
+        0,
+        3
+      ],
+      "headwind_seconds": [
+        3,
+        6
+      ]
+    }
+  }
+}

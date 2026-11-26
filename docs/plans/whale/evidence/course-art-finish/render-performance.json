@@ -1,0 +1,698 @@
+{
+  "system": "27.0",
+  "architecture": "arm64",
+  "before": {
+    "chromium/W1-low": {
+      "browser": "159.0.8154.6",
+      "gpu": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+      "viewport": {
+        "width": 852,
+        "height": 393
+      },
+      "segment": "W1",
+      "phase": "playing",
+      "tick": 3495,
+      "samples": 152,
+      "medianMs": 16.699999999999818,
+      "p95Ms": 33.399999999999636,
+      "calls": 49,
+      "triangles": 28303,
+      "width": 852,
+      "height": 393,
+      "quality": "low"
+    },
+    "chromium/W1-standard": {
+      "browser": "159.0.8154.6",
+      "gpu": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+      "viewport": {
+        "width": 852,
+        "height": 393
+      },
+      "segment": "W1",
+      "phase": "playing",
+      "tick": 3496,
+      "samples": 152,
+      "medianMs": 16.699999999999818,
+      "p95Ms": 33.399999999999636,
+      "calls": 49,
+      "triangles": 28303,
+      "width": 852,
+      "height": 393,
+      "quality": "standard"
+    },
+    "chromium/W2-low": {
+      "browser": "159.0.8154.6",
+      "gpu": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+      "viewport": {
+        "width": 852,
+        "height": 393
+      },
+      "segment": "W2",
+      "phase": "playing",
+      "tick": 8513,
+      "samples": 180,
+      "medianMs": 16.699999999999818,
+      "p95Ms": 33.399999999999636,
+      "calls": 40,
+      "triangles": 35036,
+      "width": 852,
+      "height": 393,
+      "quality": "low"
+    },
+    "chromium/W2-standard": {
+      "browser": "159.0.8154.6",
+      "gpu": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+      "viewport": {
+        "width": 852,
+        "height": 393
+      },
+      "segment": "W2",
+      "phase": "playing",
+      "tick": 8514,
+      "samples": 180,
+      "medianMs": 16.700000000000728,
+      "p95Ms": 33.399999999999636,
+      "calls": 40,
+      "triangles": 35036,
+      "width": 852,
+      "height": 393,
+      "quality": "standard"
+    },
+    "chromium/W4-gathering-low": {
+      "browser": "159.0.8154.6",
+      "gpu": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+      "viewport": {
+        "width": 852,
+        "height": 393
+      },
+      "segment": "W4",
+      "phase": "landing",
+      "tick": 15053,
+      "samples": 64,
+      "medianMs": 16.699999999999818,
+      "p95Ms": 33.400000000000546,
+      "calls": 26,
+      "triangles": 22208,
+      "width": 852,
+      "height": 393,
+      "quality": "low"
+    },
+    "chromium/W4-gathering-standard": {
+      "browser": "159.0.8154.6",
+      "gpu": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+      "viewport": {
+        "width": 852,
+        "height": 393
+      },
+      "segment": "W4",
+      "phase": "landing",
+      "tick": 15053,
+      "samples": 100,
+      "medianMs": 16.699999999999818,
+      "p95Ms": 33.30000000000018,
+      "calls": 26,
+      "triangles": 22208,
+      "width": 852,
+      "height": 393,
+      "quality": "standard"
+    },
+    "chromium/W4-low": {
+      "browser": "159.0.8154.6",
+      "gpu": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+      "viewport": {
+        "width": 852,
+        "height": 393
+      },
+      "segment": "W4",
+      "phase": "playing",
+      "tick": 15235,
+      "samples": 162,
+      "medianMs": 16.699999999999818,
+      "p95Ms": 33.30000000000018,
+      "calls": 27,
+      "triangles": 22604,
+      "width": 852,
+      "height": 393,
+      "quality": "low"
+    },
+    "chromium/W4-standard": {
+      "browser": "159.0.8154.6",
+      "gpu": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+      "viewport": {
+        "width": 852,
+        "height": 393
+      },
+      "segment": "W4",
+      "phase": "playing",
+      "tick": 15235,
+      "samples": 162,
+      "medianMs": 16.699999999999818,
+      "p95Ms": 33.30000000000018,
+      "calls": 27,
+      "triangles": 22604,
+      "width": 852,
+      "height": 393,
+      "quality": "standard"
+    },
+    "mobile-webkit/W1-low": {
+      "browser": "27.2",
+      "gpu": "Apple GPU",
+      "viewport": {
+        "width": 852,
+        "height": 393
+      },
+      "segment": "W1",
+      "phase": "playing",
+      "tick": 3527,
+      "samples": 180,
+      "medianMs": 17,
+      "p95Ms": 25,
+      "calls": 49,
+      "triangles": 28303,
+      "width": 852,
+      "height": 393,
+      "quality": "low"
+    },
+    "mobile-webkit/W1-standard": {
+      "browser": "27.2",
+      "gpu": "Apple GPU",
+      "viewport": {
+        "width": 852,
+        "height": 393
+      },
+      "segment": "W1",
+      "phase": "playing",
+      "tick": 3528,
+      "samples": 180,
+      "medianMs": 17,
+      "p95Ms": 26,
+      "calls": 49,
+      "triangles": 28303,
+      "width": 1704,
+      "height": 786,
+      "quality": "standard"
+    },
+    "mobile-webkit/W2-low": {
+      "browser": "27.2",
+      "gpu": "Apple GPU",
+      "viewport": {
+        "width": 852,
+        "height": 393
+      },
+      "segment": "W2",
+      "phase": "playing",
+      "tick": 8466,
+      "samples": 180,
+      "medianMs": 17,
+      "p95Ms": 18,
+      "calls": 40,
+      "triangles": 35036,
+      "width": 852,
+      "height": 393,
+      "quality": "low"
+    },
+    "mobile-webkit/W2-standard": {
+      "browser": "27.2",
+      "gpu": "Apple GPU",
+      "viewport": {
+        "width": 852,
+        "height": 393
+      },
+      "segment": "W2",
+      "phase": "playing",
+      "tick": 8468,
+      "samples": 180,
+      "medianMs": 17,
+      "p95Ms": 25,
+      "calls": 40,
+      "triangles": 35036,
+      "width": 1704,
+      "height": 786,
+      "quality": "standard"
+    },
+    "mobile-webkit/W4-gathering-low": {
+      "browser": "27.2",
+      "gpu": "Apple GPU",
+      "viewport": {
+        "width": 852,
+        "height": 393
+      },
+      "segment": "W4",
+      "phase": "landing",
+      "tick": 15053,
+      "samples": 109,
+      "medianMs": 17,
+      "p95Ms": 24,
+      "calls": 26,
+      "triangles": 22208,
+      "width": 852,
+      "height": 393,
+      "quality": "low"
+    },
+    "mobile-webkit/W4-gathering-standard": {
+      "browser": "27.2",
+      "gpu": "Apple GPU",
+      "viewport": {
+        "width": 852,
+        "height": 393
+      },
+      "segment": "W4",
+      "phase": "landing",
+      "tick": 15053,
+      "samples": 111,
+      "medianMs": 17,
+      "p95Ms": 25,
+      "calls": 26,
+      "triangles": 22208,
+      "width": 1704,
+      "height": 786,
+      "quality": "standard"
+    },
+    "mobile-webkit/W4-low": {
+      "browser": "27.2",
+      "gpu": "Apple GPU",
+      "viewport": {
+        "width": 852,
+        "height": 393
+      },
+      "segment": "W4",
+      "phase": "playing",
+      "tick": 15270,
+      "samples": 180,
+      "medianMs": 17,
+      "p95Ms": 23,
+      "calls": 27,
+      "triangles": 22604,
+      "width": 852,
+      "height": 393,
+      "quality": "low"
+    },
+    "mobile-webkit/W4-standard": {
+      "browser": "27.2",
+      "gpu": "Apple GPU",
+      "viewport": {
+        "width": 852,
+        "height": 393
+      },
+      "segment": "W4",
+      "phase": "playing",
+      "tick": 15270,
+      "samples": 180,
+      "medianMs": 17,
+      "p95Ms": 26,
+      "calls": 27,
+      "triangles": 22604,
+      "width": 1704,
+      "height": 786,
+      "quality": "standard"
+    }
+  },
+  "after": {
+    "chromium/W1-low": {
+      "browser": "159.0.8154.6",
+      "gpu": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+      "viewport": {
+        "width": 852,
+        "height": 393
+      },
+      "segment": "W1",
+      "phase": "playing",
+      "tick": 3571,
+      "samples": 180,
+      "medianMs": 16.699999999999818,
+      "p95Ms": 33.399999999999636,
+      "calls": 45,
+      "triangles": 28816,
+      "width": 852,
+      "height": 393,
+      "quality": "low"
+    },
+    "chromium/W1-standard": {
+      "browser": "159.0.8154.6",
+      "gpu": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+      "viewport": {
+        "width": 852,
+        "height": 393
+      },
+      "segment": "W1",
+      "phase": "playing",
+      "tick": 3538,
+      "samples": 177,
+      "medianMs": 16.700000000000728,
+      "p95Ms": 33.400000000000546,
+      "calls": 45,
+      "triangles": 28816,
+      "width": 852,
+      "height": 393,
+      "quality": "standard"
+    },
+    "chromium/W2-low": {
+      "browser": "159.0.8154.6",
+      "gpu": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+      "viewport": {
+        "width": 852,
+        "height": 393
+      },
+      "segment": "W2",
+      "phase": "playing",
+      "tick": 8511,
+      "samples": 180,
+      "medianMs": 16.700000000000728,
+      "p95Ms": 33.399999999999636,
+      "calls": 40,
+      "triangles": 32420,
+      "width": 852,
+      "height": 393,
+      "quality": "low"
+    },
+    "chromium/W2-standard": {
+      "browser": "159.0.8154.6",
+      "gpu": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+      "viewport": {
+        "width": 852,
+        "height": 393
+      },
+      "segment": "W2",
+      "phase": "playing",
+      "tick": 8510,
+      "samples": 180,
+      "medianMs": 16.699999999999818,
+      "p95Ms": 33.399999999999636,
+      "calls": 40,
+      "triangles": 32420,
+      "width": 852,
+      "height": 393,
+      "quality": "standard"
+    },
+    "chromium/W4-gathering-low": {
+      "browser": "159.0.8154.6",
+      "gpu": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+      "viewport": {
+        "width": 852,
+        "height": 393
+      },
+      "segment": "W4",
+      "phase": "landing",
+      "tick": 15053,
+      "samples": 63,
+      "medianMs": 16.699999999999818,
+      "p95Ms": 33.399999999999636,
+      "calls": 13,
+      "triangles": 21100,
+      "width": 852,
+      "height": 393,
+      "quality": "low"
+    },
+    "chromium/W4-gathering-standard": {
+      "browser": "159.0.8154.6",
+      "gpu": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+      "viewport": {
+        "width": 852,
+        "height": 393
+      },
+      "segment": "W4",
+      "phase": "landing",
+      "tick": 15053,
+      "samples": 98,
+      "medianMs": 16.699999999999818,
+      "p95Ms": 33.30000000000018,
+      "calls": 13,
+      "triangles": 21100,
+      "width": 852,
+      "height": 393,
+      "quality": "standard"
+    },
+    "chromium/W4-low": {
+      "browser": "159.0.8154.6",
+      "gpu": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+      "viewport": {
+        "width": 852,
+        "height": 393
+      },
+      "segment": "W4",
+      "phase": "playing",
+      "tick": 15236,
+      "samples": 158,
+      "medianMs": 16.699999999999818,
+      "p95Ms": 33.30000000000109,
+      "calls": 27,
+      "triangles": 22604,
+      "width": 852,
+      "height": 393,
+      "quality": "low"
+    },
+    "chromium/W4-standard": {
+      "browser": "159.0.8154.6",
+      "gpu": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+      "viewport": {
+        "width": 852,
+        "height": 393
+      },
+      "segment": "W4",
+      "phase": "playing",
+      "tick": 15238,
+      "samples": 161,
+      "medianMs": 16.699999999999818,
+      "p95Ms": 33.399999999999636,
+      "calls": 27,
+      "triangles": 22604,
+      "width": 852,
+      "height": 393,
+      "quality": "standard"
+    },
+    "mobile-webkit/W1-low": {
+      "browser": "27.2",
+      "gpu": "Apple GPU",
+      "viewport": {
+        "width": 852,
+        "height": 393
+      },
+      "segment": "W1",
+      "phase": "playing",
+      "tick": 3527,
+      "samples": 180,
+      "medianMs": 17,
+      "p95Ms": 25,
+      "calls": 45,
+      "triangles": 28816,
+      "width": 852,
+      "height": 393,
+      "quality": "low"
+    },
+    "mobile-webkit/W1-standard": {
+      "browser": "27.2",
+      "gpu": "Apple GPU",
+      "viewport": {
+        "width": 852,
+        "height": 393
+      },
+      "segment": "W1",
+      "phase": "playing",
+      "tick": 3526,
+      "samples": 180,
+      "medianMs": 17,
+      "p95Ms": 26,
+      "calls": 45,
+      "triangles": 28816,
+      "width": 1704,
+      "height": 786,
+      "quality": "standard"
+    },
+    "mobile-webkit/W2-low": {
+      "browser": "27.2",
+      "gpu": "Apple GPU",
+      "viewport": {
+        "width": 852,
+        "height": 393
+      },
+      "segment": "W2",
+      "phase": "playing",
+      "tick": 8466,
+      "samples": 180,
+      "medianMs": 17,
+      "p95Ms": 25,
+      "calls": 40,
+      "triangles": 32420,
+      "width": 852,
+      "height": 393,
+      "quality": "low"
+    },
+    "mobile-webkit/W2-standard": {
+      "browser": "27.2",
+      "gpu": "Apple GPU",
+      "viewport": {
+        "width": 852,
+        "height": 393
+      },
+      "segment": "W2",
+      "phase": "playing",
+      "tick": 8468,
+      "samples": 180,
+      "medianMs": 17,
+      "p95Ms": 26,
+      "calls": 40,
+      "triangles": 32420,
+      "width": 1704,
+      "height": 786,
+      "quality": "standard"
+    },
+    "mobile-webkit/W4-gathering-low": {
+      "browser": "27.2",
+      "gpu": "Apple GPU",
+      "viewport": {
+        "width": 852,
+        "height": 393
+      },
+      "segment": "W4",
+      "phase": "landing",
+      "tick": 15053,
+      "samples": 109,
+      "medianMs": 17,
+      "p95Ms": 24,
+      "calls": 13,
+      "triangles": 21100,
+      "width": 852,
+      "height": 393,
+      "quality": "low"
+    },
+    "mobile-webkit/W4-gathering-standard": {
+      "browser": "27.2",
+      "gpu": "Apple GPU",
+      "viewport": {
+        "width": 852,
+        "height": 393
+      },
+      "segment": "W4",
+      "phase": "landing",
+      "tick": 15053,
+      "samples": 109,
+      "medianMs": 17,
+      "p95Ms": 26,
+      "calls": 13,
+      "triangles": 21100,
+      "width": 1704,
+      "height": 786,
+      "quality": "standard"
+    },
+    "mobile-webkit/W4-low": {
+      "browser": "27.2",
+      "gpu": "Apple GPU",
+      "viewport": {
+        "width": 852,
+        "height": 393
+      },
+      "segment": "W4",
+      "phase": "playing",
+      "tick": 15273,
+      "samples": 180,
+      "medianMs": 17,
+      "p95Ms": 25,
+      "calls": 27,
+      "triangles": 22604,
+      "width": 852,
+      "height": 393,
+      "quality": "low"
+    },
+    "mobile-webkit/W4-standard": {
+      "browser": "27.2",
+      "gpu": "Apple GPU",
+      "viewport": {
+        "width": 852,
+        "height": 393
+      },
+      "segment": "W4",
+      "phase": "playing",
+      "tick": 15270,
+      "samples": 180,
+      "medianMs": 17,
+      "p95Ms": 26,
+      "calls": 27,
+      "triangles": 22604,
+      "width": 1704,
+      "height": 786,
+      "quality": "standard"
+    }
+  },
+  "webkitW2LowRetest": [
+    {
+      "before": {
+        "browser": "27.2",
+        "gpu": "Apple GPU",
+        "viewport": {
+          "width": 852,
+          "height": 393
+        },
+        "segment": "W2",
+        "phase": "playing",
+        "tick": 8466,
+        "samples": 180,
+        "medianMs": 17,
+        "p95Ms": 25,
+        "calls": 40,
+        "triangles": 35036,
+        "width": 852,
+        "height": 393,
+        "quality": "low"
+      },
+      "after": {
+        "browser": "27.2",
+        "gpu": "Apple GPU",
+        "viewport": {
+          "width": 852,
+          "height": 393
+        },
+        "segment": "W2",
+        "phase": "playing",
+        "tick": 8466,
+        "samples": 180,
+        "medianMs": 16,
+        "p95Ms": 25,
+        "calls": 40,
+        "triangles": 32420,
+        "width": 852,
+        "height": 393,
+        "quality": "low"
+      }
+    },
+    {
+      "before": {
+        "browser": "27.2",
+        "gpu": "Apple GPU",
+        "viewport": {
+          "width": 852,
+          "height": 393
+        },
+        "segment": "W2",
+        "phase": "playing",
+        "tick": 8466,
+        "samples": 180,
+        "medianMs": 17,
+        "p95Ms": 25,
+        "calls": 40,
+        "triangles": 35036,
+        "width": 852,
+        "height": 393,
+        "quality": "low"
+      },
+      "after": {
+        "browser": "27.2",
+        "gpu": "Apple GPU",
+        "viewport": {
+          "width": 852,
+          "height": 393
+        },
+        "segment": "W2",
+        "phase": "playing",
+        "tick": 8470,
+        "samples": 180,
+        "medianMs": 17,
+        "p95Ms": 23,
+        "calls": 40,
+        "triangles": 32420,
+        "width": 852,
+        "height": 393,
+        "quality": "low"
+      }
+    }
+  ]
+}

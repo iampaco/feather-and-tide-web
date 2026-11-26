@@ -1,0 +1,126 @@
+{
+  "id": "MAT-001",
+  "name": "通用水彩材质母版",
+  "version": "v001",
+  "depends": [],
+  "blender": "5.2.2 LTS",
+  "source": "程序化原创贴图和几何，依据 Blender 制作规格书 v1.0 第 5 页；未使用外部图片或扩展。",
+  "export": {
+    "format": "glTF 2.0 binary",
+    "coordinate_system": "Y up; Blender +Y maps to glTF -Z",
+    "geometry": "仅材质样块",
+    "normals": "网格顶点法线",
+    "normal_map": null,
+    "orm_map": null
+  },
+  "textures": {
+    "DryGround": {
+      "path": "textures/ft_goose_mat_dry_ground_basecolor.png",
+      "size": [
+        512,
+        512
+      ],
+      "color_space": "sRGB",
+      "alpha": null,
+      "palette_srgb": [
+        "#AA8970",
+        "#C7AA82",
+        "#E2CFAB"
+      ],
+      "roughness": 0.91,
+      "metallic": 0
+    },
+    "PlantOpaque": {
+      "path": "textures/ft_goose_mat_plant_opaque_basecolor.png",
+      "size": [
+        512,
+        512
+      ],
+      "color_space": "sRGB",
+      "alpha": null,
+      "palette_srgb": [
+        "#687D6B",
+        "#A4B6A3",
+        "#C6C49E"
+      ],
+      "roughness": 0.84,
+      "metallic": 0
+    },
+    "PlantAlpha": {
+      "path": "textures/ft_goose_mat_plant_alpha_basecolor.png",
+      "size": [
+        512,
+        512
+      ],
+      "color_space": "sRGB",
+      "alpha": "straight",
+      "palette_srgb": [
+        "#6F866E",
+        "#A3B293",
+        "#C4C8A0"
+      ],
+      "roughness": 0.86,
+      "metallic": 0
+    },
+    "SoftStone": {
+      "path": "textures/ft_goose_mat_soft_stone_basecolor.png",
+      "size": [
+        512,
+        512
+      ],
+      "color_space": "sRGB",
+      "alpha": null,
+      "palette_srgb": [
+        "#758781",
+        "#A0ADA7",
+        "#C0C9BD"
+      ],
+      "roughness": 0.93,
+      "metallic": 0
+    },
+    "WaterFallback": {
+      "path": "textures/ft_goose_mat_water_fallback_basecolor.png",
+      "size": [
+        512,
+        512
+      ],
+      "color_space": "sRGB",
+      "alpha": null,
+      "palette_srgb": [
+        "#7D9FA2",
+        "#A8C4BC",
+        "#CDDAD0"
+      ],
+      "roughness": 0.74,
+      "metallic": 0
+    }
+  },
+  "objects": {
+    "DryGround_Tile": 444,
+    "PlantOpaque_Reeds": 756,
+    "PlantAlpha_LeafCards": 6,
+    "SoftStone_Pebble12": 528,
+    "SoftStone_Pebble17": 528,
+    "SoftStone_Pebble23": 528,
+    "WaterFallback_Pool": 444
+  },
+  "triangles_total": 3234,
+  "actions": [],
+  "files": {
+    "MAT-001_watercolor_master.blend": "9fc0305a78264733d2a2f5747a67833158c59470eff3e3d71c4f6da5b9d11de0",
+    "MAT-001_watercolor_master.glb": "3d356388aba0abd9c525a68162e42df93fe1673d9f21e01a01d0b184d21364e2",
+    "MAT-001_watercolor_master_generate.py": "16bf8aaa6ecb2e52cc575c91d36d5256494df72c72a727741e5542de5b14364d",
+    "preview_iso.png": "1ca3a11f00911fc868e46c8f855513b6c63d0897f3ad5310169e44f4447a6e9e",
+    "preview_top.png": "6f515c95c616ca0cf38da5344a8b944dfb1c3aab572f20bf49249b9cf81b253c",
+    "preview_glb_roundtrip.png": "1d3bc8919cd14db7004433024ad9cef8a2b3afb1e044c04bbfb1d1253333e2c1",
+    "textures/ft_goose_mat_dry_ground_basecolor.png": "e201e626c70ba88af6cbeae9662dc76375930208e121c4af5dbdfc52cfcefab0",
+    "textures/ft_goose_mat_plant_opaque_basecolor.png": "a4fbb2db73897427d8172297edb7b59d80a17707b3a3f1a198857f4996e6ed26",
+    "textures/ft_goose_mat_plant_alpha_basecolor.png": "3ff30b07419654c47a903d1044740fc47299cc5b06f6a2ba6b87242deba4920a",
+    "textures/ft_goose_mat_soft_stone_basecolor.png": "931bb3b12c975c2dbbe37a695bf8dc1d49cf29e3b92bf3296c9896b6e0c5022f",
+    "textures/ft_goose_mat_water_fallback_basecolor.png": "1ba5ac1025aef815fee0c717947aceba763a393a4c0e5f6aab5beb19877dc5b9"
+  },
+  "source_save_verification": {
+    "previous_sha256": "89e620a9fcc7f309b13ade2e2cf42d5eeca665bb9c59eac8a02552a42afe9c35",
+    "check": "五个材质的内嵌贴图字节、节点连接、粗糙度、金属度和剔除设置相同。"
+  }
+}

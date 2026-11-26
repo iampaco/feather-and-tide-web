@@ -1,0 +1,78 @@
+{
+  "id": "MAT-003",
+  "version": "v001",
+  "status": "needs_review",
+  "checks": {
+    "wrap_delta_vs_interior": {
+      "GrassFlat": {
+        "u": {
+          "wrap_p95_rgb8": 3.0,
+          "interior_p95_rgb8": 3.0
+        },
+        "v": {
+          "wrap_p95_rgb8": 3.0,
+          "interior_p95_rgb8": 3.0
+        }
+      },
+      "MudBank": {
+        "u": {
+          "wrap_p95_rgb8": 3.0,
+          "interior_p95_rgb8": 3.0
+        },
+        "v": {
+          "wrap_p95_rgb8": 3.0,
+          "interior_p95_rgb8": 3.0
+        }
+      },
+      "MossStone": {
+        "u": {
+          "wrap_p95_rgb8": 3.0,
+          "interior_p95_rgb8": 3.0
+        },
+        "v": {
+          "wrap_p95_rgb8": 3.0,
+          "interior_p95_rgb8": 3.0
+        }
+      },
+      "MountainRock": {
+        "u": {
+          "wrap_p95_rgb8": 3.0,
+          "interior_p95_rgb8": 3.0
+        },
+        "v": {
+          "wrap_p95_rgb8": 3.0,
+          "interior_p95_rgb8": 3.0
+        }
+      },
+      "ShallowMargin": {
+        "u": {
+          "wrap_p95_rgb8": 3.0,
+          "interior_p95_rgb8": 3.0
+        },
+        "v": {
+          "wrap_p95_rgb8": 3.0,
+          "interior_p95_rgb8": 3.0
+        }
+      }
+    },
+    "separate_modules_share_edge_uvs": "pass",
+    "five_glb_textures_repeat_uv": "pass",
+    "glb_import_world_vertices_uvs_materials": "pass",
+    "embedded_png_pixels_match_source": "pass",
+    "oblique_glb_roundtrip_rgb8": {
+      "mean_absolute_rgb8_channel_difference": 0.0003,
+      "p99_absolute_rgb8_channel_difference": 0.0
+    }
+  },
+  "visual_review": {
+    "small_overhead": "已在 852×599 俯视画布检查五种纹理的 4×4 平铺。未见贯穿样板的网格线。减弱苔斑和山岩斜纹后，重复节奏较初版柔和。",
+    "oblique_turns": "五种纹理在独立相邻模块的地面与转角接续。较陡折面保留正常光照明暗变化。",
+    "roundtrip": "回导渲染保留五种材质、贴图和 UV 铺设。"
+  },
+  "pending": [
+    "负责人确认水彩观感。",
+    "在正式地块的面积与视角下复测重复感。",
+    "RealityKit 和 iPhone / iPad 真机待接入验证。"
+  ],
+  "redline_check": "已对照红线清单，交付为地表材质和审阅样块。"
+}

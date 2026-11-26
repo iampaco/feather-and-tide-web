@@ -1,0 +1,84 @@
+{
+  "id": "FX-007",
+  "version": "v001",
+  "status": "needs_review",
+  "variant": "WindSwayPreset",
+  "priority": "P0",
+  "levels": "S0–S6",
+  "kind": "shader_or_rig_preset",
+  "blender": "5.2.2 LTS",
+  "production_spec_page": 15,
+  "depends": [
+    "ENV-004/v001",
+    "ENV-012/v001"
+  ],
+  "review_only_inputs": [
+    "ENV-002/v001",
+    "CHR-001/v001"
+  ],
+  "blender_file": "FX-007_WindSwayPreset.blend",
+  "glb_files": [
+    "FX-007_Reed_A_Height_S.glb",
+    "FX-007_Reed_A_Height_M.glb",
+    "FX-007_Reed_B_Height_S.glb",
+    "FX-007_Reed_B_Height_M.glb",
+    "FX-007_Reed_C_Height_S.glb",
+    "FX-007_Reed_C_Height_M.glb",
+    "FX-007_RiverTree_A.glb",
+    "FX-007_RiverTree_B.glb",
+    "FX-007_LeaningTree.glb"
+  ],
+  "runtime_interface": "wind_interface.json",
+  "axis_map_blender_to_gltf": "(x,z,-y)",
+  "local_root_BU": [
+    0,
+    0,
+    0
+  ],
+  "embedded_texture_sources": {
+    "base_material_library": "../../MAT-001/v001/asset_manifest.json",
+    "used_per_export": "qa.json#glb_roundtrip",
+    "reed_surface": "../../ENV-004/v001/asset_manifest.json",
+    "tree_surface": "../../ENV-012/v001/asset_manifest.json"
+  },
+  "source_blend_paths_and_hashes": "wind_interface.json#source_scene_inputs",
+  "preview_files": [
+    "graybox_fixed_rear.png",
+    "graybox_top.png",
+    "preview_fixed_rear.mp4",
+    "preview_individual.png",
+    "preview_s1_fixed.png",
+    "preview_s3_fixed.png",
+    "preview_s3_reduced.png",
+    "preview_s3_top.png",
+    "preview_s5_fixed.png"
+  ],
+  "qa_file": "qa.json",
+  "readme": "README.md",
+  "rights": "Project-owned weights, wind expressions, scene setup and evidence. Source meshes and embedded source textures come from the existing project asset library.",
+  "files": {
+    "FX-007_LeaningTree.glb": "b0fbe03b63dbe35c45baf30b0bb6e564cc403b8e2381e5dbec71927e7f2e43bb",
+    "FX-007_Reed_A_Height_M.glb": "bbb7eaa555f33a2bf05ddb520971faf1b706d7eab71a1bfcabd59473b4427d83",
+    "FX-007_Reed_A_Height_S.glb": "43ad445c604f1bf6de67f7a713b94577fbbd8be0d3b4bce107ff1c1a7de642f8",
+    "FX-007_Reed_B_Height_M.glb": "08c6729b1ccf22b0635f74e671a833f5ee419a5da56c2df862c67f5cfee6aeb4",
+    "FX-007_Reed_B_Height_S.glb": "bca9cfebcbee21241823f630d34687e4bcc05247012a4f40386c1f86de7ef65c",
+    "FX-007_Reed_C_Height_M.glb": "ad5f31ed5f4c25abf9d4ecd97cc3462ae5cdb6387bcf423caa4f9757f3fb97a0",
+    "FX-007_Reed_C_Height_S.glb": "54b37f8ffe956b226fa7accfbf6962ff0983a30d05466d04b7a9bf06eab79cfc",
+    "FX-007_RiverTree_A.glb": "23c4ceee2fe9388161ebe6ab2e0e723376d73139f508e47c55ad9db268b093a0",
+    "FX-007_RiverTree_B.glb": "e111cca43eb0b11019652e0551070c4be3fbf0ef579788880dca27a9749250b9",
+    "FX-007_WindSwayPreset.blend": "04e3d98fade2383d536acc83a331756b672ad86a9d2bfec70120205b469b0989",
+    "FX-007_generate.py": "aba6f875b347d3f270c3df54355d36f73ee4fc54dad7a7a19b6f1290c783a55e",
+    "README.md": "b4b09a9a8ff04194473a6aedededa1c79228cb0d938722cc0b6a03e4f7a20967",
+    "graybox_fixed_rear.png": "3970c34304087f9808002cc5abdc8db3899216f22ccd22e270e2c5b32da7afa8",
+    "graybox_top.png": "1f784c4b83327b6888b602d8e2d75a8d9b739017ca13c9ac4659a2d89e62bcbb",
+    "preview_fixed_rear.mp4": "18ab9980e56d96c189804332cb7654adc6a5bed91133c5dbb003fdea62bc00d4",
+    "preview_individual.png": "802f3b44685c54c5cd2e463b13fef48c7c0b44ee406fa3d0381763be4d224277",
+    "preview_s1_fixed.png": "9e02b4d9b6c0f5bf2a95174d99bca74f1fd84f4cebc6586b53250639e5ed7815",
+    "preview_s3_fixed.png": "b589768129797f9f4d671c8b894be9079afb69a7c89f812529a8c50d92f58875",
+    "preview_s3_reduced.png": "e58eeb9070186e95bdd7da35964912283d18bf9cfd294b29efc705ced920091b",
+    "preview_s3_top.png": "60e80c1a2ae23404a6a3183dec14f7aae715e8538d7877943e2142b5890681bb",
+    "preview_s5_fixed.png": "2158ab923ff09670cbc878a8fce7b2bf0710937c010857c0068b74567d91fdc8",
+    "qa.json": "179ac06f1f829b948acf92e5cf34bb3e6c4caee83a618dc47ecbcfa2567e74d8",
+    "wind_interface.json": "ad6b98db3151edeeaddcc775236a996270c0fd5c2fb4851ca0cfd2d6dec316ba"
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "ft_goose_actor_cruise": {
+    "source": "Assets/Watercolor/Goose/Blender/ANM-001/v001/ANM-001_cruise_flap.glb",
+    "sourceSHA256": "4f890f71264c9995480b9c759deb78352457a4d26ae82369631e7303a89a5033",
+    "exportSHA256": "fe6d61ac8f8eac2753eb6a3fff2178597028e1dd210807fe86517d565350f559",
+    "clip": "Cruise_Flap_Loop"
+  },
+  "ft_goose_actor_takeoff": {
+    "source": "Assets/Watercolor/Goose/Blender/ANM-002/v001/ANM-002_takeoff_climb.glb",
+    "sourceSHA256": "eac0c9a74ab3211626bf84f89c5273b144b687ab1184f0807bce7829ff27fde0",
+    "exportSHA256": "a32f157aae08e2efa38bb163fa0657900070c118be5cb7ad825f85d9244c0fcb",
+    "clip": "Takeoff_Climb"
+  },
+  "ft_goose_actor_glide": {
+    "source": "Assets/Watercolor/Goose/Blender/ANM-003/v001/ANM-003_glide_circle.glb",
+    "sourceSHA256": "c307c082ebaebfed781ba22f066b4ebce57627d4e0496e152706c933b997d17c",
+    "exportSHA256": "6d35094f5af4ae50bd9f29b7623f905b08e1be3de80fd23e0b10d64bab01b4ae",
+    "clip": "Glide_Loop"
+  },
+  "ft_goose_actor_form": {
+    "source": "Assets/Watercolor/Goose/Blender/ANM-006/v001/ANM-006_formation_blend.glb",
+    "sourceSHA256": "f66466196668e7aaa8f36cde867a7ada83d87d56acfb121c7428aad4d7c129fe",
+    "exportSHA256": "b8f49a2034b25fb5e7da266d08d94ee5343239b819277775d04907f5197c93a6",
+    "clip": "Formation_Blend"
+  },
+  "ft_goose_actor_land": {
+    "source": "Assets/Watercolor/Goose/Blender/ANM-007/v001/ANM-007_landing.glb",
+    "sourceSHA256": "65779e411f7b638d6770f3849725fb403997d1075f86de7558796bf8b7380f5e",
+    "exportSHA256": "958bbd39c9e2e94e1fa7fc56348272dd14b054da8cfaa8521faa023761bb95b8",
+    "clip": "Land_Mudflat"
+  },
+  "ft_goose_actor_water": {
+    "source": "Assets/Watercolor/Goose/Blender/ANM-007/v001/ANM-007_landing.glb",
+    "sourceSHA256": "65779e411f7b638d6770f3849725fb403997d1075f86de7558796bf8b7380f5e",
+    "exportSHA256": "8808f2e21a7af9c318a45d126408b95a057c485d36d9df4a452081e22ad9fb63",
+    "clip": "Land_ShallowWater"
+  },
+  "ft_goose_actor_rest": {
+    "source": "Assets/Watercolor/Goose/Blender/ANM-008/v001/ANM-008_rest_idle.glb",
+    "sourceSHA256": "2ec12deaae2ff0ddaa7d2607cb244fb9552f1966ba05bf6db15fcfe8ecf4b51f",
+    "exportSHA256": "c4c3affd0c16339e62448e973138d02b49fcc31e6356d1f6bbeed12d2fde5ee4",
+    "clip": "Rest_Idle"
+  },
+  "ft_goose_actor_call": {
+    "source": "Assets/Watercolor/Goose/Blender/ANM-009/v001/ANM-009_call_rejoin.glb",
+    "sourceSHA256": "9b4eacbfbe8c52afbf4ca923ae40d69bd0db7141a4d605316237fd1aa5a632f0",
+    "exportSHA256": "c67c9e1e0b97734c69a1e14187f19b9bc5c3af95b4262812388bd2bf659cf90a",
+    "clip": "Call_Loop"
+  },
+  "ft_goose_actor_rejoin": {
+    "source": "Assets/Watercolor/Goose/Blender/ANM-009/v001/ANM-009_call_rejoin.glb",
+    "sourceSHA256": "9b4eacbfbe8c52afbf4ca923ae40d69bd0db7141a4d605316237fd1aa5a632f0",
+    "exportSHA256": "17052714639fdf54c3d86a3ced53c5ca19e1b2d2807c17f201d358dfc666a0d1",
+    "clip": "Rejoin"
+  },
+  "ft_goose_fx_beacon": {
+    "source": "Assets/Watercolor/Goose/Blender/FX-009/v001/FX-009_RescueBeacon.glb",
+    "sourceSHA256": "4be20c1d4d3ca056edb8a49f6de18ed92cc0d7f8c4074f264cff38abebebc932",
+    "exportSHA256": "b7cfe56e090d2768cff43bd5a3f68be833cd9fdbc31bc793875d2e9eaa2005e6",
+    "clip": null
+  },
+  "ft_goose_fx_feather": {
+    "source": "Assets/Watercolor/Goose/Blender/FX-013/v001/FX-013_FeatherMotes.glb",
+    "sourceSHA256": "d8f73985a68ed2b457b60a3c8600b66bd0cd5d53b54be65556d6d7aae257fdaa",
+    "exportSHA256": "aa78dee3e0061e08f2cf92dbfeb580868593739409414f9e24f4be757e001cb6",
+    "clip": null
+  },
+  "ft_goose_scene_s0": {
+    "source": "Assets/Watercolor/Goose/Blender/LVL-S0/v001/LVL-S0_S0_StartWetland.glb",
+    "sourceSHA256": "f8a276e67465414dc3f7906162039e0d65f053e8f80159c3f78c7de44d4df2ea",
+    "exportSHA256": "929abdc04c013b3473aa42bce5a519ba784a7eb8fe5f53af6e92c21d5dfc0369",
+    "clip": null,
+    "openingPolishInputs": {
+      "Assets/Processed/Goose/M10a-opening-polish/dressing.py": "f115c03f91daebc9a29d38fc724a4cffd6a09888cc863c87c18820c0217bf0d6",
+      "Assets/Processed/Goose/M10a-opening-polish/terrain.py": "223f10db45f77926c39fc17c889883fbafe5e8323eff38ec318fd2efa8d9aa7c",
+      "Assets/Watercolor/Goose/Blender/MAT-004/v001/textures/ft_goose_mat_water_river_basecolor_alpha.png": "f470fd1a2c206a618f27c177f7d6d613a4681135a47207103fa0b353c923fcaf",
+      "Assets/Watercolor/Goose/Blender/ENV-004/v001/ENV-004_Reed_A_Height_S.glb": "601d9f87c9445efeef6bb98c0f49a0f6194a2c978c5c0d707c8c03a1e12b8762",
+      "Assets/Watercolor/Goose/Blender/ENV-004/v001/ENV-004_Reed_B_Height_S.glb": "fcf24d9787f5df89bf7ade9d098c1c374db088dd878c7f758f57768a5e2686ad",
+      "Assets/Watercolor/Goose/Blender/ENV-004/v001/ENV-004_Reed_C_Height_S.glb": "44c3a8a938f6413cddb5e6d5332be8136929a9a0bbde7207db1ca3019f411633",
+      "Assets/Watercolor/Goose/Blender/ENV-011/v001/ENV-011_Rock_Long.glb": "b086fd2554372ddafe05b17c4585c23bd2121495f0c31df619df719bbc4a3b0c",
+      "Assets/Watercolor/Goose/Blender/ENV-011/v001/ENV-011_Rock_Round.glb": "0f2121751ef3ec4fbc1f284aa00e8bcd51ff11de1216a5d6e1b0193d4a98ee96",
+      "Assets/Watercolor/Goose/Blender/ENV-009/v001/ENV-009_FarRidge_A.glb": "c189468f2995e9f4c6bd7543fa15d6c1f22d09e0d18579eba8699396647fd649",
+      "Assets/Watercolor/Goose/Blender/ENV-009/v001/ENV-009_FarRidge_B.glb": "06f796b8e8c7c4c3a4d6b7cdd872a7b4ea95a274dd4d416b58752f44024393b8",
+      "Assets/Watercolor/Goose/Blender/ENV-009/v001/ENV-009_FarRidge_C.glb": "b2c78606fc1229e4e70526b27fb067141a78644e95498f4c27d1428a8455898e"
+    }
+  },
+  "ft_goose_scene_s1": {
+    "source": "Assets/Watercolor/Goose/Blender/LVL-S1/v001/LVL-S1_S1_Tailwind.glb",
+    "sourceSHA256": "178619ad95cea01ded6cbca210cbf8b38422ed0ae6384ea2cd1916936bc08d56",
+    "exportSHA256": "85151cc2963bd34210d5b2971c285fb93952bcb7d2bdff74d092c9c00e6addb5",
+    "clip": null,
+    "openingPolishInputs": {
+      "Assets/Processed/Goose/M10a-opening-polish/dressing.py": "f115c03f91daebc9a29d38fc724a4cffd6a09888cc863c87c18820c0217bf0d6",
+      "Assets/Processed/Goose/M10a-opening-polish/terrain.py": "223f10db45f77926c39fc17c889883fbafe5e8323eff38ec318fd2efa8d9aa7c",
+      "Assets/Watercolor/Goose/Blender/MAT-004/v001/textures/ft_goose_mat_water_river_basecolor_alpha.png": "f470fd1a2c206a618f27c177f7d6d613a4681135a47207103fa0b353c923fcaf",
+      "Assets/Watercolor/Goose/Blender/ENV-004/v001/ENV-004_Reed_A_Height_S.glb": "601d9f87c9445efeef6bb98c0f49a0f6194a2c978c5c0d707c8c03a1e12b8762",
+      "Assets/Watercolor/Goose/Blender/ENV-004/v001/ENV-004_Reed_B_Height_S.glb": "fcf24d9787f5df89bf7ade9d098c1c374db088dd878c7f758f57768a5e2686ad",
+      "Assets/Watercolor/Goose/Blender/ENV-004/v001/ENV-004_Reed_C_Height_S.glb": "44c3a8a938f6413cddb5e6d5332be8136929a9a0bbde7207db1ca3019f411633",
+      "Assets/Watercolor/Goose/Blender/ENV-011/v001/ENV-011_Rock_Long.glb": "b086fd2554372ddafe05b17c4585c23bd2121495f0c31df619df719bbc4a3b0c",
+      "Assets/Watercolor/Goose/Blender/ENV-011/v001/ENV-011_Rock_Round.glb": "0f2121751ef3ec4fbc1f284aa00e8bcd51ff11de1216a5d6e1b0193d4a98ee96",
+      "Assets/Watercolor/Goose/Blender/ENV-009/v001/ENV-009_FarRidge_A.glb": "c189468f2995e9f4c6bd7543fa15d6c1f22d09e0d18579eba8699396647fd649",
+      "Assets/Watercolor/Goose/Blender/ENV-009/v001/ENV-009_FarRidge_B.glb": "06f796b8e8c7c4c3a4d6b7cdd872a7b4ea95a274dd4d416b58752f44024393b8",
+      "Assets/Watercolor/Goose/Blender/ENV-009/v001/ENV-009_FarRidge_C.glb": "b2c78606fc1229e4e70526b27fb067141a78644e95498f4c27d1428a8455898e"
+    }
+  },
+  "ft_goose_scene_s2": {
+    "source": "Assets/Watercolor/Goose/Blender/LVL-S2/v001/LVL-S2_S2_Fork.glb",
+    "sourceSHA256": "1ea7b93a8b70ca3edc169425d11e2a5926f793c8cac561d7c0e7802f85428b49",
+    "exportSHA256": "235c9922d52eb1d627b11c231b1568e05c50de04fbf5adeb8b46b0cc04e5490f",
+    "clip": null,
+    "chapterPolishInputs": {
+      "Assets/Processed/Goose/M10a-chapter-polish/fork.py": "b8e8554fe5f17fb66ab8be84bfc49b8c4b2e5383eb58b6cf46f1141e18338dac",
+      "Assets/Processed/Goose/M10a-opening-polish/terrain.py": "223f10db45f77926c39fc17c889883fbafe5e8323eff38ec318fd2efa8d9aa7c",
+      "Assets/Watercolor/Goose/Blender/ENV-009/v001/ENV-009_FarRidge_A.glb": "c189468f2995e9f4c6bd7543fa15d6c1f22d09e0d18579eba8699396647fd649",
+      "Assets/Watercolor/Goose/Blender/ENV-009/v001/ENV-009_FarRidge_B.glb": "06f796b8e8c7c4c3a4d6b7cdd872a7b4ea95a274dd4d416b58752f44024393b8"
+    }
+  },
+  "ft_goose_scene_s3": {
+    "source": "Assets/Watercolor/Goose/Blender/LVL-S3/v001/LVL-S3_S3_Rescue.glb",
+    "sourceSHA256": "7c8426006eeda428ef81d7372e8ca11236e4dec9f71c0894d310864721971e74",
+    "exportSHA256": "fbe3d9483e399751885bb30bcfeb8251180cc22c7aaf8599cff8bedb8eacfba9",
+    "clip": null,
+    "chapterPolishInputs": {
+      "Assets/Processed/Goose/M10a-chapter-polish/fork.py": "b8e8554fe5f17fb66ab8be84bfc49b8c4b2e5383eb58b6cf46f1141e18338dac",
+      "Assets/Processed/Goose/M10a-opening-polish/terrain.py": "223f10db45f77926c39fc17c889883fbafe5e8323eff38ec318fd2efa8d9aa7c"
+    }
+  },
+  "ft_goose_scene_s4": {
+    "source": "Assets/Watercolor/Goose/Blender/LVL-S4/v001/LVL-S4_S4_WindFarm.glb",
+    "sourceSHA256": "8a07962c9c2fecff8e17a7bfab135dffbf8362b94eab119648eb9eab0069caed",
+    "exportSHA256": "fb4ddf5543f4fe2858914679021387854d630267a8bbbbd8764d5fc98a8ec316",
+    "clip": null,
+    "chapterPolishInputs": {
+      "Assets/Processed/Goose/M10a-chapter-polish/last_reaches.py": "1ee54f980dfa927052af894419584a345814b55e87948d29af84060110084883",
+      "Assets/Processed/Goose/M10a-chapter-polish/fork.py": "b8e8554fe5f17fb66ab8be84bfc49b8c4b2e5383eb58b6cf46f1141e18338dac",
+      "Assets/Processed/Goose/M10a-opening-polish/terrain.py": "223f10db45f77926c39fc17c889883fbafe5e8323eff38ec318fd2efa8d9aa7c"
+    }
+  },
+  "ft_goose_scene_s5": {
+    "source": "Assets/Watercolor/Goose/Blender/LVL-S5/v001/LVL-S5_S5_Headwind.glb",
+    "sourceSHA256": "da2df05dad85326994cee8f5fcabde790b3ba3b787eb4517c5903128c21acb0f",
+    "exportSHA256": "6f7c318941cb842907f18cd692f8796649dfc03cefd154636f2d053a08a4423a",
+    "clip": null,
+    "chapterPolishInputs": {
+      "Assets/Processed/Goose/M10a-chapter-polish/last_reaches.py": "1ee54f980dfa927052af894419584a345814b55e87948d29af84060110084883",
+      "Assets/Processed/Goose/M10a-chapter-polish/fork.py": "b8e8554fe5f17fb66ab8be84bfc49b8c4b2e5383eb58b6cf46f1141e18338dac",
+      "Assets/Processed/Goose/M10a-opening-polish/terrain.py": "223f10db45f77926c39fc17c889883fbafe5e8323eff38ec318fd2efa8d9aa7c"
+    }
+  },
+  "ft_goose_scene_s6": {
+    "source": "Assets/Watercolor/Goose/Blender/LVL-S6/v001/LVL-S6_S6_Landing.glb",
+    "sourceSHA256": "5cf4a4dd86f24c2f9bdb28a6b7657e5e588c06d917d526f8eb692786e40f90d8",
+    "exportSHA256": "060ecddf28879a2ce5c0fbe81d0faefd469fcc603ee65188d3117487fe654770",
+    "clip": null,
+    "chapterPolishInputs": {
+      "Assets/Processed/Goose/M10a-chapter-polish/last_reaches.py": "1ee54f980dfa927052af894419584a345814b55e87948d29af84060110084883",
+      "Assets/Processed/Goose/M10a-chapter-polish/fork.py": "b8e8554fe5f17fb66ab8be84bfc49b8c4b2e5383eb58b6cf46f1141e18338dac",
+      "Assets/Processed/Goose/M10a-opening-polish/terrain.py": "223f10db45f77926c39fc17c889883fbafe5e8323eff38ec318fd2efa8d9aa7c"
+    }
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "id": "ENV-008",
+  "version": "v001",
+  "status": "needs_review",
+  "graybox_assembly": {
+    "water_triangles": 726,
+    "shore_triangles": 2624,
+    "assembled_length_BU": 54.0,
+    "maximum_water_width_BU": 24.7,
+    "projected_water_area_BU2": 1015.8087424039841,
+    "area_error_BU2": 7.596015962008096e-06,
+    "matched_rim_vertex_count": 88,
+    "max_rim_height_match_error_BU": 0.0,
+    "wet_interior_rays": 2904,
+    "maximum_dry_intrusion_BU": 0.0,
+    "minimum_water_depth_under_interior_probes_BU": 6.675720215509884e-08,
+    "rest_patch_reused_vertices": 289,
+    "rest_patch_rim_vertices": 64,
+    "rest_patch_max_rim_step_BU": 0.0,
+    "rest_patch_max_geometry_delta_BU": 0.0,
+    "dry_approach_probe_count": 20,
+    "dry_approach_smallest_height_above_water_BU": 0.1018902587890625,
+    "central_y_10_5_to_48_5_min_water_width_BU": 16.56153846153846,
+    "traverse_cross_section_count": 109,
+    "traverse_altitude_BU": 0.288,
+    "minimum_vertical_traverse_clearance_BU": 0.4680000667572021
+  },
+  "roundtrip_assembly": {
+    "water_triangles": 726,
+    "shore_triangles": 2624,
+    "assembled_length_BU": 54.0,
+    "maximum_water_width_BU": 24.7,
+    "projected_water_area_BU2": 1015.8087424039841,
+    "area_error_BU2": 7.596015962008096e-06,
+    "matched_rim_vertex_count": 88,
+    "max_rim_height_match_error_BU": 0.0,
+    "wet_interior_rays": 2904,
+    "maximum_dry_intrusion_BU": 0.0,
+    "minimum_water_depth_under_interior_probes_BU": 6.675720215509884e-08,
+    "rest_patch_reused_vertices": 289,
+    "rest_patch_rim_vertices": 64,
+    "rest_patch_max_rim_step_BU": 0.0,
+    "rest_patch_max_geometry_delta_BU": 0.0,
+    "dry_approach_probe_count": 20,
+    "dry_approach_smallest_height_above_water_BU": 0.1018902587890625,
+    "central_y_10_5_to_48_5_min_water_width_BU": 16.56153846153846,
+    "traverse_cross_section_count": 109,
+    "traverse_altitude_BU": 0.288,
+    "minimum_vertical_traverse_clearance_BU": 0.4680000667572021
+  },
+  "glb_reimport": {
+    "LakeWide": {
+      "triangles": 726,
+      "max_normal_angle_degrees": 0.0,
+      "glTF_bounds_XYZ_BU": [
+        [
+          9.25,
+          36.45000076293945
+        ],
+        [
+          -0.18000000715255737,
+          -0.18000000715255737
+        ],
+        [
+          -58,
+          -4
+        ]
+      ],
+      "embedded_PNG_SHA256": {
+        "Lake watercolor": "906631aa073af79112dd3c84a3c877ec77653fc4238d76de2a82f6d7712026ec"
+      }
+    },
+    "LakeShore": {
+      "triangles": 2624,
+      "max_normal_angle_degrees": 0.024709550871283636,
+      "glTF_bounds_XYZ_BU": [
+        [
+          -1,
+          41.59566879272461
+        ],
+        [
+          -0.6499999761581421,
+          0.20999999344348907
+        ],
+        [
+          -63,
+          7.5
+        ]
+      ],
+      "embedded_PNG_SHA256": {
+        "GrassFlat": "e06d76e88c90a29ad97a810ed7578ce67f79da1b915940d5406750228f36996b",
+        "MudBank": "0343b68d4e256fca7b747c65b2fcebc74c46f3aa2334044051ac862e4e02c5b1",
+        "MossStone": "10670b355497a7e1f53116859dd31128377e892f263ce8f0de58d125cff265c7",
+        "ShallowMargin": "bd12529acd7f63aefad1df09111aa6b9a84c95161bbdb1d0c64f1cbc66d2c6f7"
+      }
+    }
+  },
+  "checkpoint_A_review": {
+    "frame_px": [
+      852,
+      393
+    ],
+    "checkpoint_A_BU": [
+      0,
+      0,
+      0
+    ],
+    "heading_XY": [
+      0,
+      1
+    ],
+    "normalized_camera_geometry": {
+      "distance_game_units": 180,
+      "pitch_parameter_rad": 0.48,
+      "vertical_FOV_degrees": 50,
+      "target_height_game_units": 6,
+      "flight_height_game_units": 8
+    },
+    "see_both_banks_and_rest_probe_pixels_from_top_left": {
+      "lake_near_bank": [
+        [
+          740.232,
+          100.852
+        ],
+        [
+          639.36,
+          58.171
+        ]
+      ],
+      "lake_opposite_bank": [
+        [
+          812.096,
+          31.047
+        ],
+        [
+          712.104,
+          23.327
+        ]
+      ],
+      "lake_visible_far_tip": [
+        [
+          595.341,
+          18.602
+        ]
+      ],
+      "rest_patch_surface": [
+        [
+          496.238,
+          90.044
+        ],
+        [
+          575.726,
+          83.267
+        ],
+        [
+          500.816,
+          73.02
+        ]
+      ]
+    },
+    "lake_sample_projection_extent_px": [
+      216.75505900382996,
+      82.2504655122757
+    ]
+  },
+  "tolerances": {
+    "position_BU": 1e-06,
+    "shoreline_height_BU": 2e-06,
+    "area_BU2": 0.0005,
+    "corner_normal_roundtrip_degrees": 0.075,
+    "roundtrip_signature_coordinates_and_UVs_decimals": 5
+  },
+  "app_baseline": {
+    "source": "plans/active/goose-preview-model-cleanup.md",
+    "iOS_simulator": "27.2",
+    "prior_test_count": 340,
+    "same_build_rerun_in_this_task": false
+  },
+  "pending": [
+    "Owner art review of actual fork proportions and visual comparison to mountain pass",
+    "Engine fork choice, replenishment, collision and clearances, USDZ and iPhone/iPad review",
+    "Runtime transparent sorting and slow water/cloud shading via FX-006"
+  ],
+  "independent_reopen": {
+    "result": "pass",
+    "all_metrics_exact": true,
+    "glbs": 2
+  },
+  "visual_roundtrip": {
+    "mean_RGB8_delta": 0.02192117932360917,
+    "p99_RGB8_delta": 1
+  },
+  "visual_review": {
+    "layout": "The long lake sits to the right of the shared checkpoint camera. Rightward heading at A frames the far shore and the RestPatch basin. The foreground shore crops the nearest narrow portion at the shared orientation.",
+    "scene_redline_check": "pass"
+  },
+  "review_water_motion": {
+    "frame_count_rendered": 24,
+    "source_dimensions_px": [
+      852,
+      393
+    ],
+    "encoded_dimensions_px": [
+      852,
+      394
+    ],
+    "video_decoded": "pass",
+    "duration_seconds": 2.0,
+    "scope": "Blender review-only material tonal drift"
+  }
+}

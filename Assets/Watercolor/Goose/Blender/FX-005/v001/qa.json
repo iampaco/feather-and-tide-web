@@ -1,0 +1,111 @@
+{
+  "id": "FX-005",
+  "version": "v001",
+  "status": "needs_review",
+  "blender": "5.2.2 LTS",
+  "dependency_hashes": "pass",
+  "reopened_final_blend": "pass",
+  "drift": {
+    "status": "pass",
+    "samples": 97,
+    "fixed_camera": true,
+    "vertical_fov_deg": 50.0000002530119,
+    "default_translation_span_BU": 3.119999885559082,
+    "default_drift_BU_per_s": 0.78,
+    "mountain_pass_example_drift_BU_per_s": 1.28
+  },
+  "visibility": {
+    "status": "pass",
+    "path_mark_objects": 33,
+    "goose_objects": 6,
+    "sampled_frames": 9,
+    "camera_visible_vertex_rays": 111042,
+    "rays_crossing_masks": 0,
+    "minimum_target_height_above_masks_BU": 0.03359999880194664
+  },
+  "masks": {
+    "CoolShadow": {
+      "file": "textures/ft_goose_vfx_cloud_shadow_alpha.png",
+      "sha256": "b9d69e4a83926ca5efbbba670856247060b67d42eaa2050e699e9ec70e5350bd",
+      "max_alpha_8bit": 37,
+      "max_adjacent_alpha_step_8bit": 1,
+      "alpha_at_texture_edge_8bit": 0,
+      "resolution": [
+        512,
+        512
+      ]
+    },
+    "DiffuseLight": {
+      "file": "textures/ft_goose_vfx_cloud_light_alpha.png",
+      "sha256": "cfa691877e8d16f19e5cc6cde2abb12809d65d11e1acaf3d7be47b2a08079094",
+      "max_alpha_8bit": 29,
+      "max_adjacent_alpha_step_8bit": 1,
+      "alpha_at_texture_edge_8bit": 0,
+      "resolution": [
+        512,
+        512
+      ]
+    }
+  },
+  "screen_luminance": {
+    "default": {
+      "min_luminance_delta_rgb8": -7.7112,
+      "max_luminance_delta_rgb8": 7.992,
+      "p99_abs_luminance_delta_rgb8": 6.7741999999999996,
+      "p99_neighbor_luminance_delta_step_rgb8": 1.0,
+      "pixels_max_channel_delta_at_least_5": 59167
+    },
+    "reduced": {
+      "min_luminance_delta_rgb8": -5.8556,
+      "max_luminance_delta_rgb8": 5.7152,
+      "p99_abs_luminance_delta_rgb8": 2.353,
+      "p99_neighbor_luminance_delta_step_rgb8": 1.0,
+      "pixels_max_channel_delta_at_least_5": 112
+    }
+  },
+  "glb": {
+    "status": "pass",
+    "nodes": 3,
+    "triangles": 4,
+    "packed_png_byte_matches": 2,
+    "alpha_mode": "BLEND",
+    "shading": "KHR_materials_unlit",
+    "sampler": "CLAMP_TO_EDGE",
+    "collision_extras": false,
+    "animations": 0,
+    "camera_nodes": 0
+  },
+  "roundtrip": {
+    "status": "pass",
+    "triangles_imported": 4,
+    "same_local_transform": "pass",
+    "same_uv_positions": "pass",
+    "same_normal_direction": "pass",
+    "mean_abs_delta_rgb8": 0.2882734632277692,
+    "p99_abs_delta_rgb8": 2.0
+  },
+  "video": {
+    "status": "pass",
+    "frames": 48,
+    "render_px": [
+      852,
+      393
+    ],
+    "encoded_px": [
+      852,
+      394
+    ],
+    "duration_s": 4.0,
+    "audio_streams": 0,
+    "fps": 12
+  },
+  "redline_check": "pass",
+  "pending": [
+    "负责人美术及实际玩法中对云影的辨识",
+    "USDZ",
+    "RealityKit / App 接入及透明排序",
+    "运行时地面遮罩、设置输入和山口漂移",
+    "iPhone / iPad 真机显示与性能"
+  ],
+  "ios_baseline": "active 计划 2026-11-14，iOS 27.2 模拟器 App 灰盒 340 项通过"
+}

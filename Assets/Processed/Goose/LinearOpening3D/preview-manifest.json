@@ -1,0 +1,56 @@
+{
+  "ft_goose_actor_cruise": {
+    "source": "Assets/Watercolor/Goose/Blender/ANM-001/v001/ANM-001_cruise_flap.glb",
+    "clip": "Cruise_Flap_Loop",
+    "m10aSHA256": "fe6d61ac8f8eac2753eb6a3fff2178597028e1dd210807fe86517d565350f559",
+    "exportSHA256": "fe6d61ac8f8eac2753eb6a3fff2178597028e1dd210807fe86517d565350f559"
+  },
+  "ft_goose_actor_takeoff": {
+    "source": "Assets/Watercolor/Goose/Blender/ANM-002/v001/ANM-002_takeoff_climb.glb",
+    "clip": "Takeoff_Climb",
+    "m10aSHA256": "a32f157aae08e2efa38bb163fa0657900070c118be5cb7ad825f85d9244c0fcb",
+    "exportSHA256": "a32f157aae08e2efa38bb163fa0657900070c118be5cb7ad825f85d9244c0fcb"
+  },
+  "ft_goose_actor_glide": {
+    "source": "Assets/Watercolor/Goose/Blender/ANM-003/v001/ANM-003_glide_circle.glb",
+    "clip": "Glide_Loop",
+    "m10aSHA256": "6d35094f5af4ae50bd9f29b7623f905b08e1be3de80fd23e0b10d64bab01b4ae",
+    "exportSHA256": "6d35094f5af4ae50bd9f29b7623f905b08e1be3de80fd23e0b10d64bab01b4ae"
+  },
+  "ft_goose_actor_form": {
+    "source": "Assets/Watercolor/Goose/Blender/ANM-006/v001/ANM-006_formation_blend.glb",
+    "clip": "Formation_Blend",
+    "m10aSHA256": "b8f49a2034b25fb5e7da266d08d94ee5343239b819277775d04907f5197c93a6",
+    "exportSHA256": "b8f49a2034b25fb5e7da266d08d94ee5343239b819277775d04907f5197c93a6"
+  },
+  "ft_goose_actor_land": {
+    "source": "Assets/Watercolor/Goose/Blender/ANM-007/v001/ANM-007_landing.glb",
+    "clip": "Land_Mudflat",
+    "m10aSHA256": "958bbd39c9e2e94e1fa7fc56348272dd14b054da8cfaa8521faa023761bb95b8",
+    "exportSHA256": "958bbd39c9e2e94e1fa7fc56348272dd14b054da8cfaa8521faa023761bb95b8"
+  },
+  "ft_goose_actor_water": {
+    "source": "Assets/Watercolor/Goose/Blender/ANM-007/v001/ANM-007_landing.glb",
+    "clip": "Land_ShallowWater",
+    "m10aSHA256": "8808f2e21a7af9c318a45d126408b95a057c485d36d9df4a452081e22ad9fb63",
+    "exportSHA256": "8808f2e21a7af9c318a45d126408b95a057c485d36d9df4a452081e22ad9fb63"
+  },
+  "ft_goose_actor_rest": {
+    "source": "Assets/Watercolor/Goose/Blender/ANM-008/v001/ANM-008_rest_idle.glb",
+    "clip": "Rest_Idle",
+    "m10aSHA256": "c4c3affd0c16339e62448e973138d02b49fcc31e6356d1f6bbeed12d2fde5ee4",
+    "exportSHA256": "c4c3affd0c16339e62448e973138d02b49fcc31e6356d1f6bbeed12d2fde5ee4"
+  },
+  "ft_goose_scene_s0": {
+    "source": "Assets/Watercolor/Goose/Blender/LVL-S0/v001/LVL-S0_S0_StartWetland.glb",
+    "clip": null,
+    "m10aSHA256": "929abdc04c013b3473aa42bce5a519ba784a7eb8fe5f53af6e92c21d5dfc0369",
+    "exportSHA256": "929abdc04c013b3473aa42bce5a519ba784a7eb8fe5f53af6e92c21d5dfc0369"
+  },
+  "ft_goose_scene_s1": {
+    "source": "Assets/Watercolor/Goose/Blender/LVL-S1/v001/LVL-S1_S1_Tailwind.glb",
+    "clip": null,
+    "m10aSHA256": "85151cc2963bd34210d5b2971c285fb93952bcb7d2bdff74d092c9c00e6addb5",
+    "exportSHA256": "1dbbf1e76c0b157b62cb93dcdd58ca674ba0d71d4dec80b741d2db7f73233e7c"
+  }
+}

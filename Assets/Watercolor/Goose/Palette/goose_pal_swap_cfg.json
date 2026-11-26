@@ -1,0 +1,21 @@
+{
+  "asset_id": "goose_pal_swap_cfg",
+  "style_board": "SB-2026-11-07-v1",
+  "modes": {
+    "normal": {
+      "saturation": 1.0,
+      "brightness": 1.0,
+      "tint_hex": "#E8C27A",
+      "tint_strength": 0.08,
+      "description": "Healthy wetland dusk: warm gold peach mauve."
+    },
+    "polluted": {
+      "saturation": 0.72,
+      "brightness": 0.92,
+      "tint_hex": "#8A8E86",
+      "tint_strength": 0.18,
+      "description": "Muted cooler brown-gray wash for human-trace scenes; avoid alarm red."
+    }
+  },
+  "shader_hint": "SpriteKit SKShader palette-swap; GLSL ES only. Do not invent device FPS numbers."
+}

@@ -1,0 +1,293 @@
+{
+  "id": "LVL-S6",
+  "variant": "S6_Landing",
+  "version": "v001",
+  "status": "needs_review",
+  "tool": "Blender 5.2.2 LTS with FFmpeg / libx264 and FFprobe",
+  "execution_order_1_based": 48,
+  "specification_pdf_page": 18,
+  "master": "LVL-S6_S6_Landing.blend",
+  "layout": "s6_layout.json",
+  "glb": "LVL-S6_S6_Landing.glb",
+  "dependencies": {
+    "ENV-017": {
+      "version": "v001",
+      "candidate_status": "needs_review",
+      "location_relative_to_Blender_library": "ENV-017/v001",
+      "verified_sha256": {
+        "ENV-017_LandingBasin.glb": "ca1c1aecc76165fab46a294664bb79d98a1b9054796c23f9c43f8f8e73e06880",
+        "ENV-017_landing_basin.blend": "b037f2e8e57c195d2427139d4fda1d2a71f690f05f1b69cb4014ff12ad993f05"
+      },
+      "manifest_sha256": "bfb2e211bd589ec18f9a3524fcb6e8342b65724b60232862889d036d16948216",
+      "qa_sha256": "1156a8f382ab590a43a80e685aa0467b0f0232ca56a2a4f9c48d08868c743281",
+      "reported_offline_QA": {
+        "result": "pass"
+      },
+      "files_compared_with_manifest": 16
+    },
+    "ANM-007": {
+      "version": "v001",
+      "candidate_status": "needs_review",
+      "location_relative_to_Blender_library": "ANM-007/v001",
+      "verified_sha256": {
+        "ANM-007_landing.blend": "bf8ed361fb9e06706e4a78e7fcbf2d4f61edc8cdbeea6018f2339dfecc35e5f0",
+        "ANM-007_landing.glb": "65779e411f7b638d6770f3849725fb403997d1075f86de7558796bf8b7380f5e"
+      },
+      "manifest_sha256": "8cecd075c2ccc3af0a5c06894002d44ebd2c44b93e35da71e21e55f2f0889a0c",
+      "qa_sha256": "bb38db5eb2f77b9f218406c972e173de9c39f7ff098621437d01b9b1a48d61d2",
+      "reported_offline_QA": {
+        "editable_source_reopen": {
+          "status": "pass",
+          "actions": [
+            "Land_Mudflat",
+            "Land_ShallowWater"
+          ],
+          "packed_images": 4
+        },
+        "roundtrip_keys": [
+          "clips",
+          "imported_skin_axes_pivot_scale_and_plumage"
+        ]
+      },
+      "files_compared_with_manifest": 19
+    },
+    "ANM-008": {
+      "version": "v001",
+      "candidate_status": "needs_review",
+      "location_relative_to_Blender_library": "ANM-008/v001",
+      "verified_sha256": {
+        "ANM-008_rest_idle.blend": "7e920281c3d5fa0c9494c63688c809ec8f9f168245f8ef9dfa6ed55bf0e74e94",
+        "ANM-008_rest_idle.glb": "2ec12deaae2ff0ddaa7d2607cb244fb9552f1966ba05bf6db15fcfe8ecf4b51f"
+      },
+      "manifest_sha256": "37c192e08dcd10ba3c3ef77f84883f10202593fc10bb85c42b015501e8b49df8",
+      "qa_sha256": "8316e6de73ff4f982049d8a337da862c0159ce51ffc5c91db0470f0c400eb076",
+      "reported_offline_QA": {
+        "editable_source_reopen": {
+          "status": "pass",
+          "actions": [
+            "Rest_Idle"
+          ],
+          "packed_images": 4
+        },
+        "roundtrip_keys": [
+          "clips",
+          "imported_skin_axes_pivot_scale_and_plumage"
+        ]
+      },
+      "files_compared_with_manifest": 16
+    },
+    "FX-006": {
+      "version": "v001",
+      "candidate_status": "needs_review",
+      "location_relative_to_Blender_library": "FX-006/v001",
+      "verified_sha256": {
+        "FX-006_ripples.blend": "f356f13c6bf793919855e95045d13a6ecbb3d6a01b51404f4acba9974b5b0871",
+        "FX-006_ripples.glb": "55ea5c1eea7886c9ef3e6860a87c1daa767a51ec21f0c54c457c22a3888b7b48",
+        "ripple_controls.json": "a791db618e13092ab8f6387bd71508527829b0256b4ce77f0986f90e84a13d04"
+      },
+      "manifest_sha256": "687e87040a6394fef03a1a15c3f83a596685043a032df7f6e34ccabb655f6941",
+      "qa_sha256": "17c5a58587ded4fb8238ceea7ae00241785d7328fe8b10b9d014b84652a2c9ff",
+      "reported_offline_QA": "pass",
+      "files_compared_with_manifest": 19
+    },
+    "FX-013": {
+      "version": "v001",
+      "candidate_status": "needs_review",
+      "location_relative_to_Blender_library": "FX-013/v001",
+      "verified_sha256": {
+        "FX-013_FeatherMotes.blend": "ae710b49a7f68910bcac7ab03a8e8c4a3619c3915a747126f4f7e935c47526dc",
+        "FX-013_FeatherMotes.glb": "d8f73985a68ed2b457b60a3c8600b66bd0cd5d53b54be65556d6d7aae257fdaa",
+        "FX-013_generate.py": "389fb08935c23f90ce3b0ea9b7f2e9f4d5bfdb14f5c25daf282b069a2d1ed401"
+      },
+      "manifest_sha256": "f388c2041c5598358a5f92324d7a19eace814c0c7c862d52b0bc333293451536",
+      "qa_sha256": "fafe250da5983e7fde47e31e8097f327beb1ff69a646d7c3c5734730606dfbaf",
+      "reported_offline_QA": {
+        "status": "pass"
+      },
+      "files_compared_with_manifest": 18
+    }
+  },
+  "asset_rights": "Project-generated S6 assembly with v001 project geometry, art and textures. No added external assets.",
+  "staging_decisions": {
+    "water_slots": [
+      10,
+      12
+    ],
+    "land_slots": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      11
+    ],
+    "shoals": [
+      22,
+      21
+    ],
+    "entry_reed_vertices_removed": 449
+  },
+  "export": {
+    "layers_triangles": {
+      "LandingBasin_Ground": 8192,
+      "LandingBasin_Reeds": 33096,
+      "LandingBasin_Water": 824
+    },
+    "embedded_texture_sha256": [
+      "0343b68d4e256fca7b747c65b2fcebc74c46f3aa2334044051ac862e4e02c5b1",
+      "10670b355497a7e1f53116859dd31128377e892f263ce8f0de58d125cff265c7",
+      "2d51dc4509c523d3d7f9f030f42e456ee60c963eb54b57df49629b94c9954341",
+      "915bf85fc4c0f2271c73b3d14fb1a324182a07ebe757138696263312d5f17dc5",
+      "a4fbb2db73897427d8172297edb7b59d80a17707b3a3f1a198857f4996e6ed26",
+      "b006552cc2e7384c4396682d1597a056c65df3d5eea4018d88946a4f292000f7",
+      "bd12529acd7f63aefad1df09111aa6b9a84c95161bbdb1d0c64f1cbc66d2c6f7",
+      "e06d76e88c90a29ad97a810ed7578ce67f79da1b915940d5406750228f36996b",
+      "e201e626c70ba88af6cbeae9662dc76375930208e121c4af5dbdfc52cfcefab0"
+    ],
+    "local_glb_anchor_count": 15,
+    "axes": [
+      "x",
+      "z",
+      "-y"
+    ],
+    "runtime_payload": "Terrain, water, reeds, section anchors, and 12 landing slots. Runtime instantiates actors, effects and triggers.",
+    "source_texture_map": {
+      "transport_texture_layers": "ENV-017/v001/asset_manifest.json#/texture_layers",
+      "ripple_textures": "FX-006/v001/asset_manifest.json#/textures",
+      "feather_textures": "FX-013/v001/asset_manifest.json#/export",
+      "goose_skin": "ANM-007/v001/asset_manifest.json#/texture_mapping"
+    },
+    "texture_export_note": "Inherited ENV-017 glTF warning: a shared image sampler takes the first image-node sampler. Three BLEND materials and all 9 image byte hashes passed independent inspection."
+  },
+  "review_video": {
+    "path": "preview_fixed_rear.mp4",
+    "result": "pass_full_ffmpeg_decode",
+    "silent": true,
+    "review_source_px": [
+      852,
+      393
+    ],
+    "encoded_px": [
+      852,
+      394
+    ],
+    "decoded_frames": 90,
+    "seconds": 7.5,
+    "sampling_fps": 12
+  },
+  "verification": {
+    "path": "qa.json",
+    "result": "pass",
+    "reopened_master": "LVL-S6_S6_Landing.blend",
+    "reimported_glb": "LVL-S6_S6_Landing.glb",
+    "independent_reopened_from_delivery_dir": true
+  },
+  "pending": [
+    "负责人复核终场暖光、芦苇框景、两种落脚节奏、水纹与落羽疏密。",
+    "App 联验 S5→S6 流送与碰撞、动态槽位、触地事件、相位与水面透明排序。",
+    "App 记录仅领队时仍等候、11/12 仍等候、12/12 全部入区并落脚后才结算、结算锁输入及重试重置。",
+    "RealityKit / USDZ、App 接入、iPhone 和 iPad 真机画幅、触控、镜头及性能待验。"
+  ],
+  "files": {
+    "LVL-S6_S6_Landing.blend": {
+      "bytes": 24868984,
+      "sha256": "c00256ea8e97de07a82a74e0e2665b30ccc998f6e995e29c61a026d5116361ee"
+    },
+    "LVL-S6_S6_Landing.glb": {
+      "bytes": 8974888,
+      "sha256": "5cf4a4dd86f24c2f9bdb28a6b7657e5e588c06d917d526f8eb692786e40f90d8"
+    },
+    "LVL-S6_generate.py": {
+      "bytes": 59176,
+      "sha256": "082f10cdad16927f6cb5d2efc39c18f410c4afaf6d143e1c062a681b52e11edb"
+    },
+    "README.md": {
+      "bytes": 5754,
+      "sha256": "5aae407f63745b2f0afd9e6bc266d74fd5ca062b36e5817f21a4c5520982c255"
+    },
+    "graybox_fixed_rear.png": {
+      "bytes": 328511,
+      "sha256": "2d689430b4435538fe5395fe6badc96e491107ae02efc313a48a88135e435b67"
+    },
+    "graybox_top.png": {
+      "bytes": 595720,
+      "sha256": "c68e248f0e7c71f4344e73ae2be3f824b71f1f7c45958f0b222c8175314dec55"
+    },
+    "preview_comparison_feather_disabled.png": {
+      "bytes": 359277,
+      "sha256": "2ac78756c43bc6f863c6c5196209a7d767c402244a26181ce7a2b782ce3e88a4"
+    },
+    "preview_comparison_water_ripples_disabled.png": {
+      "bytes": 359553,
+      "sha256": "ac531d3e8e310b4e58cf1676094125ab144e8afb6ab7a9850aa9d76ce624de3d"
+    },
+    "preview_fixed_rear.mp4": {
+      "bytes": 554448,
+      "sha256": "58daf39c93e442ba88c9e81861e7404401f84b2bd36f9e8627b178a83272b113"
+    },
+    "preview_fixed_rear_all_landed.png": {
+      "bytes": 360375,
+      "sha256": "a541a77dc022b25981aa03fa87cea6c1503d57af8db819e9c6de8c9b66d9d4eb"
+    },
+    "preview_fixed_rear_approach.png": {
+      "bytes": 350220,
+      "sha256": "f7ec794675b5b5b509470b494df4e2eb41337e1caaa772a455b8228576cb8833"
+    },
+    "preview_fixed_rear_eleven_landed.png": {
+      "bytes": 359553,
+      "sha256": "be281d6256a5f117c821a640444ec5bbf06925396041cac3bbe59eb7c8c4605a"
+    },
+    "preview_fixed_rear_feather_motes.png": {
+      "bytes": 359553,
+      "sha256": "dad11b128b560c4ab519e9dd28699d09af14c208b4c1c105bae6158c8a32cddc"
+    },
+    "preview_fixed_rear_leader_wait.png": {
+      "bytes": 361771,
+      "sha256": "5c6cacaba641d1c8312977a98db52af52061c075c98876621a5d6fe96112c904"
+    },
+    "preview_fixed_rear_rest.png": {
+      "bytes": 359599,
+      "sha256": "5e606f2a8a5272d3ba7790fb6d656e01437240a8ed1b43412235ff5e4e4083de"
+    },
+    "preview_fixed_rear_water_ripples.png": {
+      "bytes": 359821,
+      "sha256": "3dcfa8956bca28e88c76642fe1ef2a087ca22bad083610a035e2905fdc49bcff"
+    },
+    "preview_top_landing_basin.png": {
+      "bytes": 679811,
+      "sha256": "b5d0173640ebadea08e362bcff6cf53b7e353c5d195ff26e8a1c119af0f600bd"
+    },
+    "qa.json": {
+      "bytes": 46658,
+      "sha256": "7459c5a5b78cb99ab4b0ad4d61c75e79227e2d56378ab688c036102badd96163"
+    },
+    "roundtrip_comparison_water_ripples_disabled.png": {
+      "bytes": 359450,
+      "sha256": "21c42c8fa3adac364ecd7fd5ab50a30a6918d550714c86439426a81cfd52b621"
+    },
+    "roundtrip_fixed_rear.png": {
+      "bytes": 360277,
+      "sha256": "51893d75e87c06587fc59f7e0e8b9b0df00fa5ddce5d4ac7763b0e5e14c8f1e8"
+    },
+    "roundtrip_fixed_rear_rest.png": {
+      "bytes": 359364,
+      "sha256": "fd0f27f0910fd202735d825ef2b58b9ddf291513f2708b21303ec3632935f275"
+    },
+    "roundtrip_top.png": {
+      "bytes": 687221,
+      "sha256": "4eb696b18ccdb88b324fc1664cbb07c8a9ca7b566b605c3c13ce9f7e4fb16db9"
+    },
+    "roundtrip_water_contact.png": {
+      "bytes": 359588,
+      "sha256": "5af3ba4228242d7e059f873b10d00228f1a3dc212e2a0339afa56c14814028d6"
+    },
+    "s6_layout.json": {
+      "bytes": 15000,
+      "sha256": "5c5244b2f66c4b51ded1a2f162e8b7df32f24184e1bec7c1f06ca1789640aff8"
+    }
+  }
+}

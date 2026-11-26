@@ -1,0 +1,202 @@
+{
+  "id": "LVL-S0",
+  "version": "v001",
+  "status": "needs_review",
+  "variant": "S0_StartWetland",
+  "units": {
+    "BU_per_game_unit": 0.036,
+    "blender_forward": "+Y",
+    "blender_up": "+Z",
+    "glTF": "(x,z,-y)"
+  },
+  "local_origin_BU": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "entry": {
+    "node": "S0_Entry",
+    "position_BU": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "position_glTF": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "heading_BU": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "ground_z_BU": 0.0,
+    "water_z_BU": -0.18
+  },
+  "exit": {
+    "node": "S0_Exit_to_S1",
+    "position_BU": [
+      0.0,
+      36.0,
+      0.0
+    ],
+    "position_glTF": [
+      0.0,
+      0.0,
+      -36.0
+    ],
+    "heading_BU": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "ground_z_BU": 0.0,
+    "water_z_BU": -0.18,
+    "cross_section_x_BU": [
+      -12.0,
+      12.0
+    ],
+    "dry_flat_approach_y_BU": [
+      34.0,
+      36.0
+    ],
+    "material": {
+      "GrassFlat_shared_tile": true,
+      "seam_V_wrap": 0.0,
+      "wash_feathers_to_neutral_y_BU": [
+        30.0,
+        36.0
+      ]
+    }
+  },
+  "anchor_notes": {
+    "spawn_slots_xy_BU_at_frame_1": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        -3.3,
+        -0.18
+      ],
+      [
+        -1.66,
+        -0.15
+      ],
+      [
+        1.66,
+        -0.15
+      ],
+      [
+        3.3,
+        -0.18
+      ],
+      [
+        -2.54,
+        -1.2
+      ],
+      [
+        -0.88,
+        -1.25
+      ],
+      [
+        0.88,
+        -1.25
+      ],
+      [
+        2.54,
+        -1.2
+      ],
+      [
+        -1.8,
+        -2.3
+      ],
+      [
+        0.0,
+        -2.35
+      ],
+      [
+        1.8,
+        -2.3
+      ]
+    ],
+    "launch_delays_seconds": [
+      0.0,
+      0.065,
+      0.1,
+      0.04,
+      0.12,
+      0.105,
+      0.146,
+      0.056,
+      0.155,
+      0.079,
+      0.117,
+      0.09
+    ],
+    "fog_line_y_BU": 33.0,
+    "shallow_pool_origin_BU": [
+      0.0,
+      -5.0,
+      0.0
+    ],
+    "ridge_and_reed_transforms": "Editable object transforms and GLB nodes"
+  },
+  "fixed_camera": {
+    "distance_game_units": 180,
+    "pitch_parameter_rad": 0.48,
+    "vertical_fov_degrees": 50,
+    "target_base_above_ground_game_units": 6,
+    "depth_lift_from_animated_leader_Z_minus_8_game_units": true,
+    "source_pixels": [
+      852,
+      393
+    ],
+    "follow_heading_and_lift": true
+  },
+  "runtime": {
+    "Fog_Start": {
+      "placement_BLENDER": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "opacityStrength": 1.0,
+      "motionStrength": 1.0,
+      "periodSeconds": 12.0,
+      "phaseTurns": 0.0,
+      "elapsedSeconds": "scene monotonic clock"
+    },
+    "contact_surfaces": [
+      "StartMudflat",
+      "S0_Contact_Continued"
+    ],
+    "decorative_only": [
+      "S0_ShallowWater",
+      "S0_DecorativeReeds",
+      "S0_FarRidges",
+      "Fog_Start"
+    ],
+    "engine_owned": [
+      "takeoff/glide/circle states",
+      "collision",
+      "all-flock passage"
+    ],
+    "optional_far_backdrop_glb": "LVL-S0_S0_StartWetland_Backdrop.glb",
+    "optional_far_backdrop_use": "Visual backdrop for standalone S0. Keep outside paired S0-S1 world geometry.",
+    "review_flock": "LVL-S0_S0_StartWetland_ReviewFlock.glb",
+    "target_gameplay_seconds": 30
+  },
+  "review": {
+    "timeline_sample_rate": 24,
+    "length_seconds": 14.0,
+    "last_frame": 337,
+    "material_keyframes": {
+      "takeoff": 25,
+      "glide": 103,
+      "circle": 169,
+      "fog_exit": 313
+    }
+  }
+}

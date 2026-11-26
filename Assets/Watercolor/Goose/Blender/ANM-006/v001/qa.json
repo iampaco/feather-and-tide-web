@@ -1,0 +1,464 @@
+{
+  "id": "ANM-006",
+  "version": "v001",
+  "status": "needs_review",
+  "blender": {
+    "amplitude": {
+      "cruise_peak_to_peak": {
+        "wing_root_deg": 53.00000033649451,
+        "wrist_deg": 25.00000012650595,
+        "body_pitch_deg": 3.700000024699296,
+        "body_lift_BU": 0.024000000208616257,
+        "neck_base_z_BU": 0.014064997434616089
+      },
+      "formation_peak_to_peak": {
+        "wing_root_deg": 39.219999770892684,
+        "wrist_deg": 16.749999896928784,
+        "body_pitch_deg": 1.6279999745823104,
+        "body_lift_BU": 0.010079999454319477,
+        "neck_base_z_BU": 0.005705971270799637
+      }
+    },
+    "loop": {
+      "samples": 105,
+      "sample_step_frames": 0.5,
+      "tested_nonadjacent_pairs": 14,
+      "shoulder_attachment_all_samples": "pass",
+      "tested_intersections": "pass",
+      "edge_length_ratio_range": [
+        0.7512757490759857,
+        1.2027640248745575
+      ],
+      "left_right_mirror_error_BU": 2.384185791015625e-07,
+      "seam_position_error_BU": 0.0,
+      "seam_velocity_finite_difference_BU_per_s": 0.0018901117104567823,
+      "root_stationary_and_heading_preserved": "pass",
+      "lowest": {
+        "frame": 29.0,
+        "min_z_BU": -0.12916496396064758,
+        "leader_clearance": 4.412122846317439,
+        "follower_clearance": 3.1296982770539516,
+        "body_z_BU": 0.0025054861325770617,
+        "root_x_deg": -17.019999836140325,
+        "wrist_x_deg": 5.574399553837492,
+        "bounds_px": [
+          373.4828477765508,
+          158.7564353186354,
+          478.51713932008744,
+          206.26654066290047
+        ]
+      },
+      "leader_clearance_game_units": 4.412122846317439,
+      "follower_clearance_game_units": 3.1296982770539516,
+      "root_peak_frame": 11.0,
+      "root_low_frame": 29.0,
+      "wrist_release_peak_frame": 35.0,
+      "wrist_lag_after_root_low_s": 0.125,
+      "body_lift_range_BU": [
+        -0.00419999985024333,
+        0.005879999604076147
+      ],
+      "screen_bbox_envelope_px": [
+        371.31201321636456,
+        158.65681261854434,
+        480.68799064969164,
+        206.48783081990985
+      ]
+    },
+    "two_second_phase_matched_blends": {
+      "phase_offsets_frames": {
+        "0": {
+          "samples": 193,
+          "joins": {
+            "53": {
+              "phase_frame": 1,
+              "position_BU": 0.0,
+              "velocity_delta_BU_per_s": 0.0024425627123883797
+            },
+            "149": {
+              "phase_frame": 45,
+              "position_BU": 0.0,
+              "velocity_delta_BU_per_s": 0.001253006029801818
+            }
+          },
+          "edge_ratio_range": [
+            0.6666998376082753,
+            1.2645921985165465
+          ],
+          "head_forward_max_deg": 0.0,
+          "min_mesh_clearance_game_units": [
+            3.1359108655902617,
+            2.108728692472209
+          ],
+          "min_tip_clearance_game_units": [
+            3.1359108655902617,
+            2.108728692472209
+          ]
+        },
+        "13": {
+          "samples": 193,
+          "joins": {
+            "53": {
+              "phase_frame": 14,
+              "position_BU": 0.0,
+              "velocity_delta_BU_per_s": 0.002719853402399761
+            },
+            "149": {
+              "phase_frame": 6,
+              "position_BU": 0.0,
+              "velocity_delta_BU_per_s": 0.0025044166660325427
+            }
+          },
+          "edge_ratio_range": [
+            0.674804164701864,
+            1.2587680465599855
+          ],
+          "head_forward_max_deg": 0.0,
+          "min_mesh_clearance_game_units": [
+            2.95048280605905,
+            1.96038624484724
+          ],
+          "min_tip_clearance_game_units": [
+            2.95048280605905,
+            1.96038624484724
+          ]
+        },
+        "26": {
+          "samples": 193,
+          "joins": {
+            "53": {
+              "phase_frame": 27,
+              "position_BU": 0.0,
+              "velocity_delta_BU_per_s": 0.01653478827383767
+            },
+            "149": {
+              "phase_frame": 19,
+              "position_BU": 0.0,
+              "velocity_delta_BU_per_s": 0.008452434619398517
+            }
+          },
+          "edge_ratio_range": [
+            0.6890279759964623,
+            1.2485029427710637
+          ],
+          "head_forward_max_deg": 0.0,
+          "min_mesh_clearance_game_units": [
+            2.9055678769637012,
+            1.924454301570961
+          ],
+          "min_tip_clearance_game_units": [
+            2.9055678769637012,
+            1.924454301570961
+          ]
+        },
+        "39": {
+          "samples": 193,
+          "joins": {
+            "53": {
+              "phase_frame": 40,
+              "position_BU": 0.0,
+              "velocity_delta_BU_per_s": 0.0011677795792047283
+            },
+            "149": {
+              "phase_frame": 32,
+              "position_BU": 0.0,
+              "velocity_delta_BU_per_s": 0.0010687031362641287
+            }
+          },
+          "edge_ratio_range": [
+            0.6736616887373469,
+            1.2595897023803664
+          ],
+          "head_forward_max_deg": 0.0,
+          "min_mesh_clearance_game_units": [
+            3.4555505876962,
+            2.3644404701569592
+          ],
+          "min_tip_clearance_game_units": [
+            3.4555505876962,
+            2.3644404701569592
+          ]
+        }
+      },
+      "step_frames": 0.5,
+      "shoulders_root_and_specified_intersections": "pass",
+      "specified_pairs": [
+        [
+          "Body and crown",
+          "Flight feather 7.L"
+        ],
+        [
+          "Body and crown",
+          "Flight feather 8.L"
+        ],
+        [
+          "Body and crown",
+          "Flight feather 9.L"
+        ],
+        [
+          "Body and crown",
+          "Outer primary.L"
+        ],
+        [
+          "Body and crown",
+          "Flight feather 7.R"
+        ],
+        [
+          "Body and crown",
+          "Flight feather 8.R"
+        ],
+        [
+          "Body and crown",
+          "Flight feather 9.R"
+        ],
+        [
+          "Body and crown",
+          "Outer primary.R"
+        ],
+        [
+          "Wing.L",
+          "Wing.R"
+        ],
+        [
+          "Foot.L",
+          "Foot.R"
+        ],
+        [
+          "Bill",
+          "Wing.L"
+        ],
+        [
+          "Foot.L",
+          "Wing.L"
+        ],
+        [
+          "Bill",
+          "Wing.R"
+        ],
+        [
+          "Foot.R",
+          "Wing.R"
+        ]
+      ]
+    },
+    "glb": {
+      "name": "Formation_Blend",
+      "duration_s": 1.0833333333333333,
+      "channels": 13,
+      "animated_targets": [
+        "Body.rotation",
+        "Body.translation",
+        "Elbow.L.rotation",
+        "Elbow.R.rotation",
+        "Head.rotation",
+        "Neck.rotation",
+        "Tail.rotation",
+        "Tip.L.rotation",
+        "Tip.R.rotation",
+        "WingRoot.L.rotation",
+        "WingRoot.R.rotation",
+        "Wrist.L.rotation",
+        "Wrist.R.rotation"
+      ],
+      "quaternion_seam_error": 0,
+      "translation_seam_error": 0.0,
+      "root_channels": 0,
+      "same_joint_rest_transforms": "pass",
+      "same_packed_texture_bytes": "pass",
+      "same_exported_mesh_and_skin_attributes": "pass",
+      "one_character_no_review_carriers": "pass",
+      "same_inverse_bind_matrices_and_materials": "pass"
+    },
+    "reimport": {
+      "duration_s": 1.0833333333333333,
+      "samples": 105,
+      "max_vertex_error_keyframes_BU": 9.932772477174465e-07,
+      "max_vertex_error_half_frames_BU": 0.0021153465978797784,
+      "loop_seam_error_BU": 0.0,
+      "same_hierarchy_and_local_axes": "pass",
+      "root_fixed": "pass"
+    },
+    "flock": {
+      "samples_integer_frames": 201,
+      "birds": 12,
+      "shared_mesh_datablocks": 1,
+      "phase_offsets_frames": [
+        0,
+        9,
+        20,
+        5,
+        31,
+        15,
+        37,
+        13,
+        45,
+        24,
+        43,
+        29
+      ],
+      "min_screen_margin_px": 17.441397149961517,
+      "min_mesh_clearance_game_units": 1.9243465325487845,
+      "min_carrier_spacing_game_units": 14.317811965942383,
+      "interbird_mesh_intersections": 0,
+      "max_pose_channel_error": 2.8029502718851518e-08,
+      "v_slot_offsets_game_xy": [
+        [
+          -26,
+          -13
+        ],
+        [
+          26,
+          -13
+        ],
+        [
+          -32,
+          -26
+        ],
+        [
+          32,
+          -26
+        ],
+        [
+          -38,
+          -39
+        ],
+        [
+          38,
+          -39
+        ],
+        [
+          -44,
+          -52
+        ],
+        [
+          44,
+          -52
+        ],
+        [
+          -50,
+          -65
+        ],
+        [
+          50,
+          -65
+        ],
+        [
+          -56,
+          -78
+        ]
+      ],
+      "loose_slot_offsets_game_xy": [
+        [
+          -34,
+          -10
+        ],
+        [
+          34,
+          -11
+        ],
+        [
+          -41,
+          -25
+        ],
+        [
+          41,
+          -27
+        ],
+        [
+          -48,
+          -42
+        ],
+        [
+          47,
+          -44
+        ],
+        [
+          -54,
+          -56
+        ],
+        [
+          53,
+          -60
+        ],
+        [
+          -60,
+          -70
+        ],
+        [
+          59,
+          -74
+        ],
+        [
+          -66,
+          -83
+        ]
+      ]
+    },
+    "editable_source_reopen": {
+      "status": "pass",
+      "editable_action": "Formation_Blend",
+      "packed_plumage_images": 4,
+      "cruise_reference_and_independent_v_carriers": "pass"
+    }
+  },
+  "visual_review": {
+    "rear_1x": "Both bars visible; dark flight feathers and shallower wingbeat read.",
+    "rear_half": "The forward bar is faint at about one pixel; dark flight feathers read as an edge.",
+    "overhead": "The 1+11 flock contracts into two arms with independent wing phases.",
+    "formation": "Review slots chosen for the fixed camera and wing clearance. The game uses its own FlockSystem.",
+    "paco_signoff": "pending"
+  },
+  "preview_video_decode": {
+    "status": "pass",
+    "streams": {
+      "preview_rear_detail.mp4": {
+        "codec_name": "h264",
+        "width": 864,
+        "height": 480,
+        "r_frame_rate": "12/1",
+        "duration": "4.166667",
+        "nb_frames": "50"
+      },
+      "preview_rear_flock_12.mp4": {
+        "codec_name": "h264",
+        "width": 852,
+        "height": 394,
+        "r_frame_rate": "24/1",
+        "duration": "4.166667",
+        "nb_frames": "100"
+      },
+      "preview_top_formation.mp4": {
+        "codec_name": "h264",
+        "width": 896,
+        "height": 504,
+        "r_frame_rate": "12/1",
+        "duration": "4.166667",
+        "nb_frames": "50"
+      }
+    }
+  },
+  "app_graybox_simulator": {
+    "date": "2026-11-14 Asia/Shanghai",
+    "device": "iPhone 18 Pro",
+    "ios": "27.2",
+    "commands": [
+      "./Scripts/build.sh",
+      "./Scripts/test.sh"
+    ],
+    "build": "pass",
+    "tests": "pass",
+    "tests_run": 340,
+    "failures": 0,
+    "xcresult": "/Users/pacoramirez/Library/Developer/Xcode/DerivedData/FeatherTide-bjxcplhjeiulklfoeorevomninlb/Logs/Test/Test-FeatherTide-2026.11.14_15-12-57-+0800.xcresult"
+  },
+  "redline_review": {
+    "scope": "Asset and review only. No new player-facing content.",
+    "runtime_performance": "待真机验证"
+  },
+  "pending": {
+    "paco": "Review reduced flap and V shape, half-size crown bars, independent MAT-002 sign-off.",
+    "realitykit_usdz": "Clip conversion, phase and cancel blend, runtime roll and pitch layering, V spacing and terrain clearance.",
+    "iphone_ipad": "Display, touch, camera, flock and measured performance.",
+    "next_task": "ANM-007"
+  }
+}

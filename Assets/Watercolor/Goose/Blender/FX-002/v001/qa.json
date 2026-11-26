@@ -1,0 +1,187 @@
+{
+  "id": "FX-002",
+  "version": "v001",
+  "status": "needs_review",
+  "fixed_rear_material_vs_tree_only": {
+    "warning": {
+      "mean_abs_rgb8": 0.11853066086769104,
+      "max_abs_rgb8": 49.99999237060547,
+      "pixels_at_least_threshold": 3415,
+      "threshold_rgb8": 4
+    },
+    "gust": {
+      "mean_abs_rgb8": 0.138328418135643,
+      "max_abs_rgb8": 93.0,
+      "pixels_at_least_threshold": 3901,
+      "threshold_rgb8": 4
+    }
+  },
+  "blender": "5.2.2 LTS",
+  "independent_artifact_directory_reopen": {
+    "status": "pass",
+    "master": "FX-002_Crosswind.blend",
+    "files": [
+      "CrosswindWarn",
+      "Gust"
+    ],
+    "reopened_motion": {
+      "status": "pass",
+      "half_frame_samples": 215,
+      "same_input_reversed_downwind_test": {
+        "minimum_tree_tip_BU": 0.2661007521674037,
+        "minimum_gust_band_travel_BU": 1.2986997477710247
+      },
+      "first_readable_frames": {
+        "tree": 13.0,
+        "warning": 18.5,
+        "gust": 35.0
+      },
+      "example_host_event_frame": 47,
+      "tree_warning_lead_seconds": 0.22917,
+      "warning_before_example_event_seconds": 1.1875,
+      "maximum_tree_tip_downwind_BU": 0.46702204644680023,
+      "minimum_tree_tip_direction_dot": 0.9999998733401299,
+      "tree_root_max_displacement_BU": 0.0,
+      "minimum_peak_effect_advection_BU": 1.0259729102253914,
+      "minimum_projected_fx_clearance_to_beacon_or_goose_px": 34.45488327741623,
+      "minimum_projected_tree_to_beacon_clearance_px": 11.89982682466507,
+      "minimum_projected_fx_clearance_to_leader_px": 56.805227279663086,
+      "terrain_unobstructed_beacon_rays": 4515,
+      "measured_visible_module_counts_by_half_frame": {
+        "WarnBand": 152,
+        "GustBand": 350,
+        "Leaf": 350,
+        "CrownSweep": 114
+      },
+      "maximum_simultaneous_fx_objects_in_view": 17,
+      "reduced_motion": {
+        "maximum_tree_tip_delta_BU": 0.0,
+        "maximum_drift_BU": 2.9802322387695312e-08,
+        "leaf_alpha_multiplier": 0.0
+      },
+      "camera": {
+        "size_px": [
+          852,
+          393
+        ],
+        "camera_translation_from_lead_BU": [
+          0.0,
+          -5.747726917266846,
+          2.704329013824463
+        ],
+        "swift_distance_parameter_game_units": 180,
+        "swift_pitch_parameter_rad": 0.48,
+        "measured_vertical_fov_deg": 49.99999977905367,
+        "swift_target_height_parameter_BU": 0.21599999999999997
+      }
+    },
+    "roundtrip_motion": {
+      "status": "pass",
+      "half_frame_samples": 215,
+      "same_input_reversed_downwind_test": {
+        "minimum_tree_tip_BU": 0.2661007521674037,
+        "minimum_gust_band_travel_BU": 1.2986997477710247
+      },
+      "first_readable_frames": {
+        "tree": 13.0,
+        "warning": 18.5,
+        "gust": 35.0
+      },
+      "example_host_event_frame": 47,
+      "tree_warning_lead_seconds": 0.22917,
+      "warning_before_example_event_seconds": 1.1875,
+      "maximum_tree_tip_downwind_BU": 0.46702204644680023,
+      "minimum_tree_tip_direction_dot": 0.9999998733401299,
+      "tree_root_max_displacement_BU": 0.0,
+      "minimum_peak_effect_advection_BU": 1.0259729102253914,
+      "minimum_projected_fx_clearance_to_beacon_or_goose_px": 34.45488327741623,
+      "minimum_projected_tree_to_beacon_clearance_px": 11.89982682466507,
+      "minimum_projected_fx_clearance_to_leader_px": 56.805227279663086,
+      "terrain_unobstructed_beacon_rays": 4515,
+      "measured_visible_module_counts_by_half_frame": {
+        "WarnBand": 152,
+        "GustBand": 350,
+        "Leaf": 350,
+        "CrownSweep": 114
+      },
+      "maximum_simultaneous_fx_objects_in_view": 17,
+      "reduced_motion": {
+        "maximum_tree_tip_delta_BU": 0.0,
+        "maximum_drift_BU": 2.9802322387695312e-08,
+        "leaf_alpha_multiplier": 0.0
+      },
+      "camera": {
+        "size_px": [
+          852,
+          393
+        ],
+        "camera_translation_from_lead_BU": [
+          0.0,
+          -5.747726917266846,
+          2.704329013824463
+        ],
+        "swift_distance_parameter_game_units": 180,
+        "swift_pitch_parameter_rad": 0.48,
+        "measured_vertical_fov_deg": 49.99999977905367,
+        "swift_target_height_parameter_BU": 0.21599999999999997
+      }
+    },
+    "glb": {
+      "CrosswindWarn": {
+        "CrownSweep": {
+          "triangle_count": 48,
+          "position_uv_pairs": 50,
+          "pivot_axis_and_uv": "pass",
+          "embedded_png_sha256": "fb7ba1defecfa9afe0a42bc4178589fe17185639f3c2a6d307976e6e44ceb728"
+        },
+        "WarnBand": {
+          "triangle_count": 48,
+          "position_uv_pairs": 50,
+          "pivot_axis_and_uv": "pass",
+          "embedded_png_sha256": "580db4fab27d71595eec97ebd3bb95600f7875c822ca6b7017e483aff10ce7c0"
+        }
+      },
+      "Gust": {
+        "Leaf": {
+          "triangle_count": 6,
+          "position_uv_pairs": 7,
+          "pivot_axis_and_uv": "pass",
+          "embedded_png_sha256": "013fbde91649c3a2dbd5e4d1adb71649b479c88fc5b83ae4d960b9773ebf6200"
+        },
+        "GustBand": {
+          "triangle_count": 72,
+          "position_uv_pairs": 74,
+          "pivot_axis_and_uv": "pass",
+          "embedded_png_sha256": "8fef579ec6eb2cab8b34693ff698a8f647bf6ef3121c6b67eb83f3bb656ce066"
+        }
+      }
+    },
+    "render_rgb8_difference": {
+      "mean_abs_rgb8": 0.0,
+      "max_abs_rgb8": 0.0,
+      "pixels_at_least_threshold": 0,
+      "threshold_rgb8": 4
+    }
+  },
+  "video": {
+    "full_decode": "pass",
+    "source_frame_px": [
+      852,
+      393
+    ],
+    "audio_streams": 0,
+    "codec_name": "h264",
+    "codec_type": "video",
+    "width": 852,
+    "height": 394,
+    "duration": "4.500000",
+    "nb_read_frames": "36"
+  },
+  "redline_review": "Project checklist reviewed against the offline visuals. Content is visual environmental response.",
+  "pending": [
+    "Owner review of wind readability and watercolor at handheld size",
+    "Game wind inputs, zone triggers, rescue traversability, and transparency sorting",
+    "USDZ conversion and RealityKit/App integration",
+    "iPhone and iPad verification"
+  ]
+}

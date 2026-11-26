@@ -1,0 +1,301 @@
+{
+  "id": "ENV-001",
+  "version": "v001",
+  "name": "通用地形与岸线基座",
+  "status": "needs_review",
+  "execution_order_1_based": 15,
+  "depends": [
+    "MAT-003/v001"
+  ],
+  "dependency_status": {
+    "MAT-003/v001": "needs_review"
+  },
+  "review_reference": {
+    "id": "CHR-001/v001",
+    "path": "../../CHR-001/v001/CHR-001_goose_rig.blend",
+    "sha256": "db0c8d55c5efc499c99f7787228967451d071f36294962b12dc4b34d02f350f5"
+  },
+  "source": "Original procedural mesh construction in Blender based on production spec p.9.",
+  "rights": "Project-original geometry; unchanged packed MAT-003 project images; CHR-001 review only.",
+  "blender": "5.2.2 LTS",
+  "asset_scene": "ENV-001 | Module library",
+  "review_scene": "ENV-001 | Review sample",
+  "interface": {
+    "units": "BU",
+    "footprint_xy_BU": [
+      10.0,
+      10.0
+    ],
+    "center_pivot_xyz": [
+      0,
+      0,
+      0
+    ],
+    "pitch_BU": 10.0,
+    "allowed_yaw_deg": [
+      0
+    ],
+    "object_scale": [
+      1,
+      1,
+      1
+    ],
+    "edge_sample_count": 17,
+    "edge_sample_step_BU": 0.625,
+    "blender_to_gltf_xyz": [
+      "x",
+      "z",
+      "-y"
+    ],
+    "land_datum_BU": 0.0,
+    "reference_water_BU": -0.18,
+    "shore_floor_BU": -0.65,
+    "edge_types": {
+      "L": "horizontal land at z=0",
+      "C": "shore cross-section increasing x into water",
+      "W": "open submerged terminal at z=-0.65; no mate in v001"
+    },
+    "shore_edge_z_BU_in_increasing_local_x": [
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.005090009600000005,
+      -0.04048744960000001,
+      -0.10302888960000002,
+      -0.18491432960000004,
+      -0.2783437696,
+      -0.3755172096,
+      -0.46863464960000006,
+      -0.5498960896,
+      -0.6115015296,
+      -0.6456509696,
+      -0.65,
+      -0.65
+    ],
+    "uv": {
+      "blender": [
+        "(x+5)/10",
+        "(y+5)/10"
+      ],
+      "address": "repeat",
+      "period_BU": 10
+    }
+  },
+  "review_conversion": {
+    "game_units_per_BU": 27.77777777777778,
+    "CHR_bill_to_tail_BU": 0.99,
+    "leader_bill_to_tail_game_units": 27.5,
+    "camera_distance_parameter_game_units": 180,
+    "camera_pitch_parameter_rad": 0.48,
+    "vertical_fov_deg": 50,
+    "eye_height_game_units": 83.12025159746692,
+    "target_height_game_units": 6,
+    "bird_root_height_game_units": 8,
+    "depth_lift": 0,
+    "landscape_keyframe_px": [
+      852,
+      393
+    ]
+  },
+  "source_material_library": {
+    "path": "../../MAT-003/v001/MAT-003_wetland_rock.blend",
+    "sha256": "e6091a0b68863e57e0764fbf01241d6091830b1fc9e62f153e4f3850556acc52",
+    "sha256_listed_by_mat_manifest": "ac22a9e28ff64aa2d023e4ecf769fd6dff69b9ba5cd58b86ec2003ee8d5b27d2"
+  },
+  "textures": {
+    "GrassFlat": {
+      "path_relative_to_candidate": "../../MAT-003/v001/textures/ft_goose_mat_grass_flat_basecolor.png",
+      "sha256": "e06d76e88c90a29ad97a810ed7578ce67f79da1b915940d5406750228f36996b",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "color_space": "sRGB",
+      "wrap": "repeat U/V",
+      "roughness": 0.94
+    },
+    "MudBank": {
+      "path_relative_to_candidate": "../../MAT-003/v001/textures/ft_goose_mat_mud_bank_basecolor.png",
+      "sha256": "0343b68d4e256fca7b747c65b2fcebc74c46f3aa2334044051ac862e4e02c5b1",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "color_space": "sRGB",
+      "wrap": "repeat U/V",
+      "roughness": 0.95
+    },
+    "MossStone": {
+      "path_relative_to_candidate": "../../MAT-003/v001/textures/ft_goose_mat_moss_stone_basecolor.png",
+      "sha256": "10670b355497a7e1f53116859dd31128377e892f263ce8f0de58d125cff265c7",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "color_space": "sRGB",
+      "wrap": "repeat U/V",
+      "roughness": 0.94
+    },
+    "MountainRock": {
+      "path_relative_to_candidate": "../../MAT-003/v001/textures/ft_goose_mat_mountain_rock_basecolor.png",
+      "sha256": "4670d95b818253c1e5a4110d8a2f00ed6160e258a0ee9e056704fa43986e2393",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "color_space": "sRGB",
+      "wrap": "repeat U/V",
+      "roughness": 0.96
+    },
+    "ShallowMargin": {
+      "path_relative_to_candidate": "../../MAT-003/v001/textures/ft_goose_mat_shallow_margin_basecolor.png",
+      "sha256": "bd12529acd7f63aefad1df09111aa6b9a84c95161bbdb1d0c64f1cbc66d2c6f7",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "color_space": "sRGB",
+      "wrap": "repeat U/V",
+      "roughness": 0.89
+    }
+  },
+  "modules": {
+    "Flat": {
+      "file": "ENV-001_Flat.glb",
+      "edges": {
+        "W": "L",
+        "E": "L",
+        "S": "L",
+        "N": "L"
+      },
+      "bounds_xyz_BU": [
+        [
+          -5.0,
+          5.0
+        ],
+        [
+          -5.0,
+          5.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "triangles": 512,
+      "materials": [
+        "GrassFlat"
+      ]
+    },
+    "GentleSlope": {
+      "file": "ENV-001_GentleSlope.glb",
+      "edges": {
+        "W": "L",
+        "E": "L",
+        "S": "L",
+        "N": "L"
+      },
+      "bounds_xyz_BU": [
+        [
+          -5.0,
+          5.0
+        ],
+        [
+          -5.0,
+          5.0
+        ],
+        [
+          0.0,
+          0.1897837221622467
+        ]
+      ],
+      "triangles": 512,
+      "materials": [
+        "GrassFlat"
+      ]
+    },
+    "Shore": {
+      "file": "ENV-001_Shore.glb",
+      "edges": {
+        "W": "L",
+        "E": "W",
+        "S": "C",
+        "N": "C"
+      },
+      "bounds_xyz_BU": [
+        [
+          -5.0,
+          5.0
+        ],
+        [
+          -5.0,
+          5.0
+        ],
+        [
+          -0.6499999761581421,
+          -0.0
+        ]
+      ],
+      "triangles": 512,
+      "materials": [
+        "GrassFlat",
+        "MudBank",
+        "ShallowMargin"
+      ]
+    },
+    "Ridge": {
+      "file": "ENV-001_Ridge.glb",
+      "edges": {
+        "W": "L",
+        "E": "L",
+        "S": "L",
+        "N": "L"
+      },
+      "bounds_xyz_BU": [
+        [
+          -5.0,
+          5.0
+        ],
+        [
+          -5.0,
+          5.0
+        ],
+        [
+          0.0,
+          0.23499999940395355
+        ]
+      ],
+      "triangles": 512,
+      "materials": [
+        "GrassFlat",
+        "MossStone",
+        "MountainRock"
+      ]
+    }
+  },
+  "files": {
+    "ENV-001_Flat.glb": "4c25aa571191e283e25532ead5415fbde94270259afd2d39b7a223f6a23e4363",
+    "ENV-001_GentleSlope.glb": "66c7763a35c69af85bb4d65f9b0591bab641df9625fa7dc2b6dfe4ebcc68116b",
+    "ENV-001_Ridge.glb": "c566ed2e73b2b5d2f191fe0964492258bbb18acf152ad6df5a179a66e7106ffb",
+    "ENV-001_Shore.glb": "8496c33d5e1fd74df1e0d3e8e12af4ab829beb2aff789f0f5770ee85455424b2",
+    "ENV-001_generate.py": "ba9f27275913d194b1df183bf2554885a76cd110d0920e81dbc620f51ffaf06f",
+    "ENV-001_preview.py": "68b25ee26f37593031dace73d47868ced20ec924dcacb113bd3feb37c805a805",
+    "ENV-001_terrain.blend": "9979e7606a115a16e9dc35fdf81684d5285b649692cd969692f195dfc1e3743d",
+    "README.md": "73cb0cc48ec23519a7f81fe2c10a8e1627d6af013b631e14272cc3109a12b289",
+    "graybox_fixed_rear.png": "1c4775c609f65fec62a155af8ed58c45d767f277ff804c05712c41628cd51050",
+    "graybox_seam.png": "58cc0ce7c75fc8d37a002b3464c1feb8ec5d5e86c52d6abcc7dc5592c71735e2",
+    "graybox_top.png": "7a798a62244dc9884003fae67a0ee88417752e3a9195db4b38088112d32a5023",
+    "preview_assembly.png": "6b5deff156067efd2d83f9d9f6202537236c35335a5407a4fcf51662ffcdb47a",
+    "preview_fixed_rear.mp4": "8c923526ca9e0f232b51c76e3c817dd26dac64a81e62e8874af56c420323b713",
+    "preview_fixed_rear_bend.png": "1fe441ec113720e605c4ef5027480eb0155d1783ae43edf83c462672e415de22",
+    "preview_fixed_rear_entry.png": "34a2d9ef458c2a966b2e57cea72a1906b6209f1a793b0268d93ea3bf749fc548",
+    "preview_fixed_rear_shore.png": "702cbbd20a72ba411f6337f99d54a6674e575a626873e6d0e4598382f1253fc9",
+    "preview_roundtrip_seam.png": "f319955ba1c767ef25ae9a06d590c66afc9f3d76605915f2566b784634861544",
+    "preview_seam.png": "e9cf93ef8af4ea00b700fd16d55c2528c94cc280565eeb4ddb82e0fabae935f7",
+    "preview_slope_join.png": "240d25751a173e7208a4d82e5f07d275c24b6babe190273fb2afbdb394614170",
+    "preview_top.png": "8b5892478fbd2f68ff36f4a03446fbad7792f7a1d65a43cf4e38a88e8824f824",
+    "qa.json": "cf2ad6c4bf148065880ff9364b8ae2b0c30cfaba867e0b87357e19446e865f2e"
+  }
+}

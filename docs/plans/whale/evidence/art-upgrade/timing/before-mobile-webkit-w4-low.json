@@ -1,0 +1,19 @@
+{
+  "browser": "27.2",
+  "gpu": "Apple GPU",
+  "viewport": {
+    "width": 852,
+    "height": 393
+  },
+  "segment": "W4",
+  "phase": "playing",
+  "tick": 15269,
+  "samples": 180,
+  "medianMs": 17,
+  "p95Ms": 23,
+  "calls": 30,
+  "triangles": 27668,
+  "width": 852,
+  "height": 393,
+  "quality": "low"
+}

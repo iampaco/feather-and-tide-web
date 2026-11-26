@@ -1,0 +1,191 @@
+{
+  "id": "ANM-007",
+  "version": "v001",
+  "status": "needs_review",
+  "blender": "5.2.2 LTS",
+  "dependencies": {
+    "CHR-001/v001": "done"
+  },
+  "source_hashes": {
+    "CHR-001/v001/CHR-001_goose_rig.blend": "db0c8d55c5efc499c99f7787228967451d071f36294962b12dc4b34d02f350f5",
+    "CHR-001/v001/CHR-001_goose_rig.glb": "cd11419a47a2c8e2d67d636015675540581a74720a83c23ef8531437c7161b81",
+    "ANM-001/v001/ANM-001_cruise_flap.blend": "b7faafee6aa4f0fd9e3c05224162fa5ff73b8bbd8c01818e101e5cdad0676111",
+    "ANM-001/v001/ANM-001_cruise_flap_generate.py": "ff7613de9a9a61ca857b0f363ab16ea6e3cf2dce894c9e0cbcad9d45312acd66",
+    "ANM-003/v001/ANM-003_glide_circle_generate.py": "4f17c8a2391ff11dc4861d9c407dde516d8bd74bde4cd2aaa53883d46c5eaee2",
+    "CHR-001/v001/CHR-001_goose_rig_generate.py": "9c56676574b80c6642dc11f4015f9460a14eb0ca6407acee440c9732071b4a90"
+  },
+  "clips": {
+    "Land_Mudflat": {
+      "frames": [
+        1.0,
+        81.0
+      ],
+      "fps": 48,
+      "duration_s": 1.6666666666666667,
+      "cyclic": false,
+      "root_motion": false
+    },
+    "Land_ShallowWater": {
+      "frames": [
+        1.0,
+        81.0
+      ],
+      "fps": 48,
+      "duration_s": 1.6666666666666667,
+      "cyclic": false,
+      "root_motion": false
+    }
+  },
+  "rig": {
+    "triangles_lod0": 3940,
+    "bones": 15,
+    "scale": [
+      1,
+      1,
+      1
+    ],
+    "pivot_BU": [
+      0,
+      0,
+      0
+    ],
+    "axes_blender": {
+      "right": "+X",
+      "up": "+Z",
+      "forward": "+Y"
+    },
+    "axes_gltf": {
+      "right": "+X",
+      "up": "+Y",
+      "forward": "-Z"
+    }
+  },
+  "rights": "Project-original animation on CHR-001 packed plumage.",
+  "variants": {
+    "Leader": [
+      1.0,
+      0.976,
+      0.925,
+      1.0
+    ],
+    "Follower A": [
+      0.965,
+      0.985,
+      1.0,
+      1.0
+    ],
+    "Follower B": [
+      0.91,
+      0.925,
+      0.94,
+      1.0
+    ],
+    "Follower C": [
+      0.98,
+      0.96,
+      0.94,
+      1.0
+    ]
+  },
+  "texture_mapping": {
+    "ft_goose_mat_billfeet_basecolor.png": {
+      "from": "Assets/Watercolor/Goose/Blender/MAT-002/v001/textures/ft_goose_mat_billfeet_basecolor.png",
+      "sha256": "ccf80ec9272f2dd56733c69d9536ccf7b41fabde7a9b396847f185c2dd8b97d0",
+      "embedded_in": [
+        ".blend",
+        ".glb"
+      ]
+    },
+    "ft_goose_mat_body_basecolor.png": {
+      "from": "Assets/Watercolor/Goose/Blender/MAT-002/v001/textures/ft_goose_mat_body_basecolor.png",
+      "sha256": "593d054ebf19385359ced9af9faa15c9e02ded94763481bf4ececfe14b8a8cc5",
+      "embedded_in": [
+        ".blend",
+        ".glb"
+      ]
+    },
+    "ft_goose_mat_flightfeather_basecolor.png": {
+      "from": "Assets/Watercolor/Goose/Blender/MAT-002/v001/textures/ft_goose_mat_flightfeather_basecolor.png",
+      "sha256": "2c0d67e50dfdb29a423cdcd1a000c0139588e1957cbb032d6696eca83c551014",
+      "embedded_in": [
+        ".blend",
+        ".glb"
+      ]
+    },
+    "ft_goose_mat_head_basecolor.png": {
+      "from": "Assets/Watercolor/Goose/Blender/MAT-002/v001/textures/ft_goose_mat_head_basecolor.png",
+      "sha256": "7d7bb772387c9d48517cd35e3554a9690791b2fa21af0f9241a18fad8592c205",
+      "embedded_in": [
+        ".blend",
+        ".glb"
+      ]
+    }
+  },
+  "camera": {
+    "distance_game_units": 180,
+    "pitch_parameter_rad": 0.48,
+    "vertical_fov_deg": 50,
+    "aim_height_game_units": 6,
+    "leader_height_game_units": 8,
+    "follower_height_game_units": 6,
+    "leader_bill_to_tail_game_units": 27.5,
+    "preview_game_units_per_BU": 27.777479617271997,
+    "render_px": [
+      852,
+      393
+    ],
+    "camera_location_BU": [
+      0.0,
+      -5.747788906097412,
+      2.7043581008911133
+    ]
+  },
+  "review": {
+    "contact_frames": {
+      "Land_Mudflat": 47,
+      "Land_ShallowWater": 51
+    },
+    "cruise_entry_frame": 49,
+    "follower_delays_frames": [
+      7,
+      12,
+      17,
+      22,
+      27,
+      32,
+      37,
+      42,
+      47,
+      52,
+      57
+    ],
+    "water_plane": "flat reference, no water dynamics",
+    "motion": "independent review carriers"
+  },
+  "files": {
+    "ANM-007_landing.blend": "bf8ed361fb9e06706e4a78e7fcbf2d4f61edc8cdbeea6018f2339dfecc35e5f0",
+    "ANM-007_landing.glb": "65779e411f7b638d6770f3849725fb403997d1075f86de7558796bf8b7380f5e",
+    "ANM-007_landing_generate.py": "dfd54fd3ab465b442f5bea5ee29dbe8bec9f1f747be6555ab3fdb546fb362f08",
+    "README.md": "502a5257c9e42b21f22c45d88e63b6aa93b25be42ccaeb07f84af812beb30372",
+    "preview_glb_land_mudflat.png": "0db3f02b582107fa8e8e6555f4629ce132f89d0e42685f14f839e749c01eaefb",
+    "preview_glb_land_shallowwater.png": "c59a31559a978112c5a124f9779719b1cbb52ca121ebfacafb791f55a3553742",
+    "preview_landing_flock_12.mp4": "def3f6bdb12ec71241fcae81509a8b38393a453aa18d68bf7d57d47d10cfd13f",
+    "preview_mud_contact_side.png": "552a8902397f9b08782fb740fb01269f79218cd5f61e13ad9cf454d6bc2afd5b",
+    "preview_mud_flock_12.png": "090915702acc6d607487600247ee7a60a11ba29166cefaaef6eeae4d5fe1d938",
+    "preview_mud_flock_12_top.png": "a69e6b1c5e9a61d2c4ac9486c681d8c6edbd5cf014eb3e63aecfb60d7c374811",
+    "preview_mud_folded_top.png": "c4f1f7e3b1c200adf584e7c5901cd1ca5025d783b04b87b6be7a592a350be00e",
+    "preview_mud_folded_top_half.png": "88305fdd47c07c13503e5790e338af7a8b20da936f249e7ac7604296e15ba5db",
+    "preview_mud_rear_1x.png": "7ee8bb86cf95cd41ab08f4c13cf2f52a2c6f7da39f118d752d9160824b16127d",
+    "preview_mud_rear_half.png": "f3617c096ef9111ddfc5f212f29dba705cd28ec6740045891b22cb97273d0ea8",
+    "preview_water_contact_side.png": "aebb6ac1c01d8ae1f49fb46c090b25c8c29bd78577d8a9894899e6c55050655b",
+    "preview_water_folded_top.png": "992a0ea6108b99c5d53b3f96b25f9e8e2f16ebc3acf35abeb57caf47bdfc5f9c",
+    "preview_water_landing_detail.mp4": "78c07df0e28ca3d1d3bfe032d3f46bb9acfbf3b2e3aa2c2d61e3e29d72a999b8",
+    "preview_water_rear_1x.png": "cd6e10e5f28984cf8db7e5fcef5283d2d35ca1e8692ba614108fb474318a0b1c",
+    "qa.json": "bb38db5eb2f77b9f218406c972e173de9c39f7ff098621437d01b9b1a48d61d2"
+  },
+  "texture_dependency": {
+    "packed_from": "CHR-001/v001",
+    "original_texture_task": "MAT-002/v001",
+    "review": "pending"
+  }
+}

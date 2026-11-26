@@ -1,0 +1,225 @@
+{
+  "id": "ENV-002",
+  "version": "v001",
+  "name": "湿地泥滩 / 浅滩岛",
+  "status": "needs_review",
+  "execution_order_1_based": 16,
+  "depends": [
+    "ENV-001/v001",
+    "MAT-003/v001"
+  ],
+  "references": {
+    "env001_blend_sha256": "9979e7606a115a16e9dc35fdf81684d5285b649692cd969692f195dfc1e3743d",
+    "env001_generation_script_sha256": "ba9f27275913d194b1df183bf2554885a76cd110d0920e81dbc620f51ffaf06f",
+    "mat003_blend_sha256": "e6091a0b68863e57e0764fbf01241d6091830b1fc9e62f153e4f3850556acc52",
+    "anm007_review_pose_sha256": "bf8ed361fb9e06706e4a78e7fcbf2d4f61edc8cdbeea6018f2339dfecc35e5f0"
+  },
+  "dependency_status": {
+    "ENV-001/v001": "needs_review",
+    "MAT-003/v001": "needs_review",
+    "ANM-007/v001_review_pose": "needs_review"
+  },
+  "source_and_rights": "Original project geometry, unchanged packed MAT-003 PNGs and ANM-007 pose for review only.",
+  "blender": "5.2.2 LTS",
+  "interface": {
+    "footprint_xy_BU": [
+      10.0,
+      10.0
+    ],
+    "center_pivot_xyz": [
+      0,
+      0,
+      0
+    ],
+    "pitch_BU": 10.0,
+    "allowed_yaw_deg": [
+      0
+    ],
+    "object_scale": [
+      1,
+      1,
+      1
+    ],
+    "edge_samples": 17,
+    "edge_step_BU": 0.625,
+    "land_datum_BU": 0,
+    "reference_water_level_BU": -0.18,
+    "submerged_east_edge_BU": -0.65,
+    "blender_to_gltf": [
+      "x",
+      "z",
+      "-y"
+    ],
+    "local_uv": [
+      "(x+5)/10",
+      "(y+5)/10"
+    ]
+  },
+  "source_camera": {
+    "distance_game_units": 180,
+    "pitch_parameter_rad": 0.48,
+    "vertical_fov_deg": 50,
+    "look_height_game_units": 6,
+    "depth_lift_game_units": 0,
+    "frame_px": [
+      852,
+      393
+    ],
+    "game_units_per_BU_review_only": 27.77777777777778
+  },
+  "modules": {
+    "StartMudflat": {
+      "glb": "ENV-002_StartMudflat.glb",
+      "edges": {
+        "W": "L",
+        "E": "L",
+        "S": "L",
+        "N": "L"
+      },
+      "materials": [
+        "GrassFlat",
+        "MudBank",
+        "ShallowMargin"
+      ],
+      "bounds_BU": [
+        [
+          -5.0,
+          5.0
+        ],
+        [
+          -5.0,
+          5.0
+        ],
+        [
+          -0.3631647229194641,
+          0.0
+        ]
+      ],
+      "triangles": 512
+    },
+    "ReedIslet": {
+      "glb": "ENV-002_ReedIslet.glb",
+      "edges": {
+        "W": "L",
+        "E": "W",
+        "S": "C",
+        "N": "C"
+      },
+      "materials": [
+        "GrassFlat",
+        "MudBank",
+        "ShallowMargin"
+      ],
+      "bounds_BU": [
+        [
+          -5.0,
+          5.0
+        ],
+        [
+          -5.0,
+          5.0
+        ],
+        [
+          -0.6499999761581421,
+          0.0
+        ]
+      ],
+      "triangles": 512
+    },
+    "RestPatch": {
+      "glb": "ENV-002_RestPatch.glb",
+      "edges": {
+        "W": "L",
+        "E": "L",
+        "S": "L",
+        "N": "L"
+      },
+      "materials": [
+        "GrassFlat",
+        "MossStone",
+        "MudBank",
+        "ShallowMargin"
+      ],
+      "bounds_BU": [
+        [
+          -5.0,
+          5.0
+        ],
+        [
+          -5.0,
+          5.0
+        ],
+        [
+          -0.4693180322647095,
+          0.0
+        ]
+      ],
+      "triangles": 512
+    }
+  },
+  "textures": {
+    "GrassFlat": {
+      "path_relative_to_candidate": "../../MAT-003/v001/textures/ft_goose_mat_grass_flat_basecolor.png",
+      "sha256": "e06d76e88c90a29ad97a810ed7578ce67f79da1b915940d5406750228f36996b",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "color_space": "sRGB",
+      "wrap": "repeat U/V",
+      "roughness": 0.94
+    },
+    "MudBank": {
+      "path_relative_to_candidate": "../../MAT-003/v001/textures/ft_goose_mat_mud_bank_basecolor.png",
+      "sha256": "0343b68d4e256fca7b747c65b2fcebc74c46f3aa2334044051ac862e4e02c5b1",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "color_space": "sRGB",
+      "wrap": "repeat U/V",
+      "roughness": 0.95
+    },
+    "MossStone": {
+      "path_relative_to_candidate": "../../MAT-003/v001/textures/ft_goose_mat_moss_stone_basecolor.png",
+      "sha256": "10670b355497a7e1f53116859dd31128377e892f263ce8f0de58d125cff265c7",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "color_space": "sRGB",
+      "wrap": "repeat U/V",
+      "roughness": 0.94
+    },
+    "ShallowMargin": {
+      "path_relative_to_candidate": "../../MAT-003/v001/textures/ft_goose_mat_shallow_margin_basecolor.png",
+      "sha256": "bd12529acd7f63aefad1df09111aa6b9a84c95161bbdb1d0c64f1cbc66d2c6f7",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "color_space": "sRGB",
+      "wrap": "repeat U/V",
+      "roughness": 0.89
+    }
+  },
+  "files": {
+    "ENV-002_ReedIslet.glb": "efa439dca4b6a49b8b6b64399b7893f5145530ea7a46f6b1fa770bd72f70c4ab",
+    "ENV-002_RestPatch.glb": "252b2ab37295fbf246d5ca1ea82df2331267c98f5860659b351e5cdf842e5604",
+    "ENV-002_StartMudflat.glb": "1d7c96a6d09cc4c10dc7bc2df04760ce169888a89830aa20c42db985bf57345b",
+    "ENV-002_generate.py": "92265bc6f7efaf61ca69713e23f0874144607a4dc0f45d83a988cd2dddd1583a",
+    "ENV-002_wetland.blend": "f9c3f7dfd1c9be05f455bfca9f29456acea30b0e4b8a05967d11249201214548",
+    "README.md": "07c4af1fada5a8da5762a8d4767f611ecfe72e1b1f8013c418d71323c8cdb676",
+    "graybox_foot_detail.png": "ab81ce8ef33c7c3007ebe9d43497d34e1905187a28aff861595ff18c67abb07d",
+    "graybox_top.png": "00cd9953fe59f99274070b1ac5ec523ff7649927b71cfe066d200e14f3ab1b91",
+    "preview_fixed_rear_ReedIslet.png": "7c6ff806342768b91a380c24beba0ea1ed7a1c8004e593b04ddd4cb2d8e34fc6",
+    "preview_fixed_rear_RestPatch.png": "44375108af31671088089c880ffae2fc89d3a3909c6045d429920a49d695108b",
+    "preview_fixed_rear_StartMudflat.png": "655a9c5b9d890e7f220eb87bc16ade4e50f6688669f4471f6658945c69938cd9",
+    "preview_foot_ReedIslet.png": "b12831606128382ea2c3bee4900b022291927e2a783248247be3518b9c4ec4bc",
+    "preview_foot_RestPatch.png": "6764f5ec5a886e301da6bc8b44f3e636df515cfbfbfb5809528245c741ded780",
+    "preview_foot_StartMudflat.png": "754d6dc1b55c3e39f5aa59ab22af3e411539d9da7c308d7b17c4bf16b11dbc8f",
+    "preview_glb_roundtrip.png": "8989063106b48631d953a9cf73d5518b48a8fc95c235698de4733f457ccad191",
+    "preview_top.png": "9f28ac666cfe1ca556c219d7bac892ed558a1f1e7f75953b84847e2690175185",
+    "qa.json": "e29f45177ba195a6b58b658ba313859bd9f2c0310cfb7604aae2ae33aaafddbf"
+  }
+}

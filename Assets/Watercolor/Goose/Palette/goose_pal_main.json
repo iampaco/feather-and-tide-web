@@ -1,0 +1,33 @@
+{
+  "asset_id": "goose_pal_main",
+  "style_board": "SB-2026-11-07-v1",
+  "line": "goose",
+  "name": "Warm dusk goose main palette",
+  "colors": [
+    {
+      "role": "warm_gold",
+      "hex": "#E8C27A"
+    },
+    {
+      "role": "peach",
+      "hex": "#E8B89A"
+    },
+    {
+      "role": "mauve_dusk",
+      "hex": "#B89BB0"
+    },
+    {
+      "role": "paper_cream",
+      "hex": "#F5F0E6"
+    },
+    {
+      "role": "soft_grey_body",
+      "hex": "#C4B8A8"
+    },
+    {
+      "role": "ink_soft",
+      "hex": "#6E6358"
+    }
+  ],
+  "notes": "Aligned to SB-2026-11-07-v1 warm gold / peach / mauve dusk."
+}

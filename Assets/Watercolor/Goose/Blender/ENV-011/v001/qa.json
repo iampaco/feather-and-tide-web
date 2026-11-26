@@ -1,0 +1,443 @@
+{
+  "id": "ENV-011",
+  "version": "v001",
+  "status": "needs_review",
+  "geometry_graybox": {
+    "Rock_Round": {
+      "triangles": 120,
+      "vertices": 62,
+      "bounds_BU": [
+        [
+          -0.9311538338661194,
+          0.9453665614128113
+        ],
+        [
+          -0.8238955736160278,
+          0.7862213850021362
+        ],
+        [
+          0.0,
+          0.8299999833106995
+        ]
+      ],
+      "size_BU": [
+        1.8765203952789307,
+        1.610116958618164,
+        0.8299999833106995
+      ],
+      "stones": 1,
+      "support_z_BU": 0.0,
+      "base_vertices": [
+        13
+      ],
+      "footprint_BU2": [
+        1.0471843406558037
+      ],
+      "component_volume_BU3": [
+        1.2854614216582074
+      ],
+      "min_component_separating_aabb_axis_BU": null,
+      "manifold_oriented": true,
+      "decorative_scope": true
+    },
+    "Rock_Long": {
+      "triangles": 120,
+      "vertices": 62,
+      "bounds_BU": [
+        [
+          -0.7216642498970032,
+          0.6135422587394714
+        ],
+        [
+          -1.5268959999084473,
+          1.4189633131027222
+        ],
+        [
+          0.0,
+          0.5400000214576721
+        ]
+      ],
+      "size_BU": [
+        1.3352065086364746,
+        2.9458593130111694,
+        0.5400000214576721
+      ],
+      "stones": 1,
+      "support_z_BU": 0.0,
+      "base_vertices": [
+        13
+      ],
+      "footprint_BU2": [
+        1.296769104897976
+      ],
+      "component_volume_BU3": [
+        1.0329421937482646
+      ],
+      "min_component_separating_aabb_axis_BU": null,
+      "manifold_oriented": true,
+      "decorative_scope": true
+    },
+    "PebbleCluster": {
+      "triangles": 400,
+      "vertices": 210,
+      "bounds_BU": [
+        [
+          -0.9264718294143677,
+          0.7615079283714294
+        ],
+        [
+          -0.7261031866073608,
+          0.6232389807701111
+        ],
+        [
+          0.0,
+          0.3199999928474426
+        ]
+      ],
+      "size_BU": [
+        1.6879797577857971,
+        1.349342167377472,
+        0.3199999928474426
+      ],
+      "stones": 5,
+      "support_z_BU": 0.0,
+      "base_vertices": [
+        9,
+        9,
+        9,
+        9,
+        9
+      ],
+      "footprint_BU2": [
+        0.0426767785102129,
+        0.0641263141296804,
+        0.08990135882049799,
+        0.1076855231076479,
+        0.15970764867961407
+      ],
+      "component_volume_BU3": [
+        0.010003208725417304,
+        0.019048290877132484,
+        0.030743720896377152,
+        0.044121679123653244,
+        0.07499081227615534
+      ],
+      "min_component_separating_aabb_axis_BU": 0.1388484127819538,
+      "manifold_oriented": true,
+      "decorative_scope": true
+    }
+  },
+  "graybox_camera": {
+    "screen_study": {
+      "fixed_rear": {
+        "leader_bounds_px": [
+          371.32799541950226,
+          186.973263412714,
+          480.67197918891907,
+          234.13301932811737
+        ],
+        "nearest_rock_groups": {
+          "Rock_Round | sample 01": {
+            "bounds_px": [
+              243.31122243404388,
+              205.37463015317917,
+              354.3655067682266,
+              263.9030243754387
+            ],
+            "hull_area_px2": 4884.22589834383,
+            "leader_projection_box_gap_px": 16.962488651275635
+          },
+          "Rock_Long | sample 02": {
+            "bounds_px": [
+              520.3828847408295,
+              214.53614169359207,
+              653.952389717102,
+              266.2356017231941
+            ],
+            "hull_area_px2": 4548.886752886812,
+            "leader_projection_box_gap_px": 39.7109055519104
+          },
+          "PebbleCluster | sample 03": {
+            "bounds_px": [
+              299.623167514801,
+              265.0286478996277,
+              370.9770838022232,
+              286.7383330464363
+            ],
+            "hull_area_px2": 1183.3317384101388,
+            "leader_projection_box_gap_px": 30.897621329025732
+          }
+        }
+      }
+    },
+    "ground_contact": {
+      "support_rays": 271,
+      "max_ground_gap_BU": 4.76837158203125e-07,
+      "clearance_from_straight_route_centerline_BU": 1.273903489112854,
+      "placement_count": 11,
+      "sample_surface": "Actual ENV-001 Flat at each rock placement"
+    }
+  },
+  "camera_material_review": {
+    "screen_study": {
+      "fixed_rear": {
+        "leader_bounds_px": [
+          371.32799541950226,
+          186.973263412714,
+          480.67197918891907,
+          234.13301932811737
+        ],
+        "nearest_rock_groups": {
+          "Rock_Round | sample 01.001": {
+            "bounds_px": [
+              243.31122243404388,
+              205.37463015317917,
+              354.3655067682266,
+              263.9030243754387
+            ],
+            "hull_area_px2": 4884.22589834383,
+            "leader_projection_box_gap_px": 16.962488651275635
+          },
+          "Rock_Long | sample 02.001": {
+            "bounds_px": [
+              520.3828847408295,
+              214.53614169359207,
+              653.952389717102,
+              266.2356017231941
+            ],
+            "hull_area_px2": 4548.886752886812,
+            "leader_projection_box_gap_px": 39.7109055519104
+          },
+          "PebbleCluster | sample 03.001": {
+            "bounds_px": [
+              299.623167514801,
+              265.0286478996277,
+              370.9770838022232,
+              286.7383330464363
+            ],
+            "hull_area_px2": 1183.3317384101388,
+            "leader_projection_box_gap_px": 30.897621329025732
+          }
+        },
+        "appearance": {
+          "Review | CHR-001 neutral pose.001": {
+            "visible_rgb_pixel_probes": 304,
+            "srgb_median_rgb8": [
+              142,
+              139,
+              128
+            ],
+            "luma_rgb8": 138.8436
+          },
+          "Rock_Round | sample 01.001": {
+            "visible_rgb_pixel_probes": 1214,
+            "srgb_median_rgb8": [
+              116,
+              110,
+              101
+            ],
+            "luma_rgb8": 110.62579999999998
+          },
+          "Rock_Long | sample 02.001": {
+            "visible_rgb_pixel_probes": 1143,
+            "srgb_median_rgb8": [
+              124,
+              118,
+              111
+            ],
+            "luma_rgb8": 118.7702
+          },
+          "PebbleCluster | sample 03.001": {
+            "visible_rgb_pixel_probes": 222,
+            "srgb_median_rgb8": [
+              112,
+              108,
+              98
+            ],
+            "luma_rgb8": 108.12839999999998
+          }
+        },
+        "nearest_rock_to_leader_median_srgb_rgb8_euclidean": {
+          "Rock_Round | sample 01.001": 47.391982444291145,
+          "Rock_Long | sample 02.001": 32.46536616149585,
+          "PebbleCluster | sample 03.001": 52.54521862167861
+        }
+      },
+      "fixed_rear_approach": {
+        "leader_bounds_px": [
+          371.32799541950226,
+          186.9732517004013,
+          480.6720299720764,
+          234.13299590349197
+        ],
+        "nearest_rock_groups": {
+          "Rock_Round | sample 01.001": {
+            "bounds_px": [
+              168.06574201583862,
+              139.84614971280098,
+              319.8769633769989,
+              223.12709963321686
+            ],
+            "hull_area_px2": 9193.538909791616,
+            "leader_projection_box_gap_px": 51.45103204250336
+          },
+          "Rock_Long | sample 02.001": {
+            "bounds_px": [
+              513.4340221881866,
+              177.4572904407978,
+              684.0253121852875,
+              244.18761813640594
+            ],
+            "hull_area_px2": 7130.2532324073445,
+            "leader_projection_box_gap_px": 32.76199221611023
+          },
+          "PebbleCluster | sample 03.001": {
+            "bounds_px": [
+              245.65146267414093,
+              237.52082920074463,
+              332.9644432067871,
+              265.0413440465927
+            ],
+            "hull_area_px2": 1871.4733178133363,
+            "leader_projection_box_gap_px": 38.51284919124649
+          }
+        },
+        "appearance": {
+          "Review | CHR-001 neutral pose.001": {
+            "visible_rgb_pixel_probes": 304,
+            "srgb_median_rgb8": [
+              142,
+              139,
+              128
+            ],
+            "luma_rgb8": 138.8436
+          },
+          "Rock_Round | sample 01.001": {
+            "visible_rgb_pixel_probes": 2294,
+            "srgb_median_rgb8": [
+              117,
+              112,
+              103
+            ],
+            "luma_rgb8": 112.41319999999999
+          },
+          "Rock_Long | sample 02.001": {
+            "visible_rgb_pixel_probes": 1781,
+            "srgb_median_rgb8": [
+              124,
+              118,
+              111
+            ],
+            "luma_rgb8": 118.7702
+          },
+          "PebbleCluster | sample 03.001": {
+            "visible_rgb_pixel_probes": 357,
+            "srgb_median_rgb8": [
+              113,
+              109,
+              100
+            ],
+            "luma_rgb8": 109.20060000000001
+          }
+        },
+        "nearest_rock_to_leader_median_srgb_rgb8_euclidean": {
+          "Rock_Round | sample 01.001": 44.48595283907045,
+          "Rock_Long | sample 02.001": 32.46536616149585,
+          "PebbleCluster | sample 03.001": 50.24937810560445
+        }
+      }
+    },
+    "ground_contact": {
+      "support_rays": 271,
+      "max_ground_gap_BU": 4.76837158203125e-07,
+      "clearance_from_straight_route_centerline_BU": 1.273903489112854,
+      "placement_count": 11,
+      "sample_surface": "Actual ENV-001 Flat at each rock placement"
+    }
+  },
+  "roundtrip": {
+    "Rock_Round": {
+      "raw_gltf_positions": 62,
+      "atlas_sha256": "0e6d6b765596aee8d4faa3fc79b19684b93588805ee0a955096080cd1421cad9",
+      "raw_rgb_material": "ENV011_RockAtlas",
+      "root_identity": true,
+      "no_hard_collision_hint": true,
+      "triangles": 120,
+      "vertices_after_import": 102,
+      "max_position_delta_BU": 0.0,
+      "max_normal_delta_deg": 0.005911448404276343,
+      "max_uv_delta": 1.4901161193847656e-08
+    },
+    "Rock_Long": {
+      "raw_gltf_positions": 62,
+      "atlas_sha256": "0e6d6b765596aee8d4faa3fc79b19684b93588805ee0a955096080cd1421cad9",
+      "raw_rgb_material": "ENV011_RockAtlas",
+      "root_identity": true,
+      "no_hard_collision_hint": true,
+      "triangles": 120,
+      "vertices_after_import": 102,
+      "max_position_delta_BU": 0.0,
+      "max_normal_delta_deg": 0.004432221457877501,
+      "max_uv_delta": 1.4901161193847656e-08
+    },
+    "PebbleCluster": {
+      "raw_gltf_positions": 210,
+      "atlas_sha256": "0e6d6b765596aee8d4faa3fc79b19684b93588805ee0a955096080cd1421cad9",
+      "raw_rgb_material": "ENV011_RockAtlas",
+      "root_identity": true,
+      "no_hard_collision_hint": true,
+      "triangles": 400,
+      "vertices_after_import": 350,
+      "max_position_delta_BU": 0.0,
+      "max_normal_delta_deg": 0.0064264137851374505,
+      "max_uv_delta": 1.4901161193847656e-08
+    }
+  },
+  "roundtrip_preview_contact": {
+    "support_rays": 271,
+    "max_ground_gap_BU": 4.76837158203125e-07,
+    "clearance_from_straight_route_centerline_BU": 1.273903489112854,
+    "placement_count": 11,
+    "sample_surface": "Actual ENV-001 Flat at each rock placement"
+  },
+  "hard_collision_policy": "Decorative role; extra carries false",
+  "pending": [
+    "Art owner approval; RealityKit and actual scenery placement, avoidance and iPhone/iPad."
+  ],
+  "independent_delivered_directory_verification": {
+    "result": "pass",
+    "glb_count": 3,
+    "verified_fields": [
+      "closed source topology",
+      "triangle positions",
+      "corner normals",
+      "UV",
+      "pivot",
+      "axis transform",
+      "collision metadata",
+      "packed atlas"
+    ]
+  },
+  "image_roundtrip": {
+    "preview_lineup.png": {
+      "mean_absolute_RGB8_channel_difference": 6.633714880332986e-05,
+      "p99_difference": 0
+    },
+    "preview_fixed_rear.png": {
+      "mean_absolute_RGB8_channel_difference": 0.23287718962915177,
+      "p99_difference": 2
+    },
+    "comparison_context": "Lineup uses the same 22 render samples; in-context preview compares 22 source samples to 12 reimport samples."
+  },
+  "design_redline_check": {
+    "result": "pass",
+    "scope": "offline static decorative rock meshes and review imagery"
+  },
+  "app_baseline": {
+    "source": "plans/active/goose-preview-model-cleanup.md",
+    "simulator": "iPhone 18 Pro",
+    "os": "iOS 27.2",
+    "previous_tests": 340,
+    "rerun_in_this_task": false
+  }
+}

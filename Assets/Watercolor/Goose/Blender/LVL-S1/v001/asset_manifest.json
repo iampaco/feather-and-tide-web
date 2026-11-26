@@ -1,0 +1,394 @@
+{
+  "PDF_page": 17,
+  "dependencies": {
+    "ANM-006": {
+      "files": {
+        "ANM-006_formation_blend.blend": {
+          "bytes": 4230994,
+          "matches_manifest": true,
+          "sha256": "b4690d3f11dd225f51413c0dbf2f75fe900e630222432568b37d426f924f1cb5"
+        },
+        "ANM-006_formation_blend.glb": {
+          "bytes": 3841004,
+          "matches_manifest": true,
+          "sha256": "f66466196668e7aaa8f36cde867a7ada83d87d56acfb121c7428aad4d7c129fe"
+        },
+        "README.md": {
+          "bytes": 4880,
+          "matches_manifest": true,
+          "sha256": "5d2a7fc1c485b688f62ac61c9c4859b6e1a39297bcbf70e3a61d2d9db3620ace"
+        },
+        "asset_manifest.json": {
+          "bytes": 6402,
+          "matches_manifest": null,
+          "sha256": "f6965e0925ac5f5822c9a1930ce607bed2c16287d1a868998b0d689849257a61"
+        },
+        "qa.json": {
+          "bytes": 11765,
+          "matches_manifest": true,
+          "sha256": "b45884f33e3d91d28a764e8154d0e743c2a22042b11672541157f1eb6865ab71"
+        }
+      },
+      "relative_dir": "../../ANM-006/v001",
+      "status": "needs_review",
+      "version": "v001"
+    },
+    "ENV-001": {
+      "files": {
+        "ENV-001_Flat.glb": {
+          "bytes": 998368,
+          "matches_manifest": true,
+          "sha256": "4c25aa571191e283e25532ead5415fbde94270259afd2d39b7a223f6a23e4363"
+        },
+        "ENV-001_GentleSlope.glb": {
+          "bytes": 998400,
+          "matches_manifest": true,
+          "sha256": "66c7763a35c69af85bb4d65f9b0591bab641df9625fa7dc2b6dfe4ebcc68116b"
+        },
+        "ENV-001_Ridge.glb": {
+          "bytes": 3157388,
+          "matches_manifest": true,
+          "sha256": "c566ed2e73b2b5d2f191fe0964492258bbb18acf152ad6df5a179a66e7106ffb"
+        },
+        "README.md": {
+          "bytes": 8831,
+          "matches_manifest": true,
+          "sha256": "73cb0cc48ec23519a7f81fe2c10a8e1627d6af013b631e14272cc3109a12b289"
+        },
+        "asset_manifest.json": {
+          "bytes": 8337,
+          "matches_manifest": null,
+          "sha256": "423ff2934f001f2ff08eeb60901f183197dc6aa045c2c207fb2d41a684c41f3e"
+        },
+        "qa.json": {
+          "bytes": 41259,
+          "matches_manifest": true,
+          "sha256": "cf2ad6c4bf148065880ff9364b8ae2b0c30cfaba867e0b87357e19446e865f2e"
+        }
+      },
+      "relative_dir": "../../ENV-001/v001",
+      "status": "needs_review",
+      "version": "v001"
+    },
+    "ENV-005": {
+      "files": {
+        "ENV-005_Sparse.glb": {
+          "bytes": 1416040,
+          "matches_manifest": true,
+          "sha256": "8eeed7e031b9a0631e477b368ea39c04a1a8c3cae0d89aa68352f24ffe8e1a3f"
+        },
+        "README.md": {
+          "bytes": 3933,
+          "matches_manifest": true,
+          "sha256": "4f8ece421b22b08e9b922b57c036247feb912019fa3ff38694946c831b47df05"
+        },
+        "asset_manifest.json": {
+          "bytes": 3102,
+          "matches_manifest": null,
+          "sha256": "899ac063728db89252e1aa7777be6041eb5819f651a905521885c26608169788"
+        },
+        "qa.json": {
+          "bytes": 5026,
+          "matches_manifest": true,
+          "sha256": "05643006b9e8d8b4c387b9af387b43a9012c7d231ff9815c8937995a4aa73f85"
+        }
+      },
+      "relative_dir": "../../ENV-005/v001",
+      "status": "needs_review",
+      "version": "v001"
+    },
+    "ENV-008": {
+      "files": {
+        "ENV-008_LakeWide.glb": {
+          "bytes": 956336,
+          "matches_manifest": true,
+          "sha256": "7b94509849729a533ef23f18500d457d10dee217c89c934a0f3769356c5a679c"
+        },
+        "README.md": {
+          "bytes": 4594,
+          "matches_manifest": true,
+          "sha256": "06aa294515dacef01824f0e23e7d6091e79cf4fbe4dc1b4fce5aa73cf7b17cf0"
+        },
+        "asset_manifest.json": {
+          "bytes": 6296,
+          "matches_manifest": null,
+          "sha256": "7f8b77273a11a304892057114574587e5dafaf990ba1b40c235985d37cc6cdbf"
+        },
+        "qa.json": {
+          "bytes": 5811,
+          "matches_manifest": true,
+          "sha256": "ea0a0f6f408b804e1e436d9ed65037c073a9054b80f2e6e9d73943a187a1296a"
+        }
+      },
+      "relative_dir": "../../ENV-008/v001",
+      "status": "needs_review",
+      "version": "v001"
+    },
+    "ENV-009": {
+      "files": {
+        "ENV-009_FarRidge_A.glb": {
+          "bytes": 108076,
+          "matches_manifest": true,
+          "sha256": "c189468f2995e9f4c6bd7543fa15d6c1f22d09e0d18579eba8699396647fd649"
+        },
+        "ENV-009_FarRidge_B.glb": {
+          "bytes": 108280,
+          "matches_manifest": true,
+          "sha256": "06f796b8e8c7c4c3a4d6b7cdd872a7b4ea95a274dd4d416b58752f44024393b8"
+        },
+        "ENV-009_FarRidge_C.glb": {
+          "bytes": 111912,
+          "matches_manifest": true,
+          "sha256": "b2c78606fc1229e4e70526b27fb067141a78644e95498f4c27d1428a8455898e"
+        },
+        "README.md": {
+          "bytes": 4448,
+          "matches_manifest": true,
+          "sha256": "8705cb75fd70ae07342347607969e26dd8377cb10937b3932f51278797459a6f"
+        },
+        "asset_manifest.json": {
+          "bytes": 5728,
+          "matches_manifest": null,
+          "sha256": "ee064fbe3b05f67cc485c78b3427c7cbc71aa280b9a5a16ba510badeb20d2e08"
+        },
+        "qa.json": {
+          "bytes": 7115,
+          "matches_manifest": true,
+          "sha256": "4a0c241fb63fe7838dd485761cd2bf7e25ab2c120f0607509c81f6ee828e1d7b"
+        }
+      },
+      "relative_dir": "../../ENV-009/v001",
+      "status": "needs_review",
+      "version": "v001"
+    },
+    "ENV-010": {
+      "files": {
+        "ENV-010_Mouth.glb": {
+          "bytes": 3172668,
+          "matches_manifest": true,
+          "sha256": "faa0c248e0df4b38389c9e06f0b6255c369cebf5a749f964a6ee9c0a7aff0550"
+        },
+        "README.md": {
+          "bytes": 4982,
+          "matches_manifest": true,
+          "sha256": "1e3a895adb397155fa55658f8f6fb9cb6438643b8584b0cfbc28428564a4df5a"
+        },
+        "asset_manifest.json": {
+          "bytes": 4600,
+          "matches_manifest": null,
+          "sha256": "a4714c7936905b320774c03ec46484583414203bb7a561a1115da8aef36120d6"
+        },
+        "qa.json": {
+          "bytes": 38141,
+          "matches_manifest": true,
+          "sha256": "d6d94c4c3da9491d4726affc55da17fa268b8a0da6a85873096b465907eb1806"
+        }
+      },
+      "relative_dir": "../../ENV-010/v001",
+      "status": "needs_review",
+      "version": "v001"
+    },
+    "ENV-014": {
+      "files": {
+        "ENV-014_CheckpointA_Visual.glb": {
+          "bytes": 7411400,
+          "matches_manifest": true,
+          "sha256": "106f11b660eacc953f1fe090b7d45c1aca014080bae6156729eae7b770e088b3"
+        },
+        "README.md": {
+          "bytes": 4920,
+          "matches_manifest": true,
+          "sha256": "11c5c64b48a653aa52cdc3e5c0b765eccdb6dea699819f18fc4ce370546dfcbe"
+        },
+        "asset_manifest.json": {
+          "bytes": 7576,
+          "matches_manifest": null,
+          "sha256": "5b5388fcd48087005b6b7985e7fa97117d8f8b2b66bf7241f5d63b3cabb02466"
+        },
+        "qa.json": {
+          "bytes": 30782,
+          "matches_manifest": true,
+          "sha256": "31504273f6713c665fa7a11d7be0a6adbcc468960371724f9b2c23057c66d1ac"
+        }
+      },
+      "relative_dir": "../../ENV-014/v001",
+      "status": "needs_review",
+      "version": "v001"
+    },
+    "FX-001": {
+      "files": {
+        "FX-001_WindTail_Long.glb": {
+          "bytes": 39896,
+          "matches_manifest": true,
+          "sha256": "eef2690a871f9ac2b16bdc30835f4382931938be0f1b423a611bc68d4d51a9a9"
+        },
+        "FX-001_WindTail_Short.glb": {
+          "bytes": 22444,
+          "matches_manifest": true,
+          "sha256": "ba34c0ae5a0d7376ac97a1a7c4819721054313ae9737d977691dcb8b6ca6fc67"
+        },
+        "README.md": {
+          "bytes": 4842,
+          "matches_manifest": true,
+          "sha256": "4ed6aee4ba46c0e0d543e7813dc44de7c44f772317a590781887d8a09e5ea011"
+        },
+        "asset_manifest.json": {
+          "bytes": 5598,
+          "matches_manifest": null,
+          "sha256": "e75d080085575165f7ae33eb78edea50769107a34076152fdd198e298a15e25d"
+        },
+        "qa.json": {
+          "bytes": 6401,
+          "matches_manifest": true,
+          "sha256": "54595b7fffdefb1f5489f99b0f63e43946312ab6d97e3d2d5c0a4a143ff4eda2"
+        }
+      },
+      "relative_dir": "../../FX-001/v001",
+      "status": "needs_review",
+      "version": "v001"
+    },
+    "FX-008": {
+      "files": {
+        "FX-008_FormationGuide.blend": {
+          "bytes": 4821804,
+          "matches_manifest": true,
+          "sha256": "6f2eee2c6c87d2925dc9e72505785a4b711d10b57d7ce39285227ca521204c99"
+        },
+        "FX-008_FormationGuide.glb": {
+          "bytes": 14660,
+          "matches_manifest": true,
+          "sha256": "46499e9e1aa509a8db8d2d05efef67d0ed1b36b03296135b30cddaa2d37aa2a9"
+        },
+        "FX-008_generate.py": {
+          "bytes": 21014,
+          "matches_manifest": true,
+          "sha256": "bda38b48002e81391ae4d1142c60d024a5101a4c3b36e1e0392eb7afeb8dffca"
+        },
+        "README.md": {
+          "bytes": 4713,
+          "matches_manifest": true,
+          "sha256": "1217add7708c764bf2f48d42f03e4b56548f755ac4cef027fd86fd7943a8df85"
+        },
+        "asset_manifest.json": {
+          "bytes": 7832,
+          "matches_manifest": null,
+          "sha256": "63aa19910702c489141201e94d7adb91a51411560d430262f46098007e792b7d"
+        },
+        "qa.json": {
+          "bytes": 5517,
+          "matches_manifest": true,
+          "sha256": "704fb42869bad9c34dde1b15f1db0651d607264666c23aeb17ec44f57515ebab"
+        },
+        "runtime_mapping.json": {
+          "bytes": 3358,
+          "matches_manifest": true,
+          "sha256": "5c54d58b16ffe96c39d23c6bd6c87f508cd60f144a31125200ed84855fd81363"
+        },
+        "textures/ft_goose_fx_formation_guide_basecolor_alpha.png": {
+          "bytes": 12439,
+          "matches_manifest": true,
+          "sha256": "ab0c275ec6f22a8dfa4c94c87135bb0159bdd924f89d5ef4cd3e3cf4c875b8d6"
+        }
+      },
+      "relative_dir": "../../FX-008/v001",
+      "status": "needs_review",
+      "version": "v001"
+    }
+  },
+  "direct_dependencies": [
+    "ENV-001",
+    "ENV-014",
+    "FX-001",
+    "FX-008",
+    "ANM-006"
+  ],
+  "execution_order_1_based": 43,
+  "files": {
+    "LVL-S1_S1_Tailwind.blend": {
+      "bytes": 18471571,
+      "sha256": "bbb4f4c40bec8a68a873e4349bdd5341b9b8ce4b494b1903c6d2d1b41cb4fd0a"
+    },
+    "LVL-S1_S1_Tailwind.glb": {
+      "bytes": 9573292,
+      "sha256": "178619ad95cea01ded6cbca210cbf8b38422ed0ae6384ea2cd1916936bc08d56"
+    },
+    "LVL-S1_generate.py": {
+      "bytes": 51503,
+      "sha256": "1a82b96bb4c3a1ff978785f1b86d3e5f8528acd5bbfdbe08b83915e519f1bf15"
+    },
+    "README.md": {
+      "bytes": 5964,
+      "sha256": "9516f79d77a95702ac4c3bb799ae460a8524f94e06e72da931c2d57b180dab0f"
+    },
+    "comparison_without_formation_guide.png": {
+      "bytes": 375734,
+      "sha256": "53627e3e2d38c54ea2ae9d8b4ae1061fcad98a4f12e1f659561c474a3e0e9482"
+    },
+    "graybox_fixed_rear.png": {
+      "bytes": 319796,
+      "sha256": "a89bdab54c725553b7fa9011daaa941074eaa49a0b1b045050c73dfe3005b52d"
+    },
+    "graybox_top.png": {
+      "bytes": 648794,
+      "sha256": "80db101383d47650baf71dc88d25802c0fcbe994c7a17e81a28b839fa46d8f37"
+    },
+    "preview_fixed_rear.mp4": {
+      "bytes": 1198798,
+      "sha256": "89e7fe02f3c53973f7bcc1157c763bde3d2aa88ccd666469b93d9f536bf31441"
+    },
+    "preview_fixed_rear_checkpoint.png": {
+      "bytes": 386677,
+      "sha256": "5c5ce134d1f1b71849cc90efeafd4ac663c96b5c345d42a7132245998d962959"
+    },
+    "preview_fixed_rear_fork.png": {
+      "bytes": 363579,
+      "sha256": "4480bdca06c75145dc6665560e16ed969e0f6c658718cf60b0026d94e412b03b"
+    },
+    "preview_fixed_rear_formed.png": {
+      "bytes": 377675,
+      "sha256": "cbec8c23fce09b57f665beff880e2e00b6939ee889a290446c0f612600493b9a"
+    },
+    "preview_fixed_rear_forming.png": {
+      "bytes": 381213,
+      "sha256": "7b5a204c4974e3ca8b65844acf09953143aacc34be0c9949ac9b38e4615c837a"
+    },
+    "preview_fixed_rear_loose.png": {
+      "bytes": 375011,
+      "sha256": "0de48300e46c888627987551ce516d0eea3a7274ec79b176ff2f488dfba02977"
+    },
+    "preview_top_full_v.png": {
+      "bytes": 832393,
+      "sha256": "b0e1952ec368bf039884381fad5af8db20f0fa5ca6638c6dddbeee422f51e1d1"
+    },
+    "qa.json": {
+      "bytes": 10299,
+      "sha256": "41867102a2ce655ae531faddd11db9fd687908132dbd25a2ed330e497985b82f"
+    },
+    "roundtrip_fixed_rear_checkpoint.png": {
+      "bytes": 386659,
+      "sha256": "93a75935dda58e6319503c4b9524af889df3a5d45191456c69da6fef2e2756e5"
+    },
+    "roundtrip_fixed_rear_formed.png": {
+      "bytes": 377780,
+      "sha256": "1789ce5720ae3572c0f7ec7530b0dbe1d7359b52dd4ad18e6bbec425e01e14d8"
+    },
+    "s1_layout.json": {
+      "bytes": 4048,
+      "sha256": "de067b53ec80fb0456ef49a0879af5f778c8b2079697c230288b55f44a59c4b6"
+    }
+  },
+  "id": "LVL-S1",
+  "layout": "s1_layout.json",
+  "runtime_export": {
+    "dynamics": "see s1_layout.json and upstream asset mappings",
+    "geometry": "LVL-S1_S1_Tailwind.glb",
+    "source": "LVL-S1_S1_Tailwind.blend",
+    "tiling": "ENV-001 validated modular seams",
+    "visual_only": true
+  },
+  "source_and_rights": "在项目已有 v001 候选许可下组装。程序创建少量审阅与补给位置笔触；未取用外部图像或声音。",
+  "status": "needs_review",
+  "tool": "5.2.2 LTS",
+  "variant": "S1_Tailwind",
+  "version": "v001"
+}

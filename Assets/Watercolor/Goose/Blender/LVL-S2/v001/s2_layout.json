@@ -1,0 +1,566 @@
+{
+  "id": "LVL-S2",
+  "version": "v001",
+  "status": "needs_review",
+  "variant": "S2_Fork",
+  "axis_map": "Blender (x,y,z) -> glTF (x,z,-y)",
+  "BU_per_game_unit": 0.036,
+  "entry": {
+    "node": "S2_Entry",
+    "location_BU": [
+      0,
+      0,
+      0
+    ],
+    "heading": [
+      0,
+      1,
+      0
+    ],
+    "previous": "LVL-S1/Checkpoint_A"
+  },
+  "exit": {
+    "node": "S2_Merge",
+    "location_BU": [
+      0,
+      76,
+      0
+    ],
+    "heading": [
+      0,
+      1,
+      0
+    ],
+    "next": "LVL-S3/entry"
+  },
+  "connection": {
+    "coincident_after_translation": true,
+    "flat_gate_x_BU": [
+      -12,
+      12
+    ],
+    "inward_clear_BU": 2,
+    "ground_z_BU": 0,
+    "water_level_BU": -0.18,
+    "water_crosses_gate": false
+  },
+  "anchors": {
+    "S2_Checkpoint_A": [
+      0,
+      0,
+      0
+    ],
+    "S2_Pass": [
+      -11.48,
+      17,
+      0
+    ],
+    "S2_Lake": [
+      15.1,
+      13.5,
+      -0.18
+    ],
+    "S2_Rest": [
+      3.48,
+      10.03,
+      0.04
+    ],
+    "S2_JoinBeforeGate": [
+      0,
+      69,
+      0
+    ]
+  },
+  "routes_preview_control_points": {
+    "pass": [
+      [
+        0,
+        0
+      ],
+      [
+        -3.8,
+        7
+      ],
+      [
+        -9.25,
+        14.5
+      ],
+      [
+        -11.6,
+        20
+      ],
+      [
+        -12,
+        26
+      ],
+      [
+        -11.2,
+        33
+      ],
+      [
+        -10.95,
+        38
+      ],
+      [
+        -11.4,
+        45
+      ],
+      [
+        -11.5,
+        51
+      ],
+      [
+        -8,
+        57
+      ],
+      [
+        -3.2,
+        63
+      ],
+      [
+        0,
+        69
+      ],
+      [
+        0,
+        76
+      ]
+    ],
+    "lake": [
+      [
+        0,
+        0
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        12.5,
+        8
+      ],
+      [
+        19.2,
+        14
+      ],
+      [
+        28.8,
+        23
+      ],
+      [
+        30.5,
+        34
+      ],
+      [
+        31,
+        43
+      ],
+      [
+        24,
+        52.5
+      ],
+      [
+        21.8,
+        56.7
+      ],
+      [
+        13.4,
+        61
+      ],
+      [
+        4.5,
+        64.5
+      ],
+      [
+        0,
+        69
+      ],
+      [
+        0,
+        76
+      ]
+    ],
+    "rest_detour": [
+      [
+        12.5,
+        8
+      ],
+      [
+        9.7,
+        8.3
+      ],
+      [
+        6.5,
+        8.9
+      ],
+      [
+        3.48,
+        10.03
+      ],
+      [
+        6.1,
+        11.35
+      ],
+      [
+        10.2,
+        12.2
+      ],
+      [
+        15.2,
+        13.0
+      ],
+      [
+        19.2,
+        14
+      ]
+    ]
+  },
+  "dependencies": {
+    "ENV-008/v001/ENV-008_LakeShore.glb": {
+      "sha256": "f18ec8869d7ee76e985a8e7e69c7083efbe2208767165b1587d2f9c69f05f524",
+      "bytes": 4381736,
+      "status": "needs_review",
+      "version": "v001"
+    },
+    "ENV-008/v001/ENV-008_LakeWide.glb": {
+      "sha256": "7b94509849729a533ef23f18500d457d10dee217c89c934a0f3769356c5a679c",
+      "bytes": 956336,
+      "status": "needs_review",
+      "version": "v001"
+    },
+    "ENV-008/v001/asset_manifest.json": {
+      "sha256": "7f8b77273a11a304892057114574587e5dafaf990ba1b40c235985d37cc6cdbf",
+      "bytes": 6296,
+      "status": "needs_review",
+      "version": "v001"
+    },
+    "ENV-008/v001/qa.json": {
+      "sha256": "ea0a0f6f408b804e1e436d9ed65037c073a9054b80f2e6e9d73943a187a1296a",
+      "bytes": 5811,
+      "status": "needs_review",
+      "version": "v001"
+    },
+    "ENV-008/v001/README.md": {
+      "sha256": "06aa294515dacef01824f0e23e7d6091e79cf4fbe4dc1b4fce5aa73cf7b17cf0",
+      "bytes": 4594,
+      "status": "needs_review",
+      "version": "v001"
+    },
+    "ENV-010/v001/ENV-010_Mouth.glb": {
+      "sha256": "faa0c248e0df4b38389c9e06f0b6255c369cebf5a749f964a6ee9c0a7aff0550",
+      "bytes": 3172668,
+      "status": "needs_review",
+      "version": "v001"
+    },
+    "ENV-010/v001/ENV-010_Pass_Left.glb": {
+      "sha256": "74aaef138d7e3e01c0bcdf595ea74508d8ad1db377afdc2abf94acf9095ef109",
+      "bytes": 3197848,
+      "status": "needs_review",
+      "version": "v001"
+    },
+    "ENV-010/v001/ENV-010_Pass_Right.glb": {
+      "sha256": "06d327ad3807683ea224580dbce5629024b62a3230b5bc19fd75c2217184629a",
+      "bytes": 3197128,
+      "status": "needs_review",
+      "version": "v001"
+    },
+    "ENV-010/v001/asset_manifest.json": {
+      "sha256": "a4714c7936905b320774c03ec46484583414203bb7a561a1115da8aef36120d6",
+      "bytes": 4600,
+      "status": "needs_review",
+      "version": "v001"
+    },
+    "ENV-010/v001/qa.json": {
+      "sha256": "d6d94c4c3da9491d4726affc55da17fa268b8a0da6a85873096b465907eb1806",
+      "bytes": 38141,
+      "status": "needs_review",
+      "version": "v001"
+    },
+    "ENV-010/v001/README.md": {
+      "sha256": "1e3a895adb397155fa55658f8f6fb9cb6438643b8584b0cfbc28428564a4df5a",
+      "bytes": 4982,
+      "status": "needs_review",
+      "version": "v001"
+    },
+    "ENV-012/v001/ENV-012_RiverTree_A.glb": {
+      "sha256": "30b5f3a1615ce4540108b04f51a4237be1dcfc08b29ef00d8b1e81766b9e1eba",
+      "bytes": 589800,
+      "status": "needs_review",
+      "version": "v001"
+    },
+    "ENV-012/v001/ENV-012_RiverTree_B.glb": {
+      "sha256": "bcb584473b5b9ea54faf901f2afa5b795ca6580eb0deed251a4a0bb634874120",
+      "bytes": 584704,
+      "status": "needs_review",
+      "version": "v001"
+    },
+    "ENV-012/v001/ENV-012_LeaningTree.glb": {
+      "sha256": "a830633f430641a08db94e59d7d871c2ea1060aed8e819c08daa1060babe8f51",
+      "bytes": 589800,
+      "status": "needs_review",
+      "version": "v001"
+    },
+    "ENV-012/v001/asset_manifest.json": {
+      "sha256": "41894113f70811fd5c328324b2825e9e5236db0a36cd607cc47e634eafa5c606",
+      "bytes": 5809,
+      "status": "needs_review",
+      "version": "v001"
+    },
+    "ENV-012/v001/qa.json": {
+      "sha256": "098122706080e59d9f836a870edb8aeee5ee1e1f36c9038367263519576a4886",
+      "bytes": 11121,
+      "status": "needs_review",
+      "version": "v001"
+    },
+    "ENV-012/v001/README.md": {
+      "sha256": "7ae5c671ecf1236b9cce6144f7e0e64d1b5373ec458d6b6e95e1d952f2c01dbb",
+      "bytes": 5194,
+      "status": "needs_review",
+      "version": "v001"
+    },
+    "ENV-015/v001/ENV-015_LakesideRest.glb": {
+      "sha256": "6b2b4b4027a464cb6f3ee428461be2a27c9701dca444b1552208e1a4ad59aa23",
+      "bytes": 2535772,
+      "status": "needs_review",
+      "version": "v001"
+    },
+    "ENV-015/v001/asset_manifest.json": {
+      "sha256": "b0d952866ee7bef14cd96bb740ecb65461e37cb6cea807d9ae3bec769004bb88",
+      "bytes": 8024,
+      "status": "needs_review",
+      "version": "v001"
+    },
+    "ENV-015/v001/qa.json": {
+      "sha256": "fd12005b89c50f6f44bc253d72428e1651cd5e2aba56842a60946d6f5b6b12a4",
+      "bytes": 39648,
+      "status": "needs_review",
+      "version": "v001"
+    },
+    "ENV-015/v001/README.md": {
+      "sha256": "4e66835ef1a5eef9e55958acaa34a20c7d09674832118f67fc4aab081abed162",
+      "bytes": 5533,
+      "status": "needs_review",
+      "version": "v001"
+    },
+    "FX-002/v001/FX-002_CrosswindWarn.glb": {
+      "sha256": "f6de2291d0603c3cefa67a905cd0f9d785be1bb4fa514a6ba5b0ceb605cadb65",
+      "bytes": 44108,
+      "status": "needs_review",
+      "version": "v001"
+    },
+    "FX-002/v001/FX-002_Gust.glb": {
+      "sha256": "8e881781be05a625f07943a690530336108be33b2ed0198d58e5d099178481d1",
+      "bytes": 46732,
+      "status": "needs_review",
+      "version": "v001"
+    },
+    "FX-002/v001/runtime_mapping.json": {
+      "sha256": "8ff3ac1be37f9a0151e030b0aa4d613ca498bcd8cf29645f54ebc73867ff9c17",
+      "bytes": 4124,
+      "status": "needs_review",
+      "version": "v001"
+    },
+    "FX-002/v001/asset_manifest.json": {
+      "sha256": "f86ea40a0ee9a4ae0804124ce6a4c182d8bbe17ff799a677a4ee51a3339649ed",
+      "bytes": 5936,
+      "status": "needs_review",
+      "version": "v001"
+    },
+    "FX-002/v001/qa.json": {
+      "sha256": "5a8c320f7ab4e2417da06273faced992c23900ef6f20cbc0df7fd4c30d2b349c",
+      "bytes": 6109,
+      "status": "needs_review",
+      "version": "v001"
+    },
+    "FX-002/v001/README.md": {
+      "sha256": "24be305c985f97b349391c40fef136bf2cae7d56f3d6c5db5f3bbc3a7451eeab",
+      "bytes": 5547,
+      "status": "needs_review",
+      "version": "v001"
+    },
+    "ENV-018/v001/ENV-018_CloudStreak.glb": {
+      "sha256": "a1e57fba2d50049415c321d8afc1aa143b30eca22bfc30a5340366c97bdfe2e7",
+      "bytes": 271752,
+      "status": "needs_review",
+      "version": "v001"
+    },
+    "ENV-018/v001/asset_manifest.json": {
+      "sha256": "4227064d8cb97461019ff82d9a6294aba3a0026567944045067a828b3aa83ff4",
+      "bytes": 6100,
+      "status": "needs_review",
+      "version": "v001"
+    },
+    "ENV-018/v001/qa.json": {
+      "sha256": "e4fbb1855954d8ad8fbace0c65eb7acb604911c7ed124fe4a7a0034af7effeab",
+      "bytes": 6330,
+      "status": "needs_review",
+      "version": "v001"
+    },
+    "ENV-018/v001/README.md": {
+      "sha256": "f08866c7d80229658dc09f6f8f17c2486f7acd9da90cd188b607740f0d7a897e",
+      "bytes": 5698,
+      "status": "needs_review",
+      "version": "v001"
+    },
+    "CHR-001/v001/CHR-001_goose_rig.glb": {
+      "sha256": "cd11419a47a2c8e2d67d636015675540581a74720a83c23ef8531437c7161b81",
+      "bytes": 3823180,
+      "status": "done",
+      "version": "v001"
+    },
+    "CHR-001/v001/asset_manifest.json": {
+      "sha256": "8daa953c8b45b97f750e45e33a751869470f9baead7182d253e5bf7fd1441921",
+      "bytes": 15048,
+      "status": "done",
+      "version": "v001"
+    },
+    "CHR-001/v001/qa.json": {
+      "sha256": "de7e7d6eed73a5aa4d993113b4713e81f470480d982d981e80ef58acb56488ea",
+      "bytes": 12907,
+      "status": "done",
+      "version": "v001"
+    },
+    "CHR-001/v001/README.md": {
+      "sha256": "fca1e84b2f0c7dfdac8ffa4cd929cd20a529b2dcd18a71821249b7315d31f659",
+      "bytes": 4899,
+      "status": "done",
+      "version": "v001"
+    }
+  },
+  "camera_source_sha256": {
+    "Sources/FeatherTide/Systems/Camera/ThirdPersonRig.swift": "274b58f0b910a280c676540dde54343c35e2e0709744e20e7e5ee4f9515476a2",
+    "Sources/FeatherTide/Rendering/PlayfieldView.swift": "8c37c08a35b8b299cc9af9f9e63e64ef5d50947e12822356fee8de398bc110dc"
+  },
+  "source_geometry_edits": {
+    "placeholder_triangles_removed": 512,
+    "pre_gate_triangles_removed": 128
+  },
+  "module_placements": {
+    "ENV-008": {
+      "translation_BU": [
+        0,
+        0,
+        0
+      ],
+      "terrain_use_Y_BU": [
+        0,
+        63
+      ],
+      "lake_water_Y_BU": [
+        4,
+        58
+      ]
+    },
+    "ENV-010": {
+      "translation_BU": [
+        0,
+        0,
+        0
+      ],
+      "pass_Y_BU": [
+        10,
+        50
+      ],
+      "UV_phase_offset": [
+        0.35,
+        0.5
+      ]
+    },
+    "ENV-012": {
+      "instances": [
+        [
+          "RiverTree_A",
+          [
+            -4.9,
+            14.4
+          ],
+          0
+        ],
+        [
+          "RiverTree_B",
+          [
+            -13.7,
+            14.3
+          ],
+          0.16
+        ],
+        [
+          "LeaningTree",
+          [
+            -6.1,
+            18.3
+          ],
+          -0.24
+        ],
+        [
+          "RiverTree_A",
+          [
+            -16.1,
+            20.2
+          ],
+          0.18
+        ],
+        [
+          "RiverTree_B",
+          [
+            -7.15,
+            23.2
+          ],
+          0
+        ],
+        [
+          "LeaningTree",
+          [
+            -16.35,
+            25.4
+          ],
+          0.08
+        ],
+        [
+          "RiverTree_A",
+          [
+            -7.1,
+            28
+          ],
+          0.22
+        ],
+        [
+          "RiverTree_B",
+          [
+            -16.4,
+            31
+          ],
+          -0.15
+        ]
+      ],
+      "shared_field": "S2_WindField"
+    },
+    "ENV-015": {
+      "translation_BU": [
+        4,
+        10,
+        0
+      ],
+      "replaces_exact_ENV008_placeholder": true
+    },
+    "FX-002": {
+      "runtime_inputs": "direction,strength,clockSeconds,motionScale,windSpeedBUPerSecond",
+      "source_mapping": "../../FX-002/v001/runtime_mapping.json",
+      "weather_zone": "short pass only"
+    },
+    "ENV-018": {
+      "role": "two short-pass cloud cards on the same wind clock"
+    },
+    "CHR-001": {
+      "role": "review-only bird, 12 poses via one neutral mesh"
+    }
+  },
+  "runtime_owned": [
+    "collision and true traversal",
+    "branch selection and merge",
+    "Checkpoint A and retry",
+    "lakeside rest/energy",
+    "wind consequence, low-energy cue and retry",
+    "performance"
+  ]
+}

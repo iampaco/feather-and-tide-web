@@ -1,0 +1,90 @@
+{
+  "id": "FX-002",
+  "version": "v001",
+  "status": "needs_review",
+  "execution_order_1_based": 31,
+  "pdf_page": 14,
+  "blender": "5.2.2 LTS",
+  "dependencies": {
+    "FX-001": {
+      "version": "v001",
+      "status": "needs_review",
+      "files": {
+        "FX-001_WindTail.blend": "932ad55537a700a8f537433e2c0dc0b7eba3f8eefdcd408ddbd727b33224ef79",
+        "FX-001_generate.py": "f9079d62c0b3afd38f0eeda4fc7f8075d49218c245e8baaf6bed9367df1c1aff",
+        "FX-001_WindTail_Short.glb": "ba34c0ae5a0d7376ac97a1a7c4819721054313ae9737d977691dcb8b6ca6fc67",
+        "FX-001_WindTail_Long.glb": "eef2690a871f9ac2b16bdc30835f4382931938be0f1b423a611bc68d4d51a9a9",
+        "textures/ft_goose_fx_wind_tail_short_rgba.png": "11b5e75d0d1f0647429cbc3f69c48783ff2e24f837af057b9643f736870dfb6d",
+        "textures/ft_goose_fx_wind_tail_long_rgba.png": "572e351d9a0dbb81f08a31ad4a0f7e53346376bb2ec2750351e7f553598cdc80",
+        "qa.json": "54595b7fffdefb1f5489f99b0f63e43946312ab6d97e3d2d5c0a4a143ff4eda2",
+        "README.md": "4ed6aee4ba46c0e0d543e7813dc44de7c44f772317a590781887d8a09e5ea011"
+      },
+      "manifest_sha256": "e75d080085575165f7ae33eb78edea50769107a34076152fdd198e298a15e25d"
+    },
+    "ENV-012": {
+      "version": "v001",
+      "status": "needs_review",
+      "files": {
+        "ENV-012_wind_trees.blend": "d6410e66959527d3d9f65ca67239a0494f03d3bd13783bbdba550ead6c466862",
+        "ENV-012_RiverTree_A.glb": "30b5f3a1615ce4540108b04f51a4237be1dcfc08b29ef00d8b1e81766b9e1eba",
+        "ENV-012_RiverTree_B.glb": "bcb584473b5b9ea54faf901f2afa5b795ca6580eb0deed251a4a0bb634874120",
+        "ENV-012_LeaningTree.glb": "a830633f430641a08db94e59d7d871c2ea1060aed8e819c08daa1060babe8f51",
+        "qa.json": "098122706080e59d9f836a870edb8aeee5ee1e1f36c9038367263519576a4886",
+        "README.md": "7ae5c671ecf1236b9cce6144f7e0e64d1b5373ec458d6b6e95e1d952f2c01dbb"
+      },
+      "manifest_sha256": "41894113f70811fd5c328324b2825e9e5236db0a36cd607cc47e634eafa5c606"
+    },
+    "FX-007": {
+      "version": "v001",
+      "status": "needs_review",
+      "files": {
+        "wind_interface.json": "ad6b98db3151edeeaddcc775236a996270c0fd5c2fb4851ca0cfd2d6dec316ba",
+        "qa.json": "179ac06f1f829b948acf92e5cf34bb3e6c4caee83a618dc47ecbcfa2567e74d8",
+        "README.md": "b4b09a9a8ff04194473a6aedededa1c79228cb0d938722cc0b6a03e4f7a20967"
+      },
+      "manifest_sha256": "fd0d9615e4e5e90f49c210803aca5a3b6100b8814f0fdc5cb98b56253ead0fe2"
+    },
+    "FX-009": {
+      "version": "v001",
+      "status": "needs_review",
+      "files": {
+        "FX-009_RescueBeacon.glb": "4be20c1d4d3ca056edb8a49f6de18ed92cc0d7f8c4074f264cff38abebebc932",
+        "runtime_mapping.json": "e3c6cac97e161323a032c3ca80b0d4fc1ad3e91e6ad08812a91a720a2752adb4",
+        "qa.json": "3385d1235526f4b7630a62116102c25c9188e216484353155ebc7b58ddf84b80",
+        "README.md": "316885ef893ac04b9d108114c6858a5233bcf14d80fbb4859da0db37f261d549"
+      },
+      "manifest_sha256": "fa672ea3baffeb86a4b695048aca7a9cb8e2ce378b4701fb1eacd58159e338ed"
+    }
+  },
+  "camera_swift_sha256": {
+    "Sources/FeatherTide/Systems/Camera/ThirdPersonRig.swift": "274b58f0b910a280c676540dde54343c35e2e0709744e20e7e5ee4f9515476a2",
+    "Sources/FeatherTide/Rendering/PlayfieldView.swift": "8c37c08a35b8b299cc9af9f9e63e64ef5d50947e12822356fee8de398bc110dc"
+  },
+  "runtime_mapping": "runtime_mapping.json",
+  "authoring": "FX-001 exact topology/UV derived with positive dimension transforms. Recolored existing alpha stroke; original low-poly accents and review timeline.",
+  "rights": "Project-owned prior candidates and original procedural additions. Review-only rescue/vegetation source retained in the blend.",
+  "files": {
+    "FX-002_Crosswind.blend": "91aba1a82f3b7dcf1100bc74d52471d75c1d7fe7b5771f635fb10a8f03920541",
+    "FX-002_CrosswindWarn.glb": "f6de2291d0603c3cefa67a905cd0f9d785be1bb4fa514a6ba5b0ceb605cadb65",
+    "FX-002_Gust.glb": "8e881781be05a625f07943a690530336108be33b2ed0198d58e5d099178481d1",
+    "FX-002_generate.py": "7d41d52c1c9ee26ca40f7eb3b39468dd14e7d5c884c848641c1d6ff90df26501",
+    "README.md": "24be305c985f97b349391c40fef136bf2cae7d56f3d6c5db5f3bbc3a7451eeab",
+    "comparison_before_wind.png": "d373f667a88f82c363f71eb5ec7b853e1d49a811e8a30b8c00005e32febb8b7a",
+    "comparison_gust_tree_only.png": "d9166634c900138e4b6f44c2f476ea19d5bab342fa5cda8860b955e22180a891",
+    "comparison_warning_tree_only.png": "9914dec448c1bc22a66a1204153af5d9e8912c41fa5f2d3e491cc998afdc120c",
+    "graybox_fixed_rear.png": "05590f384e02b867360a9c7bc7f5bbd8d255dd39700277ffd2a7ccdb471e6d9f",
+    "graybox_top.png": "19f39afb4307092398dcbf1cfc0806723042183a64ec2b84c3d0d19f7f48e31d",
+    "preview_fixed_rear_gust.png": "6321d485618fecab75acdcc936ccc402c38623610b50d9c49f881cebac3db156",
+    "preview_fixed_rear_reduced.png": "4cf7ba916e28b3a5d5fc9401ddeb9ea89d26eb87626a17726a57b13c88cc4fd7",
+    "preview_fixed_rear_silent.mp4": "4a428aa81de064176575868cbdef27c21b75bf731a23e81667c932518637efb2",
+    "preview_fixed_rear_warning.png": "97191a9081610c5e6e622287e4d4ab2cbabb3cb29fb60929af389be71de2550c",
+    "preview_top.png": "4585c7126a16ee1d8cd583f34d93ab5ce2eefe0b50033fcfb5abbad46ee62ae7",
+    "qa.json": "5a8c320f7ab4e2417da06273faced992c23900ef6f20cbc0df7fd4c30d2b349c",
+    "roundtrip_fixed_rear.png": "e19304e8be79c8da31436080ce3e80fa230b546cb054e02e206842fe375489c0",
+    "runtime_mapping.json": "8ff3ac1be37f9a0151e030b0aa4d613ca498bcd8cf29645f54ebc73867ff9c17",
+    "textures/ft_goose_fx_crosswind_crown_rgba.png": "fb7ba1defecfa9afe0a42bc4178589fe17185639f3c2a6d307976e6e44ceb728",
+    "textures/ft_goose_fx_crosswind_gust_rgba.png": "8fef579ec6eb2cab8b34693ff698a8f647bf6ef3121c6b67eb83f3bb656ce066",
+    "textures/ft_goose_fx_crosswind_leaf_rgba.png": "013fbde91649c3a2dbd5e4d1adb71649b479c88fc5b83ae4d960b9773ebf6200",
+    "textures/ft_goose_fx_crosswind_warn_rgba.png": "580db4fab27d71595eec97ebd3bb95600f7875c822ca6b7017e483aff10ce7c0"
+  }
+}

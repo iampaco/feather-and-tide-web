@@ -1,0 +1,49 @@
+{
+  "id": "MAT-004",
+  "version": "v001",
+  "status": "needs_review",
+  "checks": {
+    "shore_alpha": {
+      "Water_Shallow": {
+        "alpha_range_rgb8": [
+          0,
+          186
+        ],
+        "shore_partial_alpha_pixels": 156303
+      },
+      "Water_Lake": {
+        "alpha_range_rgb8": [
+          0,
+          245
+        ],
+        "shore_partial_alpha_pixels": 84806
+      },
+      "Water_River": {
+        "alpha_range_rgb8": [
+          0,
+          230
+        ],
+        "shore_partial_alpha_pixels": 99603
+      }
+    },
+    "river_v_edge_wrap": "pass",
+    "three_independent_glb_surfaces_and_blend_alpha": "pass",
+    "glb_import_geometry_uv_material_alpha": "pass",
+    "embedded_rgba_pixels_match_source": "pass",
+    "river_longitudinal_wrap_rgb_and_alpha": "pass",
+    "oblique_glb_roundtrip_rgb8": {
+      "mean_absolute_rgb8_channel_difference": 0.03946,
+      "p99_absolute_rgb8_channel_difference": 1.0
+    }
+  },
+  "visual_review": {
+    "overhead": "三种静态水面可辨。浅水偏灰绿，湖心较实且偏灰蓝，河流色带随河道转弯。",
+    "oblique": "浅水透出部分泥底和小石，湖面和浅水样块周界渐隐，河流两岸渐隐，河段两端延伸至样板边界。",
+    "roundtrip": "GLB 回导复核保留透明水线、色带与地表叠色。"
+  },
+  "pending": [
+    "负责人确认水彩观感。",
+    "正式岸线、RealityKit 透明排序和 iPhone / iPad 真机表现待接入验证。"
+  ],
+  "redline_check": "已对照红线清单。本交付为基础材质与审阅样块。"
+}

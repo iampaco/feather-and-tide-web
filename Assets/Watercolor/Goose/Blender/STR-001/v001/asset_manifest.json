@@ -1,0 +1,218 @@
+{
+  "id": "STR-001",
+  "version": "v001",
+  "execution_order_1_based": 29,
+  "status": "needs_review",
+  "variant": "Main_Turbine",
+  "depends": [
+    "MAT-001/v001"
+  ],
+  "blender": "5.2.2 LTS",
+  "archive_root": "Assets/Watercolor/Goose/Blender/STR-001/v001",
+  "assets": {
+    "blend": "STR-001_Main_Turbine.blend",
+    "glb": "STR-001_Main_Turbine.glb"
+  },
+  "blender_to_glb": "(x,y,z) -> (x,z,-y)",
+  "Blender_ground_origin_BU": [
+    0,
+    0,
+    0
+  ],
+  "dimensions_BU": {
+    "foundation_diameter": 1.02,
+    "tower_peak": 2.41,
+    "nacelle_max_width": 0.482,
+    "rotor_tip_diameter": 3.75963202947678,
+    "height_max": 4.32981601473839
+  },
+  "node_hierarchy": {
+    "Main_Turbine": [
+      "Foundation",
+      "Tower",
+      "Nacelle",
+      "Rotor"
+    ],
+    "Tower": [
+      "Service hatch"
+    ],
+    "Rotor": [
+      "Blade_01",
+      "Blade_02",
+      "Blade_03",
+      "Hub"
+    ]
+  },
+  "rotor": {
+    "pivot_Blender_BU": [
+      0,
+      -0.46,
+      2.45
+    ],
+    "pivot_GLTF": [
+      0,
+      2.45,
+      0.46
+    ],
+    "axis_Blender_local": "+Y",
+    "axis_GLTF_local": "-Z",
+    "front_Blender": "-Y",
+    "seen_from_front": "clockwise",
+    "seconds": 9,
+    "nominal_degrees_per_second": 40,
+    "clip": "Rotor_Constant_Loop",
+    "playback": "repeat at runtime",
+    "variant_controls_used_in_STR002": {
+      "Blender_Z_yaw_degrees": [
+        -12,
+        13
+      ],
+      "uniform_scale": [
+        0.96,
+        1.0
+      ],
+      "phase_degrees": [
+        14,
+        238
+      ]
+    }
+  },
+  "camera": {
+    "pixels": [
+      852,
+      393
+    ],
+    "distance_game_units": 180,
+    "pitch_rad": 0.48,
+    "vertical_fov_degrees": 50,
+    "target_height_game_units": 6,
+    "review_flight_altitude_game_units": 48,
+    "BU_per_game_unit": 0.036
+  },
+  "texture_mapping": {
+    "mother_blend": "MAT-001/v001/MAT-001_watercolor_master.blend",
+    "mother_sha256": "9fc0305a78264733d2a2f5747a67833158c59470eff3e3d71c4f6da5b9d11de0",
+    "material_template": "SoftStone",
+    "source_png": "MAT-001/v001/textures/ft_goose_mat_soft_stone_basecolor.png",
+    "source_png_sha256": "931bb3b12c975c2dbbe37a695bf8dc1d49cf29e3b92bf3296c9896b6e0c5022f",
+    "outputs": [
+      {
+        "material": "Warm porcelain",
+        "file": "textures/ft_goose_str_turbine_shell.png",
+        "sha256": "485f45df96272697ce44dbc081d50776f7cf5155b97a08e3df245866edef8cd3",
+        "palette_sRGB": [
+          "D9D5C9",
+          "F1ECE1"
+        ],
+        "roughness": 0.73
+      },
+      {
+        "material": "Aluminum shadow",
+        "file": "textures/ft_goose_str_turbine_alloy.png",
+        "sha256": "3ae31472fe7b5355a5f48d48d456f69d2f4dab9a58c850e357455cafb42afc5b",
+        "palette_sRGB": [
+          "A9ADB0",
+          "CBD0CF"
+        ],
+        "roughness": 0.63
+      },
+      {
+        "material": "Dull zinc",
+        "file": "textures/ft_goose_str_turbine_zinc.png",
+        "sha256": "43a959951dd8b2ac777dc6f9942619e717b5aadd1b53012837a28e541696716a",
+        "palette_sRGB": [
+          "737C7D",
+          "A4ABAA"
+        ],
+        "roughness": 0.77
+      },
+      {
+        "material": "Foundation",
+        "file": "textures/ft_goose_str_turbine_footing.png",
+        "sha256": "00cb4a4e9e5b10db2f5e693eb8b6e47ed7f880bec68d24250401e9639efd1aa4",
+        "palette_sRGB": [
+          "93908A",
+          "C0B9AB"
+        ],
+        "roughness": 0.91
+      },
+      {
+        "material": "Pale lichen | index stripe",
+        "file": "textures/ft_goose_str_turbine_stripe.png",
+        "sha256": "c924e0fe9c2bad0d505af1fa1c658b7ecc0d65673159aed22df1f2bf3d7d5156",
+        "palette_sRGB": [
+          "A19678",
+          "C3BBA4"
+        ],
+        "roughness": 0.78
+      }
+    ]
+  },
+  "rights": "Original parametric project geometry and in-project MAT-001 paper grain recolor. No external images.",
+  "files": {
+    "README.md": {
+      "bytes": 3691,
+      "sha256": "3b2c14caebea8aa69a96e51ab3ff8a2f7a324653f43b7bf7e3f59d034e152c22"
+    },
+    "STR-001_Main_Turbine.blend": {
+      "bytes": 5280248,
+      "sha256": "06742dcb9716563369f8efd8025829c1b252b963dc9ef6f8786b2d9e7a3575b7"
+    },
+    "STR-001_Main_Turbine.glb": {
+      "bytes": 1279828,
+      "sha256": "c6276d8c507bb1d90c5690b2792284c1201a48d134bb01f309ab3ae8eaa3482a"
+    },
+    "STR-001_generate.py": {
+      "bytes": 27244,
+      "sha256": "e6f8d496e1364c62f8e727d23d34546839a323872a828546c49b23feee466f9e"
+    },
+    "graybox_fixed_rear.png": {
+      "bytes": 281082,
+      "sha256": "e0137d2aff016945cf3a9e207a28cdcf35a9c8c5aed219dc907c866c082c0c9e"
+    },
+    "preview_detail.png": {
+      "bytes": 550732,
+      "sha256": "7117dde32b79ab0464e22dc792329571480787a99b1aaf318edd0eb4602a85f8"
+    },
+    "preview_fixed_rear.png": {
+      "bytes": 281526,
+      "sha256": "4ceccf89292787a2ea142a5cfeab41e45b6b6fc6ca898f98805d075996d6fc94"
+    },
+    "preview_fixed_rear_phase.png": {
+      "bytes": 281780,
+      "sha256": "b0fad42a2dbb9cc890d20c751be77c74a37e6c8bfac7b4a8ed5cb51bf4175e1b"
+    },
+    "preview_rotor_loop.mp4": {
+      "bytes": 113909,
+      "sha256": "d31f6fb31d75522aa5601821a084b353df69d621ee6fe2105547f5920e785789"
+    },
+    "qa.json": {
+      "bytes": 6269,
+      "sha256": "ae0666af049a4d8af07c441da76b76842fd5a87ff502a3f7f8794b83dbf99165"
+    },
+    "roundtrip_fixed_rear.png": {
+      "bytes": 281322,
+      "sha256": "ad7180f2c877ed191458b4bf9affbeceadd3bc39425bf8e54b739036633c5fb6"
+    },
+    "textures/ft_goose_str_turbine_alloy.png": {
+      "bytes": 225402,
+      "sha256": "3ae31472fe7b5355a5f48d48d456f69d2f4dab9a58c850e357455cafb42afc5b"
+    },
+    "textures/ft_goose_str_turbine_footing.png": {
+      "bytes": 243019,
+      "sha256": "00cb4a4e9e5b10db2f5e693eb8b6e47ed7f880bec68d24250401e9639efd1aa4"
+    },
+    "textures/ft_goose_str_turbine_shell.png": {
+      "bytes": 198606,
+      "sha256": "485f45df96272697ce44dbc081d50776f7cf5155b97a08e3df245866edef8cd3"
+    },
+    "textures/ft_goose_str_turbine_stripe.png": {
+      "bytes": 244964,
+      "sha256": "c924e0fe9c2bad0d505af1fa1c658b7ecc0d65673159aed22df1f2bf3d7d5156"
+    },
+    "textures/ft_goose_str_turbine_zinc.png": {
+      "bytes": 256791,
+      "sha256": "43a959951dd8b2ac777dc6f9942619e717b5aadd1b53012837a28e541696716a"
+    }
+  }
+}

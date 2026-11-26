@@ -1,0 +1,429 @@
+{
+  "id": "ANM-007",
+  "version": "v001",
+  "status": "needs_review",
+  "blender": {
+    "clips": {
+      "Land_Mudflat": {
+        "samples": 161,
+        "step_frames": 0.5,
+        "edge_length_ratio": [
+          0.4195488344000178,
+          1.5886784094006998
+        ],
+        "root_and_objects_fixed": "pass",
+        "shoulders_and_specified_intersections": "pass",
+        "pairs": [
+          [
+            "Body and crown",
+            "Flight feather 7.L"
+          ],
+          [
+            "Body and crown",
+            "Flight feather 8.L"
+          ],
+          [
+            "Body and crown",
+            "Flight feather 9.L"
+          ],
+          [
+            "Body and crown",
+            "Outer primary.L"
+          ],
+          [
+            "Body and crown",
+            "Flight feather 7.R"
+          ],
+          [
+            "Body and crown",
+            "Flight feather 8.R"
+          ],
+          [
+            "Body and crown",
+            "Flight feather 9.R"
+          ],
+          [
+            "Body and crown",
+            "Outer primary.R"
+          ],
+          [
+            "Wing.L",
+            "Wing.R"
+          ],
+          [
+            "Foot.L",
+            "Foot.R"
+          ],
+          [
+            "Bill",
+            "Wing.L"
+          ],
+          [
+            "Foot.L",
+            "Wing.L"
+          ],
+          [
+            "Bill",
+            "Wing.R"
+          ],
+          [
+            "Foot.R",
+            "Wing.R"
+          ]
+        ],
+        "foot_min_z_BU_range_each": [
+          [
+            -0.18235476315021515,
+            -0.09287140518426895
+          ],
+          [
+            -0.18235474824905396,
+            -0.09287141263484955
+          ]
+        ],
+        "contact": {
+          "contact_frame": 47,
+          "min_mesh_clearance_game_units": 0.0,
+          "pre_contact_min_foot_clearance_game_units": 0.0006403804771125097,
+          "contact_and_after_max_foot_clearance_game_units": 0.0,
+          "carrier_uses_flat_reference_plane": "pass"
+        },
+        "cruise_entry": {
+          "position_BU": 0.0,
+          "velocity_delta_BU_per_s": 0.0035011476100524144
+        },
+        "preview": {
+          "frames": 138,
+          "frame_step": 1,
+          "birds": 12,
+          "shared_mesh_datablocks": 1,
+          "min_screen_margin_px": 5.595548064968682,
+          "interbird_intersections": 0,
+          "max_carrier_step_game_units_per_frame": 0.9167854189872742,
+          "min_mesh_clearance_game_units": -4.404229346347e-06
+        }
+      },
+      "Land_ShallowWater": {
+        "samples": 161,
+        "step_frames": 0.5,
+        "edge_length_ratio": [
+          0.4195416494121127,
+          1.5886824922110443
+        ],
+        "root_and_objects_fixed": "pass",
+        "shoulders_and_specified_intersections": "pass",
+        "pairs": [
+          [
+            "Body and crown",
+            "Flight feather 7.L"
+          ],
+          [
+            "Body and crown",
+            "Flight feather 8.L"
+          ],
+          [
+            "Body and crown",
+            "Flight feather 9.L"
+          ],
+          [
+            "Body and crown",
+            "Outer primary.L"
+          ],
+          [
+            "Body and crown",
+            "Flight feather 7.R"
+          ],
+          [
+            "Body and crown",
+            "Flight feather 8.R"
+          ],
+          [
+            "Body and crown",
+            "Flight feather 9.R"
+          ],
+          [
+            "Body and crown",
+            "Outer primary.R"
+          ],
+          [
+            "Wing.L",
+            "Wing.R"
+          ],
+          [
+            "Foot.L",
+            "Foot.R"
+          ],
+          [
+            "Bill",
+            "Wing.L"
+          ],
+          [
+            "Foot.L",
+            "Wing.L"
+          ],
+          [
+            "Bill",
+            "Wing.R"
+          ],
+          [
+            "Foot.R",
+            "Wing.R"
+          ]
+        ],
+        "foot_min_z_BU_range_each": [
+          [
+            -0.1808183342218399,
+            -0.09287140518426895
+          ],
+          [
+            -0.1808183193206787,
+            -0.09287141263484955
+          ]
+        ],
+        "contact": {
+          "contact_frame": 51,
+          "min_mesh_clearance_game_units": 0.0,
+          "pre_contact_min_foot_clearance_game_units": 0.0005420180358285488,
+          "contact_and_after_max_foot_clearance_game_units": 0.0,
+          "carrier_uses_flat_reference_plane": "pass"
+        },
+        "cruise_entry": {
+          "position_BU": 0.0,
+          "velocity_delta_BU_per_s": 0.0035011476100524144
+        },
+        "preview": {
+          "frames": 81,
+          "frame_step": 1,
+          "birds": 1,
+          "shared_mesh_datablocks": 1,
+          "min_screen_margin_px": 157.70636289429143,
+          "interbird_intersections": 0,
+          "max_carrier_step_game_units_per_frame": 0.8435397148132324,
+          "min_mesh_clearance_game_units": -8.702786822666995e-08
+        }
+      }
+    },
+    "shared_standing_pose": {
+      "mesh_error_BU": 0.0,
+      "approach_span_BU": 1.6010274291038513,
+      "folded_span_BU": 0.8796425759792328
+    },
+    "glb": {
+      "clips": {
+        "Land_Mudflat": {
+          "duration_s": 1.6666666666666667,
+          "targets": [
+            [
+              "Body",
+              "translation"
+            ],
+            [
+              "Body",
+              "rotation"
+            ],
+            [
+              "Foot.L",
+              "rotation"
+            ],
+            [
+              "Foot.R",
+              "rotation"
+            ],
+            [
+              "Neck",
+              "rotation"
+            ],
+            [
+              "Head",
+              "rotation"
+            ],
+            [
+              "Tail",
+              "rotation"
+            ],
+            [
+              "WingRoot.L",
+              "rotation"
+            ],
+            [
+              "Elbow.L",
+              "rotation"
+            ],
+            [
+              "Wrist.L",
+              "rotation"
+            ],
+            [
+              "Tip.L",
+              "rotation"
+            ],
+            [
+              "WingRoot.R",
+              "rotation"
+            ],
+            [
+              "Elbow.R",
+              "rotation"
+            ],
+            [
+              "Wrist.R",
+              "rotation"
+            ],
+            [
+              "Tip.R",
+              "rotation"
+            ]
+          ],
+          "root_and_object_channels": 0
+        },
+        "Land_ShallowWater": {
+          "duration_s": 1.6666666666666667,
+          "targets": [
+            [
+              "Body",
+              "translation"
+            ],
+            [
+              "Body",
+              "rotation"
+            ],
+            [
+              "Foot.L",
+              "rotation"
+            ],
+            [
+              "Foot.R",
+              "rotation"
+            ],
+            [
+              "Neck",
+              "rotation"
+            ],
+            [
+              "Head",
+              "rotation"
+            ],
+            [
+              "Tail",
+              "rotation"
+            ],
+            [
+              "WingRoot.L",
+              "rotation"
+            ],
+            [
+              "Elbow.L",
+              "rotation"
+            ],
+            [
+              "Wrist.L",
+              "rotation"
+            ],
+            [
+              "Tip.L",
+              "rotation"
+            ],
+            [
+              "WingRoot.R",
+              "rotation"
+            ],
+            [
+              "Elbow.R",
+              "rotation"
+            ],
+            [
+              "Wrist.R",
+              "rotation"
+            ],
+            [
+              "Tip.R",
+              "rotation"
+            ]
+          ],
+          "root_and_object_channels": 0
+        }
+      },
+      "same_topology_uv_skin_axes_material_variants_and_texture_bytes": "pass"
+    },
+    "roundtrip": {
+      "clips": {
+        "Land_ShallowWater": {
+          "samples": 161,
+          "duration_s": 1.6666666666666667,
+          "max_mesh_error_BU_integer_and_half": [
+            2.465590637887301e-06,
+            0.0009071565034804061
+          ]
+        },
+        "Land_Mudflat": {
+          "samples": 161,
+          "duration_s": 1.6666666666666667,
+          "max_mesh_error_BU_integer_and_half": [
+            2.4830114803398816e-06,
+            0.0007905750386604695
+          ]
+        }
+      },
+      "imported_skin_axes_pivot_scale_and_plumage": "pass"
+    },
+    "editable_source_reopen": {
+      "status": "pass",
+      "actions": [
+        "Land_Mudflat",
+        "Land_ShallowWater"
+      ],
+      "packed_images": 4
+    }
+  },
+  "preview_decode": {
+    "status": "pass",
+    "streams": {
+      "preview_landing_flock_12.mp4": {
+        "codec_name": "h264",
+        "width": 852,
+        "height": 394,
+        "r_frame_rate": "12/1",
+        "duration": "2.916667",
+        "nb_frames": "35"
+      },
+      "preview_water_landing_detail.mp4": {
+        "codec_name": "h264",
+        "width": 832,
+        "height": 468,
+        "r_frame_rate": "12/1",
+        "duration": "1.750000",
+        "nb_frames": "21"
+      }
+    }
+  },
+  "app_graybox_simulator": {
+    "date": "2026-11-14 Asia/Shanghai",
+    "device": "iPhone 18 Pro",
+    "ios": "27.2",
+    "commands": [
+      "./Scripts/build.sh",
+      "./Scripts/test.sh"
+    ],
+    "build": "pass",
+    "tests": "pass",
+    "tests_run": 340,
+    "failures": 0,
+    "xcresult": "/Users/pacoramirez/Library/Developer/Xcode/DerivedData/FeatherTide-bjxcplhjeiulklfoeorevomninlb/Logs/Test/Test-FeatherTide-2026.11.14_15-54-38-+0800.xcresult",
+    "scope": "Shared App graybox baseline for ANM-007–009."
+  },
+  "visual_review": {
+    "rear_1x": "Dark flight feather edge and head bars read in appropriate poses.",
+    "rear_half": "Forward bar is faint; dark flight feather edge reads.",
+    "method": "Blender native-size stills and decoded video frames.",
+    "paco_signoff": "pending"
+  },
+  "redline_review": {
+    "scope": "Animation assets and review renders. No new player-facing rules or feedback.",
+    "runtime_performance": "待真机验证"
+  },
+  "pending": {
+    "paco": "Motion, screen readability and separate MAT-002 review.",
+    "realitykit_usdz": "Clip conversion, in-game state/phase handoffs, terrain and actual flock. Validate flight input lock and real mud/water contact.",
+    "iphone_ipad": "Display, touch, camera, performance."
+  }
+}

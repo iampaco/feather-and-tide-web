@@ -1,0 +1,1879 @@
+{
+  "schemaVersion": 1,
+  "levelRevision": "reindeer-p3-5",
+  "id": "reindeer",
+  "title": "苔原过路",
+  "titleEn": "Tundra Crossing",
+  "species": "reindeer",
+  "modes": ["journey"],
+  "bounds": {
+    "min": {
+      "x": -72,
+      "z": -30
+    },
+    "max": {
+      "x": 72,
+      "z": 620
+    }
+  },
+  "spawn": {
+    "x": 0,
+    "z": 12
+  },
+  "spawnSegment": "R0",
+  "routes": ["dust", "greenbelt"],
+  "segments": [
+    {
+      "id": "R0",
+      "title": "冬林出发",
+      "titleEn": "Winter Woods",
+      "start": -30,
+      "wind": {
+        "x": 0,
+        "z": 0
+      },
+      "color": "#c6c6cb"
+    },
+    {
+      "id": "R1",
+      "title": "公路与涵洞",
+      "titleEn": "Road and Culvert",
+      "start": 91,
+      "wind": {
+        "x": 0,
+        "z": 0
+      },
+      "color": "#bdc5c2"
+    },
+    {
+      "id": "R2",
+      "title": "围栏缺口",
+      "titleEn": "Fence Gaps",
+      "start": 207,
+      "wind": {
+        "x": 0,
+        "z": 0
+      },
+      "color": "#c8c5b6"
+    },
+    {
+      "id": "R3",
+      "title": "矿业廊道",
+      "titleEn": "Mining Corridor",
+      "start": 328,
+      "wind": {
+        "x": 0,
+        "z": 0
+      },
+      "color": "#bfb2a4"
+    },
+    {
+      "id": "R4",
+      "title": "春季苔原",
+      "titleEn": "Spring Tundra",
+      "start": 525,
+      "wind": {
+        "x": 0,
+        "z": 0
+      },
+      "color": "#b9c8ae"
+    }
+  ],
+  "road": {
+    "near": 120,
+    "far": 132,
+    "vehicleId": "road-vehicle",
+    "culvert": {
+      "left": -19,
+      "right": -8,
+      "near": 108,
+      "far": 144,
+      "depth": 3
+    }
+  },
+  "barriers": [
+    {
+      "id": "culvert-west",
+      "kind": "culvert",
+      "label": "涵洞护墙",
+      "labelEn": "Culvert Retaining Wall",
+      "points": [
+        {
+          "x": -19.85,
+          "z": 108
+        },
+        {
+          "x": -19,
+          "z": 108
+        },
+        {
+          "x": -19,
+          "z": 144
+        },
+        {
+          "x": -19.85,
+          "z": 144
+        },
+        {
+          "x": -19.85,
+          "z": 108
+        }
+      ]
+    },
+    {
+      "id": "culvert-east",
+      "kind": "culvert",
+      "label": "涵洞护墙",
+      "labelEn": "Culvert Retaining Wall",
+      "points": [
+        {
+          "x": -8,
+          "z": 108
+        },
+        {
+          "x": -7.15,
+          "z": 108
+        },
+        {
+          "x": -7.15,
+          "z": 144
+        },
+        {
+          "x": -8,
+          "z": 144
+        },
+        {
+          "x": -8,
+          "z": 108
+        }
+      ]
+    },
+    {
+      "id": "fence-west",
+      "kind": "fence",
+      "label": "西段围栏",
+      "labelEn": "West Fence",
+      "points": [
+        {
+          "x": -72,
+          "z": 267
+        },
+        {
+          "x": -10.85,
+          "z": 267
+        },
+        {
+          "x": -10.85,
+          "z": 269
+        },
+        {
+          "x": -72,
+          "z": 269
+        },
+        {
+          "x": -72,
+          "z": 267
+        }
+      ]
+    },
+    {
+      "id": "fence-middle",
+      "kind": "fence",
+      "label": "中段围栏",
+      "labelEn": "Middle Fence",
+      "points": [
+        {
+          "x": -9.15,
+          "z": 267
+        },
+        {
+          "x": -3.3,
+          "z": 267
+        },
+        {
+          "x": -3.3,
+          "z": 269
+        },
+        {
+          "x": -9.15,
+          "z": 269
+        },
+        {
+          "x": -9.15,
+          "z": 267
+        }
+      ]
+    },
+    {
+      "id": "fence-middle-short",
+      "kind": "fence",
+      "label": "中段围栏",
+      "labelEn": "Middle Fence",
+      "points": [
+        {
+          "x": 1.3,
+          "z": 267
+        },
+        {
+          "x": 10,
+          "z": 267
+        },
+        {
+          "x": 10,
+          "z": 269
+        },
+        {
+          "x": 1.3,
+          "z": 269
+        },
+        {
+          "x": 1.3,
+          "z": 267
+        }
+      ]
+    },
+    {
+      "id": "fence-east",
+      "kind": "fence",
+      "label": "东段围栏",
+      "labelEn": "East Fence",
+      "points": [
+        {
+          "x": 24,
+          "z": 267
+        },
+        {
+          "x": 72,
+          "z": 267
+        },
+        {
+          "x": 72,
+          "z": 269
+        },
+        {
+          "x": 24,
+          "z": 269
+        },
+        {
+          "x": 24,
+          "z": 267
+        }
+      ]
+    },
+    {
+      "id": "old-cut",
+      "kind": "slope",
+      "label": "封闭的旧路",
+      "labelEn": "Closed Old Road",
+      "points": [
+        {
+          "x": -6,
+          "z": 365
+        },
+        {
+          "x": 6,
+          "z": 365
+        },
+        {
+          "x": 6,
+          "z": 439
+        },
+        {
+          "x": -6,
+          "z": 439
+        },
+        {
+          "x": -6,
+          "z": 365
+        }
+      ]
+    },
+    {
+      "id": "snowbank-west",
+      "kind": "slope",
+      "label": "积雪坡",
+      "labelEn": "Snowy Slope",
+      "points": [
+        {
+          "x": -47,
+          "z": 53
+        },
+        {
+          "x": -29,
+          "z": 53
+        },
+        {
+          "x": -29,
+          "z": 77
+        },
+        {
+          "x": -47,
+          "z": 77
+        },
+        {
+          "x": -47,
+          "z": 53
+        }
+      ]
+    },
+    {
+      "id": "snowbank-east",
+      "kind": "slope",
+      "label": "冻土坡",
+      "labelEn": "Frozen Slope",
+      "points": [
+        {
+          "x": 20,
+          "z": 59
+        },
+        {
+          "x": 47,
+          "z": 59
+        },
+        {
+          "x": 47,
+          "z": 83
+        },
+        {
+          "x": 20,
+          "z": 83
+        },
+        {
+          "x": 20,
+          "z": 59
+        }
+      ]
+    },
+    {
+      "id": "snowbank-trail",
+      "kind": "slope",
+      "label": "林间积雪，两侧可绕",
+      "labelEn": "Snowdrift · Pass on Either Side",
+      "points": [
+        {
+          "x": -8,
+          "z": 51
+        },
+        {
+          "x": 8,
+          "z": 51
+        },
+        {
+          "x": 8,
+          "z": 55
+        },
+        {
+          "x": -8,
+          "z": 55
+        },
+        {
+          "x": -8,
+          "z": 51
+        }
+      ]
+    },
+    {
+      "id": "snowbank-approach",
+      "kind": "slope",
+      "label": "通道入口雪坡",
+      "labelEn": "Snowy Slope at the Entrance",
+      "points": [
+        {
+          "x": -8,
+          "z": 105
+        },
+        {
+          "x": -3,
+          "z": 105
+        },
+        {
+          "x": -3,
+          "z": 108
+        },
+        {
+          "x": -8,
+          "z": 108
+        },
+        {
+          "x": -8,
+          "z": 105
+        }
+      ]
+    },
+    {
+      "id": "fence-bend-west",
+      "kind": "fence",
+      "label": "转弯围栏西段",
+      "labelEn": "West Corner Fence",
+      "points": [
+        {
+          "x": -72,
+          "z": 292
+        },
+        {
+          "x": -11,
+          "z": 292
+        },
+        {
+          "x": -11,
+          "z": 294
+        },
+        {
+          "x": -72,
+          "z": 294
+        },
+        {
+          "x": -72,
+          "z": 292
+        }
+      ]
+    },
+    {
+      "id": "fence-bend-east",
+      "kind": "fence",
+      "label": "转弯围栏东段",
+      "labelEn": "East Corner Fence",
+      "points": [
+        {
+          "x": -1,
+          "z": 292
+        },
+        {
+          "x": 72,
+          "z": 292
+        },
+        {
+          "x": 72,
+          "z": 294
+        },
+        {
+          "x": -1,
+          "z": 294
+        },
+        {
+          "x": -1,
+          "z": 292
+        }
+      ]
+    },
+    {
+      "id": "fence-exit-west",
+      "kind": "fence",
+      "label": "出口围栏西段",
+      "labelEn": "West Exit Fence",
+      "points": [
+        {
+          "x": -72,
+          "z": 314
+        },
+        {
+          "x": 0.7,
+          "z": 314
+        },
+        {
+          "x": 0.7,
+          "z": 316
+        },
+        {
+          "x": -72,
+          "z": 316
+        },
+        {
+          "x": -72,
+          "z": 314
+        }
+      ]
+    },
+    {
+      "id": "fence-exit-short",
+      "kind": "fence",
+      "label": "出口围栏西段",
+      "labelEn": "West Exit Fence",
+      "points": [
+        {
+          "x": 5.3,
+          "z": 314
+        },
+        {
+          "x": 10,
+          "z": 314
+        },
+        {
+          "x": 10,
+          "z": 316
+        },
+        {
+          "x": 5.3,
+          "z": 316
+        },
+        {
+          "x": 5.3,
+          "z": 314
+        }
+      ]
+    },
+    {
+      "id": "fence-exit-east",
+      "kind": "fence",
+      "label": "出口围栏东段",
+      "labelEn": "East Exit Fence",
+      "points": [
+        {
+          "x": 24,
+          "z": 314
+        },
+        {
+          "x": 72,
+          "z": 314
+        },
+        {
+          "x": 72,
+          "z": 316
+        },
+        {
+          "x": 24,
+          "z": 316
+        },
+        {
+          "x": 24,
+          "z": 314
+        }
+      ]
+    },
+    {
+      "id": "mine-east-bank",
+      "kind": "slope",
+      "label": "矿区外围陡坡",
+      "labelEn": "Steep Slope by the Mine",
+      "points": [
+        {
+          "x": 35,
+          "z": 360
+        },
+        {
+          "x": 72,
+          "z": 360
+        },
+        {
+          "x": 72,
+          "z": 458
+        },
+        {
+          "x": 35,
+          "z": 458
+        },
+        {
+          "x": 35,
+          "z": 360
+        }
+      ]
+    },
+    {
+      "id": "mine-west-spur",
+      "kind": "slope",
+      "label": "恢复带上段土坡",
+      "labelEn": "Upper Greenbelt Slope",
+      "points": [
+        {
+          "x": -35,
+          "z": 365
+        },
+        {
+          "x": -6,
+          "z": 365
+        },
+        {
+          "x": -6,
+          "z": 395
+        },
+        {
+          "x": -35,
+          "z": 395
+        },
+        {
+          "x": -35,
+          "z": 365
+        }
+      ]
+    },
+    {
+      "id": "mine-west-bank",
+      "kind": "slope",
+      "label": "恢复带下段土坡",
+      "labelEn": "Lower Greenbelt Slope",
+      "points": [
+        {
+          "x": -72,
+          "z": 413
+        },
+        {
+          "x": -31,
+          "z": 413
+        },
+        {
+          "x": -31,
+          "z": 441
+        },
+        {
+          "x": -72,
+          "z": 441
+        },
+        {
+          "x": -72,
+          "z": 413
+        }
+      ]
+    }
+  ],
+  "zones": [
+    {
+      "id": "winter-rest",
+      "kind": "sanctuary",
+      "label": "冬林避风处",
+      "labelEn": "Winter Woods Shelter",
+      "points": [
+        {
+          "x": -24,
+          "z": -25
+        },
+        {
+          "x": 24,
+          "z": -25
+        },
+        {
+          "x": 24,
+          "z": 43
+        },
+        {
+          "x": -24,
+          "z": 43
+        },
+        {
+          "x": -24,
+          "z": -25
+        }
+      ]
+    },
+    {
+      "id": "vehicle-warning",
+      "kind": "warning",
+      "label": "前方公路",
+      "labelEn": "Road Ahead",
+      "points": [
+        {
+          "x": -72,
+          "z": 99
+        },
+        {
+          "x": 72,
+          "z": 99
+        },
+        {
+          "x": 72,
+          "z": 153
+        },
+        {
+          "x": -72,
+          "z": 153
+        },
+        {
+          "x": -72,
+          "z": 99
+        }
+      ],
+      "hazardId": "road-vehicle"
+    },
+    {
+      "id": "road-vehicle",
+      "kind": "hazard",
+      "label": "公路车辆",
+      "labelEn": "Road Traffic",
+      "points": [
+        {
+          "x": -72,
+          "z": 123.4
+        },
+        {
+          "x": -65,
+          "z": 123.4
+        },
+        {
+          "x": -65,
+          "z": 127.7
+        },
+        {
+          "x": -72,
+          "z": 127.7
+        },
+        {
+          "x": -72,
+          "z": 123.4
+        }
+      ],
+      "cost": 0.14,
+      "motion": {
+        "travel": {
+          "x": 137,
+          "z": 0
+        },
+        "periodTicks": 1140,
+        "phaseTicks": 176
+      }
+    },
+    {
+      "id": "near-shoulder",
+      "kind": "sanctuary",
+      "label": "近侧安全路肩",
+      "labelEn": "Near Shoulder",
+      "points": [
+        {
+          "x": -22,
+          "z": 98
+        },
+        {
+          "x": 3,
+          "z": 98
+        },
+        {
+          "x": 3,
+          "z": 119
+        },
+        {
+          "x": -22,
+          "z": 119
+        },
+        {
+          "x": -22,
+          "z": 98
+        }
+      ]
+    },
+    {
+      "id": "far-shoulder",
+      "kind": "sanctuary",
+      "label": "远侧安全路肩",
+      "labelEn": "Far Shoulder",
+      "points": [
+        {
+          "x": -29,
+          "z": 145
+        },
+        {
+          "x": 22,
+          "z": 145
+        },
+        {
+          "x": 22,
+          "z": 159
+        },
+        {
+          "x": -29,
+          "z": 159
+        },
+        {
+          "x": -29,
+          "z": 145
+        }
+      ]
+    },
+    {
+      "id": "first-rest",
+      "kind": "sanctuary",
+      "label": "冬林缓坡",
+      "labelEn": "Winter Woods Slope",
+      "points": [
+        {
+          "x": -47,
+          "z": 158
+        },
+        {
+          "x": 47,
+          "z": 158
+        },
+        {
+          "x": 47,
+          "z": 207
+        },
+        {
+          "x": -47,
+          "z": 207
+        },
+        {
+          "x": -47,
+          "z": 158
+        }
+      ]
+    },
+    {
+      "id": "C1",
+      "kind": "checkpoint",
+      "label": "公路后的缓坡",
+      "labelEn": "Slope Beyond the Road",
+      "points": [
+        {
+          "x": -47,
+          "z": 162
+        },
+        {
+          "x": 47,
+          "z": 162
+        },
+        {
+          "x": 47,
+          "z": 206
+        },
+        {
+          "x": -47,
+          "z": 206
+        },
+        {
+          "x": -47,
+          "z": 162
+        }
+      ]
+    },
+    {
+      "id": "fence-rest",
+      "kind": "sanctuary",
+      "label": "围栏间的集队地",
+      "labelEn": "Gathering Area Between the Fences",
+      "points": [
+        {
+          "x": -18,
+          "z": 275
+        },
+        {
+          "x": 28,
+          "z": 275
+        },
+        {
+          "x": 28,
+          "z": 287
+        },
+        {
+          "x": -18,
+          "z": 287
+        },
+        {
+          "x": -18,
+          "z": 275
+        }
+      ]
+    },
+    {
+      "id": "dust-bank",
+      "kind": "interference",
+      "label": "尘雾边缘",
+      "labelEn": "Dust Edge",
+      "points": [
+        {
+          "x": 6,
+          "z": 360
+        },
+        {
+          "x": 35,
+          "z": 360
+        },
+        {
+          "x": 35,
+          "z": 386
+        },
+        {
+          "x": 6,
+          "z": 386
+        },
+        {
+          "x": 6,
+          "z": 360
+        }
+      ],
+      "strain": 0.55
+    },
+    {
+      "id": "green-supply",
+      "kind": "supply",
+      "label": "恢复植被带",
+      "labelEn": "Restored Greenbelt",
+      "points": [
+        {
+          "x": -55,
+          "z": 362
+        },
+        {
+          "x": -36,
+          "z": 362
+        },
+        {
+          "x": -36,
+          "z": 405
+        },
+        {
+          "x": -55,
+          "z": 405
+        },
+        {
+          "x": -55,
+          "z": 362
+        }
+      ],
+      "capacity": 0.32
+    },
+    {
+      "id": "green-rest",
+      "kind": "sanctuary",
+      "label": "苔藓休息地",
+      "labelEn": "Moss Resting Area",
+      "points": [
+        {
+          "x": -28,
+          "z": 416
+        },
+        {
+          "x": -9,
+          "z": 416
+        },
+        {
+          "x": -9,
+          "z": 448
+        },
+        {
+          "x": -28,
+          "z": 448
+        },
+        {
+          "x": -28,
+          "z": 416
+        }
+      ]
+    },
+    {
+      "id": "last-rest",
+      "kind": "sanctuary",
+      "label": "开阔缓坡",
+      "labelEn": "Open Gentle Slope",
+      "points": [
+        {
+          "x": -55,
+          "z": 487
+        },
+        {
+          "x": 55,
+          "z": 487
+        },
+        {
+          "x": 55,
+          "z": 534
+        },
+        {
+          "x": -55,
+          "z": 534
+        },
+        {
+          "x": -55,
+          "z": 487
+        }
+      ]
+    },
+    {
+      "id": "C2",
+      "kind": "checkpoint",
+      "label": "春苔前的缓坡",
+      "labelEn": "Slope Before the Spring Moss",
+      "points": [
+        {
+          "x": -53,
+          "z": 490
+        },
+        {
+          "x": 53,
+          "z": 490
+        },
+        {
+          "x": 53,
+          "z": 533
+        },
+        {
+          "x": -53,
+          "z": 533
+        },
+        {
+          "x": -53,
+          "z": 490
+        }
+      ]
+    },
+    {
+      "id": "tundra-rest",
+      "kind": "sanctuary",
+      "label": "春季苔原",
+      "labelEn": "Spring Tundra",
+      "points": [
+        {
+          "x": -58,
+          "z": 551
+        },
+        {
+          "x": 58,
+          "z": 551
+        },
+        {
+          "x": 58,
+          "z": 619
+        },
+        {
+          "x": -58,
+          "z": 619
+        },
+        {
+          "x": -58,
+          "z": 551
+        }
+      ]
+    },
+    {
+      "id": "tundra-goal",
+      "kind": "goal",
+      "label": "春季苔原",
+      "labelEn": "Spring Tundra",
+      "points": [
+        {
+          "x": -50,
+          "z": 563
+        },
+        {
+          "x": 50,
+          "z": 563
+        },
+        {
+          "x": 50,
+          "z": 613
+        },
+        {
+          "x": -50,
+          "z": 613
+        },
+        {
+          "x": -50,
+          "z": 563
+        }
+      ]
+    },
+    {
+      "id": "winter-gather",
+      "kind": "sanctuary",
+      "label": "林缘集队空地",
+      "labelEn": "Clearing by the Woods",
+      "points": [
+        {
+          "x": -24,
+          "z": 78
+        },
+        {
+          "x": 19,
+          "z": 78
+        },
+        {
+          "x": 19,
+          "z": 98
+        },
+        {
+          "x": -24,
+          "z": 98
+        },
+        {
+          "x": -24,
+          "z": 78
+        }
+      ]
+    },
+    {
+      "id": "fence-release",
+      "kind": "sanctuary",
+      "label": "围栏后的静地",
+      "labelEn": "Quiet Ground Beyond the Fence",
+      "points": [
+        {
+          "x": -28,
+          "z": 318
+        },
+        {
+          "x": 30,
+          "z": 318
+        },
+        {
+          "x": 30,
+          "z": 346
+        },
+        {
+          "x": -28,
+          "z": 346
+        },
+        {
+          "x": -28,
+          "z": 318
+        }
+      ]
+    },
+    {
+      "id": "dust-bank-exit",
+      "kind": "interference",
+      "label": "出口尘雾",
+      "labelEn": "Dust at the Exit",
+      "points": [
+        {
+          "x": 6,
+          "z": 416
+        },
+        {
+          "x": 35,
+          "z": 416
+        },
+        {
+          "x": 35,
+          "z": 442
+        },
+        {
+          "x": 6,
+          "z": 442
+        },
+        {
+          "x": 6,
+          "z": 416
+        }
+      ],
+      "strain": 0.55
+    },
+    {
+      "id": "dust-shelter",
+      "kind": "sanctuary",
+      "label": "背风集队地",
+      "labelEn": "Sheltered Gathering Area",
+      "points": [
+        {
+          "x": 6,
+          "z": 387
+        },
+        {
+          "x": 35,
+          "z": 387
+        },
+        {
+          "x": 35,
+          "z": 415
+        },
+        {
+          "x": 6,
+          "z": 415
+        },
+        {
+          "x": 6,
+          "z": 387
+        }
+      ]
+    },
+    {
+      "id": "green-supply-exit",
+      "kind": "supply",
+      "label": "苔藓补给地",
+      "labelEn": "Moss Forage",
+      "points": [
+        {
+          "x": -28,
+          "z": 416
+        },
+        {
+          "x": -9,
+          "z": 416
+        },
+        {
+          "x": -9,
+          "z": 448
+        },
+        {
+          "x": -28,
+          "z": 448
+        },
+        {
+          "x": -28,
+          "z": 416
+        }
+      ],
+      "capacity": 0.16
+    },
+    {
+      "id": "dust-entry-rest",
+      "kind": "sanctuary",
+      "label": "入口背风地",
+      "labelEn": "Sheltered Entrance",
+      "points": [
+        {
+          "x": 6,
+          "z": 347
+        },
+        {
+          "x": 35,
+          "z": 347
+        },
+        {
+          "x": 35,
+          "z": 359
+        },
+        {
+          "x": 6,
+          "z": 359
+        },
+        {
+          "x": 6,
+          "z": 347
+        }
+      ]
+    },
+    {
+      "id": "winter-pines",
+      "kind": "sanctuary",
+      "label": "松荫缓路",
+      "labelEn": "Pine-Shaded Trail",
+      "points": [
+        {
+          "x": -25,
+          "z": 40
+        },
+        {
+          "x": -9,
+          "z": 40
+        },
+        {
+          "x": -9,
+          "z": 75
+        },
+        {
+          "x": -25,
+          "z": 75
+        },
+        {
+          "x": -25,
+          "z": 40
+        }
+      ]
+    },
+    {
+      "id": "dust-exit-rest",
+      "kind": "sanctuary",
+      "label": "矿区出口缓坡",
+      "labelEn": "Gentle Slope Beyond the Mine",
+      "points": [
+        {
+          "x": 6,
+          "z": 443
+        },
+        {
+          "x": 35,
+          "z": 443
+        },
+        {
+          "x": 35,
+          "z": 464
+        },
+        {
+          "x": 6,
+          "z": 464
+        },
+        {
+          "x": 6,
+          "z": 443
+        }
+      ]
+    },
+    {
+      "id": "thaw-overlook",
+      "kind": "sanctuary",
+      "label": "融雪观景坡",
+      "labelEn": "Snowmelt Overlook",
+      "points": [
+        {
+          "x": -3,
+          "z": 533
+        },
+        {
+          "x": 29,
+          "z": 533
+        },
+        {
+          "x": 29,
+          "z": 551
+        },
+        {
+          "x": -3,
+          "z": 551
+        },
+        {
+          "x": -3,
+          "z": 533
+        }
+      ]
+    }
+  ],
+  "triggers": [
+    {
+      "id": "dust-gate",
+      "kind": "route",
+      "label": "近路 · 尘雾边缘",
+      "labelEn": "Shortcut · Dust Edge",
+      "points": [
+        {
+          "x": 0,
+          "z": 343
+        },
+        {
+          "x": 72,
+          "z": 343
+        },
+        {
+          "x": 72,
+          "z": 350
+        },
+        {
+          "x": 0,
+          "z": 350
+        },
+        {
+          "x": 0,
+          "z": 343
+        }
+      ],
+      "route": "dust",
+      "crossingZ": 347
+    },
+    {
+      "id": "green-gate",
+      "kind": "route",
+      "label": "外绕 · 恢复植被带",
+      "labelEn": "Detour · Restored Greenbelt",
+      "points": [
+        {
+          "x": -72,
+          "z": 343
+        },
+        {
+          "x": 0,
+          "z": 343
+        },
+        {
+          "x": 0,
+          "z": 350
+        },
+        {
+          "x": -72,
+          "z": 350
+        },
+        {
+          "x": -72,
+          "z": 343
+        }
+      ],
+      "route": "greenbelt",
+      "crossingZ": 347
+    },
+    {
+      "id": "mining-merge",
+      "kind": "merge",
+      "label": "两路汇合",
+      "labelEn": "Routes Meet",
+      "points": [
+        {
+          "x": -72,
+          "z": 471
+        },
+        {
+          "x": 72,
+          "z": 471
+        },
+        {
+          "x": 72,
+          "z": 479
+        },
+        {
+          "x": -72,
+          "z": 479
+        },
+        {
+          "x": -72,
+          "z": 471
+        }
+      ]
+    }
+  ],
+  "landmarks": [
+    {
+      "id": "winter-trail",
+      "label": "松荫缓路 · 可停步",
+      "labelEn": "Pine-Shaded Trail · Safe to Stop",
+      "pos": {
+        "x": -16,
+        "z": 48
+      },
+      "kind": "beacon"
+    },
+    {
+      "id": "shoulder-sign",
+      "label": "路肩集队点",
+      "labelEn": "Roadside Gathering Point",
+      "pos": {
+        "x": -13.5,
+        "z": 103
+      },
+      "kind": "beacon"
+    },
+    {
+      "id": "culvert-sign",
+      "label": "动物通道",
+      "labelEn": "Wildlife Crossing",
+      "pos": {
+        "x": -13.5,
+        "z": 111
+      },
+      "kind": "beacon"
+    },
+    {
+      "id": "culvert-exit",
+      "label": "远侧路肩 · 可集队",
+      "labelEn": "Far Shoulder · Room to Regroup",
+      "pos": {
+        "x": -13.5,
+        "z": 155
+      },
+      "kind": "beacon"
+    },
+    {
+      "id": "wide-sign",
+      "label": "宽口 · 稳步绕行",
+      "labelEn": "Wide Gap · Easy Passage",
+      "pos": {
+        "x": 17,
+        "z": 267
+      },
+      "kind": "beacon"
+    },
+    {
+      "id": "narrow-sign",
+      "label": "窄口 · 不适合全队",
+      "labelEn": "Narrow Gap · Too Tight for the Herd",
+      "pos": {
+        "x": -10,
+        "z": 267
+      },
+      "kind": "beacon"
+    },
+    {
+      "id": "dust-sign",
+      "label": "近路 · 留意尘雾时机",
+      "labelEn": "Shortcut · Watch the Dust",
+      "pos": {
+        "x": 15,
+        "z": 345
+      },
+      "kind": "beacon"
+    },
+    {
+      "id": "green-sign",
+      "label": "恢复带 · 更远，可补给",
+      "labelEn": "Greenbelt · Longer Route with Supplies",
+      "pos": {
+        "x": -24,
+        "z": 345
+      },
+      "kind": "beacon"
+    },
+    {
+      "id": "supply-sign",
+      "label": "恢复植被带",
+      "labelEn": "Restored Greenbelt",
+      "pos": {
+        "x": -47,
+        "z": 383
+      },
+      "kind": "beacon"
+    },
+    {
+      "id": "tundra-sign",
+      "label": "春季苔原",
+      "labelEn": "Spring Tundra",
+      "pos": {
+        "x": 0,
+        "z": 572
+      },
+      "kind": "beacon"
+    },
+    {
+      "id": "winter-right",
+      "label": "开阔小径 · 可巡航",
+      "labelEn": "Open Trail · Keep a Steady Pace",
+      "pos": {
+        "x": 14,
+        "z": 48
+      },
+      "kind": "beacon"
+    },
+    {
+      "id": "winter-gather-sign",
+      "label": "停步看看队尾",
+      "labelEn": "Stop and Check the Herd",
+      "pos": {
+        "x": -13.5,
+        "z": 88
+      },
+      "kind": "beacon"
+    },
+    {
+      "id": "fence-bend-sign",
+      "label": "共享宽口 · 留意队尾",
+      "labelEn": "Shared Wide Gap · Watch the Herd",
+      "pos": {
+        "x": -6,
+        "z": 293
+      },
+      "kind": "beacon"
+    },
+    {
+      "id": "fence-exit-sign",
+      "label": "出口宽口 · 沿蹄迹转弯",
+      "labelEn": "Wide Exit Gap · Follow the Hoofprints Around",
+      "pos": {
+        "x": 17,
+        "z": 315
+      },
+      "kind": "beacon"
+    },
+    {
+      "id": "dust-entry",
+      "label": "入口背风地 · 可收队",
+      "labelEn": "Sheltered Entrance · Regroup Here",
+      "pos": {
+        "x": 17,
+        "z": 353
+      },
+      "kind": "beacon"
+    },
+    {
+      "id": "dust-shelter-sign",
+      "label": "背风集队地",
+      "labelEn": "Sheltered Gathering Area",
+      "pos": {
+        "x": 17,
+        "z": 403
+      },
+      "kind": "beacon"
+    },
+    {
+      "id": "green-turn",
+      "label": "沿恢复带绕行",
+      "labelEn": "Detour Through the Restored Greenbelt",
+      "pos": {
+        "x": -47,
+        "z": 361
+      },
+      "kind": "beacon"
+    },
+    {
+      "id": "green-return",
+      "label": "苔藓补给地",
+      "labelEn": "Moss Forage",
+      "pos": {
+        "x": -18,
+        "z": 425
+      },
+      "kind": "beacon"
+    },
+    {
+      "id": "thaw-turn",
+      "label": "融雪观景坡 · 可回望",
+      "labelEn": "Snowmelt Overlook · Look Back Here",
+      "pos": {
+        "x": 12,
+        "z": 545
+      },
+      "kind": "beacon"
+    },
+    {
+      "id": "thaw-return",
+      "label": "前方开阔地",
+      "labelEn": "Open Ground Ahead",
+      "pos": {
+        "x": 0,
+        "z": 559
+      },
+      "kind": "beacon"
+    },
+    {
+      "id": "dust-exit-sign",
+      "label": "矿区出口缓坡",
+      "labelEn": "Gentle Slope Beyond the Mine",
+      "kind": "beacon",
+      "pos": {
+        "x": 17,
+        "z": 453
+      }
+    },
+    {
+      "id": "short-fence-sign",
+      "label": "短弯 · 对正再过",
+      "labelEn": "Tight Turn · Line Up Before Entering",
+      "kind": "beacon",
+      "pos": {
+        "x": -1,
+        "z": 263
+      }
+    },
+    {
+      "id": "short-fence-exit",
+      "label": "短弯出口 · 过栏再转",
+      "labelEn": "Tight Turn Exit · Turn After the Fence",
+      "kind": "beacon",
+      "pos": {
+        "x": 3,
+        "z": 315
+      }
+    }
+  ],
+  "dustCycle": {
+    "zoneIds": ["dust-bank", "dust-bank-exit"],
+    "phaseTicks": 0,
+    "calmTicks": 1200,
+    "warningTicks": 240,
+    "activeTicks": 720
+  },
+  "trails": [
+    {
+      "id": "trail-winter-left",
+      "points": [
+        {
+          "x": 0,
+          "z": 12
+        },
+        {
+          "x": -16,
+          "z": 46
+        },
+        {
+          "x": -16,
+          "z": 63
+        },
+        {
+          "x": -13.5,
+          "z": 103
+        }
+      ]
+    },
+    {
+      "id": "trail-winter-right",
+      "points": [
+        {
+          "x": 0,
+          "z": 12
+        },
+        {
+          "x": 14,
+          "z": 46
+        },
+        {
+          "x": 14,
+          "z": 63
+        },
+        {
+          "x": 0,
+          "z": 92
+        },
+        {
+          "x": -13.5,
+          "z": 103
+        }
+      ]
+    },
+    {
+      "id": "trail-road",
+      "points": [
+        {
+          "x": -13.5,
+          "z": 103
+        },
+        {
+          "x": -13.5,
+          "z": 111
+        },
+        {
+          "x": -13.5,
+          "z": 144
+        },
+        {
+          "x": -13.5,
+          "z": 149
+        },
+        {
+          "x": 0,
+          "z": 195
+        }
+      ]
+    },
+    {
+      "id": "trail-fence",
+      "points": [
+        {
+          "x": 0,
+          "z": 195
+        },
+        {
+          "x": 17,
+          "z": 253
+        },
+        {
+          "x": 17,
+          "z": 279
+        },
+        {
+          "x": -6,
+          "z": 285
+        },
+        {
+          "x": -6,
+          "z": 302
+        },
+        {
+          "x": 17,
+          "z": 308
+        },
+        {
+          "x": 17,
+          "z": 323
+        },
+        {
+          "x": 0,
+          "z": 337
+        }
+      ]
+    },
+    {
+      "id": "trail-fence-short",
+      "points": [
+        {
+          "x": 0,
+          "z": 228
+        },
+        {
+          "x": 0,
+          "z": 245
+        },
+        {
+          "x": -1,
+          "z": 266
+        },
+        {
+          "x": -1,
+          "z": 272
+        },
+        {
+          "x": -6,
+          "z": 288
+        },
+        {
+          "x": -6,
+          "z": 298
+        },
+        {
+          "x": 3,
+          "z": 310
+        },
+        {
+          "x": 3,
+          "z": 318
+        },
+        {
+          "x": 3,
+          "z": 324
+        },
+        {
+          "x": 0,
+          "z": 337
+        }
+      ]
+    },
+    {
+      "id": "trail-dust",
+      "points": [
+        {
+          "x": 0,
+          "z": 337
+        },
+        {
+          "x": 17,
+          "z": 353
+        },
+        {
+          "x": 17,
+          "z": 403
+        },
+        {
+          "x": 17,
+          "z": 451
+        },
+        {
+          "x": 0,
+          "z": 482
+        }
+      ]
+    },
+    {
+      "id": "trail-greenbelt",
+      "points": [
+        {
+          "x": 0,
+          "z": 337
+        },
+        {
+          "x": -47,
+          "z": 361
+        },
+        {
+          "x": -47,
+          "z": 400
+        },
+        {
+          "x": -18,
+          "z": 406
+        },
+        {
+          "x": -18,
+          "z": 451
+        },
+        {
+          "x": 0,
+          "z": 482
+        }
+      ]
+    },
+    {
+      "id": "trail-tundra",
+      "points": [
+        {
+          "x": 0,
+          "z": 482
+        },
+        {
+          "x": 0,
+          "z": 533
+        },
+        {
+          "x": 12,
+          "z": 545
+        },
+        {
+          "x": 0,
+          "z": 559
+        },
+        {
+          "x": 0,
+          "z": 579
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "id": "ANM-002",
+  "version": "v001",
+  "status": "needs_review",
+  "blender": {
+    "geometry": {
+      "sample_step_frames": 0.5,
+      "takeoff_samples": 161,
+      "edge_length_ratio_range": [
+        0.5459192022996514,
+        1.3507714593839717
+      ],
+      "shoulder_attachment": "pass",
+      "tested_nonadjacent_pairs": 14,
+      "tested_intersections": "pass",
+      "root_fixed": "pass",
+      "handoff_position_error_BU": 0.0,
+      "handoff_velocity_difference_BU_per_s": 0.0018886679544226016
+    },
+    "flat_shore": {
+      "flat_shore_minimum_foot_clearance_game_units": 0.0027777479617268936,
+      "contact_foot_clearance_range_game_units": [
+        0.0027777479617268936,
+        0.0027777479617268936
+      ],
+      "minimum_post_release_any_vertex_clearance_game_units": 0.34047971055335563,
+      "release_frame": 25,
+      "preview_handoff_altitude_game_units": 8.055469089008879,
+      "preview_trajectory_excluded_from_export": true
+    },
+    "glb": {
+      "clip": "Takeoff_Climb",
+      "animation_count": 1,
+      "root_tracks": 0,
+      "channels": 15,
+      "duration_s": 1.6666666666666667,
+      "handoff_gltf_channel_max_error": 7.450580596937592e-09,
+      "same_mesh_weights_inverse_bind_and_textures": "pass"
+    },
+    "roundtrip": {
+      "animated_frame_samples": 161,
+      "keyframe_mesh_error_BU": 1.831145974239328e-06,
+      "half_frame_mesh_error_BU": 0.00685740299163657,
+      "bone_hierarchy_and_local_axes": "pass"
+    },
+    "flock": {
+      "sampled_frames": 52,
+      "shared_mesh_datablocks": 1,
+      "leader": 1,
+      "followers": 11,
+      "min_screen_margin_px": 61.598647364726276,
+      "min_flat_shore_clearance_game_units": 0.0022168695980065143
+    },
+    "reopen_source": {
+      "status": "pass",
+      "active_action": "Takeoff_Climb",
+      "source_action_fps": 48,
+      "checked_frames": [
+        1,
+        18,
+        25,
+        32,
+        43,
+        81
+      ],
+      "preserved_cruise_action": true,
+      "root_fixed": true,
+      "handoff_pose_bone_matrices_match": true,
+      "packed_active_1k_textures": 4
+    }
+  },
+  "visual_review": {
+    "rear_detail": "pass — 抽帧可辨脚掌接触、抬头、蹬离后收脚、两次大幅振翅及末段回到巡航幅度。",
+    "fixed_rear": "pass — 原尺寸各关键帧及半尺寸爬升帧可区分两道横纹，深飞羽可辨；脚掌接触另有侧面证据。",
+    "fixed_rear_flock": "pass_for_blender_preview — 52 次画幅采样确认 12 只共用一个网格，使用人工摆位与延迟，检查了平岸余量。",
+    "crown_center_samples": {
+      "contact": {
+        "column_x": 426,
+        "rows_y": [
+          145,
+          147,
+          151
+        ],
+        "front_bar_gap_rear_bar_luma_rgb8": [
+          75.6,
+          176.3,
+          52.2
+        ]
+      },
+      "push": {
+        "column_x": 426,
+        "rows_y": [
+          138,
+          140,
+          145
+        ],
+        "front_bar_gap_rear_bar_luma_rgb8": [
+          62.2,
+          176.3,
+          46.9
+        ]
+      },
+      "climb": {
+        "column_x": 426,
+        "rows_y": [
+          139,
+          141,
+          146
+        ],
+        "front_bar_gap_rear_bar_luma_rgb8": [
+          59.5,
+          176.1,
+          47.9
+        ]
+      },
+      "handoff": {
+        "column_x": 426,
+        "rows_y": [
+          142,
+          144,
+          149
+        ],
+        "front_bar_gap_rear_bar_luma_rgb8": [
+          69.1,
+          177.3,
+          49.2
+        ]
+      },
+      "half_climb": {
+        "column_x": 426,
+        "rows_y": [
+          167,
+          169,
+          171
+        ],
+        "front_bar_gap_rear_bar_luma_rgb8": [
+          94.1,
+          172.9,
+          49.0
+        ]
+      }
+    },
+    "video_decode": "pass",
+    "videos": {
+      "preview_gameplay.mp4": {
+        "codec_name": "h264",
+        "width": 852,
+        "height": 394,
+        "r_frame_rate": "24/1",
+        "duration": "2.125000",
+        "nb_frames": "51"
+      },
+      "preview_gameplay_flock_12.mp4": {
+        "codec_name": "h264",
+        "width": 852,
+        "height": 394,
+        "r_frame_rate": "24/1",
+        "duration": "2.125000",
+        "nb_frames": "51"
+      },
+      "preview_rear_detail.mp4": {
+        "codec_name": "h264",
+        "width": 832,
+        "height": 540,
+        "r_frame_rate": "24/1",
+        "duration": "2.125000",
+        "nb_frames": "51"
+      }
+    }
+  },
+  "realitykit": {
+    "status": "pending",
+    "checks": [
+      "USDZ 动作导入与 ANM-001 切换",
+      "实地脚掌接触、翼尖净空、起飞速度与轨迹",
+      "运行时雁群起飞与画幅"
+    ]
+  },
+  "iphone_ipad": {
+    "status": "pending",
+    "checks": [
+      "观感和辨识度",
+      "性能及发热"
+    ]
+  },
+  "simulator": {
+    "status": "pass",
+    "scope": "App 灰盒基线",
+    "device": "iPhone 18 Pro",
+    "os": "iOS 27.2",
+    "build": "./Scripts/build.sh",
+    "test": "./Scripts/test.sh",
+    "tests": 340,
+    "failures": 0,
+    "xcresult": "Test-FeatherTide-2026.11.14_01-39-23-+0800.xcresult"
+  },
+  "art_review": {
+    "status": "pending",
+    "scope": "Paco 复核脚掌蹬离、收腿和爬升节奏"
+  },
+  "redline_check": "已对照红线清单。交付范围为原创动作和素材库审阅证据，真机项目标为待验证。",
+  "next_asset": "ANM-003"
+}

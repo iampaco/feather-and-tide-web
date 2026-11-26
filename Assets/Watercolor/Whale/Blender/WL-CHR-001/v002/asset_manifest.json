@@ -1,0 +1,50 @@
+{
+  "id": "WL-CHR-001",
+  "version": "v002",
+  "blender": "5.2.2 LTS",
+  "source": "../v001/WL-CHR-001_whale_rig.blend",
+  "rights": "Original Feather & Tide project mesh, weights and procedural pigment. NURSE/LANE/OPEN informed the palette and are not baked into the atlas.",
+  "files": {
+    "WL-CHR-001_whale_rig.blend": "2485bc7141a7ae310b55a0edd4f9a81f650a022e77053d428ca697337af56bc4",
+    "WL-CHR-001_whale_rig.glb": "b3339375ca3ddf2481421a9c77546039b4dac6bfcbd781fa2f2e276c5673ff42",
+    "whale-pigment.png": "b65c0c53947cf29108b955b6bba0ecad804f0dc296b54c35f8e4fbad91740bcc",
+    "paint_whale.py": "6c93afaa6ea88039ba1c4fecf16370a3cfd2f7efdb029218e095fb54b6efeb07",
+    "qa.json": "2254285797ca7a943218eead88d301915f003778f6f4bc48e209f79f99208128"
+  },
+  "blenderAxes": {
+    "forward": "+Y",
+    "up": "+Z"
+  },
+  "gltfAxes": {
+    "forward": "-Z",
+    "up": "+Y"
+  },
+  "pivot": {
+    "kind": "body",
+    "position": [
+      0,
+      0,
+      0
+    ]
+  },
+  "runtime": "public/assets/whale/whale-v002.glb",
+  "mesh": {
+    "primitives": 1,
+    "skinnedMeshes": 1,
+    "triangles": 3392,
+    "sharedAtlas": "512×512 sRGB JPEG, embedded",
+    "sourceAtlas": "whale-pigment.png"
+  },
+  "animation": {
+    "clips": [],
+    "source": "src/rendering/whale-swim.ts",
+    "poses": [
+      "Propulsion",
+      "Glide",
+      "Bank",
+      "Dive trim",
+      "Ascent trim"
+    ],
+    "rootMotion": false
+  }
+}

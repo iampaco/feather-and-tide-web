@@ -1,0 +1,612 @@
+{
+  "id": "LVL-S0",
+  "version": "v001",
+  "status": "needs_review",
+  "result": "offline_pass",
+  "mother_reopened": {
+    "sample_frames": 122,
+    "bird_samples": 1464,
+    "count": 12,
+    "all_twelve_crossed_by_frame": 325,
+    "fog_line_y_BU": 33.0,
+    "final_lowest_vertex_y_BU": 34.673988342285156,
+    "final_lowest_vertex_z_BU": 0.9779999256134033,
+    "launch_min_ground_clearance_BU": 0.00305098295211792,
+    "central_airborne_min_vertex_above_datum_BU": 0.03967392444610596,
+    "substrate_contract": {
+      "dry_flat_probes": 245,
+      "maximum_plane_error_BU": 0.0,
+      "decorative_gate_ray_probes": 1029,
+      "terminal_GrassFlat_modulo_V0_and_white_wash_corner_samples": 58,
+      "terrain_beyond_Y36_at_X0": false,
+      "water_surfaces": {
+        "ShallowPool_StartMudflat": {
+          "y_extent_BU": [
+            -4.436452388763428,
+            -1.5995612144470215
+          ],
+          "z_BU": -0.18000000715255737
+        },
+        "S0_Wash_West": {
+          "y_extent_BU": [
+            3.700000047683716,
+            34.20000076293945
+          ],
+          "z_BU": -0.18000000715255737
+        },
+        "S0_Wash_East": {
+          "y_extent_BU": [
+            3.700000047683716,
+            34.20000076293945
+          ],
+          "z_BU": -0.18000000715255737
+        }
+      }
+    },
+    "max_camera_pose_error_BU_or_unit_vector": 1.5078914929239175e-06,
+    "spawn_sightline_rays": 480,
+    "spawn_worst_conservative_screen_margin_px": 60.13045705854893,
+    "spawn_projected_bird_boxes_px": [
+      {
+        "slot": 1,
+        "pixel_bounds": [
+          375.33460879325867,
+          159.02594017982483,
+          476.66539120674133,
+          213.04049107432365
+        ]
+      },
+      {
+        "slot": 2,
+        "pixel_bounds": [
+          131.1038938164711,
+          163.0689134001732,
+          266.52971363067627,
+          219.0676237642765
+        ]
+      },
+      {
+        "slot": 3,
+        "pixel_bounds": [
+          252.58453166484833,
+          162.3814709186554,
+          367.66355895996094,
+          218.04027825593948
+        ]
+      },
+      {
+        "slot": 4,
+        "pixel_bounds": [
+          484.33644104003906,
+          162.3814709186554,
+          599.4154937267303,
+          218.04027825593948
+        ]
+      },
+      {
+        "slot": 5,
+        "pixel_bounds": [
+          585.4702863693237,
+          163.0689134001732,
+          720.8961188793182,
+          219.0676237642765
+        ]
+      },
+      {
+        "slot": 6,
+        "pixel_bounds": [
+          141.37821525335312,
+          190.29242742061615,
+          295.8344900608063,
+          260.6021432876587
+        ]
+      },
+      {
+        "slot": 7,
+        "pixel_bounds": [
+          285.5236301422119,
+          191.85269486904144,
+          413.6929557323456,
+          263.03402933478355
+        ]
+      },
+      {
+        "slot": 8,
+        "pixel_bounds": [
+          438.3070442676544,
+          191.85269486904144,
+          566.4763698577881,
+          263.03402933478355
+        ]
+      },
+      {
+        "slot": 9,
+        "pixel_bounds": [
+          556.1655099391937,
+          190.29242742061615,
+          710.6217720508575,
+          260.6021432876587
+        ]
+      },
+      {
+        "slot": 10,
+        "pixel_bounds": [
+          149.21236789226532,
+          231.4528088271618,
+          332.8593728542328,
+          326.71951881051064
+        ]
+      },
+      {
+        "slot": 11,
+        "pixel_bounds": [
+          346.92257487773895,
+          233.73560884594917,
+          505.0774505138397,
+          330.50980474054813
+        ]
+      },
+      {
+        "slot": 12,
+        "pixel_bounds": [
+          519.1406271457672,
+          231.4528088271618,
+          702.7876574993134,
+          326.71951881051064
+        ]
+      }
+    ],
+    "opening_peak_Fog_Start_alpha": 0.0,
+    "bird_pair_terrain_independent_probes": 8052,
+    "bird_reed_mesh_probes": 1464,
+    "last_fog_line_pass_by_slot": {
+      "1": {
+        "first_sample_all_vertices_above_line_frame": 313,
+        "minimum_Y_BU": 33.11809158325195,
+        "minimum_Z_BU": 0.9779999256134033
+      },
+      "2": {
+        "first_sample_all_vertices_above_line_frame": 317,
+        "minimum_Y_BU": 34.0462646484375,
+        "minimum_Z_BU": 0.9779999256134033
+      },
+      "3": {
+        "first_sample_all_vertices_above_line_frame": 317,
+        "minimum_Y_BU": 34.076263427734375,
+        "minimum_Z_BU": 0.9779999256134033
+      },
+      "4": {
+        "first_sample_all_vertices_above_line_frame": 317,
+        "minimum_Y_BU": 34.076263427734375,
+        "minimum_Z_BU": 0.9779999256134033
+      },
+      "5": {
+        "first_sample_all_vertices_above_line_frame": 317,
+        "minimum_Y_BU": 34.0462646484375,
+        "minimum_Z_BU": 0.9779999256134033
+      },
+      "6": {
+        "first_sample_all_vertices_above_line_frame": 317,
+        "minimum_Y_BU": 33.02626419067383,
+        "minimum_Z_BU": 0.9779999256134033
+      },
+      "7": {
+        "first_sample_all_vertices_above_line_frame": 321,
+        "minimum_Y_BU": 33.928855895996094,
+        "minimum_Z_BU": 0.9779999256134033
+      },
+      "8": {
+        "first_sample_all_vertices_above_line_frame": 321,
+        "minimum_Y_BU": 33.928855895996094,
+        "minimum_Z_BU": 0.9779999256134033
+      },
+      "9": {
+        "first_sample_all_vertices_above_line_frame": 317,
+        "minimum_Y_BU": 33.02626419067383,
+        "minimum_Z_BU": 0.9779999256134033
+      },
+      "10": {
+        "first_sample_all_vertices_above_line_frame": 325,
+        "minimum_Y_BU": 33.6553955078125,
+        "minimum_Z_BU": 0.9779999256134033
+      },
+      "11": {
+        "first_sample_all_vertices_above_line_frame": 325,
+        "minimum_Y_BU": 33.60539627075195,
+        "minimum_Z_BU": 0.9779999256134033
+      },
+      "12": {
+        "first_sample_all_vertices_above_line_frame": 325,
+        "minimum_Y_BU": 33.6553955078125,
+        "minimum_Z_BU": 0.9779999256134033
+      }
+    },
+    "GLB_pose_quantile_peak_error_BU": null,
+    "Fog_Start_control_reopen": {
+      "1.0": {
+        "samples": 102,
+        "max_abs_drift_BU": 1.2897491455078125,
+        "formula_error_BU": 8.172358576530314e-07,
+        "alpha_control_error": 0.0
+      },
+      "0.35": {
+        "samples": 102,
+        "max_abs_drift_BU": 0.4514122009277344,
+        "formula_error_BU": 7.341914098901725e-07,
+        "alpha_control_error": 5.960464455334602e-09
+      },
+      "0.0": {
+        "samples": 102,
+        "max_abs_drift_BU": 0.0,
+        "formula_error_BU": 0.0,
+        "alpha_control_error": 0.0
+      }
+    }
+  },
+  "GLB_reimport": {
+    "sample_frames": 122,
+    "bird_samples": 1464,
+    "count": 12,
+    "all_twelve_crossed_by_frame": 325,
+    "fog_line_y_BU": 33.0,
+    "final_lowest_vertex_y_BU": 34.673988342285156,
+    "final_lowest_vertex_z_BU": 0.9779999256134033,
+    "launch_min_ground_clearance_BU": 0.003051087260246277,
+    "central_airborne_min_vertex_above_datum_BU": 0.03967392444610596,
+    "substrate_contract": {
+      "dry_flat_probes": 245,
+      "maximum_plane_error_BU": 0.0,
+      "decorative_gate_ray_probes": 1029,
+      "terminal_GrassFlat_modulo_V0_and_white_wash_corner_samples": 87,
+      "terrain_beyond_Y36_at_X0": false,
+      "water_surfaces": {
+        "S0_Wash_East": {
+          "y_extent_BU": [
+            3.700000047683716,
+            34.20000076293945
+          ],
+          "z_BU": -0.18000000715255737
+        },
+        "S0_Wash_West": {
+          "y_extent_BU": [
+            3.700000047683716,
+            34.20000076293945
+          ],
+          "z_BU": -0.18000000715255737
+        },
+        "ShallowPool_StartMudflat": {
+          "y_extent_BU": [
+            -4.436452388763428,
+            -1.5995612144470215
+          ],
+          "z_BU": -0.18000000715255737
+        }
+      }
+    },
+    "max_camera_pose_error_BU_or_unit_vector": 1.9073486328125e-06,
+    "spawn_sightline_rays": 480,
+    "spawn_worst_conservative_screen_margin_px": 60.13045705854893,
+    "spawn_projected_bird_boxes_px": [
+      {
+        "slot": 1,
+        "pixel_bounds": [
+          375.33460879325867,
+          159.02596360445023,
+          476.665340423584,
+          213.04049107432365
+        ]
+      },
+      {
+        "slot": 2,
+        "pixel_bounds": [
+          131.1038938164711,
+          163.06893682479858,
+          266.52971363067627,
+          219.0676237642765
+        ]
+      },
+      {
+        "slot": 3,
+        "pixel_bounds": [
+          252.58453166484833,
+          162.3814943432808,
+          367.66355895996094,
+          218.04027825593948
+        ]
+      },
+      {
+        "slot": 4,
+        "pixel_bounds": [
+          484.33644104003906,
+          162.3814943432808,
+          599.415442943573,
+          218.04027825593948
+        ]
+      },
+      {
+        "slot": 5,
+        "pixel_bounds": [
+          585.4703371524811,
+          163.06893682479858,
+          720.8960680961609,
+          219.0676237642765
+        ]
+      },
+      {
+        "slot": 6,
+        "pixel_bounds": [
+          141.37822794914246,
+          190.29245084524155,
+          295.8344900608063,
+          260.602131575346
+        ]
+      },
+      {
+        "slot": 7,
+        "pixel_bounds": [
+          285.5236301422119,
+          191.85271829366684,
+          413.6929557323456,
+          263.03402933478355
+        ]
+      },
+      {
+        "slot": 8,
+        "pixel_bounds": [
+          438.3070442676544,
+          191.85271829366684,
+          566.4763698577881,
+          263.03402933478355
+        ]
+      },
+      {
+        "slot": 9,
+        "pixel_bounds": [
+          556.1655099391937,
+          190.29245084524155,
+          710.6217212677002,
+          260.602131575346
+        ]
+      },
+      {
+        "slot": 10,
+        "pixel_bounds": [
+          149.212393283844,
+          231.45283225178719,
+          332.8593474626541,
+          326.71949538588524
+        ]
+      },
+      {
+        "slot": 11,
+        "pixel_bounds": [
+          346.9225494861603,
+          233.73562055826187,
+          505.0773997306824,
+          330.50980474054813
+        ]
+      },
+      {
+        "slot": 12,
+        "pixel_bounds": [
+          519.1406779289246,
+          231.45283225178719,
+          702.7875051498413,
+          326.71949538588524
+        ]
+      }
+    ],
+    "opening_peak_Fog_Start_alpha": 0.0,
+    "bird_pair_terrain_independent_probes": 8052,
+    "bird_reed_mesh_probes": 1464,
+    "last_fog_line_pass_by_slot": {
+      "1": {
+        "first_sample_all_vertices_above_line_frame": 313,
+        "minimum_Y_BU": 33.11809158325195,
+        "minimum_Z_BU": 0.9779999852180481
+      },
+      "2": {
+        "first_sample_all_vertices_above_line_frame": 317,
+        "minimum_Y_BU": 34.0462646484375,
+        "minimum_Z_BU": 0.9779999852180481
+      },
+      "3": {
+        "first_sample_all_vertices_above_line_frame": 317,
+        "minimum_Y_BU": 34.076263427734375,
+        "minimum_Z_BU": 0.9779999256134033
+      },
+      "4": {
+        "first_sample_all_vertices_above_line_frame": 317,
+        "minimum_Y_BU": 34.076263427734375,
+        "minimum_Z_BU": 0.9779999852180481
+      },
+      "5": {
+        "first_sample_all_vertices_above_line_frame": 317,
+        "minimum_Y_BU": 34.0462646484375,
+        "minimum_Z_BU": 0.9779999256134033
+      },
+      "6": {
+        "first_sample_all_vertices_above_line_frame": 317,
+        "minimum_Y_BU": 33.02626419067383,
+        "minimum_Z_BU": 0.9779999852180481
+      },
+      "7": {
+        "first_sample_all_vertices_above_line_frame": 321,
+        "minimum_Y_BU": 33.928855895996094,
+        "minimum_Z_BU": 0.9779999256134033
+      },
+      "8": {
+        "first_sample_all_vertices_above_line_frame": 321,
+        "minimum_Y_BU": 33.928855895996094,
+        "minimum_Z_BU": 0.9779999852180481
+      },
+      "9": {
+        "first_sample_all_vertices_above_line_frame": 317,
+        "minimum_Y_BU": 33.02626419067383,
+        "minimum_Z_BU": 0.9779999852180481
+      },
+      "10": {
+        "first_sample_all_vertices_above_line_frame": 325,
+        "minimum_Y_BU": 33.6553955078125,
+        "minimum_Z_BU": 0.9780000448226929
+      },
+      "11": {
+        "first_sample_all_vertices_above_line_frame": 325,
+        "minimum_Y_BU": 33.60539627075195,
+        "minimum_Z_BU": 0.9780000448226929
+      },
+      "12": {
+        "first_sample_all_vertices_above_line_frame": 325,
+        "minimum_Y_BU": 33.6553955078125,
+        "minimum_Z_BU": 0.9780000448226929
+      }
+    },
+    "GLB_pose_quantile_peak_error_BU": 0.004866599999992616
+  },
+  "GLB_transport": {
+    "nodes": 29,
+    "fog_unlit_alpha_blends": 3,
+    "runtime_images": [
+      {
+        "name": "ft_goose_fx_fog_start_distance_wash_basecolor_alpha",
+        "mime": "image/png",
+        "sha256": "1c4cd29f99fe0f50c59eeed76681afc890c39233da8b75f4f98fe78ecbe3e4f6"
+      },
+      {
+        "name": "ft_goose_fx_fog_start_low_blue_basecolor_alpha",
+        "mime": "image/png",
+        "sha256": "0a24b950e6575f9632ff625ca407dd1d2a9b67ad26505f66235e14560ed6280e"
+      },
+      {
+        "name": "ft_goose_fx_fog_start_shore_warm_basecolor_alpha",
+        "mime": "image/png",
+        "sha256": "dcb813eb8c45677dd201fbe44087b8ac31235c54b99c49ab9b7b8495c60cd286"
+      },
+      {
+        "name": "ft_goose_mat_grass_flat_basecolor",
+        "mime": "image/png",
+        "sha256": "e06d76e88c90a29ad97a810ed7578ce67f79da1b915940d5406750228f36996b"
+      },
+      {
+        "name": "ft_goose_mat_mud_bank_basecolor",
+        "mime": "image/png",
+        "sha256": "0343b68d4e256fca7b747c65b2fcebc74c46f3aa2334044051ac862e4e02c5b1"
+      },
+      {
+        "name": "ft_goose_mat_shallow_margin_basecolor",
+        "mime": "image/png",
+        "sha256": "bd12529acd7f63aefad1df09111aa6b9a84c95161bbdb1d0c64f1cbc66d2c6f7"
+      },
+      {
+        "name": "ft_goose_mat_plant_opaque_basecolor",
+        "mime": "image/png",
+        "sha256": "a4fbb2db73897427d8172297edb7b59d80a17707b3a3f1a198857f4996e6ed26"
+      },
+      {
+        "name": "ft_goose_mat_dry_ground_basecolor",
+        "mime": "image/png",
+        "sha256": "e201e626c70ba88af6cbeae9662dc76375930208e121c4af5dbdfc52cfcefab0"
+      },
+      {
+        "name": "ft_goose_env_far_ridge_a_basecolor",
+        "mime": "image/png",
+        "sha256": "dc7762ed08940ffa880135f046970e4f5d0d015d033397985e2b4c91d0ea1694"
+      },
+      {
+        "name": "ft_goose_env_water_start_mudflat_basecolor_alpha",
+        "mime": "image/png",
+        "sha256": "915bf85fc4c0f2271c73b3d14fb1a324182a07ebe757138696263312d5f17dc5"
+      }
+    ],
+    "optional_backdrop_nodes": [
+      "S0_Ridge_03_B",
+      "S0_Ridge_04_B",
+      "S0_Ridge_05_C",
+      "S0_DistantRidgeView"
+    ],
+    "optional_backdrop_images": [
+      {
+        "name": "ft_goose_env_far_ridge_b_basecolor",
+        "mime": "image/png",
+        "sha256": "a94bbf0572c0b239187315dd5b3951426758a1fada507410e2a3acdfa723006c"
+      },
+      {
+        "name": "ft_goose_env_far_ridge_c_basecolor",
+        "mime": "image/png",
+        "sha256": "c942253a4441febeb6834aab69d3f364c14f8bb868f9c9e6b315ff463aaf5b1b"
+      }
+    ],
+    "flock_images": [
+      {
+        "name": "ft_goose_mat_body_basecolor",
+        "mime": "image/png",
+        "sha256": "593d054ebf19385359ced9af9faa15c9e02ded94763481bf4ececfe14b8a8cc5"
+      },
+      {
+        "name": "ft_goose_mat_head_basecolor",
+        "mime": "image/png",
+        "sha256": "7d7bb772387c9d48517cd35e3554a9690791b2fa21af0f9241a18fad8592c205"
+      },
+      {
+        "name": "ft_goose_mat_flightfeather_basecolor",
+        "mime": "image/png",
+        "sha256": "2c0d67e50dfdb29a423cdcd1a000c0139588e1957cbb032d6696eca83c551014"
+      },
+      {
+        "name": "ft_goose_mat_billfeet_basecolor",
+        "mime": "image/png",
+        "sha256": "ccf80ec9272f2dd56733c69d9536ccf7b41fabde7a9b396847f185c2dd8b97d0"
+      }
+    ],
+    "flock_skins": 12,
+    "flock_clip": "S0_Review_Takeoff_Glide_Circle",
+    "flock_clip_seconds_from_accessor": 14,
+    "flock_clip_channel_count": 564
+  },
+  "center_opening_pixel_context": {
+    "center_patch_mean": 0.6336131840385608,
+    "flank_patches_mean": 0.6155142436236858,
+    "center_patch_yx_px": [
+      42,
+      126,
+      359,
+      493
+    ],
+    "flank_patches_yx_px": [
+      [
+        42,
+        126,
+        156,
+        302
+      ],
+      [
+        42,
+        126,
+        550,
+        696
+      ]
+    ]
+  },
+  "video": {
+    "frames_decoded": 168,
+    "sources_pixels": [
+      852,
+      393
+    ],
+    "encoded_pixels": [
+      852,
+      394
+    ],
+    "fps": "12/1",
+    "duration_seconds": 14.0,
+    "audio_tracks": 0
+  },
+  "pending": [
+    "负责人美术复核与首次试玩的前方开口辨识",
+    "USDZ 导出、RealityKit / App 合成与透明排序",
+    "运行时地形、碰撞、起飞事件、滑翔 / 盘旋控制、雾退场和全队通过判定",
+    "iPhone / iPad 真机显示、触控、相机和性能"
+  ],
+  "iOS_reference": "Existing iPhone 18 Pro simulator iOS 27.2, build and 340 tests (not rerun for Blender-only asset).",
+  "redline_check": "Checked project checklist. Candidate relies on soft mist and natural terrain. Runtime / device pending."
+}

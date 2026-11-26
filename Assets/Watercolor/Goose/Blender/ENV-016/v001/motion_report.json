@@ -1,0 +1,19 @@
+{
+  "result": "pass",
+  "source_px": [
+    852,
+    393
+  ],
+  "encoded_px": [
+    852,
+    394
+  ],
+  "rendered_frames": 24,
+  "duration_seconds": 3,
+  "h264_decode": "pass",
+  "leader_y_BU": [
+    -28.0,
+    35.0
+  ],
+  "pose": "Static CHR-001 neutral flight mesh moving in the audited Swift 12-bird slot formation. Out-of-frame rear rows are shown in the overhead view."
+}

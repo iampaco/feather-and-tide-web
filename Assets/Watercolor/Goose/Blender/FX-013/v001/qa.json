@@ -1,0 +1,305 @@
+{
+  "id": "FX-013",
+  "version": "v001",
+  "status": "needs_review",
+  "playback_evidence": {
+    "status": "pass",
+    "source_frames_checked": 244,
+    "source_landing_starts_48fps": [
+      1,
+      6,
+      11,
+      16,
+      21,
+      26,
+      31,
+      36,
+      41,
+      46,
+      51,
+      56
+    ],
+    "all_started_frame": 56,
+    "measured_trajectories": {
+      "FeatherMotes review 01": {
+        "first_visible": 73,
+        "last_visible": 181,
+        "fall_BU": 0.76500004529953
+      },
+      "FeatherMotes review 02": {
+        "first_visible": 75,
+        "last_visible": 184,
+        "fall_BU": 0.6812500208616257
+      },
+      "FeatherMotes review 03": {
+        "first_visible": 82,
+        "last_visible": 190,
+        "fall_BU": 0.8325000405311584
+      },
+      "FeatherMotes review 04": {
+        "first_visible": 90,
+        "last_visible": 198,
+        "fall_BU": 0.7874999940395355
+      },
+      "FeatherMotes review 05": {
+        "first_visible": 68,
+        "last_visible": 192,
+        "fall_BU": 0.4652000069618225
+      },
+      "FeatherMotes review 06": {
+        "first_visible": 73,
+        "last_visible": 198,
+        "fall_BU": 0.6364583373069763
+      },
+      "FeatherMotes review 07": {
+        "first_visible": 72,
+        "last_visible": 197,
+        "fall_BU": 0.6510416269302368
+      },
+      "FeatherMotes review 08": {
+        "first_visible": 67,
+        "last_visible": 192,
+        "fall_BU": 0.546875
+      },
+      "FeatherMotes review 09": {
+        "first_visible": 85,
+        "last_visible": 210,
+        "fall_BU": 0.6250000596046448
+      },
+      "FeatherMotes review 10": {
+        "first_visible": 89,
+        "last_visible": 213,
+        "fall_BU": 0.6200000047683716
+      },
+      "FeatherMotes review 11": {
+        "first_visible": 80,
+        "last_visible": 204,
+        "fall_BU": 0.6458333134651184
+      },
+      "FeatherMotes review 12": {
+        "first_visible": 87,
+        "last_visible": 211,
+        "fall_BU": 0.5683333277702332
+      }
+    },
+    "peak_nonzero_alpha_instances": 12,
+    "minimum_particle_to_bird_bbox_gap_px": 1.2719403505325317,
+    "minimum_particle_frame_margin_px": 1.4959486266598105,
+    "max_fixed_camera_equation_error_BU": 9.830249847454215e-07,
+    "switch_off_samples": [
+      76,
+      113,
+      136,
+      168
+    ],
+    "sampled_landing_positions_equal_with_switch_off": true
+  },
+  "image_comparisons": {
+    "enabled_vs_disabled": {
+      "mean_max_channel_delta_rgb8": 0.01938859559595585,
+      "max_channel_delta_rgb8": 54.0,
+      "pixels_changed_3_rgb8": 347
+    },
+    "disabled_vs_instances_removed": {
+      "mean_max_channel_delta_rgb8": 0.0,
+      "max_channel_delta_rgb8": 0.0,
+      "pixels_changed_3_rgb8": 0
+    }
+  },
+  "video": {
+    "status": "pass",
+    "codec_name": "h264",
+    "codec_type": "video",
+    "width": 852,
+    "height": 394,
+    "duration": "5.083333",
+    "nb_read_frames": "61",
+    "audio_streams": 0,
+    "source_size": [
+      852,
+      393
+    ]
+  },
+  "pending": [
+    "负责人审阅夕岸的透光与节奏",
+    "USDZ 与 RealityKit / App 接入",
+    "引擎落脚会话、重试、偏好开关和正式 Zone",
+    "iPhone / iPad 真机"
+  ],
+  "independent_delivered_directory_recheck": {
+    "status": "pass",
+    "reopened": "FX-013_FeatherMotes.blend",
+    "reimported": "FX-013_FeatherMotes.glb",
+    "checks": {
+      "FeatherMotes_Feather": {
+        "status": "pass",
+        "triangles": 2,
+        "peak_alpha": 0.4705882668495178,
+        "uv_corners": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            1.0
+          ]
+        ],
+        "all_texture_edges_zero": true,
+        "embedded_sha256": "643b41a4b836f9f7c082be0c29a01255a05d9c0e60cdbf3815b5a8e995eb0efd"
+      },
+      "FeatherMotes_Mote": {
+        "status": "pass",
+        "triangles": 2,
+        "peak_alpha": 0.41960787773132324,
+        "uv_corners": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            1.0
+          ]
+        ],
+        "all_texture_edges_zero": true,
+        "embedded_sha256": "46c63b68ea2b69a3c05ac0f603aed8fbdb5b352f22c5371cab8e123195397d72"
+      }
+    },
+    "playback_evidence": {
+      "status": "pass",
+      "source_frames_checked": 244,
+      "source_landing_starts_48fps": [
+        1,
+        6,
+        11,
+        16,
+        21,
+        26,
+        31,
+        36,
+        41,
+        46,
+        51,
+        56
+      ],
+      "all_started_frame": 56,
+      "measured_trajectories": {
+        "FeatherMotes review 01": {
+          "first_visible": 73,
+          "last_visible": 181,
+          "fall_BU": 0.76500004529953
+        },
+        "FeatherMotes review 02": {
+          "first_visible": 75,
+          "last_visible": 184,
+          "fall_BU": 0.6812500208616257
+        },
+        "FeatherMotes review 03": {
+          "first_visible": 82,
+          "last_visible": 190,
+          "fall_BU": 0.8325000405311584
+        },
+        "FeatherMotes review 04": {
+          "first_visible": 90,
+          "last_visible": 198,
+          "fall_BU": 0.7874999940395355
+        },
+        "FeatherMotes review 05": {
+          "first_visible": 68,
+          "last_visible": 192,
+          "fall_BU": 0.4652000069618225
+        },
+        "FeatherMotes review 06": {
+          "first_visible": 73,
+          "last_visible": 198,
+          "fall_BU": 0.6364583373069763
+        },
+        "FeatherMotes review 07": {
+          "first_visible": 72,
+          "last_visible": 197,
+          "fall_BU": 0.6510416269302368
+        },
+        "FeatherMotes review 08": {
+          "first_visible": 67,
+          "last_visible": 192,
+          "fall_BU": 0.546875
+        },
+        "FeatherMotes review 09": {
+          "first_visible": 85,
+          "last_visible": 210,
+          "fall_BU": 0.6250000596046448
+        },
+        "FeatherMotes review 10": {
+          "first_visible": 89,
+          "last_visible": 213,
+          "fall_BU": 0.6200000047683716
+        },
+        "FeatherMotes review 11": {
+          "first_visible": 80,
+          "last_visible": 204,
+          "fall_BU": 0.6458333134651184
+        },
+        "FeatherMotes review 12": {
+          "first_visible": 87,
+          "last_visible": 211,
+          "fall_BU": 0.5683333277702332
+        }
+      },
+      "peak_nonzero_alpha_instances": 12,
+      "minimum_particle_to_bird_bbox_gap_px": 0.5866978168487549,
+      "minimum_particle_frame_margin_px": 58.33422750234604,
+      "max_fixed_camera_equation_error_BU": 9.830249847454215e-07,
+      "switch_off_samples": [
+        76,
+        113,
+        136,
+        168
+      ],
+      "sampled_landing_positions_equal_with_switch_off": true
+    },
+    "reopened_rgb_diff": {
+      "mean_max_channel_delta_rgb8": 0.0,
+      "max_channel_delta_rgb8": 0.0,
+      "pixels_changed_3_rgb8": 0
+    },
+    "roundtrip_rgb_diff": {
+      "mean_max_channel_delta_rgb8": 0.0,
+      "max_channel_delta_rgb8": 0.0,
+      "pixels_changed_3_rgb8": 0
+    },
+    "video": {
+      "status": "pass",
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 852,
+      "height": 394,
+      "duration": "5.083333",
+      "nb_read_frames": "61",
+      "audio_streams": 0,
+      "source_size": [
+        852,
+        393
+      ]
+    }
+  },
+  "visual_observation": "已目视固定机位关键帧、静音视频与技术顶视。暖白落羽缓降，微粒稀疏，雁体持续可辨。",
+  "redlines": "对照项目红线清单。效果仅为落脚后可关闭的静音视觉层。",
+  "app_baseline": "引用已有 iOS 27.2 模拟器基线及 340 项通过；本轮未运行 App。"
+}

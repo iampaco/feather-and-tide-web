@@ -1,0 +1,389 @@
+{
+  "version": 1,
+  "assets": [
+    {
+      "assetId": "ANM-001",
+      "version": "v002",
+      "url": "goose/cruise-v002.glb",
+      "source": "Assets/Watercolor/Goose/Blender/ANM-001/v001/ANM-001_cruise_flap.glb",
+      "rights": "Original project work. Accepted by Paco on 2026-11-14 in Assets/docs/asset-ledger.md.",
+      "size": 981244,
+      "sha256": "570e3ddd5ed656355af8dc0ed407343cb0145cda3e8468e8827b60e07cd8508e",
+      "forward": "-Z",
+      "up": "+Y",
+      "pivot": "body",
+      "clips": [
+        "Cruise_Flap_Loop"
+      ],
+      "segments": [
+        "practice",
+        "S0",
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6"
+      ],
+      "sourceSha256": "4f890f71264c9995480b9c759deb78352457a4d26ae82369631e7303a89a5033",
+      "conversion": "Pillow Lanczos to 512 × 512 embedded RGB PNG; original rig and animation",
+      "textureSize": 512
+    },
+    {
+      "assetId": "ANM-002",
+      "version": "v001",
+      "url": "goose/anm-002-clips-v001.glb",
+      "source": "Assets/Watercolor/Goose/Blender/ANM-002/v001/ANM-002_takeoff_climb.glb",
+      "rights": "Original project animation per Assets/docs/asset-ledger.md. Runtime prototype pending art review.",
+      "size": 21900,
+      "sha256": "6c65de2325d2c3db2be5a85afd6b29b3af5daec0e1649519cfebacfc6c59d005",
+      "sourceSha256": "eac0c9a74ab3211626bf84f89c5273b144b687ab1184f0807bce7829ff27fde0",
+      "forward": "-Z",
+      "up": "+Y",
+      "pivot": "body",
+      "clipsOnly": true,
+      "clips": [
+        "Takeoff_Climb"
+      ],
+      "segments": [
+        "practice",
+        "S0",
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6"
+      ]
+    },
+    {
+      "assetId": "ANM-003",
+      "version": "v001",
+      "url": "goose/anm-003-clips-v001.glb",
+      "source": "Assets/Watercolor/Goose/Blender/ANM-003/v001/ANM-003_glide_circle.glb",
+      "rights": "Original project animation per Assets/docs/asset-ledger.md. Runtime prototype pending art review.",
+      "size": 31932,
+      "sha256": "d6418da3bacb4a027efc560bd472bec1aca9499040dcfa33ddb6012b2ffc03de",
+      "sourceSha256": "c307c082ebaebfed781ba22f066b4ebce57627d4e0496e152706c933b997d17c",
+      "forward": "-Z",
+      "up": "+Y",
+      "pivot": "body",
+      "clipsOnly": true,
+      "clips": [
+        "Circle_Loop",
+        "Glide_Loop"
+      ],
+      "segments": [
+        "practice",
+        "S0",
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6"
+      ]
+    },
+    {
+      "assetId": "ANM-006",
+      "version": "v001",
+      "url": "goose/anm-006-clips-v001.glb",
+      "source": "Assets/Watercolor/Goose/Blender/ANM-006/v001/ANM-006_formation_blend.glb",
+      "rights": "Original project animation per Assets/docs/asset-ledger.md. Runtime prototype pending art review.",
+      "size": 14404,
+      "sha256": "17e156c9c9bb449213347ed8711ef3ff8404b027cad456f95e516279cb8a6627",
+      "sourceSha256": "f66466196668e7aaa8f36cde867a7ada83d87d56acfb121c7428aad4d7c129fe",
+      "forward": "-Z",
+      "up": "+Y",
+      "pivot": "body",
+      "clipsOnly": true,
+      "clips": [
+        "Formation_Blend"
+      ],
+      "segments": [
+        "practice",
+        "S0",
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6"
+      ]
+    },
+    {
+      "assetId": "ANM-007",
+      "version": "v001",
+      "url": "goose/anm-007-clips-v001.glb",
+      "source": "Assets/Watercolor/Goose/Blender/ANM-007/v001/ANM-007_landing.glb",
+      "rights": "Original project animation per Assets/docs/asset-ledger.md. Runtime prototype pending art review.",
+      "size": 41808,
+      "sha256": "52dd855083696377988106bfd7ec1f5fc469462f291f244d8b4a310a4fbaec2b",
+      "sourceSha256": "65779e411f7b638d6770f3849725fb403997d1075f86de7558796bf8b7380f5e",
+      "forward": "-Z",
+      "up": "+Y",
+      "pivot": "body",
+      "clipsOnly": true,
+      "clips": [
+        "Land_Mudflat",
+        "Land_ShallowWater"
+      ],
+      "segments": [
+        "practice",
+        "S0",
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6"
+      ]
+    },
+    {
+      "assetId": "ANM-009",
+      "version": "v001",
+      "url": "goose/anm-009-clips-v001.glb",
+      "source": "Assets/Watercolor/Goose/Blender/ANM-009/v001/ANM-009_call_rejoin.glb",
+      "rights": "Original project animation per Assets/docs/asset-ledger.md. Runtime prototype pending art review.",
+      "size": 28352,
+      "sha256": "adab3f696ff188ab7ceb32eb9a2fb2a0a45c0521d6d9f1487568f182249549a1",
+      "sourceSha256": "9b4eacbfbe8c52afbf4ca923ae40d69bd0db7141a4d605316237fd1aa5a632f0",
+      "forward": "-Z",
+      "up": "+Y",
+      "pivot": "body",
+      "clipsOnly": true,
+      "clips": [
+        "Call_Loop",
+        "Rejoin"
+      ],
+      "segments": [
+        "practice",
+        "S0",
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6"
+      ]
+    },
+    {
+      "assetId": "WL-CHR-001",
+      "version": "v004",
+      "url": "whale/whale-v004.glb",
+      "source": "Assets/Watercolor/Whale/Blender/WL-CHR-001/v004/WL-CHR-001_whale_rig.glb",
+      "rights": "Original project mesh, rig and watercolor atlas. v004 refines the base and W0 silhouettes.",
+      "size": 195656,
+      "sha256": "0e74f1fa45d8b7df6693ac86b385ec037db0ea750436a5acd6c940f9ab25d6af",
+      "sourceSha256": "0e74f1fa45d8b7df6693ac86b385ec037db0ea750436a5acd6c940f9ab25d6af",
+      "forward": "-Z",
+      "up": "+Y",
+      "pivot": "body",
+      "clips": [],
+      "segments": [
+        "W0",
+        "W1",
+        "W2",
+        "W3",
+        "W4"
+      ],
+      "conversion": "Blender native glTF export, one skinned mesh, one shape key with normal deltas, and embedded 512 px sRGB JPEG"
+    },
+    {
+      "assetId": "RD-CHR-001",
+      "version": "v002",
+      "url": "reindeer/reindeer-v002.glb",
+      "source": "Assets/Watercolor/Deer/Blender/RD-CHR-001/v002/reindeer-v002.blend",
+      "rights": "Original Feather & Tide model and animations generated from source in this repository.",
+      "size": 213200,
+      "sha256": "5e808482382263a091abaf99ea58ebbab99bcda0e19525864ba1ddd3cbe920b9",
+      "sourceSha256": "c6ab7fadd026c47f26eb7fcec47cad278df26e75056459c407e34e900f3cb9a6",
+      "up": "+Y",
+      "forward": "+Z",
+      "pivot": "ground datum",
+      "clips": [
+        "Idle",
+        "Walk",
+        "Run",
+        "Call",
+        "Settle"
+      ],
+      "segments": [
+        "R0",
+        "R1",
+        "R2",
+        "R3",
+        "R4"
+      ],
+      "conversion": "One indexed skinned primitive, baked vertex pigments, two named role shape keys and four bone-parented hoof contacts"
+    }
+  ],
+  "images": [
+    {
+      "assetId": "goose_scene_wet_near",
+      "version": "SB-2026-11-07-v1",
+      "url": "goose/dawn-wetland.jpg",
+      "source": "Assets/Watercolor/Goose/Scenes/WET/goose_scene_wet_near.png",
+      "rights": "User confirmed for this game on 2026-11-08 per Assets/docs/asset-ledger.md.",
+      "size": 368303,
+      "sha256": "c3eace49f0ec077a5b0d5f07e8367daacd5ac7f727465020a82c73f9b6639cf7",
+      "sourceSha256": "49ef651b29d9ee79543d7069eb783d6c82dca81a1024810b2a37557dd8e3f8ba",
+      "usage": "title background",
+      "conversion": "sips -s format jpeg -s formatOptions 82 -Z 1600"
+    },
+    {
+      "assetId": "goose_scene_wet_sky",
+      "version": "SB-2026-11-07-v1",
+      "url": "goose/migration-sky-wash.jpg",
+      "source": "Assets/Watercolor/Goose/Scenes/WET/goose_scene_wet_sky.png",
+      "rights": "User confirmed for this game on 2026-11-08 per Assets/docs/asset-ledger.md.",
+      "size": 24472,
+      "sha256": "d559a6537e97b18c7e460f3dd3e85a5e48aef73f8bc28989ae4cc7225b1e2332",
+      "sourceSha256": "f16cdb0f9d8ed4d8e0f2f4917b447471aaed40e9418464d19a824413a0001f50",
+      "usage": "migration sky pigment",
+      "conversion": "sips -s format jpeg -s formatOptions 82 -Z 512"
+    },
+    {
+      "assetId": "whale_scene_open_sky",
+      "version": "SB-2026-11-07-v1",
+      "url": "entry/open-water.webp",
+      "source": "Assets/Watercolor/Whale/Scenes/OPEN/whale_scene_open_sky.png",
+      "rights": "User confirmed for this game on 2026-11-08 per Assets/docs/asset-ledger.md.",
+      "size": 109472,
+      "sha256": "3f7d724e500e5c5408d1f682c541dd329a0938aa6ff0f9a089e10a8138dab84f",
+      "sourceSha256": "e86a09400f73c4677331666da7b2bef1caf4d085a818a1a464ddd6095ee1cf19",
+      "usage": "species selection habitat",
+      "conversion": "WebP, quality 88; scaled to 1120 px wide"
+    },
+    {
+      "assetId": "deer_scene_val_sky",
+      "version": "SB-2026-11-07-v1",
+      "url": "entry/mountain-valley.webp",
+      "source": "Assets/Watercolor/Deer/Scenes/VAL/deer_scene_val_sky.png",
+      "rights": "User confirmed for this game on 2026-11-08 per Assets/docs/asset-ledger.md.",
+      "size": 128548,
+      "sha256": "43aa5296ddf4335de565b8f481f7894baa2f03ff776f1e415d8cc5c557542468",
+      "sourceSha256": "8ebaf14fe976d28e0ca8e92e58cc3488a744bd403dbf636dfe08f5a678e79319",
+      "usage": "species selection habitat",
+      "conversion": "WebP, quality 88; scaled to 1120 px wide"
+    },
+    {
+      "assetId": "goose_char_feed_01",
+      "version": "SB-2026-11-07-v1",
+      "url": "entry/goose.webp",
+      "source": "Assets/Watercolor/Goose/Characters/goose_char_feed_01.png",
+      "rights": "User confirmed for this game on 2026-11-08 per Assets/docs/asset-ledger.md.",
+      "size": 53390,
+      "sha256": "61ea32850fc9ec0c6685c879a318c13203b45a071f3afc5cb0936dc395d46746",
+      "sourceSha256": "6a66b045bb6153a98a2e3754c502285b339155987d29defe5fcaea7882704180",
+      "usage": "species selection portrait",
+      "conversion": "WebP, quality 88; foreground masked, cropped to visible bounds and scaled to fit within 740 px"
+    },
+    {
+      "assetId": "whale_char_body_01",
+      "version": "SB-2026-11-07-v1",
+      "url": "entry/whale.webp",
+      "source": "Assets/Watercolor/Whale/Characters/whale_char_body_01.png",
+      "rights": "User confirmed for this game on 2026-11-08 per Assets/docs/asset-ledger.md.",
+      "size": 23906,
+      "sha256": "496176446e970ea1380a34eb50602f6deae1b2e19484258e67131384815be897",
+      "sourceSha256": "593513de3aa7ce8b05de58b626274ba4f5786ef3c3ca7c00c97aad9906d0838f",
+      "usage": "species selection portrait",
+      "conversion": "WebP, quality 88; foreground masked, cropped to visible bounds and scaled to fit within 740 px"
+    },
+    {
+      "assetId": "deer_char_walk_01",
+      "version": "SB-2026-11-07-v1",
+      "url": "entry/reindeer.webp",
+      "source": "Assets/Watercolor/Deer/Characters/deer_char_walk_01.png",
+      "rights": "User confirmed for this game on 2026-11-08 per Assets/docs/asset-ledger.md.",
+      "size": 39876,
+      "sha256": "b2162e8e490a2b7b4d31459a9417c3bae49da708c084f3d2f0930af4e068cde6",
+      "sourceSha256": "eee9703fbe39c63d8cd5b94e16630436ebdc1b31b1705b25f3169e94dbbce0be",
+      "usage": "species selection portrait",
+      "conversion": "WebP, quality 88; foreground masked, cropped to visible bounds and scaled to fit within 740 px"
+    }
+  ],
+  "scenery": [
+    {
+      "assetId": "ENV-012",
+      "version": "v001",
+      "url": "goose/wind-tree-v001.glb",
+      "source": "Assets/Watercolor/Goose/Blender/ENV-012/v001/ENV-012_LeaningTree.glb",
+      "rights": "Original project model and MAT-001 paper textures, documented in the source asset_manifest.json. Web prototype placement pending art review.",
+      "size": 589800,
+      "sha256": "a830633f430641a08db94e59d7d871c2ea1060aed8e819c08daa1060babe8f51",
+      "sourceSha256": "a830633f430641a08db94e59d7d871c2ea1060aed8e819c08daa1060babe8f51",
+      "up": "+Y",
+      "forward": "-Z",
+      "pivot": "ground datum",
+      "segments": [
+        "S2",
+        "S3"
+      ],
+      "clip": "LeaningTree_WindCue"
+    },
+    {
+      "assetId": "STR-001",
+      "version": "v001",
+      "url": "goose/turbine-v001.glb",
+      "source": "Assets/Watercolor/Goose/Blender/STR-001/v001/STR-001_Main_Turbine.glb",
+      "rights": "Original project model and MAT-001 paper textures, documented in the source asset_manifest.json. Web prototype placement pending art review.",
+      "size": 1279828,
+      "sha256": "c6276d8c507bb1d90c5690b2792284c1201a48d134bb01f309ab3ae8eaa3482a",
+      "sourceSha256": "c6276d8c507bb1d90c5690b2792284c1201a48d134bb01f309ab3ae8eaa3482a",
+      "up": "+Y",
+      "forward": "+Z",
+      "pivot": "ground datum",
+      "segments": [
+        "S4"
+      ],
+      "pivotNode": "Rotor",
+      "clip": "Rotor_Constant_Loop"
+    }
+  ],
+  "media": [
+    {
+      "assetId": "MUS-001",
+      "url": "media/feather-and-tide.mp3",
+      "type": "audio/mpeg",
+      "source": "Feather & Tide.mp3",
+      "rights": "Supplied by the project owner for in-game use on 2026-11-17. Underlying distribution rights not independently verified.",
+      "size": 3185420,
+      "sha256": "01690da6c8f5a92323953fa526250ee2a424f459a748d7d0f1a2ca7ac7d03184",
+      "sourceSha256": "301da1809ccb946854a54a8fb0fbbad47d16440c11610901c124c5019ce879c2"
+    },
+    {
+      "assetId": "MUS-002",
+      "url": "media/plateau-at-dusk.mp3",
+      "type": "audio/mpeg",
+      "source": "斑头雁.mp3",
+      "rights": "Supplied by the project owner for in-game use on 2026-11-17. Underlying distribution rights not independently verified.",
+      "size": 2950652,
+      "sha256": "1a7f3c5cea1a83f6a0ea133a4e140ddbe8176cd0acbf93b49e44196841291509",
+      "sourceSha256": "663ed30c21f3ee69a36c47053e71680bb73294fedb440de7855168b228b5cb87"
+    },
+    {
+      "assetId": "MUS-003",
+      "url": "media/deep-blue-drones.mp3",
+      "type": "audio/mpeg",
+      "source": "鲸.mp3",
+      "rights": "Supplied by the project owner for in-game use on 2026-11-17. Underlying distribution rights not independently verified.",
+      "size": 5200364,
+      "sha256": "a7507670999af2b268a04a5767ef33119a7a3791d9736b1949f7bf3fed26be10",
+      "sourceSha256": "b73b93422b5ab6540559abc4f44ead66e74673ac5d8aa40cfd10e871b7820d6e"
+    },
+    {
+      "assetId": "MUS-004",
+      "url": "media/feather-and-tide-landing.mp3",
+      "type": "audio/mpeg",
+      "source": "public/assets/media/feather-and-tide.mp3",
+      "localSource": true,
+      "rights": "Supplied by the project owner for in-game use on 2026-11-17. Underlying distribution rights not independently verified.",
+      "size": 65180,
+      "sha256": "9874aa1cfe4b74d395a748121477edd11353852be819bd8012c8805cb0f681ea",
+      "sourceSha256": "01690da6c8f5a92323953fa526250ee2a424f459a748d7d0f1a2ca7ac7d03184",
+      "conversion": "Trim 133.4 s – 136.74 s and fade in/out for the 3.6 s landing sequence."
+    }
+  ]
+}

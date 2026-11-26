@@ -1,0 +1,110 @@
+{
+  "ft_goose_actor_cruise": {
+    "source": "Assets/Watercolor/Goose/Blender/ANM-001/v001/ANM-001_cruise_flap.glb",
+    "sourceSHA256": "4f890f71264c9995480b9c759deb78352457a4d26ae82369631e7303a89a5033",
+    "exportSHA256": "35a2cec1576d304f3b174e3629ba6b547d42cb6a9be21d1fd216ea757135dd15",
+    "clip": "Cruise_Flap_Loop"
+  },
+  "ft_goose_actor_takeoff": {
+    "source": "Assets/Watercolor/Goose/Blender/ANM-002/v001/ANM-002_takeoff_climb.glb",
+    "sourceSHA256": "eac0c9a74ab3211626bf84f89c5273b144b687ab1184f0807bce7829ff27fde0",
+    "exportSHA256": "f4acbf616e6bc629c2d4ddff046772f3218b3fa48a5e8aaa56695801b7a5e302",
+    "clip": "Takeoff_Climb"
+  },
+  "ft_goose_actor_glide": {
+    "source": "Assets/Watercolor/Goose/Blender/ANM-003/v001/ANM-003_glide_circle.glb",
+    "sourceSHA256": "c307c082ebaebfed781ba22f066b4ebce57627d4e0496e152706c933b997d17c",
+    "exportSHA256": "53a05ec397471e88e7f37af48243d854691135ac5f4aef0645a6f25aadac6ca1",
+    "clip": "Glide_Loop"
+  },
+  "ft_goose_actor_form": {
+    "source": "Assets/Watercolor/Goose/Blender/ANM-006/v001/ANM-006_formation_blend.glb",
+    "sourceSHA256": "f66466196668e7aaa8f36cde867a7ada83d87d56acfb121c7428aad4d7c129fe",
+    "exportSHA256": "7b8f7a15c88f584e72ec83a8024b0fab1ec26b8f1c6253ae46ff86cc5b8adbf8",
+    "clip": "Formation_Blend"
+  },
+  "ft_goose_actor_land": {
+    "source": "Assets/Watercolor/Goose/Blender/ANM-007/v001/ANM-007_landing.glb",
+    "sourceSHA256": "65779e411f7b638d6770f3849725fb403997d1075f86de7558796bf8b7380f5e",
+    "exportSHA256": "5282299d1c14b80de29ad2454c943eaf41a52b86333afb6c725a9034458141aa",
+    "clip": "Land_Mudflat"
+  },
+  "ft_goose_actor_water": {
+    "source": "Assets/Watercolor/Goose/Blender/ANM-007/v001/ANM-007_landing.glb",
+    "sourceSHA256": "65779e411f7b638d6770f3849725fb403997d1075f86de7558796bf8b7380f5e",
+    "exportSHA256": "3bf8127785d3aa784a6badbbc2fa2c59c0be4caad72677c54acf9a3dcb874d75",
+    "clip": "Land_ShallowWater"
+  },
+  "ft_goose_actor_rest": {
+    "source": "Assets/Watercolor/Goose/Blender/ANM-008/v001/ANM-008_rest_idle.glb",
+    "sourceSHA256": "2ec12deaae2ff0ddaa7d2607cb244fb9552f1966ba05bf6db15fcfe8ecf4b51f",
+    "exportSHA256": "ba6b87b2c7f1519191d0d1ec651b2756f986735ec863bd835bc0f0a526c350d9",
+    "clip": "Rest_Idle"
+  },
+  "ft_goose_actor_call": {
+    "source": "Assets/Watercolor/Goose/Blender/ANM-009/v001/ANM-009_call_rejoin.glb",
+    "sourceSHA256": "9b4eacbfbe8c52afbf4ca923ae40d69bd0db7141a4d605316237fd1aa5a632f0",
+    "exportSHA256": "63ce247004b6293bdaa237f6030f27825713d860e94de736c720bd565c4139d4",
+    "clip": "Call_Loop"
+  },
+  "ft_goose_actor_rejoin": {
+    "source": "Assets/Watercolor/Goose/Blender/ANM-009/v001/ANM-009_call_rejoin.glb",
+    "sourceSHA256": "9b4eacbfbe8c52afbf4ca923ae40d69bd0db7141a4d605316237fd1aa5a632f0",
+    "exportSHA256": "4fdb202eb52c961b78295c5445db3f04227a440c377c49bae6a0ac01b70a7162",
+    "clip": "Rejoin"
+  },
+  "ft_goose_fx_beacon": {
+    "source": "Assets/Watercolor/Goose/Blender/FX-009/v001/FX-009_RescueBeacon.glb",
+    "sourceSHA256": "4be20c1d4d3ca056edb8a49f6de18ed92cc0d7f8c4074f264cff38abebebc932",
+    "exportSHA256": "4d259a5ba87237e18b641b666794bcc626b3190bec485d7295d4dba83c6fa047",
+    "clip": null
+  },
+  "ft_goose_fx_feather": {
+    "source": "Assets/Watercolor/Goose/Blender/FX-013/v001/FX-013_FeatherMotes.glb",
+    "sourceSHA256": "d8f73985a68ed2b457b60a3c8600b66bd0cd5d53b54be65556d6d7aae257fdaa",
+    "exportSHA256": "4b5ae792b9953fd3c07cc52c8b497f9b396721f95dbbe2d2175e3c4290f14231",
+    "clip": null
+  },
+  "ft_goose_scene_s0": {
+    "source": "Assets/Watercolor/Goose/Blender/LVL-S0/v001/LVL-S0_S0_StartWetland.glb",
+    "sourceSHA256": "f8a276e67465414dc3f7906162039e0d65f053e8f80159c3f78c7de44d4df2ea",
+    "exportSHA256": "d1071be7277b0502aecb2a2f36593a0a39f36b9053830ecd0f87c05b3c81fce4",
+    "clip": null
+  },
+  "ft_goose_scene_s1": {
+    "source": "Assets/Watercolor/Goose/Blender/LVL-S1/v001/LVL-S1_S1_Tailwind.glb",
+    "sourceSHA256": "178619ad95cea01ded6cbca210cbf8b38422ed0ae6384ea2cd1916936bc08d56",
+    "exportSHA256": "e69d2ca7fa7a24fafc1e5557627d2ba6ac7d45717c2766d3af92daf9eac260f5",
+    "clip": null
+  },
+  "ft_goose_scene_s2": {
+    "source": "Assets/Watercolor/Goose/Blender/LVL-S2/v001/LVL-S2_S2_Fork.glb",
+    "sourceSHA256": "1ea7b93a8b70ca3edc169425d11e2a5926f793c8cac561d7c0e7802f85428b49",
+    "exportSHA256": "bb75d9aa42c9f4094135756a58bedad2f7775b51fb04f15f335b68edcbd58257",
+    "clip": null
+  },
+  "ft_goose_scene_s3": {
+    "source": "Assets/Watercolor/Goose/Blender/LVL-S3/v001/LVL-S3_S3_Rescue.glb",
+    "sourceSHA256": "7c8426006eeda428ef81d7372e8ca11236e4dec9f71c0894d310864721971e74",
+    "exportSHA256": "9be7ed883bc2cfd68df3bbe21c47b3f157a0e85fdfdcfa1eb4a0f7bd26203307",
+    "clip": null
+  },
+  "ft_goose_scene_s4": {
+    "source": "Assets/Watercolor/Goose/Blender/LVL-S4/v001/LVL-S4_S4_WindFarm.glb",
+    "sourceSHA256": "8a07962c9c2fecff8e17a7bfab135dffbf8362b94eab119648eb9eab0069caed",
+    "exportSHA256": "569f91720921ccbf8f42e02a204274e01058eb43bbdb285bff007d7ebe078030",
+    "clip": null
+  },
+  "ft_goose_scene_s5": {
+    "source": "Assets/Watercolor/Goose/Blender/LVL-S5/v001/LVL-S5_S5_Headwind.glb",
+    "sourceSHA256": "da2df05dad85326994cee8f5fcabde790b3ba3b787eb4517c5903128c21acb0f",
+    "exportSHA256": "7637d9c4e9f56f6a3d2d1d11de8e4e1f117c08dfcdcdb27c17ac4ce572dcf6a0",
+    "clip": null
+  },
+  "ft_goose_scene_s6": {
+    "source": "Assets/Watercolor/Goose/Blender/LVL-S6/v001/LVL-S6_S6_Landing.glb",
+    "sourceSHA256": "5cf4a4dd86f24c2f9bdb28a6b7657e5e588c06d917d526f8eb692786e40f90d8",
+    "exportSHA256": "f1bb667fbbef486a8e6ac0171c42d78b11e5f370f0c2c8e442df28c212877b78",
+    "clip": null
+  }
+}

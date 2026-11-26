@@ -1,0 +1,393 @@
+{
+  "schemaVersion": 1,
+  "levelRevision": "rules-2",
+  "id": "rules",
+  "title": "规则试飞",
+  "titleEn": "Flight Drills",
+  "species": "goose",
+  "modes": ["journey"],
+  "bounds": {
+    "min": {
+      "x": -68,
+      "z": -32
+    },
+    "max": {
+      "x": 68,
+      "z": 282
+    }
+  },
+  "spawn": {
+    "x": 0,
+    "z": 0
+  },
+  "spawnSegment": "practice-rest",
+  "segments": [
+    {
+      "id": "practice-rest",
+      "title": "浅湾起飞",
+      "titleEn": "Shallow Bay Takeoff",
+      "start": -32,
+      "wind": {
+        "x": 0,
+        "z": 0.1
+      },
+      "color": "#859f8d"
+    },
+    {
+      "id": "practice-rescue",
+      "title": "侧风接应",
+      "titleEn": "Crosswind Rescue",
+      "start": 72,
+      "wind": {
+        "x": 0.57,
+        "z": 0
+      },
+      "color": "#88a399"
+    },
+    {
+      "id": "practice-wind",
+      "title": "试验风场",
+      "titleEn": "Practice Wind Farm",
+      "start": 133,
+      "wind": {
+        "x": 0,
+        "z": -0.3
+      },
+      "color": "#93a08a"
+    },
+    {
+      "id": "practice-land",
+      "title": "短湾落脚",
+      "titleEn": "Short Bay Landing",
+      "start": 227,
+      "wind": {
+        "x": 0,
+        "z": 0
+      },
+      "color": "#a3a48a"
+    }
+  ],
+  "zones": [
+    {
+      "id": "rest",
+      "kind": "sanctuary",
+      "label": "浅湾",
+      "labelEn": "Shallow Bay",
+      "points": [
+        {
+          "x": -67,
+          "z": -31
+        },
+        {
+          "x": 67,
+          "z": -31
+        },
+        {
+          "x": 67,
+          "z": 79
+        },
+        {
+          "x": -67,
+          "z": 79
+        },
+        {
+          "x": -67,
+          "z": -31
+        }
+      ]
+    },
+    {
+      "id": "A",
+      "kind": "checkpoint",
+      "label": "检查点 A",
+      "labelEn": "Checkpoint A",
+      "points": [
+        {
+          "x": -66,
+          "z": 34
+        },
+        {
+          "x": 66,
+          "z": 34
+        },
+        {
+          "x": 66,
+          "z": 78
+        },
+        {
+          "x": -66,
+          "z": 78
+        },
+        {
+          "x": -66,
+          "z": 34
+        }
+      ]
+    },
+    {
+      "id": "cross-flow",
+      "kind": "interference",
+      "label": "河湾侧风",
+      "labelEn": "River Bend Crosswind",
+      "points": [
+        {
+          "x": -67,
+          "z": 81
+        },
+        {
+          "x": 67,
+          "z": 81
+        },
+        {
+          "x": 67,
+          "z": 124
+        },
+        {
+          "x": -67,
+          "z": 124
+        },
+        {
+          "x": -67,
+          "z": 81
+        }
+      ],
+      "strain": 0.56
+    },
+    {
+      "id": "wind-warning",
+      "kind": "warning",
+      "label": "前方风机 · 沿外侧水道绕行",
+      "labelEn": "Turbines Ahead · Take the Outer Channel",
+      "points": [
+        {
+          "x": -67,
+          "z": 132
+        },
+        {
+          "x": 67,
+          "z": 132
+        },
+        {
+          "x": 67,
+          "z": 223
+        },
+        {
+          "x": -67,
+          "z": 223
+        },
+        {
+          "x": -67,
+          "z": 132
+        }
+      ],
+      "hazardId": "sweep"
+    },
+    {
+      "id": "sweep",
+      "kind": "hazard",
+      "label": "风机扫掠区",
+      "labelEn": "Turbine Sweep Zone",
+      "points": [
+        {
+          "x": -19,
+          "z": 177
+        },
+        {
+          "x": 17,
+          "z": 177
+        },
+        {
+          "x": 17,
+          "z": 216
+        },
+        {
+          "x": -19,
+          "z": 216
+        },
+        {
+          "x": -19,
+          "z": 177
+        }
+      ],
+      "cost": 0.12
+    },
+    {
+      "id": "rest-bay",
+      "kind": "sanctuary",
+      "label": "湾边湿地",
+      "labelEn": "Bayside Wetlands",
+      "points": [
+        {
+          "x": -66,
+          "z": 171
+        },
+        {
+          "x": -24,
+          "z": 171
+        },
+        {
+          "x": -24,
+          "z": 226
+        },
+        {
+          "x": -66,
+          "z": 226
+        },
+        {
+          "x": -66,
+          "z": 171
+        }
+      ]
+    },
+    {
+      "id": "bay-supply",
+      "kind": "supply",
+      "label": "湾边补给",
+      "labelEn": "Bayside Supplies",
+      "points": [
+        {
+          "x": -65,
+          "z": 175
+        },
+        {
+          "x": -27,
+          "z": 175
+        },
+        {
+          "x": -27,
+          "z": 225
+        },
+        {
+          "x": -65,
+          "z": 225
+        },
+        {
+          "x": -65,
+          "z": 175
+        }
+      ],
+      "capacity": 0.38
+    },
+    {
+      "id": "goal",
+      "kind": "goal",
+      "label": "短湾落脚地",
+      "labelEn": "Short Bay Landing Area",
+      "points": [
+        {
+          "x": -56,
+          "z": 245
+        },
+        {
+          "x": 55,
+          "z": 245
+        },
+        {
+          "x": 55,
+          "z": 280
+        },
+        {
+          "x": -56,
+          "z": 280
+        },
+        {
+          "x": -56,
+          "z": 245
+        }
+      ]
+    }
+  ],
+  "triggers": [
+    {
+      "id": "rescue",
+      "kind": "rescue",
+      "label": "教学侧风",
+      "labelEn": "Practice Crosswind",
+      "points": [
+        {
+          "x": -67,
+          "z": 91
+        },
+        {
+          "x": 67,
+          "z": 91
+        },
+        {
+          "x": 67,
+          "z": 104
+        },
+        {
+          "x": -67,
+          "z": 104
+        },
+        {
+          "x": -67,
+          "z": 91
+        }
+      ],
+      "actorId": "goose-11"
+    }
+  ],
+  "landmarks": [
+    {
+      "id": "a-beacon",
+      "kind": "beacon",
+      "label": "浅湾检查点",
+      "labelEn": "Shallow Bay Checkpoint",
+      "pos": {
+        "x": 0,
+        "z": 51
+      }
+    },
+    {
+      "id": "outer-mark",
+      "kind": "beacon",
+      "label": "外围水道",
+      "labelEn": "Outer Channel",
+      "pos": {
+        "x": -40,
+        "z": 170
+      }
+    },
+    {
+      "id": "turbine-a",
+      "kind": "turbine",
+      "label": "风机",
+      "labelEn": "Wind Turbine",
+      "pos": {
+        "x": -6,
+        "z": 198
+      }
+    },
+    {
+      "id": "bay-reeds",
+      "kind": "reed",
+      "label": "湾边补给",
+      "labelEn": "Bayside Supplies",
+      "pos": {
+        "x": -40,
+        "z": 204
+      }
+    },
+    {
+      "id": "goal-mark",
+      "kind": "beacon",
+      "label": "短湾落脚地",
+      "labelEn": "Short Bay Landing Area",
+      "pos": {
+        "x": 0,
+        "z": 248
+      }
+    },
+    {
+      "id": "wind-exit",
+      "kind": "beacon",
+      "label": "外围出口",
+      "labelEn": "Outer Exit",
+      "pos": {
+        "x": -40,
+        "z": 225
+      }
+    }
+  ]
+}

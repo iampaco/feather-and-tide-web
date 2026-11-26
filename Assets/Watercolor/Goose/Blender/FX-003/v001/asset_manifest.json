@@ -1,0 +1,63 @@
+{
+  "id": "FX-003",
+  "version": "v001",
+  "status": "needs_review",
+  "variant": "Headwind",
+  "specification_pdf_page": 14,
+  "execution_order_1_based": 32,
+  "blender": "5.2.2 LTS",
+  "dependencies": {
+    "FX-001": "v001 needs_review, independently rechecked"
+  },
+  "review_only_dependencies": {
+    "ANM-001": "v001 done",
+    "MAT-001": "v001 done"
+  },
+  "source_files_relative_to_Blender_library": {
+    "FX-001/v001/FX-001_generate.py": "f9079d62c0b3afd38f0eeda4fc7f8075d49218c245e8baaf6bed9367df1c1aff",
+    "FX-001/v001/FX-001_WindTail_Long.glb": "eef2690a871f9ac2b16bdc30835f4382931938be0f1b423a611bc68d4d51a9a9",
+    "FX-001/v001/FX-001_WindTail_Short.glb": "ba34c0ae5a0d7376ac97a1a7c4819721054313ae9737d977691dcb8b6ca6fc67",
+    "FX-001/v001/textures/ft_goose_fx_wind_tail_long_rgba.png": "572e351d9a0dbb81f08a31ad4a0f7e53346376bb2ec2750351e7f553598cdc80",
+    "FX-001/v001/textures/ft_goose_fx_wind_tail_short_rgba.png": "11b5e75d0d1f0647429cbc3f69c48783ff2e24f837af057b9643f736870dfb6d",
+    "FX-001/v001/README.md": "4ed6aee4ba46c0e0d543e7813dc44de7c44f772317a590781887d8a09e5ea011",
+    "FX-001/v001/asset_manifest.json": "e75d080085575165f7ae33eb78edea50769107a34076152fdd198e298a15e25d",
+    "FX-001/v001/qa.json": "54595b7fffdefb1f5489f99b0f63e43946312ab6d97e3d2d5c0a4a143ff4eda2",
+    "FX-001/v001/FX-001_WindTail.blend": "932ad55537a700a8f537433e2c0dc0b7eba3f8eefdcd408ddbd727b33224ef79",
+    "ANM-001/v001/ANM-001_cruise_flap.glb": "4f890f71264c9995480b9c759deb78352457a4d26ae82369631e7303a89a5033",
+    "MAT-001/v001/textures/ft_goose_mat_water_fallback_basecolor.png": "1ba5ac1025aef815fee0c717947aceba763a393a4c0e5f6aab5beb19877dc5b9"
+  },
+  "camera_sources": {
+    "Sources/FeatherTide/Systems/Camera/ThirdPersonRig.swift": "274b58f0b910a280c676540dde54343c35e2e0709744e20e7e5ee4f9515476a2",
+    "Sources/FeatherTide/Rendering/PlayfieldView.swift": "8c37c08a35b8b299cc9af9f9e63e64ef5d50947e12822356fee8de398bc110dc"
+  },
+  "runtime_export": {
+    "blend": "FX-003_Headwind.blend",
+    "glb": "FX-003_Headwind.glb",
+    "texture": "textures/ft_goose_fx_headwind_rgba.png",
+    "inputs": "wind_interface.json"
+  },
+  "sources_and_rights": "本项目 FX-001/v001 原创流线与授权纸纹派生，ANM-001 巡航与 MAT-001 水样仅供审阅。无新增外部来源或署名。",
+  "pending": [
+    "负责人以静音盲看复核约 3 秒内的正反风向辨识、冷灰金风线、水彩观感和终点引导。",
+    "USDZ、RealityKit 和 App 接入，包括真实引擎风场、结阵、透明排序、减弱选项以及终点与雁投影遮挡测试。",
+    "能耗、补给、安全补救和通关条件由运行时判定。iPhone / iPad 真机待验。"
+  ],
+  "files": {
+    "FX-003_Headwind.blend": "1d83cb6a5555cf5f9079526499474de8c501926151996f1bef1532b862f6a962",
+    "FX-003_Headwind.glb": "0827ab1c632f07f81f0a0294bd4f62c180dff956abcdca72adfabe96a555cc01",
+    "FX-003_generate.py": "0b5c4f8e659edc0ec4d66fcc3ddd086720661102fd23c5fb6b37dc7455bd5275",
+    "README.md": "cf8a8a8cf2a43d88f618f4b1c74b7f0e902e935e202b53dcee19162204e4a83c",
+    "comparison_s1_tailwind.png": "9718ac4cf8165b8c8ca016cc9611f8dd6f79f480db89a8e6133eb7476c648eb8",
+    "comparison_without_fx.png": "3652a7afbe9f5d252b8937d1844b5473114b9bc59f7bff797864197180e8f007",
+    "graybox_fixed_rear.png": "1393c23559af064f8da6d6fbe65188ecdffb0e45d844053c17bf8214a434e494",
+    "graybox_top.png": "d612713e92b27b693e93c190e01f3a138492dd57d96f18c4cce22157ed6747ed",
+    "preview_fixed_rear_comparison.mp4": "47713c9f536196c07a6d0c26a1f7a7ecbcccaa5576154f2091c5beb2eae32fe1",
+    "preview_fixed_rear_headwind.png": "49cc6bea4f98f5ed935b4c988e6299df5446c26232d3701f76330d062ab3e8e4",
+    "preview_fixed_rear_reduced.png": "73f34d3236f48dd305213c675df9121d13294847c545ad8dfd18ac660891d915",
+    "preview_top.png": "39473441b2ac319a139b004567af568afd0875e4e7d60adee382c24da6a86db5",
+    "qa.json": "28ed5bb8331c75b4bebe51953aa0c48129354fdcac4165350352898e58bb4006",
+    "roundtrip_fixed_rear.png": "3f4c3732701bf4d00c1d5b86e1cfaa2271cf4db1b4a78a9b751cf0cbffacfb39",
+    "textures/ft_goose_fx_headwind_rgba.png": "8d69cb8c0b87eee9ffc4ae19d31c30f758da99fec09861dcef5b11553c4306a9",
+    "wind_interface.json": "02d426cd1e22e1056d6bf6ff9d0a9703a44b66e7372646c7aa560a825055c14e"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": "MAT-002",
+  "version": "v001",
+  "status": "needs_review",
+  "checks": {
+    "source_uv_non_degenerate_unit_scale": "pass",
+    "pbr_glb_four_embedded_textures": "pass",
+    "glb_roundtrip_max_bounds_error": 1e-07,
+    "leader_tint_exported": "pass",
+    "embedded_png_pixels_match_source": "pass",
+    "rear_detail_glb_roundtrip_rgb8": {
+      "mean_absolute_rgb8_channel_difference": 8e-05,
+      "p99_absolute_rgb8_channel_difference": 0.0
+    },
+    "rear_camera_samples_luma_rgb8": {
+      "neutral": {
+        "front_white": 156.0,
+        "bar_1": 105.0,
+        "white_gap": 169.5,
+        "bar_2": 45.3,
+        "rear_white": 161.3
+      },
+      "cool": {
+        "front_white": 141.7,
+        "bar_1": 88.3,
+        "white_gap": 154.1,
+        "bar_2": 36.2,
+        "rear_white": 144.8
+      },
+      "half": {
+        "front_white": 139.7,
+        "bar_1": 139.5,
+        "white_gap": 164.6,
+        "bar_2": 116.1,
+        "rear_white": 116.1
+      }
+    }
+  },
+  "visual_review": {
+    "1x_neutral": "通过。双横纹和纹间暖白区可分辨，深飞羽与灰褐翼面分开。",
+    "1x_cool": "通过。冷光下双纹仍可辨，头羽保持暖灰白层次。",
+    "0.5x_neutral": "局部通过。暖白头与飞羽仍可辨，靠前横纹对相邻浅色区域的对比偏弱，不能作为稳定双纹验收。",
+    "detail_top": "通过。斜视与顶视渲染确认连续双纹与柔边，简化头部尺寸仅供预览。"
+  },
+  "follow_up": "CHR-001 定形后用实际头部屏占、振翅姿态和 RealityKit 在 iPhone/iPad 复测。",
+  "runtime": "素材库制作交付。RealityKit 与真机待接入时验证。",
+  "redline_check": "已对照红线清单，交付范围为材质与审阅样块。"
+}

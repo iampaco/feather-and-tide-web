@@ -1,0 +1,195 @@
+{
+  "id": "ANM-003",
+  "version": "v001",
+  "status": "needs_review",
+  "blender": "5.2.2 LTS",
+  "dependencies": {
+    "CHR-001/v001": "done",
+    "ANM-001/v001": "done"
+  },
+  "source_hashes": {
+    "CHR-001/v001/CHR-001_goose_rig.blend": "db0c8d55c5efc499c99f7787228967451d071f36294962b12dc4b34d02f350f5",
+    "CHR-001/v001/CHR-001_goose_rig.glb": "cd11419a47a2c8e2d67d636015675540581a74720a83c23ef8531437c7161b81",
+    "ANM-001/v001/ANM-001_cruise_flap.blend": "b7faafee6aa4f0fd9e3c05224162fa5ff73b8bbd8c01818e101e5cdad0676111",
+    "ANM-001/v001/ANM-001_cruise_flap_generate.py": "ff7613de9a9a61ca857b0f363ab16ea6e3cf2dce894c9e0cbcad9d45312acd66",
+    "CHR-001/v001/CHR-001_goose_rig_generate.py": "9c56676574b80c6642dc11f4015f9460a14eb0ca6407acee440c9732071b4a90"
+  },
+  "source": "Original in-place Blender actions on approved CHR-001/v001. Uses ANM-001 source curves for review transition.",
+  "rights": "Project-original animation with existing CHR-001 packed plumage. No external assets or attribution.",
+  "clips": {
+    "Glide_Loop": {
+      "frames": [
+        1,
+        73
+      ],
+      "fps": 48,
+      "seconds": 1.5,
+      "seam_frame": 73,
+      "cyclic_bezier": true,
+      "root_motion": false
+    },
+    "Circle_Loop": {
+      "frames": [
+        1,
+        97
+      ],
+      "fps": 48,
+      "seconds": 2.0,
+      "seam_frame": 97,
+      "cyclic_bezier": true,
+      "root_motion": false
+    }
+  },
+  "review": {
+    "cruise_source_frame": 49,
+    "cruise_phase": 0.9230769230769231,
+    "transition_to_glide_frames": 16,
+    "unblended_glide_hold_frames": 48,
+    "transition_to_circle_frames": 24,
+    "bank_direction": "left wing down",
+    "blend_curve": "smootherstep; outgoing cruise phase brakes over six frames to f52",
+    "camera": {
+      "distance_game_units": 180,
+      "pitch_parameter_rad": 0.48,
+      "vertical_fov_deg": 50,
+      "aim_height_game_units": 6,
+      "leader_height_game_units": 8,
+      "follower_height_game_units": 6,
+      "leader_bill_to_tail_game_units": 27.5,
+      "preview_game_units_per_BU": 27.777479617271997,
+      "render_px": [
+        852,
+        393
+      ],
+      "camera_location_BU": [
+        0.0,
+        -5.747788906097412,
+        2.7043581008911133
+      ]
+    },
+    "follower_scale": 0.8,
+    "bank_body_deg_positive_right_down": [
+      -8.25,
+      -6.75
+    ],
+    "timeline_frames": {
+      "cruise": 1,
+      "begin_glide_blend": 49,
+      "begin_glide_hold": 65,
+      "begin_circle_blend": 113,
+      "begin_circle_loop": 137
+    },
+    "runtime_bank_handoff": "Crossfade entity bank out as Circle_Loop takes over visible bank. Preserve game heading and pitch."
+  },
+  "character": {
+    "triangles_lod0": 3940,
+    "bones": 15,
+    "pivot_BU": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ],
+    "axes_blender": {
+      "right": "+X",
+      "up": "+Z",
+      "forward": "+Y"
+    },
+    "axes_gltf": {
+      "right": "+X",
+      "up": "+Y",
+      "forward": "-Z"
+    }
+  },
+  "variants": {
+    "Leader": [
+      1.0,
+      0.976,
+      0.925,
+      1.0
+    ],
+    "Follower A": [
+      0.965,
+      0.985,
+      1.0,
+      1.0
+    ],
+    "Follower B": [
+      0.91,
+      0.925,
+      0.94,
+      1.0
+    ],
+    "Follower C": [
+      0.98,
+      0.96,
+      0.94,
+      1.0
+    ]
+  },
+  "texture_mapping": {
+    "ft_goose_mat_billfeet_basecolor.png": {
+      "from": "Assets/Watercolor/Goose/Blender/MAT-002/v001/textures/ft_goose_mat_billfeet_basecolor.png",
+      "sha256": "ccf80ec9272f2dd56733c69d9536ccf7b41fabde7a9b396847f185c2dd8b97d0",
+      "embedded_in": [
+        ".blend",
+        ".glb"
+      ]
+    },
+    "ft_goose_mat_body_basecolor.png": {
+      "from": "Assets/Watercolor/Goose/Blender/MAT-002/v001/textures/ft_goose_mat_body_basecolor.png",
+      "sha256": "593d054ebf19385359ced9af9faa15c9e02ded94763481bf4ececfe14b8a8cc5",
+      "embedded_in": [
+        ".blend",
+        ".glb"
+      ]
+    },
+    "ft_goose_mat_flightfeather_basecolor.png": {
+      "from": "Assets/Watercolor/Goose/Blender/MAT-002/v001/textures/ft_goose_mat_flightfeather_basecolor.png",
+      "sha256": "2c0d67e50dfdb29a423cdcd1a000c0139588e1957cbb032d6696eca83c551014",
+      "embedded_in": [
+        ".blend",
+        ".glb"
+      ]
+    },
+    "ft_goose_mat_head_basecolor.png": {
+      "from": "Assets/Watercolor/Goose/Blender/MAT-002/v001/textures/ft_goose_mat_head_basecolor.png",
+      "sha256": "7d7bb772387c9d48517cd35e3554a9690791b2fa21af0f9241a18fad8592c205",
+      "embedded_in": [
+        ".blend",
+        ".glb"
+      ]
+    }
+  },
+  "files": {
+    "ANM-003_glide_circle.blend": "c0ecaf4173afdc9dd989720f560311202e3c97635a91bf538021c00cb3110261",
+    "ANM-003_glide_circle.glb": "c307c082ebaebfed781ba22f066b4ebce57627d4e0496e152706c933b997d17c",
+    "ANM-003_glide_circle_generate.py": "4f17c8a2391ff11dc4861d9c407dde516d8bd74bde4cd2aaa53883d46c5eaee2",
+    "README.md": "c6b1bd0e88f6782c7b15045225e34c86e2f30f92d1320eb1d5fba81a7c8b97a0",
+    "preview_glb_circle.png": "be4b931fba7825fe91f9f8e935e0ce581292c7b5aa0662e54f9dc8cca75f5be1",
+    "preview_glb_glide.png": "e2d260aea50f7cbcae28f1b928ee0d892d2b2ecd74b5cac422fb9a6008980de5",
+    "preview_rear_1x_circle.png": "74cde61191c795af645bd885722627be68ba9c2293867126f61d4f8632f8ddb2",
+    "preview_rear_1x_glide.png": "f87d4e650559c32a1d10e05ecc7799c2db26c4cf6956e1b6fcef54294e57cebc",
+    "preview_rear_1x_recovery.png": "64c13e6b4a407c245532f231d2097648a6e166734fdbd6221aa20c27ca8bc43c",
+    "preview_rear_detail.mp4": "5a90bbf8611d1380c7224ba316db8dda151090bca8bfa757a63db549aa19e968",
+    "preview_rear_flock_12.mp4": "716d276a54a0fcd6dc6edc02b45fa3a9019e220372c7ca442eec14d73ae739c8",
+    "preview_rear_flock_12.png": "735b9bd9283ae5a4af7e666cc78a1201e7575dcfb0b8a6a829729b412c7112eb",
+    "preview_rear_half_circle.png": "4e94ff993853787a3c8fd89bfd5a7ff8fc1dd9f7a5cf7a342c8da49d5acab0dc",
+    "preview_rear_half_glide.png": "b9c7fb812155dde8f0b2ace42a2f3cadf4879f59240b2181eef039199800ab97",
+    "preview_top_circle.png": "814715b15d4ce231f5f15f6310b3be93639f2ccd32593174479bbc1994bace54",
+    "preview_top_flock_12.png": "a439afc0e8c2268e112212eb9da8b957f44913af2a173b155c81d5408b81b7c9",
+    "preview_top_glide.png": "be29c6363aa267dd05c035599469e455cab8c5313a4038f39d907600bae5e3b3",
+    "preview_top_half_circle.png": "53afb524819807314eda8c8183c3de40c5c1014d2a307d16007bb9281d36f741",
+    "preview_top_half_glide.png": "6cc430a3739bb37bdd36a6528e558b8c25e92e7d6324665f5b2edc1b2cb558a7",
+    "qa.json": "3e52da8ef333aeb27dadf4a7c3af5e956ef824fbfc4b97105da6efeb06712534"
+  },
+  "texture_dependency": {
+    "packed_from": "CHR-001/v001",
+    "original_texture_task": "MAT-002/v001",
+    "material_review": "pending"
+  }
+}

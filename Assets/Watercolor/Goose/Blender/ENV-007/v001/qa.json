@@ -1,0 +1,1231 @@
+{
+  "id": "ENV-007",
+  "version": "v001",
+  "status": "needs_review",
+  "graybox_before_materials": {
+    "Straight": {
+      "bed_triangles": 512,
+      "water_triangles": 128,
+      "bed_bounds_XYZ_BU": [
+        [
+          -5.0,
+          5.0
+        ],
+        [
+          -5.0,
+          5.0
+        ],
+        [
+          -0.5450000166893005,
+          0.17498594522476196
+        ]
+      ],
+      "bed_vertices": 289,
+      "water_vertices": 85,
+      "water_area_BU2": 27.66372375190258,
+      "terrain_clipping_area_difference_BU2": 4.977863454769249e-08,
+      "water_plane_elevation_BU": -0.18,
+      "min_water_vertex_and_face_centroid_clearance_BU": -1.7881393432617188e-07,
+      "max_bed_depth_BU": 0.36500006914138794,
+      "waterbed_sample_points": 213,
+      "channel_width_X_estimated_BU": [
+        2.6875,
+        2.75
+      ],
+      "width_sample_spacing_BU": 0.0625,
+      "cross_sections_one_wet_interval_connected_to_ends": 65
+    },
+    "Bend": {
+      "bed_triangles": 512,
+      "water_triangles": 128,
+      "bed_bounds_XYZ_BU": [
+        [
+          -5.0,
+          5.0
+        ],
+        [
+          -5.0,
+          5.0
+        ],
+        [
+          -0.5450000166893005,
+          0.17498594522476196
+        ]
+      ],
+      "bed_vertices": 289,
+      "water_vertices": 85,
+      "water_area_BU2": 29.254604750312865,
+      "terrain_clipping_area_difference_BU2": 1.7258237861028647e-07,
+      "water_plane_elevation_BU": -0.18,
+      "min_water_vertex_and_face_centroid_clearance_BU": -1.7881393432617188e-07,
+      "max_bed_depth_BU": 0.36500006914138794,
+      "waterbed_sample_points": 213,
+      "channel_width_X_estimated_BU": [
+        2.5625,
+        3.1875
+      ],
+      "width_sample_spacing_BU": 0.0625,
+      "cross_sections_one_wet_interval_connected_to_ends": 65
+    },
+    "OpenBank": {
+      "bed_triangles": 512,
+      "water_triangles": 128,
+      "bed_bounds_XYZ_BU": [
+        [
+          -5.0,
+          5.0
+        ],
+        [
+          -5.0,
+          5.0
+        ],
+        [
+          -0.5450000166893005,
+          0.17498594522476196
+        ]
+      ],
+      "bed_vertices": 289,
+      "water_vertices": 85,
+      "water_area_BU2": 27.571549047715962,
+      "terrain_clipping_area_difference_BU2": 4.7595478491757603e-07,
+      "water_plane_elevation_BU": -0.18,
+      "min_water_vertex_and_face_centroid_clearance_BU": -1.7881393432617188e-07,
+      "max_bed_depth_BU": 0.36500006914138794,
+      "waterbed_sample_points": 213,
+      "channel_width_X_estimated_BU": [
+        2.625,
+        2.75
+      ],
+      "width_sample_spacing_BU": 0.0625,
+      "cross_sections_one_wet_interval_connected_to_ends": 65
+    }
+  },
+  "source_joins": {
+    "ordered_R_pairs": [
+      {
+        "pair": [
+          "Straight",
+          "Straight"
+        ],
+        "bed": {
+          "first": "Straight_Bed",
+          "second": "Straight_Bed",
+          "edges": [
+            "N",
+            "S"
+          ],
+          "vertices_per_edge": 17,
+          "max_position_error_BU": 0.0,
+          "max_normal_delta_deg": 0.0026723139814536826,
+          "max_wrapped_UV_error": 0.0
+        },
+        "water": {
+          "first": "Straight_Water",
+          "second": "Straight_Water",
+          "edges": [
+            "N",
+            "S"
+          ],
+          "vertices_per_edge": 5,
+          "max_position_error_BU": 0.0,
+          "max_normal_delta_deg": 0.0,
+          "max_wrapped_UV_error": 0.0
+        }
+      },
+      {
+        "pair": [
+          "Straight",
+          "Bend"
+        ],
+        "bed": {
+          "first": "Straight_Bed",
+          "second": "Bend_Bed",
+          "edges": [
+            "N",
+            "S"
+          ],
+          "vertices_per_edge": 17,
+          "max_position_error_BU": 0.0,
+          "max_normal_delta_deg": 0.0026723139814536826,
+          "max_wrapped_UV_error": 0.0
+        },
+        "water": {
+          "first": "Straight_Water",
+          "second": "Bend_Water",
+          "edges": [
+            "N",
+            "S"
+          ],
+          "vertices_per_edge": 5,
+          "max_position_error_BU": 0.0,
+          "max_normal_delta_deg": 0.0,
+          "max_wrapped_UV_error": 0.0
+        }
+      },
+      {
+        "pair": [
+          "Straight",
+          "OpenBank"
+        ],
+        "bed": {
+          "first": "Straight_Bed",
+          "second": "OpenBank_Bed",
+          "edges": [
+            "N",
+            "S"
+          ],
+          "vertices_per_edge": 17,
+          "max_position_error_BU": 0.0,
+          "max_normal_delta_deg": 0.0026723139814536826,
+          "max_wrapped_UV_error": 0.0
+        },
+        "water": {
+          "first": "Straight_Water",
+          "second": "OpenBank_Water",
+          "edges": [
+            "N",
+            "S"
+          ],
+          "vertices_per_edge": 5,
+          "max_position_error_BU": 0.0,
+          "max_normal_delta_deg": 0.0,
+          "max_wrapped_UV_error": 0.0
+        }
+      },
+      {
+        "pair": [
+          "Bend",
+          "Straight"
+        ],
+        "bed": {
+          "first": "Bend_Bed",
+          "second": "Straight_Bed",
+          "edges": [
+            "N",
+            "S"
+          ],
+          "vertices_per_edge": 17,
+          "max_position_error_BU": 0.0,
+          "max_normal_delta_deg": 0.0026723139814536826,
+          "max_wrapped_UV_error": 0.0
+        },
+        "water": {
+          "first": "Bend_Water",
+          "second": "Straight_Water",
+          "edges": [
+            "N",
+            "S"
+          ],
+          "vertices_per_edge": 5,
+          "max_position_error_BU": 0.0,
+          "max_normal_delta_deg": 0.0,
+          "max_wrapped_UV_error": 0.0
+        }
+      },
+      {
+        "pair": [
+          "Bend",
+          "Bend"
+        ],
+        "bed": {
+          "first": "Bend_Bed",
+          "second": "Bend_Bed",
+          "edges": [
+            "N",
+            "S"
+          ],
+          "vertices_per_edge": 17,
+          "max_position_error_BU": 0.0,
+          "max_normal_delta_deg": 0.0026723139814536826,
+          "max_wrapped_UV_error": 0.0
+        },
+        "water": {
+          "first": "Bend_Water",
+          "second": "Bend_Water",
+          "edges": [
+            "N",
+            "S"
+          ],
+          "vertices_per_edge": 5,
+          "max_position_error_BU": 0.0,
+          "max_normal_delta_deg": 0.0,
+          "max_wrapped_UV_error": 0.0
+        }
+      },
+      {
+        "pair": [
+          "Bend",
+          "OpenBank"
+        ],
+        "bed": {
+          "first": "Bend_Bed",
+          "second": "OpenBank_Bed",
+          "edges": [
+            "N",
+            "S"
+          ],
+          "vertices_per_edge": 17,
+          "max_position_error_BU": 0.0,
+          "max_normal_delta_deg": 0.0026723139814536826,
+          "max_wrapped_UV_error": 0.0
+        },
+        "water": {
+          "first": "Bend_Water",
+          "second": "OpenBank_Water",
+          "edges": [
+            "N",
+            "S"
+          ],
+          "vertices_per_edge": 5,
+          "max_position_error_BU": 0.0,
+          "max_normal_delta_deg": 0.0,
+          "max_wrapped_UV_error": 0.0
+        }
+      },
+      {
+        "pair": [
+          "OpenBank",
+          "Straight"
+        ],
+        "bed": {
+          "first": "OpenBank_Bed",
+          "second": "Straight_Bed",
+          "edges": [
+            "N",
+            "S"
+          ],
+          "vertices_per_edge": 17,
+          "max_position_error_BU": 0.0,
+          "max_normal_delta_deg": 0.0026723139814536826,
+          "max_wrapped_UV_error": 0.0
+        },
+        "water": {
+          "first": "OpenBank_Water",
+          "second": "Straight_Water",
+          "edges": [
+            "N",
+            "S"
+          ],
+          "vertices_per_edge": 5,
+          "max_position_error_BU": 0.0,
+          "max_normal_delta_deg": 0.0,
+          "max_wrapped_UV_error": 0.0
+        }
+      },
+      {
+        "pair": [
+          "OpenBank",
+          "Bend"
+        ],
+        "bed": {
+          "first": "OpenBank_Bed",
+          "second": "Bend_Bed",
+          "edges": [
+            "N",
+            "S"
+          ],
+          "vertices_per_edge": 17,
+          "max_position_error_BU": 0.0,
+          "max_normal_delta_deg": 0.0026723139814536826,
+          "max_wrapped_UV_error": 0.0
+        },
+        "water": {
+          "first": "OpenBank_Water",
+          "second": "Bend_Water",
+          "edges": [
+            "N",
+            "S"
+          ],
+          "vertices_per_edge": 5,
+          "max_position_error_BU": 0.0,
+          "max_normal_delta_deg": 0.0,
+          "max_wrapped_UV_error": 0.0
+        }
+      },
+      {
+        "pair": [
+          "OpenBank",
+          "OpenBank"
+        ],
+        "bed": {
+          "first": "OpenBank_Bed",
+          "second": "OpenBank_Bed",
+          "edges": [
+            "N",
+            "S"
+          ],
+          "vertices_per_edge": 17,
+          "max_position_error_BU": 0.0,
+          "max_normal_delta_deg": 0.0026723139814536826,
+          "max_wrapped_UV_error": 0.0
+        },
+        "water": {
+          "first": "OpenBank_Water",
+          "second": "OpenBank_Water",
+          "edges": [
+            "N",
+            "S"
+          ],
+          "vertices_per_edge": 5,
+          "max_position_error_BU": 0.0,
+          "max_normal_delta_deg": 0.0,
+          "max_wrapped_UV_error": 0.0
+        }
+      }
+    ],
+    "L_matches_to_ENV001_Flat": [
+      {
+        "variant": "Straight",
+        "west": {
+          "first": "Flat",
+          "second": "Straight_Bed",
+          "edges": [
+            "E",
+            "W"
+          ],
+          "vertices_per_edge": 17,
+          "max_position_error_BU": 0.0,
+          "max_normal_delta_deg": 0.0,
+          "max_wrapped_UV_error": 0.0
+        },
+        "east": {
+          "first": "Straight_Bed",
+          "second": "Flat",
+          "edges": [
+            "E",
+            "W"
+          ],
+          "vertices_per_edge": 17,
+          "max_position_error_BU": 0.0,
+          "max_normal_delta_deg": 0.0,
+          "max_wrapped_UV_error": 0.0
+        }
+      },
+      {
+        "variant": "Bend",
+        "west": {
+          "first": "Flat",
+          "second": "Bend_Bed",
+          "edges": [
+            "E",
+            "W"
+          ],
+          "vertices_per_edge": 17,
+          "max_position_error_BU": 0.0,
+          "max_normal_delta_deg": 0.0,
+          "max_wrapped_UV_error": 0.0
+        },
+        "east": {
+          "first": "Bend_Bed",
+          "second": "Flat",
+          "edges": [
+            "E",
+            "W"
+          ],
+          "vertices_per_edge": 17,
+          "max_position_error_BU": 0.0,
+          "max_normal_delta_deg": 0.0,
+          "max_wrapped_UV_error": 0.0
+        }
+      },
+      {
+        "variant": "OpenBank",
+        "west": {
+          "first": "Flat",
+          "second": "OpenBank_Bed",
+          "edges": [
+            "E",
+            "W"
+          ],
+          "vertices_per_edge": 17,
+          "max_position_error_BU": 0.0,
+          "max_normal_delta_deg": 0.0,
+          "max_wrapped_UV_error": 0.0
+        },
+        "east": {
+          "first": "OpenBank_Bed",
+          "second": "Flat",
+          "edges": [
+            "E",
+            "W"
+          ],
+          "vertices_per_edge": 17,
+          "max_position_error_BU": 0.0,
+          "max_normal_delta_deg": 0.0,
+          "max_wrapped_UV_error": 0.0
+        }
+      }
+    ]
+  },
+  "source_rescue": {
+    "openbank_local_xy_BU": [
+      1.72,
+      4.55,
+      -2.72,
+      2.72
+    ],
+    "width_BU": 2.83,
+    "length_BU": 5.44,
+    "clear_area_BU2": 15.3952,
+    "surface_probes": 880,
+    "height_range_BU": [
+      0.0,
+      1.1920928955078125e-07
+    ],
+    "max_floor_slope_deg": 0.019782341029446364,
+    "min_distance_to_waterline_BU": 1.2476270563559464,
+    "dry_approach_probe_count": 123,
+    "min_approach_height_above_water_BU": 0.18
+  },
+  "graybox_camera": {
+    "rescue_approach": {
+      "cases": 10,
+      "rescue_corner_pixels_XY": [
+        [
+          334.4328635931015,
+          133.70792573690414
+        ],
+        [
+          481.62837839126587,
+          134.07156962156296
+        ],
+        [
+          366.654700756073,
+          87.08324682712555
+        ],
+        [
+          465.0635726451874,
+          87.24574345350266
+        ]
+      ],
+      "tail_goose_centre_pixels_XY": [
+        416.69053316116333,
+        87.02473211288452
+      ]
+    },
+    "landed_tail_goose": {
+      "xy_BU": [
+        3.19,
+        1.65
+      ],
+      "yaw_degrees": -15.469860468532229,
+      "scale": 0.8,
+      "root_z_BU": 0.13516373932361603,
+      "min_mesh_vertex_clearance_BU": 2.9802322831784522e-09,
+      "feet": [
+        {
+          "sample_count": 65,
+          "contact_gap_BU": 0.0,
+          "max_sole_probe_gap_BU": 0.003426194190979004,
+          "min_ground_above_water_BU": 0.18
+        },
+        {
+          "sample_count": 65,
+          "contact_gap_BU": 0.0,
+          "max_sole_probe_gap_BU": 0.00342617928981781,
+          "min_ground_above_water_BU": 0.18
+        }
+      ]
+    },
+    "review_only_plant_instances": 0
+  },
+  "material_camera": {
+    "rescue_approach": {
+      "cases": 10,
+      "rescue_corner_pixels_XY": [
+        [
+          334.4328635931015,
+          133.70792573690414
+        ],
+        [
+          481.62837839126587,
+          134.07156962156296
+        ],
+        [
+          366.654700756073,
+          87.08324682712555
+        ],
+        [
+          465.0635726451874,
+          87.24574345350266
+        ]
+      ],
+      "tail_goose_centre_pixels_XY": [
+        416.69053316116333,
+        87.02473211288452
+      ]
+    },
+    "landed_tail_goose": {
+      "xy_BU": [
+        3.19,
+        1.65
+      ],
+      "yaw_degrees": -15.469860468532229,
+      "scale": 0.8,
+      "root_z_BU": 0.13516373932361603,
+      "min_mesh_vertex_clearance_BU": 2.9802322831784522e-09,
+      "feet": [
+        {
+          "sample_count": 65,
+          "contact_gap_BU": 0.0,
+          "max_sole_probe_gap_BU": 0.003426194190979004,
+          "min_ground_above_water_BU": 0.18
+        },
+        {
+          "sample_count": 65,
+          "contact_gap_BU": 0.0,
+          "max_sole_probe_gap_BU": 0.00342617928981781,
+          "min_ground_above_water_BU": 0.18
+        }
+      ]
+    },
+    "review_only_plant_instances": 34
+  },
+  "glb_roundtrip": {
+    "modules": {
+      "Straight": {
+        "mesh": {
+          "bed_triangles": 512,
+          "water_triangles": 128,
+          "bed_bounds_XYZ_BU": [
+            [
+              -5.0,
+              5.0
+            ],
+            [
+              -5.0,
+              5.0
+            ],
+            [
+              -0.5450000166893005,
+              0.17498594522476196
+            ]
+          ],
+          "bed_vertices": 386,
+          "water_vertices": 85,
+          "water_area_BU2": 27.66372375190258,
+          "terrain_clipping_area_difference_BU2": 4.977863454769249e-08,
+          "water_plane_elevation_BU": -0.18,
+          "min_water_vertex_and_face_centroid_clearance_BU": -1.7881393432617188e-07,
+          "max_bed_depth_BU": 0.36500006914138794,
+          "waterbed_sample_points": 213,
+          "channel_width_X_estimated_BU": [
+            2.6875,
+            2.75
+          ],
+          "width_sample_spacing_BU": 0.0625,
+          "cross_sections_one_wet_interval_connected_to_ends": 65
+        },
+        "comparisons": {
+          "bed": {
+            "max_corner_normal_delta_deg": 0.024004671376989802,
+            "max_corner_uv_error": 0,
+            "triangles_matched_by_ordered_XYZ": 512
+          },
+          "water": {
+            "max_corner_normal_delta_deg": 0,
+            "max_corner_uv_error": 0,
+            "triangles_matched_by_ordered_XYZ": 128
+          }
+        },
+        "material_readback": {
+          "GrassFlat": {
+            "embedded_png_sha256": "e06d76e88c90a29ad97a810ed7578ce67f79da1b915940d5406750228f36996b",
+            "alpha_mode": "OPAQUE",
+            "repeat_V": true
+          },
+          "MudBank": {
+            "embedded_png_sha256": "0343b68d4e256fca7b747c65b2fcebc74c46f3aa2334044051ac862e4e02c5b1",
+            "alpha_mode": "OPAQUE",
+            "repeat_V": true
+          },
+          "MossStone": {
+            "embedded_png_sha256": "10670b355497a7e1f53116859dd31128377e892f263ce8f0de58d125cff265c7",
+            "alpha_mode": "OPAQUE",
+            "repeat_V": true
+          },
+          "ShallowMargin": {
+            "embedded_png_sha256": "bd12529acd7f63aefad1df09111aa6b9a84c95161bbdb1d0c64f1cbc66d2c6f7",
+            "alpha_mode": "OPAQUE",
+            "repeat_V": true
+          },
+          "ENV007_Water_River": {
+            "embedded_png_sha256": "f470fd1a2c206a618f27c177f7d6d613a4681135a47207103fa0b353c923fcaf",
+            "alpha_mode": "BLEND",
+            "repeat_V": true
+          }
+        }
+      },
+      "Bend": {
+        "mesh": {
+          "bed_triangles": 512,
+          "water_triangles": 128,
+          "bed_bounds_XYZ_BU": [
+            [
+              -5.0,
+              5.0
+            ],
+            [
+              -5.0,
+              5.0
+            ],
+            [
+              -0.5450000166893005,
+              0.17498594522476196
+            ]
+          ],
+          "bed_vertices": 386,
+          "water_vertices": 85,
+          "water_area_BU2": 29.254604750312865,
+          "terrain_clipping_area_difference_BU2": 1.7258237861028647e-07,
+          "water_plane_elevation_BU": -0.18,
+          "min_water_vertex_and_face_centroid_clearance_BU": -1.7881393432617188e-07,
+          "max_bed_depth_BU": 0.36500006914138794,
+          "waterbed_sample_points": 213,
+          "channel_width_X_estimated_BU": [
+            2.5625,
+            3.1875
+          ],
+          "width_sample_spacing_BU": 0.0625,
+          "cross_sections_one_wet_interval_connected_to_ends": 65
+        },
+        "comparisons": {
+          "bed": {
+            "max_corner_normal_delta_deg": 0.00804254733533822,
+            "max_corner_uv_error": 0,
+            "triangles_matched_by_ordered_XYZ": 512
+          },
+          "water": {
+            "max_corner_normal_delta_deg": 0,
+            "max_corner_uv_error": 0,
+            "triangles_matched_by_ordered_XYZ": 128
+          }
+        },
+        "material_readback": {
+          "GrassFlat": {
+            "embedded_png_sha256": "e06d76e88c90a29ad97a810ed7578ce67f79da1b915940d5406750228f36996b",
+            "alpha_mode": "OPAQUE",
+            "repeat_V": true
+          },
+          "MudBank": {
+            "embedded_png_sha256": "0343b68d4e256fca7b747c65b2fcebc74c46f3aa2334044051ac862e4e02c5b1",
+            "alpha_mode": "OPAQUE",
+            "repeat_V": true
+          },
+          "MossStone": {
+            "embedded_png_sha256": "10670b355497a7e1f53116859dd31128377e892f263ce8f0de58d125cff265c7",
+            "alpha_mode": "OPAQUE",
+            "repeat_V": true
+          },
+          "ShallowMargin": {
+            "embedded_png_sha256": "bd12529acd7f63aefad1df09111aa6b9a84c95161bbdb1d0c64f1cbc66d2c6f7",
+            "alpha_mode": "OPAQUE",
+            "repeat_V": true
+          },
+          "ENV007_Water_River": {
+            "embedded_png_sha256": "f470fd1a2c206a618f27c177f7d6d613a4681135a47207103fa0b353c923fcaf",
+            "alpha_mode": "BLEND",
+            "repeat_V": true
+          }
+        }
+      },
+      "OpenBank": {
+        "mesh": {
+          "bed_triangles": 512,
+          "water_triangles": 128,
+          "bed_bounds_XYZ_BU": [
+            [
+              -5.0,
+              5.0
+            ],
+            [
+              -5.0,
+              5.0
+            ],
+            [
+              -0.5450000166893005,
+              0.17498594522476196
+            ]
+          ],
+          "bed_vertices": 373,
+          "water_vertices": 85,
+          "water_area_BU2": 27.571549047715962,
+          "terrain_clipping_area_difference_BU2": 4.7595478491757603e-07,
+          "water_plane_elevation_BU": -0.18,
+          "min_water_vertex_and_face_centroid_clearance_BU": -1.7881393432617188e-07,
+          "max_bed_depth_BU": 0.36500006914138794,
+          "waterbed_sample_points": 213,
+          "channel_width_X_estimated_BU": [
+            2.625,
+            2.75
+          ],
+          "width_sample_spacing_BU": 0.0625,
+          "cross_sections_one_wet_interval_connected_to_ends": 65
+        },
+        "comparisons": {
+          "bed": {
+            "max_corner_normal_delta_deg": 0.00804254733533822,
+            "max_corner_uv_error": 0,
+            "triangles_matched_by_ordered_XYZ": 512
+          },
+          "water": {
+            "max_corner_normal_delta_deg": 0,
+            "max_corner_uv_error": 0,
+            "triangles_matched_by_ordered_XYZ": 128
+          }
+        },
+        "material_readback": {
+          "GrassFlat": {
+            "embedded_png_sha256": "e06d76e88c90a29ad97a810ed7578ce67f79da1b915940d5406750228f36996b",
+            "alpha_mode": "OPAQUE",
+            "repeat_V": true
+          },
+          "MudBank": {
+            "embedded_png_sha256": "0343b68d4e256fca7b747c65b2fcebc74c46f3aa2334044051ac862e4e02c5b1",
+            "alpha_mode": "OPAQUE",
+            "repeat_V": true
+          },
+          "MossStone": {
+            "embedded_png_sha256": "10670b355497a7e1f53116859dd31128377e892f263ce8f0de58d125cff265c7",
+            "alpha_mode": "OPAQUE",
+            "repeat_V": true
+          },
+          "ShallowMargin": {
+            "embedded_png_sha256": "bd12529acd7f63aefad1df09111aa6b9a84c95161bbdb1d0c64f1cbc66d2c6f7",
+            "alpha_mode": "OPAQUE",
+            "repeat_V": true
+          },
+          "ENV007_Water_River": {
+            "embedded_png_sha256": "f470fd1a2c206a618f27c177f7d6d613a4681135a47207103fa0b353c923fcaf",
+            "alpha_mode": "BLEND",
+            "repeat_V": true
+          }
+        }
+      }
+    },
+    "joins": {
+      "ordered_R_pairs": [
+        {
+          "pair": [
+            "Straight",
+            "Straight"
+          ],
+          "bed": {
+            "first": "Straight_Bed",
+            "second": "Straight_Bed",
+            "edges": [
+              "N",
+              "S"
+            ],
+            "vertices_per_edge": 17,
+            "max_position_error_BU": 0.0,
+            "max_normal_delta_deg": 0.0037354166657234083,
+            "max_wrapped_UV_error": 0.0
+          },
+          "water": {
+            "first": "Straight_Water",
+            "second": "Straight_Water",
+            "edges": [
+              "N",
+              "S"
+            ],
+            "vertices_per_edge": 5,
+            "max_position_error_BU": 0.0,
+            "max_normal_delta_deg": 0.0,
+            "max_wrapped_UV_error": 0.0
+          }
+        },
+        {
+          "pair": [
+            "Straight",
+            "Bend"
+          ],
+          "bed": {
+            "first": "Straight_Bed",
+            "second": "Bend_Bed",
+            "edges": [
+              "N",
+              "S"
+            ],
+            "vertices_per_edge": 17,
+            "max_position_error_BU": 0.0,
+            "max_normal_delta_deg": 0.0037354166657234083,
+            "max_wrapped_UV_error": 0.0
+          },
+          "water": {
+            "first": "Straight_Water",
+            "second": "Bend_Water",
+            "edges": [
+              "N",
+              "S"
+            ],
+            "vertices_per_edge": 5,
+            "max_position_error_BU": 0.0,
+            "max_normal_delta_deg": 0.0,
+            "max_wrapped_UV_error": 0.0
+          }
+        },
+        {
+          "pair": [
+            "Straight",
+            "OpenBank"
+          ],
+          "bed": {
+            "first": "Straight_Bed",
+            "second": "OpenBank_Bed",
+            "edges": [
+              "N",
+              "S"
+            ],
+            "vertices_per_edge": 17,
+            "max_position_error_BU": 0.0,
+            "max_normal_delta_deg": 0.0037354166657234083,
+            "max_wrapped_UV_error": 0.0
+          },
+          "water": {
+            "first": "Straight_Water",
+            "second": "OpenBank_Water",
+            "edges": [
+              "N",
+              "S"
+            ],
+            "vertices_per_edge": 5,
+            "max_position_error_BU": 0.0,
+            "max_normal_delta_deg": 0.0,
+            "max_wrapped_UV_error": 0.0
+          }
+        },
+        {
+          "pair": [
+            "Bend",
+            "Straight"
+          ],
+          "bed": {
+            "first": "Bend_Bed",
+            "second": "Straight_Bed",
+            "edges": [
+              "N",
+              "S"
+            ],
+            "vertices_per_edge": 17,
+            "max_position_error_BU": 0.0,
+            "max_normal_delta_deg": 0.0037354166657234083,
+            "max_wrapped_UV_error": 0.0
+          },
+          "water": {
+            "first": "Bend_Water",
+            "second": "Straight_Water",
+            "edges": [
+              "N",
+              "S"
+            ],
+            "vertices_per_edge": 5,
+            "max_position_error_BU": 0.0,
+            "max_normal_delta_deg": 0.0,
+            "max_wrapped_UV_error": 0.0
+          }
+        },
+        {
+          "pair": [
+            "Bend",
+            "Bend"
+          ],
+          "bed": {
+            "first": "Bend_Bed",
+            "second": "Bend_Bed",
+            "edges": [
+              "N",
+              "S"
+            ],
+            "vertices_per_edge": 17,
+            "max_position_error_BU": 0.0,
+            "max_normal_delta_deg": 0.0037354166657234083,
+            "max_wrapped_UV_error": 0.0
+          },
+          "water": {
+            "first": "Bend_Water",
+            "second": "Bend_Water",
+            "edges": [
+              "N",
+              "S"
+            ],
+            "vertices_per_edge": 5,
+            "max_position_error_BU": 0.0,
+            "max_normal_delta_deg": 0.0,
+            "max_wrapped_UV_error": 0.0
+          }
+        },
+        {
+          "pair": [
+            "Bend",
+            "OpenBank"
+          ],
+          "bed": {
+            "first": "Bend_Bed",
+            "second": "OpenBank_Bed",
+            "edges": [
+              "N",
+              "S"
+            ],
+            "vertices_per_edge": 17,
+            "max_position_error_BU": 0.0,
+            "max_normal_delta_deg": 0.0037354166657234083,
+            "max_wrapped_UV_error": 0.0
+          },
+          "water": {
+            "first": "Bend_Water",
+            "second": "OpenBank_Water",
+            "edges": [
+              "N",
+              "S"
+            ],
+            "vertices_per_edge": 5,
+            "max_position_error_BU": 0.0,
+            "max_normal_delta_deg": 0.0,
+            "max_wrapped_UV_error": 0.0
+          }
+        },
+        {
+          "pair": [
+            "OpenBank",
+            "Straight"
+          ],
+          "bed": {
+            "first": "OpenBank_Bed",
+            "second": "Straight_Bed",
+            "edges": [
+              "N",
+              "S"
+            ],
+            "vertices_per_edge": 17,
+            "max_position_error_BU": 0.0,
+            "max_normal_delta_deg": 0.0037354166657234083,
+            "max_wrapped_UV_error": 0.0
+          },
+          "water": {
+            "first": "OpenBank_Water",
+            "second": "Straight_Water",
+            "edges": [
+              "N",
+              "S"
+            ],
+            "vertices_per_edge": 5,
+            "max_position_error_BU": 0.0,
+            "max_normal_delta_deg": 0.0,
+            "max_wrapped_UV_error": 0.0
+          }
+        },
+        {
+          "pair": [
+            "OpenBank",
+            "Bend"
+          ],
+          "bed": {
+            "first": "OpenBank_Bed",
+            "second": "Bend_Bed",
+            "edges": [
+              "N",
+              "S"
+            ],
+            "vertices_per_edge": 17,
+            "max_position_error_BU": 0.0,
+            "max_normal_delta_deg": 0.0037354166657234083,
+            "max_wrapped_UV_error": 0.0
+          },
+          "water": {
+            "first": "OpenBank_Water",
+            "second": "Bend_Water",
+            "edges": [
+              "N",
+              "S"
+            ],
+            "vertices_per_edge": 5,
+            "max_position_error_BU": 0.0,
+            "max_normal_delta_deg": 0.0,
+            "max_wrapped_UV_error": 0.0
+          }
+        },
+        {
+          "pair": [
+            "OpenBank",
+            "OpenBank"
+          ],
+          "bed": {
+            "first": "OpenBank_Bed",
+            "second": "OpenBank_Bed",
+            "edges": [
+              "N",
+              "S"
+            ],
+            "vertices_per_edge": 17,
+            "max_position_error_BU": 0.0,
+            "max_normal_delta_deg": 0.0037354166657234083,
+            "max_wrapped_UV_error": 0.0
+          },
+          "water": {
+            "first": "OpenBank_Water",
+            "second": "OpenBank_Water",
+            "edges": [
+              "N",
+              "S"
+            ],
+            "vertices_per_edge": 5,
+            "max_position_error_BU": 0.0,
+            "max_normal_delta_deg": 0.0,
+            "max_wrapped_UV_error": 0.0
+          }
+        }
+      ],
+      "L_matches_to_ENV001_Flat": [
+        {
+          "variant": "Straight",
+          "west": {
+            "first": "Flat",
+            "second": "Straight_Bed",
+            "edges": [
+              "E",
+              "W"
+            ],
+            "vertices_per_edge": 17,
+            "max_position_error_BU": 0.0,
+            "max_normal_delta_deg": 0.0,
+            "max_wrapped_UV_error": 0.0
+          },
+          "east": {
+            "first": "Straight_Bed",
+            "second": "Flat",
+            "edges": [
+              "E",
+              "W"
+            ],
+            "vertices_per_edge": 17,
+            "max_position_error_BU": 0.0,
+            "max_normal_delta_deg": 0.0,
+            "max_wrapped_UV_error": 0.0
+          }
+        },
+        {
+          "variant": "Bend",
+          "west": {
+            "first": "Flat",
+            "second": "Bend_Bed",
+            "edges": [
+              "E",
+              "W"
+            ],
+            "vertices_per_edge": 17,
+            "max_position_error_BU": 0.0,
+            "max_normal_delta_deg": 0.0,
+            "max_wrapped_UV_error": 0.0
+          },
+          "east": {
+            "first": "Bend_Bed",
+            "second": "Flat",
+            "edges": [
+              "E",
+              "W"
+            ],
+            "vertices_per_edge": 17,
+            "max_position_error_BU": 0.0,
+            "max_normal_delta_deg": 0.0,
+            "max_wrapped_UV_error": 0.0
+          }
+        },
+        {
+          "variant": "OpenBank",
+          "west": {
+            "first": "Flat",
+            "second": "OpenBank_Bed",
+            "edges": [
+              "E",
+              "W"
+            ],
+            "vertices_per_edge": 17,
+            "max_position_error_BU": 0.0,
+            "max_normal_delta_deg": 0.0,
+            "max_wrapped_UV_error": 0.0
+          },
+          "east": {
+            "first": "OpenBank_Bed",
+            "second": "Flat",
+            "edges": [
+              "E",
+              "W"
+            ],
+            "vertices_per_edge": 17,
+            "max_position_error_BU": 0.0,
+            "max_normal_delta_deg": 0.0,
+            "max_wrapped_UV_error": 0.0
+          }
+        }
+      ]
+    },
+    "rescue": {
+      "openbank_local_xy_BU": [
+        1.72,
+        4.55,
+        -2.72,
+        2.72
+      ],
+      "width_BU": 2.83,
+      "length_BU": 5.44,
+      "clear_area_BU2": 15.3952,
+      "surface_probes": 880,
+      "height_range_BU": [
+        0.0,
+        1.1920928955078125e-07
+      ],
+      "max_floor_slope_deg": 0.019782341029446364,
+      "min_distance_to_waterline_BU": 1.2476270563559464,
+      "dry_approach_probe_count": 123,
+      "min_approach_height_above_water_BU": 0.18
+    }
+  },
+  "tolerances": {
+    "seam_position_BU": 1e-05,
+    "seam_normal_deg": 0.03,
+    "wrapped_UV": 1e-06,
+    "terrain_vs_surface_area_BU2": 1e-05,
+    "plane_and_intrusion_BU": 1e-06,
+    "roundtrip_corner_normal_deg": 0.1
+  },
+  "source_rig": {
+    "distance_game_units": 180,
+    "pitch_radians": 0.48,
+    "vertical_fov_degrees": 50,
+    "target_height_game_units": 6,
+    "flight_height_game_units": 8,
+    "game_units_per_BU": 27.77777777777778,
+    "fixed_rear_preview_px": [
+      852,
+      393
+    ]
+  },
+  "application_baseline": {
+    "record": "plans/active/goose-preview-model-cleanup.md",
+    "simulator": "iPhone 18 Pro",
+    "os": "iOS 27.2",
+    "prior_test_count": 340,
+    "rerun_this_task": false
+  },
+  "design_redline_review": "Pass for candidate geometry and offline preview only.",
+  "pending": [
+    "S3 runtime rescue target and landing logic",
+    "RealityKit water sorting, USDZ, FX-006",
+    "Visual acceptance",
+    "iPhone / iPad device verification"
+  ],
+  "visual_review": {
+    "openbank_and_bend_fixed_rear": "The bank and gold sample route are visible; the settled bird reads as a small silhouette, with posture shown in the closer shot.",
+    "source_vs_GLB_reassembled_top": {
+      "mean_RGB8_channel_absolute_diff": 0.06837434562302287,
+      "p99_RGB8_channel_absolute_diff": 1
+    }
+  },
+  "independent_delivered_directory_verification": {
+    "result": "pass",
+    "reopened_blend": true,
+    "count_GLBS": 3,
+    "exact_roundtrip_measurements": true
+  }
+}

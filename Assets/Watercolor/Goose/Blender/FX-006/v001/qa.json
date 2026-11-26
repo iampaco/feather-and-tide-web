@@ -1,0 +1,76 @@
+{
+  "id": "FX-006",
+  "version": "v001",
+  "status": "needs_review",
+  "offline_verification_status": "pass",
+  "pending": [
+    "负责人美术审阅。",
+    "USDZ 或等效 RealityKit 材质、App 接入和真实 Land 事件／接触点／岸线。",
+    "RealityKit 小屏透明排序、12 实例并发性能与 iPhone／iPad 真机验证。"
+  ],
+  "checks": {
+    "independent_reopen_from_delivery": "pass",
+    "manifest_file_sha256_matches": "pass",
+    "fixed_swift_rig_translation_fov_and_frame": "pass",
+    "land_trigger_and_anchor_checks": {
+      "status": "pass",
+      "count": 12,
+      "half_frame_samples": 177,
+      "max_xy_error_at_contact_BU": 0.0,
+      "first_and_last_all_opacity_ge_015_frames": [
+        53.0,
+        115.0
+      ],
+      "all_contact_centers_on_screen": "pass",
+      "shared_landing_meshes": 1,
+      "min_contact_spacing_BU": 1.5748649835586548,
+      "max_visible_ring_diameter_BU": 2.0697600000000005
+    },
+    "idle_world_uv_cycle_and_rgba_wrap": "pass",
+    "visible_idle_pigment_pixels_rgb_delta_ge_3_255": 1604,
+    "glb_import_meshes_materials_axes_uvs_and_packed_PNG": {
+      "status": "pass",
+      "triangles": {
+        "Ripple_Idle": 2,
+        "Ripple_Landing": 2
+      },
+      "land_12_geometry_triangle_estimate": 24,
+      "note": "Offline geometry count, no mobile draw-call or performance measurement."
+    },
+    "visible_landing_vs_idle_pixels_rgb_delta_ge_4_255": 1523,
+    "glb_render_max_channel_absolute_delta_mean_and_p99": [
+      0.0,
+      0.0
+    ],
+    "video_decode": {
+      "source_frames_px": [
+        852,
+        393
+      ],
+      "encoded_px": [
+        852,
+        394
+      ],
+      "padded_rows": 1,
+      "decoded_frames": 80,
+      "codec": "h264",
+      "preview_fps": 16,
+      "duration_seconds": 5.0,
+      "audio_tracks": 0
+    }
+  },
+  "visual_review": {
+    "method": "固定后上方、顶视、涟漪近景，及无声短片每半秒抽帧。",
+    "source_frame_px": [
+      852,
+      393
+    ],
+    "observation": "灰蓝双圈平缓扩开，暖金边随包络渐隐，近景常驻水纹保持低对比。抽帧未见矩形卡片或明显闪烁。"
+  },
+  "dependency_notes": {
+    "MAT-004 master checksum differs from upstream manifest": "recorded in asset_manifest.json",
+    "MAT-004 append and all three embedded PNG bytes vs matching GLB and source PNG": "pass",
+    "ANM-007 reference master checksum and shallow-water contact frame": "pass"
+  },
+  "redline_check": "对照红线清单。只含无声的水面视觉层与离线证据。真实画面、性能与触发仍待真机。"
+}

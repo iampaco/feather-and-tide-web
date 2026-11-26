@@ -1,0 +1,160 @@
+{
+  "id": "ENV-005",
+  "status": "needs_review",
+  "presets": {
+    "Sparse": {
+      "count": 75,
+      "min_realized_vertex_margin_to_keepout_BU": 0.5010713075579147,
+      "prototype_counts": {
+        "Reed_A_Height_S": 14,
+        "Reed_A_Height_M": 15,
+        "Reed_B_Height_S": 12,
+        "Reed_B_Height_M": 9,
+        "Reed_C_Height_S": 17,
+        "Reed_C_Height_M": 8
+      },
+      "min_root_above_water_BU": 0.037294857501983636,
+      "min_root_margin_beyond_padded_keepout_BU": 0.09184354533562467,
+      "observed_max_lean_change_degrees": 3.8630038766238255,
+      "shore_distance_under_1_BU_fraction": 0.2,
+      "realized_triangles": 9632,
+      "repeat_same_seed_exact": true,
+      "changed_seed_changes_roots": true
+    },
+    "Dense": {
+      "count": 323,
+      "min_realized_vertex_margin_to_keepout_BU": 0.45143065204033705,
+      "prototype_counts": {
+        "Reed_A_Height_S": 61,
+        "Reed_A_Height_M": 59,
+        "Reed_B_Height_S": 52,
+        "Reed_B_Height_M": 47,
+        "Reed_C_Height_S": 49,
+        "Reed_C_Height_M": 55
+      },
+      "min_root_above_water_BU": 0.032723568677902215,
+      "min_root_margin_beyond_padded_keepout_BU": 0.00014710177788590517,
+      "observed_max_lean_change_degrees": 3.8635400464736716,
+      "shore_distance_under_1_BU_fraction": 0.2043343653250774,
+      "realized_triangles": 41394,
+      "repeat_same_seed_exact": true,
+      "changed_seed_changes_roots": true
+    },
+    "ShoreEdge": {
+      "count": 196,
+      "min_realized_vertex_margin_to_keepout_BU": 0.45143065204033705,
+      "prototype_counts": {
+        "Reed_A_Height_S": 38,
+        "Reed_A_Height_M": 36,
+        "Reed_B_Height_S": 31,
+        "Reed_B_Height_M": 23,
+        "Reed_C_Height_S": 33,
+        "Reed_C_Height_M": 35
+      },
+      "min_root_above_water_BU": 0.02676378965377807,
+      "min_root_margin_beyond_padded_keepout_BU": 0.00014710177788590517,
+      "observed_max_lean_change_degrees": 3.8635400464736716,
+      "shore_distance_under_1_BU_fraction": 0.3826530612244898,
+      "realized_triangles": 25460,
+      "repeat_same_seed_exact": true,
+      "changed_seed_changes_roots": true
+    }
+  },
+  "roundtrip": {
+    "Sparse": {
+      "triangles": 9632,
+      "max_normal_error_degrees": 0.0023478089048801255,
+      "embedded_original_png_sha256": [
+        "a4fbb2db73897427d8172297edb7b59d80a17707b3a3f1a198857f4996e6ed26",
+        "e201e626c70ba88af6cbeae9662dc76375930208e121c4af5dbdfc52cfcefab0"
+      ]
+    },
+    "Dense": {
+      "triangles": 41394,
+      "max_normal_error_degrees": 0.0031859299640845298,
+      "embedded_original_png_sha256": [
+        "a4fbb2db73897427d8172297edb7b59d80a17707b3a3f1a198857f4996e6ed26",
+        "e201e626c70ba88af6cbeae9662dc76375930208e121c4af5dbdfc52cfcefab0"
+      ]
+    },
+    "ShoreEdge": {
+      "triangles": 25460,
+      "max_normal_error_degrees": 0.0023614753015528313,
+      "embedded_original_png_sha256": [
+        "a4fbb2db73897427d8172297edb7b59d80a17707b3a3f1a198857f4996e6ed26",
+        "e201e626c70ba88af6cbeae9662dc76375930208e121c4af5dbdfc52cfcefab0"
+      ]
+    }
+  },
+  "keep_out_rectangles_center_xy_half_extents_BU": [
+    [
+      -0.3543823949803298,
+      -10.020064014056688,
+      1.9416840347359252,
+      2.9132408363570783
+    ],
+    [
+      -0.6043823949803298,
+      9.979935985943312,
+      1.9416840347359252,
+      2.9132408363570783
+    ],
+    [
+      10.60561760501967,
+      -0.051947697714110896,
+      1.8416840347359251,
+      2.6616310909065684
+    ],
+    [
+      0.85,
+      0.0,
+      2.35,
+      2.25
+    ]
+  ],
+  "root_clearance_padding_BU": 0.66,
+  "pending": [
+    "Art review, actual rescue visibility, runtime placement/LOD/wind and iPhone/iPad performance."
+  ],
+  "version": "v001",
+  "blender": "5.2.2 LTS",
+  "independent_reopen": {
+    "result": "pass",
+    "original_reports_match": true,
+    "verified_glb_count": 3
+  },
+  "visual_review": {
+    "observation": "Overhead comparison shows dry refuge spaces and stronger coastal concentration in ShoreEdge; runtime line of sight remains pending.",
+    "source_and_roundtrip_render_rgb8": {
+      "source": "preview_top_ShoreEdge.png",
+      "reimport": "preview_glb_roundtrip.png",
+      "mean_absolute_channel_difference": 0.0003714554398148148,
+      "p99_channel_difference": 0
+    }
+  },
+  "app_baseline": {
+    "source": "plans/active/goose-preview-model-cleanup.md",
+    "simulator": "iPhone 18 Pro",
+    "os": "iOS 27.2",
+    "prior_test_count": 340,
+    "rerun_in_this_task": false
+  },
+  "design_redline_check": {
+    "result": "pass",
+    "scope": "offline candidate assets and review evidence"
+  },
+  "live_geometry_nodes_wind_preview": {
+    "result": "pass",
+    "preset": "ShoreEdge",
+    "phase_sample_radians": 3.141592653589793,
+    "max_vertex_displacement_BU": 0.11472700700894578,
+    "vertices_moved_more_than_0_005_BU": 15879,
+    "loop_vertex_error_BU": 9.5367431640625e-07,
+    "rendered_frames": 30,
+    "source_size_px": [
+      852,
+      393
+    ],
+    "video_readback": "pass"
+  }
+}

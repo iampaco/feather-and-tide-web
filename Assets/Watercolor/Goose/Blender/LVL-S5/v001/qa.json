@@ -1,0 +1,951 @@
+{
+  "id": "LVL-S5",
+  "version": "v001",
+  "status": "needs_review",
+  "source_gates": {
+    "status": "pass",
+    "anchors": {
+      "S5_Entry": {
+        "position_BU": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "axis_error": 0.0,
+        "position_error_BU": 0.0
+      },
+      "S5_LowEnergySample": {
+        "position_BU": [
+          0.0,
+          28.799999237060547,
+          0.5559999942779541
+        ],
+        "axis_error": 0.0,
+        "position_error_BU": 0.0
+      },
+      "S5_SafeApproach": {
+        "position_BU": [
+          1.0,
+          28.200000762939453,
+          0.6000000238418579
+        ],
+        "axis_error": 0.0,
+        "position_error_BU": 0.0
+      },
+      "S5_SafeRest": {
+        "position_BU": [
+          4.550000190734863,
+          33.400001525878906,
+          0.0
+        ],
+        "axis_error": 0.0,
+        "position_error_BU": 0.0
+      },
+      "S5_SafeReturn": {
+        "position_BU": [
+          1.5,
+          43.599998474121094,
+          0.6499999761581421
+        ],
+        "axis_error": 0.0,
+        "position_error_BU": 0.0
+      },
+      "S5_ExitApproach": {
+        "position_BU": [
+          0.0,
+          57.0,
+          0.6499999761581421
+        ],
+        "axis_error": 0.0,
+        "position_error_BU": 0.0
+      },
+      "S5_Exit": {
+        "position_BU": [
+          0.0,
+          64.0,
+          0.0
+        ],
+        "axis_error": 0.0,
+        "position_error_BU": 0.0
+      }
+    },
+    "dry_gate_samples": 1164,
+    "dry_gate_max_error_BU": 0,
+    "gate_no_water_and_no_offsegment_ground_probes": 1164,
+    "safe_bank_plateau": {
+      "count": 725,
+      "maximum_flatness_error_BU": 2.384185791015625e-07
+    },
+    "safe_route_distance_low_energy_marker_to_rest_BU": 6.470125356223336,
+    "shelter_and_exit_camera_visibility": {
+      "shelter_visible_ahead": {
+        "normalized_screen_xy": [
+          0.6760431528091431,
+          0.699972927570343
+        ],
+        "pixels_from_left_and_top": [
+          575.9887661933899,
+          117.9106394648552
+        ],
+        "in_frame": true,
+        "occluded": false,
+        "wind_mesh_intersects_center_view_ray": false
+      },
+      "shelter_clear_on_return": {
+        "normalized_screen_xy": [
+          0.5073555111885071,
+          0.5792264342308044
+        ],
+        "pixels_from_left_and_top": [
+          432.26689553260803,
+          165.36401134729385
+        ],
+        "in_frame": true,
+        "occluded": false,
+        "wind_mesh_intersects_center_view_ray": false
+      },
+      "S6_exit_visible": {
+        "normalized_screen_xy": [
+          0.5,
+          0.7034093141555786
+        ],
+        "pixels_from_left_and_top": [
+          426.0,
+          116.5601395368576
+        ],
+        "in_frame": true,
+        "occluded": false,
+        "wind_mesh_intersects_center_view_ray": false
+      }
+    },
+    "routes": {
+      "direct": {
+        "sample_count": 483,
+        "min_upper_route_clearance_BU": 0.6335969567298889,
+        "half_lane_BU": 0.77,
+        "control_polyline_length_BU": 64.0001614579827
+      },
+      "safe_detour": {
+        "sample_count": 1083,
+        "min_upper_route_clearance_BU": 0.20266425609588623,
+        "half_lane_BU": 0.77,
+        "control_polyline_length_BU": 44.480448822011354
+      }
+    },
+    "wet_height_error_BU": 7.152557379708213e-09,
+    "wet_extent_y_BU": [
+      7.914450645446777,
+      56.085548400878906
+    ],
+    "river_joins": [
+      {
+        "y_BU": 12,
+        "bed_probes": 161,
+        "water_probes": 45,
+        "bed_cross_sample_max_delta_BU": 8.106231689453125e-06,
+        "wet_cross_sample_max_delta_BU": 9.5367431640625e-07
+      },
+      {
+        "y_BU": 22,
+        "bed_probes": 161,
+        "water_probes": 45,
+        "bed_cross_sample_max_delta_BU": 4.76837158203125e-07,
+        "wet_cross_sample_max_delta_BU": 4.76837158203125e-07
+      },
+      {
+        "y_BU": 32,
+        "bed_probes": 161,
+        "water_probes": 45,
+        "bed_cross_sample_max_delta_BU": 4.76837158203125e-07,
+        "wet_cross_sample_max_delta_BU": 4.76837158203125e-07
+      },
+      {
+        "y_BU": 42,
+        "bed_probes": 161,
+        "water_probes": 45,
+        "bed_cross_sample_max_delta_BU": 4.76837158203125e-07,
+        "wet_cross_sample_max_delta_BU": 4.76837158203125e-07
+      },
+      {
+        "y_BU": 52,
+        "bed_probes": 161,
+        "water_probes": 45,
+        "bed_cross_sample_max_delta_BU": 7.62939453125e-06,
+        "wet_cross_sample_max_delta_BU": 4.76837158203125e-07
+      }
+    ],
+    "headwind": {
+      "lanes": 12,
+      "streaks": 48,
+      "min_direction_dot_minus_y": 1.0,
+      "mean_U1_minus_U0_extent_world_y_BU": -2.6962958110703386,
+      "speed_BU_s": 2.55
+    }
+  },
+  "source_motion": {
+    "status": "pass",
+    "sampled_frames": 197,
+    "wraps_detected": 2,
+    "measured_headwind_speed_BU_s": [
+      -2.550018310546875,
+      -2.5499725341796875
+    ],
+    "max_speed_error_BU_s": 2.7465820312322364e-05,
+    "max_camera_back_offset_error_BU": 2.105895763548915e-06,
+    "lead_y_extent_BU": [
+      18.0,
+      64.0
+    ],
+    "camera_params": {
+      "distance_game_units": 180,
+      "pitch_rad": 0.48,
+      "vertical_FOV_deg": 50,
+      "look_height_game_units": 6
+    }
+  },
+  "dependency_files": {
+    "Assets/Watercolor/Goose/Blender/ENV-007/v001/ENV-007_river_valley.blend": {
+      "sha256": "b5e4d3665c433751273051507009528f0350ee7395e949c4d11ef2e3dbf33d58",
+      "matches_catalog_hash": true,
+      "candidate_status": "needs_review",
+      "version": "v001",
+      "usage": "assembly source"
+    },
+    "Assets/Watercolor/Goose/Blender/ENV-007/v001/ENV-007_Straight.glb": {
+      "sha256": "cc472484c96e45858a07e742bd17d6b53ab12a541e7b8b369a20f4ed08a01579",
+      "matches_catalog_hash": true,
+      "candidate_status": "needs_review",
+      "version": "v001",
+      "usage": "assembly source"
+    },
+    "Assets/Watercolor/Goose/Blender/ENV-007/v001/ENV-007_OpenBank.glb": {
+      "sha256": "f135d7a2cca11d385cd2b318794dcd8ca42b2961805e4a317d8ce67266b857f4",
+      "matches_catalog_hash": true,
+      "candidate_status": "needs_review",
+      "version": "v001",
+      "usage": "assembly source"
+    },
+    "Assets/Watercolor/Goose/Blender/ENV-007/v001/ENV-007_Bend.glb": {
+      "sha256": "5ee1c9ee6aa0a2c8c29b6be7b3edcb6c99b5cc4d74a60baa44b3c8839122eb62",
+      "matches_catalog_hash": true,
+      "candidate_status": "needs_review",
+      "version": "v001",
+      "usage": "assembly source"
+    },
+    "Assets/Watercolor/Goose/Blender/ENV-007/v001/README.md": {
+      "sha256": "9f7360dd16b499f1c73862ffd4634b5abe6363d6b59bbdead7d3f518c30658ec",
+      "matches_catalog_hash": true,
+      "candidate_status": "needs_review",
+      "version": "v001",
+      "usage": "assembly source"
+    },
+    "Assets/Watercolor/Goose/Blender/ENV-007/v001/qa.json": {
+      "sha256": "039f9fb3796025318cd75f400a25c19ea048f5bceb91e41f6706ea29e986cead",
+      "matches_catalog_hash": true,
+      "candidate_status": "needs_review",
+      "version": "v001",
+      "usage": "assembly source"
+    },
+    "Assets/Watercolor/Goose/Blender/ENV-007/v001/asset_manifest.json": {
+      "sha256": "2880cdf68f775267896aadf6ded3b4fe2b69c760d2fae637462b3f7530257783",
+      "matches_catalog_hash": null,
+      "candidate_status": "needs_review",
+      "version": "v001",
+      "usage": "assembly source"
+    },
+    "Assets/Watercolor/Goose/Blender/ENV-009/v001/ENV-009_far_ridges.blend": {
+      "sha256": "b73406249077baec5f35de5f15f2bc8761eca612b3ade89d9fde102154f2cc3a",
+      "matches_catalog_hash": true,
+      "candidate_status": "needs_review",
+      "version": "v001",
+      "usage": "assembly source"
+    },
+    "Assets/Watercolor/Goose/Blender/ENV-009/v001/ENV-009_FarRidge_A.glb": {
+      "sha256": "c189468f2995e9f4c6bd7543fa15d6c1f22d09e0d18579eba8699396647fd649",
+      "matches_catalog_hash": true,
+      "candidate_status": "needs_review",
+      "version": "v001",
+      "usage": "assembly source"
+    },
+    "Assets/Watercolor/Goose/Blender/ENV-009/v001/ENV-009_FarRidge_B.glb": {
+      "sha256": "06f796b8e8c7c4c3a4d6b7cdd872a7b4ea95a274dd4d416b58752f44024393b8",
+      "matches_catalog_hash": true,
+      "candidate_status": "needs_review",
+      "version": "v001",
+      "usage": "assembly source"
+    },
+    "Assets/Watercolor/Goose/Blender/ENV-009/v001/ENV-009_FarRidge_C.glb": {
+      "sha256": "b2c78606fc1229e4e70526b27fb067141a78644e95498f4c27d1428a8455898e",
+      "matches_catalog_hash": true,
+      "candidate_status": "needs_review",
+      "version": "v001",
+      "usage": "assembly source"
+    },
+    "Assets/Watercolor/Goose/Blender/ENV-009/v001/README.md": {
+      "sha256": "8705cb75fd70ae07342347607969e26dd8377cb10937b3932f51278797459a6f",
+      "matches_catalog_hash": true,
+      "candidate_status": "needs_review",
+      "version": "v001",
+      "usage": "assembly source"
+    },
+    "Assets/Watercolor/Goose/Blender/ENV-009/v001/qa.json": {
+      "sha256": "4a0c241fb63fe7838dd485761cd2bf7e25ab2c120f0607509c81f6ee828e1d7b",
+      "matches_catalog_hash": true,
+      "candidate_status": "needs_review",
+      "version": "v001",
+      "usage": "assembly source"
+    },
+    "Assets/Watercolor/Goose/Blender/ENV-009/v001/asset_manifest.json": {
+      "sha256": "ee064fbe3b05f67cc485c78b3427c7cbc71aa280b9a5a16ba510badeb20d2e08",
+      "matches_catalog_hash": null,
+      "candidate_status": "needs_review",
+      "version": "v001",
+      "usage": "assembly source"
+    },
+    "Assets/Watercolor/Goose/Blender/FX-003/v001/FX-003_Headwind.blend": {
+      "sha256": "1d83cb6a5555cf5f9079526499474de8c501926151996f1bef1532b862f6a962",
+      "matches_catalog_hash": true,
+      "candidate_status": "needs_review",
+      "version": "v001",
+      "usage": "assembly source"
+    },
+    "Assets/Watercolor/Goose/Blender/FX-003/v001/FX-003_Headwind.glb": {
+      "sha256": "0827ab1c632f07f81f0a0294bd4f62c180dff956abcdca72adfabe96a555cc01",
+      "matches_catalog_hash": true,
+      "candidate_status": "needs_review",
+      "version": "v001",
+      "usage": "assembly source"
+    },
+    "Assets/Watercolor/Goose/Blender/FX-003/v001/wind_interface.json": {
+      "sha256": "02d426cd1e22e1056d6bf6ff9d0a9703a44b66e7372646c7aa560a825055c14e",
+      "matches_catalog_hash": true,
+      "candidate_status": "needs_review",
+      "version": "v001",
+      "usage": "assembly source"
+    },
+    "Assets/Watercolor/Goose/Blender/FX-003/v001/README.md": {
+      "sha256": "cf8a8a8cf2a43d88f618f4b1c74b7f0e902e935e202b53dcee19162204e4a83c",
+      "matches_catalog_hash": true,
+      "candidate_status": "needs_review",
+      "version": "v001",
+      "usage": "assembly source"
+    },
+    "Assets/Watercolor/Goose/Blender/FX-003/v001/qa.json": {
+      "sha256": "28ed5bb8331c75b4bebe51953aa0c48129354fdcac4165350352898e58bb4006",
+      "matches_catalog_hash": true,
+      "candidate_status": "needs_review",
+      "version": "v001",
+      "usage": "assembly source"
+    },
+    "Assets/Watercolor/Goose/Blender/FX-003/v001/asset_manifest.json": {
+      "sha256": "d7287026b124846c3240802912f204e64df0779f7fc0689700455c56618479aa",
+      "matches_catalog_hash": null,
+      "candidate_status": "needs_review",
+      "version": "v001",
+      "usage": "assembly source"
+    },
+    "Assets/Watercolor/Goose/Blender/ENV-001/v001/ENV-001_terrain.blend": {
+      "sha256": "9979e7606a115a16e9dc35fdf81684d5285b649692cd969692f195dfc1e3743d",
+      "matches_catalog_hash": true,
+      "candidate_status": "needs_review",
+      "version": "v001",
+      "usage": "assembly source"
+    },
+    "Assets/Watercolor/Goose/Blender/ENV-001/v001/ENV-001_Flat.glb": {
+      "sha256": "4c25aa571191e283e25532ead5415fbde94270259afd2d39b7a223f6a23e4363",
+      "matches_catalog_hash": true,
+      "candidate_status": "needs_review",
+      "version": "v001",
+      "usage": "assembly source"
+    },
+    "Assets/Watercolor/Goose/Blender/ENV-001/v001/README.md": {
+      "sha256": "73cb0cc48ec23519a7f81fe2c10a8e1627d6af013b631e14272cc3109a12b289",
+      "matches_catalog_hash": true,
+      "candidate_status": "needs_review",
+      "version": "v001",
+      "usage": "assembly source"
+    },
+    "Assets/Watercolor/Goose/Blender/ENV-001/v001/qa.json": {
+      "sha256": "cf2ad6c4bf148065880ff9364b8ae2b0c30cfaba867e0b87357e19446e865f2e",
+      "matches_catalog_hash": true,
+      "candidate_status": "needs_review",
+      "version": "v001",
+      "usage": "assembly source"
+    },
+    "Assets/Watercolor/Goose/Blender/ENV-001/v001/asset_manifest.json": {
+      "sha256": "423ff2934f001f2ff08eeb60901f183197dc6aa045c2c207fb2d41a684c41f3e",
+      "matches_catalog_hash": null,
+      "candidate_status": "needs_review",
+      "version": "v001",
+      "usage": "assembly source"
+    },
+    "Assets/Watercolor/Goose/Blender/ANM-006/v001/ANM-006_formation_blend.blend": {
+      "sha256": "b4690d3f11dd225f51413c0dbf2f75fe900e630222432568b37d426f924f1cb5",
+      "matches_catalog_hash": true,
+      "candidate_status": "needs_review",
+      "version": "v001",
+      "usage": "fixed-camera review only"
+    },
+    "Assets/Watercolor/Goose/Blender/ANM-006/v001/ANM-006_formation_blend.glb": {
+      "sha256": "f66466196668e7aaa8f36cde867a7ada83d87d56acfb121c7428aad4d7c129fe",
+      "matches_catalog_hash": true,
+      "candidate_status": "needs_review",
+      "version": "v001",
+      "usage": "fixed-camera review only"
+    },
+    "Assets/Watercolor/Goose/Blender/ANM-006/v001/README.md": {
+      "sha256": "5d2a7fc1c485b688f62ac61c9c4859b6e1a39297bcbf70e3a61d2d9db3620ace",
+      "matches_catalog_hash": true,
+      "candidate_status": "needs_review",
+      "version": "v001",
+      "usage": "fixed-camera review only"
+    },
+    "Assets/Watercolor/Goose/Blender/ANM-006/v001/qa.json": {
+      "sha256": "b45884f33e3d91d28a764e8154d0e743c2a22042b11672541157f1eb6865ab71",
+      "matches_catalog_hash": true,
+      "candidate_status": "needs_review",
+      "version": "v001",
+      "usage": "fixed-camera review only"
+    },
+    "Assets/Watercolor/Goose/Blender/ANM-006/v001/asset_manifest.json": {
+      "sha256": "f6965e0925ac5f5822c9a1930ce607bed2c16287d1a868998b0d689849257a61",
+      "matches_catalog_hash": null,
+      "candidate_status": "needs_review",
+      "version": "v001",
+      "usage": "fixed-camera review only"
+    },
+    "Assets/Watercolor/Goose/Blender/ENV-017/v001/ENV-017_landing_basin.blend": {
+      "sha256": "b037f2e8e57c195d2427139d4fda1d2a71f690f05f1b69cb4014ff12ad993f05",
+      "matches_catalog_hash": true,
+      "candidate_status": "needs_review",
+      "version": "v001",
+      "usage": "fixed-camera review only"
+    },
+    "Assets/Watercolor/Goose/Blender/ENV-017/v001/ENV-017_LandingBasin.glb": {
+      "sha256": "ca1c1aecc76165fab46a294664bb79d98a1b9054796c23f9c43f8f8e73e06880",
+      "matches_catalog_hash": true,
+      "candidate_status": "needs_review",
+      "version": "v001",
+      "usage": "fixed-camera review only"
+    },
+    "Assets/Watercolor/Goose/Blender/ENV-017/v001/README.md": {
+      "sha256": "e42ac6abef04f971b7894c280ee207b5ac7386f808c222581c4d6d799454f12b",
+      "matches_catalog_hash": true,
+      "candidate_status": "needs_review",
+      "version": "v001",
+      "usage": "fixed-camera review only"
+    },
+    "Assets/Watercolor/Goose/Blender/ENV-017/v001/qa.json": {
+      "sha256": "1156a8f382ab590a43a80e685aa0467b0f0232ca56a2a4f9c48d08868c743281",
+      "matches_catalog_hash": true,
+      "candidate_status": "needs_review",
+      "version": "v001",
+      "usage": "fixed-camera review only"
+    },
+    "Assets/Watercolor/Goose/Blender/ENV-017/v001/asset_manifest.json": {
+      "sha256": "bfb2e211bd589ec18f9a3524fcb6e8342b65724b60232862889d036d16948216",
+      "matches_catalog_hash": null,
+      "candidate_status": "needs_review",
+      "version": "v001",
+      "usage": "fixed-camera review only"
+    },
+    "Sources/FeatherTide/Systems/Camera/ThirdPersonRig.swift": {
+      "sha256": "274b58f0b910a280c676540dde54343c35e2e0709744e20e7e5ee4f9515476a2",
+      "usage": "fixed-camera source"
+    }
+  },
+  "GLB_transport": {
+    "status": "pass",
+    "nodes": 122,
+    "triangles_per_named_wind": 72,
+    "image_hashes": {
+      "ft_goose_env_far_ridge_a_basecolor": "dc7762ed08940ffa880135f046970e4f5d0d015d033397985e2b4c91d0ea1694",
+      "ft_goose_env_far_ridge_b_basecolor": "a94bbf0572c0b239187315dd5b3951426758a1fada507410e2a3acdfa723006c",
+      "ft_goose_mat_grass_flat_basecolor": "e06d76e88c90a29ad97a810ed7578ce67f79da1b915940d5406750228f36996b",
+      "ft_goose_mat_mud_bank_basecolor": "0343b68d4e256fca7b747c65b2fcebc74c46f3aa2334044051ac862e4e02c5b1",
+      "ft_goose_mat_moss_stone_basecolor": "10670b355497a7e1f53116859dd31128377e892f263ce8f0de58d125cff265c7",
+      "ft_goose_mat_shallow_margin_basecolor": "bd12529acd7f63aefad1df09111aa6b9a84c95161bbdb1d0c64f1cbc66d2c6f7",
+      "ft_goose_mat_water_river_basecolor_alpha": "f470fd1a2c206a618f27c177f7d6d613a4681135a47207103fa0b353c923fcaf",
+      "ft_goose_fx_s5_cloud_shadow_alpha": "4e086ed5544312c513698264e63e0aecd084749710366ee7a27bd0d030698f40",
+      "ft_goose_fx_headwind_rgba": "8d69cb8c0b87eee9ffc4ae19d31c30f758da99fec09861dcef5b11553c4306a9",
+      "ft_goose_env_s5_shelter_path_basecolor_alpha": "560fc09d381eb333f31c2244cbca712836006e6c77600e4bd1e9b0d235519080",
+      "ft_goose_env_s5_shelter_cue_alpha": "f6768f5f591931b02d53988c88586a87e60bfa65e37abb8724cf717b23e247c3",
+      "ft_goose_env_s5_shelter_basecolor_alpha": "1aa6cb16df47e76a219db6e12c3365d41fccfbb685b7b55e6aaa968ee79cca78"
+    },
+    "FX003_identical_GLTF_texture_sha256": [
+      "8d69cb8c0b87eee9ffc4ae19d31c30f758da99fec09861dcef5b11553c4306a9"
+    ],
+    "visuals_only": true
+  },
+  "pending": [
+    "Art approval and short-play wind/readability study at device size",
+    "Runtime energy threshold, warning, supply, collisions, formation and recharge/retry behavior",
+    "USDZ export, RealityKit and App integration; iPhone and iPad actual devices"
+  ],
+  "independent_delivery_recheck": {
+    "status": "pass",
+    "reopened_master": {
+      "status": "pass",
+      "anchors": {
+        "S5_Entry": {
+          "position_BU": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "axis_error": 0.0,
+          "position_error_BU": 0.0
+        },
+        "S5_LowEnergySample": {
+          "position_BU": [
+            0.0,
+            28.799999237060547,
+            0.5559999942779541
+          ],
+          "axis_error": 0.0,
+          "position_error_BU": 0.0
+        },
+        "S5_SafeApproach": {
+          "position_BU": [
+            1.0,
+            28.200000762939453,
+            0.6000000238418579
+          ],
+          "axis_error": 0.0,
+          "position_error_BU": 0.0
+        },
+        "S5_SafeRest": {
+          "position_BU": [
+            4.550000190734863,
+            33.400001525878906,
+            0.0
+          ],
+          "axis_error": 0.0,
+          "position_error_BU": 0.0
+        },
+        "S5_SafeReturn": {
+          "position_BU": [
+            1.5,
+            43.599998474121094,
+            0.6499999761581421
+          ],
+          "axis_error": 0.0,
+          "position_error_BU": 0.0
+        },
+        "S5_ExitApproach": {
+          "position_BU": [
+            0.0,
+            57.0,
+            0.6499999761581421
+          ],
+          "axis_error": 0.0,
+          "position_error_BU": 0.0
+        },
+        "S5_Exit": {
+          "position_BU": [
+            0.0,
+            64.0,
+            0.0
+          ],
+          "axis_error": 0.0,
+          "position_error_BU": 0.0
+        }
+      },
+      "exported_ridge_y_extent_BU": [
+        18.564838409423828,
+        60.5421142578125
+      ],
+      "dry_gate_samples": 1164,
+      "dry_gate_max_error_BU": 0,
+      "gate_no_water_and_no_offsegment_ground_probes": 1164,
+      "safe_bank_plateau": {
+        "count": 725,
+        "maximum_flatness_error_BU": 2.384185791015625e-07
+      },
+      "safe_route_distance_low_energy_marker_to_rest_BU": 6.470125356223336,
+      "shelter_and_exit_camera_visibility": {
+        "shelter_visible_ahead": {
+          "normalized_screen_xy": [
+            0.6760431528091431,
+            0.699972927570343
+          ],
+          "pixels_from_left_and_top": [
+            575.9887661933899,
+            117.9106394648552
+          ],
+          "in_frame": true,
+          "occluded": false,
+          "wind_mesh_intersects_center_view_ray": false
+        },
+        "shelter_clear_on_return": {
+          "normalized_screen_xy": [
+            0.5073555111885071,
+            0.5792264342308044
+          ],
+          "pixels_from_left_and_top": [
+            432.26689553260803,
+            165.36401134729385
+          ],
+          "in_frame": true,
+          "occluded": false,
+          "wind_mesh_intersects_center_view_ray": false
+        },
+        "S6_exit_visible": {
+          "normalized_screen_xy": [
+            0.5,
+            0.7034093141555786
+          ],
+          "pixels_from_left_and_top": [
+            426.0,
+            116.5601395368576
+          ],
+          "in_frame": true,
+          "occluded": false,
+          "wind_mesh_intersects_center_view_ray": false
+        }
+      },
+      "routes": {
+        "direct": {
+          "sample_count": 483,
+          "min_upper_route_clearance_BU": 0.6335969567298889,
+          "half_lane_BU": 0.77,
+          "control_polyline_length_BU": 64.0001614579827
+        },
+        "safe_detour": {
+          "sample_count": 1083,
+          "min_upper_route_clearance_BU": 0.20266425609588623,
+          "half_lane_BU": 0.77,
+          "control_polyline_length_BU": 44.480448822011354
+        }
+      },
+      "wet_height_error_BU": 7.152557379708213e-09,
+      "wet_extent_y_BU": [
+        7.914450645446777,
+        56.085548400878906
+      ],
+      "river_joins": [
+        {
+          "y_BU": 12,
+          "bed_probes": 161,
+          "water_probes": 45,
+          "bed_cross_sample_max_delta_BU": 8.106231689453125e-06,
+          "wet_cross_sample_max_delta_BU": 9.5367431640625e-07
+        },
+        {
+          "y_BU": 22,
+          "bed_probes": 161,
+          "water_probes": 45,
+          "bed_cross_sample_max_delta_BU": 4.76837158203125e-07,
+          "wet_cross_sample_max_delta_BU": 4.76837158203125e-07
+        },
+        {
+          "y_BU": 32,
+          "bed_probes": 161,
+          "water_probes": 45,
+          "bed_cross_sample_max_delta_BU": 4.76837158203125e-07,
+          "wet_cross_sample_max_delta_BU": 4.76837158203125e-07
+        },
+        {
+          "y_BU": 42,
+          "bed_probes": 161,
+          "water_probes": 45,
+          "bed_cross_sample_max_delta_BU": 4.76837158203125e-07,
+          "wet_cross_sample_max_delta_BU": 4.76837158203125e-07
+        },
+        {
+          "y_BU": 52,
+          "bed_probes": 161,
+          "water_probes": 45,
+          "bed_cross_sample_max_delta_BU": 7.62939453125e-06,
+          "wet_cross_sample_max_delta_BU": 4.76837158203125e-07
+        }
+      ],
+      "headwind": {
+        "lanes": 12,
+        "streaks": 48,
+        "min_direction_dot_minus_y": 1.0,
+        "mean_U1_minus_U0_extent_world_y_BU": -2.6962958176930765,
+        "speed_BU_s": 2.55
+      }
+    },
+    "reopened_master_motion": {
+      "status": "pass",
+      "sampled_frames": 197,
+      "wraps_detected": 2,
+      "measured_headwind_speed_BU_s": [
+        -2.550018310546875,
+        -2.5499725341796875
+      ],
+      "max_speed_error_BU_s": 2.7465820312322364e-05,
+      "max_camera_back_offset_error_BU": 2.105895763548915e-06,
+      "lead_y_extent_BU": [
+        18.0,
+        64.0
+      ],
+      "camera_params": {
+        "distance_game_units": 180,
+        "pitch_rad": 0.48,
+        "vertical_FOV_deg": 50,
+        "look_height_game_units": 6
+      }
+    },
+    "reimported_GLTF": {
+      "status": "pass",
+      "anchors": {
+        "S5_Entry": {
+          "position_BU": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "axis_error": 0.0,
+          "position_error_BU": 0.0
+        },
+        "S5_LowEnergySample": {
+          "position_BU": [
+            0.0,
+            28.799999237060547,
+            0.5559999942779541
+          ],
+          "axis_error": 0.0,
+          "position_error_BU": 0.0
+        },
+        "S5_SafeApproach": {
+          "position_BU": [
+            1.0,
+            28.200000762939453,
+            0.6000000238418579
+          ],
+          "axis_error": 0.0,
+          "position_error_BU": 0.0
+        },
+        "S5_SafeRest": {
+          "position_BU": [
+            4.550000190734863,
+            33.400001525878906,
+            0.0
+          ],
+          "axis_error": 0.0,
+          "position_error_BU": 0.0
+        },
+        "S5_SafeReturn": {
+          "position_BU": [
+            1.5,
+            43.599998474121094,
+            0.6499999761581421
+          ],
+          "axis_error": 0.0,
+          "position_error_BU": 0.0
+        },
+        "S5_ExitApproach": {
+          "position_BU": [
+            0.0,
+            57.0,
+            0.6499999761581421
+          ],
+          "axis_error": 0.0,
+          "position_error_BU": 0.0
+        },
+        "S5_Exit": {
+          "position_BU": [
+            0.0,
+            64.0,
+            0.0
+          ],
+          "axis_error": 0.0,
+          "position_error_BU": 0.0
+        }
+      },
+      "exported_ridge_y_extent_BU": [
+        18.564838409423828,
+        60.5421142578125
+      ],
+      "dry_gate_samples": 1164,
+      "dry_gate_max_error_BU": 0,
+      "gate_no_water_and_no_offsegment_ground_probes": 1164,
+      "safe_bank_plateau": {
+        "count": 725,
+        "maximum_flatness_error_BU": 2.384185791015625e-07
+      },
+      "safe_route_distance_low_energy_marker_to_rest_BU": 6.470125356223336,
+      "shelter_and_exit_camera_visibility": {
+        "shelter_visible_ahead": {
+          "normalized_screen_xy": [
+            0.6760431528091431,
+            0.699972927570343
+          ],
+          "pixels_from_left_and_top": [
+            575.9887661933899,
+            117.9106394648552
+          ],
+          "in_frame": true,
+          "occluded": false,
+          "wind_mesh_intersects_center_view_ray": false
+        },
+        "shelter_clear_on_return": {
+          "normalized_screen_xy": [
+            0.5073555111885071,
+            0.5792264342308044
+          ],
+          "pixels_from_left_and_top": [
+            432.26689553260803,
+            165.36401134729385
+          ],
+          "in_frame": true,
+          "occluded": false,
+          "wind_mesh_intersects_center_view_ray": false
+        },
+        "S6_exit_visible": {
+          "normalized_screen_xy": [
+            0.5,
+            0.7034093141555786
+          ],
+          "pixels_from_left_and_top": [
+            426.0,
+            116.5601395368576
+          ],
+          "in_frame": true,
+          "occluded": false,
+          "wind_mesh_intersects_center_view_ray": false
+        }
+      },
+      "routes": {
+        "direct": {
+          "sample_count": 483,
+          "min_upper_route_clearance_BU": 0.6335969567298889,
+          "half_lane_BU": 0.77,
+          "control_polyline_length_BU": 64.0001614579827
+        },
+        "safe_detour": {
+          "sample_count": 1083,
+          "min_upper_route_clearance_BU": 0.20266425609588623,
+          "half_lane_BU": 0.77,
+          "control_polyline_length_BU": 44.480448822011354
+        }
+      },
+      "wet_height_error_BU": 7.152557379708213e-09,
+      "wet_extent_y_BU": [
+        7.914450645446777,
+        56.085548400878906
+      ],
+      "river_joins": [
+        {
+          "y_BU": 12,
+          "bed_probes": 161,
+          "water_probes": 45,
+          "bed_cross_sample_max_delta_BU": 8.106231689453125e-06,
+          "wet_cross_sample_max_delta_BU": 9.5367431640625e-07
+        },
+        {
+          "y_BU": 22,
+          "bed_probes": 161,
+          "water_probes": 45,
+          "bed_cross_sample_max_delta_BU": 4.76837158203125e-07,
+          "wet_cross_sample_max_delta_BU": 4.76837158203125e-07
+        },
+        {
+          "y_BU": 32,
+          "bed_probes": 161,
+          "water_probes": 45,
+          "bed_cross_sample_max_delta_BU": 4.76837158203125e-07,
+          "wet_cross_sample_max_delta_BU": 4.76837158203125e-07
+        },
+        {
+          "y_BU": 42,
+          "bed_probes": 161,
+          "water_probes": 45,
+          "bed_cross_sample_max_delta_BU": 4.76837158203125e-07,
+          "wet_cross_sample_max_delta_BU": 4.76837158203125e-07
+        },
+        {
+          "y_BU": 52,
+          "bed_probes": 161,
+          "water_probes": 45,
+          "bed_cross_sample_max_delta_BU": 7.62939453125e-06,
+          "wet_cross_sample_max_delta_BU": 4.76837158203125e-07
+        }
+      ],
+      "headwind": {
+        "lanes": 12,
+        "streaks": 48,
+        "min_direction_dot_minus_y": 1.0,
+        "mean_U1_minus_U0_extent_world_y_BU": -2.6962958176930765,
+        "speed_BU_s": 2.55
+      }
+    },
+    "GLB_transport": {
+      "status": "pass",
+      "nodes": 122,
+      "triangles_per_named_wind": 72,
+      "image_hashes": {
+        "ft_goose_env_far_ridge_a_basecolor": "dc7762ed08940ffa880135f046970e4f5d0d015d033397985e2b4c91d0ea1694",
+        "ft_goose_env_far_ridge_b_basecolor": "a94bbf0572c0b239187315dd5b3951426758a1fada507410e2a3acdfa723006c",
+        "ft_goose_mat_grass_flat_basecolor": "e06d76e88c90a29ad97a810ed7578ce67f79da1b915940d5406750228f36996b",
+        "ft_goose_mat_mud_bank_basecolor": "0343b68d4e256fca7b747c65b2fcebc74c46f3aa2334044051ac862e4e02c5b1",
+        "ft_goose_mat_moss_stone_basecolor": "10670b355497a7e1f53116859dd31128377e892f263ce8f0de58d125cff265c7",
+        "ft_goose_mat_shallow_margin_basecolor": "bd12529acd7f63aefad1df09111aa6b9a84c95161bbdb1d0c64f1cbc66d2c6f7",
+        "ft_goose_mat_water_river_basecolor_alpha": "f470fd1a2c206a618f27c177f7d6d613a4681135a47207103fa0b353c923fcaf",
+        "ft_goose_fx_s5_cloud_shadow_alpha": "4e086ed5544312c513698264e63e0aecd084749710366ee7a27bd0d030698f40",
+        "ft_goose_fx_headwind_rgba": "8d69cb8c0b87eee9ffc4ae19d31c30f758da99fec09861dcef5b11553c4306a9",
+        "ft_goose_env_s5_shelter_path_basecolor_alpha": "560fc09d381eb333f31c2244cbca712836006e6c77600e4bd1e9b0d235519080",
+        "ft_goose_env_s5_shelter_cue_alpha": "f6768f5f591931b02d53988c88586a87e60bfa65e37abb8724cf717b23e247c3",
+        "ft_goose_env_s5_shelter_basecolor_alpha": "1aa6cb16df47e76a219db6e12c3365d41fccfbb685b7b55e6aaa968ee79cca78"
+      },
+      "FX003_identical_GLTF_texture_sha256": [
+        "8d69cb8c0b87eee9ffc4ae19d31c30f758da99fec09861dcef5b11553c4306a9"
+      ],
+      "reused_environment_image_sha256": {
+        "ENV-001_Flat.glb": [
+          "e06d76e88c90a29ad97a810ed7578ce67f79da1b915940d5406750228f36996b"
+        ],
+        "ENV-007_Straight.glb": [
+          "0343b68d4e256fca7b747c65b2fcebc74c46f3aa2334044051ac862e4e02c5b1",
+          "10670b355497a7e1f53116859dd31128377e892f263ce8f0de58d125cff265c7",
+          "bd12529acd7f63aefad1df09111aa6b9a84c95161bbdb1d0c64f1cbc66d2c6f7",
+          "e06d76e88c90a29ad97a810ed7578ce67f79da1b915940d5406750228f36996b",
+          "f470fd1a2c206a618f27c177f7d6d613a4681135a47207103fa0b353c923fcaf"
+        ],
+        "ENV-009_FarRidge_A.glb": [
+          "dc7762ed08940ffa880135f046970e4f5d0d015d033397985e2b4c91d0ea1694"
+        ],
+        "ENV-009_FarRidge_B.glb": [
+          "a94bbf0572c0b239187315dd5b3951426758a1fada507410e2a3acdfa723006c"
+        ]
+      },
+      "wind_alpha_mode": "BLEND",
+      "visuals_only": true
+    },
+    "video_full_decode": {
+      "status": "pass",
+      "decoded_frames": 200,
+      "size_px": [
+        852,
+        394
+      ],
+      "source_size_px": [
+        852,
+        393
+      ],
+      "audio_streams": 0,
+      "duration_s": 8.333333333333334
+    },
+    "files_verified_sha256": {
+      "LVL-S5_S5_Headwind.blend": "358d98f6d34025a9113c2852ccd62862243cabfbe0b7be1f6588eab41894ae0d",
+      "LVL-S5_S5_Headwind.glb": "da2df05dad85326994cee8f5fcabde790b3ba3b787eb4517c5903128c21acb0f",
+      "preview_fixed_rear.mp4": "41a74a794619c4a65b8b350fdbcc27ff423c7144f1b8cdffff39c3a49ae7b22d",
+      "s5_layout.json": "f6d275c0582ac485e02030a256fc4016a02b3751d2f86a880e73dd131123576b"
+    }
+  },
+  "candidate_food_collision_authority": "App owns collision, energy computations, rest/gains, safety and transitions; offline evidence checks route geometry and visual cues.",
+  "source_graybox_scope": "Stage evaluated and passed the gate, river, routes, and sightline probes before first material camera render.",
+  "redline_review": {
+    "status": "checked",
+    "source": "plans/_templates/redline-checklist.md",
+    "review_scope": "Candidate visual assets and silent staging. Warm/clear recovery cue; no alarm-red, forced score or count, pop-ups, dialogue, health clock, or animal claims. Device experience and performance are pending actual iPhone/iPad."
+  },
+  "app_baseline": {
+    "reference": "plans/active/goose-preview-model-cleanup.md",
+    "app_simulator": "iPhone 18 Pro iOS 27.2, build and 340 tests in recorded graybox baseline",
+    "real_devices": "pending"
+  }
+}

@@ -1,0 +1,483 @@
+{
+  "id": "ENV-015",
+  "result": "pass",
+  "transport": {
+    "layer_geometry": {
+      "LakesideRest_Ground": {
+        "triangles": 512,
+        "max_normal_delta_deg": 0.0056871030799741235,
+        "axis_checked_gltf_xyz_bounds_BU": [
+          [
+            -5,
+            5
+          ],
+          [
+            -0.5514931082725525,
+            0
+          ],
+          [
+            -5,
+            5
+          ]
+        ]
+      },
+      "LakesideRest_Water": {
+        "triangles": 312,
+        "max_normal_delta_deg": 0.0,
+        "axis_checked_gltf_xyz_bounds_BU": [
+          [
+            -4.6597580909729,
+            4.250289440155029
+          ],
+          [
+            -0.18000000715255737,
+            -0.18000000715255737
+          ],
+          [
+            -4.234613418579102,
+            4.503701686859131
+          ]
+        ]
+      },
+      "LakesideRest_Reeds": {
+        "triangles": 5622,
+        "max_normal_delta_deg": 0.0026729910398235078,
+        "axis_checked_gltf_xyz_bounds_BU": [
+          [
+            -5.166505813598633,
+            -1.1025049686431885
+          ],
+          [
+            -0.15758726000785828,
+            1.2743563652038574
+          ],
+          [
+            -4.878842353820801,
+            5.161289215087891
+          ]
+        ]
+      }
+    },
+    "identical_GLTF_embedded_PNG_SHA256": {
+      "LakesideRest_GroundPaint": "9e03d79c4a047cf999b95220f4233f2add4f7785336162be2917726318c43b0e",
+      "FogLeaf": "a4fbb2db73897427d8172297edb7b59d80a17707b3a3f1a198857f4996e6ed26",
+      "SedgeLeaf": "a4fbb2db73897427d8172297edb7b59d80a17707b3a3f1a198857f4996e6ed26",
+      "SeedHead": "e201e626c70ba88af6cbeae9662dc76375930208e121c4af5dbdfc52cfcefab0",
+      "LakesideRest_ShallowWater": "19f58d27f5cc0b06c1ffe6534d5beb4ee0fa72d7a15cf14a95c5c78eed9f329f"
+    },
+    "topology": {
+      "water": {
+        "LakesideRest_Water.001": {
+          "triangles": 312,
+          "wet_area_BU2": 26.354131962754764,
+          "max_dry_penetration_BU": 1.7166137694646366e-07
+        }
+      },
+      "water_total_area_BU2": 26.354131962754764,
+      "radial_samples_with_wet_segment": 36,
+      "minimum_underwater_hits_per_ray": 1,
+      "pad_min_height_above_water_BU": 0.16336386680603027,
+      "perimeter": {
+        "west": {
+          "label": "LakesideRest west → review forecourt",
+          "samples": 17,
+          "max_gap_BU": 0.0,
+          "max_normal_error_deg": 0.009120461844869575,
+          "max_uv_modulo_error": 0.0
+        },
+        "east": {
+          "label": "LakesideRest east → ENV-008",
+          "samples": 17,
+          "max_gap_BU": 0.0,
+          "max_normal_error_deg": 0.009353728817791458,
+          "max_uv_modulo_error": 0.0
+        },
+        "south": {
+          "label": "LakesideRest south → ENV-008",
+          "samples": 17,
+          "max_gap_BU": 0.0,
+          "max_normal_error_deg": 0.008702862804306365,
+          "max_uv_modulo_error": 0.0
+        },
+        "north": {
+          "label": "LakesideRest north → ENV-008",
+          "samples": 17,
+          "max_gap_BU": 0.0,
+          "max_normal_error_deg": 0.009233793985544868,
+          "max_uv_modulo_error": 0.0
+        }
+      }
+    },
+    "reassembled_lake": {
+      "apron_removed_triangles": 512,
+      "flight": {
+        "transect_sample_count": 1800,
+        "min_CHR001_neutral_lower_edge_clearance_BU": 0.18299976485967634,
+        "main_lane_half_width_BU": 1.15,
+        "wing_width_BU": 1.6004365682601929,
+        "lane_route_world_xy_BU": {
+          "entry": [
+            [
+              12.1,
+              5.85
+            ],
+            [
+              9.2,
+              6.9
+            ],
+            [
+              6.25,
+              7.9
+            ],
+            [
+              4.2,
+              9.2
+            ],
+            [
+              3.5,
+              9.98
+            ]
+          ],
+          "exit": [
+            [
+              3.5,
+              9.98
+            ],
+            [
+              4.6,
+              11.35
+            ],
+            [
+              7.15,
+              12.1
+            ],
+            [
+              10.2,
+              13.3
+            ],
+            [
+              14.2,
+              15.0
+            ]
+          ]
+        },
+        "projection_reed_hit_count": 0,
+        "lower_edge_height_BU": 0.18300000327825544
+      },
+      "before_fork": {
+        "visible_dry_pad_probes": 23,
+        "dry_pad_probes_total": 25,
+        "dry_pad_pixel_box_at_852x393": [
+          [
+            396.035880446434,
+            518.6952588558197
+          ],
+          [
+            69.17249715328217,
+            92.63975536823273
+          ]
+        ]
+      },
+      "stationary_flock": {
+        "goose_count": 12,
+        "pair_count": 66,
+        "min_hull_gap_BU": 0.10814619064331055,
+        "slots": [
+          {
+            "xy_BU": [
+              -0.4821940621268945,
+              -2.0877827823356467
+            ],
+            "yaw_degrees": 0.0,
+            "scale": 1,
+            "root_z_BU": 0.16895467042922974,
+            "min_mesh_vertex_clearance_BU": 0.0,
+            "feet": [
+              {
+                "sample_count": 65,
+                "contact_gap_BU": 0.0,
+                "max_sole_probe_gap_BU": 0.004282742738723755,
+                "min_ground_above_water_BU": 0.18
+              },
+              {
+                "sample_count": 65,
+                "contact_gap_BU": 0.0,
+                "max_sole_probe_gap_BU": 0.004282712936401367,
+                "min_ground_above_water_BU": 0.18
+              }
+            ]
+          },
+          {
+            "xy_BU": [
+              -1.79,
+              -2.2
+            ],
+            "yaw_degrees": -12.000000000000002,
+            "scale": 1,
+            "root_z_BU": 0.16895467042922974,
+            "min_mesh_vertex_clearance_BU": 0.0,
+            "feet": [
+              {
+                "sample_count": 65,
+                "contact_gap_BU": 0.0,
+                "max_sole_probe_gap_BU": 0.004282742738723755,
+                "min_ground_above_water_BU": 0.18
+              },
+              {
+                "sample_count": 65,
+                "contact_gap_BU": 0.0,
+                "max_sole_probe_gap_BU": 0.004282712936401367,
+                "min_ground_above_water_BU": 0.18
+              }
+            ]
+          },
+          {
+            "xy_BU": [
+              0.7173016397555955,
+              -2.3133048504137665
+            ],
+            "yaw_degrees": -11.0,
+            "scale": 1,
+            "root_z_BU": 0.16895467042922974,
+            "min_mesh_vertex_clearance_BU": 0.0,
+            "feet": [
+              {
+                "sample_count": 65,
+                "contact_gap_BU": 0.0,
+                "max_sole_probe_gap_BU": 0.004282742738723755,
+                "min_ground_above_water_BU": 0.18
+              },
+              {
+                "sample_count": 65,
+                "contact_gap_BU": 0.0,
+                "max_sole_probe_gap_BU": 0.004282712936401367,
+                "min_ground_above_water_BU": 0.18
+              }
+            ]
+          },
+          {
+            "xy_BU": [
+              -1.650438896016451,
+              -0.6406087719749735
+            ],
+            "yaw_degrees": 2.0,
+            "scale": 1,
+            "root_z_BU": 0.16895467042922974,
+            "min_mesh_vertex_clearance_BU": 0.0,
+            "feet": [
+              {
+                "sample_count": 65,
+                "contact_gap_BU": 0.0,
+                "max_sole_probe_gap_BU": 0.004282742738723755,
+                "min_ground_above_water_BU": 0.18
+              },
+              {
+                "sample_count": 65,
+                "contact_gap_BU": 0.0,
+                "max_sole_probe_gap_BU": 0.004282712936401367,
+                "min_ground_above_water_BU": 0.18
+              }
+            ]
+          },
+          {
+            "xy_BU": [
+              -0.5339157242194164,
+              -0.7445945138836723
+            ],
+            "yaw_degrees": -10.0,
+            "scale": 1,
+            "root_z_BU": 0.16895467042922974,
+            "min_mesh_vertex_clearance_BU": 0.0,
+            "feet": [
+              {
+                "sample_count": 65,
+                "contact_gap_BU": 0.0,
+                "max_sole_probe_gap_BU": 0.004282742738723755,
+                "min_ground_above_water_BU": 0.18
+              },
+              {
+                "sample_count": 65,
+                "contact_gap_BU": 0.0,
+                "max_sole_probe_gap_BU": 0.004282712936401367,
+                "min_ground_above_water_BU": 0.18
+              }
+            ]
+          },
+          {
+            "xy_BU": [
+              0.521849869188202,
+              -0.8648491052436199
+            ],
+            "yaw_degrees": 3.0000000000000004,
+            "scale": 1,
+            "root_z_BU": 0.16895467042922974,
+            "min_mesh_vertex_clearance_BU": 0.0,
+            "feet": [
+              {
+                "sample_count": 65,
+                "contact_gap_BU": 0.0,
+                "max_sole_probe_gap_BU": 0.004282742738723755,
+                "min_ground_above_water_BU": 0.18
+              },
+              {
+                "sample_count": 65,
+                "contact_gap_BU": 0.0,
+                "max_sole_probe_gap_BU": 0.004282712936401367,
+                "min_ground_above_water_BU": 0.18
+              }
+            ]
+          },
+          {
+            "xy_BU": [
+              -1.8120843971800547,
+              0.8382086654873386
+            ],
+            "yaw_degrees": -9.0,
+            "scale": 1,
+            "root_z_BU": 0.16895467042922974,
+            "min_mesh_vertex_clearance_BU": 0.0,
+            "feet": [
+              {
+                "sample_count": 65,
+                "contact_gap_BU": 0.0,
+                "max_sole_probe_gap_BU": 0.0042826831340789795,
+                "min_ground_above_water_BU": 0.18
+              },
+              {
+                "sample_count": 65,
+                "contact_gap_BU": 0.0,
+                "max_sole_probe_gap_BU": 0.004282712936401367,
+                "min_ground_above_water_BU": 0.18
+              }
+            ]
+          },
+          {
+            "xy_BU": [
+              -0.7282632311449236,
+              0.6136239755616266
+            ],
+            "yaw_degrees": 4.0,
+            "scale": 1,
+            "root_z_BU": 0.16895467042922974,
+            "min_mesh_vertex_clearance_BU": 0.0,
+            "feet": [
+              {
+                "sample_count": 65,
+                "contact_gap_BU": 0.0,
+                "max_sole_probe_gap_BU": 0.004282742738723755,
+                "min_ground_above_water_BU": 0.18
+              },
+              {
+                "sample_count": 65,
+                "contact_gap_BU": 0.0,
+                "max_sole_probe_gap_BU": 0.004282712936401367,
+                "min_ground_above_water_BU": 0.18
+              }
+            ]
+          },
+          {
+            "xy_BU": [
+              0.4734825580886538,
+              0.7091983776337254
+            ],
+            "yaw_degrees": -8.0,
+            "scale": 1,
+            "root_z_BU": 0.16895467042922974,
+            "min_mesh_vertex_clearance_BU": 0.0,
+            "feet": [
+              {
+                "sample_count": 65,
+                "contact_gap_BU": 0.0,
+                "max_sole_probe_gap_BU": 0.004282742738723755,
+                "min_ground_above_water_BU": 0.18
+              },
+              {
+                "sample_count": 65,
+                "contact_gap_BU": 0.0,
+                "max_sole_probe_gap_BU": 0.004282712936401367,
+                "min_ground_above_water_BU": 0.18
+              }
+            ]
+          },
+          {
+            "xy_BU": [
+              -1.926066429716255,
+              2.1883456010477826
+            ],
+            "yaw_degrees": 5.0,
+            "scale": 1,
+            "root_z_BU": 0.16895467042922974,
+            "min_mesh_vertex_clearance_BU": 0.0,
+            "feet": [
+              {
+                "sample_count": 65,
+                "contact_gap_BU": 0.003968238830566406,
+                "max_sole_probe_gap_BU": 0.008762151002883911,
+                "min_ground_above_water_BU": 0.17547553062438964
+              },
+              {
+                "sample_count": 65,
+                "contact_gap_BU": 0.0,
+                "max_sole_probe_gap_BU": 0.004282712936401367,
+                "min_ground_above_water_BU": 0.18
+              }
+            ]
+          },
+          {
+            "xy_BU": [
+              -0.6457876740817637,
+              2.0496440912973948
+            ],
+            "yaw_degrees": -7.0,
+            "scale": 1,
+            "root_z_BU": 0.16895467042922974,
+            "min_mesh_vertex_clearance_BU": 0.0,
+            "feet": [
+              {
+                "sample_count": 65,
+                "contact_gap_BU": 0.0,
+                "max_sole_probe_gap_BU": 0.004282742738723755,
+                "min_ground_above_water_BU": 0.18
+              },
+              {
+                "sample_count": 65,
+                "contact_gap_BU": 0.0,
+                "max_sole_probe_gap_BU": 0.004282712936401367,
+                "min_ground_above_water_BU": 0.18
+              }
+            ]
+          },
+          {
+            "xy_BU": [
+              0.6765880579428233,
+              2.27317682230039
+            ],
+            "yaw_degrees": 6.000000000000001,
+            "scale": 1,
+            "root_z_BU": 0.16879433393478394,
+            "min_mesh_vertex_clearance_BU": 0.0,
+            "feet": [
+              {
+                "sample_count": 65,
+                "contact_gap_BU": 0.0,
+                "max_sole_probe_gap_BU": 0.004557162523269653,
+                "min_ground_above_water_BU": 0.1795652437210083
+              },
+              {
+                "sample_count": 65,
+                "contact_gap_BU": 0.0032219886779785156,
+                "max_sole_probe_gap_BU": 0.007779121398925781,
+                "min_ground_above_water_BU": 0.17634325504302978
+              }
+            ]
+          }
+        ],
+        "worst_foot_contact_gap_BU": 0.003968238830566406,
+        "root_units": "BU",
+        "pose": "ANM-007 Land_Mudflat frame 81, 12 birds at 1x",
+        "worst_sole_probe_gap_BU": 0.008762151002883911,
+        "minimum_ground_above_water_at_feet_BU": 0.17547553062438964
+      }
+    }
+  }
+}

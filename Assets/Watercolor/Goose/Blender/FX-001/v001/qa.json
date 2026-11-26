@@ -1,0 +1,220 @@
+{
+  "id": "FX-001",
+  "version": "v001",
+  "status": "needs_review",
+  "motion_preview": {
+    "status": "pass",
+    "half_frame_samples": 119,
+    "world_downstream_advances_BU": [
+      0.054999351501464844,
+      0.05500030517578125
+    ],
+    "screen_downstream_center_travel_frames_12_to_51_px": [
+      28.75827205181122,
+      22.993073523044586,
+      15.611271321773529,
+      26.472614228725433,
+      26.32040101289749,
+      21.362040281295776,
+      14.490356147289276,
+      24.6140576004982
+    ],
+    "formation_samples": [
+      {
+        "frame": 1.0,
+        "max_abs_radians": 0.20000000298023224,
+        "formation_weight": 0.0
+      },
+      {
+        "frame": 30.0,
+        "max_abs_radians": 0.08752893656492233,
+        "formation_weight": 0.5623553395271301
+      },
+      {
+        "frame": 41.0,
+        "max_abs_radians": 0.0,
+        "formation_weight": 1.0
+      },
+      {
+        "frame": 60.0,
+        "max_abs_radians": 0.0,
+        "formation_weight": 1.0
+      }
+    ],
+    "minimum_stroke_to_leader_bbox_gap_px": 52.74080175161362,
+    "minimum_stroke_to_all_bird_bboxes_gap_px": 9.399576008319855,
+    "visible_birds_each_sample": 12
+  },
+  "fixed_view_contrast": {
+    "default": {
+      "mean_abs_rgb8": 0.009582800790667534,
+      "max_abs_rgb8": 39.0,
+      "pixels_at_least_threshold": 352,
+      "threshold_rgb8": 4
+    },
+    "reduced": {
+      "mean_abs_rgb8": 0.003918336238712072,
+      "max_abs_rgb8": 17.0,
+      "pixels_at_least_threshold": 227,
+      "threshold_rgb8": 4
+    }
+  },
+  "video": {
+    "status": "pass",
+    "source_size": [
+      852,
+      393
+    ],
+    "codec_name": "h264",
+    "codec_type": "video",
+    "width": 852,
+    "height": 394,
+    "duration": "5.000000",
+    "nb_read_frames": "60",
+    "audio_streams": 0
+  },
+  "pending": [
+    "负责人确认水彩观感与静音风向可读性",
+    "USDZ、RealityKit 与 App 接入",
+    "真实风向、队形、透明排序与剔除",
+    "iPhone / iPad 真机验证"
+  ],
+  "independent_artifact_directory_reopen": {
+    "status": "pass",
+    "reopened_file": "FX-001_WindTail.blend",
+    "variant_results": {
+      "WindTail_Long": {
+        "source_geometry": {
+          "vertices": 74,
+          "triangles": 72,
+          "length_BU": 2.799999952316284,
+          "uv_u_max_error": 5.108969558520471e-08,
+          "tile_endpoint_max_delta_BU": 0.0
+        },
+        "reimported_geometry": {
+          "vertices": 74,
+          "triangles": 72,
+          "length_BU": 2.799999952316284,
+          "uv_u_max_error": 5.108969558520471e-08,
+          "tile_endpoint_max_delta_BU": 0.0
+        },
+        "status": "pass",
+        "embedded_png_sha256": "572e351d9a0dbb81f08a31ad4a0f7e53346376bb2ec2750351e7f553598cdc80",
+        "peak_alpha": 0.3686274588108063,
+        "all_texture_edges_alpha": 0,
+        "alpha_mode": "BLEND",
+        "double_sided": true,
+        "static": true
+      },
+      "WindTail_Short": {
+        "source_geometry": {
+          "vertices": 50,
+          "triangles": 48,
+          "length_BU": 1.399999976158142,
+          "uv_u_max_error": 4.257474628399649e-08,
+          "tile_endpoint_max_delta_BU": 0.0
+        },
+        "reimported_geometry": {
+          "vertices": 50,
+          "triangles": 48,
+          "length_BU": 1.399999976158142,
+          "uv_u_max_error": 4.257474628399649e-08,
+          "tile_endpoint_max_delta_BU": 0.0
+        },
+        "status": "pass",
+        "embedded_png_sha256": "11b5e75d0d1f0647429cbc3f69c48783ff2e24f837af057b9643f736870dfb6d",
+        "peak_alpha": 0.34117648005485535,
+        "all_texture_edges_alpha": 0,
+        "alpha_mode": "BLEND",
+        "double_sided": true,
+        "static": true
+      }
+    },
+    "reopened_motion": {
+      "status": "pass",
+      "half_frame_samples": 119,
+      "world_downstream_advances_BU": [
+        0.054999351501464844,
+        0.05500030517578125
+      ],
+      "screen_downstream_center_travel_frames_12_to_51_px": [
+        28.75827205181122,
+        22.993073523044586,
+        15.611271321773529,
+        26.472614228725433,
+        26.32040101289749,
+        21.362040281295776,
+        14.490356147289276,
+        24.6140576004982
+      ],
+      "formation_samples": [
+        {
+          "frame": 1.0,
+          "max_abs_radians": 0.20000000298023224,
+          "formation_weight": 0.0
+        },
+        {
+          "frame": 30.0,
+          "max_abs_radians": 0.08752893656492233,
+          "formation_weight": 0.5623553395271301
+        },
+        {
+          "frame": 41.0,
+          "max_abs_radians": 0.0,
+          "formation_weight": 1.0
+        },
+        {
+          "frame": 60.0,
+          "max_abs_radians": 0.0,
+          "formation_weight": 1.0
+        }
+      ],
+      "minimum_stroke_to_leader_bbox_gap_px": 52.74080175161362,
+      "minimum_stroke_to_all_bird_bboxes_gap_px": 9.399576008319855,
+      "visible_birds_each_sample": 12
+    },
+    "reversed_wind_forward_axis_and_positive_scale": "pass",
+    "reversed_wind_frame_displacement_BU": [
+      -0.1099996566772461,
+      -0.1100001335144043,
+      -0.11000001430511475,
+      -0.1100001335144043,
+      -0.1100001335144043,
+      -0.1099998950958252,
+      -0.11000001430511475,
+      -0.1100001335144043
+    ],
+    "reopened_render": {
+      "mean_abs_rgb8": 0.0,
+      "max_abs_rgb8": 0.0,
+      "pixels_at_least_threshold": 0,
+      "threshold_rgb8": 4
+    },
+    "roundtrip_render": {
+      "mean_abs_rgb8": 0.0,
+      "max_abs_rgb8": 0.0,
+      "pixels_at_least_threshold": 0,
+      "threshold_rgb8": 4
+    },
+    "video": {
+      "status": "pass",
+      "source_size": [
+        852,
+        393
+      ],
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 852,
+      "height": 394,
+      "duration": "5.000000",
+      "nb_read_frames": "60",
+      "audio_streams": 0
+    }
+  },
+  "review": {
+    "scope": "离线候选；运行时、App、iPhone / iPad 待验",
+    "baseline": "iOS 27.2 模拟器现有灰盒构建及 340 项通过记录，本次未重跑。",
+    "redlines": "对照 plans/_templates/redline-checklist.md；仅添加静音项目内候选特效、使用浅金与乳白。",
+    "visual_observation": "对照固定机位片段、三个状态关键帧、顶视与无特效静帧，确认浅金／乳白笔触顺航向平移。结阵后行迹并行，主雁轮廓持续可辨；人因风向辨识待负责人审阅。"
+  }
+}

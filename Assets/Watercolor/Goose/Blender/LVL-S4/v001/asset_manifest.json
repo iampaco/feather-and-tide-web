@@ -1,0 +1,362 @@
+{
+  "id": "LVL-S4",
+  "version": "v001",
+  "variant": "S4_WindFarm",
+  "execution_order_1_based": 46,
+  "status": "needs_review",
+  "tool": "Blender 5.2.2 LTS / d13f752e3b9c",
+  "dependencies": {
+    "STR-002/v001": {
+      "role": "Curved farm, turbines and layout source",
+      "art_review": "Passed per project owner instruction"
+    },
+    "ENV-016/v001": {
+      "role": "Protected marsh ground, water and reeds",
+      "status": "needs_review"
+    },
+    "FX-010/v001": {
+      "role": "Continuous surface and local pressure visual",
+      "offline": "pass",
+      "status": "needs_review"
+    },
+    "FX-011/v001": {
+      "role": "Two silent warning morph samples",
+      "offline": "pass",
+      "status": "needs_review"
+    }
+  },
+  "review_inputs": [
+    "ENV-001/v001",
+    "ENV-002/v001",
+    "ENV-018/v001",
+    "CHR-001/v001",
+    "ANM-007/v001"
+  ],
+  "sources_and_rights": "Project-owned procedural assets and inherited asset-library candidates. Existing rights/credit records apply.",
+  "source_files_relative_to_Blender_library": {
+    "STR-002/v001/STR-002_CurvedFarm_Layout.blend": {
+      "sha256": "70700aded24658e653185dd4affe0aaa20dfaca707c48995c27973850d6fbecc",
+      "bytes": 21948585
+    },
+    "STR-002/v001/STR-002_CurvedFarm_Layout.glb": {
+      "sha256": "9a37ce637b0996059f2d547a7c515fa4952aa08d933eea923d5acfe45f11ceb6",
+      "bytes": 1308944
+    },
+    "STR-002/v001/README.md": {
+      "sha256": "4dae4b4b1179dfb542a5bd26a6a1bab6f89f46dc4ee487d4af171df15e88f40f",
+      "bytes": 6467
+    },
+    "STR-002/v001/asset_manifest.json": {
+      "sha256": "7a88d5ca25e6ec15f69954e813b23f23cb2e3e2ef73b7f01ac46949366a046f4",
+      "bytes": 8233
+    },
+    "STR-002/v001/qa.json": {
+      "sha256": "d41bc3c37947ddc314cb055e0338a6b82f97af2f71a901e08f00df3613d64932",
+      "bytes": 27774
+    },
+    "STR-002/v001/farm_layout.json": {
+      "sha256": "85db55e5a9dc4e7f72ab5141ff5c1da52be4d1e9aab7977382841354eedc8657",
+      "bytes": 2448
+    },
+    "ENV-016/v001/ENV-016_protected_marsh.blend": {
+      "sha256": "228583827b45d44c1bc877c3ed4decab177a121a4e374f0ef5da09a1c37c01d8",
+      "bytes": 22130359
+    },
+    "ENV-016/v001/ENV-016_ProtectedMarsh.glb": {
+      "sha256": "a6c9ed997539d4c82f135c3101349a6729c75fbb4d5b3a0c5e7d10af21ccce23",
+      "bytes": 8745192
+    },
+    "ENV-016/v001/README.md": {
+      "sha256": "ed1aa708dc8bc0746b099036ce9774f22c656c0776fc0454671cf03483e7d3b9",
+      "bytes": 6328
+    },
+    "ENV-016/v001/asset_manifest.json": {
+      "sha256": "074789449e3d86bff5fb284e210b174c550faac379e8a52bbdcb88694712bf05",
+      "bytes": 9436
+    },
+    "ENV-016/v001/qa.json": {
+      "sha256": "44a9644518b94793a2b99390140dc27183c8d18598310fdb5ba3085131247fb5",
+      "bytes": 49272
+    },
+    "FX-010/v001/FX-010_RotorFootprint.blend": {
+      "sha256": "d59e7499d7b57ce19309647905773b8db3289ff0c60e6291034c24361efb52d5",
+      "bytes": 18426684
+    },
+    "FX-010/v001/FX-010_RotorFootprint.glb": {
+      "sha256": "ebb1b43e237e2d3102baf98ab7c0a489b4a2f724a8a846280bbe2d9a92b5460d",
+      "bytes": 1263880
+    },
+    "FX-010/v001/README.md": {
+      "sha256": "8377f384062c7c2bc42beec1915f8e16d06c4bb3658e5ecf9a792171656d4366",
+      "bytes": 4910
+    },
+    "FX-010/v001/asset_manifest.json": {
+      "sha256": "db488001c6bc9747f20d21edc3da61dc88b6c7755c32efc6f2c2b25448d9d8f3",
+      "bytes": 8115
+    },
+    "FX-010/v001/qa.json": {
+      "sha256": "f05119b1b019616ed582ef2c4604670d294bcfbeb9fc3c0ec1f42ca3f7a3bb71",
+      "bytes": 24012
+    },
+    "FX-011/v001/FX-011_TurbineWarn.blend": {
+      "sha256": "18a62f4a68394683145df328f2c6704101e435cea75cd122746eeb0865b085e4",
+      "bytes": 19001311
+    },
+    "FX-011/v001/FX-011_TurbineWarn.glb": {
+      "sha256": "e631c112d8946f4c7fb2b6a0d75ad5151ccbcb975f173b7c292b3b7e9427359c",
+      "bytes": 162924
+    },
+    "FX-011/v001/README.md": {
+      "sha256": "b974f6d2fd535fafe8ed9c3f5028eb6461950dc50b49fbb7674f6db1555b43b7",
+      "bytes": 4480
+    },
+    "FX-011/v001/asset_manifest.json": {
+      "sha256": "dd736f741eca2d88aeb87df61c6df60445af84921d4063eeb4dd8f16c6b7f24e",
+      "bytes": 7776
+    },
+    "FX-011/v001/qa.json": {
+      "sha256": "fa98f6444bed50c92ac196c35df8e153dc0fc9d9630c71d473f5dbf47ea3f66d",
+      "bytes": 10518
+    },
+    "FX-011/v001/warning_review.json": {
+      "sha256": "bd174f4af983342fcaa017174a137db69ec05f5a8db74dbc8df722a1c5b34386",
+      "bytes": 1314
+    },
+    "STR-001/v001/STR-001_generate.py": {
+      "sha256": "e6f8d496e1364c62f8e727d23d34546839a323872a828546c49b23feee466f9e",
+      "bytes": 27244
+    },
+    "STR-002/v001/STR-002_generate.py": {
+      "sha256": "9372f5a485180c3fe5a305450e65e3db73a207c2a469fdd0011cfaca722266c4",
+      "bytes": 40090
+    },
+    "ENV-001/v001/ENV-001_terrain.blend": {
+      "sha256": "9979e7606a115a16e9dc35fdf81684d5285b649692cd969692f195dfc1e3743d",
+      "bytes": 9186184
+    },
+    "ENV-001/v001/asset_manifest.json": {
+      "sha256": "423ff2934f001f2ff08eeb60901f183197dc6aa045c2c207fb2d41a684c41f3e",
+      "bytes": 8337
+    },
+    "ENV-001/v001/ENV-001_generate.py": {
+      "sha256": "ba9f27275913d194b1df183bf2554885a76cd110d0920e81dbc620f51ffaf06f",
+      "bytes": 44556
+    },
+    "ENV-002/v001/qa.json": {
+      "sha256": "e29f45177ba195a6b58b658ba313859bd9f2c0310cfb7604aae2ae33aaafddbf",
+      "bytes": 282807
+    },
+    "ENV-002/v001/ENV-002_generate.py": {
+      "sha256": "92265bc6f7efaf61ca69713e23f0874144607a4dc0f45d83a988cd2dddd1583a",
+      "bytes": 39511
+    },
+    "ENV-003/v001/ENV-003_generate.py": {
+      "sha256": "f87666de64e10dedafac9ac92f021e497bd559c9e579e2a68d13800d5b373c9c",
+      "bytes": 19173
+    },
+    "ENV-004/v001/ENV-004_generate.py": {
+      "sha256": "6ecce8d4eebfc190e2d91074b0ef5ef32f652945db7b8d82f23a1ac074f841a7",
+      "bytes": 19323
+    },
+    "ENV-005/v001/ENV-005_generate.py": {
+      "sha256": "da27f510ff1faac8490c943bddd4d500f74c021c46c1bfafb71e10f3cf40bce3",
+      "bytes": 26181
+    },
+    "ENV-007/v001/ENV-007_generate.py": {
+      "sha256": "4c0572f02f5ad69160e62f1349d738dd0a19df38a63c81757bbc00c05d58035b",
+      "bytes": 38009
+    },
+    "ENV-010/v001/ENV-010_generate.py": {
+      "sha256": "6257380db9ffb26d93ac9373c4baf512d0b7ecb3732b9b3f0b02981eb537f7e6",
+      "bytes": 32567
+    },
+    "ENV-014/v001/ENV-014_generate.py": {
+      "sha256": "426668ace7e8599abb150ba2b2dd5874af17cfb2e862a0e46d54a74e961c5eb7",
+      "bytes": 35038
+    },
+    "ENV-016/v001/ENV-016_generate.py": {
+      "sha256": "dea57b1c3b6652a3b11aea5efe8018ec97f21a0d57bc2de4616d84a91608e7ab",
+      "bytes": 29527
+    },
+    "ENV-018/v001/ENV-018_atmosphere_cards.blend": {
+      "sha256": "b731176f235bc14666b504915df8756a4d66eaefa1cf6c49e9730c3d17e995fd",
+      "bytes": 54295652
+    },
+    "ENV-018/v001/ENV-018_generate.py": {
+      "sha256": "35c436513ecd84cb1cb052ab2d4dac62e4c2de3051628637cfe8a94bfbae7538",
+      "bytes": 29400
+    },
+    "FX-010/v001/FX-010_generate.py": {
+      "sha256": "eef19197cd7758502b5abd7523bf37ccb6148fc9dcacdbf45409132596d0ff48",
+      "bytes": 29245
+    },
+    "FX-011/v001/FX-011_generate.py": {
+      "sha256": "51b1719d525cf562d9a88ac5c46ba3629b822b26c239680ca6978255b80afc43",
+      "bytes": 24987
+    },
+    "CHR-001/v001/CHR-001_goose_rig.blend": {
+      "sha256": "db0c8d55c5efc499c99f7787228967451d071f36294962b12dc4b34d02f350f5",
+      "bytes": 3847685
+    },
+    "ANM-007/v001/ANM-007_landing.blend": {
+      "sha256": "bf8ed361fb9e06706e4a78e7fcbf2d4f61edc8cdbeea6018f2339dfecc35e5f0",
+      "bytes": 3939567
+    }
+  },
+  "runtime_export": {
+    "file": "LVL-S4_S4_WindFarm.glb",
+    "visuals_only": true,
+    "axis_conversion": "(x,y,z) -> (x,z,-y)",
+    "assembly_root": "S4_WindFarm",
+    "root_pivot_BU": [
+      0,
+      0,
+      0
+    ],
+    "BU_per_game_unit": 0.036,
+    "seam_terrain_instance_count": 22,
+    "layout_and_runtime_input_contract": "s4_layout.json",
+    "packed_textures": {
+      "from_source_GLBS": 19,
+      "ENV001_Flat": 1,
+      "new_source_art": 0,
+      "source_asset_manifests": [
+        "../../STR-002/v001/asset_manifest.json",
+        "../../ENV-016/v001/asset_manifest.json",
+        "../../FX-010/v001/asset_manifest.json",
+        "../../FX-011/v001/asset_manifest.json",
+        "../../ENV-001/v001/asset_manifest.json"
+      ],
+      "source_hashes_in": "qa.json / independent_delivery_recheck / GLB_transport"
+    },
+    "separate_clips": {
+      "Farm_Rotor_Loop": 9.0,
+      "RotorPressureLoop": 9.0,
+      "ApproachCue": 3.0,
+      "BoundaryContact": 1.0833333333333333
+    },
+    "collision_authority": "Runtime Game Zone"
+  },
+  "review": {
+    "editable_master": "LVL-S4_S4_WindFarm.blend",
+    "still_camera_resolution": [
+      852,
+      393
+    ],
+    "video_H264_resolution": [
+      852,
+      394
+    ],
+    "audio_streams": 0,
+    "full_formation_proof": "preview_full_v_top.png",
+    "script": "LVL-S4_generate.py",
+    "qa": "qa.json"
+  },
+  "pending": {
+    "art_review": "pending",
+    "USDZ": "pending",
+    "RealityKit_and_App_integration": "pending",
+    "runtime": [
+      "Game Zone authoritative union and event source",
+      "outside/inside and re-arm behavior",
+      "speed-dependent lead time",
+      "dynamic formation, touchdown and replenishment",
+      "50-second flow"
+    ],
+    "iPhone_iPad_visual_input_performance": "待真机"
+  },
+  "files": {
+    "LVL-S4_S4_WindFarm.blend": {
+      "sha256": "d02a1f0e42808a494a57ade7db50adb99ff6368c91474bc5e53e76753569af8c",
+      "bytes": 18693020
+    },
+    "LVL-S4_S4_WindFarm.glb": {
+      "sha256": "8a07962c9c2fecff8e17a7bfab135dffbf8362b94eab119648eb9eab0069caed",
+      "bytes": 12479844
+    },
+    "LVL-S4_generate.py": {
+      "sha256": "af404e69c998b387e7214f916d1d276e81fb17a14af7a857a901580cdf2c4e8d",
+      "bytes": 48685
+    },
+    "README.md": {
+      "sha256": "654e4f5992223a1d72638481d0ed5b234025a1735465b729c6536381d8c06e57",
+      "bytes": 5771
+    },
+    "comparison_warning_idle.png": {
+      "sha256": "d68e1ceb6ee4cfeff7634936158248d47566497e7601b4cab6cc219044bdfd3d",
+      "bytes": 362043
+    },
+    "graybox_fixed_rear.png": {
+      "sha256": "be1bee7c8f89b4d8a95bb19a0c8e706dc7935f1da36b021fedc1bd879998fdf4",
+      "bytes": 310793
+    },
+    "graybox_top.png": {
+      "sha256": "8e4e62d6adce076aa13870f2d0b358ec5dd7a1e9679c0f7a28051156f7661cb7",
+      "bytes": 807018
+    },
+    "graybox_wetland_landing.png": {
+      "sha256": "aeb514229275a913ae2e36e11cd9d3af294b548d91ba846f7f2205578beebc72",
+      "bytes": 306383
+    },
+    "preview_contact_wave.png": {
+      "sha256": "6b46b087a8c7dbac48ebb83ec1f6c17b36d81f68300cc582d1740ebe4720ef3e",
+      "bytes": 362250
+    },
+    "preview_fixed_rear_approach.png": {
+      "sha256": "41628508c0505cb3ec15a445ab2feac631bb8d87886a938e430d769cbb298b24",
+      "bytes": 368294
+    },
+    "preview_fixed_rear_bypass.mp4": {
+      "sha256": "98ab2db811ff53234ffc3d1d901104bdbd9b904764ab63b30f942cb72da39ed7",
+      "bytes": 778320
+    },
+    "preview_fixed_rear_egress.png": {
+      "sha256": "fe3ef9b4622e8082aa49cadb9038d778e2fac4052e06e882b913f16006fddbd1",
+      "bytes": 341588
+    },
+    "preview_fixed_rear_silent_warning.mp4": {
+      "sha256": "2722564b5d34e739a5485d1a3a88e8f68f03ee3b20c62015a371b8081dfeb933",
+      "bytes": 528573
+    },
+    "preview_full_v_top.png": {
+      "sha256": "d72ab99fc17bd652c963edcbb459c642c9f4e44b753be3fb8506d8c8867ed98e",
+      "bytes": 1084919
+    },
+    "preview_warning_edge.png": {
+      "sha256": "35d29827be4ae1a30a21d6b12b53f4c0eaa29d81c6f82442048267a276ae6078",
+      "bytes": 362300
+    },
+    "preview_wetland_landing.png": {
+      "sha256": "2f907251bf14ea75c709af3cd7d32568d6fae098b10fd59549a051d2f75a9cb4",
+      "bytes": 358628
+    },
+    "qa.json": {
+      "sha256": "bf2a11e36bd32cad6f8e8e00f3b5b2f719b8493f4ac53a1230e18a296c204a9a",
+      "bytes": 41682
+    },
+    "roundtrip_contact_wave.png": {
+      "sha256": "d3a286db6468e9865adb4f5269d90e1fb1a5f0aa84feafc83ec7e2c8d4f13a70",
+      "bytes": 362487
+    },
+    "roundtrip_fixed_rear_approach.png": {
+      "sha256": "003602f4e3e4aaba5c81413318487e51e4be6c3c6c559bb48591b421037f0d9a",
+      "bytes": 368386
+    },
+    "roundtrip_full_v_top.png": {
+      "sha256": "3dab4a8445d71288e0a88b69d03180d4df2f9deebc76c97d294f4ce895a516ed",
+      "bytes": 1084915
+    },
+    "roundtrip_warning_edge.png": {
+      "sha256": "17d10630393840691e437b68da40cbd17fc1ea40f8e0b8478b167640d5be4c4a",
+      "bytes": 362791
+    },
+    "roundtrip_wetland_landing.png": {
+      "sha256": "7d611779b3f01cf470ee6bdd83c8b3a29e251f559d57c54253d3aeb1e93ef6a5",
+      "bytes": 358893
+    },
+    "s4_layout.json": {
+      "sha256": "36a5e3da0b2bd1b1943d9e0cd279b46c041501066e8c5a0195ccb4d5cd4c6932",
+      "bytes": 12611
+    }
+  }
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "path": "short",
+    "clearedTick": 6046,
+    "firstInBaySeconds": 4.2,
+    "secondsForPodToEnter": 4.416666666666667,
+    "secondsToW3WithSix": 24.333333333333332,
+    "supplyUsed": 0.08578448848463555,
+    "energyAfterSupply": 1
+  },
+  {
+    "path": "arc",
+    "clearedTick": 6046,
+    "firstInBaySeconds": 13.783333333333333,
+    "secondsForPodToEnter": 2.7333333333333334,
+    "secondsToW3WithSix": 29.133333333333333,
+    "supplyUsed": 0.11696225282331879,
+    "energyAfterSupply": 1
+  }
+]

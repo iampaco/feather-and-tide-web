@@ -1,0 +1,113 @@
+{
+  "id": "ENV-003",
+  "version": "v001",
+  "status": "needs_review",
+  "execution_order_1_based": 17,
+  "depends": [
+    "ENV-002/v001",
+    "MAT-004/v001"
+  ],
+  "water_z_BU": -0.18,
+  "blender_xyz_to_gltf": [
+    "x",
+    "z",
+    "-y"
+  ],
+  "pivot_BU": [
+    0,
+    0,
+    0
+  ],
+  "variants": {
+    "ShallowPool_StartMudflat": "StartMudflat",
+    "ShallowPool_RestPatch": "RestPatch",
+    "Channel": "ReedIslet"
+  },
+  "source_hashes": {
+    "ENV-002.blend": "f9c3f7dfd1c9be05f455bfca9f29456acea30b0e4b8a05967d11249201214548",
+    "MAT-004.blend": "ce6b3f7d9130ce6379659331a0d41c86804553aa5ae3a8ab9fdf6758e7bd7baa",
+    "MAT-004.blend_listed_sha256": "50b0904e119b759d05befe89b5bc9844b5a527a879b966cdbba4d981cab1111b"
+  },
+  "rights": "Project-original contour and alpha bake from existing project textures.",
+  "textures": {
+    "ShallowPool_StartMudflat": {
+      "path": "textures/ft_goose_env_water_start_mudflat_basecolor_alpha.png",
+      "sha256": "915bf85fc4c0f2271c73b3d14fb1a324182a07ebe757138696263312d5f17dc5",
+      "mat004_source": "textures/ft_goose_mat_water_shallow_basecolor_alpha.png",
+      "mat004_png_sha256": "ac34951540216c795b54b25d1dfd929d282dcc9a741f8d53b562621b29dead79",
+      "pixels": [
+        512,
+        512
+      ],
+      "alpha_min_max_rgb8": [
+        0,
+        166
+      ],
+      "partial_alpha_pixels": 5999,
+      "channel_NS_full_RGBA8_max_delta": null,
+      "dry_pixels_with_nonzero_alpha": 0
+    },
+    "ShallowPool_RestPatch": {
+      "path": "textures/ft_goose_env_water_rest_patch_basecolor_alpha.png",
+      "sha256": "2d51dc4509c523d3d7f9f030f42e456ee60c963eb54b57df49629b94c9954341",
+      "mat004_source": "textures/ft_goose_mat_water_shallow_basecolor_alpha.png",
+      "mat004_png_sha256": "ac34951540216c795b54b25d1dfd929d282dcc9a741f8d53b562621b29dead79",
+      "pixels": [
+        512,
+        512
+      ],
+      "alpha_min_max_rgb8": [
+        0,
+        166
+      ],
+      "partial_alpha_pixels": 12348,
+      "channel_NS_full_RGBA8_max_delta": null,
+      "dry_pixels_with_nonzero_alpha": 0
+    },
+    "Channel": {
+      "path": "textures/ft_goose_env_water_channel_basecolor_alpha.png",
+      "sha256": "973494578c6235147a909d7f819e8778c36936bf1a696c52515b2449c4bced34",
+      "mat004_source": "textures/ft_goose_mat_water_river_basecolor_alpha.png",
+      "mat004_png_sha256": "f470fd1a2c206a618f27c177f7d6d613a4681135a47207103fa0b353c923fcaf",
+      "pixels": [
+        512,
+        512
+      ],
+      "alpha_min_max_rgb8": [
+        0,
+        176
+      ],
+      "partial_alpha_pixels": 25547,
+      "channel_NS_full_RGBA8_max_delta": 0,
+      "dry_pixels_with_nonzero_alpha": 0
+    }
+  },
+  "blender": "5.2.2 LTS",
+  "glb_files": [
+    "ENV-003_Channel.glb",
+    "ENV-003_ShallowPool_RestPatch.glb",
+    "ENV-003_ShallowPool_StartMudflat.glb"
+  ],
+  "blender_file": "ENV-003_wetland_water.blend",
+  "dependency_status": {
+    "ENV-002/v001": "needs_review",
+    "MAT-004/v001": "needs_review"
+  },
+  "files": {
+    "ENV-003_Channel.glb": "aa4f9a9d4d02d99f33ac4c035974bb14f041759acf5d45b1a86d4a17a19bf4bb",
+    "ENV-003_ShallowPool_RestPatch.glb": "63ec1bd77b8947633117734af641ebe65050002af8a2581d005200619c97bc3b",
+    "ENV-003_ShallowPool_StartMudflat.glb": "a9dc5a4869c070d5fb4b7a8718c6f04f59f4a5a036c1830b0ef0e8ebc7623cc3",
+    "ENV-003_generate.py": "f87666de64e10dedafac9ac92f021e497bd559c9e579e2a68d13800d5b373c9c",
+    "ENV-003_wetland_water.blend": "4749482368f04ad753eb7069fc7d6a23cb097b49bd4a38b078f1b48a3a4ac821",
+    "README.md": "3db486c8fd411e4c775b46c9cc11f4cda933313d213ec5a687dfb2bff31250fe",
+    "graybox_top.png": "20f96f2d77d5e3ee0d5d540f4c0a967ce0c165a782191f52a3483e46f87ea032",
+    "preview_fixed_rear.png": "0b46bc69c07d7e9065308a24628836b2850dac116c163c7d4eabf91bc4775b60",
+    "preview_glb_roundtrip_top.png": "cb637a73e6b193b900d4f4221a7c962a4e4812f5016550353c154f01d232c417",
+    "preview_shore_detail.png": "4945ee73740614c86624d1caa89c1a775634e0bcc912cde8f6d62a1f474508b5",
+    "preview_top.png": "f50c5114088f5dcca8e954dfeabf37f5fe347c8758e6181859cd625b3dbdb1d6",
+    "qa.json": "9046684ec0c78aef1258e39b36f46447b4b6dceebfafe2e1e9fc58e50ea3af92",
+    "textures/ft_goose_env_water_channel_basecolor_alpha.png": "973494578c6235147a909d7f819e8778c36936bf1a696c52515b2449c4bced34",
+    "textures/ft_goose_env_water_rest_patch_basecolor_alpha.png": "2d51dc4509c523d3d7f9f030f42e456ee60c963eb54b57df49629b94c9954341",
+    "textures/ft_goose_env_water_start_mudflat_basecolor_alpha.png": "915bf85fc4c0f2271c73b3d14fb1a324182a07ebe757138696263312d5f17dc5"
+  }
+}

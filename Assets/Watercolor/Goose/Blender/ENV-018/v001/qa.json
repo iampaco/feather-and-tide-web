@@ -1,0 +1,265 @@
+{
+  "id": "ENV-018",
+  "status": "needs_review",
+  "version": "v001",
+  "version_blender": "5.2.2 LTS",
+  "roundtrip": {
+    "MistLow": {
+      "triangles": 16,
+      "source_vertices": 15,
+      "bounds_glTF": [
+        [
+          -9,
+          -0.7250000238418579,
+          0
+        ],
+        [
+          9,
+          0.7250000238418579,
+          0
+        ]
+      ],
+      "max_corner_normal_delta_degrees": 0.0,
+      "embedded_png_sha256": "e46d57f0f08886c4a0a412b520099ba5fc0a53247e2fc69455f42587f4175560",
+      "alpha_mode": "BLEND",
+      "wrap": "CLAMP_TO_EDGE"
+    },
+    "CloudPatch": {
+      "triangles": 16,
+      "source_vertices": 15,
+      "bounds_glTF": [
+        [
+          -6.75,
+          -1.9249999523162842,
+          0
+        ],
+        [
+          6.75,
+          1.9249999523162842,
+          0
+        ]
+      ],
+      "max_corner_normal_delta_degrees": 0.0,
+      "embedded_png_sha256": "fd6b200b9557a4c2bd29c92aa7bfab29c19e53f6c926a47eb906e8b065ddc60e",
+      "alpha_mode": "BLEND",
+      "wrap": "CLAMP_TO_EDGE"
+    },
+    "CloudStreak": {
+      "triangles": 16,
+      "source_vertices": 15,
+      "bounds_glTF": [
+        [
+          -10,
+          -0.7749999761581421,
+          0
+        ],
+        [
+          10,
+          0.7749999761581421,
+          0
+        ]
+      ],
+      "max_corner_normal_delta_degrees": 0.0,
+      "embedded_png_sha256": "0b96c63edf1a33a3015b3341112aeb154a7700dfd3e82e93a923103f6c981995",
+      "alpha_mode": "BLEND",
+      "wrap": "CLAMP_TO_EDGE"
+    }
+  },
+  "visibility": {
+    "s3": {
+      "settings": {
+        "1.0": {
+          "lines_tested": 384,
+          "max_combined_alpha": 0.0,
+          "max_attenuation_limit": 0.075
+        },
+        "0.35": {
+          "lines_tested": 384,
+          "max_combined_alpha": 0.0,
+          "max_attenuation_limit": 0.028
+        },
+        "0.0": {
+          "lines_tested": 384,
+          "max_combined_alpha": 0.0,
+          "max_attenuation_limit": 0
+        }
+      },
+      "camera_poses": [
+        [
+          3.4,
+          0.5,
+          0.03
+        ],
+        [
+          3.42,
+          3.6,
+          0.019
+        ],
+        [
+          3.86,
+          5.7,
+          -0.075
+        ]
+      ],
+      "target_count": 16,
+      "target_height_BU": [
+        0.029999999329447746,
+        0.35116374492645264
+      ],
+      "drift_sample_count": 8
+    },
+    "s4": {
+      "settings": {
+        "1.0": {
+          "lines_tested": 600,
+          "max_combined_alpha": 0.0,
+          "max_attenuation_limit": 0.075
+        },
+        "0.35": {
+          "lines_tested": 600,
+          "max_combined_alpha": 0.0,
+          "max_attenuation_limit": 0.028
+        },
+        "0.0": {
+          "lines_tested": 600,
+          "max_combined_alpha": 0.0,
+          "max_attenuation_limit": 0
+        }
+      },
+      "camera_poses": [
+        [
+          0.0,
+          0.0,
+          0.055
+        ],
+        [
+          0.43,
+          1.8,
+          0.02
+        ],
+        [
+          0.82,
+          3.4,
+          0.0
+        ]
+      ],
+      "target_count": 25,
+      "target_height_BU": [
+        0.028999999165534973,
+        2.6640000343322754
+      ],
+      "drift_sample_count": 8
+    }
+  },
+  "visibility_alpha_positive_control": {
+    "1.0": 0.7748404728234242,
+    "0.35": 0.33401601000531544,
+    "0.0": 0.0
+  },
+  "visibility_method": "Sample UV alpha bilinearly for each target ray, composite transmittance of all foreground cards.",
+  "pending": [
+    "Real STR-002 array, runtime sorting and visibility, accessibility option, FX-004, actual devices."
+  ],
+  "roundtrip_render_comparison": {
+    "size": [
+      1120,
+      650
+    ],
+    "max_channel_delta_rgb8": 3,
+    "mean_abs_delta_rgb8": 0.07607783882783882,
+    "pixels_with_channel_delta_at_least_5": 0
+  },
+  "accessibility_render_comparison": {
+    "s3": {
+      "default_vs_off": {
+        "size": [
+          852,
+          393
+        ],
+        "max_channel_delta_rgb8": 20,
+        "mean_abs_delta_rgb8": 0.1954459297486929,
+        "pixels_with_channel_delta_at_least_5": 5457
+      },
+      "reduced_vs_off": {
+        "size": [
+          852,
+          393
+        ],
+        "max_channel_delta_rgb8": 12,
+        "mean_abs_delta_rgb8": 0.09009783894204924,
+        "pixels_with_channel_delta_at_least_5": 454
+      }
+    },
+    "s4": {
+      "default_vs_off": {
+        "size": [
+          852,
+          393
+        ],
+        "max_channel_delta_rgb8": 16,
+        "mean_abs_delta_rgb8": 0.17479303300720353,
+        "pixels_with_channel_delta_at_least_5": 4931
+      },
+      "reduced_vs_off": {
+        "size": [
+          852,
+          393
+        ],
+        "max_channel_delta_rgb8": 8,
+        "mean_abs_delta_rgb8": 0.076965041592501,
+        "pixels_with_channel_delta_at_least_5": 547
+      }
+    }
+  },
+  "camera_source": {
+    "path": "Sources/FeatherTide/Systems/Camera/ThirdPersonRig.swift",
+    "sha256": "274b58f0b910a280c676540dde54343c35e2e0709744e20e7e5ee4f9515476a2",
+    "distance_game_units": 180,
+    "pitch_rad": 0.48,
+    "vertical_fov_deg": 50,
+    "target_height_game_units": 6,
+    "goose_preview_height_game_units": 8,
+    "render_source_size": [
+      852,
+      393
+    ]
+  },
+  "video": {
+    "file": "preview_atmosphere_motion.mp4",
+    "rendered_frames": 48,
+    "sequence": [
+      "S3",
+      "S2"
+    ],
+    "codec_name": "h264",
+    "width": 852,
+    "height": 394,
+    "duration": "4.000000",
+    "nb_read_frames": "48"
+  },
+  "project_app_rerun": false,
+  "independent_blender_reopen": {
+    "result": "pass",
+    "saved_drift": {
+      "s3": {
+        "period_seconds": 12,
+        "keys_previewed": 4,
+        "max_x_displacement_BU": 0.8497333526611328,
+        "camera_fixed": true
+      },
+      "s4": {
+        "period_seconds": 12,
+        "keys_previewed": 4,
+        "max_x_displacement_BU": 0.8115434646606445,
+        "camera_fixed": true
+      },
+      "s2": {
+        "period_seconds": 4,
+        "keys_previewed": 5,
+        "max_x_displacement_BU": 4.408411026000977,
+        "camera_fixed": true
+      }
+    }
+  },
+  "exporter_note": "Blender emitted a sampler warning when gathering color and alpha from the same RGBA texture. Raw GLB recheck confirms a single image, BLEND, matching PNG bytes and identical CLAMP_TO_EDGE on both UV axes for each variant."
+}

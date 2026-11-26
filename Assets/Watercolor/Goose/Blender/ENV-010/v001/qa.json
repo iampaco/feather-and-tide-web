@@ -1,0 +1,1249 @@
+{
+  "id": "ENV-010",
+  "version": "v001",
+  "status": "needs_review",
+  "graybox": {
+    "joins": [
+      {
+        "label": "Left–Right central longitudinal join",
+        "samples": 49,
+        "max_gap_BU": 0.0,
+        "max_normal_error_deg": 0.0,
+        "max_uv_modulo_error": 0.0
+      },
+      {
+        "label": "Mouth–Pass_Left_surface",
+        "samples": 17,
+        "max_gap_BU": 0.0,
+        "max_normal_error_deg": 0.003277411239111446,
+        "max_uv_modulo_error": 0.0
+      },
+      {
+        "label": "Approach Flat–Pass_Left_surface",
+        "samples": 17,
+        "max_gap_BU": 0.0,
+        "max_normal_error_deg": 0.0,
+        "max_uv_modulo_error": 0.0
+      },
+      {
+        "label": "Pass_Left_surface–Exit Flat",
+        "samples": 17,
+        "max_gap_BU": 0.0,
+        "max_normal_error_deg": 0.0,
+        "max_uv_modulo_error": 0.0
+      },
+      {
+        "label": "Mouth–Pass_Right_surface",
+        "samples": 17,
+        "max_gap_BU": 0.0,
+        "max_normal_error_deg": 0.002996513842543291,
+        "max_uv_modulo_error": 0.0
+      },
+      {
+        "label": "Approach Flat–Pass_Right_surface",
+        "samples": 17,
+        "max_gap_BU": 0.0,
+        "max_normal_error_deg": 0.0,
+        "max_uv_modulo_error": 0.0
+      },
+      {
+        "label": "Pass_Right_surface–Exit Flat",
+        "samples": 17,
+        "max_gap_BU": 0.0,
+        "max_normal_error_deg": 9.232345511605373e-05,
+        "max_uv_modulo_error": 0.0
+      },
+      {
+        "label": "west outer Flat y=15",
+        "samples": 17,
+        "max_gap_BU": 0.0,
+        "max_normal_error_deg": 0.004918259691722043,
+        "max_uv_modulo_error": 0.0
+      },
+      {
+        "label": "west outer Flat y=25",
+        "samples": 17,
+        "max_gap_BU": 0.0,
+        "max_normal_error_deg": 0.003085706507657566,
+        "max_uv_modulo_error": 0.0
+      },
+      {
+        "label": "west outer Flat y=35",
+        "samples": 17,
+        "max_gap_BU": 0.0,
+        "max_normal_error_deg": 0.0033175083095615186,
+        "max_uv_modulo_error": 0.0
+      },
+      {
+        "label": "west outer Flat y=45",
+        "samples": 17,
+        "max_gap_BU": 0.0,
+        "max_normal_error_deg": 0.003864125200034763,
+        "max_uv_modulo_error": 0.0
+      },
+      {
+        "label": "east outer Flat y=15",
+        "samples": 17,
+        "max_gap_BU": 0.0,
+        "max_normal_error_deg": 0.004441248969503287,
+        "max_uv_modulo_error": 0.0
+      },
+      {
+        "label": "east outer Flat y=25",
+        "samples": 17,
+        "max_gap_BU": 0.0,
+        "max_normal_error_deg": 0.00361086815872544,
+        "max_uv_modulo_error": 0.0
+      },
+      {
+        "label": "east outer Flat y=35",
+        "samples": 17,
+        "max_gap_BU": 0.0,
+        "max_normal_error_deg": 0.0030007357510762316,
+        "max_uv_modulo_error": 0.0
+      },
+      {
+        "label": "east outer Flat y=45",
+        "samples": 17,
+        "max_gap_BU": 0.0,
+        "max_normal_error_deg": 0.0036260684397410752,
+        "max_uv_modulo_error": 0.0
+      }
+    ],
+    "corridor": {
+      "envelope_width_BU": 5.2,
+      "envelope_area_BU2": 207.99999289170728,
+      "triangle_intersections": 1224,
+      "min_max_ground_z_BU": [
+        0.0,
+        0.0
+      ],
+      "minimum_toe_to_toe_width_BU": 6.388375386734959,
+      "width_sections": [
+        {
+          "y_BU": 10.625,
+          "left_rock_toe_x_BU": -21.5,
+          "right_rock_toe_x_BU": -1.5,
+          "width_at_toe_BU": 20.0
+        },
+        {
+          "y_BU": 11.25,
+          "left_rock_toe_x_BU": -20.253350742837004,
+          "right_rock_toe_x_BU": -2.3793471260187635,
+          "width_at_toe_BU": 17.87400361681824
+        },
+        {
+          "y_BU": 11.875,
+          "left_rock_toe_x_BU": -20.056066806467804,
+          "right_rock_toe_x_BU": -3.036550915089713,
+          "width_at_toe_BU": 17.01951589137809
+        },
+        {
+          "y_BU": 12.5,
+          "left_rock_toe_x_BU": -19.091197764505626,
+          "right_rock_toe_x_BU": -3.693217020608875,
+          "width_at_toe_BU": 15.39798074389675
+        },
+        {
+          "y_BU": 13.125,
+          "left_rock_toe_x_BU": -18.924399484892376,
+          "right_rock_toe_x_BU": -3.90166979348646,
+          "width_at_toe_BU": 15.022729691405916
+        },
+        {
+          "y_BU": 13.75,
+          "left_rock_toe_x_BU": -18.63119090284421,
+          "right_rock_toe_x_BU": -4.515914121182523,
+          "width_at_toe_BU": 14.115276781661688
+        },
+        {
+          "y_BU": 14.375,
+          "left_rock_toe_x_BU": -17.81572681312022,
+          "right_rock_toe_x_BU": -4.613307264187657,
+          "width_at_toe_BU": 13.202419548932564
+        },
+        {
+          "y_BU": 15.0,
+          "left_rock_toe_x_BU": -17.788832975959227,
+          "right_rock_toe_x_BU": -5.221955313602917,
+          "width_at_toe_BU": 12.56687766235631
+        },
+        {
+          "y_BU": 15.625,
+          "left_rock_toe_x_BU": -17.458140939035413,
+          "right_rock_toe_x_BU": -5.335191605039303,
+          "width_at_toe_BU": 12.122949333996111
+        },
+        {
+          "y_BU": 16.25,
+          "left_rock_toe_x_BU": -17.209029643981893,
+          "right_rock_toe_x_BU": -5.844213698345015,
+          "width_at_toe_BU": 11.364815945636877
+        },
+        {
+          "y_BU": 16.875,
+          "left_rock_toe_x_BU": -16.821555518980794,
+          "right_rock_toe_x_BU": -6.0050279379512865,
+          "width_at_toe_BU": 10.816527581029508
+        },
+        {
+          "y_BU": 17.5,
+          "left_rock_toe_x_BU": -16.561540653462927,
+          "right_rock_toe_x_BU": -6.342878062646124,
+          "width_at_toe_BU": 10.218662590816804
+        },
+        {
+          "y_BU": 18.125,
+          "left_rock_toe_x_BU": -16.15827583807382,
+          "right_rock_toe_x_BU": -6.662267491826714,
+          "width_at_toe_BU": 9.496008346247105
+        },
+        {
+          "y_BU": 18.75,
+          "left_rock_toe_x_BU": -16.048012612400964,
+          "right_rock_toe_x_BU": -7.004793265420507,
+          "width_at_toe_BU": 9.043219346980457
+        },
+        {
+          "y_BU": 19.375,
+          "left_rock_toe_x_BU": -15.995213466885064,
+          "right_rock_toe_x_BU": -7.291168197620852,
+          "width_at_toe_BU": 8.704045269264212
+        },
+        {
+          "y_BU": 20.0,
+          "left_rock_toe_x_BU": -15.954941424755603,
+          "right_rock_toe_x_BU": -7.613909810346725,
+          "width_at_toe_BU": 8.341031614408877
+        },
+        {
+          "y_BU": 20.625,
+          "left_rock_toe_x_BU": -15.879841335488663,
+          "right_rock_toe_x_BU": -7.855762085483993,
+          "width_at_toe_BU": 8.024079250004672
+        },
+        {
+          "y_BU": 21.25,
+          "left_rock_toe_x_BU": -15.98565327093032,
+          "right_rock_toe_x_BU": -8.01985260652246,
+          "width_at_toe_BU": 7.96580066440786
+        },
+        {
+          "y_BU": 21.875,
+          "left_rock_toe_x_BU": -15.527003891768809,
+          "right_rock_toe_x_BU": -8.091167985275604,
+          "width_at_toe_BU": 7.435835906493205
+        },
+        {
+          "y_BU": 22.5,
+          "left_rock_toe_x_BU": -15.56150464996448,
+          "right_rock_toe_x_BU": -8.516638068053954,
+          "width_at_toe_BU": 7.044866581910526
+        },
+        {
+          "y_BU": 23.125,
+          "left_rock_toe_x_BU": -15.919551858080181,
+          "right_rock_toe_x_BU": -8.501574444097155,
+          "width_at_toe_BU": 7.417977413983026
+        },
+        {
+          "y_BU": 23.75,
+          "left_rock_toe_x_BU": -15.737990051907595,
+          "right_rock_toe_x_BU": -8.46843728966581,
+          "width_at_toe_BU": 7.269552762241785
+        },
+        {
+          "y_BU": 24.375,
+          "left_rock_toe_x_BU": -15.697154220025412,
+          "right_rock_toe_x_BU": -8.496797841172121,
+          "width_at_toe_BU": 7.200356378853291
+        },
+        {
+          "y_BU": 25.0,
+          "left_rock_toe_x_BU": -15.492088843735392,
+          "right_rock_toe_x_BU": -8.44272506149201,
+          "width_at_toe_BU": 7.049363782243381
+        },
+        {
+          "y_BU": 25.625,
+          "left_rock_toe_x_BU": -15.369236877039253,
+          "right_rock_toe_x_BU": -8.740039050946868,
+          "width_at_toe_BU": 6.629197826092385
+        },
+        {
+          "y_BU": 26.25,
+          "left_rock_toe_x_BU": -15.328749705363863,
+          "right_rock_toe_x_BU": -8.803846700519992,
+          "width_at_toe_BU": 6.524903004843871
+        },
+        {
+          "y_BU": 26.875,
+          "left_rock_toe_x_BU": -15.210374495525203,
+          "right_rock_toe_x_BU": -8.817567306607563,
+          "width_at_toe_BU": 6.39280718891764
+        },
+        {
+          "y_BU": 27.5,
+          "left_rock_toe_x_BU": -15.31094542334266,
+          "right_rock_toe_x_BU": -8.488870259422555,
+          "width_at_toe_BU": 6.822075163920106
+        },
+        {
+          "y_BU": 28.125,
+          "left_rock_toe_x_BU": -14.847190887971777,
+          "right_rock_toe_x_BU": -8.42364403206755,
+          "width_at_toe_BU": 6.4235468559042275
+        },
+        {
+          "y_BU": 28.75,
+          "left_rock_toe_x_BU": -14.7910897978563,
+          "right_rock_toe_x_BU": -8.402714411121341,
+          "width_at_toe_BU": 6.388375386734959
+        },
+        {
+          "y_BU": 29.375,
+          "left_rock_toe_x_BU": -14.779369156111633,
+          "right_rock_toe_x_BU": -8.218725801575854,
+          "width_at_toe_BU": 6.560643354535779
+        },
+        {
+          "y_BU": 30.0,
+          "left_rock_toe_x_BU": -14.760274906702634,
+          "right_rock_toe_x_BU": -7.862322661672286,
+          "width_at_toe_BU": 6.897952245030348
+        },
+        {
+          "y_BU": 30.625,
+          "left_rock_toe_x_BU": -14.68064067130188,
+          "right_rock_toe_x_BU": -7.909065872290339,
+          "width_at_toe_BU": 6.771574799011542
+        },
+        {
+          "y_BU": 31.25,
+          "left_rock_toe_x_BU": -14.576721751547607,
+          "right_rock_toe_x_BU": -7.836094642765391,
+          "width_at_toe_BU": 6.740627108782216
+        },
+        {
+          "y_BU": 31.875,
+          "left_rock_toe_x_BU": -14.194972600499247,
+          "right_rock_toe_x_BU": -7.636868640092307,
+          "width_at_toe_BU": 6.55810396040694
+        },
+        {
+          "y_BU": 32.5,
+          "left_rock_toe_x_BU": -14.215488721404355,
+          "right_rock_toe_x_BU": -7.470741916063567,
+          "width_at_toe_BU": 6.744746805340789
+        },
+        {
+          "y_BU": 33.125,
+          "left_rock_toe_x_BU": -14.495295795018748,
+          "right_rock_toe_x_BU": -7.623768280728687,
+          "width_at_toe_BU": 6.871527514290062
+        },
+        {
+          "y_BU": 33.75,
+          "left_rock_toe_x_BU": -14.539583579476268,
+          "right_rock_toe_x_BU": -7.572721887355523,
+          "width_at_toe_BU": 6.966861692120745
+        },
+        {
+          "y_BU": 34.375,
+          "left_rock_toe_x_BU": -14.554150333134578,
+          "right_rock_toe_x_BU": -7.564457842063801,
+          "width_at_toe_BU": 6.989692491070777
+        },
+        {
+          "y_BU": 35.0,
+          "left_rock_toe_x_BU": -14.289005128957061,
+          "right_rock_toe_x_BU": -7.589140759760241,
+          "width_at_toe_BU": 6.6998643691968205
+        },
+        {
+          "y_BU": 35.625,
+          "left_rock_toe_x_BU": -14.168324130953913,
+          "right_rock_toe_x_BU": -7.59687969122078,
+          "width_at_toe_BU": 6.571444439733133
+        },
+        {
+          "y_BU": 36.25,
+          "left_rock_toe_x_BU": -14.186926597480802,
+          "right_rock_toe_x_BU": -7.564449568263453,
+          "width_at_toe_BU": 6.622477029217349
+        },
+        {
+          "y_BU": 36.875,
+          "left_rock_toe_x_BU": -14.685265705166454,
+          "right_rock_toe_x_BU": -7.403826585318105,
+          "width_at_toe_BU": 7.28143911984835
+        },
+        {
+          "y_BU": 37.5,
+          "left_rock_toe_x_BU": -14.655506859984763,
+          "right_rock_toe_x_BU": -7.159297441632008,
+          "width_at_toe_BU": 7.4962094183527554
+        },
+        {
+          "y_BU": 38.125,
+          "left_rock_toe_x_BU": -14.668331989610847,
+          "right_rock_toe_x_BU": -7.1432698869765,
+          "width_at_toe_BU": 7.5250621026343465
+        },
+        {
+          "y_BU": 38.75,
+          "left_rock_toe_x_BU": -14.84821864089976,
+          "right_rock_toe_x_BU": -7.089980111647686,
+          "width_at_toe_BU": 7.758238529252073
+        },
+        {
+          "y_BU": 39.375,
+          "left_rock_toe_x_BU": -15.053633816642728,
+          "right_rock_toe_x_BU": -7.045841272556333,
+          "width_at_toe_BU": 8.007792544086396
+        },
+        {
+          "y_BU": 40.0,
+          "left_rock_toe_x_BU": -15.125174885576204,
+          "right_rock_toe_x_BU": -7.014330174540845,
+          "width_at_toe_BU": 8.110844711035359
+        },
+        {
+          "y_BU": 40.625,
+          "left_rock_toe_x_BU": -15.33081264720809,
+          "right_rock_toe_x_BU": -7.0322371834577035,
+          "width_at_toe_BU": 8.298575463750385
+        },
+        {
+          "y_BU": 41.25,
+          "left_rock_toe_x_BU": -15.526713609260069,
+          "right_rock_toe_x_BU": -7.092553020246724,
+          "width_at_toe_BU": 8.434160589013345
+        },
+        {
+          "y_BU": 41.875,
+          "left_rock_toe_x_BU": -15.674176235562333,
+          "right_rock_toe_x_BU": -7.110484935592159,
+          "width_at_toe_BU": 8.563691299970174
+        },
+        {
+          "y_BU": 42.5,
+          "left_rock_toe_x_BU": -16.02239492125606,
+          "right_rock_toe_x_BU": -7.04684476156668,
+          "width_at_toe_BU": 8.975550159689378
+        },
+        {
+          "y_BU": 43.125,
+          "left_rock_toe_x_BU": -16.278569790697603,
+          "right_rock_toe_x_BU": -6.910368688396491,
+          "width_at_toe_BU": 9.36820110230111
+        },
+        {
+          "y_BU": 43.75,
+          "left_rock_toe_x_BU": -16.51440798291669,
+          "right_rock_toe_x_BU": -6.530147268628003,
+          "width_at_toe_BU": 9.984260714288688
+        },
+        {
+          "y_BU": 44.375,
+          "left_rock_toe_x_BU": -16.736235739521415,
+          "right_rock_toe_x_BU": -6.5647423908977816,
+          "width_at_toe_BU": 10.171493348623635
+        },
+        {
+          "y_BU": 45.0,
+          "left_rock_toe_x_BU": -16.90221544129326,
+          "right_rock_toe_x_BU": -6.611895770197991,
+          "width_at_toe_BU": 10.29031967109527
+        },
+        {
+          "y_BU": 45.625,
+          "left_rock_toe_x_BU": -17.284713457262278,
+          "right_rock_toe_x_BU": -6.432812266674095,
+          "width_at_toe_BU": 10.851901190588183
+        },
+        {
+          "y_BU": 46.25,
+          "left_rock_toe_x_BU": -17.626892493226496,
+          "right_rock_toe_x_BU": -5.766620082030095,
+          "width_at_toe_BU": 11.860272411196402
+        },
+        {
+          "y_BU": 46.875,
+          "left_rock_toe_x_BU": -18.267296640535424,
+          "right_rock_toe_x_BU": -5.229520241439312,
+          "width_at_toe_BU": 13.037776399096112
+        },
+        {
+          "y_BU": 47.5,
+          "left_rock_toe_x_BU": -18.675995751153984,
+          "right_rock_toe_x_BU": -4.31293392919045,
+          "width_at_toe_BU": 14.363061821963534
+        },
+        {
+          "y_BU": 48.125,
+          "left_rock_toe_x_BU": -19.262102390891414,
+          "right_rock_toe_x_BU": -3.8714356515300774,
+          "width_at_toe_BU": 15.390666739361336
+        },
+        {
+          "y_BU": 48.75,
+          "left_rock_toe_x_BU": -20.25643283243195,
+          "right_rock_toe_x_BU": -2.8962069118540197,
+          "width_at_toe_BU": 17.360225920577932
+        },
+        {
+          "y_BU": 49.375,
+          "left_rock_toe_x_BU": -21.5,
+          "right_rock_toe_x_BU": -2.362457536961503,
+          "width_at_toe_BU": 19.137542463038496
+        }
+      ],
+      "method": "Exact 2D triangle clipping against piecewise linear strip; no simulated collision."
+    },
+    "view": {
+      "checkpoint_a": {
+        "test_y_BU": 21.5,
+        "samples": 13,
+        "visible_samples": 13,
+        "gate_width_px": 84.93990898132324
+      },
+      "approach": {
+        "test_y_BU": 25.625,
+        "samples": 13,
+        "visible_samples": 13,
+        "gate_width_px": 94.40799701213837
+      },
+      "mouth": {
+        "test_y_BU": 31.25,
+        "samples": 13,
+        "visible_samples": 13,
+        "gate_width_px": 125.52309143543243
+      },
+      "throat": {
+        "test_y_BU": 37.5,
+        "samples": 13,
+        "visible_samples": 13,
+        "gate_width_px": 178.48052966594696
+      },
+      "exit": {
+        "test_y_BU": 48.125,
+        "samples": 13,
+        "visible_samples": 13,
+        "gate_width_px": 197.93449079990387
+      }
+    }
+  },
+  "fixed_rear_review": {
+    "view": {
+      "checkpoint_a": {
+        "test_y_BU": 21.5,
+        "samples": 13,
+        "visible_samples": 13,
+        "gate_width_px": 84.93990898132324
+      },
+      "approach": {
+        "test_y_BU": 25.625,
+        "samples": 13,
+        "visible_samples": 13,
+        "gate_width_px": 94.40799701213837
+      },
+      "mouth": {
+        "test_y_BU": 31.25,
+        "samples": 13,
+        "visible_samples": 13,
+        "gate_width_px": 125.52309143543243
+      },
+      "throat": {
+        "test_y_BU": 37.5,
+        "samples": 13,
+        "visible_samples": 13,
+        "gate_width_px": 178.48052966594696
+      },
+      "exit": {
+        "test_y_BU": 48.125,
+        "samples": 13,
+        "visible_samples": 13,
+        "gate_width_px": 197.93449079990387
+      }
+    },
+    "goose_geometry": {
+      "sample_count": 1449,
+      "min_clearance_BU": 0.18300000327825544,
+      "bird_full_span_BU": 1.6004365682601929,
+      "root_height_game_units": 8,
+      "center_offsets_BU": [
+        -1.55,
+        0,
+        1.55
+      ],
+      "method": "Center and wingtips at lower bound of CHR-001 neutral-pose Z, three parallel lanes."
+    }
+  },
+  "roundtrip": {
+    "glb": {
+      "Pass_Left": {
+        "triangles": 1536,
+        "vertices_in_blender": 1425,
+        "max_position_delta_BU": 0.0,
+        "max_corner_normal_delta_degrees": 0.08263303566454856,
+        "max_encoded_normal_delta_degrees": 0.004461828391355323,
+        "max_uv_delta": 0.0,
+        "bounds_BU": [
+          [
+            -21.5,
+            -11.5
+          ],
+          [
+            20.0,
+            50.0
+          ],
+          [
+            0.0,
+            6.634612560272217
+          ]
+        ],
+        "embedded_PNG_verified": true
+      },
+      "Pass_Right": {
+        "triangles": 1536,
+        "vertices_in_blender": 1403,
+        "max_position_delta_BU": 0.0,
+        "max_corner_normal_delta_degrees": 0.008628975693022492,
+        "max_encoded_normal_delta_degrees": 0.004494978306809755,
+        "max_uv_delta": 0.0,
+        "bounds_BU": [
+          [
+            -11.5,
+            -1.5
+          ],
+          [
+            20.0,
+            50.0
+          ],
+          [
+            0.0,
+            5.822098255157471
+          ]
+        ],
+        "embedded_PNG_verified": true
+      },
+      "Mouth": {
+        "triangles": 1024,
+        "vertices_in_blender": 736,
+        "max_position_delta_BU": 0.0,
+        "max_corner_normal_delta_degrees": 0.02055325530086128,
+        "max_encoded_normal_delta_degrees": 0.004388453886331397,
+        "max_uv_delta": 0.0,
+        "bounds_BU": [
+          [
+            -21.5,
+            -1.5
+          ],
+          [
+            10.0,
+            20.0
+          ],
+          [
+            0.0,
+            4.06071662902832
+          ]
+        ],
+        "embedded_PNG_verified": true
+      }
+    },
+    "joins": [
+      {
+        "label": "Left–Right central longitudinal join",
+        "samples": 49,
+        "max_gap_BU": 0.0,
+        "max_normal_error_deg": 0.0,
+        "max_uv_modulo_error": 0.0
+      },
+      {
+        "label": "Mouth–Pass_Left_surface.001",
+        "samples": 17,
+        "max_gap_BU": 0.0,
+        "max_normal_error_deg": 0.009167452086433,
+        "max_uv_modulo_error": 0.0
+      },
+      {
+        "label": "Approach Flat–Pass_Left_surface.001",
+        "samples": 17,
+        "max_gap_BU": 0.0,
+        "max_normal_error_deg": 0.0,
+        "max_uv_modulo_error": 0.0
+      },
+      {
+        "label": "Pass_Left_surface.001–Exit Flat",
+        "samples": 17,
+        "max_gap_BU": 0.0,
+        "max_normal_error_deg": 0.0,
+        "max_uv_modulo_error": 0.0
+      },
+      {
+        "label": "Mouth–Pass_Right_surface.001",
+        "samples": 17,
+        "max_gap_BU": 0.0,
+        "max_normal_error_deg": 0.00947440490154194,
+        "max_uv_modulo_error": 0.0
+      },
+      {
+        "label": "Approach Flat–Pass_Right_surface.001",
+        "samples": 17,
+        "max_gap_BU": 0.0,
+        "max_normal_error_deg": 0.0,
+        "max_uv_modulo_error": 0.0
+      },
+      {
+        "label": "Pass_Right_surface.001–Exit Flat",
+        "samples": 17,
+        "max_gap_BU": 0.0,
+        "max_normal_error_deg": 0.0006744598712802181,
+        "max_uv_modulo_error": 0.0
+      },
+      {
+        "label": "west outer Flat y=15",
+        "samples": 17,
+        "max_gap_BU": 0.0,
+        "max_normal_error_deg": 0.012372264640558767,
+        "max_uv_modulo_error": 0.0
+      },
+      {
+        "label": "west outer Flat y=25",
+        "samples": 17,
+        "max_gap_BU": 0.0,
+        "max_normal_error_deg": 0.003085706507657566,
+        "max_uv_modulo_error": 0.0
+      },
+      {
+        "label": "west outer Flat y=35",
+        "samples": 17,
+        "max_gap_BU": 0.0,
+        "max_normal_error_deg": 0.0033175083095615186,
+        "max_uv_modulo_error": 0.0
+      },
+      {
+        "label": "west outer Flat y=45",
+        "samples": 17,
+        "max_gap_BU": 0.0,
+        "max_normal_error_deg": 0.00908161250761539,
+        "max_uv_modulo_error": 0.0
+      },
+      {
+        "label": "east outer Flat y=15",
+        "samples": 17,
+        "max_gap_BU": 0.0,
+        "max_normal_error_deg": 0.00949864534787232,
+        "max_uv_modulo_error": 0.0
+      },
+      {
+        "label": "east outer Flat y=25",
+        "samples": 17,
+        "max_gap_BU": 0.0,
+        "max_normal_error_deg": 0.008727007367474615,
+        "max_uv_modulo_error": 0.0
+      },
+      {
+        "label": "east outer Flat y=35",
+        "samples": 17,
+        "max_gap_BU": 0.0,
+        "max_normal_error_deg": 0.0030007357510762316,
+        "max_uv_modulo_error": 0.0
+      },
+      {
+        "label": "east outer Flat y=45",
+        "samples": 17,
+        "max_gap_BU": 0.0,
+        "max_normal_error_deg": 0.004400216529423649,
+        "max_uv_modulo_error": 0.0
+      }
+    ],
+    "corridor": {
+      "envelope_width_BU": 5.2,
+      "envelope_area_BU2": 207.99999289170728,
+      "triangle_intersections": 1224,
+      "min_max_ground_z_BU": [
+        0.0,
+        0.0
+      ],
+      "minimum_toe_to_toe_width_BU": 6.388375386734959,
+      "width_sections": [
+        {
+          "y_BU": 10.625,
+          "left_rock_toe_x_BU": -21.5,
+          "right_rock_toe_x_BU": -1.5,
+          "width_at_toe_BU": 20.0
+        },
+        {
+          "y_BU": 11.25,
+          "left_rock_toe_x_BU": -20.253350742837004,
+          "right_rock_toe_x_BU": -2.3793471260187635,
+          "width_at_toe_BU": 17.87400361681824
+        },
+        {
+          "y_BU": 11.875,
+          "left_rock_toe_x_BU": -20.056066806467804,
+          "right_rock_toe_x_BU": -3.036550915089713,
+          "width_at_toe_BU": 17.01951589137809
+        },
+        {
+          "y_BU": 12.5,
+          "left_rock_toe_x_BU": -19.091197764505626,
+          "right_rock_toe_x_BU": -3.693217020608875,
+          "width_at_toe_BU": 15.39798074389675
+        },
+        {
+          "y_BU": 13.125,
+          "left_rock_toe_x_BU": -18.924399484892376,
+          "right_rock_toe_x_BU": -3.90166979348646,
+          "width_at_toe_BU": 15.022729691405916
+        },
+        {
+          "y_BU": 13.75,
+          "left_rock_toe_x_BU": -18.63119090284421,
+          "right_rock_toe_x_BU": -4.515914121182523,
+          "width_at_toe_BU": 14.115276781661688
+        },
+        {
+          "y_BU": 14.375,
+          "left_rock_toe_x_BU": -17.81572681312022,
+          "right_rock_toe_x_BU": -4.613307264187657,
+          "width_at_toe_BU": 13.202419548932564
+        },
+        {
+          "y_BU": 15.0,
+          "left_rock_toe_x_BU": -17.788832975959227,
+          "right_rock_toe_x_BU": -5.221955313602917,
+          "width_at_toe_BU": 12.56687766235631
+        },
+        {
+          "y_BU": 15.625,
+          "left_rock_toe_x_BU": -17.458140939035413,
+          "right_rock_toe_x_BU": -5.335191605039303,
+          "width_at_toe_BU": 12.122949333996111
+        },
+        {
+          "y_BU": 16.25,
+          "left_rock_toe_x_BU": -17.209029643981893,
+          "right_rock_toe_x_BU": -5.844213698345015,
+          "width_at_toe_BU": 11.364815945636877
+        },
+        {
+          "y_BU": 16.875,
+          "left_rock_toe_x_BU": -16.821555518980794,
+          "right_rock_toe_x_BU": -6.0050279379512865,
+          "width_at_toe_BU": 10.816527581029508
+        },
+        {
+          "y_BU": 17.5,
+          "left_rock_toe_x_BU": -16.561540653462927,
+          "right_rock_toe_x_BU": -6.342878062646124,
+          "width_at_toe_BU": 10.218662590816804
+        },
+        {
+          "y_BU": 18.125,
+          "left_rock_toe_x_BU": -16.15827583807382,
+          "right_rock_toe_x_BU": -6.662267491826714,
+          "width_at_toe_BU": 9.496008346247105
+        },
+        {
+          "y_BU": 18.75,
+          "left_rock_toe_x_BU": -16.048012612400964,
+          "right_rock_toe_x_BU": -7.004793265420507,
+          "width_at_toe_BU": 9.043219346980457
+        },
+        {
+          "y_BU": 19.375,
+          "left_rock_toe_x_BU": -15.995213466885064,
+          "right_rock_toe_x_BU": -7.291168197620852,
+          "width_at_toe_BU": 8.704045269264212
+        },
+        {
+          "y_BU": 20.0,
+          "left_rock_toe_x_BU": -15.954941424755603,
+          "right_rock_toe_x_BU": -7.613909810346725,
+          "width_at_toe_BU": 8.341031614408877
+        },
+        {
+          "y_BU": 20.625,
+          "left_rock_toe_x_BU": -15.879841335488663,
+          "right_rock_toe_x_BU": -7.855762085483993,
+          "width_at_toe_BU": 8.024079250004672
+        },
+        {
+          "y_BU": 21.25,
+          "left_rock_toe_x_BU": -15.98565327093032,
+          "right_rock_toe_x_BU": -8.01985260652246,
+          "width_at_toe_BU": 7.96580066440786
+        },
+        {
+          "y_BU": 21.875,
+          "left_rock_toe_x_BU": -15.527003891768809,
+          "right_rock_toe_x_BU": -8.091167985275604,
+          "width_at_toe_BU": 7.435835906493205
+        },
+        {
+          "y_BU": 22.5,
+          "left_rock_toe_x_BU": -15.56150464996448,
+          "right_rock_toe_x_BU": -8.516638068053954,
+          "width_at_toe_BU": 7.044866581910526
+        },
+        {
+          "y_BU": 23.125,
+          "left_rock_toe_x_BU": -15.919551858080181,
+          "right_rock_toe_x_BU": -8.501574444097155,
+          "width_at_toe_BU": 7.417977413983026
+        },
+        {
+          "y_BU": 23.75,
+          "left_rock_toe_x_BU": -15.737990051907595,
+          "right_rock_toe_x_BU": -8.46843728966581,
+          "width_at_toe_BU": 7.269552762241785
+        },
+        {
+          "y_BU": 24.375,
+          "left_rock_toe_x_BU": -15.697154220025412,
+          "right_rock_toe_x_BU": -8.496797841172121,
+          "width_at_toe_BU": 7.200356378853291
+        },
+        {
+          "y_BU": 25.0,
+          "left_rock_toe_x_BU": -15.492088843735392,
+          "right_rock_toe_x_BU": -8.44272506149201,
+          "width_at_toe_BU": 7.049363782243381
+        },
+        {
+          "y_BU": 25.625,
+          "left_rock_toe_x_BU": -15.369236877039253,
+          "right_rock_toe_x_BU": -8.740039050946868,
+          "width_at_toe_BU": 6.629197826092385
+        },
+        {
+          "y_BU": 26.25,
+          "left_rock_toe_x_BU": -15.328749705363863,
+          "right_rock_toe_x_BU": -8.803846700519992,
+          "width_at_toe_BU": 6.524903004843871
+        },
+        {
+          "y_BU": 26.875,
+          "left_rock_toe_x_BU": -15.210374495525203,
+          "right_rock_toe_x_BU": -8.817567306607563,
+          "width_at_toe_BU": 6.39280718891764
+        },
+        {
+          "y_BU": 27.5,
+          "left_rock_toe_x_BU": -15.31094542334266,
+          "right_rock_toe_x_BU": -8.488870259422555,
+          "width_at_toe_BU": 6.822075163920106
+        },
+        {
+          "y_BU": 28.125,
+          "left_rock_toe_x_BU": -14.847190887971777,
+          "right_rock_toe_x_BU": -8.42364403206755,
+          "width_at_toe_BU": 6.4235468559042275
+        },
+        {
+          "y_BU": 28.75,
+          "left_rock_toe_x_BU": -14.7910897978563,
+          "right_rock_toe_x_BU": -8.402714411121341,
+          "width_at_toe_BU": 6.388375386734959
+        },
+        {
+          "y_BU": 29.375,
+          "left_rock_toe_x_BU": -14.779369156111633,
+          "right_rock_toe_x_BU": -8.218725801575854,
+          "width_at_toe_BU": 6.560643354535779
+        },
+        {
+          "y_BU": 30.0,
+          "left_rock_toe_x_BU": -14.760274906702634,
+          "right_rock_toe_x_BU": -7.862322661672286,
+          "width_at_toe_BU": 6.897952245030348
+        },
+        {
+          "y_BU": 30.625,
+          "left_rock_toe_x_BU": -14.68064067130188,
+          "right_rock_toe_x_BU": -7.909065872290339,
+          "width_at_toe_BU": 6.771574799011542
+        },
+        {
+          "y_BU": 31.25,
+          "left_rock_toe_x_BU": -14.576721751547607,
+          "right_rock_toe_x_BU": -7.836094642765391,
+          "width_at_toe_BU": 6.740627108782216
+        },
+        {
+          "y_BU": 31.875,
+          "left_rock_toe_x_BU": -14.194972600499247,
+          "right_rock_toe_x_BU": -7.636868640092307,
+          "width_at_toe_BU": 6.55810396040694
+        },
+        {
+          "y_BU": 32.5,
+          "left_rock_toe_x_BU": -14.215488721404355,
+          "right_rock_toe_x_BU": -7.470741916063567,
+          "width_at_toe_BU": 6.744746805340789
+        },
+        {
+          "y_BU": 33.125,
+          "left_rock_toe_x_BU": -14.495295795018748,
+          "right_rock_toe_x_BU": -7.623768280728687,
+          "width_at_toe_BU": 6.871527514290062
+        },
+        {
+          "y_BU": 33.75,
+          "left_rock_toe_x_BU": -14.539583579476268,
+          "right_rock_toe_x_BU": -7.572721887355523,
+          "width_at_toe_BU": 6.966861692120745
+        },
+        {
+          "y_BU": 34.375,
+          "left_rock_toe_x_BU": -14.554150333134578,
+          "right_rock_toe_x_BU": -7.564457842063801,
+          "width_at_toe_BU": 6.989692491070777
+        },
+        {
+          "y_BU": 35.0,
+          "left_rock_toe_x_BU": -14.289005128957061,
+          "right_rock_toe_x_BU": -7.589140759760241,
+          "width_at_toe_BU": 6.6998643691968205
+        },
+        {
+          "y_BU": 35.625,
+          "left_rock_toe_x_BU": -14.168324130953913,
+          "right_rock_toe_x_BU": -7.59687969122078,
+          "width_at_toe_BU": 6.571444439733133
+        },
+        {
+          "y_BU": 36.25,
+          "left_rock_toe_x_BU": -14.186926597480802,
+          "right_rock_toe_x_BU": -7.564449568263453,
+          "width_at_toe_BU": 6.622477029217349
+        },
+        {
+          "y_BU": 36.875,
+          "left_rock_toe_x_BU": -14.685265705166454,
+          "right_rock_toe_x_BU": -7.403826585318105,
+          "width_at_toe_BU": 7.28143911984835
+        },
+        {
+          "y_BU": 37.5,
+          "left_rock_toe_x_BU": -14.655506859984763,
+          "right_rock_toe_x_BU": -7.159297441632008,
+          "width_at_toe_BU": 7.4962094183527554
+        },
+        {
+          "y_BU": 38.125,
+          "left_rock_toe_x_BU": -14.668331989610847,
+          "right_rock_toe_x_BU": -7.1432698869765,
+          "width_at_toe_BU": 7.5250621026343465
+        },
+        {
+          "y_BU": 38.75,
+          "left_rock_toe_x_BU": -14.84821864089976,
+          "right_rock_toe_x_BU": -7.089980111647686,
+          "width_at_toe_BU": 7.758238529252073
+        },
+        {
+          "y_BU": 39.375,
+          "left_rock_toe_x_BU": -15.053633816642728,
+          "right_rock_toe_x_BU": -7.045841272556333,
+          "width_at_toe_BU": 8.007792544086396
+        },
+        {
+          "y_BU": 40.0,
+          "left_rock_toe_x_BU": -15.125174885576204,
+          "right_rock_toe_x_BU": -7.014330174540845,
+          "width_at_toe_BU": 8.110844711035359
+        },
+        {
+          "y_BU": 40.625,
+          "left_rock_toe_x_BU": -15.33081264720809,
+          "right_rock_toe_x_BU": -7.0322371834577035,
+          "width_at_toe_BU": 8.298575463750385
+        },
+        {
+          "y_BU": 41.25,
+          "left_rock_toe_x_BU": -15.526713609260069,
+          "right_rock_toe_x_BU": -7.092553020246724,
+          "width_at_toe_BU": 8.434160589013345
+        },
+        {
+          "y_BU": 41.875,
+          "left_rock_toe_x_BU": -15.674176235562333,
+          "right_rock_toe_x_BU": -7.110484935592159,
+          "width_at_toe_BU": 8.563691299970174
+        },
+        {
+          "y_BU": 42.5,
+          "left_rock_toe_x_BU": -16.02239492125606,
+          "right_rock_toe_x_BU": -7.04684476156668,
+          "width_at_toe_BU": 8.975550159689378
+        },
+        {
+          "y_BU": 43.125,
+          "left_rock_toe_x_BU": -16.278569790697603,
+          "right_rock_toe_x_BU": -6.910368688396491,
+          "width_at_toe_BU": 9.36820110230111
+        },
+        {
+          "y_BU": 43.75,
+          "left_rock_toe_x_BU": -16.51440798291669,
+          "right_rock_toe_x_BU": -6.530147268628003,
+          "width_at_toe_BU": 9.984260714288688
+        },
+        {
+          "y_BU": 44.375,
+          "left_rock_toe_x_BU": -16.736235739521415,
+          "right_rock_toe_x_BU": -6.5647423908977816,
+          "width_at_toe_BU": 10.171493348623635
+        },
+        {
+          "y_BU": 45.0,
+          "left_rock_toe_x_BU": -16.90221544129326,
+          "right_rock_toe_x_BU": -6.611895770197991,
+          "width_at_toe_BU": 10.29031967109527
+        },
+        {
+          "y_BU": 45.625,
+          "left_rock_toe_x_BU": -17.284713457262278,
+          "right_rock_toe_x_BU": -6.432812266674095,
+          "width_at_toe_BU": 10.851901190588183
+        },
+        {
+          "y_BU": 46.25,
+          "left_rock_toe_x_BU": -17.626892493226496,
+          "right_rock_toe_x_BU": -5.766620082030095,
+          "width_at_toe_BU": 11.860272411196402
+        },
+        {
+          "y_BU": 46.875,
+          "left_rock_toe_x_BU": -18.267296640535424,
+          "right_rock_toe_x_BU": -5.229520241439312,
+          "width_at_toe_BU": 13.037776399096112
+        },
+        {
+          "y_BU": 47.5,
+          "left_rock_toe_x_BU": -18.675995751153984,
+          "right_rock_toe_x_BU": -4.31293392919045,
+          "width_at_toe_BU": 14.363061821963534
+        },
+        {
+          "y_BU": 48.125,
+          "left_rock_toe_x_BU": -19.262102390891414,
+          "right_rock_toe_x_BU": -3.8714356515300774,
+          "width_at_toe_BU": 15.390666739361336
+        },
+        {
+          "y_BU": 48.75,
+          "left_rock_toe_x_BU": -20.25643283243195,
+          "right_rock_toe_x_BU": -2.8962069118540197,
+          "width_at_toe_BU": 17.360225920577932
+        },
+        {
+          "y_BU": 49.375,
+          "left_rock_toe_x_BU": -21.5,
+          "right_rock_toe_x_BU": -2.362457536961503,
+          "width_at_toe_BU": 19.137542463038496
+        }
+      ],
+      "method": "Exact 2D triangle clipping against piecewise linear strip; no simulated collision."
+    }
+  },
+  "pending": [
+    "Full-energy passage, runtime collision and touch route validation.",
+    "FX-002 wind strength and time profile, ENV-012 animated trees, RealityKit and iPhone/iPad."
+  ],
+  "independent_reopen": {
+    "result": "pass",
+    "glb_count": 3,
+    "all_reimported_measures_equal": true
+  },
+  "tolerances": {
+    "position_BU": 1e-05,
+    "uv": 1e-05,
+    "seam_normal_deg": 0.03,
+    "raw_GLTF_normal_deg": 0.03,
+    "blender_imported_normal_deg": 0.12
+  },
+  "motion_video": {
+    "result": "pass",
+    "rendered_frames": 30,
+    "source_size_px": [
+      852,
+      393
+    ],
+    "mist_shift_BU": 4.6,
+    "leader_path_Y_range_BU": [
+      5.6,
+      36.5
+    ],
+    "blender_preview_only": true,
+    "video_decode": "pass"
+  },
+  "joint_checkpoint_a": {
+    "result": "pass",
+    "fixed_camera": [
+      0.0,
+      0.0
+    ],
+    "source_blends_sha256": {
+      "ENV-008_long_lake.blend": "5f9ecdab4d180ab39f3ab35aa18cbbb13284334333ecdb36edaff5451c7a75b6",
+      "ENV-010_short_pass.blend": "1941f405e170d840b59efd900826a2267bd0e33df5fb0b0753faf681ced98c12"
+    },
+    "visibility": {
+      "pass_opening": {
+        "visible_targets": 13,
+        "targets": 13,
+        "x_pixels": [
+          187.43319404125214,
+          272.3731030225754
+        ]
+      },
+      "lake_forebay": {
+        "visible_targets": 9,
+        "targets": 9,
+        "x_pixels": [
+          680.0768201351166,
+          784.7875771522522
+        ]
+      },
+      "rest_patch": {
+        "visible_targets": 9,
+        "targets": 9,
+        "x_pixels": [
+          501.84677839279175,
+          583.3182485103607
+        ]
+      }
+    },
+    "preview_only": true,
+    "notes": "World origin checkpoint A, with actual mesh assets. Technical S2 joint study."
+  },
+  "visual_review": {
+    "result": "observed",
+    "notes": "Approach and exit both read at 852x393. Most ridge crests clip near the throat; route stays visible. Dry soil texture repeats in the farther review apron."
+  },
+  "image_roundtrip": {
+    "top": {
+      "mean_absolute_RGB8_channel_difference": 0.0006597127739984883,
+      "p99_difference": 0
+    },
+    "checkpoint_a": {
+      "mean_absolute_RGB8_channel_difference": 0.0004917830420464546,
+      "p99_difference": 0
+    }
+  },
+  "design_redline_check": {
+    "result": "pass",
+    "scope": "Offline modeled terrain, non-player-facing technical indicators, stills and video."
+  },
+  "app_baseline": {
+    "source": "plans/active/goose-preview-model-cleanup.md",
+    "simulator": "iPhone 18 Pro",
+    "os": "iOS 27.2",
+    "previous_tests": 340,
+    "rerun_in_this_task": false
+  }
+}

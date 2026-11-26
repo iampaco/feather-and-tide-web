@@ -1,0 +1,184 @@
+{
+  "id": "ENV-006",
+  "status": "needs_review",
+  "graybox": {
+    "Grass_A": {
+      "triangles": 98,
+      "vertices": 91,
+      "bounds_BU": [
+        [
+          -0.17474296689033508,
+          0.058856088668107986
+        ],
+        [
+          -0.13472826778888702,
+          0.1780005544424057
+        ],
+        [
+          0.0,
+          0.20499999821186066
+        ]
+      ],
+      "height_BU": 0.20499999821186066,
+      "max_horizontal_radius_BU": 0.19074390115306009
+    },
+    "Grass_B": {
+      "triangles": 126,
+      "vertices": 117,
+      "bounds_BU": [
+        [
+          -0.19500350952148438,
+          0.17791813611984253
+        ],
+        [
+          -0.1593003273010254,
+          0.14824165403842926
+        ],
+        [
+          0.0,
+          0.28200000524520874
+        ]
+      ],
+      "height_BU": 0.28200000524520874,
+      "max_horizontal_radius_BU": 0.22133268808427067
+    },
+    "Grass_C": {
+      "triangles": 112,
+      "vertices": 104,
+      "bounds_BU": [
+        [
+          -0.15329530835151672,
+          0.11330997943878174
+        ],
+        [
+          -0.16390758752822876,
+          0.16972015798091888
+        ],
+        [
+          0.0,
+          0.24500000476837158
+        ]
+      ],
+      "height_BU": 0.24500000476837158,
+      "max_horizontal_radius_BU": 0.18055222568048487
+    }
+  },
+  "roundtrip": {
+    "Grass_A": {
+      "triangles": 98,
+      "vertices": 212,
+      "bounds_BU": [
+        [
+          -0.17474296689033508,
+          0.058856088668107986
+        ],
+        [
+          -0.13472826778888702,
+          0.1780005544424057
+        ],
+        [
+          0.0,
+          0.20499999821186066
+        ]
+      ],
+      "height_BU": 0.20499999821186066,
+      "max_horizontal_radius_BU": 0.19074390115306009,
+      "max_normal_error_deg": 1.8035651992104524e-05,
+      "embedded_png_sha256": {
+        "FogLeaf": "a4fbb2db73897427d8172297edb7b59d80a17707b3a3f1a198857f4996e6ed26"
+      },
+      "double_sided_opaque": true
+    },
+    "Grass_B": {
+      "triangles": 126,
+      "vertices": 270,
+      "bounds_BU": [
+        [
+          -0.19500350952148438,
+          0.17791813611984253
+        ],
+        [
+          -0.1593003273010254,
+          0.14824165403842926
+        ],
+        [
+          0.0,
+          0.28200000524520874
+        ]
+      ],
+      "height_BU": 0.28200000524520874,
+      "max_horizontal_radius_BU": 0.22133268808427067,
+      "max_normal_error_deg": 7.741732631195588e-05,
+      "embedded_png_sha256": {
+        "FogLeaf": "a4fbb2db73897427d8172297edb7b59d80a17707b3a3f1a198857f4996e6ed26",
+        "SedgeLeaf": "a4fbb2db73897427d8172297edb7b59d80a17707b3a3f1a198857f4996e6ed26"
+      },
+      "double_sided_opaque": true
+    },
+    "Grass_C": {
+      "triangles": 112,
+      "vertices": 240,
+      "bounds_BU": [
+        [
+          -0.15329530835151672,
+          0.11330997943878174
+        ],
+        [
+          -0.16390758752822876,
+          0.16972015798091888
+        ],
+        [
+          0.0,
+          0.24500000476837158
+        ]
+      ],
+      "height_BU": 0.24500000476837158,
+      "max_horizontal_radius_BU": 0.18055222568048487,
+      "max_normal_error_deg": 0.0,
+      "embedded_png_sha256": {
+        "FogLeaf": "a4fbb2db73897427d8172297edb7b59d80a17707b3a3f1a198857f4996e6ed26",
+        "DrySedge": "e201e626c70ba88af6cbeae9662dc76375930208e121c4af5dbdfc52cfcefab0"
+      },
+      "double_sided_opaque": true
+    }
+  },
+  "fixed_camera": {
+    "prototype_boundary_horizontal_clearance_BU": 1.1470400269748395,
+    "review_plant_count": 150,
+    "unique_prototype_count": 3,
+    "horizontal_placement_extent_BU": [
+      -3.990898133985596,
+      7.161896702991575
+    ]
+  },
+  "pending": [
+    "Owner art review and actual engine-side wind, visibility, and device tests."
+  ],
+  "version": "v001",
+  "blender": "5.2.2 LTS",
+  "independent_reopen": {
+    "result": "pass",
+    "original_reports_match": true,
+    "verified_glb_count": 3
+  },
+  "visual_review": {
+    "observation": "Near patches retain the folded leaf shapes. Far patches compress into subdued color marks, with the sample boundary readable.",
+    "source_and_roundtrip_render_rgb8": {
+      "source": "preview_lineup.png",
+      "reimport": "preview_glb_roundtrip.png",
+      "mean_absolute_channel_difference": 0.00011180165071849002,
+      "p99_channel_difference": 0
+    }
+  },
+  "app_baseline": {
+    "source": "plans/active/goose-preview-model-cleanup.md",
+    "simulator": "iPhone 18 Pro",
+    "os": "iOS 27.2",
+    "prior_test_count": 340,
+    "rerun_in_this_task": false
+  },
+  "design_redline_check": {
+    "result": "pass",
+    "scope": "offline candidate assets and review evidence"
+  }
+}

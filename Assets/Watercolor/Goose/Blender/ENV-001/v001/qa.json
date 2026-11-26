@@ -1,0 +1,1527 @@
+{
+  "id": "ENV-001",
+  "version": "v001",
+  "status": "needs_review",
+  "blender": "5.2.2 LTS",
+  "tolerances": {
+    "vertex_or_height_BU": 1e-05,
+    "normal_degrees": 0.03,
+    "uv": 1e-06,
+    "projected_area_BU2": 0.0005
+  },
+  "graybox_before_materials": {
+    "result": "pass",
+    "modules": {
+      "Flat": {
+        "bounds_BU": [
+          [
+            -5.0,
+            5.0
+          ],
+          [
+            -5.0,
+            5.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ],
+        "triangle_count": 512,
+        "mesh_vertices": 289,
+        "unique_xy_grid_vertices": 289,
+        "projected_area_BU2": 100.0,
+        "max_face_slope_deg": 0.0
+      },
+      "GentleSlope": {
+        "bounds_BU": [
+          [
+            -5.0,
+            5.0
+          ],
+          [
+            -5.0,
+            5.0
+          ],
+          [
+            0.0,
+            0.1897837221622467
+          ]
+        ],
+        "triangle_count": 512,
+        "mesh_vertices": 289,
+        "unique_xy_grid_vertices": 289,
+        "projected_area_BU2": 100.00000020929977,
+        "max_face_slope_deg": 6.0874039896695615
+      },
+      "Shore": {
+        "bounds_BU": [
+          [
+            -5.0,
+            5.0
+          ],
+          [
+            -5.0,
+            5.0
+          ],
+          [
+            -0.6499999761581421,
+            -0.0
+          ]
+        ],
+        "triangle_count": 512,
+        "mesh_vertices": 289,
+        "unique_xy_grid_vertices": 289,
+        "projected_area_BU2": 100.00000012282713,
+        "max_face_slope_deg": 10.824565341420124
+      },
+      "Ridge": {
+        "bounds_BU": [
+          [
+            -5.0,
+            5.0
+          ],
+          [
+            -5.0,
+            5.0
+          ],
+          [
+            0.0,
+            0.23499999940395355
+          ]
+        ],
+        "triangle_count": 512,
+        "mesh_vertices": 289,
+        "unique_xy_grid_vertices": 289,
+        "projected_area_BU2": 99.99999996931145,
+        "max_face_slope_deg": 10.403707637433099
+      }
+    },
+    "compatibility_joins": [
+      {
+        "join": "Flat.E → Flat.W",
+        "type": "L",
+        "vertices": 17,
+        "max_vertex_gap_BU": 0.0,
+        "max_height_delta_BU": 0.0,
+        "signed_footprint_gap_BU": 0.0,
+        "max_normal_angle_deg": 0.0,
+        "max_uv_error_mod_1": 0.0
+      },
+      {
+        "join": "Flat.N → Flat.S",
+        "type": "L",
+        "vertices": 17,
+        "max_vertex_gap_BU": 0.0,
+        "max_height_delta_BU": 0.0,
+        "signed_footprint_gap_BU": 0.0,
+        "max_normal_angle_deg": 0.0,
+        "max_uv_error_mod_1": 0.0
+      },
+      {
+        "join": "Flat.E → GentleSlope.W",
+        "type": "L",
+        "vertices": 17,
+        "max_vertex_gap_BU": 0.0,
+        "max_height_delta_BU": 0.0,
+        "signed_footprint_gap_BU": 0.0,
+        "max_normal_angle_deg": 0.0,
+        "max_uv_error_mod_1": 0.0
+      },
+      {
+        "join": "Flat.N → GentleSlope.S",
+        "type": "L",
+        "vertices": 17,
+        "max_vertex_gap_BU": 0.0,
+        "max_height_delta_BU": 0.0,
+        "signed_footprint_gap_BU": 0.0,
+        "max_normal_angle_deg": 0.0,
+        "max_uv_error_mod_1": 0.0
+      },
+      {
+        "join": "Flat.E → Shore.W",
+        "type": "L",
+        "vertices": 17,
+        "max_vertex_gap_BU": 0.0,
+        "max_height_delta_BU": 0.0,
+        "signed_footprint_gap_BU": 0.0,
+        "max_normal_angle_deg": 0.0,
+        "max_uv_error_mod_1": 0.0
+      },
+      {
+        "join": "Flat.E → Ridge.W",
+        "type": "L",
+        "vertices": 17,
+        "max_vertex_gap_BU": 0.0,
+        "max_height_delta_BU": 0.0,
+        "signed_footprint_gap_BU": 0.0,
+        "max_normal_angle_deg": 0.0,
+        "max_uv_error_mod_1": 0.0
+      },
+      {
+        "join": "Flat.N → Ridge.S",
+        "type": "L",
+        "vertices": 17,
+        "max_vertex_gap_BU": 0.0,
+        "max_height_delta_BU": 0.0,
+        "signed_footprint_gap_BU": 0.0,
+        "max_normal_angle_deg": 0.0,
+        "max_uv_error_mod_1": 0.0
+      },
+      {
+        "join": "GentleSlope.E → Flat.W",
+        "type": "L",
+        "vertices": 17,
+        "max_vertex_gap_BU": 0.0,
+        "max_height_delta_BU": 0.0,
+        "signed_footprint_gap_BU": 0.0,
+        "max_normal_angle_deg": 0.0,
+        "max_uv_error_mod_1": 0.0
+      },
+      {
+        "join": "GentleSlope.N → Flat.S",
+        "type": "L",
+        "vertices": 17,
+        "max_vertex_gap_BU": 0.0,
+        "max_height_delta_BU": 0.0,
+        "signed_footprint_gap_BU": 0.0,
+        "max_normal_angle_deg": 0.0,
+        "max_uv_error_mod_1": 0.0
+      },
+      {
+        "join": "GentleSlope.E → GentleSlope.W",
+        "type": "L",
+        "vertices": 17,
+        "max_vertex_gap_BU": 0.0,
+        "max_height_delta_BU": 0.0,
+        "signed_footprint_gap_BU": 0.0,
+        "max_normal_angle_deg": 0.0,
+        "max_uv_error_mod_1": 0.0
+      },
+      {
+        "join": "GentleSlope.N → GentleSlope.S",
+        "type": "L",
+        "vertices": 17,
+        "max_vertex_gap_BU": 0.0,
+        "max_height_delta_BU": 0.0,
+        "signed_footprint_gap_BU": 0.0,
+        "max_normal_angle_deg": 0.0,
+        "max_uv_error_mod_1": 0.0
+      },
+      {
+        "join": "GentleSlope.E → Shore.W",
+        "type": "L",
+        "vertices": 17,
+        "max_vertex_gap_BU": 0.0,
+        "max_height_delta_BU": 0.0,
+        "signed_footprint_gap_BU": 0.0,
+        "max_normal_angle_deg": 0.0,
+        "max_uv_error_mod_1": 0.0
+      },
+      {
+        "join": "GentleSlope.E → Ridge.W",
+        "type": "L",
+        "vertices": 17,
+        "max_vertex_gap_BU": 0.0,
+        "max_height_delta_BU": 0.0,
+        "signed_footprint_gap_BU": 0.0,
+        "max_normal_angle_deg": 0.0,
+        "max_uv_error_mod_1": 0.0
+      },
+      {
+        "join": "GentleSlope.N → Ridge.S",
+        "type": "L",
+        "vertices": 17,
+        "max_vertex_gap_BU": 0.0,
+        "max_height_delta_BU": 0.0,
+        "signed_footprint_gap_BU": 0.0,
+        "max_normal_angle_deg": 0.0,
+        "max_uv_error_mod_1": 0.0
+      },
+      {
+        "join": "Shore.N → Shore.S",
+        "type": "C",
+        "vertices": 17,
+        "max_vertex_gap_BU": 0.0,
+        "max_height_delta_BU": 0.0,
+        "signed_footprint_gap_BU": 0.0,
+        "max_normal_angle_deg": 1.2806605003877996e-06,
+        "max_uv_error_mod_1": 0.0
+      },
+      {
+        "join": "Ridge.E → Flat.W",
+        "type": "L",
+        "vertices": 17,
+        "max_vertex_gap_BU": 0.0,
+        "max_height_delta_BU": 0.0,
+        "signed_footprint_gap_BU": 0.0,
+        "max_normal_angle_deg": 0.0,
+        "max_uv_error_mod_1": 0.0
+      },
+      {
+        "join": "Ridge.N → Flat.S",
+        "type": "L",
+        "vertices": 17,
+        "max_vertex_gap_BU": 0.0,
+        "max_height_delta_BU": 0.0,
+        "signed_footprint_gap_BU": 0.0,
+        "max_normal_angle_deg": 0.0,
+        "max_uv_error_mod_1": 0.0
+      },
+      {
+        "join": "Ridge.E → GentleSlope.W",
+        "type": "L",
+        "vertices": 17,
+        "max_vertex_gap_BU": 0.0,
+        "max_height_delta_BU": 0.0,
+        "signed_footprint_gap_BU": 0.0,
+        "max_normal_angle_deg": 0.0,
+        "max_uv_error_mod_1": 0.0
+      },
+      {
+        "join": "Ridge.N → GentleSlope.S",
+        "type": "L",
+        "vertices": 17,
+        "max_vertex_gap_BU": 0.0,
+        "max_height_delta_BU": 0.0,
+        "signed_footprint_gap_BU": 0.0,
+        "max_normal_angle_deg": 0.0,
+        "max_uv_error_mod_1": 0.0
+      },
+      {
+        "join": "Ridge.E → Shore.W",
+        "type": "L",
+        "vertices": 17,
+        "max_vertex_gap_BU": 0.0,
+        "max_height_delta_BU": 0.0,
+        "signed_footprint_gap_BU": 0.0,
+        "max_normal_angle_deg": 0.0,
+        "max_uv_error_mod_1": 0.0
+      },
+      {
+        "join": "Ridge.E → Ridge.W",
+        "type": "L",
+        "vertices": 17,
+        "max_vertex_gap_BU": 0.0,
+        "max_height_delta_BU": 0.0,
+        "signed_footprint_gap_BU": 0.0,
+        "max_normal_angle_deg": 0.0,
+        "max_uv_error_mod_1": 0.0
+      },
+      {
+        "join": "Ridge.N → Ridge.S",
+        "type": "L",
+        "vertices": 17,
+        "max_vertex_gap_BU": 0.0,
+        "max_height_delta_BU": 0.0,
+        "signed_footprint_gap_BU": 0.0,
+        "max_normal_angle_deg": 0.0,
+        "max_uv_error_mod_1": 0.0
+      }
+    ],
+    "assembly": {
+      "joins": [
+        {
+          "join": "Ridge.E → GentleSlope.W",
+          "type": "L",
+          "vertices": 17,
+          "max_vertex_gap_BU": 0.0,
+          "max_height_delta_BU": 0.0,
+          "signed_footprint_gap_BU": 0.0,
+          "max_normal_angle_deg": 0.0,
+          "max_uv_error_mod_1": 0.0
+        },
+        {
+          "join": "Ridge.N → GentleSlope.S",
+          "type": "L",
+          "vertices": 17,
+          "max_vertex_gap_BU": 0.0,
+          "max_height_delta_BU": 0.0,
+          "signed_footprint_gap_BU": 0.0,
+          "max_normal_angle_deg": 0.0,
+          "max_uv_error_mod_1": 0.0
+        },
+        {
+          "join": "GentleSlope.E → Flat.W",
+          "type": "L",
+          "vertices": 17,
+          "max_vertex_gap_BU": 0.0,
+          "max_height_delta_BU": 0.0,
+          "signed_footprint_gap_BU": 0.0,
+          "max_normal_angle_deg": 0.0,
+          "max_uv_error_mod_1": 0.0
+        },
+        {
+          "join": "GentleSlope.N → Ridge.S",
+          "type": "L",
+          "vertices": 17,
+          "max_vertex_gap_BU": 0.0,
+          "max_height_delta_BU": 0.0,
+          "signed_footprint_gap_BU": 0.0,
+          "max_normal_angle_deg": 0.0,
+          "max_uv_error_mod_1": 0.0
+        },
+        {
+          "join": "Flat.E → Shore.W",
+          "type": "L",
+          "vertices": 17,
+          "max_vertex_gap_BU": 0.0,
+          "max_height_delta_BU": 0.0,
+          "signed_footprint_gap_BU": 0.0,
+          "max_normal_angle_deg": 0.0,
+          "max_uv_error_mod_1": 0.0
+        },
+        {
+          "join": "Flat.N → Flat.S",
+          "type": "L",
+          "vertices": 17,
+          "max_vertex_gap_BU": 0.0,
+          "max_height_delta_BU": 0.0,
+          "signed_footprint_gap_BU": 0.0,
+          "max_normal_angle_deg": 0.0,
+          "max_uv_error_mod_1": 0.0
+        },
+        {
+          "join": "Shore.N → Shore.S",
+          "type": "C",
+          "vertices": 17,
+          "max_vertex_gap_BU": 0.0,
+          "max_height_delta_BU": 0.0,
+          "signed_footprint_gap_BU": 0.0,
+          "max_normal_angle_deg": 1.2806605003877996e-06,
+          "max_uv_error_mod_1": 0.0
+        },
+        {
+          "join": "GentleSlope.E → Ridge.W",
+          "type": "L",
+          "vertices": 17,
+          "max_vertex_gap_BU": 0.0,
+          "max_height_delta_BU": 0.0,
+          "signed_footprint_gap_BU": 0.0,
+          "max_normal_angle_deg": 0.0,
+          "max_uv_error_mod_1": 0.0
+        },
+        {
+          "join": "GentleSlope.N → GentleSlope.S",
+          "type": "L",
+          "vertices": 17,
+          "max_vertex_gap_BU": 0.0,
+          "max_height_delta_BU": 0.0,
+          "signed_footprint_gap_BU": 0.0,
+          "max_normal_angle_deg": 0.0,
+          "max_uv_error_mod_1": 0.0
+        },
+        {
+          "join": "Ridge.E → Flat.W",
+          "type": "L",
+          "vertices": 17,
+          "max_vertex_gap_BU": 0.0,
+          "max_height_delta_BU": 0.0,
+          "signed_footprint_gap_BU": 0.0,
+          "max_normal_angle_deg": 0.0,
+          "max_uv_error_mod_1": 0.0
+        },
+        {
+          "join": "Ridge.N → Flat.S",
+          "type": "L",
+          "vertices": 17,
+          "max_vertex_gap_BU": 0.0,
+          "max_height_delta_BU": 0.0,
+          "signed_footprint_gap_BU": 0.0,
+          "max_normal_angle_deg": 0.0,
+          "max_uv_error_mod_1": 0.0
+        },
+        {
+          "join": "Flat.E → Shore.W",
+          "type": "L",
+          "vertices": 17,
+          "max_vertex_gap_BU": 0.0,
+          "max_height_delta_BU": 0.0,
+          "signed_footprint_gap_BU": 0.0,
+          "max_normal_angle_deg": 0.0,
+          "max_uv_error_mod_1": 0.0
+        },
+        {
+          "join": "Flat.N → Flat.S",
+          "type": "L",
+          "vertices": 17,
+          "max_vertex_gap_BU": 0.0,
+          "max_height_delta_BU": 0.0,
+          "signed_footprint_gap_BU": 0.0,
+          "max_normal_angle_deg": 0.0,
+          "max_uv_error_mod_1": 0.0
+        },
+        {
+          "join": "Shore.N → Shore.S",
+          "type": "C",
+          "vertices": 17,
+          "max_vertex_gap_BU": 0.0,
+          "max_height_delta_BU": 0.0,
+          "signed_footprint_gap_BU": 0.0,
+          "max_normal_angle_deg": 1.2806605003877996e-06,
+          "max_uv_error_mod_1": 0.0
+        },
+        {
+          "join": "GentleSlope.E → Flat.W",
+          "type": "L",
+          "vertices": 17,
+          "max_vertex_gap_BU": 0.0,
+          "max_height_delta_BU": 0.0,
+          "signed_footprint_gap_BU": 0.0,
+          "max_normal_angle_deg": 0.0,
+          "max_uv_error_mod_1": 0.0
+        },
+        {
+          "join": "GentleSlope.N → Flat.S",
+          "type": "L",
+          "vertices": 17,
+          "max_vertex_gap_BU": 0.0,
+          "max_height_delta_BU": 0.0,
+          "signed_footprint_gap_BU": 0.0,
+          "max_normal_angle_deg": 0.0,
+          "max_uv_error_mod_1": 0.0
+        },
+        {
+          "join": "Flat.E → Flat.W",
+          "type": "L",
+          "vertices": 17,
+          "max_vertex_gap_BU": 0.0,
+          "max_height_delta_BU": 0.0,
+          "signed_footprint_gap_BU": 0.0,
+          "max_normal_angle_deg": 0.0,
+          "max_uv_error_mod_1": 0.0
+        },
+        {
+          "join": "Flat.N → GentleSlope.S",
+          "type": "L",
+          "vertices": 17,
+          "max_vertex_gap_BU": 0.0,
+          "max_height_delta_BU": 0.0,
+          "signed_footprint_gap_BU": 0.0,
+          "max_normal_angle_deg": 0.0,
+          "max_uv_error_mod_1": 0.0
+        },
+        {
+          "join": "Flat.E → Shore.W",
+          "type": "L",
+          "vertices": 17,
+          "max_vertex_gap_BU": 0.0,
+          "max_height_delta_BU": 0.0,
+          "signed_footprint_gap_BU": 0.0,
+          "max_normal_angle_deg": 0.0,
+          "max_uv_error_mod_1": 0.0
+        },
+        {
+          "join": "Flat.N → Flat.S",
+          "type": "L",
+          "vertices": 17,
+          "max_vertex_gap_BU": 0.0,
+          "max_height_delta_BU": 0.0,
+          "signed_footprint_gap_BU": 0.0,
+          "max_normal_angle_deg": 0.0,
+          "max_uv_error_mod_1": 0.0
+        },
+        {
+          "join": "Shore.N → Shore.S",
+          "type": "C",
+          "vertices": 17,
+          "max_vertex_gap_BU": 0.0,
+          "max_height_delta_BU": 0.0,
+          "signed_footprint_gap_BU": 0.0,
+          "max_normal_angle_deg": 1.2806605003877996e-06,
+          "max_uv_error_mod_1": 0.0
+        },
+        {
+          "join": "Flat.E → GentleSlope.W",
+          "type": "L",
+          "vertices": 17,
+          "max_vertex_gap_BU": 0.0,
+          "max_height_delta_BU": 0.0,
+          "signed_footprint_gap_BU": 0.0,
+          "max_normal_angle_deg": 0.0,
+          "max_uv_error_mod_1": 0.0
+        },
+        {
+          "join": "GentleSlope.E → Flat.W",
+          "type": "L",
+          "vertices": 17,
+          "max_vertex_gap_BU": 0.0,
+          "max_height_delta_BU": 0.0,
+          "signed_footprint_gap_BU": 0.0,
+          "max_normal_angle_deg": 0.0,
+          "max_uv_error_mod_1": 0.0
+        },
+        {
+          "join": "Flat.E → Shore.W",
+          "type": "L",
+          "vertices": 17,
+          "max_vertex_gap_BU": 0.0,
+          "max_height_delta_BU": 0.0,
+          "signed_footprint_gap_BU": 0.0,
+          "max_normal_angle_deg": 0.0,
+          "max_uv_error_mod_1": 0.0
+        }
+      ],
+      "four_way_corners": [
+        {
+          "grid_corner": [
+            0,
+            0
+          ],
+          "max_gap_BU": 0.0,
+          "max_normal_angle_deg": 0.0
+        },
+        {
+          "grid_corner": [
+            0,
+            1
+          ],
+          "max_gap_BU": 0.0,
+          "max_normal_angle_deg": 0.0
+        },
+        {
+          "grid_corner": [
+            0,
+            2
+          ],
+          "max_gap_BU": 0.0,
+          "max_normal_angle_deg": 0.0
+        },
+        {
+          "grid_corner": [
+            1,
+            0
+          ],
+          "max_gap_BU": 0.0,
+          "max_normal_angle_deg": 0.0
+        },
+        {
+          "grid_corner": [
+            1,
+            1
+          ],
+          "max_gap_BU": 0.0,
+          "max_normal_angle_deg": 0.0
+        },
+        {
+          "grid_corner": [
+            1,
+            2
+          ],
+          "max_gap_BU": 0.0,
+          "max_normal_angle_deg": 0.0
+        },
+        {
+          "grid_corner": [
+            2,
+            0
+          ],
+          "max_gap_BU": 0.0,
+          "max_normal_angle_deg": 0.0
+        },
+        {
+          "grid_corner": [
+            2,
+            1
+          ],
+          "max_gap_BU": 0.0,
+          "max_normal_angle_deg": 0.0
+        },
+        {
+          "grid_corner": [
+            2,
+            2
+          ],
+          "max_gap_BU": 0.0,
+          "max_normal_angle_deg": 0.0
+        }
+      ]
+    },
+    "reference_water": {
+      "plane_z_BU": -0.18,
+      "plane_xy_BU": [
+        5,
+        15,
+        -15,
+        25
+      ],
+      "intersection_x_span_BU": [
+        9.343728721141815,
+        10.800009846687317
+      ],
+      "coast_joint_intersection_gap_BU": 0.0,
+      "bottom_coverage_BU2": 400,
+      "bottom_coverage_method": "Full 10 × 40 rectangle covered by four audited adjoining terrain grids.",
+      "east_edge_depth_BU": [
+        0.4699999761581421,
+        0.4699999761581421
+      ],
+      "east_edge_vertices_checked": 68
+    },
+    "route_geometry": {
+      "centerline_samples": 217,
+      "rendered_mark_count": 73,
+      "terrain_range_BU": [
+        0.0,
+        0.0
+      ],
+      "min_center_clearance_BU": 0.036,
+      "marker_dimensions_game_units": [
+        5,
+        5,
+        1.2
+      ],
+      "marker_center_height_game_units": 1.0,
+      "entry": {
+        "frame_px": [
+          852,
+          393
+        ],
+        "fully_in_frame_marks": 67,
+        "mark_bbox_width_px": [
+          2.821918487548828,
+          24.899896144866943
+        ],
+        "mark_bbox_height_px": [
+          0.2700859308242798,
+          18.32066012173891
+        ]
+      },
+      "shore": {
+        "frame_px": [
+          852,
+          393
+        ],
+        "fully_in_frame_marks": 49,
+        "mark_bbox_width_px": [
+          3.7470606565475464,
+          22.658987760543823
+        ],
+        "mark_bbox_height_px": [
+          0.5262810587882996,
+          18.49914112687111
+        ]
+      },
+      "bend": {
+        "frame_px": [
+          852,
+          393
+        ],
+        "fully_in_frame_marks": 30,
+        "mark_bbox_width_px": [
+          5.366256237030029,
+          23.253963232040405
+        ],
+        "mark_bbox_height_px": [
+          1.1482751369476318,
+          18.90137049369514
+        ]
+      }
+    }
+  },
+  "final_glb_roundtrip": {
+    "result": "pass",
+    "modules": {
+      "Flat": {
+        "raw_gltf_bounds_X_Y_Z": [
+          [
+            -5,
+            5
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            -5,
+            5
+          ]
+        ],
+        "triangle_count": 512,
+        "coordinate_samples_checked": 289,
+        "embedded_png_sha256": {
+          "GrassFlat": "e06d76e88c90a29ad97a810ed7578ce67f79da1b915940d5406750228f36996b"
+        },
+        "blender_import": {
+          "bounds_BU": [
+            [
+              -5.0,
+              5.0
+            ],
+            [
+              -5.0,
+              5.0
+            ],
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "triangle_count": 512,
+          "mesh_vertices": 289,
+          "unique_xy_grid_vertices": 289,
+          "projected_area_BU2": 100.0,
+          "max_face_slope_deg": 0.0
+        },
+        "max_position_error_BU": 0.0,
+        "max_normal_angle_deg": 0.0,
+        "max_uv_error": 0.0
+      },
+      "GentleSlope": {
+        "raw_gltf_bounds_X_Y_Z": [
+          [
+            -5,
+            5
+          ],
+          [
+            0,
+            0.1897837221622467
+          ],
+          [
+            -5,
+            5
+          ]
+        ],
+        "triangle_count": 512,
+        "coordinate_samples_checked": 289,
+        "embedded_png_sha256": {
+          "GrassFlat": "e06d76e88c90a29ad97a810ed7578ce67f79da1b915940d5406750228f36996b"
+        },
+        "blender_import": {
+          "bounds_BU": [
+            [
+              -5.0,
+              5.0
+            ],
+            [
+              -5.0,
+              5.0
+            ],
+            [
+              0.0,
+              0.1897837221622467
+            ]
+          ],
+          "triangle_count": 512,
+          "mesh_vertices": 289,
+          "unique_xy_grid_vertices": 289,
+          "projected_area_BU2": 100.00000020929977,
+          "max_face_slope_deg": 6.0874039896695615
+        },
+        "max_position_error_BU": 0.0,
+        "max_normal_angle_deg": 0.023035184486815803,
+        "max_uv_error": 0.0
+      },
+      "Shore": {
+        "raw_gltf_bounds_X_Y_Z": [
+          [
+            -5,
+            5
+          ],
+          [
+            -0.6499999761581421,
+            0
+          ],
+          [
+            -5,
+            5
+          ]
+        ],
+        "triangle_count": 512,
+        "coordinate_samples_checked": 289,
+        "embedded_png_sha256": {
+          "GrassFlat": "e06d76e88c90a29ad97a810ed7578ce67f79da1b915940d5406750228f36996b",
+          "MudBank": "0343b68d4e256fca7b747c65b2fcebc74c46f3aa2334044051ac862e4e02c5b1",
+          "ShallowMargin": "bd12529acd7f63aefad1df09111aa6b9a84c95161bbdb1d0c64f1cbc66d2c6f7"
+        },
+        "blender_import": {
+          "bounds_BU": [
+            [
+              -5.0,
+              5.0
+            ],
+            [
+              -5.0,
+              5.0
+            ],
+            [
+              -0.6499999761581421,
+              -0.0
+            ]
+          ],
+          "triangle_count": 512,
+          "mesh_vertices": 328,
+          "unique_xy_grid_vertices": 289,
+          "projected_area_BU2": 100.00000012282713,
+          "max_face_slope_deg": 10.824565341420124
+        },
+        "max_position_error_BU": 0.0,
+        "max_normal_angle_deg": 0.026154805474001105,
+        "max_uv_error": 0.0
+      },
+      "Ridge": {
+        "raw_gltf_bounds_X_Y_Z": [
+          [
+            -5,
+            5
+          ],
+          [
+            0,
+            0.23499999940395355
+          ],
+          [
+            -5,
+            5
+          ]
+        ],
+        "triangle_count": 512,
+        "coordinate_samples_checked": 289,
+        "embedded_png_sha256": {
+          "GrassFlat": "e06d76e88c90a29ad97a810ed7578ce67f79da1b915940d5406750228f36996b",
+          "MossStone": "10670b355497a7e1f53116859dd31128377e892f263ce8f0de58d125cff265c7",
+          "MountainRock": "4670d95b818253c1e5a4110d8a2f00ed6160e258a0ee9e056704fa43986e2393"
+        },
+        "blender_import": {
+          "bounds_BU": [
+            [
+              -5.0,
+              5.0
+            ],
+            [
+              -5.0,
+              5.0
+            ],
+            [
+              0.0,
+              0.23499999940395355
+            ]
+          ],
+          "triangle_count": 512,
+          "mesh_vertices": 351,
+          "unique_xy_grid_vertices": 289,
+          "projected_area_BU2": 99.99999996931145,
+          "max_face_slope_deg": 10.403707637433099
+        },
+        "max_position_error_BU": 0.0,
+        "max_normal_angle_deg": 0.019703235384786168,
+        "max_uv_error": 0.0
+      }
+    },
+    "compatibility_joins": [
+      {
+        "join": "Flat.E → Flat.W",
+        "type": "L",
+        "vertices": 17,
+        "max_vertex_gap_BU": 0.0,
+        "max_height_delta_BU": 0.0,
+        "signed_footprint_gap_BU": 0.0,
+        "max_normal_angle_deg": 0.0,
+        "max_uv_error_mod_1": 0.0
+      },
+      {
+        "join": "Flat.N → Flat.S",
+        "type": "L",
+        "vertices": 17,
+        "max_vertex_gap_BU": 0.0,
+        "max_height_delta_BU": 0.0,
+        "signed_footprint_gap_BU": 0.0,
+        "max_normal_angle_deg": 0.0,
+        "max_uv_error_mod_1": 0.0
+      },
+      {
+        "join": "Flat.E → GentleSlope.W",
+        "type": "L",
+        "vertices": 17,
+        "max_vertex_gap_BU": 0.0,
+        "max_height_delta_BU": 0.0,
+        "signed_footprint_gap_BU": 0.0,
+        "max_normal_angle_deg": 0.0,
+        "max_uv_error_mod_1": 0.0
+      },
+      {
+        "join": "Flat.N → GentleSlope.S",
+        "type": "L",
+        "vertices": 17,
+        "max_vertex_gap_BU": 0.0,
+        "max_height_delta_BU": 0.0,
+        "signed_footprint_gap_BU": 0.0,
+        "max_normal_angle_deg": 0.0,
+        "max_uv_error_mod_1": 0.0
+      },
+      {
+        "join": "Flat.E → Shore.W",
+        "type": "L",
+        "vertices": 17,
+        "max_vertex_gap_BU": 0.0,
+        "max_height_delta_BU": 0.0,
+        "signed_footprint_gap_BU": 0.0,
+        "max_normal_angle_deg": 0.0,
+        "max_uv_error_mod_1": 0.0
+      },
+      {
+        "join": "Flat.E → Ridge.W",
+        "type": "L",
+        "vertices": 17,
+        "max_vertex_gap_BU": 0.0,
+        "max_height_delta_BU": 0.0,
+        "signed_footprint_gap_BU": 0.0,
+        "max_normal_angle_deg": 0.0,
+        "max_uv_error_mod_1": 0.0
+      },
+      {
+        "join": "Flat.N → Ridge.S",
+        "type": "L",
+        "vertices": 17,
+        "max_vertex_gap_BU": 0.0,
+        "max_height_delta_BU": 0.0,
+        "signed_footprint_gap_BU": 0.0,
+        "max_normal_angle_deg": 0.0,
+        "max_uv_error_mod_1": 0.0
+      },
+      {
+        "join": "GentleSlope.E → Flat.W",
+        "type": "L",
+        "vertices": 17,
+        "max_vertex_gap_BU": 0.0,
+        "max_height_delta_BU": 0.0,
+        "signed_footprint_gap_BU": 0.0,
+        "max_normal_angle_deg": 0.0,
+        "max_uv_error_mod_1": 0.0
+      },
+      {
+        "join": "GentleSlope.N → Flat.S",
+        "type": "L",
+        "vertices": 17,
+        "max_vertex_gap_BU": 0.0,
+        "max_height_delta_BU": 0.0,
+        "signed_footprint_gap_BU": 0.0,
+        "max_normal_angle_deg": 0.0,
+        "max_uv_error_mod_1": 0.0
+      },
+      {
+        "join": "GentleSlope.E → GentleSlope.W",
+        "type": "L",
+        "vertices": 17,
+        "max_vertex_gap_BU": 0.0,
+        "max_height_delta_BU": 0.0,
+        "signed_footprint_gap_BU": 0.0,
+        "max_normal_angle_deg": 0.0,
+        "max_uv_error_mod_1": 0.0
+      },
+      {
+        "join": "GentleSlope.N → GentleSlope.S",
+        "type": "L",
+        "vertices": 17,
+        "max_vertex_gap_BU": 0.0,
+        "max_height_delta_BU": 0.0,
+        "signed_footprint_gap_BU": 0.0,
+        "max_normal_angle_deg": 0.0,
+        "max_uv_error_mod_1": 0.0
+      },
+      {
+        "join": "GentleSlope.E → Shore.W",
+        "type": "L",
+        "vertices": 17,
+        "max_vertex_gap_BU": 0.0,
+        "max_height_delta_BU": 0.0,
+        "signed_footprint_gap_BU": 0.0,
+        "max_normal_angle_deg": 0.0,
+        "max_uv_error_mod_1": 0.0
+      },
+      {
+        "join": "GentleSlope.E → Ridge.W",
+        "type": "L",
+        "vertices": 17,
+        "max_vertex_gap_BU": 0.0,
+        "max_height_delta_BU": 0.0,
+        "signed_footprint_gap_BU": 0.0,
+        "max_normal_angle_deg": 0.0,
+        "max_uv_error_mod_1": 0.0
+      },
+      {
+        "join": "GentleSlope.N → Ridge.S",
+        "type": "L",
+        "vertices": 17,
+        "max_vertex_gap_BU": 0.0,
+        "max_height_delta_BU": 0.0,
+        "signed_footprint_gap_BU": 0.0,
+        "max_normal_angle_deg": 0.0,
+        "max_uv_error_mod_1": 0.0
+      },
+      {
+        "join": "Shore.N → Shore.S",
+        "type": "C",
+        "vertices": 17,
+        "max_vertex_gap_BU": 0.0,
+        "max_height_delta_BU": 0.0,
+        "signed_footprint_gap_BU": 0.0,
+        "max_normal_angle_deg": 0.0024208975747293375,
+        "max_uv_error_mod_1": 0.0
+      },
+      {
+        "join": "Ridge.E → Flat.W",
+        "type": "L",
+        "vertices": 17,
+        "max_vertex_gap_BU": 0.0,
+        "max_height_delta_BU": 0.0,
+        "signed_footprint_gap_BU": 0.0,
+        "max_normal_angle_deg": 0.0,
+        "max_uv_error_mod_1": 0.0
+      },
+      {
+        "join": "Ridge.N → Flat.S",
+        "type": "L",
+        "vertices": 17,
+        "max_vertex_gap_BU": 0.0,
+        "max_height_delta_BU": 0.0,
+        "signed_footprint_gap_BU": 0.0,
+        "max_normal_angle_deg": 0.0,
+        "max_uv_error_mod_1": 0.0
+      },
+      {
+        "join": "Ridge.E → GentleSlope.W",
+        "type": "L",
+        "vertices": 17,
+        "max_vertex_gap_BU": 0.0,
+        "max_height_delta_BU": 0.0,
+        "signed_footprint_gap_BU": 0.0,
+        "max_normal_angle_deg": 0.0,
+        "max_uv_error_mod_1": 0.0
+      },
+      {
+        "join": "Ridge.N → GentleSlope.S",
+        "type": "L",
+        "vertices": 17,
+        "max_vertex_gap_BU": 0.0,
+        "max_height_delta_BU": 0.0,
+        "signed_footprint_gap_BU": 0.0,
+        "max_normal_angle_deg": 0.0,
+        "max_uv_error_mod_1": 0.0
+      },
+      {
+        "join": "Ridge.E → Shore.W",
+        "type": "L",
+        "vertices": 17,
+        "max_vertex_gap_BU": 0.0,
+        "max_height_delta_BU": 0.0,
+        "signed_footprint_gap_BU": 0.0,
+        "max_normal_angle_deg": 0.0,
+        "max_uv_error_mod_1": 0.0
+      },
+      {
+        "join": "Ridge.E → Ridge.W",
+        "type": "L",
+        "vertices": 17,
+        "max_vertex_gap_BU": 0.0,
+        "max_height_delta_BU": 0.0,
+        "signed_footprint_gap_BU": 0.0,
+        "max_normal_angle_deg": 0.0,
+        "max_uv_error_mod_1": 0.0
+      },
+      {
+        "join": "Ridge.N → Ridge.S",
+        "type": "L",
+        "vertices": 17,
+        "max_vertex_gap_BU": 0.0,
+        "max_height_delta_BU": 0.0,
+        "signed_footprint_gap_BU": 0.0,
+        "max_normal_angle_deg": 0.0,
+        "max_uv_error_mod_1": 0.0
+      }
+    ],
+    "reassembled": {
+      "joins": [
+        {
+          "join": "Ridge.E → GentleSlope.W",
+          "type": "L",
+          "vertices": 17,
+          "max_vertex_gap_BU": 0.0,
+          "max_height_delta_BU": 0.0,
+          "signed_footprint_gap_BU": 0.0,
+          "max_normal_angle_deg": 0.0,
+          "max_uv_error_mod_1": 0.0
+        },
+        {
+          "join": "Ridge.N → GentleSlope.S",
+          "type": "L",
+          "vertices": 17,
+          "max_vertex_gap_BU": 0.0,
+          "max_height_delta_BU": 0.0,
+          "signed_footprint_gap_BU": 0.0,
+          "max_normal_angle_deg": 0.0,
+          "max_uv_error_mod_1": 0.0
+        },
+        {
+          "join": "GentleSlope.E → Flat.W",
+          "type": "L",
+          "vertices": 17,
+          "max_vertex_gap_BU": 0.0,
+          "max_height_delta_BU": 0.0,
+          "signed_footprint_gap_BU": 0.0,
+          "max_normal_angle_deg": 0.0,
+          "max_uv_error_mod_1": 0.0
+        },
+        {
+          "join": "GentleSlope.N → Ridge.S",
+          "type": "L",
+          "vertices": 17,
+          "max_vertex_gap_BU": 0.0,
+          "max_height_delta_BU": 0.0,
+          "signed_footprint_gap_BU": 0.0,
+          "max_normal_angle_deg": 0.0,
+          "max_uv_error_mod_1": 0.0
+        },
+        {
+          "join": "Flat.E → Shore.W",
+          "type": "L",
+          "vertices": 17,
+          "max_vertex_gap_BU": 0.0,
+          "max_height_delta_BU": 0.0,
+          "signed_footprint_gap_BU": 0.0,
+          "max_normal_angle_deg": 0.0,
+          "max_uv_error_mod_1": 0.0
+        },
+        {
+          "join": "Flat.N → Flat.S",
+          "type": "L",
+          "vertices": 17,
+          "max_vertex_gap_BU": 0.0,
+          "max_height_delta_BU": 0.0,
+          "signed_footprint_gap_BU": 0.0,
+          "max_normal_angle_deg": 0.0,
+          "max_uv_error_mod_1": 0.0
+        },
+        {
+          "join": "Shore.N → Shore.S",
+          "type": "C",
+          "vertices": 17,
+          "max_vertex_gap_BU": 0.0,
+          "max_height_delta_BU": 0.0,
+          "signed_footprint_gap_BU": 0.0,
+          "max_normal_angle_deg": 0.0024208975747293375,
+          "max_uv_error_mod_1": 0.0
+        },
+        {
+          "join": "GentleSlope.E → Ridge.W",
+          "type": "L",
+          "vertices": 17,
+          "max_vertex_gap_BU": 0.0,
+          "max_height_delta_BU": 0.0,
+          "signed_footprint_gap_BU": 0.0,
+          "max_normal_angle_deg": 0.0,
+          "max_uv_error_mod_1": 0.0
+        },
+        {
+          "join": "GentleSlope.N → GentleSlope.S",
+          "type": "L",
+          "vertices": 17,
+          "max_vertex_gap_BU": 0.0,
+          "max_height_delta_BU": 0.0,
+          "signed_footprint_gap_BU": 0.0,
+          "max_normal_angle_deg": 0.0,
+          "max_uv_error_mod_1": 0.0
+        },
+        {
+          "join": "Ridge.E → Flat.W",
+          "type": "L",
+          "vertices": 17,
+          "max_vertex_gap_BU": 0.0,
+          "max_height_delta_BU": 0.0,
+          "signed_footprint_gap_BU": 0.0,
+          "max_normal_angle_deg": 0.0,
+          "max_uv_error_mod_1": 0.0
+        },
+        {
+          "join": "Ridge.N → Flat.S",
+          "type": "L",
+          "vertices": 17,
+          "max_vertex_gap_BU": 0.0,
+          "max_height_delta_BU": 0.0,
+          "signed_footprint_gap_BU": 0.0,
+          "max_normal_angle_deg": 0.0,
+          "max_uv_error_mod_1": 0.0
+        },
+        {
+          "join": "Flat.E → Shore.W",
+          "type": "L",
+          "vertices": 17,
+          "max_vertex_gap_BU": 0.0,
+          "max_height_delta_BU": 0.0,
+          "signed_footprint_gap_BU": 0.0,
+          "max_normal_angle_deg": 0.0,
+          "max_uv_error_mod_1": 0.0
+        },
+        {
+          "join": "Flat.N → Flat.S",
+          "type": "L",
+          "vertices": 17,
+          "max_vertex_gap_BU": 0.0,
+          "max_height_delta_BU": 0.0,
+          "signed_footprint_gap_BU": 0.0,
+          "max_normal_angle_deg": 0.0,
+          "max_uv_error_mod_1": 0.0
+        },
+        {
+          "join": "Shore.N → Shore.S",
+          "type": "C",
+          "vertices": 17,
+          "max_vertex_gap_BU": 0.0,
+          "max_height_delta_BU": 0.0,
+          "signed_footprint_gap_BU": 0.0,
+          "max_normal_angle_deg": 0.0024208975747293375,
+          "max_uv_error_mod_1": 0.0
+        },
+        {
+          "join": "GentleSlope.E → Flat.W",
+          "type": "L",
+          "vertices": 17,
+          "max_vertex_gap_BU": 0.0,
+          "max_height_delta_BU": 0.0,
+          "signed_footprint_gap_BU": 0.0,
+          "max_normal_angle_deg": 0.0,
+          "max_uv_error_mod_1": 0.0
+        },
+        {
+          "join": "GentleSlope.N → Flat.S",
+          "type": "L",
+          "vertices": 17,
+          "max_vertex_gap_BU": 0.0,
+          "max_height_delta_BU": 0.0,
+          "signed_footprint_gap_BU": 0.0,
+          "max_normal_angle_deg": 0.0,
+          "max_uv_error_mod_1": 0.0
+        },
+        {
+          "join": "Flat.E → Flat.W",
+          "type": "L",
+          "vertices": 17,
+          "max_vertex_gap_BU": 0.0,
+          "max_height_delta_BU": 0.0,
+          "signed_footprint_gap_BU": 0.0,
+          "max_normal_angle_deg": 0.0,
+          "max_uv_error_mod_1": 0.0
+        },
+        {
+          "join": "Flat.N → GentleSlope.S",
+          "type": "L",
+          "vertices": 17,
+          "max_vertex_gap_BU": 0.0,
+          "max_height_delta_BU": 0.0,
+          "signed_footprint_gap_BU": 0.0,
+          "max_normal_angle_deg": 0.0,
+          "max_uv_error_mod_1": 0.0
+        },
+        {
+          "join": "Flat.E → Shore.W",
+          "type": "L",
+          "vertices": 17,
+          "max_vertex_gap_BU": 0.0,
+          "max_height_delta_BU": 0.0,
+          "signed_footprint_gap_BU": 0.0,
+          "max_normal_angle_deg": 0.0,
+          "max_uv_error_mod_1": 0.0
+        },
+        {
+          "join": "Flat.N → Flat.S",
+          "type": "L",
+          "vertices": 17,
+          "max_vertex_gap_BU": 0.0,
+          "max_height_delta_BU": 0.0,
+          "signed_footprint_gap_BU": 0.0,
+          "max_normal_angle_deg": 0.0,
+          "max_uv_error_mod_1": 0.0
+        },
+        {
+          "join": "Shore.N → Shore.S",
+          "type": "C",
+          "vertices": 17,
+          "max_vertex_gap_BU": 0.0,
+          "max_height_delta_BU": 0.0,
+          "signed_footprint_gap_BU": 0.0,
+          "max_normal_angle_deg": 0.0024208975747293375,
+          "max_uv_error_mod_1": 0.0
+        },
+        {
+          "join": "Flat.E → GentleSlope.W",
+          "type": "L",
+          "vertices": 17,
+          "max_vertex_gap_BU": 0.0,
+          "max_height_delta_BU": 0.0,
+          "signed_footprint_gap_BU": 0.0,
+          "max_normal_angle_deg": 0.0,
+          "max_uv_error_mod_1": 0.0
+        },
+        {
+          "join": "GentleSlope.E → Flat.W",
+          "type": "L",
+          "vertices": 17,
+          "max_vertex_gap_BU": 0.0,
+          "max_height_delta_BU": 0.0,
+          "signed_footprint_gap_BU": 0.0,
+          "max_normal_angle_deg": 0.0,
+          "max_uv_error_mod_1": 0.0
+        },
+        {
+          "join": "Flat.E → Shore.W",
+          "type": "L",
+          "vertices": 17,
+          "max_vertex_gap_BU": 0.0,
+          "max_height_delta_BU": 0.0,
+          "signed_footprint_gap_BU": 0.0,
+          "max_normal_angle_deg": 0.0,
+          "max_uv_error_mod_1": 0.0
+        }
+      ],
+      "four_way_corners": [
+        {
+          "grid_corner": [
+            0,
+            0
+          ],
+          "max_gap_BU": 0.0,
+          "max_normal_angle_deg": 0.0
+        },
+        {
+          "grid_corner": [
+            0,
+            1
+          ],
+          "max_gap_BU": 0.0,
+          "max_normal_angle_deg": 0.0
+        },
+        {
+          "grid_corner": [
+            0,
+            2
+          ],
+          "max_gap_BU": 0.0,
+          "max_normal_angle_deg": 0.0
+        },
+        {
+          "grid_corner": [
+            1,
+            0
+          ],
+          "max_gap_BU": 0.0,
+          "max_normal_angle_deg": 0.0
+        },
+        {
+          "grid_corner": [
+            1,
+            1
+          ],
+          "max_gap_BU": 0.0,
+          "max_normal_angle_deg": 0.0
+        },
+        {
+          "grid_corner": [
+            1,
+            2
+          ],
+          "max_gap_BU": 0.0,
+          "max_normal_angle_deg": 0.0
+        },
+        {
+          "grid_corner": [
+            2,
+            0
+          ],
+          "max_gap_BU": 0.0,
+          "max_normal_angle_deg": 0.0
+        },
+        {
+          "grid_corner": [
+            2,
+            1
+          ],
+          "max_gap_BU": 0.0,
+          "max_normal_angle_deg": 0.0
+        },
+        {
+          "grid_corner": [
+            2,
+            2
+          ],
+          "max_gap_BU": 0.0,
+          "max_normal_angle_deg": 0.0
+        }
+      ]
+    },
+    "reference_water": {
+      "plane_z_BU": -0.18,
+      "plane_xy_BU": [
+        5,
+        15,
+        -15,
+        25
+      ],
+      "intersection_x_span_BU": [
+        9.343728721141815,
+        10.800009846687317
+      ],
+      "coast_joint_intersection_gap_BU": 0.0,
+      "bottom_coverage_BU2": 400,
+      "bottom_coverage_method": "Full 10 × 40 rectangle covered by four audited adjoining terrain grids.",
+      "east_edge_depth_BU": [
+        0.4699999761581421,
+        0.4699999761581421
+      ],
+      "east_edge_vertices_checked": 68
+    }
+  },
+  "app_baseline": {
+    "origin": "plans/active/goose-preview-model-cleanup.md",
+    "device": "iPhone 18 Pro Simulator",
+    "os": "iOS 27.2",
+    "prior_test_count": 340,
+    "prior_failures": 0,
+    "rerun_in_this_task": false
+  },
+  "pending": [
+    "Paco review of shape, route reading, material contrast and repetition.",
+    "Compare apparent route with RealityKit path and actual traversability/collision.",
+    "USDZ, App integration, ENV-003 shoreline treatment and iPhone/iPad verification."
+  ],
+  "review_media": {
+    "video_decode": {
+      "codec_name": "h264",
+      "width": 852,
+      "height": 394,
+      "avg_frame_rate": "30/1",
+      "duration": "5.200000",
+      "nb_frames": "156",
+      "source_render_size_px": [
+        852,
+        393
+      ],
+      "unique_rendered_frames": 60
+    },
+    "roundtrip_seam_render_comparison": {
+      "result": "pass",
+      "size_px": [
+        1400,
+        800
+      ],
+      "mean_abs_rgb8": 0.0001193452380952381,
+      "p99_abs_rgb8": 0,
+      "mean_limit_rgb8": 1,
+      "p99_limit_rgb8": 3
+    }
+  },
+  "independent_candidate_reopen": {
+    "result": "pass",
+    "blender_opened_delivered_source": true,
+    "glbs_reimported": 4,
+    "compatibility_joins": 22,
+    "sample_adjacent_edges": 24,
+    "sample_four_way_corners": 9,
+    "matches_final_roundtrip_metrics": true
+  },
+  "visual_review": {
+    "observed": "Sample route and land/bank/water silhouette read in the three 852 × 393 keyframes. Furthest dots merge; material patches and Shore profile repeat at long range. Approval pending."
+  },
+  "redline_review": {
+    "result": "pass",
+    "scope": "Asset and review evidence only; runtime and device verification pending."
+  }
+}

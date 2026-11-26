@@ -1,0 +1,192 @@
+{
+  "anchors": {
+    "Checkpoint_A": {
+      "location_BU": [
+        0,
+        60,
+        0
+      ],
+      "node": "Checkpoint_A",
+      "role": "route handoff and runtime checkpoint ID"
+    },
+    "Rest_Pad_A": {
+      "location_BU": [
+        -0.65,
+        49.96,
+        0
+      ],
+      "node": "Rest_Pad_A",
+      "role": "physical refill area and retry-candidate position"
+    },
+    "Wind_Centerline_End": {
+      "location_BU": [
+        0,
+        46,
+        0.93
+      ],
+      "node": "Wind_Centerline_End"
+    },
+    "Wind_Centerline_Start": {
+      "location_BU": [
+        0,
+        0,
+        0.93
+      ],
+      "node": "Wind_Centerline_Start"
+    }
+  },
+  "axes": {
+    "BU_per_game_unit": 0.036,
+    "Blender": "+Y forward, +Z up",
+    "GLB": "(x,z,-y)"
+  },
+  "camera": {
+    "cuts": false,
+    "distance_game_units": 180,
+    "frame_source_px": [
+      852,
+      393
+    ],
+    "pitch_rad": 0.48,
+    "review_leader_root_height_BU": 0.93,
+    "target_height_game_units": 6,
+    "vertical_fov_degrees": 50
+  },
+  "entry": {
+    "forward_BU": [
+      0,
+      1,
+      0
+    ],
+    "location_BU": [
+      0,
+      0,
+      0
+    ],
+    "node": "Entry"
+  },
+  "exit": {
+    "forward_BU": [
+      0,
+      1,
+      0
+    ],
+    "location_BU": [
+      0,
+      60,
+      0
+    ],
+    "next": "LVL-S2 Entry",
+    "node": "Checkpoint_A"
+  },
+  "formation": {
+    "actions": [
+      "Cruise_Flap_Loop",
+      "Formation_Blend"
+    ],
+    "asset": "ANM-006/v001",
+    "guide": "FX-008/v001/FX-008_FormationGuide.glb",
+    "guide_mapping": "FX-008/v001/runtime_mapping.json",
+    "input": [
+      "formationCompletion",
+      "heading",
+      "slotsBySide with actual positions and valid ranks",
+      "terrainHeight",
+      "effectsOpacity"
+    ],
+    "parameters": {
+      "fillRatio": 0.67,
+      "minimumTerrainClearance_BU": 0.025,
+      "outsideOffset_BU": 0.91,
+      "peakOpacity": 1,
+      "verticalOffset_BU": -0.12
+    },
+    "placement": "Pair consecutive occupied anchors per wing; skip missing ranks and degenerate pairs. Set +Y toward near bird, center at midpoint plus right-by-heading lateral offset, clamp height to terrain+clearance.",
+    "seconds": 2,
+    "weight": "u^3*(10+u*(-15+6*u)) on clamped formationCompletion"
+  },
+  "id": "LVL-S1",
+  "placements": {
+    "ENV-001/v001": {
+      "flat_plane": "full width 50 BU at entry and exit",
+      "meshes": "10 BU tiles in free approach, East bank and 5 BU transition/exits"
+    },
+    "ENV-014/v001": {
+      "root": "CheckpointA_Visual",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "translation_BU": [
+        0,
+        50,
+        0
+      ]
+    },
+    "review_context": {
+      "ENV-008/v001 LakeWide": [
+        0,
+        61,
+        0
+      ],
+      "ENV-010/v001 Mouth": [
+        -0.8,
+        59.0,
+        -0.02
+      ],
+      "GLB_omits_context": true
+    }
+  },
+  "runtime_owned": [
+    "hold/toggle gesture mapping",
+    "formation speed and turning",
+    "energy cost and recovery",
+    "checkpoint activation and repeat/retry",
+    "collisions and wetland contact",
+    "dynamic flock and trigger bounds"
+  ],
+  "seam": {
+    "dry_ground_Z_BU": 0,
+    "exported_ground_y_BU": [
+      0,
+      60
+    ],
+    "flat_gate_x_BU": [
+      -12,
+      12
+    ],
+    "water_crosses_gate": false,
+    "water_reference_Z_BU": -0.18
+  },
+  "status": "needs_review",
+  "styles": {
+    "ENV-005/v001": "three peripheral sparse reed clusters, outside the authored compact flock"
+  },
+  "tailwind": {
+    "asset_version": "FX-001/v001",
+    "assets": [
+      "FX-001_WindTail_Long.glb",
+      "FX-001_WindTail_Short.glb"
+    ],
+    "direction_XYZ": [
+      0,
+      1,
+      0
+    ],
+    "inputs": [
+      "windDirection",
+      "windSpeed",
+      "worldAnchor",
+      "time",
+      "phaseOffset",
+      "formationCompletion",
+      "effectsOpacity"
+    ],
+    "pivot": "upwind, +Y toward downstream, U grows along flow",
+    "review_speed_BU_per_second": 8.6,
+    "windBearingRad": 0
+  },
+  "variant": "S1_Tailwind",
+  "version": "v001"
+}

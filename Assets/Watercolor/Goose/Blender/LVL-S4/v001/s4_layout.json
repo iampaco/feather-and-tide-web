@@ -1,0 +1,481 @@
+{
+  "id": "LVL-S4",
+  "version": "v001",
+  "variant": "S4_WindFarm",
+  "status": "needs_review",
+  "coordinate_system": {
+    "Blender": "+X right, +Y travel, +Z up",
+    "glTF": "(x,z,-y)",
+    "BU_per_game_unit": 0.036,
+    "alignment": "0.9900 BU CHR-001 beak-to-tail = 27.5 game units"
+  },
+  "alignment_to_graybox": {
+    "graybox_origin_relative_game_xy": [
+      920,
+      -10
+    ],
+    "candidate_xy_BU": [
+      18.6,
+      9.2
+    ],
+    "candidate_anchor_instance": "T04",
+    "mapping": "candidate_xy = [18.6,9.2] + 0.036 * (birth_relative_game_xy - [920,-10]); invert for candidate proposals"
+  },
+  "static_scene_origin_BU": [
+    0,
+    0,
+    0
+  ],
+  "sweep_geometry_source": "../../STR-002/v001/farm_layout.json",
+  "offline_sweep_candidate": {
+    "rule": "Union of inclusive discs traced by FX-010",
+    "radius_BU": 2.808,
+    "instances": [
+      {
+        "id": "T01",
+        "center_BU": [
+          20.9,
+          -3.0,
+          0
+        ],
+        "yaw_deg": -12,
+        "scale": 0.96,
+        "rotor_phase_deg": 14
+      },
+      {
+        "id": "T02",
+        "center_BU": [
+          19.65,
+          1.1,
+          0
+        ],
+        "yaw_deg": -7,
+        "scale": 1.0,
+        "rotor_phase_deg": 51
+      },
+      {
+        "id": "T03",
+        "center_BU": [
+          18.87,
+          5.15,
+          0
+        ],
+        "yaw_deg": -3,
+        "scale": 0.98,
+        "rotor_phase_deg": 88
+      },
+      {
+        "id": "T04",
+        "center_BU": [
+          18.6,
+          9.2,
+          0
+        ],
+        "yaw_deg": 0,
+        "scale": 1.0,
+        "rotor_phase_deg": 125
+      },
+      {
+        "id": "T05",
+        "center_BU": [
+          18.3,
+          13.28,
+          0
+        ],
+        "yaw_deg": 4,
+        "scale": 0.97,
+        "rotor_phase_deg": 163
+      },
+      {
+        "id": "T06",
+        "center_BU": [
+          19.64,
+          17.36,
+          0
+        ],
+        "yaw_deg": 8,
+        "scale": 1.0,
+        "rotor_phase_deg": 201
+      },
+      {
+        "id": "T07",
+        "center_BU": [
+          20.87,
+          21.45,
+          0
+        ],
+        "yaw_deg": 13,
+        "scale": 0.98,
+        "rotor_phase_deg": 238
+      }
+    ],
+    "accepted_tolerance_BU": 0.005
+  },
+  "outer_lane_and_marsh": {
+    "wetland_root_BU": [
+      0,
+      0,
+      0
+    ],
+    "leader_x_BU": 2.0,
+    "extent_y_BU": [
+      -28.0,
+      35.0
+    ],
+    "wetland_gate_y_BU": [
+      -14.0,
+      22.0
+    ],
+    "western_reserved_edge_x_BU": -18.6,
+    "technical_lane_markers_z_BU": 0.034,
+    "overflight_lift_game_units": 48,
+    "width_target_flock_ratio": 2.0,
+    "ratio_tolerance": 0.01,
+    "top_camera_bounds_BU": [
+      -29,
+      29,
+      -32,
+      36
+    ],
+    "exposure_poses_y_BU": [
+      -25,
+      -19,
+      -12,
+      -5,
+      3,
+      10,
+      17,
+      24,
+      30
+    ],
+    "fixed_rear_motion_extent_y_BU": [
+      -26,
+      33
+    ],
+    "rest_pose_by_slot": [
+      {
+        "xy_BU": [
+          -0.4821940621268945,
+          -2.0877827823356467
+        ],
+        "yaw_degrees": 0.0,
+        "scale": 1,
+        "root_z_BU": 0.16895467042922974,
+        "min_mesh_vertex_clearance_BU": 0.0,
+        "feet": [
+          {
+            "sample_count": 65,
+            "contact_gap_BU": 0.0,
+            "max_sole_probe_gap_BU": 0.004282742738723755,
+            "min_ground_above_water_BU": 0.18
+          },
+          {
+            "sample_count": 65,
+            "contact_gap_BU": 0.0,
+            "max_sole_probe_gap_BU": 0.004282712936401367,
+            "min_ground_above_water_BU": 0.18
+          }
+        ]
+      },
+      {
+        "xy_BU": [
+          -1.79,
+          -2.2
+        ],
+        "yaw_degrees": -12.000000000000002,
+        "scale": 1,
+        "root_z_BU": 0.16895467042922974,
+        "min_mesh_vertex_clearance_BU": 0.0,
+        "feet": [
+          {
+            "sample_count": 65,
+            "contact_gap_BU": 0.0,
+            "max_sole_probe_gap_BU": 0.004282742738723755,
+            "min_ground_above_water_BU": 0.18
+          },
+          {
+            "sample_count": 65,
+            "contact_gap_BU": 0.0,
+            "max_sole_probe_gap_BU": 0.004282712936401367,
+            "min_ground_above_water_BU": 0.18
+          }
+        ]
+      },
+      {
+        "xy_BU": [
+          0.7173016397555955,
+          -2.3133048504137665
+        ],
+        "yaw_degrees": -11.0,
+        "scale": 1,
+        "root_z_BU": 0.16895467042922974,
+        "min_mesh_vertex_clearance_BU": 0.0,
+        "feet": [
+          {
+            "sample_count": 65,
+            "contact_gap_BU": 0.0,
+            "max_sole_probe_gap_BU": 0.004282742738723755,
+            "min_ground_above_water_BU": 0.18
+          },
+          {
+            "sample_count": 65,
+            "contact_gap_BU": 0.0,
+            "max_sole_probe_gap_BU": 0.004282712936401367,
+            "min_ground_above_water_BU": 0.18
+          }
+        ]
+      },
+      {
+        "xy_BU": [
+          -1.650438896016451,
+          -0.6406087719749735
+        ],
+        "yaw_degrees": 2.0,
+        "scale": 1,
+        "root_z_BU": 0.16895467042922974,
+        "min_mesh_vertex_clearance_BU": 0.0,
+        "feet": [
+          {
+            "sample_count": 65,
+            "contact_gap_BU": 0.0,
+            "max_sole_probe_gap_BU": 0.004282742738723755,
+            "min_ground_above_water_BU": 0.18
+          },
+          {
+            "sample_count": 65,
+            "contact_gap_BU": 0.0,
+            "max_sole_probe_gap_BU": 0.004282712936401367,
+            "min_ground_above_water_BU": 0.18
+          }
+        ]
+      },
+      {
+        "xy_BU": [
+          -0.5339157242194164,
+          -0.7445945138836723
+        ],
+        "yaw_degrees": -10.0,
+        "scale": 1,
+        "root_z_BU": 0.16895467042922974,
+        "min_mesh_vertex_clearance_BU": 0.0,
+        "feet": [
+          {
+            "sample_count": 65,
+            "contact_gap_BU": 0.0,
+            "max_sole_probe_gap_BU": 0.004282742738723755,
+            "min_ground_above_water_BU": 0.18
+          },
+          {
+            "sample_count": 65,
+            "contact_gap_BU": 0.0,
+            "max_sole_probe_gap_BU": 0.004282712936401367,
+            "min_ground_above_water_BU": 0.18
+          }
+        ]
+      },
+      {
+        "xy_BU": [
+          0.521849869188202,
+          -0.8648491052436199
+        ],
+        "yaw_degrees": 3.0000000000000004,
+        "scale": 1,
+        "root_z_BU": 0.16895467042922974,
+        "min_mesh_vertex_clearance_BU": 0.0,
+        "feet": [
+          {
+            "sample_count": 65,
+            "contact_gap_BU": 0.0,
+            "max_sole_probe_gap_BU": 0.004282742738723755,
+            "min_ground_above_water_BU": 0.18
+          },
+          {
+            "sample_count": 65,
+            "contact_gap_BU": 0.0,
+            "max_sole_probe_gap_BU": 0.004282712936401367,
+            "min_ground_above_water_BU": 0.18
+          }
+        ]
+      },
+      {
+        "xy_BU": [
+          -1.8120843971800547,
+          0.8382086654873386
+        ],
+        "yaw_degrees": -9.0,
+        "scale": 1,
+        "root_z_BU": 0.16895467042922974,
+        "min_mesh_vertex_clearance_BU": 0.0,
+        "feet": [
+          {
+            "sample_count": 65,
+            "contact_gap_BU": 0.0,
+            "max_sole_probe_gap_BU": 0.0042826831340789795,
+            "min_ground_above_water_BU": 0.18
+          },
+          {
+            "sample_count": 65,
+            "contact_gap_BU": 0.0,
+            "max_sole_probe_gap_BU": 0.004282712936401367,
+            "min_ground_above_water_BU": 0.18
+          }
+        ]
+      },
+      {
+        "xy_BU": [
+          -0.7282632311449236,
+          0.6136239755616266
+        ],
+        "yaw_degrees": 4.0,
+        "scale": 1,
+        "root_z_BU": 0.16895467042922974,
+        "min_mesh_vertex_clearance_BU": 0.0,
+        "feet": [
+          {
+            "sample_count": 65,
+            "contact_gap_BU": 0.0,
+            "max_sole_probe_gap_BU": 0.004282742738723755,
+            "min_ground_above_water_BU": 0.18
+          },
+          {
+            "sample_count": 65,
+            "contact_gap_BU": 0.0,
+            "max_sole_probe_gap_BU": 0.004282712936401367,
+            "min_ground_above_water_BU": 0.18
+          }
+        ]
+      },
+      {
+        "xy_BU": [
+          0.4734825580886538,
+          0.7091983776337254
+        ],
+        "yaw_degrees": -8.0,
+        "scale": 1,
+        "root_z_BU": 0.16895467042922974,
+        "min_mesh_vertex_clearance_BU": 0.0,
+        "feet": [
+          {
+            "sample_count": 65,
+            "contact_gap_BU": 0.0,
+            "max_sole_probe_gap_BU": 0.004282742738723755,
+            "min_ground_above_water_BU": 0.18
+          },
+          {
+            "sample_count": 65,
+            "contact_gap_BU": 0.0,
+            "max_sole_probe_gap_BU": 0.004282712936401367,
+            "min_ground_above_water_BU": 0.18
+          }
+        ]
+      },
+      {
+        "xy_BU": [
+          -1.926066429716255,
+          2.1883456010477826
+        ],
+        "yaw_degrees": 5.0,
+        "scale": 1,
+        "root_z_BU": 0.16895467042922974,
+        "min_mesh_vertex_clearance_BU": 0.0,
+        "feet": [
+          {
+            "sample_count": 65,
+            "contact_gap_BU": 0.008418440818786621,
+            "max_sole_probe_gap_BU": 0.013831168413162231,
+            "min_ground_above_water_BU": 0.17045157432556152
+          },
+          {
+            "sample_count": 65,
+            "contact_gap_BU": 0.0,
+            "max_sole_probe_gap_BU": 0.004282712936401367,
+            "min_ground_above_water_BU": 0.18
+          }
+        ]
+      },
+      {
+        "xy_BU": [
+          -0.6457876740817637,
+          2.0496440912973948
+        ],
+        "yaw_degrees": -7.0,
+        "scale": 1,
+        "root_z_BU": 0.16895467042922974,
+        "min_mesh_vertex_clearance_BU": 0.0,
+        "feet": [
+          {
+            "sample_count": 65,
+            "contact_gap_BU": 0.0,
+            "max_sole_probe_gap_BU": 0.004282742738723755,
+            "min_ground_above_water_BU": 0.18
+          },
+          {
+            "sample_count": 65,
+            "contact_gap_BU": 0.0,
+            "max_sole_probe_gap_BU": 0.004282712936401367,
+            "min_ground_above_water_BU": 0.18
+          }
+        ]
+      },
+      {
+        "xy_BU": [
+          0.6765880579428233,
+          2.27317682230039
+        ],
+        "yaw_degrees": 6.000000000000001,
+        "scale": 1,
+        "root_z_BU": 0.16895467042922974,
+        "min_mesh_vertex_clearance_BU": 0.0,
+        "feet": [
+          {
+            "sample_count": 65,
+            "contact_gap_BU": 0.0,
+            "max_sole_probe_gap_BU": 0.004282742738723755,
+            "min_ground_above_water_BU": 0.18
+          },
+          {
+            "sample_count": 65,
+            "contact_gap_BU": 0.0,
+            "max_sole_probe_gap_BU": 0.004282712936401367,
+            "min_ground_above_water_BU": 0.18
+          }
+        ]
+      }
+    ]
+  },
+  "game_inputs": {
+    "zone_authority": "Game Zone",
+    "warning": "Feed position, heading, authored approach event, contact point on exposed Zone boundary and reset.",
+    "placement": {
+      "physics_authority": "Game Zone / Collider",
+      "approach": "Start ApproachCue once when the runtime approach rule arms. Cancel if approach is abandoned.",
+      "contact": "Start BoundaryContact on the runtime contact event at the projected nearest exposed FX-010 boundary arc.",
+      "placement": "Rebuild the local arc against the final Zone-derived FX-010 edge at the selected contact. Exported GLB contains the authored T01 sample.",
+      "one_shot": true,
+      "collision_enabled": false,
+      "lead_time": "3 seconds is the authored demonstration interval. Runtime threshold, speed and timing are pending."
+    },
+    "playable_section_target_seconds": 50,
+    "wetland": "Game Zone controls accessibility, touchdown, replenish effect, stay duration and egress.",
+    "no_authored_runtime_colliders": true
+  },
+  "review_timeline": {
+    "fps": 24,
+    "bypass": [
+      0,
+      144
+    ],
+    "rest": 156,
+    "warning_start_offset": 180,
+    "warning": {
+      "fps": 24,
+      "approach_event_frame": 12,
+      "edge_contact_event_frame": 84,
+      "review_end_frame_exclusive": 120,
+      "review_ground_speed_BU_per_second": 2.4,
+      "nominal_preview_lead_seconds": 3.0
+    },
+    "camera": "A fixed trailing 180 game units, pitch input 0.48 rad; vertical FOV 50°, look 6 above lift",
+    "bypass_camera_note": "The tight follow frame progressively crops the wide V; the map shows the whole formation."
+  }
+}

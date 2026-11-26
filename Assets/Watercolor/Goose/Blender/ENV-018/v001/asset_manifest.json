@@ -1,0 +1,151 @@
+{
+  "id": "ENV-018",
+  "status": "needs_review",
+  "version": "v001",
+  "execution_order_1_based": 28,
+  "depends": [
+    "MAT-001/v001"
+  ],
+  "review_only_sources": {
+    "ENV-007": "b5e4d3665c433751273051507009528f0350ee7395e949c4d11ef2e3dbf33d58",
+    "ENV-010": "1941f405e170d840b59efd900826a2267bd0e33df5fb0b0753faf681ced98c12",
+    "ENV-009": "b73406249077baec5f35de5f15f2bc8761eca612b3ade89d9fde102154f2cc3a",
+    "MAT-001": "9fc0305a78264733d2a2f5747a67833158c59470eff3e3d71c4f6da5b9d11de0",
+    "ENV-001/v001/ENV-001_terrain.blend": "9979e7606a115a16e9dc35fdf81684d5285b649692cd969692f195dfc1e3743d",
+    "ANM-007/v001/ANM-007_landing.blend": "bf8ed361fb9e06706e4a78e7fcbf2d4f61edc8cdbeea6018f2339dfecc35e5f0"
+  },
+  "variants": {
+    "MistLow": {
+      "width_height_BU": [
+        18.0,
+        1.45
+      ],
+      "file": "ENV-018_MistLow.glb"
+    },
+    "CloudPatch": {
+      "width_height_BU": [
+        13.5,
+        3.85
+      ],
+      "file": "ENV-018_CloudPatch.glb"
+    },
+    "CloudStreak": {
+      "width_height_BU": [
+        20.0,
+        1.55
+      ],
+      "file": "ENV-018_CloudStreak.glb"
+    }
+  },
+  "blend": "ENV-018_atmosphere_cards.blend",
+  "pivot_BU": [
+    0,
+    0,
+    0
+  ],
+  "geometry_blender_plane": "XZ, front normal -Y",
+  "gltf_coord": "(x,z,-y)",
+  "alpha_controls_review": {
+    "default": 1.0,
+    "reduce": 0.35,
+    "hide": 0.0
+  },
+  "drift_seconds_review": {
+    "s3": 12,
+    "s4": 12,
+    "s2": 4
+  },
+  "textures": {
+    "MistLow": {
+      "file": "textures/ft_shared_atmosphere_mistlow_basecolor_alpha.png",
+      "sha256": "e46d57f0f08886c4a0a412b520099ba5fc0a53247e2fc69455f42587f4175560",
+      "image_size_px": [
+        512,
+        512
+      ],
+      "alpha_rgb8_min_max": [
+        0,
+        74
+      ],
+      "border_alpha_rgb8_max": 0,
+      "partial_alpha_pixels": 149594,
+      "source_paper_png": "textures/ft_goose_mat_dry_ground_basecolor.png",
+      "source_paper_sha256": "e201e626c70ba88af6cbeae9662dc76375930208e121c4af5dbdfc52cfcefab0"
+    },
+    "CloudPatch": {
+      "file": "textures/ft_shared_atmosphere_cloudpatch_basecolor_alpha.png",
+      "sha256": "fd6b200b9557a4c2bd29c92aa7bfab29c19e53f6c926a47eb906e8b065ddc60e",
+      "image_size_px": [
+        512,
+        512
+      ],
+      "alpha_rgb8_min_max": [
+        0,
+        134
+      ],
+      "border_alpha_rgb8_max": 0,
+      "partial_alpha_pixels": 148758,
+      "source_paper_png": "textures/ft_goose_mat_dry_ground_basecolor.png",
+      "source_paper_sha256": "e201e626c70ba88af6cbeae9662dc76375930208e121c4af5dbdfc52cfcefab0"
+    },
+    "CloudStreak": {
+      "file": "textures/ft_shared_atmosphere_cloudstreak_basecolor_alpha.png",
+      "sha256": "0b96c63edf1a33a3015b3341112aeb154a7700dfd3e82e93a923103f6c981995",
+      "image_size_px": [
+        512,
+        512
+      ],
+      "alpha_rgb8_min_max": [
+        0,
+        108
+      ],
+      "border_alpha_rgb8_max": 0,
+      "partial_alpha_pixels": 139921,
+      "source_paper_png": "textures/ft_goose_mat_dry_ground_basecolor.png",
+      "source_paper_sha256": "e201e626c70ba88af6cbeae9662dc76375930208e121c4af5dbdfc52cfcefab0"
+    }
+  },
+  "role": "Render-only cards; no physics shapes.",
+  "rights": "Original procedural alpha and color design using project-owned MAT-001 paper grain.",
+  "previews": [
+    "graybox_s2.png",
+    "graybox_s3.png",
+    "graybox_s4.png",
+    "preview_glb_roundtrip.png",
+    "preview_lineup.png",
+    "preview_s2_default.png",
+    "preview_s3_default.png",
+    "preview_s3_off.png",
+    "preview_s3_reduced.png",
+    "preview_s4_default.png",
+    "preview_s4_off.png",
+    "preview_s4_reduced.png",
+    "preview_atmosphere_motion.mp4"
+  ],
+  "files": {
+    "ENV-018_CloudPatch.glb": "97dd9b491fbabec642f820af27b0f16edae33efd8dc77947a317276d527393d3",
+    "ENV-018_CloudStreak.glb": "a1e57fba2d50049415c321d8afc1aa143b30eca22bfc30a5340366c97bdfe2e7",
+    "ENV-018_MistLow.glb": "eae8b5ca368803d98d63f7599ce587bd763761115cc6188666c64e3e2f47f3df",
+    "ENV-018_atmosphere_cards.blend": "b731176f235bc14666b504915df8756a4d66eaefa1cf6c49e9730c3d17e995fd",
+    "ENV-018_finish_review.py": "f11bb65dbc407ed56ec91e194c7e37a26b6c34a02a65e2bbc44ca5752ec13a05",
+    "ENV-018_generate.py": "35c436513ecd84cb1cb052ab2d4dac62e4c2de3051628637cfe8a94bfbae7538",
+    "README.md": "f08866c7d80229658dc09f6f8f17c2486f7acd9da90cd188b607740f0d7a897e",
+    "graybox_s2.png": "dee701f2743f5593b9ba762e531fbbccdd7d82985a6bf526e7b6904ed54f2ad5",
+    "graybox_s3.png": "31d1e650d85b3c9319fc072f6bebec7ae98d80b2c97d1df580572739bed99a49",
+    "graybox_s4.png": "5d2e5c556137757453f71422f8cc871733db8620403efa1fb929b7a962b8fc2f",
+    "preview_atmosphere_motion.mp4": "87b8925507c36ceb9ae7e8709cbe743489b06d1dbfb9d845ab4d95a8570409c5",
+    "preview_glb_roundtrip.png": "91d93e63e537415aeaca489afd9e9494c18f60deacdb97082256d81b9bf5ca17",
+    "preview_lineup.png": "f7231b784caf0a5af3fade12afb0d4ff0838e28b5ae762d6f829cb540ce26049",
+    "preview_s2_default.png": "97db39b4f095371cfb01c1c1ea16451fe40c5431018445c62a8550a7a5efb023",
+    "preview_s3_default.png": "a9fb3798917597451359bbcc62b7fcdf084654020bfed22887047a184f9229bb",
+    "preview_s3_off.png": "71ce8cbb1f4223f808a26ad6f304c9161e15efa2dba9133a159faa4a7eee6632",
+    "preview_s3_reduced.png": "acd5164f4d516bf28c831405b13ad28afc84f6673c09842160890721932d4203",
+    "preview_s4_default.png": "2c2fdeaf26d3b1249e1b781c385da350a37cfb9c266518a1bae7e3a77fb58e71",
+    "preview_s4_off.png": "90bed64916a8cdc2ad0846e576b0112171ed270f4e920d1c0ea8680e1b54a570",
+    "preview_s4_reduced.png": "aa4b2f029fc913ded13db858078e51da57ded0112815dcc9332a2f37ca3daf6f",
+    "qa.json": "e4fbb1855954d8ad8fbace0c65eb7acb604911c7ed124fe4a7a0034af7effeab",
+    "textures/ft_shared_atmosphere_cloudpatch_basecolor_alpha.png": "fd6b200b9557a4c2bd29c92aa7bfab29c19e53f6c926a47eb906e8b065ddc60e",
+    "textures/ft_shared_atmosphere_cloudstreak_basecolor_alpha.png": "0b96c63edf1a33a3015b3341112aeb154a7700dfd3e82e93a923103f6c981995",
+    "textures/ft_shared_atmosphere_mistlow_basecolor_alpha.png": "e46d57f0f08886c4a0a412b520099ba5fc0a53247e2fc69455f42587f4175560"
+  }
+}

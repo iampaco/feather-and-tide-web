@@ -1,0 +1,856 @@
+{
+  "id": "FX-010",
+  "version": "v001",
+  "status": "needs_review",
+  "source": {
+    "geometry": {
+      "closed_boundary_count": 1,
+      "boundary_vertices": 2031,
+      "triangles": 2029,
+      "analytic_to_mesh_max_vertex_delta_BU": 0.0,
+      "chord_midpoint_max_error_BU": 6.094786151189524e-05,
+      "comparison_tolerance_BU": 0.005,
+      "paired_arc_BVH_probes": 7524,
+      "off_boundary_grid_BVH_probes": 28464,
+      "mismatched_probes": 0,
+      "bridges": [
+        {
+          "pair": [
+            "T01",
+            "T02"
+          ],
+          "axial_overlap_BU": 1.3296846282684252
+        },
+        {
+          "pair": [
+            "T02",
+            "T03"
+          ],
+          "axial_overlap_BU": 1.4915727500889702
+        },
+        {
+          "pair": [
+            "T03",
+            "T04"
+          ],
+          "axial_overlap_BU": 1.5570101631325377
+        },
+        {
+          "pair": [
+            "T04",
+            "T05"
+          ],
+          "axial_overlap_BU": 1.5249855496049367
+        },
+        {
+          "pair": [
+            "T05",
+            "T06"
+          ],
+          "axial_overlap_BU": 1.3215840332670599
+        },
+        {
+          "pair": [
+            "T06",
+            "T07"
+          ],
+          "axial_overlap_BU": 1.3450510069218193
+        }
+      ],
+      "surface_xy_Bounds_BU": [
+        15.492000579833984,
+        23.70800018310547,
+        -5.80799674987793,
+        24.257997512817383
+      ]
+    },
+    "arc_join_error_BU": 1.9073486328125e-06,
+    "pressure_motion": {
+      "samples_per_pressure_patch": 433,
+      "patch_count": 7,
+      "period_seconds": 9.0,
+      "shared_rotor_phases_degrees": {
+        "T01": 14,
+        "T02": 51,
+        "T03": 88,
+        "T04": 125,
+        "T05": 163,
+        "T06": 201,
+        "T07": 238
+      },
+      "max_key_interpolation_location_error_BU": 0.0020531836150745222,
+      "loop_seam_max_delta_BU": 0.0,
+      "sampled_max_radius_BU": 1.5272238311130413,
+      "continuous_min_distance_to_own_disc_edge_BU": 1.2712015777124621
+    },
+    "formation_and_marsh": {
+      "adjacent_overlap": [
+        {
+          "pair": [
+            "T01",
+            "T02"
+          ],
+          "center_distance_BU": 4.2863153717315745,
+          "overlap_axial_BU": 1.3296846282684252,
+          "common_chord_width_BU": 3.628630118110361
+        },
+        {
+          "pair": [
+            "T02",
+            "T03"
+          ],
+          "center_distance_BU": 4.1244272499110295,
+          "overlap_axial_BU": 1.4915727500889702,
+          "common_chord_width_BU": 3.8116342768150435
+        },
+        {
+          "pair": [
+            "T03",
+            "T04"
+          ],
+          "center_distance_BU": 4.058989836867462,
+          "overlap_axial_BU": 1.5570101631325377,
+          "common_chord_width_BU": 3.881244324209267
+        },
+        {
+          "pair": [
+            "T04",
+            "T05"
+          ],
+          "center_distance_BU": 4.091014450395063,
+          "overlap_axial_BU": 1.5249855496049367,
+          "common_chord_width_BU": 3.847474076151622
+        },
+        {
+          "pair": [
+            "T05",
+            "T06"
+          ],
+          "center_distance_BU": 4.29441596673294,
+          "overlap_axial_BU": 1.3215840332670599,
+          "common_chord_width_BU": 3.619039583186289
+        },
+        {
+          "pair": [
+            "T06",
+            "T07"
+          ],
+          "center_distance_BU": 4.27094899307818,
+          "overlap_axial_BU": 1.3450510069218193,
+          "common_chord_width_BU": 3.646704087052372
+        }
+      ],
+      "conservative_landing_AABB_gap_BU": 15.045706203625336,
+      "landing_mesh_vertex_gap_BU": 15.190480282313821,
+      "landing_goose_count": 12,
+      "wetland_layer_AABB_min_sweep_gap_BU": {
+        "ProtectedMarsh_Ground": 0.49199923706054705,
+        "ProtectedMarsh_Water": 2.013571582193647,
+        "ProtectedMarsh_Reeds": 0.19627055358886736
+      },
+      "whole_flock_tracks": {
+        "ingress": {
+          "min_gap_BU": 17.51526404946453,
+          "turbine": "T01",
+          "bird_slot": 6
+        },
+        "inside_marsh": {
+          "min_gap_BU": 6.192588967734563,
+          "turbine": "T05",
+          "bird_slot": 10
+        },
+        "egress": {
+          "min_gap_BU": 6.444828118258565,
+          "turbine": "T05",
+          "bird_slot": 10
+        }
+      },
+      "whole_track_min_gap_BU": 6.192588967734563,
+      "reused_CHR001_wingtip_X_BU": [
+        -0.8002182841300964,
+        0.8002182841300964
+      ],
+      "full_V_count": 12,
+      "rank_spacing_BU": 1.296,
+      "V_formation_width_BU": 15.856436610221863,
+      "bird_conservative_planar_radius_BU": 0.8194102502524975,
+      "minimum_reserved_lane_width_BU": 34.09199923706055,
+      "minimum_at_y_BU": 13.279999732971191,
+      "limiting_turbine": "T05",
+      "minimum_width_to_formation_ratio": 2.1500416565903033,
+      "width_target_BU": 31.712873220443726,
+      "width_margin_BU": 2.379126016616823,
+      "geometry_tolerance_BU": 0.005,
+      "overflight_clearance_above_marsh_geometry_BU": 0.5234286951422689,
+      "ratio_tolerance": 0.01,
+      "lane_west_edge_X_BU": -18.6,
+      "route_centerline_distances_BU": {
+        "west": 20.6,
+        "sweep": 13.491999237060547
+      },
+      "anchor_relative_game_centers": {
+        "T01": [
+          983.8888782925076,
+          -348.8888888888889
+        ],
+        "T02": [
+          949.1666560702853,
+          -234.99999933772617
+        ],
+        "T03": [
+          927.5000233120388,
+          -122.49999735090466
+        ],
+        "T04": [
+          920.0000105963812,
+          -10.000005298190628
+        ],
+        "T05": [
+          911.666645473904,
+          103.33332591586645
+        ],
+        "T06": [
+          948.8888719346788,
+          216.66668362087677
+        ],
+        "T07": [
+          983.0555788675944,
+          330.2777989705404
+        ]
+      }
+    },
+    "fog_visibility": {
+      "settings": {
+        "default": {
+          "maximum_combined_alpha_at_visible_targets": 0.0,
+          "ray_count": 11887,
+          "visible_hubs_across_views": [
+            "T01",
+            "T02",
+            "T03",
+            "T04",
+            "T05",
+            "T06",
+            "T07"
+          ],
+          "largest_hub_to_base_height_px_by_instance": {
+            "T01": 51.455117762088776,
+            "T02": 46.7657185792923,
+            "T03": 51.47685581445694,
+            "T04": 62.460709512233734,
+            "T05": 51.02283972501755,
+            "T06": 58.58613592386246,
+            "T07": 48.060022830963135
+          },
+          "views": [
+            {
+              "leader_y_BU": -25,
+              "visible_target_samples": {
+                "farm": 243,
+                "outline": 2032,
+                "route": 112
+              }
+            },
+            {
+              "leader_y_BU": -19,
+              "visible_target_samples": {
+                "farm": 251,
+                "outline": 2032,
+                "route": 112
+              }
+            },
+            {
+              "leader_y_BU": -12,
+              "visible_target_samples": {
+                "farm": 256,
+                "outline": 2032,
+                "route": 112
+              }
+            },
+            {
+              "leader_y_BU": -5,
+              "visible_target_samples": {
+                "farm": 206,
+                "outline": 1584,
+                "route": 112
+              }
+            },
+            {
+              "leader_y_BU": 3,
+              "visible_target_samples": {
+                "farm": 147,
+                "outline": 1136,
+                "route": 112
+              }
+            },
+            {
+              "leader_y_BU": 10,
+              "visible_target_samples": {
+                "farm": 80,
+                "outline": 688,
+                "route": 112
+              }
+            },
+            {
+              "leader_y_BU": 17,
+              "visible_target_samples": {
+                "farm": 0,
+                "outline": 192,
+                "route": 112
+              }
+            },
+            {
+              "leader_y_BU": 24,
+              "visible_target_samples": {
+                "farm": 0,
+                "outline": 0,
+                "route": 112
+              }
+            },
+            {
+              "leader_y_BU": 30,
+              "visible_target_samples": {
+                "farm": 0,
+                "outline": 0,
+                "route": 112
+              }
+            }
+          ]
+        },
+        "reduced": {
+          "maximum_combined_alpha_at_visible_targets": 0.0,
+          "ray_count": 11887,
+          "visible_hubs_across_views": [
+            "T01",
+            "T02",
+            "T03",
+            "T04",
+            "T05",
+            "T06",
+            "T07"
+          ],
+          "largest_hub_to_base_height_px_by_instance": {
+            "T01": 51.455117762088776,
+            "T02": 46.7657185792923,
+            "T03": 51.47685581445694,
+            "T04": 62.460709512233734,
+            "T05": 51.02283972501755,
+            "T06": 58.58613592386246,
+            "T07": 48.060022830963135
+          },
+          "views": [
+            {
+              "leader_y_BU": -25,
+              "visible_target_samples": {
+                "farm": 243,
+                "outline": 2032,
+                "route": 112
+              }
+            },
+            {
+              "leader_y_BU": -19,
+              "visible_target_samples": {
+                "farm": 251,
+                "outline": 2032,
+                "route": 112
+              }
+            },
+            {
+              "leader_y_BU": -12,
+              "visible_target_samples": {
+                "farm": 256,
+                "outline": 2032,
+                "route": 112
+              }
+            },
+            {
+              "leader_y_BU": -5,
+              "visible_target_samples": {
+                "farm": 206,
+                "outline": 1584,
+                "route": 112
+              }
+            },
+            {
+              "leader_y_BU": 3,
+              "visible_target_samples": {
+                "farm": 147,
+                "outline": 1136,
+                "route": 112
+              }
+            },
+            {
+              "leader_y_BU": 10,
+              "visible_target_samples": {
+                "farm": 80,
+                "outline": 688,
+                "route": 112
+              }
+            },
+            {
+              "leader_y_BU": 17,
+              "visible_target_samples": {
+                "farm": 0,
+                "outline": 192,
+                "route": 112
+              }
+            },
+            {
+              "leader_y_BU": 24,
+              "visible_target_samples": {
+                "farm": 0,
+                "outline": 0,
+                "route": 112
+              }
+            },
+            {
+              "leader_y_BU": 30,
+              "visible_target_samples": {
+                "farm": 0,
+                "outline": 0,
+                "route": 112
+              }
+            }
+          ]
+        },
+        "off": {
+          "maximum_combined_alpha_at_visible_targets": 0.0,
+          "ray_count": 11887,
+          "visible_hubs_across_views": [
+            "T01",
+            "T02",
+            "T03",
+            "T04",
+            "T05",
+            "T06",
+            "T07"
+          ],
+          "largest_hub_to_base_height_px_by_instance": {
+            "T01": 51.455117762088776,
+            "T02": 46.7657185792923,
+            "T03": 51.47685581445694,
+            "T04": 62.460709512233734,
+            "T05": 51.02283972501755,
+            "T06": 58.58613592386246,
+            "T07": 48.060022830963135
+          },
+          "views": [
+            {
+              "leader_y_BU": -25,
+              "visible_target_samples": {
+                "farm": 243,
+                "outline": 2032,
+                "route": 112
+              }
+            },
+            {
+              "leader_y_BU": -19,
+              "visible_target_samples": {
+                "farm": 251,
+                "outline": 2032,
+                "route": 112
+              }
+            },
+            {
+              "leader_y_BU": -12,
+              "visible_target_samples": {
+                "farm": 256,
+                "outline": 2032,
+                "route": 112
+              }
+            },
+            {
+              "leader_y_BU": -5,
+              "visible_target_samples": {
+                "farm": 206,
+                "outline": 1584,
+                "route": 112
+              }
+            },
+            {
+              "leader_y_BU": 3,
+              "visible_target_samples": {
+                "farm": 147,
+                "outline": 1136,
+                "route": 112
+              }
+            },
+            {
+              "leader_y_BU": 10,
+              "visible_target_samples": {
+                "farm": 80,
+                "outline": 688,
+                "route": 112
+              }
+            },
+            {
+              "leader_y_BU": 17,
+              "visible_target_samples": {
+                "farm": 0,
+                "outline": 192,
+                "route": 112
+              }
+            },
+            {
+              "leader_y_BU": 24,
+              "visible_target_samples": {
+                "farm": 0,
+                "outline": 0,
+                "route": 112
+              }
+            },
+            {
+              "leader_y_BU": 30,
+              "visible_target_samples": {
+                "farm": 0,
+                "outline": 0,
+                "route": 112
+              }
+            }
+          ]
+        }
+      },
+      "eight_drift_samples_per_view": 8,
+      "positive_control_alpha": 0.22156864404678345,
+      "limits": {
+        "default": 0.075,
+        "reduced": 0.028,
+        "off": 0
+      }
+    },
+    "rendered_contrast": {
+      "edge_projection_samples": 339,
+      "edge_median_local_max_RGB_difference_8bit": 32.99999803304672,
+      "visible_bridge_centers": 6,
+      "minimum_bridge_RGB_difference_8bit": 4.999999701976776,
+      "fog_pixels_delta_5_vs_off": {
+        "default": 1250,
+        "reduced": 42
+      }
+    },
+    "texture_generation": {
+      "surface_dimensions": [
+        768,
+        2048
+      ],
+      "flow_dimensions": [
+        512,
+        128
+      ],
+      "surface_alpha_max": 200,
+      "flow_alpha_max": 66
+    },
+    "graybox_source": {
+      "radius_BU": 2.808,
+      "radius_game_units": 78.0,
+      "rank_spacing_BU": 1.296,
+      "rank_spacing_game_units": 36.0,
+      "source_sha256": {
+        "Sources/FeatherTide/Data/GrayboxPlaces.swift": "48b5d730b06e4d0a05e32a4f823290aa3a53cec28f30682a23e1b7fca8d5e308",
+        "Sources/FeatherTide/Data/FlockTuning.swift": "37b15ad66a1164738ecf651dde6c507ae6db2ffbba7f8e4c4394f87b655080b1",
+        "Sources/FeatherTide/Systems/Flock/FlockFormation.swift": "6c5347ca2fa050afdd4573c01dda97b617b2f0e82ff06e38df9bde71f3014eb9",
+        "Sources/FeatherTide/Systems/Trace/TraceOverlay.swift": "dbe7c063be8c1e11a00a66ae11c4f52a8e6ee9457b9ecef8cdfcccc433689273",
+        "Sources/FeatherTide/Rendering/PlayfieldView.swift": "8c37c08a35b8b299cc9af9f9e63e64ef5d50947e12822356fee8de398bc110dc",
+        "Sources/FeatherTide/Systems/Camera/ThirdPersonRig.swift": "274b58f0b910a280c676540dde54343c35e2e0709744e20e7e5ee4f9515476a2"
+      },
+      "source_sweep_rule": "Swift tests leader XY against a radius of 78 game units.",
+      "flight_height_leader_and_followers_game_units": [
+        8,
+        6
+      ],
+      "camera": {
+        "distance_game_units": 180,
+        "pitch_radians": 0.48,
+        "vertical_fov_degrees": 50,
+        "target_height_game_units": 6,
+        "source_px": [
+          852,
+          393
+        ]
+      },
+      "proxy_placement_xy_BU": [
+        18.600000381469727,
+        9.199999809265137
+      ],
+      "review_formation_count": 12,
+      "graybox_default_followers": 8
+    }
+  },
+  "independent_delivery_recheck": {
+    "status": "pass",
+    "Blender": "5.2.2 LTS",
+    "root_transform_hierarchy_axis_and_mesh_UV_materials": "pass",
+    "GLB_meshes": 2,
+    "embedded_RGBA_PNG_sha256": "match",
+    "both_glTF_materials_alpha_mode": "BLEND",
+    "GLB_clip": "RotorPressureLoop",
+    "source_phase_motion": {
+      "samples_per_pressure_patch": 433,
+      "patch_count": 7,
+      "period_seconds": 9.0,
+      "shared_rotor_phases_degrees": {
+        "T01": 14,
+        "T02": 51,
+        "T03": 88,
+        "T04": 125,
+        "T05": 163,
+        "T06": 201,
+        "T07": 238
+      },
+      "max_key_interpolation_location_error_BU": 0.0020531836150745222,
+      "loop_seam_max_delta_BU": 0.0,
+      "sampled_max_radius_BU": 1.5272238311130413,
+      "continuous_min_distance_to_own_disc_edge_BU": 1.2712015777124621
+    },
+    "GLB_phase_motion": {
+      "samples_per_pressure_patch": 433,
+      "patch_count": 7,
+      "period_seconds": 9.0,
+      "shared_rotor_phases_degrees": {
+        "T01": 14,
+        "T02": 51,
+        "T03": 88,
+        "T04": 125,
+        "T05": 163,
+        "T06": 201,
+        "T07": 238
+      },
+      "max_key_interpolation_location_error_BU": 0.0020531836150745222,
+      "loop_seam_max_delta_BU": 0.0,
+      "sampled_max_radius_BU": 1.5272238311130413,
+      "continuous_min_distance_to_own_disc_edge_BU": 1.2712015777124621
+    },
+    "GLB_geometry": {
+      "closed_boundary_count": 1,
+      "boundary_vertices": 2031,
+      "triangles": 2029,
+      "analytic_to_mesh_max_vertex_delta_BU": 0.0,
+      "chord_midpoint_max_error_BU": 6.094786151189524e-05,
+      "comparison_tolerance_BU": 0.005,
+      "paired_arc_BVH_probes": 7524,
+      "off_boundary_grid_BVH_probes": 28464,
+      "mismatched_probes": 0,
+      "bridges": [
+        {
+          "pair": [
+            "T01",
+            "T02"
+          ],
+          "axial_overlap_BU": 1.3296846282684252
+        },
+        {
+          "pair": [
+            "T02",
+            "T03"
+          ],
+          "axial_overlap_BU": 1.4915727500889702
+        },
+        {
+          "pair": [
+            "T03",
+            "T04"
+          ],
+          "axial_overlap_BU": 1.5570101631325377
+        },
+        {
+          "pair": [
+            "T04",
+            "T05"
+          ],
+          "axial_overlap_BU": 1.5249855496049367
+        },
+        {
+          "pair": [
+            "T05",
+            "T06"
+          ],
+          "axial_overlap_BU": 1.3215840332670599
+        },
+        {
+          "pair": [
+            "T06",
+            "T07"
+          ],
+          "axial_overlap_BU": 1.3450510069218193
+        }
+      ],
+      "surface_xy_Bounds_BU": [
+        15.492000579833984,
+        23.70800018310547,
+        -5.80799674987793,
+        24.257997512817383
+      ]
+    },
+    "GLB_array_and_marsh": {
+      "adjacent_overlap": [
+        {
+          "pair": [
+            "T01",
+            "T02"
+          ],
+          "center_distance_BU": 4.2863153717315745,
+          "overlap_axial_BU": 1.3296846282684252,
+          "common_chord_width_BU": 3.628630118110361
+        },
+        {
+          "pair": [
+            "T02",
+            "T03"
+          ],
+          "center_distance_BU": 4.1244272499110295,
+          "overlap_axial_BU": 1.4915727500889702,
+          "common_chord_width_BU": 3.8116342768150435
+        },
+        {
+          "pair": [
+            "T03",
+            "T04"
+          ],
+          "center_distance_BU": 4.058989836867462,
+          "overlap_axial_BU": 1.5570101631325377,
+          "common_chord_width_BU": 3.881244324209267
+        },
+        {
+          "pair": [
+            "T04",
+            "T05"
+          ],
+          "center_distance_BU": 4.091014450395063,
+          "overlap_axial_BU": 1.5249855496049367,
+          "common_chord_width_BU": 3.847474076151622
+        },
+        {
+          "pair": [
+            "T05",
+            "T06"
+          ],
+          "center_distance_BU": 4.29441596673294,
+          "overlap_axial_BU": 1.3215840332670599,
+          "common_chord_width_BU": 3.619039583186289
+        },
+        {
+          "pair": [
+            "T06",
+            "T07"
+          ],
+          "center_distance_BU": 4.27094899307818,
+          "overlap_axial_BU": 1.3450510069218193,
+          "common_chord_width_BU": 3.646704087052372
+        }
+      ],
+      "conservative_landing_AABB_gap_BU": 15.045706203625336,
+      "landing_mesh_vertex_gap_BU": 15.190480282313821,
+      "landing_goose_count": 12,
+      "wetland_layer_AABB_min_sweep_gap_BU": {
+        "ProtectedMarsh_Ground": 0.49199923706054705,
+        "ProtectedMarsh_Water": 2.013571582193647,
+        "ProtectedMarsh_Reeds": 0.19627055358886736
+      },
+      "whole_flock_tracks": {
+        "ingress": {
+          "min_gap_BU": 17.51526404946453,
+          "turbine": "T01",
+          "bird_slot": 6
+        },
+        "inside_marsh": {
+          "min_gap_BU": 6.192588967734563,
+          "turbine": "T05",
+          "bird_slot": 10
+        },
+        "egress": {
+          "min_gap_BU": 6.444828118258565,
+          "turbine": "T05",
+          "bird_slot": 10
+        }
+      },
+      "whole_track_min_gap_BU": 6.192588967734563,
+      "reused_CHR001_wingtip_X_BU": [
+        -0.8002182841300964,
+        0.8002182841300964
+      ],
+      "full_V_count": 12,
+      "rank_spacing_BU": 1.296,
+      "V_formation_width_BU": 15.856436610221863,
+      "bird_conservative_planar_radius_BU": 0.8194102502524975,
+      "minimum_reserved_lane_width_BU": 34.09199923706055,
+      "minimum_at_y_BU": 13.279999732971191,
+      "limiting_turbine": "T05",
+      "minimum_width_to_formation_ratio": 2.1500416565903033,
+      "width_target_BU": 31.712873220443726,
+      "width_margin_BU": 2.379126016616823,
+      "geometry_tolerance_BU": 0.005,
+      "overflight_clearance_above_marsh_geometry_BU": 0.5234286951422689,
+      "ratio_tolerance": 0.01,
+      "lane_west_edge_X_BU": -18.6,
+      "route_centerline_distances_BU": {
+        "west": 20.6,
+        "sweep": 13.491999237060547
+      },
+      "anchor_relative_game_centers": {
+        "T01": [
+          983.8888782925076,
+          -348.8888888888889
+        ],
+        "T02": [
+          949.1666560702853,
+          -234.99999933772617
+        ],
+        "T03": [
+          927.5000233120388,
+          -122.49999735090466
+        ],
+        "T04": [
+          920.0000105963812,
+          -10.000005298190628
+        ],
+        "T05": [
+          911.666645473904,
+          103.33332591586645
+        ],
+        "T06": [
+          948.8888719346788,
+          216.66668362087677
+        ],
+        "T07": [
+          983.0555788675944,
+          330.2777989705404
+        ]
+      }
+    },
+    "critical_distances_delta_BU_against_approved_STR002": {
+      "minimum_reserved_lane_width_BU": 0.0,
+      "V_formation_width_BU": 0.0,
+      "whole_track_min_gap_BU": 0.0,
+      "conservative_landing_AABB_gap_BU": 0.0
+    },
+    "video_full_decode": {
+      "codec_name": "h264",
+      "width": 852,
+      "height": 394,
+      "r_frame_rate": "8/1",
+      "duration": "6.000000",
+      "nb_read_frames": "48"
+    }
+  },
+  "source_GLTF_reassembly_RGB_8bit_absolute_difference": {
+    "mean": 0.06079394091435807,
+    "p95": 0,
+    "max": 16,
+    "context": "same fog preset, camera, and timeline with independently imported array and wetland"
+  },
+  "physics_and_trigger_authority": "Runtime Collider/Zone",
+  "redline_review": {
+    "reviewed": true,
+    "file": "plans/_templates/redline-checklist.md",
+    "intent": "Muted grey violet ground footprint; protected marsh stays accessible",
+    "device_performance": "待真机验证"
+  },
+  "pending": [
+    "Human art approval",
+    "Validate final Zone geometry and trigger outside/entry in the app",
+    "FX-011 and about three seconds of pre-entry reaction in representative play",
+    "USDZ, RealityKit transparency order and App integration",
+    "iPhone/iPad device validation"
+  ],
+  "app_baseline": "iOS 27.2 and 340 tests from active plan; reused for this offline modelling delivery"
+}

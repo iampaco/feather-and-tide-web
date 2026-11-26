@@ -1,0 +1,214 @@
+{
+  "id": "FX-011",
+  "version": "v001",
+  "status": "needs_review",
+  "variant": "TurbineWarn",
+  "execution_order_1_based": 41,
+  "blender": "5.2.2 LTS",
+  "assets": {
+    "editable_blender": "FX-011_TurbineWarn.blend",
+    "final_glb": "FX-011_TurbineWarn.glb",
+    "placement": "warning_review.json",
+    "qa": "qa.json",
+    "generator": "FX-011_generate.py"
+  },
+  "dependency": "FX-010/v001",
+  "sources": {
+    "Assets/Watercolor/Goose/Blender/FX-010/v001/FX-010_RotorFootprint.glb": {
+      "bytes": 1263880,
+      "sha256": "ebb1b43e237e2d3102baf98ab7c0a489b4a2f724a8a846280bbe2d9a92b5460d"
+    },
+    "Assets/Watercolor/Goose/Blender/FX-010/v001/FX-010_generate.py": {
+      "bytes": 29245,
+      "sha256": "eef19197cd7758502b5abd7523bf37ccb6148fc9dcacdbf45409132596d0ff48"
+    },
+    "Assets/Watercolor/Goose/Blender/FX-010/v001/qa.json": {
+      "bytes": 24012,
+      "sha256": "f05119b1b019616ed582ef2c4604670d294bcfbeb9fc3c0ec1f42ca3f7a3bb71"
+    },
+    "Assets/Watercolor/Goose/Blender/STR-001/v001/STR-001_generate.py": {
+      "bytes": 27244,
+      "sha256": "e6f8d496e1364c62f8e727d23d34546839a323872a828546c49b23feee466f9e"
+    },
+    "Assets/Watercolor/Goose/Blender/STR-002/v001/STR-002_generate.py": {
+      "bytes": 40090,
+      "sha256": "9372f5a485180c3fe5a305450e65e3db73a207c2a469fdd0011cfaca722266c4"
+    },
+    "Assets/Watercolor/Goose/Blender/STR-002/v001/farm_layout.json": {
+      "bytes": 2448,
+      "sha256": "85db55e5a9dc4e7f72ab5141ff5c1da52be4d1e9aab7977382841354eedc8657"
+    },
+    "Assets/Watercolor/Goose/Blender/STR-002/v001/STR-002_CurvedFarm_Layout.glb": {
+      "bytes": 1308944,
+      "sha256": "9a37ce637b0996059f2d547a7c515fa4952aa08d933eea923d5acfe45f11ceb6"
+    },
+    "Assets/Watercolor/Goose/Blender/ENV-001/v001/ENV-001_terrain.blend": {
+      "bytes": 9186184,
+      "sha256": "9979e7606a115a16e9dc35fdf81684d5285b649692cd969692f195dfc1e3743d"
+    },
+    "Assets/Watercolor/Goose/Blender/ENV-016/v001/ENV-016_ProtectedMarsh.glb": {
+      "bytes": 8745192,
+      "sha256": "a6c9ed997539d4c82f135c3101349a6729c75fbb4d5b3a0c5e7d10af21ccce23"
+    },
+    "Assets/Watercolor/Goose/Blender/ENV-016/v001/ENV-016_generate.py": {
+      "bytes": 29527,
+      "sha256": "dea57b1c3b6652a3b11aea5efe8018ec97f21a0d57bc2de4616d84a91608e7ab"
+    },
+    "Assets/Watercolor/Goose/Blender/ENV-018/v001/ENV-018_atmosphere_cards.blend": {
+      "bytes": 54295652,
+      "sha256": "b731176f235bc14666b504915df8756a4d66eaefa1cf6c49e9730c3d17e995fd"
+    },
+    "Assets/Watercolor/Goose/Blender/ENV-018/v001/ENV-018_generate.py": {
+      "bytes": 29400,
+      "sha256": "35c436513ecd84cb1cb052ab2d4dac62e4c2de3051628637cfe8a94bfbae7538"
+    },
+    "Assets/Watercolor/Goose/Blender/CHR-001/v001/CHR-001_goose_rig.blend": {
+      "bytes": 3847685,
+      "sha256": "db0c8d55c5efc499c99f7787228967451d071f36294962b12dc4b34d02f350f5"
+    },
+    "Assets/Watercolor/Goose/Blender/MAT-001/v001/textures/ft_goose_mat_soft_stone_basecolor.png": {
+      "bytes": 238107,
+      "sha256": "931bb3b12c975c2dbbe37a695bf8dc1d49cf29e3b92bf3296c9896b6e0c5022f"
+    },
+    "Assets/Watercolor/Goose/Blender/ANM-007/v001/ANM-007_landing.blend": {
+      "bytes": 3939567,
+      "sha256": "bf8ed361fb9e06706e4a78e7fcbf2d4f61edc8cdbeea6018f2339dfecc35e5f0"
+    }
+  },
+  "textures": [
+    {
+      "file": "textures/ft_goose_fx_turbine_warn_edge_basecolor_alpha.png",
+      "dimensions": [
+        512,
+        128
+      ],
+      "source_paper": "Assets/Watercolor/Goose/Blender/MAT-001/v001/textures/ft_goose_mat_soft_stone_basecolor.png",
+      "use": "Straight alpha RGBA, embedded in GLB",
+      "bytes": 71405,
+      "sha256": "6ae9c3a19ab20187dfc2149ffd2176ce81ac2f0b2e4e1399e3789d772ae01e01"
+    },
+    {
+      "file": "textures/ft_goose_fx_turbine_warn_pressure_basecolor_alpha.png",
+      "dimensions": [
+        512,
+        128
+      ],
+      "source_paper": "Assets/Watercolor/Goose/Blender/MAT-001/v001/textures/ft_goose_mat_soft_stone_basecolor.png",
+      "use": "Straight alpha RGBA, embedded in GLB",
+      "bytes": 64151,
+      "sha256": "4be32a2d788d588f749b60bebc631f424727cc6e2988b2e622d2f4332a3536b5"
+    }
+  ],
+  "geometry": {
+    "root": "TurbineWarn",
+    "blender_root_xyz": [
+      0,
+      0,
+      0
+    ],
+    "blender_to_gltf": "(x,z,-y)",
+    "review_anchor_XY_BU": [
+      19.19999885559082,
+      -5.23491907119751
+    ],
+    "mesh_triangles": {
+      "ApproachEdge": 192,
+      "ContactPressure": 192
+    },
+    "collision_enabled": false
+  },
+  "animation": {
+    "ApproachCue": {
+      "duration_seconds": 3,
+      "one_shot": true
+    },
+    "BoundaryContact": {
+      "duration_seconds": 1.0833333333333333,
+      "one_shot": true
+    },
+    "runtime_authority": "Game Zone"
+  },
+  "rights": "Procedural project-original geometry, animation and MAT-001-derived textures.",
+  "files": {
+    "FX-011_TurbineWarn.blend": {
+      "bytes": 19001311,
+      "sha256": "18a62f4a68394683145df328f2c6704101e435cea75cd122746eeb0865b085e4"
+    },
+    "FX-011_TurbineWarn.glb": {
+      "bytes": 162924,
+      "sha256": "e631c112d8946f4c7fb2b6a0d75ad5151ccbcb975f173b7c292b3b7e9427359c"
+    },
+    "FX-011_generate.py": {
+      "bytes": 24987,
+      "sha256": "51b1719d525cf562d9a88ac5c46ba3629b822b26c239680ca6978255b80afc43"
+    },
+    "README.md": {
+      "bytes": 4480,
+      "sha256": "b974f6d2fd535fafe8ed9c3f5028eb6461950dc50b49fbb7674f6db1555b43b7"
+    },
+    "comparison_idle_default.png": {
+      "bytes": 362539,
+      "sha256": "11992e2df30b9722dfff66f19b7e208b5ced3905fc414281cb20ae15bf289de7"
+    },
+    "graybox_fixed_rear.png": {
+      "bytes": 363117,
+      "sha256": "41f3dbe717d9af86c4aef7a2d97e4dbfeb6617c51a5ffc64031600708e3dec9b"
+    },
+    "graybox_top.png": {
+      "bytes": 936341,
+      "sha256": "cf1c66649d4244600273b2d962667ed849ce1d965b417f6b5eaa64c47003e14a"
+    },
+    "preview_contact.png": {
+      "bytes": 363591,
+      "sha256": "057f5b15c845979456c089bac10b84548fe43cac11586d8226e164be5dfe3df7"
+    },
+    "preview_fixed_rear_silent.mp4": {
+      "bytes": 529661,
+      "sha256": "54aff8f30513bb8a50ba4290c442e1b7a9c8c963ae4bfee43697b14a2297031c"
+    },
+    "preview_fog_default.png": {
+      "bytes": 362808,
+      "sha256": "2f7a9580a879fb25546c23beb8869e62c7e621453d30b1e6f0951281e7e3df9e"
+    },
+    "preview_fog_off.png": {
+      "bytes": 363378,
+      "sha256": "818948adb619324f3e9b05da2d38f7283dc91ff09cfeb6f06b112b7c2107f516"
+    },
+    "preview_fog_reduced.png": {
+      "bytes": 363253,
+      "sha256": "dd457c5a41d4b465446d208a882f31a46cb8bf7182996b0fc287865bb60d9691"
+    },
+    "preview_route_top.png": {
+      "bytes": 934820,
+      "sha256": "81bc04974809efe46a5b2dd66b5924c5b76cbbd6a82d63e0e0d178c5d87f7916"
+    },
+    "preview_warning_detail.png": {
+      "bytes": 492844,
+      "sha256": "4ea95429d01df1bf4392441c1375a73eea71e02f20a18572d60b9500d99ea09f"
+    },
+    "qa.json": {
+      "bytes": 10518,
+      "sha256": "fa98f6444bed50c92ac196c35df8e153dc0fc9d9630c71d473f5dbf47ea3f66d"
+    },
+    "roundtrip_contact.png": {
+      "bytes": 363733,
+      "sha256": "08ff9a0da11ae467bd4df4923ff6bd667e9617d544254bba99d9ffbb61e31031"
+    },
+    "roundtrip_fixed_rear.png": {
+      "bytes": 363023,
+      "sha256": "5d37cee734ae96515ad43b5ed4cb11079e9cf90c9bc2541706e9638097919e28"
+    },
+    "textures/ft_goose_fx_turbine_warn_edge_basecolor_alpha.png": {
+      "bytes": 71405,
+      "sha256": "6ae9c3a19ab20187dfc2149ffd2176ce81ac2f0b2e4e1399e3789d772ae01e01"
+    },
+    "textures/ft_goose_fx_turbine_warn_pressure_basecolor_alpha.png": {
+      "bytes": 64151,
+      "sha256": "4be32a2d788d588f749b60bebc631f424727cc6e2988b2e622d2f4332a3536b5"
+    },
+    "warning_review.json": {
+      "bytes": 1314,
+      "sha256": "bd174f4af983342fcaa017174a137db69ec05f5a8db74dbc8df722a1c5b34386"
+    }
+  }
+}

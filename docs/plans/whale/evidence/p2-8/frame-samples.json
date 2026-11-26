@@ -1,0 +1,62 @@
+{
+  "p2-7-standard": {
+    "segment": "W0",
+    "phase": "playing",
+    "tick": 108,
+    "samples": 109,
+    "medianMs": 17,
+    "p95Ms": 18,
+    "calls": 26,
+    "triangles": 37643,
+    "geometries": 56,
+    "textures": 74,
+    "width": 1468,
+    "height": 686,
+    "quality": "standard"
+  },
+  "p2-7-low": {
+    "segment": "W0",
+    "phase": "playing",
+    "tick": 108,
+    "samples": 109,
+    "medianMs": 17,
+    "p95Ms": 18,
+    "calls": 26,
+    "triangles": 37643,
+    "geometries": 56,
+    "textures": 74,
+    "width": 734,
+    "height": 343,
+    "quality": "low"
+  },
+  "p2-8-standard": {
+    "segment": "W0",
+    "phase": "playing",
+    "tick": 109,
+    "samples": 111,
+    "medianMs": 17,
+    "p95Ms": 18,
+    "calls": 27,
+    "triangles": 37998,
+    "geometries": 57,
+    "textures": 74,
+    "width": 1468,
+    "height": 686,
+    "quality": "standard"
+  },
+  "p2-8-low": {
+    "segment": "W0",
+    "phase": "playing",
+    "tick": 108,
+    "samples": 109,
+    "medianMs": 17,
+    "p95Ms": 18,
+    "calls": 27,
+    "triangles": 37998,
+    "geometries": 57,
+    "textures": 74,
+    "width": 734,
+    "height": 343,
+    "quality": "low"
+  }
+}

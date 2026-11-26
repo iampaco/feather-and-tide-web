@@ -1,0 +1,230 @@
+{
+  "W4-standard": {
+    "before": {
+      "browser": "27.2",
+      "gpu": "Apple GPU",
+      "viewport": {
+        "width": 852,
+        "height": 393
+      },
+      "segment": "W4",
+      "phase": "playing",
+      "tick": 11108,
+      "samples": 180,
+      "medianMs": 17,
+      "p95Ms": 21,
+      "calls": 31,
+      "triangles": 23350,
+      "geometries": 70,
+      "textures": 74,
+      "width": 1704,
+      "height": 786,
+      "quality": "standard"
+    },
+    "after": {
+      "browser": "27.2",
+      "gpu": "Apple GPU",
+      "viewport": {
+        "width": 852,
+        "height": 393
+      },
+      "segment": "W4",
+      "phase": "playing",
+      "tick": 11109,
+      "samples": 180,
+      "medianMs": 17,
+      "p95Ms": 24,
+      "calls": 31,
+      "triangles": 23350,
+      "geometries": 70,
+      "textures": 74,
+      "width": 1704,
+      "height": 786,
+      "quality": "standard"
+    }
+  },
+  "W4-gathering-standard": {
+    "before": {
+      "browser": "27.2",
+      "gpu": "Apple GPU",
+      "viewport": {
+        "width": 852,
+        "height": 393
+      },
+      "segment": "W4",
+      "phase": "landing",
+      "tick": 10891,
+      "samples": 112,
+      "medianMs": 17,
+      "p95Ms": 20,
+      "calls": 14,
+      "triangles": 22138,
+      "geometries": 69,
+      "textures": 74,
+      "width": 1704,
+      "height": 786,
+      "quality": "standard"
+    },
+    "after": {
+      "browser": "27.2",
+      "gpu": "Apple GPU",
+      "viewport": {
+        "width": 852,
+        "height": 393
+      },
+      "segment": "W4",
+      "phase": "landing",
+      "tick": 10891,
+      "samples": 109,
+      "medianMs": 17,
+      "p95Ms": 21,
+      "calls": 14,
+      "triangles": 22138,
+      "geometries": 69,
+      "textures": 74,
+      "width": 1704,
+      "height": 786,
+      "quality": "standard"
+    }
+  },
+  "W2-standard": {
+    "before": {
+      "browser": "27.2",
+      "gpu": "Apple GPU",
+      "viewport": {
+        "width": 852,
+        "height": 393
+      },
+      "segment": "W2",
+      "phase": "playing",
+      "tick": 8430,
+      "samples": 179,
+      "medianMs": 16,
+      "p95Ms": 21,
+      "calls": 62,
+      "triangles": 39943,
+      "geometries": 99,
+      "textures": 74,
+      "width": 1704,
+      "height": 786,
+      "quality": "standard"
+    },
+    "after": {
+      "browser": "27.2",
+      "gpu": "Apple GPU",
+      "viewport": {
+        "width": 852,
+        "height": 393
+      },
+      "segment": "W2",
+      "phase": "playing",
+      "tick": 8469,
+      "samples": 180,
+      "medianMs": 17,
+      "p95Ms": 24,
+      "calls": 63,
+      "triangles": 41575,
+      "geometries": 100,
+      "textures": 74,
+      "width": 1704,
+      "height": 786,
+      "quality": "standard"
+    }
+  },
+  "W3-standard": {
+    "before": {
+      "browser": "27.2",
+      "gpu": "Apple GPU",
+      "viewport": {
+        "width": 852,
+        "height": 393
+      },
+      "leader": {
+        "x": -75,
+        "z": 1144.3509561804476
+      },
+      "segment": "W3",
+      "phase": "playing",
+      "tick": 12476,
+      "samples": 180,
+      "medianMs": 16,
+      "p95Ms": 20,
+      "calls": 59,
+      "triangles": 32182,
+      "geometries": 97,
+      "textures": 74,
+      "width": 1704,
+      "height": 786,
+      "quality": "standard"
+    },
+    "after": {
+      "browser": "27.2",
+      "gpu": "Apple GPU",
+      "viewport": {
+        "width": 852,
+        "height": 393
+      },
+      "leader": {
+        "x": -75,
+        "z": 1144.3509561804476
+      },
+      "segment": "W3",
+      "phase": "playing",
+      "tick": 12401,
+      "samples": 152,
+      "medianMs": 16,
+      "p95Ms": 19,
+      "calls": 55,
+      "triangles": 32296,
+      "geometries": 95,
+      "textures": 74,
+      "width": 1704,
+      "height": 786,
+      "quality": "standard"
+    }
+  },
+  "W1-standard": {
+    "before": {
+      "browser": "27.2",
+      "gpu": "Apple GPU",
+      "viewport": {
+        "width": 852,
+        "height": 393
+      },
+      "segment": "W1",
+      "phase": "playing",
+      "tick": 3527,
+      "samples": 180,
+      "medianMs": 17,
+      "p95Ms": 21,
+      "calls": 47,
+      "triangles": 37644,
+      "geometries": 80,
+      "textures": 74,
+      "width": 1704,
+      "height": 786,
+      "quality": "standard"
+    },
+    "after": {
+      "browser": "27.2",
+      "gpu": "Apple GPU",
+      "viewport": {
+        "width": 852,
+        "height": 393
+      },
+      "segment": "W1",
+      "phase": "playing",
+      "tick": 3488,
+      "samples": 172,
+      "medianMs": 17,
+      "p95Ms": 25,
+      "calls": 47,
+      "triangles": 39339,
+      "geometries": 80,
+      "textures": 74,
+      "width": 1704,
+      "height": 786,
+      "quality": "standard"
+    }
+  }
+}

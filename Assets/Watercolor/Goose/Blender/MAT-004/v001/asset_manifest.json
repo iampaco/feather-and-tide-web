@@ -1,0 +1,75 @@
+{
+  "id": "MAT-004",
+  "version": "v001",
+  "depends": [
+    "MAT-001/v001"
+  ],
+  "blender": "5.2.2 LTS",
+  "source": "原创程序化水彩色带与岸缘 Alpha，复用 MAT-001 节点、周期噪声和纸纹强度。",
+  "dependency_hashes": {
+    "MAT-001_watercolor_master.blend": "9fc0305a78264733d2a2f5747a67833158c59470eff3e3d71c4f6da5b9d11de0",
+    "MAT-001_watercolor_master_generate.py": "16bf8aaa6ecb2e52cc575c91d36d5256494df72c72a727741e5542de5b14364d"
+  },
+  "preview_only": {
+    "bed_texture": "ft_goose_mat_mud_bank_basecolor.png",
+    "asset": "MAT-003/v001",
+    "sha256": "0343b68d4e256fca7b747c65b2fcebc74c46f3aa2334044051ac862e4e02c5b1"
+  },
+  "materials": {
+    "Water_Shallow": {
+      "file": "textures/ft_goose_mat_water_shallow_basecolor_alpha.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "channels": "sRGB Base Color + straight linear alpha",
+      "alpha_mode": "BLEND",
+      "roughness": 0.83,
+      "max_alpha": 0.73,
+      "metallic": 0,
+      "uv": "One patch; transparent perimeter; clamp both axes"
+    },
+    "Water_Lake": {
+      "file": "textures/ft_goose_mat_water_lake_basecolor_alpha.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "channels": "sRGB Base Color + straight linear alpha",
+      "alpha_mode": "BLEND",
+      "roughness": 0.79,
+      "max_alpha": 0.96,
+      "metallic": 0,
+      "uv": "One patch; transparent perimeter; clamp both axes"
+    },
+    "Water_River": {
+      "file": "textures/ft_goose_mat_water_river_basecolor_alpha.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "channels": "sRGB Base Color + straight linear alpha",
+      "alpha_mode": "BLEND",
+      "roughness": 0.81,
+      "max_alpha": 0.9,
+      "metallic": 0,
+      "uv": "U across stream, V repeats along stream"
+    }
+  },
+  "object_triangle_counts": {
+    "Shallow pool / export": 2,
+    "Lake patch / export": 2,
+    "River ribbon / export": 80
+  },
+  "files": {
+    "MAT-004_water_surfaces.blend": "50b0904e119b759d05befe89b5bc9844b5a527a879b966cdbba4d981cab1111b",
+    "MAT-004_water_surfaces.glb": "c0eebcfb148d113e616e5d2e600fcdb71e7860f7c5bbed1b99fd2ca2f6121496",
+    "textures/ft_goose_mat_water_shallow_basecolor_alpha.png": "ac34951540216c795b54b25d1dfd929d282dcc9a741f8d53b562621b29dead79",
+    "textures/ft_goose_mat_water_lake_basecolor_alpha.png": "b6c2e797b1fe6124ad5de03e1f259c43659844b709d78d0489fa542134226610",
+    "textures/ft_goose_mat_water_river_basecolor_alpha.png": "f470fd1a2c206a618f27c177f7d6d613a4681135a47207103fa0b353c923fcaf",
+    "preview_glb_roundtrip.png": "37a4f0e6593d22c8e21eab4f9237ad715ffad5219841bf938ca0360680b95761",
+    "preview_oblique.png": "90870a1aaaec623f8902862e54ebbcdc4911871d8017dad60634524ab0db46e3",
+    "preview_top.png": "f80b59e25c0dcf80041ab0799f0f797828b48dd5cb66a614a20dd93218ee1caf",
+    "MAT-004_water_surfaces_generate.py": "2d5b7aec9143bb5b551cb08faf2c4950af0bf8e2aeeb4cd81e2326b598945cb5"
+  }
+}

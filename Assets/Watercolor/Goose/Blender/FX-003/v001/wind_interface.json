@@ -1,0 +1,59 @@
+{
+  "id": "FX-003",
+  "version": "v001",
+  "status": "needs_review",
+  "variant": "Headwind",
+  "coordinates": {
+    "blender": "+Y forward, +Z up",
+    "glb": "-Z forward, +Y up",
+    "conversion": "(x,z,-y)",
+    "BU_per_game_unit": 0.036
+  },
+  "geometry": {
+    "file": "FX-003_Headwind.glb",
+    "origin": "upstream center",
+    "length_BU": 2.8,
+    "nominal_width_BU": 0.18,
+    "uv": "U=0 upstream, U=1 downstream; V=0 left, V=1 right",
+    "triangles": 72,
+    "node": "Headwind",
+    "local_transform": "identity"
+  },
+  "runtime_inputs": {
+    "worldPosition": "World-space upstream placement in BU.",
+    "worldWindDirection": "Normalized finite horizontal vector pointing downstream. Use no instances at zero wind.",
+    "windSpeedBUPerSecond": "Nonnegative. Use runtime wind magnitude, independent from gameplay consumption.",
+    "elapsedSeconds": "Monotonic seconds.",
+    "phaseOffsetBU": "Per-instance downstream phase distance in BU.",
+    "formationWeight": "0…1 optional inherited FX-001 alignment. Review uses 1, i.e. parallel wind.",
+    "opacityMultiplier": "0…1 applied to straight alpha. Feather edges or recycle.",
+    "windBearingRad": "Blender preview yaw of the wind, rad. Common practice: π to reverse around the up axis.",
+    "alignment": "Rotate local forward toward world wind; for S5 flying +Y, yaw π about Blender +Z (GLB +Y) for -Y wind. Keep unit positive scale and unchanged UV.",
+    "travel": "worldPosition + worldWindDirection * (windSpeedBUPerSecond * elapsedSeconds + phaseOffsetBU)",
+    "tile_and_visibility": "Tile with 2.8 BU repetition along wind, at transparent endpoints. Fade instances at the review strip's recycle bounds or supply a runtime envelope. Reserve the central terminal and projected bird silhouette.",
+    "export_animation": "Static GLB. Mother file supplies a Blender review timeline, and the engine supplies final advection."
+  },
+  "comparison": {
+    "same_camera": true,
+    "camera_distance_game_units": 180,
+    "camera_pitch_rad": 0.48,
+    "vertical_FOV_deg": 50,
+    "targetHeightAboveLeader_game_units": 6,
+    "leader_height_game_units": 8,
+    "S1_reference": {
+      "bearing_rad": 0,
+      "speed_BU_s": 1.32,
+      "lanes": 8
+    },
+    "S5_review": {
+      "bearing_rad": 3.141592653589793,
+      "speed_BU_s": 2.55,
+      "lanes": 12
+    },
+    "flight_speed_BU_s": 0.53,
+    "source_frame_px": [
+      852,
+      393
+    ]
+  }
+}

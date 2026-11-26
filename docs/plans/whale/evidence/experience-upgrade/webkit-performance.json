@@ -1,0 +1,181 @@
+{
+  "browser": "Playwright WebKit 27.2",
+  "profile": "iPhone 15 landscape emulation 852×393",
+  "host": "macOS arm64 27.0",
+  "build": {
+    "baseline": "assets/index-CmBpUSnl.js",
+    "upgrade": "assets/index-RA8DrJaW.js"
+  },
+  "measurements": {
+    "baseline": {
+      "standard": {
+        "W1": {
+          "segment": "W1",
+          "phase": "playing",
+          "tick": 3684,
+          "samples": 144,
+          "medianMs": 17,
+          "p95Ms": 18,
+          "calls": 44,
+          "triangles": 29841,
+          "width": 1704,
+          "height": 786,
+          "quality": "standard"
+        },
+        "W2": {
+          "segment": "W2",
+          "phase": "playing",
+          "tick": 7044,
+          "samples": 144,
+          "medianMs": 17,
+          "p95Ms": 18,
+          "calls": 35,
+          "triangles": 30780,
+          "width": 1704,
+          "height": 786,
+          "quality": "standard"
+        },
+        "W4": {
+          "segment": "W4",
+          "phase": "landing",
+          "tick": 15073,
+          "samples": 111,
+          "medianMs": 17,
+          "p95Ms": 18,
+          "calls": 26,
+          "triangles": 27540,
+          "width": 1704,
+          "height": 786,
+          "quality": "standard"
+        }
+      },
+      "low": {
+        "W1": {
+          "segment": "W1",
+          "phase": "playing",
+          "tick": 3685,
+          "samples": 145,
+          "medianMs": 17,
+          "p95Ms": 18,
+          "calls": 44,
+          "triangles": 29841,
+          "width": 852,
+          "height": 393,
+          "quality": "low"
+        },
+        "W2": {
+          "segment": "W2",
+          "phase": "playing",
+          "tick": 7045,
+          "samples": 146,
+          "medianMs": 17,
+          "p95Ms": 17,
+          "calls": 35,
+          "triangles": 30780,
+          "width": 852,
+          "height": 393,
+          "quality": "low"
+        },
+        "W4": {
+          "segment": "W4",
+          "phase": "landing",
+          "tick": 15073,
+          "samples": 145,
+          "medianMs": 17,
+          "p95Ms": 18,
+          "calls": 26,
+          "triangles": 27540,
+          "width": 852,
+          "height": 393,
+          "quality": "low"
+        }
+      },
+      "newJourneyReadyMs": [58, 58, 52]
+    },
+    "upgrade": {
+      "standard": {
+        "W1": {
+          "segment": "W1",
+          "phase": "playing",
+          "tick": 3685,
+          "samples": 144,
+          "medianMs": 17,
+          "p95Ms": 18,
+          "calls": 44,
+          "triangles": 29841,
+          "width": 1704,
+          "height": 786,
+          "quality": "standard"
+        },
+        "W2": {
+          "segment": "W2",
+          "phase": "playing",
+          "tick": 7044,
+          "samples": 144,
+          "medianMs": 17,
+          "p95Ms": 17,
+          "calls": 37,
+          "triangles": 30844,
+          "width": 1704,
+          "height": 786,
+          "quality": "standard"
+        },
+        "W4": {
+          "segment": "W4",
+          "phase": "landing",
+          "tick": 15073,
+          "samples": 145,
+          "medianMs": 17,
+          "p95Ms": 17,
+          "calls": 26,
+          "triangles": 27540,
+          "width": 1704,
+          "height": 786,
+          "quality": "standard"
+        }
+      },
+      "low": {
+        "W1": {
+          "segment": "W1",
+          "phase": "playing",
+          "tick": 3684,
+          "samples": 144,
+          "medianMs": 17,
+          "p95Ms": 18,
+          "calls": 44,
+          "triangles": 29841,
+          "width": 852,
+          "height": 393,
+          "quality": "low"
+        },
+        "W2": {
+          "segment": "W2",
+          "phase": "playing",
+          "tick": 7044,
+          "samples": 145,
+          "medianMs": 17,
+          "p95Ms": 18,
+          "calls": 37,
+          "triangles": 30844,
+          "width": 852,
+          "height": 393,
+          "quality": "low"
+        },
+        "W4": {
+          "segment": "W4",
+          "phase": "landing",
+          "tick": 15073,
+          "samples": 145,
+          "medianMs": 17,
+          "p95Ms": 18,
+          "calls": 26,
+          "triangles": 27540,
+          "width": 852,
+          "height": 393,
+          "quality": "low"
+        }
+      },
+      "newJourneyReadyMs": [97, 55, 59]
+    }
+  }
+}

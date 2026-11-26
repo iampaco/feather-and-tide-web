@@ -1,0 +1,107 @@
+{
+  "buildHtmlSha256": "7b778caa86866ccda2ac6e5907d5860de47ad01180f10bd9e1165b19b1cff8b1",
+  "revision": "reindeer-p3-1",
+  "environment": "Playwright on macOS, one worker. Mobile WebKit uses a landscape device preset.",
+  "samples": [
+    {
+      "project": "chromium",
+      "startup": {
+        "revision": "reindeer-p3-1",
+        "from": "selection",
+        "checkpoint": null,
+        "titleReadyMs": 211.69999998807907,
+        "firstPlayableFrameMs": 1615.5999999940395
+      },
+      "frames": {
+        "segment": "R0",
+        "phase": "playing",
+        "tick": 93,
+        "samples": 30,
+        "medianMs": 50,
+        "p95Ms": 66.69999999999982,
+        "calls": 70,
+        "triangles": 45064,
+        "geometries": 64,
+        "textures": 120,
+        "width": 1280,
+        "height": 720,
+        "quality": "low"
+      }
+    },
+    {
+      "project": "mobile-webkit",
+      "startup": {
+        "revision": "reindeer-p3-1",
+        "from": "selection",
+        "checkpoint": null,
+        "titleReadyMs": 280,
+        "firstPlayableFrameMs": 70
+      },
+      "frames": {
+        "segment": "R0",
+        "phase": "playing",
+        "tick": 36,
+        "samples": 36,
+        "medianMs": 17,
+        "p95Ms": 19,
+        "calls": 70,
+        "triangles": 45064,
+        "geometries": 64,
+        "textures": 120,
+        "width": 734,
+        "height": 343,
+        "quality": "low"
+      }
+    },
+    {
+      "project": "chromium",
+      "startup": {
+        "revision": "reindeer-p3-1",
+        "from": "selection",
+        "checkpoint": null,
+        "titleReadyMs": 223.80000001192093,
+        "firstPlayableFrameMs": 2505.5
+      },
+      "frames": {
+        "segment": "R0",
+        "phase": "playing",
+        "tick": 135,
+        "samples": 30,
+        "medianMs": 83.29999999999927,
+        "p95Ms": 99.90000000000146,
+        "calls": 72,
+        "triangles": 58288,
+        "geometries": 64,
+        "textures": 121,
+        "width": 1280,
+        "height": 720,
+        "quality": "standard"
+      }
+    },
+    {
+      "project": "mobile-webkit",
+      "startup": {
+        "revision": "reindeer-p3-1",
+        "from": "selection",
+        "checkpoint": null,
+        "titleReadyMs": 329,
+        "firstPlayableFrameMs": 77
+      },
+      "frames": {
+        "segment": "R0",
+        "phase": "playing",
+        "tick": 36,
+        "samples": 35,
+        "medianMs": 17,
+        "p95Ms": 23,
+        "calls": 72,
+        "triangles": 58288,
+        "geometries": 64,
+        "textures": 121,
+        "width": 1247,
+        "height": 583,
+        "quality": "standard"
+      }
+    }
+  ]
+}

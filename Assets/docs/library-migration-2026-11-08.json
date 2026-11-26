@@ -1,0 +1,1483 @@
+{
+  "date": "2026-11-08",
+  "timezone": "Asia/Shanghai",
+  "source_root": "羽与潮-游戏素材包",
+  "library_root": "Assets",
+  "path_base": "project_root",
+  "backup": ".local-backups/assets-before-2026-11-08-a0f88372.tgz",
+  "backup_sha256": "5489ccae23592f99c8d3b35f076ac5fb5e903de796915670c90e5f067cb66250",
+  "moved_file_count": 229,
+  "existing_files": [
+    {
+      "path": "Assets/.DS_Store",
+      "sha256": "d006178829bf0e521da6c66ff6022a8c028e649581946a2b573904d3bdb5c2e9"
+    },
+    {
+      "path": "Assets/Haptics/.gitkeep.md",
+      "sha256": "473ec618cf5e567b3d8eda26571657bef7d364c42e076e2a78c74f5c767f3a28"
+    },
+    {
+      "path": "Assets/UI/.gitkeep.md",
+      "sha256": "473ec618cf5e567b3d8eda26571657bef7d364c42e076e2a78c74f5c767f3a28"
+    },
+    {
+      "path": "Assets/Graybox/.gitkeep.md",
+      "sha256": "473ec618cf5e567b3d8eda26571657bef7d364c42e076e2a78c74f5c767f3a28"
+    },
+    {
+      "path": "Assets/Watercolor/Whale/.gitkeep.md",
+      "sha256": "473ec618cf5e567b3d8eda26571657bef7d364c42e076e2a78c74f5c767f3a28"
+    },
+    {
+      "path": "Assets/Watercolor/Shared/.gitkeep.md",
+      "sha256": "473ec618cf5e567b3d8eda26571657bef7d364c42e076e2a78c74f5c767f3a28"
+    },
+    {
+      "path": "Assets/Watercolor/Deer/.gitkeep.md",
+      "sha256": "473ec618cf5e567b3d8eda26571657bef7d364c42e076e2a78c74f5c767f3a28"
+    },
+    {
+      "path": "Assets/Watercolor/Goose/.gitkeep.md",
+      "sha256": "473ec618cf5e567b3d8eda26571657bef7d364c42e076e2a78c74f5c767f3a28"
+    },
+    {
+      "path": "Assets/Audio/Music/.gitkeep.md",
+      "sha256": "473ec618cf5e567b3d8eda26571657bef7d364c42e076e2a78c74f5c767f3a28"
+    },
+    {
+      "path": "Assets/Audio/Traces/.gitkeep.md",
+      "sha256": "473ec618cf5e567b3d8eda26571657bef7d364c42e076e2a78c74f5c767f3a28"
+    },
+    {
+      "path": "Assets/Audio/Environment/.gitkeep.md",
+      "sha256": "473ec618cf5e567b3d8eda26571657bef7d364c42e076e2a78c74f5c767f3a28"
+    },
+    {
+      "path": "Assets/Audio/Creatures/.gitkeep.md",
+      "sha256": "473ec618cf5e567b3d8eda26571657bef7d364c42e076e2a78c74f5c767f3a28"
+    }
+  ],
+  "files": [
+    {
+      "from": "羽与潮-游戏素材包/.DS_Store",
+      "to": "Assets/docs/migration-metadata/.DS_Store",
+      "sha256_before": "bade4462f94dd8d991d1808bc07d1c37d6d50e2e1de0d96563a1a5dfd0543fde",
+      "sha256_after": "bade4462f94dd8d991d1808bc07d1c37d6d50e2e1de0d96563a1a5dfd0543fde"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/.DS_Store",
+      "to": "Assets/docs/migration-metadata/Assets/.DS_Store",
+      "sha256_before": "513929bfbfa2b955e794948f58ddfda3f98a8d04a5fac17045302e58483442ef",
+      "sha256_after": "513929bfbfa2b955e794948f58ddfda3f98a8d04a5fac17045302e58483442ef"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/.DS_Store",
+      "to": "Assets/docs/migration-metadata/Assets/Watercolor/.DS_Store",
+      "sha256_before": "a60ed603ae86cb0d3af098aeba141eda8c5a31013849be6f2e21348e937b990f",
+      "sha256_after": "a60ed603ae86cb0d3af098aeba141eda8c5a31013849be6f2e21348e937b990f"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Deer/Characters/deer_char_forage_01.png",
+      "to": "Assets/Watercolor/Deer/Characters/deer_char_forage_01.png",
+      "sha256_before": "16089306a5b2d08a449a05cefb8048e829b4a337fe4617a2074ad4a010b19ca0",
+      "sha256_after": "16089306a5b2d08a449a05cefb8048e829b4a337fe4617a2074ad4a010b19ca0"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Deer/Characters/deer_char_forage_02.png",
+      "to": "Assets/Watercolor/Deer/Characters/deer_char_forage_02.png",
+      "sha256_before": "d1e2dd36d3d07fe0b1ebad59ccff6ca0474dce5ab0d939efc842aa8cbd378715",
+      "sha256_after": "d1e2dd36d3d07fe0b1ebad59ccff6ca0474dce5ab0d939efc842aa8cbd378715"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Deer/Characters/deer_char_forage_03.png",
+      "to": "Assets/Watercolor/Deer/Characters/deer_char_forage_03.png",
+      "sha256_before": "c85c67e119ab5ed18dd99f0864a2ab638cbaca935720467ae0e4b59e7f9bae4c",
+      "sha256_after": "c85c67e119ab5ed18dd99f0864a2ab638cbaca935720467ae0e4b59e7f9bae4c"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Deer/Characters/deer_char_forage_04.png",
+      "to": "Assets/Watercolor/Deer/Characters/deer_char_forage_04.png",
+      "sha256_before": "0991c6e3b2faedd326fd892256096455a5a734ffd6eb8fd5fc380f13ab726e06",
+      "sha256_after": "0991c6e3b2faedd326fd892256096455a5a734ffd6eb8fd5fc380f13ab726e06"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Deer/Characters/deer_char_parts_antler_01.png",
+      "to": "Assets/Watercolor/Deer/Characters/deer_char_parts_antler_01.png",
+      "sha256_before": "4e49aacd21bbd835484fb240073993b45421e8ded5ebac4f87b4df5c02f87931",
+      "sha256_after": "4e49aacd21bbd835484fb240073993b45421e8ded5ebac4f87b4df5c02f87931"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Deer/Characters/deer_char_parts_antler_02.png",
+      "to": "Assets/Watercolor/Deer/Characters/deer_char_parts_antler_02.png",
+      "sha256_before": "bf4f31415bc2441868fdc3ec458ba80e553e2985c2e69381ad40cec1fc820ab5",
+      "sha256_after": "bf4f31415bc2441868fdc3ec458ba80e553e2985c2e69381ad40cec1fc820ab5"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Deer/Characters/deer_char_parts_head_noantler.png",
+      "to": "Assets/Watercolor/Deer/Characters/deer_char_parts_head_noantler.png",
+      "sha256_before": "49e554e237ec89c067443a0bc237618f36b882ac0e4ab080d831764672e2867f",
+      "sha256_after": "49e554e237ec89c067443a0bc237618f36b882ac0e4ab080d831764672e2867f"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Deer/Characters/deer_char_rest_01.png",
+      "to": "Assets/Watercolor/Deer/Characters/deer_char_rest_01.png",
+      "sha256_before": "dcdca037f957342b34fe557879b04f9619677288bc2ece66be9d16b535205fa0",
+      "sha256_after": "dcdca037f957342b34fe557879b04f9619677288bc2ece66be9d16b535205fa0"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Deer/Characters/deer_char_rest_02.png",
+      "to": "Assets/Watercolor/Deer/Characters/deer_char_rest_02.png",
+      "sha256_before": "b9382314063a3b136a8d9fafdc8efd449809af3586356480cf59842ff80bae6f",
+      "sha256_after": "b9382314063a3b136a8d9fafdc8efd449809af3586356480cf59842ff80bae6f"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Deer/Characters/deer_char_run_01.png",
+      "to": "Assets/Watercolor/Deer/Characters/deer_char_run_01.png",
+      "sha256_before": "2ec4ac378e5f4f109544d5c630f9940b5f858b57810011881de93af27f189c17",
+      "sha256_after": "2ec4ac378e5f4f109544d5c630f9940b5f858b57810011881de93af27f189c17"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Deer/Characters/deer_char_run_02.png",
+      "to": "Assets/Watercolor/Deer/Characters/deer_char_run_02.png",
+      "sha256_before": "9c25ca3dec6885706f76d1cf42fa1616f3da5499792a56e8a71549da0c0d9e1f",
+      "sha256_after": "9c25ca3dec6885706f76d1cf42fa1616f3da5499792a56e8a71549da0c0d9e1f"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Deer/Characters/deer_char_run_03.png",
+      "to": "Assets/Watercolor/Deer/Characters/deer_char_run_03.png",
+      "sha256_before": "bf72f19a6bc0c4c3cf2e9299614ebb584d90f79695bdf71515ec31ee8c0a673f",
+      "sha256_after": "bf72f19a6bc0c4c3cf2e9299614ebb584d90f79695bdf71515ec31ee8c0a673f"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Deer/Characters/deer_char_run_04.png",
+      "to": "Assets/Watercolor/Deer/Characters/deer_char_run_04.png",
+      "sha256_before": "096a17f4a7883fa1f5fa6f41a7a26b031ab2f80f9a65fe346452b9a7840ea1a2",
+      "sha256_after": "096a17f4a7883fa1f5fa6f41a7a26b031ab2f80f9a65fe346452b9a7840ea1a2"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Deer/Characters/deer_char_run_05.png",
+      "to": "Assets/Watercolor/Deer/Characters/deer_char_run_05.png",
+      "sha256_before": "6150b6401f3ec3b4e144ad6c06b2af9b7553dd0a5466e738d78119366949f802",
+      "sha256_after": "6150b6401f3ec3b4e144ad6c06b2af9b7553dd0a5466e738d78119366949f802"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Deer/Characters/deer_char_run_06.png",
+      "to": "Assets/Watercolor/Deer/Characters/deer_char_run_06.png",
+      "sha256_before": "14e7e943ee0cb4b50bf2f7918cdec58f9d7ee9551048a67789577a46a761f3e2",
+      "sha256_after": "14e7e943ee0cb4b50bf2f7918cdec58f9d7ee9551048a67789577a46a761f3e2"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Deer/Characters/deer_char_top_leg_01.png",
+      "to": "Assets/Watercolor/Deer/Characters/deer_char_top_leg_01.png",
+      "sha256_before": "47293afd8998d6b7838ea435f4d91530929c008ffe52a10d6feeae35becad944",
+      "sha256_after": "47293afd8998d6b7838ea435f4d91530929c008ffe52a10d6feeae35becad944"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Deer/Characters/deer_char_top_leg_02.png",
+      "to": "Assets/Watercolor/Deer/Characters/deer_char_top_leg_02.png",
+      "sha256_before": "afe4916cba142421028a05ba04bd8312842fb28517c4697589c6cc8a4597f479",
+      "sha256_after": "afe4916cba142421028a05ba04bd8312842fb28517c4697589c6cc8a4597f479"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Deer/Characters/deer_char_top_sil.png",
+      "to": "Assets/Watercolor/Deer/Characters/deer_char_top_sil.png",
+      "sha256_before": "75ad00d1a1fafbd2c723ac02ddd6fcc94107b36b2d176dec2e6f263df93686df",
+      "sha256_after": "75ad00d1a1fafbd2c723ac02ddd6fcc94107b36b2d176dec2e6f263df93686df"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Deer/Characters/deer_char_walk_01.png",
+      "to": "Assets/Watercolor/Deer/Characters/deer_char_walk_01.png",
+      "sha256_before": "eee9703fbe39c63d8cd5b94e16630436ebdc1b31b1705b25f3169e94dbbce0be",
+      "sha256_after": "eee9703fbe39c63d8cd5b94e16630436ebdc1b31b1705b25f3169e94dbbce0be"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Deer/Characters/deer_char_walk_02.png",
+      "to": "Assets/Watercolor/Deer/Characters/deer_char_walk_02.png",
+      "sha256_before": "63391e484bf44459a37dbbc48659e7fc67c1cbedc35d6b33a8e90182afd104e0",
+      "sha256_after": "63391e484bf44459a37dbbc48659e7fc67c1cbedc35d6b33a8e90182afd104e0"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Deer/Characters/deer_char_walk_03.png",
+      "to": "Assets/Watercolor/Deer/Characters/deer_char_walk_03.png",
+      "sha256_before": "ce0d437da521994aee74059a591d7389f69d47e3224239baacb34cda6593856e",
+      "sha256_after": "ce0d437da521994aee74059a591d7389f69d47e3224239baacb34cda6593856e"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Deer/Characters/deer_char_walk_04.png",
+      "to": "Assets/Watercolor/Deer/Characters/deer_char_walk_04.png",
+      "sha256_before": "ed9c88e5cbac3a2ee7e6d5915e9663f38714f18f12525572058369d48a40fa10",
+      "sha256_after": "ed9c88e5cbac3a2ee7e6d5915e9663f38714f18f12525572058369d48a40fa10"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Deer/Characters/deer_char_walk_05.png",
+      "to": "Assets/Watercolor/Deer/Characters/deer_char_walk_05.png",
+      "sha256_before": "90ea64c7bd6835b7e00487564c19a931238ec3e5eecf247dd88d0ebbd95a5349",
+      "sha256_after": "90ea64c7bd6835b7e00487564c19a931238ec3e5eecf247dd88d0ebbd95a5349"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Deer/Characters/deer_char_walk_06.png",
+      "to": "Assets/Watercolor/Deer/Characters/deer_char_walk_06.png",
+      "sha256_before": "ab2c854b70deaefee55f286cc0b5a50bb9747c6e9fc03f85da275f055fa37623",
+      "sha256_after": "ab2c854b70deaefee55f286cc0b5a50bb9747c6e9fc03f85da275f055fa37623"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Deer/Characters/deer_char_walk_07.png",
+      "to": "Assets/Watercolor/Deer/Characters/deer_char_walk_07.png",
+      "sha256_before": "c029383bb96f9ff436ba199bee461a44b2c192cd08dbf59b3bc2f9515a9286f7",
+      "sha256_after": "c029383bb96f9ff436ba199bee461a44b2c192cd08dbf59b3bc2f9515a9286f7"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Deer/Characters/deer_char_walk_08.png",
+      "to": "Assets/Watercolor/Deer/Characters/deer_char_walk_08.png",
+      "sha256_before": "2ba839729dfe817263412b3c9aaa1b1093c0da7197504b254f5891929d8744f0",
+      "sha256_after": "2ba839729dfe817263412b3c9aaa1b1093c0da7197504b254f5891929d8744f0"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Deer/Palette/deer_pal_main.json",
+      "to": "Assets/Watercolor/Deer/Palette/deer_pal_main.json",
+      "sha256_before": "509e4eab7b5882aa9a731ac45a9a49ad08f0d5cefcd25aebbc4b01c63849e66e",
+      "sha256_after": "509e4eab7b5882aa9a731ac45a9a49ad08f0d5cefcd25aebbc4b01c63849e66e"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Deer/Palette/deer_pal_swap_cfg.json",
+      "to": "Assets/Watercolor/Deer/Palette/deer_pal_swap_cfg.json",
+      "sha256_before": "98dac1aa07930682a99d627ba2f77e2c7ebe12510b32ef529ea8b22d335293dc",
+      "sha256_after": "98dac1aa07930682a99d627ba2f77e2c7ebe12510b32ef529ea8b22d335293dc"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Deer/Scenes/EDGE/deer_scene_edge_far.png",
+      "to": "Assets/Watercolor/Deer/Scenes/EDGE/deer_scene_edge_far.png",
+      "sha256_before": "04ff9fda62e3d3b55c9a4dddddab307c02df5e58c8605e298482285df2413c73",
+      "sha256_after": "04ff9fda62e3d3b55c9a4dddddab307c02df5e58c8605e298482285df2413c73"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Deer/Scenes/EDGE/deer_scene_edge_fog.png",
+      "to": "Assets/Watercolor/Deer/Scenes/EDGE/deer_scene_edge_fog.png",
+      "sha256_before": "10b290b4665fefc3007084fea00901280e6406f9807416d14d6499284f23eb07",
+      "sha256_after": "10b290b4665fefc3007084fea00901280e6406f9807416d14d6499284f23eb07"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Deer/Scenes/EDGE/deer_scene_edge_mid.png",
+      "to": "Assets/Watercolor/Deer/Scenes/EDGE/deer_scene_edge_mid.png",
+      "sha256_before": "8f828777629b8793972a5c19d61912018c7fa063b96f7ef4633d045defc4edb4",
+      "sha256_after": "8f828777629b8793972a5c19d61912018c7fa063b96f7ef4633d045defc4edb4"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Deer/Scenes/EDGE/deer_scene_edge_near.png",
+      "to": "Assets/Watercolor/Deer/Scenes/EDGE/deer_scene_edge_near.png",
+      "sha256_before": "7a1e123f24e3c6f523e542fccc4c4ea7164ff836846f65ad680e3ff46c9ffa9d",
+      "sha256_after": "7a1e123f24e3c6f523e542fccc4c4ea7164ff836846f65ad680e3ff46c9ffa9d"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Deer/Scenes/EDGE/deer_scene_edge_sky.png",
+      "to": "Assets/Watercolor/Deer/Scenes/EDGE/deer_scene_edge_sky.png",
+      "sha256_before": "a3004b2745357b6b1c39f1b9589f420cd889c274e488fcb53284ebd49bbfcd56",
+      "sha256_after": "a3004b2745357b6b1c39f1b9589f420cd889c274e488fcb53284ebd49bbfcd56"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Deer/Scenes/EDGE/deer_scene_edge_water.png",
+      "to": "Assets/Watercolor/Deer/Scenes/EDGE/deer_scene_edge_water.png",
+      "sha256_before": "860c78076aa377d043ee1f8b6cc2e358cfae144ab8cfa5b23fcaa52c8d3028cf",
+      "sha256_after": "860c78076aa377d043ee1f8b6cc2e358cfae144ab8cfa5b23fcaa52c8d3028cf"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Deer/Scenes/TUND/deer_scene_tund_far.png",
+      "to": "Assets/Watercolor/Deer/Scenes/TUND/deer_scene_tund_far.png",
+      "sha256_before": "d43668322edfb632241e569260ffac50d248c487c2d8cea137967023c83baf76",
+      "sha256_after": "d43668322edfb632241e569260ffac50d248c487c2d8cea137967023c83baf76"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Deer/Scenes/TUND/deer_scene_tund_fog.png",
+      "to": "Assets/Watercolor/Deer/Scenes/TUND/deer_scene_tund_fog.png",
+      "sha256_before": "7e38c40f9eb307b70024063dc95be4ab7c3cb5ee251c8014634ceb3027f6c45b",
+      "sha256_after": "7e38c40f9eb307b70024063dc95be4ab7c3cb5ee251c8014634ceb3027f6c45b"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Deer/Scenes/TUND/deer_scene_tund_mid.png",
+      "to": "Assets/Watercolor/Deer/Scenes/TUND/deer_scene_tund_mid.png",
+      "sha256_before": "cc40c230945014c00230c086fb801830bf2e077a6c5e5df14445aa841a1c3cd9",
+      "sha256_after": "cc40c230945014c00230c086fb801830bf2e077a6c5e5df14445aa841a1c3cd9"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Deer/Scenes/TUND/deer_scene_tund_near.png",
+      "to": "Assets/Watercolor/Deer/Scenes/TUND/deer_scene_tund_near.png",
+      "sha256_before": "20cced0847446eab0fe074a2fb28c3c637a6c57ce8f8e4cbdd95f6ad7c79c03f",
+      "sha256_after": "20cced0847446eab0fe074a2fb28c3c637a6c57ce8f8e4cbdd95f6ad7c79c03f"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Deer/Scenes/TUND/deer_scene_tund_sky.png",
+      "to": "Assets/Watercolor/Deer/Scenes/TUND/deer_scene_tund_sky.png",
+      "sha256_before": "d60c93a1ef42a367c6d2a4a76e59dcd8d6f7238dd884ddd599b9ae569123ef88",
+      "sha256_after": "d60c93a1ef42a367c6d2a4a76e59dcd8d6f7238dd884ddd599b9ae569123ef88"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Deer/Scenes/TUND/deer_scene_tund_water.png",
+      "to": "Assets/Watercolor/Deer/Scenes/TUND/deer_scene_tund_water.png",
+      "sha256_before": "623e36fd382839c0cce3c94fb3fd0d4aab496d2e3d021382f9572f2bb5b9a0e7",
+      "sha256_after": "623e36fd382839c0cce3c94fb3fd0d4aab496d2e3d021382f9572f2bb5b9a0e7"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Deer/Scenes/VAL/deer_scene_val_far.png",
+      "to": "Assets/Watercolor/Deer/Scenes/VAL/deer_scene_val_far.png",
+      "sha256_before": "b4258625afa0456bbff87444614cc085304a3f81b337fb845550c66194e1eae6",
+      "sha256_after": "b4258625afa0456bbff87444614cc085304a3f81b337fb845550c66194e1eae6"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Deer/Scenes/VAL/deer_scene_val_fog.png",
+      "to": "Assets/Watercolor/Deer/Scenes/VAL/deer_scene_val_fog.png",
+      "sha256_before": "d01287ee179ff8791f2b1fde17778d01ba09f122080e132426da7b26ef706f97",
+      "sha256_after": "d01287ee179ff8791f2b1fde17778d01ba09f122080e132426da7b26ef706f97"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Deer/Scenes/VAL/deer_scene_val_mid.png",
+      "to": "Assets/Watercolor/Deer/Scenes/VAL/deer_scene_val_mid.png",
+      "sha256_before": "6e2888ab59f796b669accafd59c4f71598d41143ef78224ab057c9a4fc5dd782",
+      "sha256_after": "6e2888ab59f796b669accafd59c4f71598d41143ef78224ab057c9a4fc5dd782"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Deer/Scenes/VAL/deer_scene_val_near.png",
+      "to": "Assets/Watercolor/Deer/Scenes/VAL/deer_scene_val_near.png",
+      "sha256_before": "6f9569c4d8859bd9831691d2abb40a2e289b8572e09609a8eafcf54f6cb9d8f7",
+      "sha256_after": "6f9569c4d8859bd9831691d2abb40a2e289b8572e09609a8eafcf54f6cb9d8f7"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Deer/Scenes/VAL/deer_scene_val_sky.png",
+      "to": "Assets/Watercolor/Deer/Scenes/VAL/deer_scene_val_sky.png",
+      "sha256_before": "8ebaf14fe976d28e0ca8e92e58cc3488a744bd403dbf636dfe08f5a678e79319",
+      "sha256_after": "8ebaf14fe976d28e0ca8e92e58cc3488a744bd403dbf636dfe08f5a678e79319"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Deer/Scenes/VAL/deer_scene_val_water.png",
+      "to": "Assets/Watercolor/Deer/Scenes/VAL/deer_scene_val_water.png",
+      "sha256_before": "f9a1b1ae26696e4875e9f0c515b79204ada1b8fcbf5346683e8b1485c1cacae2",
+      "sha256_after": "f9a1b1ae26696e4875e9f0c515b79204ada1b8fcbf5346683e8b1485c1cacae2"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Deer/Traces/deer_good_overpass.png",
+      "to": "Assets/Watercolor/Deer/Traces/deer_good_overpass.png",
+      "sha256_before": "813e9471e30aae83359c1ddcb2b566df2595fa448ef60b3846dac6448a450493",
+      "sha256_after": "813e9471e30aae83359c1ddcb2b566df2595fa448ef60b3846dac6448a450493"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Deer/Traces/deer_trace_fence.png",
+      "to": "Assets/Watercolor/Deer/Traces/deer_trace_fence.png",
+      "sha256_before": "f2c024f6bf24203f6c3af856ec82d59f0d148bd4b9ca2e2822018c07dd526ca7",
+      "sha256_after": "f2c024f6bf24203f6c3af856ec82d59f0d148bd4b9ca2e2822018c07dd526ca7"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Deer/Traces/deer_trace_mine_dust.png",
+      "to": "Assets/Watercolor/Deer/Traces/deer_trace_mine_dust.png",
+      "sha256_before": "b6fe4af907d5360493df59720f5130f00854dee695381060fad5fd1954725bd6",
+      "sha256_after": "b6fe4af907d5360493df59720f5130f00854dee695381060fad5fd1954725bd6"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Deer/Traces/deer_trace_mine_scar.png",
+      "to": "Assets/Watercolor/Deer/Traces/deer_trace_mine_scar.png",
+      "sha256_before": "cf989fed232f4d63a36d0e0c44c40a3a808d5e771170d4743ef75fb3d3e744e3",
+      "sha256_after": "cf989fed232f4d63a36d0e0c44c40a3a808d5e771170d4743ef75fb3d3e744e3"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Deer/Traces/deer_trace_road.png",
+      "to": "Assets/Watercolor/Deer/Traces/deer_trace_road.png",
+      "sha256_before": "b00614b6847e3e1a077c9d35e5a5ce84f06a55dc24be041df1fec614f812c1e8",
+      "sha256_after": "b00614b6847e3e1a077c9d35e5a5ce84f06a55dc24be041df1fec614f812c1e8"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Deer/Traces/deer_trace_road_glow.png",
+      "to": "Assets/Watercolor/Deer/Traces/deer_trace_road_glow.png",
+      "sha256_before": "56ed1c8d8bc27dab0e373a17664e7d102e02529a1d3c6bf0e0476c3828803fdc",
+      "sha256_after": "56ed1c8d8bc27dab0e373a17664e7d102e02529a1d3c6bf0e0476c3828803fdc"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Deer/UI/deer_ui_antler.png",
+      "to": "Assets/Watercolor/Deer/UI/deer_ui_antler.png",
+      "sha256_before": "d9ec133d71ce38f81974bb972bdbdfaf31cebcbcb82ed2b720dbd3edc29a3b9c",
+      "sha256_after": "d9ec133d71ce38f81974bb972bdbdfaf31cebcbcb82ed2b720dbd3edc29a3b9c"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Deer/UI/deer_ui_antler_pressed.png",
+      "to": "Assets/Watercolor/Deer/UI/deer_ui_antler_pressed.png",
+      "sha256_before": "cbc9304a101011d279812a57e195284b462174e9a0c5973b06bb965aa59a4000",
+      "sha256_after": "cbc9304a101011d279812a57e195284b462174e9a0c5973b06bb965aa59a4000"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Deer/UI/deer_ui_footprint.png",
+      "to": "Assets/Watercolor/Deer/UI/deer_ui_footprint.png",
+      "sha256_before": "c3bf2b2f1b9d3f8fc24fdb2b7f1e18af9601927a7c49772f8a7de6c885368eec",
+      "sha256_after": "c3bf2b2f1b9d3f8fc24fdb2b7f1e18af9601927a7c49772f8a7de6c885368eec"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Deer/UI/deer_ui_waypoint.png",
+      "to": "Assets/Watercolor/Deer/UI/deer_ui_waypoint.png",
+      "sha256_before": "020f01dc11639c39660e5bebd30d5d9b6569acf1bfbd92e758e4a56610d21949",
+      "sha256_after": "020f01dc11639c39660e5bebd30d5d9b6569acf1bfbd92e758e4a56610d21949"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Deer/VFX/deer_fx_breath_01.png",
+      "to": "Assets/Watercolor/Deer/VFX/deer_fx_breath_01.png",
+      "sha256_before": "a359457a581d8fb2f45fd46933c7f8f3fc8d083f7132b183a088dc4c706f14f0",
+      "sha256_after": "a359457a581d8fb2f45fd46933c7f8f3fc8d083f7132b183a088dc4c706f14f0"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Deer/VFX/deer_fx_dust_01.png",
+      "to": "Assets/Watercolor/Deer/VFX/deer_fx_dust_01.png",
+      "sha256_before": "3f29f48e9b7b151bfae5a5c789786d763b38780c2c0761594b44a992a9823d4a",
+      "sha256_after": "3f29f48e9b7b151bfae5a5c789786d763b38780c2c0761594b44a992a9823d4a"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Deer/VFX/deer_fx_kicksnow_01.png",
+      "to": "Assets/Watercolor/Deer/VFX/deer_fx_kicksnow_01.png",
+      "sha256_before": "1f8beadee396c4464f3c1fbcaca458a5236226bf21bc56ebfc37a2670032abf4",
+      "sha256_after": "1f8beadee396c4464f3c1fbcaca458a5236226bf21bc56ebfc37a2670032abf4"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Deer/VFX/deer_fx_snow_01.png",
+      "to": "Assets/Watercolor/Deer/VFX/deer_fx_snow_01.png",
+      "sha256_before": "a122fbc13a09ac14ce8f8f823cd315d93851e6ba97d82791dce1c1e151e9a8fd",
+      "sha256_after": "a122fbc13a09ac14ce8f8f823cd315d93851e6ba97d82791dce1c1e151e9a8fd"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/.DS_Store",
+      "to": "Assets/docs/migration-metadata/Assets/Watercolor/Goose/.DS_Store",
+      "sha256_before": "2d10f115cb6a84457a8406cbe65d8c4d18bb861de4128f998d341a178412c1b0",
+      "sha256_after": "2d10f115cb6a84457a8406cbe65d8c4d18bb861de4128f998d341a178412c1b0"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/Characters/goose_char_feed_01.png",
+      "to": "Assets/Watercolor/Goose/Characters/goose_char_feed_01.png",
+      "sha256_before": "6a66b045bb6153a98a2e3754c502285b339155987d29defe5fcaea7882704180",
+      "sha256_after": "6a66b045bb6153a98a2e3754c502285b339155987d29defe5fcaea7882704180"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/Characters/goose_char_feed_02.png",
+      "to": "Assets/Watercolor/Goose/Characters/goose_char_feed_02.png",
+      "sha256_before": "5564b6e5bf5e7f55c198a94078fea24576316d034ce135e2348cba382a1bb21f",
+      "sha256_after": "5564b6e5bf5e7f55c198a94078fea24576316d034ce135e2348cba382a1bb21f"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/Characters/goose_char_feed_03.png",
+      "to": "Assets/Watercolor/Goose/Characters/goose_char_feed_03.png",
+      "sha256_before": "0de4e01b22e27c31061d7ed56dcf98162e58152f476242fbc6a0626b884d2b1a",
+      "sha256_after": "0de4e01b22e27c31061d7ed56dcf98162e58152f476242fbc6a0626b884d2b1a"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/Characters/goose_char_feed_04.png",
+      "to": "Assets/Watercolor/Goose/Characters/goose_char_feed_04.png",
+      "sha256_before": "54fd123159bc582baa92c7ce47b906434c48d93e91c0f0c36ba943fc69e3a2c9",
+      "sha256_after": "54fd123159bc582baa92c7ce47b906434c48d93e91c0f0c36ba943fc69e3a2c9"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/Characters/goose_char_fly_side_01.png",
+      "to": "Assets/Watercolor/Goose/Characters/goose_char_fly_side_01.png",
+      "sha256_before": "20d452a2ee5f21b79b55f52ffe5b7e76efb4e33f6aedcbc2b0278a489ddaf6eb",
+      "sha256_after": "20d452a2ee5f21b79b55f52ffe5b7e76efb4e33f6aedcbc2b0278a489ddaf6eb"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/Characters/goose_char_fly_side_02.png",
+      "to": "Assets/Watercolor/Goose/Characters/goose_char_fly_side_02.png",
+      "sha256_before": "aeca5201055e9f446d27ee2b8da19f7834816360d925ab509f2ae9d451fdded7",
+      "sha256_after": "aeca5201055e9f446d27ee2b8da19f7834816360d925ab509f2ae9d451fdded7"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/Characters/goose_char_fly_side_03.png",
+      "to": "Assets/Watercolor/Goose/Characters/goose_char_fly_side_03.png",
+      "sha256_before": "9470ad28e442885042c6d6c8f51f57960926a242533a7460952bbab9c80b9fb7",
+      "sha256_after": "9470ad28e442885042c6d6c8f51f57960926a242533a7460952bbab9c80b9fb7"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/Characters/goose_char_fly_side_04.png",
+      "to": "Assets/Watercolor/Goose/Characters/goose_char_fly_side_04.png",
+      "sha256_before": "ac3b9d682f14bac77696fd5b26db3ce3a1a8cc34271369104e88877bc284d11c",
+      "sha256_after": "ac3b9d682f14bac77696fd5b26db3ce3a1a8cc34271369104e88877bc284d11c"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/Characters/goose_char_fly_side_05.png",
+      "to": "Assets/Watercolor/Goose/Characters/goose_char_fly_side_05.png",
+      "sha256_before": "73974685378ab75dc748ea813b97c07d8d56ade8df7b48a5d67de36af0b00138",
+      "sha256_after": "73974685378ab75dc748ea813b97c07d8d56ade8df7b48a5d67de36af0b00138"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/Characters/goose_char_fly_side_06.png",
+      "to": "Assets/Watercolor/Goose/Characters/goose_char_fly_side_06.png",
+      "sha256_before": "92a0f41f3ad6d4d1820aee5aa0a236de52555d52c90977d3dfb4d2a7222a35fc",
+      "sha256_after": "92a0f41f3ad6d4d1820aee5aa0a236de52555d52c90977d3dfb4d2a7222a35fc"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/Characters/goose_char_fly_side_07.png",
+      "to": "Assets/Watercolor/Goose/Characters/goose_char_fly_side_07.png",
+      "sha256_before": "bb25687befd42b8dd73999d99d2295bc6acea31a5c05ed8de0adf879e24f923e",
+      "sha256_after": "bb25687befd42b8dd73999d99d2295bc6acea31a5c05ed8de0adf879e24f923e"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/Characters/goose_char_fly_side_08.png",
+      "to": "Assets/Watercolor/Goose/Characters/goose_char_fly_side_08.png",
+      "sha256_before": "c548d05a603b2c40376aa8364bc6d1f3ba076e7e9b76f20801fae1cf62757459",
+      "sha256_after": "c548d05a603b2c40376aa8364bc6d1f3ba076e7e9b76f20801fae1cf62757459"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/Characters/goose_char_glide_01.png",
+      "to": "Assets/Watercolor/Goose/Characters/goose_char_glide_01.png",
+      "sha256_before": "52c07b7444742c406910344ad4e89e325b68141e3f35ca5ef3723dbfa19ef836",
+      "sha256_after": "52c07b7444742c406910344ad4e89e325b68141e3f35ca5ef3723dbfa19ef836"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/Characters/goose_char_glide_02.png",
+      "to": "Assets/Watercolor/Goose/Characters/goose_char_glide_02.png",
+      "sha256_before": "85e538a0c7894985dfe3da3355100f7426a6e3817e90e7da355e4887ec55145c",
+      "sha256_after": "85e538a0c7894985dfe3da3355100f7426a6e3817e90e7da355e4887ec55145c"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/Characters/goose_char_juvenile_fly_01.png",
+      "to": "Assets/Watercolor/Goose/Characters/goose_char_juvenile_fly_01.png",
+      "sha256_before": "dfe623e7716aa29979e83a7de882d950c16be0c97ba5ef93818d9930dad6d047",
+      "sha256_after": "dfe623e7716aa29979e83a7de882d950c16be0c97ba5ef93818d9930dad6d047"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/Characters/goose_char_juvenile_fly_02.png",
+      "to": "Assets/Watercolor/Goose/Characters/goose_char_juvenile_fly_02.png",
+      "sha256_before": "8f59a41c62ba2cc1bfbd9ed5bdd438a51900999ef14e8ef845aadec34f24caf5",
+      "sha256_after": "8f59a41c62ba2cc1bfbd9ed5bdd438a51900999ef14e8ef845aadec34f24caf5"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/Characters/goose_char_juvenile_fly_03.png",
+      "to": "Assets/Watercolor/Goose/Characters/goose_char_juvenile_fly_03.png",
+      "sha256_before": "4dd67a1be916ca028fc60fc728dcfb6b0cb179fe918a086ddb34bdaaafdb8143",
+      "sha256_after": "4dd67a1be916ca028fc60fc728dcfb6b0cb179fe918a086ddb34bdaaafdb8143"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/Characters/goose_char_juvenile_fly_04.png",
+      "to": "Assets/Watercolor/Goose/Characters/goose_char_juvenile_fly_04.png",
+      "sha256_before": "5c773965cafea11fe0b86be3ee703e4400457c09069b2aaf1f8dd0a6c9825863",
+      "sha256_after": "5c773965cafea11fe0b86be3ee703e4400457c09069b2aaf1f8dd0a6c9825863"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/Characters/goose_char_land_01.png",
+      "to": "Assets/Watercolor/Goose/Characters/goose_char_land_01.png",
+      "sha256_before": "208c5ec0d3475538d9ac8f6a9e834cffd186163d02304e3b074db868ee7f9eca",
+      "sha256_after": "208c5ec0d3475538d9ac8f6a9e834cffd186163d02304e3b074db868ee7f9eca"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/Characters/goose_char_land_02.png",
+      "to": "Assets/Watercolor/Goose/Characters/goose_char_land_02.png",
+      "sha256_before": "afccfb1e3086fe08d0e1351811f34a1791718737e7f26e3d010a6b1119413911",
+      "sha256_after": "afccfb1e3086fe08d0e1351811f34a1791718737e7f26e3d010a6b1119413911"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/Characters/goose_char_land_03.png",
+      "to": "Assets/Watercolor/Goose/Characters/goose_char_land_03.png",
+      "sha256_before": "c1ba16878c4fb65cf675b111e81095ef22c39633de75f7da02a915b2d77013b6",
+      "sha256_after": "c1ba16878c4fb65cf675b111e81095ef22c39633de75f7da02a915b2d77013b6"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/Characters/goose_char_land_04.png",
+      "to": "Assets/Watercolor/Goose/Characters/goose_char_land_04.png",
+      "sha256_before": "d98004797cfd85a66fd897e6d0cce7edc4fab88f5391814fd6e475c5c7190a9a",
+      "sha256_after": "d98004797cfd85a66fd897e6d0cce7edc4fab88f5391814fd6e475c5c7190a9a"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/Characters/goose_char_land_05.png",
+      "to": "Assets/Watercolor/Goose/Characters/goose_char_land_05.png",
+      "sha256_before": "dc18c03e70184dcc629a10e960d2cad353d785e368e010bcefe332b761edfe24",
+      "sha256_after": "dc18c03e70184dcc629a10e960d2cad353d785e368e010bcefe332b761edfe24"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/Characters/goose_char_land_06.png",
+      "to": "Assets/Watercolor/Goose/Characters/goose_char_land_06.png",
+      "sha256_before": "e12fb2d105506a5f704a5867a5d359b5525546df951b9fef6691806b3a0d9df5",
+      "sha256_after": "e12fb2d105506a5f704a5867a5d359b5525546df951b9fef6691806b3a0d9df5"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/Characters/goose_char_lowenergy.png",
+      "to": "Assets/Watercolor/Goose/Characters/goose_char_lowenergy.png",
+      "sha256_before": "ea3272a53a488e00a35f4b4c0d1baa2f19b1e709408b02d40e3e8437e34a589b",
+      "sha256_after": "ea3272a53a488e00a35f4b4c0d1baa2f19b1e709408b02d40e3e8437e34a589b"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/Characters/goose_char_rest_float_01.png",
+      "to": "Assets/Watercolor/Goose/Characters/goose_char_rest_float_01.png",
+      "sha256_before": "f6cd9ef9a26b4fd14d3472df2000890f7eaf00aa75a5bc1def75704e3f8f97c3",
+      "sha256_after": "f6cd9ef9a26b4fd14d3472df2000890f7eaf00aa75a5bc1def75704e3f8f97c3"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/Characters/goose_char_rest_float_02.png",
+      "to": "Assets/Watercolor/Goose/Characters/goose_char_rest_float_02.png",
+      "sha256_before": "b8aaff3051dada87245d755d39a618bbab0f854fa702472cf71b6a675e06c904",
+      "sha256_after": "b8aaff3051dada87245d755d39a618bbab0f854fa702472cf71b6a675e06c904"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/Characters/goose_char_stagger_01.png",
+      "to": "Assets/Watercolor/Goose/Characters/goose_char_stagger_01.png",
+      "sha256_before": "1e44b298b3eec041f26e35f6a9d9ebc1f662ff88280c55f01bd0ce2c1ca6c97b",
+      "sha256_after": "1e44b298b3eec041f26e35f6a9d9ebc1f662ff88280c55f01bd0ce2c1ca6c97b"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/Characters/goose_char_stagger_02.png",
+      "to": "Assets/Watercolor/Goose/Characters/goose_char_stagger_02.png",
+      "sha256_before": "2290f12dfd2de65856d90d0ef95f45a753641243e1c668e6cd4f5a2b754d7968",
+      "sha256_after": "2290f12dfd2de65856d90d0ef95f45a753641243e1c668e6cd4f5a2b754d7968"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/Characters/goose_char_stagger_03.png",
+      "to": "Assets/Watercolor/Goose/Characters/goose_char_stagger_03.png",
+      "sha256_before": "02bea9434b50e8086b59aa22f1fe43b459fa7a0a376ba3a81ec0908676083703",
+      "sha256_after": "02bea9434b50e8086b59aa22f1fe43b459fa7a0a376ba3a81ec0908676083703"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/Characters/goose_char_takeoff_01.png",
+      "to": "Assets/Watercolor/Goose/Characters/goose_char_takeoff_01.png",
+      "sha256_before": "2d285083cd7e665601248577957e0696b7f7a289d9793abbde8de0fc364ffe88",
+      "sha256_after": "2d285083cd7e665601248577957e0696b7f7a289d9793abbde8de0fc364ffe88"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/Characters/goose_char_takeoff_02.png",
+      "to": "Assets/Watercolor/Goose/Characters/goose_char_takeoff_02.png",
+      "sha256_before": "bbf9f026e75676d8b544c1478f87ac1de1706a876b6592f951c16f8c7a9871e4",
+      "sha256_after": "bbf9f026e75676d8b544c1478f87ac1de1706a876b6592f951c16f8c7a9871e4"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/Characters/goose_char_takeoff_03.png",
+      "to": "Assets/Watercolor/Goose/Characters/goose_char_takeoff_03.png",
+      "sha256_before": "1290f705e1b40f53faa500adc20fafde4b056b03f82ffe92b12e62a82633f1d0",
+      "sha256_after": "1290f705e1b40f53faa500adc20fafde4b056b03f82ffe92b12e62a82633f1d0"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/Characters/goose_char_takeoff_04.png",
+      "to": "Assets/Watercolor/Goose/Characters/goose_char_takeoff_04.png",
+      "sha256_before": "86d46d126b2e93cbe83529808857399f8acfd5274a8b1d35a47249586be68e8f",
+      "sha256_after": "86d46d126b2e93cbe83529808857399f8acfd5274a8b1d35a47249586be68e8f"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/Characters/goose_char_takeoff_05.png",
+      "to": "Assets/Watercolor/Goose/Characters/goose_char_takeoff_05.png",
+      "sha256_before": "6c7980fabae5e569e478af09e12e41c9d86591c593033f2dba1ddee32e479f62",
+      "sha256_after": "6c7980fabae5e569e478af09e12e41c9d86591c593033f2dba1ddee32e479f62"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/Characters/goose_char_takeoff_06.png",
+      "to": "Assets/Watercolor/Goose/Characters/goose_char_takeoff_06.png",
+      "sha256_before": "d1b5a7b2b4db1ba9682fd56fb7d6cf8a268423af84b113b69bfbe0e390112d30",
+      "sha256_after": "d1b5a7b2b4db1ba9682fd56fb7d6cf8a268423af84b113b69bfbe0e390112d30"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/Characters/goose_char_top_sil.png",
+      "to": "Assets/Watercolor/Goose/Characters/goose_char_top_sil.png",
+      "sha256_before": "18abd7b23c7fed94e11758696b4b8cadcebcbf53675d43d826ca2a54e271f09c",
+      "sha256_after": "18abd7b23c7fed94e11758696b4b8cadcebcbf53675d43d826ca2a54e271f09c"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/Characters/goose_char_top_wing_01.png",
+      "to": "Assets/Watercolor/Goose/Characters/goose_char_top_wing_01.png",
+      "sha256_before": "45786798fe2f31ff10aa01ae27e66f8fcf185e6497c55732550bf0a953bc6fb2",
+      "sha256_after": "45786798fe2f31ff10aa01ae27e66f8fcf185e6497c55732550bf0a953bc6fb2"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/Characters/goose_char_top_wing_02.png",
+      "to": "Assets/Watercolor/Goose/Characters/goose_char_top_wing_02.png",
+      "sha256_before": "ef6ed1726be227d89d41b02438f79ca56fed690989c617972204ff85e0833e6a",
+      "sha256_after": "ef6ed1726be227d89d41b02438f79ca56fed690989c617972204ff85e0833e6a"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/Palette/goose_pal_main.json",
+      "to": "Assets/Watercolor/Goose/Palette/goose_pal_main.json",
+      "sha256_before": "777b3856cc87d00aad05d932e4017d8c657658c7942ee457d94dfe7690a4f680",
+      "sha256_after": "777b3856cc87d00aad05d932e4017d8c657658c7942ee457d94dfe7690a4f680"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/Palette/goose_pal_swap_cfg.json",
+      "to": "Assets/Watercolor/Goose/Palette/goose_pal_swap_cfg.json",
+      "sha256_before": "2c24479921fae5db307a3281fa2adfe6fe1fb36d2fc45135241b11bc590c3203",
+      "sha256_after": "2c24479921fae5db307a3281fa2adfe6fe1fb36d2fc45135241b11bc590c3203"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/Scenes/.DS_Store",
+      "to": "Assets/docs/migration-metadata/Assets/Watercolor/Goose/Scenes/.DS_Store",
+      "sha256_before": "4f57eacdf62d904dd7b944d169215ae30b690b9fce1fa6ced4d0221dced1e3b5",
+      "sha256_after": "4f57eacdf62d904dd7b944d169215ae30b690b9fce1fa6ced4d0221dced1e3b5"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/Scenes/CST/goose_scene_cst_far.png",
+      "to": "Assets/Watercolor/Goose/Scenes/CST/goose_scene_cst_far.png",
+      "sha256_before": "7cdc37985c8e0a840b2e066266548a0147d2d1e1d91d8b0e57640a2c3fa0c070",
+      "sha256_after": "7cdc37985c8e0a840b2e066266548a0147d2d1e1d91d8b0e57640a2c3fa0c070"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/Scenes/CST/goose_scene_cst_fog.png",
+      "to": "Assets/Watercolor/Goose/Scenes/CST/goose_scene_cst_fog.png",
+      "sha256_before": "2a127fe40b7aabe0dfde9c54a7b94a6c23b9fa3248066570302425b4aecc45c6",
+      "sha256_after": "2a127fe40b7aabe0dfde9c54a7b94a6c23b9fa3248066570302425b4aecc45c6"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/Scenes/CST/goose_scene_cst_mid.png",
+      "to": "Assets/Watercolor/Goose/Scenes/CST/goose_scene_cst_mid.png",
+      "sha256_before": "ec5c6e96a7926fcac91ccccc1cb8cc25fbc6ae1f8130c923e68ed06be0db81db",
+      "sha256_after": "ec5c6e96a7926fcac91ccccc1cb8cc25fbc6ae1f8130c923e68ed06be0db81db"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/Scenes/CST/goose_scene_cst_near.png",
+      "to": "Assets/Watercolor/Goose/Scenes/CST/goose_scene_cst_near.png",
+      "sha256_before": "b6a395a0722d695bc8da3d8cada7c5d8519d1e23414cc7d73e5a4bc81322aaa7",
+      "sha256_after": "b6a395a0722d695bc8da3d8cada7c5d8519d1e23414cc7d73e5a4bc81322aaa7"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/Scenes/CST/goose_scene_cst_sky.png",
+      "to": "Assets/Watercolor/Goose/Scenes/CST/goose_scene_cst_sky.png",
+      "sha256_before": "63ffc34c5f1969415489898a250548f0ccd049f20851acccfcc00dfd0ad385d8",
+      "sha256_after": "63ffc34c5f1969415489898a250548f0ccd049f20851acccfcc00dfd0ad385d8"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/Scenes/CST/goose_scene_cst_water.png",
+      "to": "Assets/Watercolor/Goose/Scenes/CST/goose_scene_cst_water.png",
+      "sha256_before": "dba6ced03cd41e34b699e035a40aa5ce49f3e9f50b56ba7dcd9f372ad039268d",
+      "sha256_after": "dba6ced03cd41e34b699e035a40aa5ce49f3e9f50b56ba7dcd9f372ad039268d"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/Scenes/MTN/goose_scene_mtn_far.png",
+      "to": "Assets/Watercolor/Goose/Scenes/MTN/goose_scene_mtn_far.png",
+      "sha256_before": "66380a6c7363fd8e1070568b81b5837b3dcc113c19e9e1af277008530b3cb906",
+      "sha256_after": "66380a6c7363fd8e1070568b81b5837b3dcc113c19e9e1af277008530b3cb906"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/Scenes/MTN/goose_scene_mtn_fog.png",
+      "to": "Assets/Watercolor/Goose/Scenes/MTN/goose_scene_mtn_fog.png",
+      "sha256_before": "ef4383a7179a7298374b537594907d1245427b5e0458342c2cc8d84222e11931",
+      "sha256_after": "ef4383a7179a7298374b537594907d1245427b5e0458342c2cc8d84222e11931"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/Scenes/MTN/goose_scene_mtn_mid.png",
+      "to": "Assets/Watercolor/Goose/Scenes/MTN/goose_scene_mtn_mid.png",
+      "sha256_before": "98a3abfa1d01185df59ceca38dfeefe801dff90437654d16a3d99ddd78153a4c",
+      "sha256_after": "98a3abfa1d01185df59ceca38dfeefe801dff90437654d16a3d99ddd78153a4c"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/Scenes/MTN/goose_scene_mtn_near.png",
+      "to": "Assets/Watercolor/Goose/Scenes/MTN/goose_scene_mtn_near.png",
+      "sha256_before": "452bfe87d5810fc68fe108c9bd3aeb1f63f18abfef915b9f58dd7852ac840451",
+      "sha256_after": "452bfe87d5810fc68fe108c9bd3aeb1f63f18abfef915b9f58dd7852ac840451"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/Scenes/MTN/goose_scene_mtn_sky.png",
+      "to": "Assets/Watercolor/Goose/Scenes/MTN/goose_scene_mtn_sky.png",
+      "sha256_before": "3b3705485c67f572d2732f2aae06d796f2df2fc99ad252fb53ee0d31e650e523",
+      "sha256_after": "3b3705485c67f572d2732f2aae06d796f2df2fc99ad252fb53ee0d31e650e523"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/Scenes/MTN/goose_scene_mtn_water.png",
+      "to": "Assets/Watercolor/Goose/Scenes/MTN/goose_scene_mtn_water.png",
+      "sha256_before": "c092223a4a8807370cd694d4cdeb01db12bd86e4d64041760ab67ed0a996b796",
+      "sha256_after": "c092223a4a8807370cd694d4cdeb01db12bd86e4d64041760ab67ed0a996b796"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/Scenes/OPT4/goose_scene_opt4_far.png",
+      "to": "Assets/Watercolor/Goose/Scenes/OPT4/goose_scene_opt4_far.png",
+      "sha256_before": "f3d1f8a2d91a539ec4f59efca7ebf85944ebab6f47f91f65b027b30bd94af357",
+      "sha256_after": "f3d1f8a2d91a539ec4f59efca7ebf85944ebab6f47f91f65b027b30bd94af357"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/Scenes/OPT4/goose_scene_opt4_fog.png",
+      "to": "Assets/Watercolor/Goose/Scenes/OPT4/goose_scene_opt4_fog.png",
+      "sha256_before": "f4e7a5aba101206ea279e503d1bf730e6785710c727ab4c521ff002cce764180",
+      "sha256_after": "f4e7a5aba101206ea279e503d1bf730e6785710c727ab4c521ff002cce764180"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/Scenes/OPT4/goose_scene_opt4_mid.png",
+      "to": "Assets/Watercolor/Goose/Scenes/OPT4/goose_scene_opt4_mid.png",
+      "sha256_before": "2dc24074c9179125406bd7e9c41e3c22938f8cd5f9f576e218b30116291b9db0",
+      "sha256_after": "2dc24074c9179125406bd7e9c41e3c22938f8cd5f9f576e218b30116291b9db0"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/Scenes/OPT4/goose_scene_opt4_near.png",
+      "to": "Assets/Watercolor/Goose/Scenes/OPT4/goose_scene_opt4_near.png",
+      "sha256_before": "71c1859bdce3c0622d0b192cf2e39ce1cf3c404c9df25dd10e70a8bc65c703d1",
+      "sha256_after": "71c1859bdce3c0622d0b192cf2e39ce1cf3c404c9df25dd10e70a8bc65c703d1"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/Scenes/OPT4/goose_scene_opt4_sky.png",
+      "to": "Assets/Watercolor/Goose/Scenes/OPT4/goose_scene_opt4_sky.png",
+      "sha256_before": "dca5aeb7a303707574462773001bd8ea775ee32eb6b95fafd45e0775ba558f2d",
+      "sha256_after": "dca5aeb7a303707574462773001bd8ea775ee32eb6b95fafd45e0775ba558f2d"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/Scenes/OPT4/goose_scene_opt4_water.png",
+      "to": "Assets/Watercolor/Goose/Scenes/OPT4/goose_scene_opt4_water.png",
+      "sha256_before": "c4bbf8f2bcef8e60e474e9d372a3c4a2faadf4c0ac64ee3c6a6c8196d89272bc",
+      "sha256_after": "c4bbf8f2bcef8e60e474e9d372a3c4a2faadf4c0ac64ee3c6a6c8196d89272bc"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/Scenes/WET/goose_scene_wet_far.png",
+      "to": "Assets/Watercolor/Goose/Scenes/WET/goose_scene_wet_far.png",
+      "sha256_before": "7db9d815b1b34c50f69d98a837625d810982a17f393a9fe0ffb87d87d021d989",
+      "sha256_after": "7db9d815b1b34c50f69d98a837625d810982a17f393a9fe0ffb87d87d021d989"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/Scenes/WET/goose_scene_wet_fog.png",
+      "to": "Assets/Watercolor/Goose/Scenes/WET/goose_scene_wet_fog.png",
+      "sha256_before": "27287efa961547c1f4ae4fb8e45a1bae4517dd4b338e1625f256f0d14c8bcf0d",
+      "sha256_after": "27287efa961547c1f4ae4fb8e45a1bae4517dd4b338e1625f256f0d14c8bcf0d"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/Scenes/WET/goose_scene_wet_mid.png",
+      "to": "Assets/Watercolor/Goose/Scenes/WET/goose_scene_wet_mid.png",
+      "sha256_before": "09c23e93fe5f6a4f19ceccd1487a66a75850476756342d957bad89d6ccdbbd56",
+      "sha256_after": "09c23e93fe5f6a4f19ceccd1487a66a75850476756342d957bad89d6ccdbbd56"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/Scenes/WET/goose_scene_wet_near.png",
+      "to": "Assets/Watercolor/Goose/Scenes/WET/goose_scene_wet_near.png",
+      "sha256_before": "49ef651b29d9ee79543d7069eb783d6c82dca81a1024810b2a37557dd8e3f8ba",
+      "sha256_after": "49ef651b29d9ee79543d7069eb783d6c82dca81a1024810b2a37557dd8e3f8ba"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/Scenes/WET/goose_scene_wet_sky.png",
+      "to": "Assets/Watercolor/Goose/Scenes/WET/goose_scene_wet_sky.png",
+      "sha256_before": "f16cdb0f9d8ed4d8e0f2f4917b447471aaed40e9418464d19a824413a0001f50",
+      "sha256_after": "f16cdb0f9d8ed4d8e0f2f4917b447471aaed40e9418464d19a824413a0001f50"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/Scenes/WET/goose_scene_wet_water.png",
+      "to": "Assets/Watercolor/Goose/Scenes/WET/goose_scene_wet_water.png",
+      "sha256_before": "587cc9d764a0bb11cc04f95cb5a3806fedcb8ccb810e94817e759c0b3a29c4b4",
+      "sha256_after": "587cc9d764a0bb11cc04f95cb5a3806fedcb8ccb810e94817e759c0b3a29c4b4"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/Traces/goose_mask_climate_dry.png",
+      "to": "Assets/Watercolor/Goose/Traces/goose_mask_climate_dry.png",
+      "sha256_before": "a31534b660cbe7ff1d88df3bb3906ac740330d276c413978211560d42d44f8e3",
+      "sha256_after": "a31534b660cbe7ff1d88df3bb3906ac740330d276c413978211560d42d44f8e3"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/Traces/goose_mask_climate_wet.png",
+      "to": "Assets/Watercolor/Goose/Traces/goose_mask_climate_wet.png",
+      "sha256_before": "181b64e8ef053816536dbfcf1050925ea6033a8ca8e37b453c08bc2261605205",
+      "sha256_after": "181b64e8ef053816536dbfcf1050925ea6033a8ca8e37b453c08bc2261605205"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/Traces/goose_trace_city_glow_01.png",
+      "to": "Assets/Watercolor/Goose/Traces/goose_trace_city_glow_01.png",
+      "sha256_before": "9ace89f896b19eefc5821ebc494dba8be73c4d0ea9de7bcd2fbfef7227d56ab8",
+      "sha256_after": "9ace89f896b19eefc5821ebc494dba8be73c4d0ea9de7bcd2fbfef7227d56ab8"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/Traces/goose_trace_city_glow_02.png",
+      "to": "Assets/Watercolor/Goose/Traces/goose_trace_city_glow_02.png",
+      "sha256_before": "c9955f85b59e89ad1d5299e00651bad2255c552e015243a948bc7fa6aa644eea",
+      "sha256_after": "c9955f85b59e89ad1d5299e00651bad2255c552e015243a948bc7fa6aa644eea"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/Traces/goose_trace_farm_mach.png",
+      "to": "Assets/Watercolor/Goose/Traces/goose_trace_farm_mach.png",
+      "sha256_before": "6233114eca8ebeb8620145767266fe0d9bc5c8e37ef2ef1107f4660ce97616ca",
+      "sha256_after": "6233114eca8ebeb8620145767266fe0d9bc5c8e37ef2ef1107f4660ce97616ca"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/Traces/goose_trace_farm_ridge.png",
+      "to": "Assets/Watercolor/Goose/Traces/goose_trace_farm_ridge.png",
+      "sha256_before": "7bac47788984d34c6e5e72f75caea9dbbf6994369d490b269bf5ff16e7141fce",
+      "sha256_after": "7bac47788984d34c6e5e72f75caea9dbbf6994369d490b269bf5ff16e7141fce"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/Traces/goose_trace_glass_facade.png",
+      "to": "Assets/Watercolor/Goose/Traces/goose_trace_glass_facade.png",
+      "sha256_before": "f33d465307a251fd8ae456467ee38e81a8e7952a35ccd2438306e559673045b8",
+      "sha256_after": "f33d465307a251fd8ae456467ee38e81a8e7952a35ccd2438306e559673045b8"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/Traces/goose_trace_glass_spec.png",
+      "to": "Assets/Watercolor/Goose/Traces/goose_trace_glass_spec.png",
+      "sha256_before": "457a1d9b9c3f1d14b4df3e7771ed67c80b6c8e58a3899e7f1602f1d815dba232",
+      "sha256_after": "457a1d9b9c3f1d14b4df3e7771ed67c80b6c8e58a3899e7f1602f1d815dba232"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/Traces/goose_trace_landfill_mask.png",
+      "to": "Assets/Watercolor/Goose/Traces/goose_trace_landfill_mask.png",
+      "sha256_before": "d004bf993bdcf1603b9e60677e7c8e5fdb9c0eaf7a9a6c37ae90086050b1e0e3",
+      "sha256_after": "d004bf993bdcf1603b9e60677e7c8e5fdb9c0eaf7a9a6c37ae90086050b1e0e3"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/Traces/goose_trace_pollute_oil.png",
+      "to": "Assets/Watercolor/Goose/Traces/goose_trace_pollute_oil.png",
+      "sha256_before": "6c262044d3baa9c640ab7031cf2cd2c2d377b5ac59a57b4bb13dd4a677098ce1",
+      "sha256_after": "6c262044d3baa9c640ab7031cf2cd2c2d377b5ac59a57b4bb13dd4a677098ce1"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/Traces/goose_trace_wind_blade.png",
+      "to": "Assets/Watercolor/Goose/Traces/goose_trace_wind_blade.png",
+      "sha256_before": "111659c775d870a4329112b3a7c0ca5ce51e958b7f64cc9b100d51ac53744f3f",
+      "sha256_after": "111659c775d870a4329112b3a7c0ca5ce51e958b7f64cc9b100d51ac53744f3f"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/Traces/goose_trace_wind_forage.png",
+      "to": "Assets/Watercolor/Goose/Traces/goose_trace_wind_forage.png",
+      "sha256_before": "354d36184fdc719ae2ec3a002057113623b454a1e5c3bc6148a4143d67641d35",
+      "sha256_after": "354d36184fdc719ae2ec3a002057113623b454a1e5c3bc6148a4143d67641d35"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/Traces/goose_trace_wind_tower.png",
+      "to": "Assets/Watercolor/Goose/Traces/goose_trace_wind_tower.png",
+      "sha256_before": "3170556ae8e421a1aba7e93ff25caf9199354da20e556184461227150d7072f8",
+      "sha256_after": "3170556ae8e421a1aba7e93ff25caf9199354da20e556184461227150d7072f8"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/UI/goose_ui_feather.png",
+      "to": "Assets/Watercolor/Goose/UI/goose_ui_feather.png",
+      "sha256_before": "eb6b36bc19cfc33872eb06cc8018a08ff3050abc0c71ebe2f349b6ba3a5c7095",
+      "sha256_after": "eb6b36bc19cfc33872eb06cc8018a08ff3050abc0c71ebe2f349b6ba3a5c7095"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/UI/goose_ui_feather_pressed.png",
+      "to": "Assets/Watercolor/Goose/UI/goose_ui_feather_pressed.png",
+      "sha256_before": "14e6ba4596efccb6aa4f5b2552f3564b9736f6e124a403cc28f24001cf677594",
+      "sha256_after": "14e6ba4596efccb6aa4f5b2552f3564b9736f6e124a403cc28f24001cf677594"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/UI/goose_ui_stroke_gold.png",
+      "to": "Assets/Watercolor/Goose/UI/goose_ui_stroke_gold.png",
+      "sha256_before": "c3399354fd9e6dbfb46e4947aea8d2dacee9160ffdd8f3789b7e7c74469ddd2d",
+      "sha256_after": "c3399354fd9e6dbfb46e4947aea8d2dacee9160ffdd8f3789b7e7c74469ddd2d"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/UI/goose_ui_stroke_tradition.png",
+      "to": "Assets/Watercolor/Goose/UI/goose_ui_stroke_tradition.png",
+      "sha256_before": "4bd21d8609fc956af8d556b473e49b87fb80a9dc3ae86b052ddd0f14d0b454b1",
+      "sha256_after": "4bd21d8609fc956af8d556b473e49b87fb80a9dc3ae86b052ddd0f14d0b454b1"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/UI/goose_ui_yearmap.png",
+      "to": "Assets/Watercolor/Goose/UI/goose_ui_yearmap.png",
+      "sha256_before": "c444d97a2fec8d7cdc36835323c61615be37687e8fe6222be8ed2cb5745f7d82",
+      "sha256_after": "c444d97a2fec8d7cdc36835323c61615be37687e8fe6222be8ed2cb5745f7d82"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/VFX/goose_fx_feather_pt_01.png",
+      "to": "Assets/Watercolor/Goose/VFX/goose_fx_feather_pt_01.png",
+      "sha256_before": "f0d0895a7042519935ff5bde684b71991300f845594282ec08eaddf282aebff5",
+      "sha256_after": "f0d0895a7042519935ff5bde684b71991300f845594282ec08eaddf282aebff5"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/VFX/goose_fx_feather_pt_02.png",
+      "to": "Assets/Watercolor/Goose/VFX/goose_fx_feather_pt_02.png",
+      "sha256_before": "65925a96dfc14a531a5d15926944f96eaa8a5bd046a6c123e1426bd9b159b673",
+      "sha256_after": "65925a96dfc14a531a5d15926944f96eaa8a5bd046a6c123e1426bd9b159b673"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/VFX/goose_fx_fog_pt_01.png",
+      "to": "Assets/Watercolor/Goose/VFX/goose_fx_fog_pt_01.png",
+      "sha256_before": "21c31fd4528de92230cbf12866f7e068c088533831d0e6e88a4a9155fb88589d",
+      "sha256_after": "21c31fd4528de92230cbf12866f7e068c088533831d0e6e88a4a9155fb88589d"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/VFX/goose_fx_ripple_01.png",
+      "to": "Assets/Watercolor/Goose/VFX/goose_fx_ripple_01.png",
+      "sha256_before": "1fe197df4814b53d40147e729acd57a1fb60d1c0a69edb440c7a072da2e1958d",
+      "sha256_after": "1fe197df4814b53d40147e729acd57a1fb60d1c0a69edb440c7a072da2e1958d"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/VFX/goose_fx_ripple_02.png",
+      "to": "Assets/Watercolor/Goose/VFX/goose_fx_ripple_02.png",
+      "sha256_before": "136aefd6c2450dc05b2df2f89e35f931083252e3674e138e5fa34e2a4cdeb32a",
+      "sha256_after": "136aefd6c2450dc05b2df2f89e35f931083252e3674e138e5fa34e2a4cdeb32a"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/VFX/goose_fx_smoke_01.png",
+      "to": "Assets/Watercolor/Goose/VFX/goose_fx_smoke_01.png",
+      "sha256_before": "b253a7c267be56660f7997e17401765096d35406c6b3d54d8720078f6dc20f6f",
+      "sha256_after": "b253a7c267be56660f7997e17401765096d35406c6b3d54d8720078f6dc20f6f"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/VFX/goose_fx_smoke_02.png",
+      "to": "Assets/Watercolor/Goose/VFX/goose_fx_smoke_02.png",
+      "sha256_before": "a5c80c854ba1a2567641fdd57261891445a198f2f4a8029292f69b016b4c36f7",
+      "sha256_after": "a5c80c854ba1a2567641fdd57261891445a198f2f4a8029292f69b016b4c36f7"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Goose/VFX/goose_fx_speckle_01.png",
+      "to": "Assets/Watercolor/Goose/VFX/goose_fx_speckle_01.png",
+      "sha256_before": "147cdd8c0f6583543c98da3e13163435a0af8558c0abe6fb2c695cfa12844041",
+      "sha256_after": "147cdd8c0f6583543c98da3e13163435a0af8558c0abe6fb2c695cfa12844041"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Shared/shr_glow_soft_01.png",
+      "to": "Assets/Watercolor/Shared/shr_glow_soft_01.png",
+      "sha256_before": "1836bb2b070cdba33183c619182be5d9a97a76d1b27f3f791e6f3660e3477ed1",
+      "sha256_after": "1836bb2b070cdba33183c619182be5d9a97a76d1b27f3f791e6f3660e3477ed1"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Shared/shr_glow_soft_02.png",
+      "to": "Assets/Watercolor/Shared/shr_glow_soft_02.png",
+      "sha256_before": "0a64668643a9f50fcf122917e051c7c63801eb656ec3e0e40dd222d490065132",
+      "sha256_after": "0a64668643a9f50fcf122917e051c7c63801eb656ec3e0e40dd222d490065132"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Shared/shr_particle_noise_01.png",
+      "to": "Assets/Watercolor/Shared/shr_particle_noise_01.png",
+      "sha256_before": "e102fe39b53bca55982220d4164e7115921cf373e52dc3482e0efcb624572c56",
+      "sha256_after": "e102fe39b53bca55982220d4164e7115921cf373e52dc3482e0efcb624572c56"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Shared/shr_particle_soft_01.png",
+      "to": "Assets/Watercolor/Shared/shr_particle_soft_01.png",
+      "sha256_before": "77c2f01c8e02d00a5ce5c80cccca72c95aa66d1d956e0cd3ca38071d27517b22",
+      "sha256_after": "77c2f01c8e02d00a5ce5c80cccca72c95aa66d1d956e0cd3ca38071d27517b22"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Shared/shr_particle_soft_02.png",
+      "to": "Assets/Watercolor/Shared/shr_particle_soft_02.png",
+      "sha256_before": "0cb19ced2d90a66faa32b65f5750171bc176665a30e7d3deea46bbcf5dbfcba2",
+      "sha256_after": "0cb19ced2d90a66faa32b65f5750171bc176665a30e7d3deea46bbcf5dbfcba2"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Whale/Characters/whale_char_body_01.png",
+      "to": "Assets/Watercolor/Whale/Characters/whale_char_body_01.png",
+      "sha256_before": "593513de3aa7ce8b05de58b626274ba4f5786ef3c3ca7c00c97aad9906d0838f",
+      "sha256_after": "593513de3aa7ce8b05de58b626274ba4f5786ef3c3ca7c00c97aad9906d0838f"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Whale/Characters/whale_char_body_02.png",
+      "to": "Assets/Watercolor/Whale/Characters/whale_char_body_02.png",
+      "sha256_before": "03fc10cdaa9df1f915c869a34d79096d39861802b364b54793b86ea9204b8e46",
+      "sha256_after": "03fc10cdaa9df1f915c869a34d79096d39861802b364b54793b86ea9204b8e46"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Whale/Characters/whale_char_body_03.png",
+      "to": "Assets/Watercolor/Whale/Characters/whale_char_body_03.png",
+      "sha256_before": "b2e8f629742762ff52ba63a0957167bafce1f704063ce965888ca4948b176ac0",
+      "sha256_after": "b2e8f629742762ff52ba63a0957167bafce1f704063ce965888ca4948b176ac0"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Whale/Characters/whale_char_body_04.png",
+      "to": "Assets/Watercolor/Whale/Characters/whale_char_body_04.png",
+      "sha256_before": "7e8cef0be2ac49b575884e0bedf04a43ddc68a02c1d98b9c50994bc808e61629",
+      "sha256_after": "7e8cef0be2ac49b575884e0bedf04a43ddc68a02c1d98b9c50994bc808e61629"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Whale/Characters/whale_char_breach_01.png",
+      "to": "Assets/Watercolor/Whale/Characters/whale_char_breach_01.png",
+      "sha256_before": "bc54b5653438acc0fd569c1c5ab65fbf4cced3d3bea9a419678185bb2f691388",
+      "sha256_after": "bc54b5653438acc0fd569c1c5ab65fbf4cced3d3bea9a419678185bb2f691388"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Whale/Characters/whale_char_breach_02.png",
+      "to": "Assets/Watercolor/Whale/Characters/whale_char_breach_02.png",
+      "sha256_before": "caa533c8f062bdcc75f7f51f1a8c78f79598201ac0d11c72efbfaa202672e260",
+      "sha256_after": "caa533c8f062bdcc75f7f51f1a8c78f79598201ac0d11c72efbfaa202672e260"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Whale/Characters/whale_char_breach_03.png",
+      "to": "Assets/Watercolor/Whale/Characters/whale_char_breach_03.png",
+      "sha256_before": "c1f1a32f47dc01a1c49a8386a04a4b605539123eb81f3c5489eb063a2d785fcc",
+      "sha256_after": "c1f1a32f47dc01a1c49a8386a04a4b605539123eb81f3c5489eb063a2d785fcc"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Whale/Characters/whale_char_breach_04.png",
+      "to": "Assets/Watercolor/Whale/Characters/whale_char_breach_04.png",
+      "sha256_before": "48eed6baf1704a40ae2f9e6d72b9a22dd3a6ffd02da088d9524606f0a33745d7",
+      "sha256_after": "48eed6baf1704a40ae2f9e6d72b9a22dd3a6ffd02da088d9524606f0a33745d7"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Whale/Characters/whale_char_calf_01.png",
+      "to": "Assets/Watercolor/Whale/Characters/whale_char_calf_01.png",
+      "sha256_before": "a85333b9f903fdca2778af994a5fdddd9feb8bcdc128e3148b9f0b0f87e94716",
+      "sha256_after": "a85333b9f903fdca2778af994a5fdddd9feb8bcdc128e3148b9f0b0f87e94716"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Whale/Characters/whale_char_calf_02.png",
+      "to": "Assets/Watercolor/Whale/Characters/whale_char_calf_02.png",
+      "sha256_before": "9e846a55e233a386e1538d7c4b2cbc4d06a8e390656920c141bde2d2e5250505",
+      "sha256_after": "9e846a55e233a386e1538d7c4b2cbc4d06a8e390656920c141bde2d2e5250505"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Whale/Characters/whale_char_pectoral.png",
+      "to": "Assets/Watercolor/Whale/Characters/whale_char_pectoral.png",
+      "sha256_before": "c4d15121079d7cf534d264bfe938643558796dcad8c9f5cb7a6de09997d2a4fb",
+      "sha256_after": "c4d15121079d7cf534d264bfe938643558796dcad8c9f5cb7a6de09997d2a4fb"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Whale/Characters/whale_char_rest_01.png",
+      "to": "Assets/Watercolor/Whale/Characters/whale_char_rest_01.png",
+      "sha256_before": "67e5f42a6966d2fe708488020329a1621cac297275ca872d975cb4d795460614",
+      "sha256_after": "67e5f42a6966d2fe708488020329a1621cac297275ca872d975cb4d795460614"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Whale/Characters/whale_char_rest_02.png",
+      "to": "Assets/Watercolor/Whale/Characters/whale_char_rest_02.png",
+      "sha256_before": "da0ce2a3cf90c6785d0417e51e01e5b55b7af166aa807107d7975f21a641f9dd",
+      "sha256_after": "da0ce2a3cf90c6785d0417e51e01e5b55b7af166aa807107d7975f21a641f9dd"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Whale/Characters/whale_char_tail.png",
+      "to": "Assets/Watercolor/Whale/Characters/whale_char_tail.png",
+      "sha256_before": "3d0fc643ee2099d4fbb94e0c35650558758d3f8878ec1a14cfbc064ad38e1977",
+      "sha256_after": "3d0fc643ee2099d4fbb94e0c35650558758d3f8878ec1a14cfbc064ad38e1977"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Whale/Characters/whale_char_top_sil.png",
+      "to": "Assets/Watercolor/Whale/Characters/whale_char_top_sil.png",
+      "sha256_before": "0b002bdfebed1ddf3c25019f67ef5a80168a6a03c2f877ac2d692ca77600651c",
+      "sha256_after": "0b002bdfebed1ddf3c25019f67ef5a80168a6a03c2f877ac2d692ca77600651c"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Whale/Characters/whale_char_top_tail_01.png",
+      "to": "Assets/Watercolor/Whale/Characters/whale_char_top_tail_01.png",
+      "sha256_before": "475104e8d3969358ec8fcf1b95d541c0e34ec2fc1552db9d16a6516b684e4154",
+      "sha256_after": "475104e8d3969358ec8fcf1b95d541c0e34ec2fc1552db9d16a6516b684e4154"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Whale/Characters/whale_char_top_tail_02.png",
+      "to": "Assets/Watercolor/Whale/Characters/whale_char_top_tail_02.png",
+      "sha256_before": "13238e8ff8d565204c6285660f39fdc56d3ca53195550ac1bcb1d4deb9004ea8",
+      "sha256_after": "13238e8ff8d565204c6285660f39fdc56d3ca53195550ac1bcb1d4deb9004ea8"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Whale/Palette/whale_pal_main.json",
+      "to": "Assets/Watercolor/Whale/Palette/whale_pal_main.json",
+      "sha256_before": "b52f2bdc0ffc2896d1abca500b46566e8ae9c386463adc5cda1dcc2b2ef259fd",
+      "sha256_after": "b52f2bdc0ffc2896d1abca500b46566e8ae9c386463adc5cda1dcc2b2ef259fd"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Whale/Palette/whale_pal_swap_cfg.json",
+      "to": "Assets/Watercolor/Whale/Palette/whale_pal_swap_cfg.json",
+      "sha256_before": "32608f6174f130bba7004782b9926315be8e2c47b3e085caa75f97e1263f29e4",
+      "sha256_after": "32608f6174f130bba7004782b9926315be8e2c47b3e085caa75f97e1263f29e4"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Whale/Scenes/LANE/whale_scene_lane_far.png",
+      "to": "Assets/Watercolor/Whale/Scenes/LANE/whale_scene_lane_far.png",
+      "sha256_before": "33c80afbaf088165fe61ce7fddac8173437ebb852ced412201c2d39b02859035",
+      "sha256_after": "33c80afbaf088165fe61ce7fddac8173437ebb852ced412201c2d39b02859035"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Whale/Scenes/LANE/whale_scene_lane_fog.png",
+      "to": "Assets/Watercolor/Whale/Scenes/LANE/whale_scene_lane_fog.png",
+      "sha256_before": "ea9cc8ff4d66502486d0769917c79e2f052f1d7f88855c209abcd7bfe5ab2cf9",
+      "sha256_after": "ea9cc8ff4d66502486d0769917c79e2f052f1d7f88855c209abcd7bfe5ab2cf9"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Whale/Scenes/LANE/whale_scene_lane_mid.png",
+      "to": "Assets/Watercolor/Whale/Scenes/LANE/whale_scene_lane_mid.png",
+      "sha256_before": "3227246d66427ea1931fbc1f9649ffe61f25c079bbc86ba06c61e92e45368c2a",
+      "sha256_after": "3227246d66427ea1931fbc1f9649ffe61f25c079bbc86ba06c61e92e45368c2a"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Whale/Scenes/LANE/whale_scene_lane_near.png",
+      "to": "Assets/Watercolor/Whale/Scenes/LANE/whale_scene_lane_near.png",
+      "sha256_before": "983ad9855bf5b0c69ea99637c51fd8aa0d46cab8b496fc95ab671635834b193f",
+      "sha256_after": "983ad9855bf5b0c69ea99637c51fd8aa0d46cab8b496fc95ab671635834b193f"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Whale/Scenes/LANE/whale_scene_lane_sky.png",
+      "to": "Assets/Watercolor/Whale/Scenes/LANE/whale_scene_lane_sky.png",
+      "sha256_before": "2723660c0ef39d74a79ec57407556ab4bf07224ca369283a4df594cea44df0fe",
+      "sha256_after": "2723660c0ef39d74a79ec57407556ab4bf07224ca369283a4df594cea44df0fe"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Whale/Scenes/LANE/whale_scene_lane_water.png",
+      "to": "Assets/Watercolor/Whale/Scenes/LANE/whale_scene_lane_water.png",
+      "sha256_before": "54efe55305cc8a5ac1e874f98d2bea83efb1b6a1f453e436ad700e5c1973987e",
+      "sha256_after": "54efe55305cc8a5ac1e874f98d2bea83efb1b6a1f453e436ad700e5c1973987e"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Whale/Scenes/NURSE/whale_scene_nurse_far.png",
+      "to": "Assets/Watercolor/Whale/Scenes/NURSE/whale_scene_nurse_far.png",
+      "sha256_before": "d667e22d1980c4201c226b89342674e5ade1008b11bf4fcf105052cd9ec701f2",
+      "sha256_after": "d667e22d1980c4201c226b89342674e5ade1008b11bf4fcf105052cd9ec701f2"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Whale/Scenes/NURSE/whale_scene_nurse_fog.png",
+      "to": "Assets/Watercolor/Whale/Scenes/NURSE/whale_scene_nurse_fog.png",
+      "sha256_before": "84bad8139ab6a4bdbd63f9d810bd60877a09cd2bc512b28d93e22b26ded9d00a",
+      "sha256_after": "84bad8139ab6a4bdbd63f9d810bd60877a09cd2bc512b28d93e22b26ded9d00a"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Whale/Scenes/NURSE/whale_scene_nurse_mid.png",
+      "to": "Assets/Watercolor/Whale/Scenes/NURSE/whale_scene_nurse_mid.png",
+      "sha256_before": "8f3220a2e25a83d5452184bb464638506a3202a59269d285b2be51da80f95cd6",
+      "sha256_after": "8f3220a2e25a83d5452184bb464638506a3202a59269d285b2be51da80f95cd6"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Whale/Scenes/NURSE/whale_scene_nurse_near.png",
+      "to": "Assets/Watercolor/Whale/Scenes/NURSE/whale_scene_nurse_near.png",
+      "sha256_before": "d2e30a817f1205ba0d0b4fe682285740f19261910eff3184db739c016d3f78f1",
+      "sha256_after": "d2e30a817f1205ba0d0b4fe682285740f19261910eff3184db739c016d3f78f1"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Whale/Scenes/NURSE/whale_scene_nurse_sky.png",
+      "to": "Assets/Watercolor/Whale/Scenes/NURSE/whale_scene_nurse_sky.png",
+      "sha256_before": "5b5151b5c0226e33a3126ab70a3da36ca155a0e5352ab5b2d57d86a542480a49",
+      "sha256_after": "5b5151b5c0226e33a3126ab70a3da36ca155a0e5352ab5b2d57d86a542480a49"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Whale/Scenes/NURSE/whale_scene_nurse_water.png",
+      "to": "Assets/Watercolor/Whale/Scenes/NURSE/whale_scene_nurse_water.png",
+      "sha256_before": "47d7aa0031910b585c8cf0449df92412f17a9a32756e7ab3d269903462078d6f",
+      "sha256_after": "47d7aa0031910b585c8cf0449df92412f17a9a32756e7ab3d269903462078d6f"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Whale/Scenes/OPEN/whale_scene_open_far.png",
+      "to": "Assets/Watercolor/Whale/Scenes/OPEN/whale_scene_open_far.png",
+      "sha256_before": "e6f0728cd3bd54e0767f04eca4f8b22ad5c81bd9303295ac95e9440c76c8ece9",
+      "sha256_after": "e6f0728cd3bd54e0767f04eca4f8b22ad5c81bd9303295ac95e9440c76c8ece9"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Whale/Scenes/OPEN/whale_scene_open_fog.png",
+      "to": "Assets/Watercolor/Whale/Scenes/OPEN/whale_scene_open_fog.png",
+      "sha256_before": "bd8a2e2c02c1c12f267a4a83b3022520a0314ff41d4a13c3a1cefb370bcbfd8f",
+      "sha256_after": "bd8a2e2c02c1c12f267a4a83b3022520a0314ff41d4a13c3a1cefb370bcbfd8f"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Whale/Scenes/OPEN/whale_scene_open_mid.png",
+      "to": "Assets/Watercolor/Whale/Scenes/OPEN/whale_scene_open_mid.png",
+      "sha256_before": "c59a70307a12548729b12461d0365a3d531f8eda1aa075d5b67beccb642c769c",
+      "sha256_after": "c59a70307a12548729b12461d0365a3d531f8eda1aa075d5b67beccb642c769c"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Whale/Scenes/OPEN/whale_scene_open_near.png",
+      "to": "Assets/Watercolor/Whale/Scenes/OPEN/whale_scene_open_near.png",
+      "sha256_before": "cfab31bbca2f42048fbb03665ae369f3705f29eed31ae7031e642e8dc0dd6364",
+      "sha256_after": "cfab31bbca2f42048fbb03665ae369f3705f29eed31ae7031e642e8dc0dd6364"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Whale/Scenes/OPEN/whale_scene_open_sky.png",
+      "to": "Assets/Watercolor/Whale/Scenes/OPEN/whale_scene_open_sky.png",
+      "sha256_before": "e86a09400f73c4677331666da7b2bef1caf4d085a818a1a464ddd6095ee1cf19",
+      "sha256_after": "e86a09400f73c4677331666da7b2bef1caf4d085a818a1a464ddd6095ee1cf19"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Whale/Scenes/OPEN/whale_scene_open_water.png",
+      "to": "Assets/Watercolor/Whale/Scenes/OPEN/whale_scene_open_water.png",
+      "sha256_before": "9217efb68bbd8a9a95d25f2b380a46b630265c4e3af5b977e42809714ad9a918",
+      "sha256_after": "9217efb68bbd8a9a95d25f2b380a46b630265c4e3af5b977e42809714ad9a918"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Whale/Traces/whale_trace_net_far.png",
+      "to": "Assets/Watercolor/Whale/Traces/whale_trace_net_far.png",
+      "sha256_before": "446f89a4c23402590bf99abdb145eab8e871147dd9dcd7d50be0c42ba8b4cf56",
+      "sha256_after": "446f89a4c23402590bf99abdb145eab8e871147dd9dcd7d50be0c42ba8b4cf56"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Whale/Traces/whale_trace_net_near.png",
+      "to": "Assets/Watercolor/Whale/Traces/whale_trace_net_near.png",
+      "sha256_before": "170b089250599a6cdace04ac3ce7cb06d83b4fb3bc0e84b56b2c4a2c88027fc1",
+      "sha256_after": "170b089250599a6cdace04ac3ce7cb06d83b4fb3bc0e84b56b2c4a2c88027fc1"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Whale/Traces/whale_trace_noise_wall.png",
+      "to": "Assets/Watercolor/Whale/Traces/whale_trace_noise_wall.png",
+      "sha256_before": "a92f38cc25c69dd233710623a8ce0c06f43048e2a987d59da8386008cfe37745",
+      "sha256_after": "a92f38cc25c69dd233710623a8ce0c06f43048e2a987d59da8386008cfe37745"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Whale/Traces/whale_trace_port_lights.png",
+      "to": "Assets/Watercolor/Whale/Traces/whale_trace_port_lights.png",
+      "sha256_before": "a7207e6aaed9cd077f7321383324a4156bf65933a415e0d74b21855d8ece4779",
+      "sha256_after": "a7207e6aaed9cd077f7321383324a4156bf65933a415e0d74b21855d8ece4779"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Whale/Traces/whale_trace_ship_sil_01.png",
+      "to": "Assets/Watercolor/Whale/Traces/whale_trace_ship_sil_01.png",
+      "sha256_before": "69ef2a664cb7a675e29da9a9f3cc1c0f2447c9b1589590b17adfcb85f665db67",
+      "sha256_after": "69ef2a664cb7a675e29da9a9f3cc1c0f2447c9b1589590b17adfcb85f665db67"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Whale/Traces/whale_trace_ship_sil_02.png",
+      "to": "Assets/Watercolor/Whale/Traces/whale_trace_ship_sil_02.png",
+      "sha256_before": "4132cfe169e6312ee4c3075aa256a841900b654cde39612c7b4cb52f4e88e81a",
+      "sha256_after": "4132cfe169e6312ee4c3075aa256a841900b654cde39612c7b4cb52f4e88e81a"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Whale/UI/whale_ui_flute.png",
+      "to": "Assets/Watercolor/Whale/UI/whale_ui_flute.png",
+      "sha256_before": "b10317615e71456e823002316cfed4877688141da57cf8a4799b64d666ca91f0",
+      "sha256_after": "b10317615e71456e823002316cfed4877688141da57cf8a4799b64d666ca91f0"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Whale/UI/whale_ui_flute_pressed.png",
+      "to": "Assets/Watercolor/Whale/UI/whale_ui_flute_pressed.png",
+      "sha256_before": "1daf47e610b63e68266a6aca09499e779d12aabe2722e45eb75505a2e30aa6de",
+      "sha256_after": "1daf47e610b63e68266a6aca09499e779d12aabe2722e45eb75505a2e30aa6de"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Whale/UI/whale_ui_stroke_ink.png",
+      "to": "Assets/Watercolor/Whale/UI/whale_ui_stroke_ink.png",
+      "sha256_before": "bc89646ba8059839067c6d7730f170a4acffa09652607b2f5f566667983fb95f",
+      "sha256_after": "bc89646ba8059839067c6d7730f170a4acffa09652607b2f5f566667983fb95f"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Whale/VFX/whale_fx_bubble_01.png",
+      "to": "Assets/Watercolor/Whale/VFX/whale_fx_bubble_01.png",
+      "sha256_before": "ad1bd017e51bc4cd67bac0a53d04fdaa8b92bddd685ba8959f5a161003800e19",
+      "sha256_after": "ad1bd017e51bc4cd67bac0a53d04fdaa8b92bddd685ba8959f5a161003800e19"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Whale/VFX/whale_fx_plankton_01.png",
+      "to": "Assets/Watercolor/Whale/VFX/whale_fx_plankton_01.png",
+      "sha256_before": "874fd659718d7a5d8f9932f6cc77c17f4fd2ad37f9111b8fdad080b1ddc07c5e",
+      "sha256_after": "874fd659718d7a5d8f9932f6cc77c17f4fd2ad37f9111b8fdad080b1ddc07c5e"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Whale/VFX/whale_fx_speckle_01.png",
+      "to": "Assets/Watercolor/Whale/VFX/whale_fx_speckle_01.png",
+      "sha256_before": "319e2a925af1ea450563641af0880b996d9d253a46e20dc072e1858e7d41d957",
+      "sha256_after": "319e2a925af1ea450563641af0880b996d9d253a46e20dc072e1858e7d41d957"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Whale/VFX/whale_fx_spout_01.png",
+      "to": "Assets/Watercolor/Whale/VFX/whale_fx_spout_01.png",
+      "sha256_before": "247c56077e61eda303f4bf222e40669046668b0b7e2637b236aa878a0ca74a2b",
+      "sha256_after": "247c56077e61eda303f4bf222e40669046668b0b7e2637b236aa878a0ca74a2b"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Whale/VFX/whale_fx_spout_02.png",
+      "to": "Assets/Watercolor/Whale/VFX/whale_fx_spout_02.png",
+      "sha256_before": "36a2309cc57c984db4c781738d2fd3552b76a624fbe0a4c32df6890a3d59ac17",
+      "sha256_after": "36a2309cc57c984db4c781738d2fd3552b76a624fbe0a4c32df6890a3d59ac17"
+    },
+    {
+      "from": "羽与潮-游戏素材包/Assets/Watercolor/Whale/VFX/whale_fx_wave_01.png",
+      "to": "Assets/Watercolor/Whale/VFX/whale_fx_wave_01.png",
+      "sha256_before": "57a387b1482ca27451dd198e717e1e8af8340c5c6464af18db3a11b44e6ab66e",
+      "sha256_after": "57a387b1482ca27451dd198e717e1e8af8340c5c6464af18db3a11b44e6ab66e"
+    },
+    {
+      "from": "羽与潮-游戏素材包/README.md",
+      "to": "Assets/README.md",
+      "sha256_before": "9e75e849268f2a272cf894996ae82598eab64c370b9eabf2063b07f9352eb265",
+      "sha256_after": "1e9cefef4a1e7898bc0ba0f6b7adae074f34e5c1732bd234575998934ef40469"
+    },
+    {
+      "from": "羽与潮-游戏素材包/docs/ASSET_GUIDE_FOR_AGENTS.md",
+      "to": "Assets/docs/ASSET_GUIDE_FOR_AGENTS.md",
+      "sha256_before": "2b14fe6ff48809b00a20d327dd7db1d86b4019dbe7ff5db110876a1adb88879f",
+      "sha256_after": "d3928d1669abc9ace594d6f51731cc5d8a44aaa37562fe38c2326d8650146998"
+    },
+    {
+      "from": "羽与潮-游戏素材包/docs/asset-index.json",
+      "to": "Assets/docs/asset-index.json",
+      "sha256_before": "58a1ad8d8e6a1484eceb54ec41fa235dd07c0f104f959a83480f3b0b023b5de7",
+      "sha256_after": "3facad92f506e5a617e4ab2dae98506850326a2f1af77311a35099ec912ebc21"
+    },
+    {
+      "from": "羽与潮-游戏素材包/docs/asset-ledger.md",
+      "to": "Assets/docs/asset-ledger.md",
+      "sha256_before": "acacce6c5fca5f66fa43ed50e75ec355b5bf7a9b106e9b3270c7dbbbfe4b0677",
+      "sha256_after": "52b8038d76019d1db82ddb1e1ad3b0b287cf1c83f1a420ca3172b58fca0136a0"
+    },
+    {
+      "from": "羽与潮-游戏素材包/docs/style-board.md",
+      "to": "Assets/docs/style-board.md",
+      "sha256_before": "72eb0edb810a860369f342092256369f12c30f5e3bd4efb2171de5a1e9a585bb",
+      "sha256_after": "bf790bf12d0cb1f6fa11ef7adfcfb41d03aea34ebd6c3196222583df693bce27"
+    },
+    {
+      "from": "羽与潮-游戏素材包/docs/如何合并分卷.md",
+      "to": "Assets/docs/如何合并分卷.md",
+      "sha256_before": "378786ace31e3e93390803b2b9a64bb6f424b8cadb5f7bd7342547e4cc5ef156",
+      "sha256_after": "219dfc84cfa76821cc85b3b08b308a0f6658e17cc3df55dbab019eef0d3772f5"
+    },
+    {
+      "from": "羽与潮-游戏素材包/docs/素材说明与接入指南.md",
+      "to": "Assets/docs/素材说明与接入指南.md",
+      "sha256_before": "457248fc91784dd1343d93776da0ea563a47fe42b9e0c0b3758d658ac6023f75",
+      "sha256_after": "d7a890cc26e849eb6fb845468f30154322f0d715f7a2be5cd6f5032e99cf15d5"
+    },
+    {
+      "from": "羽与潮-游戏素材包/refs/SB-2026-11-07-v1_deer_herd.jpg",
+      "to": "Assets/refs/SB-2026-11-07-v1_deer_herd.jpg",
+      "sha256_before": "79a053a966b98702dbde77fdbb5a2ad69c31be046e1cab40f651e92d8a68d94b",
+      "sha256_after": "79a053a966b98702dbde77fdbb5a2ad69c31be046e1cab40f651e92d8a68d94b"
+    },
+    {
+      "from": "羽与潮-游戏素材包/refs/SB-2026-11-07-v1_deer_side.jpg",
+      "to": "Assets/refs/SB-2026-11-07-v1_deer_side.jpg",
+      "sha256_before": "16044e57ef3984f3d200a1604b0bf33457b323eb4b09930357fc316405adb10b",
+      "sha256_after": "16044e57ef3984f3d200a1604b0bf33457b323eb4b09930357fc316405adb10b"
+    },
+    {
+      "from": "羽与潮-游戏素材包/refs/SB-2026-11-07-v1_gameplay_schematic_goose.jpg",
+      "to": "Assets/refs/SB-2026-11-07-v1_gameplay_schematic_goose.jpg",
+      "sha256_before": "3855379d9cc9b59e6dfb4709f99a0af3a394976913ca707248d77512708f727b",
+      "sha256_after": "3855379d9cc9b59e6dfb4709f99a0af3a394976913ca707248d77512708f727b"
+    },
+    {
+      "from": "羽与潮-游戏素材包/refs/SB-2026-11-07-v1_goose_flock_dusk.jpg",
+      "to": "Assets/refs/SB-2026-11-07-v1_goose_flock_dusk.jpg",
+      "sha256_before": "445ec4fd263d10d4699c3acb715c2c1cd6b95560e4e06eca6b0fec1be2272019",
+      "sha256_after": "445ec4fd263d10d4699c3acb715c2c1cd6b95560e4e06eca6b0fec1be2272019"
+    },
+    {
+      "from": "羽与潮-游戏素材包/refs/SB-2026-11-07-v1_goose_side.jpg",
+      "to": "Assets/refs/SB-2026-11-07-v1_goose_side.jpg",
+      "sha256_before": "fb9cf16ba09d250851d6dc5a615f78d33233b4e62cb4301a4398306df38d3fb8",
+      "sha256_after": "fb9cf16ba09d250851d6dc5a615f78d33233b4e62cb4301a4398306df38d3fb8"
+    },
+    {
+      "from": "羽与潮-游戏素材包/refs/SB-2026-11-07-v1_moodboard_triptych.jpg",
+      "to": "Assets/refs/SB-2026-11-07-v1_moodboard_triptych.jpg",
+      "sha256_before": "a990cc2c478f5800372757142068da7cea4663e924e5a72dd40cde14b523d2af",
+      "sha256_after": "a990cc2c478f5800372757142068da7cea4663e924e5a72dd40cde14b523d2af"
+    },
+    {
+      "from": "羽与潮-游戏素材包/refs/SB-2026-11-07-v1_wetland_parallax.jpg",
+      "to": "Assets/refs/SB-2026-11-07-v1_wetland_parallax.jpg",
+      "sha256_before": "34e56e8242a5fbde173e74e8dd29b774abc509ed8329ba9e816863d8b49b1842",
+      "sha256_after": "34e56e8242a5fbde173e74e8dd29b774abc509ed8329ba9e816863d8b49b1842"
+    },
+    {
+      "from": "羽与潮-游戏素材包/refs/SB-2026-11-07-v1_whale_pod.jpg",
+      "to": "Assets/refs/SB-2026-11-07-v1_whale_pod.jpg",
+      "sha256_before": "2a0e32fac06d1ff05cba6eee136dfdc1ffdd648d14c16be83daf9541d414b9b3",
+      "sha256_after": "2a0e32fac06d1ff05cba6eee136dfdc1ffdd648d14c16be83daf9541d414b9b3"
+    },
+    {
+      "from": "羽与潮-游戏素材包/refs/SB-2026-11-07-v1_whale_side.jpg",
+      "to": "Assets/refs/SB-2026-11-07-v1_whale_side.jpg",
+      "sha256_before": "83b381c523487ea67a68331842b3af53f92c7824ef5df67ec4675370954e751f",
+      "sha256_after": "83b381c523487ea67a68331842b3af53f92c7824ef5df67ec4675370954e751f"
+    }
+  ],
+  "verification": {
+    "migration_passed": true,
+    "moved_files_present": 229,
+    "existing_files_unchanged": 12,
+    "source_media_unchanged": true,
+    "modified_migrated_documents": [
+      "Assets/README.md",
+      "Assets/docs/ASSET_GUIDE_FOR_AGENTS.md",
+      "Assets/docs/asset-index.json",
+      "Assets/docs/asset-ledger.md",
+      "Assets/docs/style-board.md",
+      "Assets/docs/如何合并分卷.md",
+      "Assets/docs/素材说明与接入指南.md"
+    ],
+    "index_entries": 217,
+    "png_count": 202,
+    "palette_count": 6,
+    "reference_count": 9,
+    "local_markdown_links_checked": 42,
+    "new_broken_links": 0,
+    "preexisting_warnings": [
+      "Pre-existing README link points to absent problems/05-quality-readiness-verification.md; left unchanged (also referenced by current-readiness)."
+    ],
+    "runtime_identity_check": "PASS: 51 bundled exports and 8 runtime recipe inputs unchanged",
+    "build": "PASS: Scripts/build.sh exited 0 with simulator service access; initial sandbox attempt exited 70 (CoreSimulator unavailable)",
+    "tests": {
+      "command": "./Scripts/test.sh",
+      "exit_code": 65,
+      "total": 304,
+      "passed": 303,
+      "failed": 1,
+      "failure": "ArtVisualRepairTests.testV01V02RenderedCompositionAtLandmarksJoinsAndTransitionOnBothCanvases",
+      "reason_from_xcresult": "Test crashed with signal kill.",
+      "isolated_recheck_exit_code": 65,
+      "isolated_recheck_result": "Same test exits unexpectedly; no implementation or test edits made in this migration. Root cause not established."
+    },
+    "redline_review": "No game/UI/content change; candidate license/admission status preserved; no device-performance claim.",
+    "logs": {
+      "build-sandbox.log": "Assets/docs/migration-validation-2026-11-08/build-sandbox.log",
+      "build.log": "Assets/docs/migration-validation-2026-11-08/build.log",
+      "tests.log": "Assets/docs/migration-validation-2026-11-08/tests.log",
+      "render-recheck.log": "Assets/docs/migration-validation-2026-11-08/render-recheck.log"
+    },
+    "remaining": "Existing rendering test signal-kill failure and pre-existing missing quality-report link recorded; no hardware acceptance or M5 completion claimed.",
+    "final_library_local_links_checked": 33,
+    "report": "Assets/docs/migration-validation-2026-11-08/README.md"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "equivalentJourneyStartTick": 3310,
+  "yaw": 0,
+  "warningTick": 24,
+  "warningZ": 372,
+  "lastClearTick": 288,
+  "lastClearZ": 405.5364080932783,
+  "firstContactSampleTick": 301,
+  "contactZ": 406.2991842706902,
+  "approachSpeed": 8.999314128943755,
+  "nominalCruiseSeconds": 3.6452617492693786,
+  "boundsSeconds": [4.4, 4.616666666666666]
+}

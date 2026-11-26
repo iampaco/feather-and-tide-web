@@ -1,0 +1,1172 @@
+{
+  "version": "v001",
+  "candidate_count": 55,
+  "assets": [
+    {
+      "asset": "FX-002",
+      "status": "pass",
+      "problems": [],
+      "candidate_status": "needs_review",
+      "blends": [
+        "FX-002_Crosswind.blend"
+      ],
+      "glbs": {
+        "FX-002_CrosswindWarn.glb": {
+          "meshes": 2,
+          "nodes": 3,
+          "images": 2,
+          "animations": []
+        },
+        "FX-002_Gust.glb": {
+          "meshes": 2,
+          "nodes": 3,
+          "images": 2,
+          "animations": []
+        }
+      },
+      "videos": {
+        "preview_fixed_rear_silent.mp4": {
+          "frames_decoded": 36,
+          "width": 852,
+          "height": 394,
+          "duration_s": 4.5,
+          "audio_tracks": 0
+        }
+      },
+      "linked_files": [
+        "../../../../../../docs/references/asset-ledger.md",
+        "../../../../../../plans/active/goose-preview-model-cleanup.md",
+        "../../../../../../完整AI建模任务包/羽与潮_斑头雁_资源任务清单_v1.0.json",
+        "../../../../../docs/asset-index.json",
+        "../../../../../docs/asset-ledger.md",
+        "FX-002_Crosswind.blend",
+        "FX-002_CrosswindWarn.glb",
+        "FX-002_Gust.glb",
+        "FX-002_generate.py",
+        "asset_manifest.json",
+        "comparison_before_wind.png",
+        "comparison_gust_tree_only.png",
+        "comparison_warning_tree_only.png",
+        "graybox_fixed_rear.png",
+        "graybox_top.png",
+        "preview_fixed_rear_gust.png",
+        "preview_fixed_rear_reduced.png",
+        "preview_fixed_rear_silent.mp4",
+        "preview_fixed_rear_warning.png",
+        "preview_top.png",
+        "qa.json",
+        "roundtrip_fixed_rear.png",
+        "runtime_mapping.json",
+        "textures/ft_goose_fx_crosswind_crown_rgba.png",
+        "textures/ft_goose_fx_crosswind_gust_rgba.png",
+        "textures/ft_goose_fx_crosswind_leaf_rgba.png",
+        "textures/ft_goose_fx_crosswind_warn_rgba.png"
+      ],
+      "checked_hashes": {
+        "FX-002_Crosswind.blend": {
+          "expected": "91aba1a82f3b7dcf1100bc74d52471d75c1d7fe7b5771f635fb10a8f03920541",
+          "actual": "91aba1a82f3b7dcf1100bc74d52471d75c1d7fe7b5771f635fb10a8f03920541"
+        },
+        "FX-002_CrosswindWarn.glb": {
+          "expected": "f6de2291d0603c3cefa67a905cd0f9d785be1bb4fa514a6ba5b0ceb605cadb65",
+          "actual": "f6de2291d0603c3cefa67a905cd0f9d785be1bb4fa514a6ba5b0ceb605cadb65"
+        },
+        "FX-002_Gust.glb": {
+          "expected": "8e881781be05a625f07943a690530336108be33b2ed0198d58e5d099178481d1",
+          "actual": "8e881781be05a625f07943a690530336108be33b2ed0198d58e5d099178481d1"
+        },
+        "FX-002_generate.py": {
+          "expected": "7d41d52c1c9ee26ca40f7eb3b39468dd14e7d5c884c848641c1d6ff90df26501",
+          "actual": "7d41d52c1c9ee26ca40f7eb3b39468dd14e7d5c884c848641c1d6ff90df26501"
+        },
+        "README.md": {
+          "expected": "24be305c985f97b349391c40fef136bf2cae7d56f3d6c5db5f3bbc3a7451eeab",
+          "actual": "24be305c985f97b349391c40fef136bf2cae7d56f3d6c5db5f3bbc3a7451eeab"
+        },
+        "comparison_before_wind.png": {
+          "expected": "d373f667a88f82c363f71eb5ec7b853e1d49a811e8a30b8c00005e32febb8b7a",
+          "actual": "d373f667a88f82c363f71eb5ec7b853e1d49a811e8a30b8c00005e32febb8b7a"
+        },
+        "comparison_gust_tree_only.png": {
+          "expected": "d9166634c900138e4b6f44c2f476ea19d5bab342fa5cda8860b955e22180a891",
+          "actual": "d9166634c900138e4b6f44c2f476ea19d5bab342fa5cda8860b955e22180a891"
+        },
+        "comparison_warning_tree_only.png": {
+          "expected": "9914dec448c1bc22a66a1204153af5d9e8912c41fa5f2d3e491cc998afdc120c",
+          "actual": "9914dec448c1bc22a66a1204153af5d9e8912c41fa5f2d3e491cc998afdc120c"
+        },
+        "graybox_fixed_rear.png": {
+          "expected": "05590f384e02b867360a9c7bc7f5bbd8d255dd39700277ffd2a7ccdb471e6d9f",
+          "actual": "05590f384e02b867360a9c7bc7f5bbd8d255dd39700277ffd2a7ccdb471e6d9f"
+        },
+        "graybox_top.png": {
+          "expected": "19f39afb4307092398dcbf1cfc0806723042183a64ec2b84c3d0d19f7f48e31d",
+          "actual": "19f39afb4307092398dcbf1cfc0806723042183a64ec2b84c3d0d19f7f48e31d"
+        },
+        "preview_fixed_rear_gust.png": {
+          "expected": "6321d485618fecab75acdcc936ccc402c38623610b50d9c49f881cebac3db156",
+          "actual": "6321d485618fecab75acdcc936ccc402c38623610b50d9c49f881cebac3db156"
+        },
+        "preview_fixed_rear_reduced.png": {
+          "expected": "4cf7ba916e28b3a5d5fc9401ddeb9ea89d26eb87626a17726a57b13c88cc4fd7",
+          "actual": "4cf7ba916e28b3a5d5fc9401ddeb9ea89d26eb87626a17726a57b13c88cc4fd7"
+        },
+        "preview_fixed_rear_silent.mp4": {
+          "expected": "4a428aa81de064176575868cbdef27c21b75bf731a23e81667c932518637efb2",
+          "actual": "4a428aa81de064176575868cbdef27c21b75bf731a23e81667c932518637efb2"
+        },
+        "preview_fixed_rear_warning.png": {
+          "expected": "97191a9081610c5e6e622287e4d4ab2cbabb3cb29fb60929af389be71de2550c",
+          "actual": "97191a9081610c5e6e622287e4d4ab2cbabb3cb29fb60929af389be71de2550c"
+        },
+        "preview_top.png": {
+          "expected": "4585c7126a16ee1d8cd583f34d93ab5ce2eefe0b50033fcfb5abbad46ee62ae7",
+          "actual": "4585c7126a16ee1d8cd583f34d93ab5ce2eefe0b50033fcfb5abbad46ee62ae7"
+        },
+        "qa.json": {
+          "expected": "5a8c320f7ab4e2417da06273faced992c23900ef6f20cbc0df7fd4c30d2b349c",
+          "actual": "5a8c320f7ab4e2417da06273faced992c23900ef6f20cbc0df7fd4c30d2b349c"
+        },
+        "roundtrip_fixed_rear.png": {
+          "expected": "e19304e8be79c8da31436080ce3e80fa230b546cb054e02e206842fe375489c0",
+          "actual": "e19304e8be79c8da31436080ce3e80fa230b546cb054e02e206842fe375489c0"
+        },
+        "runtime_mapping.json": {
+          "expected": "8ff3ac1be37f9a0151e030b0aa4d613ca498bcd8cf29645f54ebc73867ff9c17",
+          "actual": "8ff3ac1be37f9a0151e030b0aa4d613ca498bcd8cf29645f54ebc73867ff9c17"
+        },
+        "textures/ft_goose_fx_crosswind_crown_rgba.png": {
+          "expected": "fb7ba1defecfa9afe0a42bc4178589fe17185639f3c2a6d307976e6e44ceb728",
+          "actual": "fb7ba1defecfa9afe0a42bc4178589fe17185639f3c2a6d307976e6e44ceb728"
+        },
+        "textures/ft_goose_fx_crosswind_gust_rgba.png": {
+          "expected": "8fef579ec6eb2cab8b34693ff698a8f647bf6ef3121c6b67eb83f3bb656ce066",
+          "actual": "8fef579ec6eb2cab8b34693ff698a8f647bf6ef3121c6b67eb83f3bb656ce066"
+        },
+        "textures/ft_goose_fx_crosswind_leaf_rgba.png": {
+          "expected": "013fbde91649c3a2dbd5e4d1adb71649b479c88fc5b83ae4d960b9773ebf6200",
+          "actual": "013fbde91649c3a2dbd5e4d1adb71649b479c88fc5b83ae4d960b9773ebf6200"
+        },
+        "textures/ft_goose_fx_crosswind_warn_rgba.png": {
+          "expected": "580db4fab27d71595eec97ebd3bb95600f7875c822ca6b7017e483aff10ce7c0",
+          "actual": "580db4fab27d71595eec97ebd3bb95600f7875c822ca6b7017e483aff10ce7c0"
+        }
+      },
+      "qa_top_level_fields": [
+        "blender",
+        "fixed_rear_material_vs_tree_only",
+        "id",
+        "independent_artifact_directory_reopen",
+        "pending",
+        "redline_review",
+        "status",
+        "version",
+        "video"
+      ]
+    },
+    {
+      "asset": "FX-003",
+      "status": "pass",
+      "problems": [],
+      "candidate_status": "needs_review",
+      "blends": [
+        "FX-003_Headwind.blend"
+      ],
+      "glbs": {
+        "FX-003_Headwind.glb": {
+          "meshes": 1,
+          "nodes": 1,
+          "images": 1,
+          "animations": []
+        }
+      },
+      "videos": {
+        "preview_fixed_rear_comparison.mp4": {
+          "frames_decoded": 72,
+          "width": 852,
+          "height": 394,
+          "duration_s": 6.0,
+          "audio_tracks": 0
+        }
+      },
+      "linked_files": [
+        "../../../../../../docs/references/asset-ledger.md",
+        "../../../../../../plans/active/goose-preview-model-cleanup.md",
+        "../../../../../../完整AI建模任务包/羽与潮_斑头雁_资源任务清单_v1.0.json",
+        "../../../../../docs/asset-index.json",
+        "../../../../../docs/asset-ledger.md",
+        "../../FX-001/v001/README.md",
+        "FX-003_Headwind.blend",
+        "FX-003_Headwind.glb",
+        "FX-003_generate.py",
+        "asset_manifest.json",
+        "comparison_s1_tailwind.png",
+        "comparison_without_fx.png",
+        "graybox_fixed_rear.png",
+        "graybox_top.png",
+        "preview_fixed_rear_comparison.mp4",
+        "preview_fixed_rear_headwind.png",
+        "preview_fixed_rear_reduced.png",
+        "preview_top.png",
+        "qa.json",
+        "roundtrip_fixed_rear.png",
+        "textures/ft_goose_fx_headwind_rgba.png",
+        "wind_interface.json"
+      ],
+      "checked_hashes": {
+        "FX-003_Headwind.blend": {
+          "expected": "1d83cb6a5555cf5f9079526499474de8c501926151996f1bef1532b862f6a962",
+          "actual": "1d83cb6a5555cf5f9079526499474de8c501926151996f1bef1532b862f6a962"
+        },
+        "FX-003_Headwind.glb": {
+          "expected": "0827ab1c632f07f81f0a0294bd4f62c180dff956abcdca72adfabe96a555cc01",
+          "actual": "0827ab1c632f07f81f0a0294bd4f62c180dff956abcdca72adfabe96a555cc01"
+        },
+        "FX-003_generate.py": {
+          "expected": "0b5c4f8e659edc0ec4d66fcc3ddd086720661102fd23c5fb6b37dc7455bd5275",
+          "actual": "0b5c4f8e659edc0ec4d66fcc3ddd086720661102fd23c5fb6b37dc7455bd5275"
+        },
+        "README.md": {
+          "expected": "cf8a8a8cf2a43d88f618f4b1c74b7f0e902e935e202b53dcee19162204e4a83c",
+          "actual": "cf8a8a8cf2a43d88f618f4b1c74b7f0e902e935e202b53dcee19162204e4a83c"
+        },
+        "comparison_s1_tailwind.png": {
+          "expected": "9718ac4cf8165b8c8ca016cc9611f8dd6f79f480db89a8e6133eb7476c648eb8",
+          "actual": "9718ac4cf8165b8c8ca016cc9611f8dd6f79f480db89a8e6133eb7476c648eb8"
+        },
+        "comparison_without_fx.png": {
+          "expected": "3652a7afbe9f5d252b8937d1844b5473114b9bc59f7bff797864197180e8f007",
+          "actual": "3652a7afbe9f5d252b8937d1844b5473114b9bc59f7bff797864197180e8f007"
+        },
+        "graybox_fixed_rear.png": {
+          "expected": "1393c23559af064f8da6d6fbe65188ecdffb0e45d844053c17bf8214a434e494",
+          "actual": "1393c23559af064f8da6d6fbe65188ecdffb0e45d844053c17bf8214a434e494"
+        },
+        "graybox_top.png": {
+          "expected": "d612713e92b27b693e93c190e01f3a138492dd57d96f18c4cce22157ed6747ed",
+          "actual": "d612713e92b27b693e93c190e01f3a138492dd57d96f18c4cce22157ed6747ed"
+        },
+        "preview_fixed_rear_comparison.mp4": {
+          "expected": "47713c9f536196c07a6d0c26a1f7a7ecbcccaa5576154f2091c5beb2eae32fe1",
+          "actual": "47713c9f536196c07a6d0c26a1f7a7ecbcccaa5576154f2091c5beb2eae32fe1"
+        },
+        "preview_fixed_rear_headwind.png": {
+          "expected": "49cc6bea4f98f5ed935b4c988e6299df5446c26232d3701f76330d062ab3e8e4",
+          "actual": "49cc6bea4f98f5ed935b4c988e6299df5446c26232d3701f76330d062ab3e8e4"
+        },
+        "preview_fixed_rear_reduced.png": {
+          "expected": "73f34d3236f48dd305213c675df9121d13294847c545ad8dfd18ac660891d915",
+          "actual": "73f34d3236f48dd305213c675df9121d13294847c545ad8dfd18ac660891d915"
+        },
+        "preview_top.png": {
+          "expected": "39473441b2ac319a139b004567af568afd0875e4e7d60adee382c24da6a86db5",
+          "actual": "39473441b2ac319a139b004567af568afd0875e4e7d60adee382c24da6a86db5"
+        },
+        "qa.json": {
+          "expected": "28ed5bb8331c75b4bebe51953aa0c48129354fdcac4165350352898e58bb4006",
+          "actual": "28ed5bb8331c75b4bebe51953aa0c48129354fdcac4165350352898e58bb4006"
+        },
+        "roundtrip_fixed_rear.png": {
+          "expected": "3f4c3732701bf4d00c1d5b86e1cfaa2271cf4db1b4a78a9b751cf0cbffacfb39",
+          "actual": "3f4c3732701bf4d00c1d5b86e1cfaa2271cf4db1b4a78a9b751cf0cbffacfb39"
+        },
+        "textures/ft_goose_fx_headwind_rgba.png": {
+          "expected": "8d69cb8c0b87eee9ffc4ae19d31c30f758da99fec09861dcef5b11553c4306a9",
+          "actual": "8d69cb8c0b87eee9ffc4ae19d31c30f758da99fec09861dcef5b11553c4306a9"
+        },
+        "wind_interface.json": {
+          "expected": "02d426cd1e22e1056d6bf6ff9d0a9703a44b66e7372646c7aa560a825055c14e",
+          "actual": "02d426cd1e22e1056d6bf6ff9d0a9703a44b66e7372646c7aa560a825055c14e"
+        }
+      },
+      "qa_top_level_fields": [
+        "app_baseline_reference",
+        "fixed_view_effect_vs_off",
+        "id",
+        "independent_artifact_directory_reopen",
+        "pending",
+        "preview_motion",
+        "redline_check",
+        "status",
+        "version",
+        "video_build"
+      ]
+    },
+    {
+      "asset": "LVL-S0",
+      "status": "pass",
+      "problems": [],
+      "candidate_status": "needs_review",
+      "blends": [
+        "LVL-S0_S0_StartWetland.blend"
+      ],
+      "glbs": {
+        "LVL-S0_S0_StartWetland.glb": {
+          "meshes": 21,
+          "nodes": 29,
+          "images": 10,
+          "animations": []
+        },
+        "LVL-S0_S0_StartWetland_Backdrop.glb": {
+          "meshes": 3,
+          "nodes": 4,
+          "images": 2,
+          "animations": []
+        },
+        "LVL-S0_S0_StartWetland_ReviewFlock.glb": {
+          "meshes": 12,
+          "nodes": 204,
+          "images": 4,
+          "animations": [
+            "S0_Review_Takeoff_Glide_Circle"
+          ]
+        }
+      },
+      "videos": {
+        "preview_fixed_rear.mp4": {
+          "frames_decoded": 168,
+          "width": 852,
+          "height": 394,
+          "duration_s": 14.0,
+          "audio_tracks": 0
+        }
+      },
+      "linked_files": [
+        "../../../../../../docs/references/asset-ledger.md",
+        "../../../../../../plans/active/goose-preview-model-cleanup.md",
+        "../../../../../../完整AI建模任务包/羽与潮_斑头雁_资源任务清单_v1.0.json",
+        "../../../../../docs/asset-index.json",
+        "../../../../../docs/asset-ledger.md",
+        "LVL-S0_S0_StartWetland.blend",
+        "LVL-S0_S0_StartWetland.glb",
+        "LVL-S0_S0_StartWetland_Backdrop.glb",
+        "LVL-S0_S0_StartWetland_ReviewFlock.glb",
+        "LVL-S0_finalize.py",
+        "LVL-S0_generate.py",
+        "asset_manifest.json",
+        "dependencies.json",
+        "graybox_fixed_rear.png",
+        "graybox_top.png",
+        "preview_fixed_rear.mp4",
+        "preview_fixed_rear_circle.png",
+        "preview_fixed_rear_fog_exit.png",
+        "preview_fixed_rear_glide.png",
+        "preview_fixed_rear_takeoff.png",
+        "preview_top_flock.png",
+        "qa.json",
+        "roundtrip_fixed_rear_fog_exit.png",
+        "roundtrip_fixed_rear_glide.png",
+        "roundtrip_fixed_rear_takeoff.png",
+        "roundtrip_top_flock.png",
+        "s0_layout.json"
+      ],
+      "checked_hashes": {
+        "LVL-S0_S0_StartWetland.blend": {
+          "expected": "77ab08524f4ecd368cc2de3f8872f7e65d7ac673ca99c1502ce43927ecd8421b",
+          "actual": "77ab08524f4ecd368cc2de3f8872f7e65d7ac673ca99c1502ce43927ecd8421b"
+        },
+        "LVL-S0_S0_StartWetland.glb": {
+          "expected": "f8a276e67465414dc3f7906162039e0d65f053e8f80159c3f78c7de44d4df2ea",
+          "actual": "f8a276e67465414dc3f7906162039e0d65f053e8f80159c3f78c7de44d4df2ea"
+        },
+        "LVL-S0_S0_StartWetland_Backdrop.glb": {
+          "expected": "82bb66d037f7022329742ca636f4bfccbf59f46d91b3648c46d92d673f6ae467",
+          "actual": "82bb66d037f7022329742ca636f4bfccbf59f46d91b3648c46d92d673f6ae467"
+        },
+        "LVL-S0_S0_StartWetland_ReviewFlock.glb": {
+          "expected": "a9cecef724efa0b1409cdb131d5d8f57ea56bf09160d8f4d36aad936dfebc6e2",
+          "actual": "a9cecef724efa0b1409cdb131d5d8f57ea56bf09160d8f4d36aad936dfebc6e2"
+        },
+        "LVL-S0_finalize.py": {
+          "expected": "547c799e3bc8b4cb1bf365461b01268de86c8bb02595ce324ab3ae104b49d8d4",
+          "actual": "547c799e3bc8b4cb1bf365461b01268de86c8bb02595ce324ab3ae104b49d8d4"
+        },
+        "LVL-S0_generate.py": {
+          "expected": "8e74783fcbf8b7698c8b53d89dc4c5e8d823a6e235d02dcee64f2af429f8e432",
+          "actual": "8e74783fcbf8b7698c8b53d89dc4c5e8d823a6e235d02dcee64f2af429f8e432"
+        },
+        "README.md": {
+          "expected": "090479cfa74e0640ea2c354c768392ab535f8482520958366d63a3e56456934e",
+          "actual": "090479cfa74e0640ea2c354c768392ab535f8482520958366d63a3e56456934e"
+        },
+        "dependencies.json": {
+          "expected": "48ef5919e874585ccc665574294c54af3a656e2a31bee9c58036a7d8420402ca",
+          "actual": "48ef5919e874585ccc665574294c54af3a656e2a31bee9c58036a7d8420402ca"
+        },
+        "graybox_fixed_rear.png": {
+          "expected": "ccbc1a4ad1ca75af0541c9455256dd6a957008cab15ca0e7ee04d6f494b35436",
+          "actual": "ccbc1a4ad1ca75af0541c9455256dd6a957008cab15ca0e7ee04d6f494b35436"
+        },
+        "graybox_top.png": {
+          "expected": "336c1c52ea9b5f27c08eb23dcb9f71b4c2ad487961677f15830f67deb7215c63",
+          "actual": "336c1c52ea9b5f27c08eb23dcb9f71b4c2ad487961677f15830f67deb7215c63"
+        },
+        "preview_fixed_rear.mp4": {
+          "expected": "0346319de0bb5a299b4fbc129b832cbb1f92a5701f380671e71046da98573884",
+          "actual": "0346319de0bb5a299b4fbc129b832cbb1f92a5701f380671e71046da98573884"
+        },
+        "preview_fixed_rear_circle.png": {
+          "expected": "eb033bcc559e7b3dfa023285d9ef658ca51bafa96e62238bb5f5958c90811c20",
+          "actual": "eb033bcc559e7b3dfa023285d9ef658ca51bafa96e62238bb5f5958c90811c20"
+        },
+        "preview_fixed_rear_fog_exit.png": {
+          "expected": "ddd3cab21f49b16384b4543c3a7760c2eac373450b6302fdf95d5054e76c2859",
+          "actual": "ddd3cab21f49b16384b4543c3a7760c2eac373450b6302fdf95d5054e76c2859"
+        },
+        "preview_fixed_rear_glide.png": {
+          "expected": "b4d7446b77c473277b8a66d6ce135ff24ca44bdcff51bd79ad45f2797ff25e6e",
+          "actual": "b4d7446b77c473277b8a66d6ce135ff24ca44bdcff51bd79ad45f2797ff25e6e"
+        },
+        "preview_fixed_rear_takeoff.png": {
+          "expected": "fcf59ffbc95dbadd8ebe1aaee2c44d5cc85452461a571b2b4187abc57c306ad5",
+          "actual": "fcf59ffbc95dbadd8ebe1aaee2c44d5cc85452461a571b2b4187abc57c306ad5"
+        },
+        "preview_top_flock.png": {
+          "expected": "7693ed84aeb1348b48135fe442009d9cf62af0be00a858fd12f70a12473620bb",
+          "actual": "7693ed84aeb1348b48135fe442009d9cf62af0be00a858fd12f70a12473620bb"
+        },
+        "qa.json": {
+          "expected": "b5064451151ede709744a31731131429613b5f210bd1d28ccfd5fb6e04f74c32",
+          "actual": "b5064451151ede709744a31731131429613b5f210bd1d28ccfd5fb6e04f74c32"
+        },
+        "roundtrip_fixed_rear_fog_exit.png": {
+          "expected": "ccb69a4873c8f218308cbbe9eef69928a3f8d8e5a429c24638e620f4f7f38cf3",
+          "actual": "ccb69a4873c8f218308cbbe9eef69928a3f8d8e5a429c24638e620f4f7f38cf3"
+        },
+        "roundtrip_fixed_rear_glide.png": {
+          "expected": "6b305c99701b47784255f40cc985be838bf03eb24db58fc2a8ec9038191e57e4",
+          "actual": "6b305c99701b47784255f40cc985be838bf03eb24db58fc2a8ec9038191e57e4"
+        },
+        "roundtrip_fixed_rear_takeoff.png": {
+          "expected": "920b5b1ef435a15977126f53a9085bc88050fd1d3bb74c4ff2f31834bb114cee",
+          "actual": "920b5b1ef435a15977126f53a9085bc88050fd1d3bb74c4ff2f31834bb114cee"
+        },
+        "roundtrip_top_flock.png": {
+          "expected": "5b8734268b32fa2499331b3f83d2419943dc20c51825f149f1ac031c4d80d4da",
+          "actual": "5b8734268b32fa2499331b3f83d2419943dc20c51825f149f1ac031c4d80d4da"
+        },
+        "s0_layout.json": {
+          "expected": "5be1532489e2ce1bfd4f8a9625355fde0d2799c7ca8c09ec8f4c468000770f39",
+          "actual": "5be1532489e2ce1bfd4f8a9625355fde0d2799c7ca8c09ec8f4c468000770f39"
+        }
+      },
+      "qa_top_level_fields": [
+        "GLB_reimport",
+        "GLB_transport",
+        "center_opening_pixel_context",
+        "iOS_reference",
+        "id",
+        "mother_reopened",
+        "pending",
+        "redline_check",
+        "result",
+        "status",
+        "version",
+        "video"
+      ]
+    },
+    {
+      "asset": "LVL-S1",
+      "status": "pass",
+      "problems": [],
+      "candidate_status": "needs_review",
+      "blends": [
+        "LVL-S1_S1_Tailwind.blend"
+      ],
+      "glbs": {
+        "LVL-S1_S1_Tailwind.glb": {
+          "meshes": 18,
+          "nodes": 39,
+          "images": 10,
+          "animations": []
+        }
+      },
+      "videos": {
+        "preview_fixed_rear.mp4": {
+          "frames_decoded": 80,
+          "width": 852,
+          "height": 394,
+          "duration_s": 10.0,
+          "audio_tracks": 0
+        }
+      },
+      "linked_files": [
+        "../../../../../../docs/references/asset-ledger.md",
+        "../../../../../../plans/active/goose-preview-model-cleanup.md",
+        "../../../../../../完整AI建模任务包/羽与潮_斑头雁_资源任务清单_v1.0.json",
+        "../../../../../docs/asset-index.json",
+        "../../../../../docs/asset-ledger.md",
+        "LVL-S1_S1_Tailwind.blend",
+        "LVL-S1_S1_Tailwind.glb",
+        "LVL-S1_generate.py",
+        "asset_manifest.json",
+        "comparison_without_formation_guide.png",
+        "graybox_fixed_rear.png",
+        "graybox_top.png",
+        "preview_fixed_rear.mp4",
+        "preview_fixed_rear_checkpoint.png",
+        "preview_fixed_rear_fork.png",
+        "preview_fixed_rear_formed.png",
+        "preview_fixed_rear_forming.png",
+        "preview_fixed_rear_loose.png",
+        "preview_top_full_v.png",
+        "qa.json",
+        "roundtrip_fixed_rear_checkpoint.png",
+        "roundtrip_fixed_rear_formed.png",
+        "s1_layout.json"
+      ],
+      "checked_hashes": {
+        "LVL-S1_S1_Tailwind.blend": {
+          "expected": "bbb4f4c40bec8a68a873e4349bdd5341b9b8ce4b494b1903c6d2d1b41cb4fd0a",
+          "actual": "bbb4f4c40bec8a68a873e4349bdd5341b9b8ce4b494b1903c6d2d1b41cb4fd0a"
+        },
+        "LVL-S1_S1_Tailwind.glb": {
+          "expected": "178619ad95cea01ded6cbca210cbf8b38422ed0ae6384ea2cd1916936bc08d56",
+          "actual": "178619ad95cea01ded6cbca210cbf8b38422ed0ae6384ea2cd1916936bc08d56"
+        },
+        "LVL-S1_generate.py": {
+          "expected": "1a82b96bb4c3a1ff978785f1b86d3e5f8528acd5bbfdbe08b83915e519f1bf15",
+          "actual": "1a82b96bb4c3a1ff978785f1b86d3e5f8528acd5bbfdbe08b83915e519f1bf15"
+        },
+        "README.md": {
+          "expected": "9516f79d77a95702ac4c3bb799ae460a8524f94e06e72da931c2d57b180dab0f",
+          "actual": "9516f79d77a95702ac4c3bb799ae460a8524f94e06e72da931c2d57b180dab0f"
+        },
+        "comparison_without_formation_guide.png": {
+          "expected": "53627e3e2d38c54ea2ae9d8b4ae1061fcad98a4f12e1f659561c474a3e0e9482",
+          "actual": "53627e3e2d38c54ea2ae9d8b4ae1061fcad98a4f12e1f659561c474a3e0e9482"
+        },
+        "graybox_fixed_rear.png": {
+          "expected": "a89bdab54c725553b7fa9011daaa941074eaa49a0b1b045050c73dfe3005b52d",
+          "actual": "a89bdab54c725553b7fa9011daaa941074eaa49a0b1b045050c73dfe3005b52d"
+        },
+        "graybox_top.png": {
+          "expected": "80db101383d47650baf71dc88d25802c0fcbe994c7a17e81a28b839fa46d8f37",
+          "actual": "80db101383d47650baf71dc88d25802c0fcbe994c7a17e81a28b839fa46d8f37"
+        },
+        "preview_fixed_rear.mp4": {
+          "expected": "89e7fe02f3c53973f7bcc1157c763bde3d2aa88ccd666469b93d9f536bf31441",
+          "actual": "89e7fe02f3c53973f7bcc1157c763bde3d2aa88ccd666469b93d9f536bf31441"
+        },
+        "preview_fixed_rear_checkpoint.png": {
+          "expected": "5c5ce134d1f1b71849cc90efeafd4ac663c96b5c345d42a7132245998d962959",
+          "actual": "5c5ce134d1f1b71849cc90efeafd4ac663c96b5c345d42a7132245998d962959"
+        },
+        "preview_fixed_rear_fork.png": {
+          "expected": "4480bdca06c75145dc6665560e16ed969e0f6c658718cf60b0026d94e412b03b",
+          "actual": "4480bdca06c75145dc6665560e16ed969e0f6c658718cf60b0026d94e412b03b"
+        },
+        "preview_fixed_rear_formed.png": {
+          "expected": "cbec8c23fce09b57f665beff880e2e00b6939ee889a290446c0f612600493b9a",
+          "actual": "cbec8c23fce09b57f665beff880e2e00b6939ee889a290446c0f612600493b9a"
+        },
+        "preview_fixed_rear_forming.png": {
+          "expected": "7b5a204c4974e3ca8b65844acf09953143aacc34be0c9949ac9b38e4615c837a",
+          "actual": "7b5a204c4974e3ca8b65844acf09953143aacc34be0c9949ac9b38e4615c837a"
+        },
+        "preview_fixed_rear_loose.png": {
+          "expected": "0de48300e46c888627987551ce516d0eea3a7274ec79b176ff2f488dfba02977",
+          "actual": "0de48300e46c888627987551ce516d0eea3a7274ec79b176ff2f488dfba02977"
+        },
+        "preview_top_full_v.png": {
+          "expected": "b0e1952ec368bf039884381fad5af8db20f0fa5ca6638c6dddbeee422f51e1d1",
+          "actual": "b0e1952ec368bf039884381fad5af8db20f0fa5ca6638c6dddbeee422f51e1d1"
+        },
+        "qa.json": {
+          "expected": "41867102a2ce655ae531faddd11db9fd687908132dbd25a2ed330e497985b82f",
+          "actual": "41867102a2ce655ae531faddd11db9fd687908132dbd25a2ed330e497985b82f"
+        },
+        "roundtrip_fixed_rear_checkpoint.png": {
+          "expected": "93a75935dda58e6319503c4b9524af889df3a5d45191456c69da6fef2e2756e5",
+          "actual": "93a75935dda58e6319503c4b9524af889df3a5d45191456c69da6fef2e2756e5"
+        },
+        "roundtrip_fixed_rear_formed.png": {
+          "expected": "1789ce5720ae3572c0f7ec7530b0dbe1d7359b52dd4ad18e6bbec425e01e14d8",
+          "actual": "1789ce5720ae3572c0f7ec7530b0dbe1d7359b52dd4ad18e6bbec425e01e14d8"
+        },
+        "s1_layout.json": {
+          "expected": "de067b53ec80fb0456ef49a0879af5f778c8b2079697c230288b55f44a59c4b6",
+          "actual": "de067b53ec80fb0456ef49a0879af5f778c8b2079697c230288b55f44a59c4b6"
+        }
+      },
+      "qa_top_level_fields": [
+        "app_baseline",
+        "blender",
+        "dependencies",
+        "id",
+        "image_comparison",
+        "independent_delivery_directory",
+        "pending",
+        "redline",
+        "status",
+        "version",
+        "video"
+      ]
+    },
+    {
+      "asset": "LVL-S2",
+      "status": "pass",
+      "problems": [],
+      "candidate_status": "needs_review",
+      "blends": [
+        "LVL-S2_S2_Fork.blend"
+      ],
+      "glbs": {
+        "LVL-S2_S2_Fork.glb": {
+          "meshes": 39,
+          "nodes": 103,
+          "images": 15,
+          "animations": []
+        }
+      },
+      "videos": {
+        "preview_fixed_rear.mp4": {
+          "frames_decoded": 64,
+          "width": 852,
+          "height": 394,
+          "duration_s": 8.0,
+          "audio_tracks": 0
+        }
+      },
+      "linked_files": [
+        "../../../../../../docs/references/asset-ledger.md",
+        "../../../../../../plans/active/goose-preview-model-cleanup.md",
+        "../../../../../../完整AI建模任务包/羽与潮_斑头雁_资源任务清单_v1.0.json",
+        "../../../../../docs/asset-index.json",
+        "../../../../../docs/asset-ledger.md",
+        "../../FX-002/v001/runtime_mapping.json",
+        "LVL-S2_S2_Fork.blend",
+        "LVL-S2_S2_Fork.glb",
+        "LVL-S2_generate.py",
+        "asset_manifest.json",
+        "graybox_fixed_rear.png",
+        "preview_both_routes_top.png",
+        "preview_checkpoint_A.png",
+        "preview_fixed_rear.mp4",
+        "preview_lakeside_rest.png",
+        "preview_long_lake.png",
+        "preview_merge.png",
+        "preview_short_pass.png",
+        "qa.json",
+        "roundtrip_fixed_rear.png",
+        "s2_layout.json"
+      ],
+      "checked_hashes": {
+        "LVL-S2_S2_Fork.blend": {
+          "expected": "30f28bc35fbd9e22530101a4eaa6658db9abcf8f8c6b491d2f55d86117dcb86d",
+          "actual": "30f28bc35fbd9e22530101a4eaa6658db9abcf8f8c6b491d2f55d86117dcb86d"
+        },
+        "LVL-S2_S2_Fork.glb": {
+          "expected": "1ea7b93a8b70ca3edc169425d11e2a5926f793c8cac561d7c0e7802f85428b49",
+          "actual": "1ea7b93a8b70ca3edc169425d11e2a5926f793c8cac561d7c0e7802f85428b49"
+        },
+        "LVL-S2_generate.py": {
+          "expected": "b0f0543b16e12c6ec2b79ed70ef0481284f2b35b57e343716ce1a5d61397a6fc",
+          "actual": "b0f0543b16e12c6ec2b79ed70ef0481284f2b35b57e343716ce1a5d61397a6fc"
+        },
+        "README.md": {
+          "expected": "428dd04313fff354bc66ddcc56f974e04d7d8865a6a4ad683cd1d2892689195b",
+          "actual": "428dd04313fff354bc66ddcc56f974e04d7d8865a6a4ad683cd1d2892689195b"
+        },
+        "graybox_fixed_rear.png": {
+          "expected": "aff59f8320d0dae16313bc8491b4bf880e295c952fecce896deff340ff3791b5",
+          "actual": "aff59f8320d0dae16313bc8491b4bf880e295c952fecce896deff340ff3791b5"
+        },
+        "preview_both_routes_top.png": {
+          "expected": "c044b8b930eca6e905d94228689bc2f2d70d74ed08385afa89a7389e646125c6",
+          "actual": "c044b8b930eca6e905d94228689bc2f2d70d74ed08385afa89a7389e646125c6"
+        },
+        "preview_checkpoint_A.png": {
+          "expected": "4472fa5c79755226b99dac182242f6908aa6c0e0a82f2126df6e949bdf88e61e",
+          "actual": "4472fa5c79755226b99dac182242f6908aa6c0e0a82f2126df6e949bdf88e61e"
+        },
+        "preview_fixed_rear.mp4": {
+          "expected": "aa9a32e923b7844df296a6f64810c87bae961cc833d6b8c679b0572430901a24",
+          "actual": "aa9a32e923b7844df296a6f64810c87bae961cc833d6b8c679b0572430901a24"
+        },
+        "preview_lakeside_rest.png": {
+          "expected": "792c3a72d5a39482411ea4e739eceadd6e3f6eb24bc37bb6e6a1caa835e1885f",
+          "actual": "792c3a72d5a39482411ea4e739eceadd6e3f6eb24bc37bb6e6a1caa835e1885f"
+        },
+        "preview_long_lake.png": {
+          "expected": "e6f37a4585ad0b82201c6ea4458c1dbd67e718d90941cf59b97f14b451ef6154",
+          "actual": "e6f37a4585ad0b82201c6ea4458c1dbd67e718d90941cf59b97f14b451ef6154"
+        },
+        "preview_merge.png": {
+          "expected": "2c82d29c4e75a41e25d3384e972dc21ed1d31062fa1f66c768a7db8a69c82285",
+          "actual": "2c82d29c4e75a41e25d3384e972dc21ed1d31062fa1f66c768a7db8a69c82285"
+        },
+        "preview_short_pass.png": {
+          "expected": "d86536e67e490bfd2cd10117821a74a2ec38c6f8932a2c0308ef2c13b526cda5",
+          "actual": "d86536e67e490bfd2cd10117821a74a2ec38c6f8932a2c0308ef2c13b526cda5"
+        },
+        "qa.json": {
+          "expected": "083050cb5038c6087b12e54f8270fac3afd5aa64df340399467cdb827c07b47c",
+          "actual": "083050cb5038c6087b12e54f8270fac3afd5aa64df340399467cdb827c07b47c"
+        },
+        "roundtrip_fixed_rear.png": {
+          "expected": "94215b48e5f068d81ed0e4a365b614b59ddc17ad6847a1806ecee625a57a4595",
+          "actual": "94215b48e5f068d81ed0e4a365b614b59ddc17ad6847a1806ecee625a57a4595"
+        },
+        "s2_layout.json": {
+          "expected": "c409e56f2e35cd9c19d7529240c20865c6031a8bbf6e54ad2fd6e046e1fc44cd",
+          "actual": "c409e56f2e35cd9c19d7529240c20865c6031a8bbf6e54ad2fd6e046e1fc44cd"
+        }
+      },
+      "qa_top_level_fields": [
+        "app_baseline",
+        "evidence_scope",
+        "id",
+        "independent_delivery_recheck",
+        "pending",
+        "redline_review",
+        "status",
+        "version"
+      ]
+    },
+    {
+      "asset": "LVL-S3",
+      "status": "pass",
+      "problems": [],
+      "candidate_status": "needs_review",
+      "blends": [
+        "LVL-S3_S3_Rescue.blend"
+      ],
+      "glbs": {
+        "LVL-S3_S3_Rescue.glb": {
+          "meshes": 27,
+          "nodes": 86,
+          "images": 13,
+          "animations": []
+        }
+      },
+      "videos": {
+        "preview_fixed_rear.mp4": {
+          "frames_decoded": 137,
+          "width": 852,
+          "height": 394,
+          "duration_s": 17.125,
+          "audio_tracks": 0
+        }
+      },
+      "linked_files": [
+        "../../../../../../docs/references/asset-ledger.md",
+        "../../../../../../plans/active/goose-preview-model-cleanup.md",
+        "../../../../../../完整AI建模任务包/羽与潮_斑头雁_资源任务清单_v1.0.json",
+        "../../../../../docs/asset-index.json",
+        "../../../../../docs/asset-ledger.md",
+        "LVL-S3_S3_Rescue.blend",
+        "LVL-S3_S3_Rescue.glb",
+        "LVL-S3_generate.py",
+        "asset_manifest.json",
+        "comparison_tree_still.png",
+        "graybox_fixed_rear.png",
+        "graybox_top.png",
+        "preview_fixed_rear.mp4",
+        "preview_fixed_rear_approach.png",
+        "preview_fixed_rear_crosswind.png",
+        "preview_fixed_rear_rejoined.png",
+        "preview_fixed_rear_rescue.png",
+        "preview_fixed_rear_return.png",
+        "preview_fixed_rear_tree_cue.png",
+        "preview_top.png",
+        "qa.json",
+        "roundtrip_fixed_rear_rescue.png",
+        "roundtrip_fixed_rear_return.png",
+        "s3_layout.json"
+      ],
+      "checked_hashes": {
+        "LVL-S3_S3_Rescue.blend": {
+          "expected": "5f41b1d4dd19c46920264218d0164f77460c5038c2f707f67bc560c1dbda0985",
+          "actual": "5f41b1d4dd19c46920264218d0164f77460c5038c2f707f67bc560c1dbda0985"
+        },
+        "LVL-S3_S3_Rescue.glb": {
+          "expected": "7c8426006eeda428ef81d7372e8ca11236e4dec9f71c0894d310864721971e74",
+          "actual": "7c8426006eeda428ef81d7372e8ca11236e4dec9f71c0894d310864721971e74"
+        },
+        "LVL-S3_generate.py": {
+          "expected": "5e33a2f75082d094083a32c050b63fd2e07f3e94106181fb21d5aae930effdea",
+          "actual": "5e33a2f75082d094083a32c050b63fd2e07f3e94106181fb21d5aae930effdea"
+        },
+        "README.md": {
+          "expected": "edaa843889251fef3507308994fc736d906e08c3b7b1a13f841c49430000d7c9",
+          "actual": "edaa843889251fef3507308994fc736d906e08c3b7b1a13f841c49430000d7c9"
+        },
+        "comparison_tree_still.png": {
+          "expected": "674c592763bd8d161fe51866bced70d3ff7d6a627537e5ccf6193cca1cc4a041",
+          "actual": "674c592763bd8d161fe51866bced70d3ff7d6a627537e5ccf6193cca1cc4a041"
+        },
+        "graybox_fixed_rear.png": {
+          "expected": "7d599adda09717e601769c1f5d3d5b9fd353bc5ee3d999686da3700b5a628ce6",
+          "actual": "7d599adda09717e601769c1f5d3d5b9fd353bc5ee3d999686da3700b5a628ce6"
+        },
+        "graybox_top.png": {
+          "expected": "490e453673a7214ace233549a5535d94c193b63d869998a0040b086483e3f694",
+          "actual": "490e453673a7214ace233549a5535d94c193b63d869998a0040b086483e3f694"
+        },
+        "preview_fixed_rear.mp4": {
+          "expected": "66dd3e8cfe71ce0611225f5e8f3ac2df08ebaeb86fc26ba22f3eea33423f5ab9",
+          "actual": "66dd3e8cfe71ce0611225f5e8f3ac2df08ebaeb86fc26ba22f3eea33423f5ab9"
+        },
+        "preview_fixed_rear_approach.png": {
+          "expected": "ab11713f95786933edacd922a030bf9e7d2489c63ad10f1440c5958c1beb5d5e",
+          "actual": "ab11713f95786933edacd922a030bf9e7d2489c63ad10f1440c5958c1beb5d5e"
+        },
+        "preview_fixed_rear_crosswind.png": {
+          "expected": "48da27700301a7ad496700dca59c8f1379a75be1d7fa68f16bee4e45fe0ee1cb",
+          "actual": "48da27700301a7ad496700dca59c8f1379a75be1d7fa68f16bee4e45fe0ee1cb"
+        },
+        "preview_fixed_rear_rejoined.png": {
+          "expected": "d97b632992cabedef40b851dd84825e269a3a9a84623084c4281b60d9da2bf2b",
+          "actual": "d97b632992cabedef40b851dd84825e269a3a9a84623084c4281b60d9da2bf2b"
+        },
+        "preview_fixed_rear_rescue.png": {
+          "expected": "cf7a5022c49fcc23822ee0ea11fcd5899f39b2b3d9ae83a2c23058e836a8e404",
+          "actual": "cf7a5022c49fcc23822ee0ea11fcd5899f39b2b3d9ae83a2c23058e836a8e404"
+        },
+        "preview_fixed_rear_return.png": {
+          "expected": "8f1c9ce34fef51cc046711f8ffbb9c47374ef43946feb27a442fa02428ed17a0",
+          "actual": "8f1c9ce34fef51cc046711f8ffbb9c47374ef43946feb27a442fa02428ed17a0"
+        },
+        "preview_fixed_rear_tree_cue.png": {
+          "expected": "3f8c07d42cb4b77eb3169f95bd954dc3f106e06c5abff9d0d762f9b27b9b6e6f",
+          "actual": "3f8c07d42cb4b77eb3169f95bd954dc3f106e06c5abff9d0d762f9b27b9b6e6f"
+        },
+        "preview_top.png": {
+          "expected": "ee30927b230adf99c5015e4aa6018d29a6462319dc1dbb86d48a05ea1492d852",
+          "actual": "ee30927b230adf99c5015e4aa6018d29a6462319dc1dbb86d48a05ea1492d852"
+        },
+        "qa.json": {
+          "expected": "53cf6ec3324a0a86a0d793e4c71f9573aeb347b142c552a3de2410639a699a6e",
+          "actual": "53cf6ec3324a0a86a0d793e4c71f9573aeb347b142c552a3de2410639a699a6e"
+        },
+        "roundtrip_fixed_rear_rescue.png": {
+          "expected": "4b1fba0c64fa6ac628b8431e43db2e22a5012552237f6edc689733ab1bb37765",
+          "actual": "4b1fba0c64fa6ac628b8431e43db2e22a5012552237f6edc689733ab1bb37765"
+        },
+        "roundtrip_fixed_rear_return.png": {
+          "expected": "9e50d0d399cbb9e3869d28c5f2a6f827e085a08c8fbd5efe0bf4d8dfc990ea5e",
+          "actual": "9e50d0d399cbb9e3869d28c5f2a6f827e085a08c8fbd5efe0bf4d8dfc990ea5e"
+        },
+        "s3_layout.json": {
+          "expected": "8cb495395b941b8e314ec0e4d3766491e7c5656e738fd6570fd60542df423205",
+          "actual": "8cb495395b941b8e314ec0e4d3766491e7c5656e738fd6570fd60542df423205"
+        }
+      },
+      "qa_top_level_fields": [
+        "app_baseline_reference",
+        "camera_swift_sha256",
+        "dependencies",
+        "id",
+        "independent_delivery_recheck",
+        "pending",
+        "redline_review",
+        "status",
+        "version"
+      ]
+    },
+    {
+      "asset": "LVL-S5",
+      "status": "pass",
+      "problems": [],
+      "candidate_status": "needs_review",
+      "blends": [
+        "LVL-S5_S5_Headwind.blend"
+      ],
+      "glbs": {
+        "LVL-S5_S5_Headwind.glb": {
+          "meshes": 57,
+          "nodes": 122,
+          "images": 12,
+          "animations": []
+        }
+      },
+      "videos": {
+        "preview_fixed_rear.mp4": {
+          "frames_decoded": 200,
+          "width": 852,
+          "height": 394,
+          "duration_s": 8.333333,
+          "audio_tracks": 0
+        }
+      },
+      "linked_files": [
+        "LVL-S5_S5_Headwind.blend",
+        "LVL-S5_S5_Headwind.glb",
+        "LVL-S5_generate.py",
+        "asset_manifest.json",
+        "graybox_fixed_rear.png",
+        "graybox_top.png",
+        "preview_fixed_rear.mp4",
+        "preview_fixed_rear_detour.png",
+        "preview_fixed_rear_exit.png",
+        "preview_fixed_rear_shelter.png",
+        "preview_top.png",
+        "qa.json",
+        "roundtrip_fixed_rear.png",
+        "roundtrip_top.png",
+        "s5_layout.json"
+      ],
+      "checked_hashes": {
+        "LVL-S5_S5_Headwind.blend": {
+          "expected": "358d98f6d34025a9113c2852ccd62862243cabfbe0b7be1f6588eab41894ae0d",
+          "actual": "358d98f6d34025a9113c2852ccd62862243cabfbe0b7be1f6588eab41894ae0d"
+        },
+        "LVL-S5_S5_Headwind.glb": {
+          "expected": "da2df05dad85326994cee8f5fcabde790b3ba3b787eb4517c5903128c21acb0f",
+          "actual": "da2df05dad85326994cee8f5fcabde790b3ba3b787eb4517c5903128c21acb0f"
+        },
+        "LVL-S5_generate.py": {
+          "expected": "666a4bd6f219908d0a54a3aeb4bbdeb42e0260a2a40351a22432be0259a9cf6e",
+          "actual": "666a4bd6f219908d0a54a3aeb4bbdeb42e0260a2a40351a22432be0259a9cf6e"
+        },
+        "README.md": {
+          "expected": "6f7473e17afef1806f40cb17fd8c2c4e62a3e9dd5939b4ec900f2437ad334af5",
+          "actual": "6f7473e17afef1806f40cb17fd8c2c4e62a3e9dd5939b4ec900f2437ad334af5"
+        },
+        "graybox_fixed_rear.png": {
+          "expected": "1ac8cef2d2b4782662c267369a0eccc9ba05766a05f0928d088b7872fd15835f",
+          "actual": "1ac8cef2d2b4782662c267369a0eccc9ba05766a05f0928d088b7872fd15835f"
+        },
+        "graybox_top.png": {
+          "expected": "1f66b486742c666b90bb2e59c6246d27ffd5ca4d16f7bb008ba5e5d28f0ea821",
+          "actual": "1f66b486742c666b90bb2e59c6246d27ffd5ca4d16f7bb008ba5e5d28f0ea821"
+        },
+        "preview_fixed_rear.mp4": {
+          "expected": "41a74a794619c4a65b8b350fdbcc27ff423c7144f1b8cdffff39c3a49ae7b22d",
+          "actual": "41a74a794619c4a65b8b350fdbcc27ff423c7144f1b8cdffff39c3a49ae7b22d"
+        },
+        "preview_fixed_rear_detour.png": {
+          "expected": "18450ea5433c001cbd08d143ce68966848e0a6a973f8211c4ad726655a058ec8",
+          "actual": "18450ea5433c001cbd08d143ce68966848e0a6a973f8211c4ad726655a058ec8"
+        },
+        "preview_fixed_rear_exit.png": {
+          "expected": "58e8820f65752c20c07d663c156691ffe04a8ed0ad651ae7533d7759ccf3b759",
+          "actual": "58e8820f65752c20c07d663c156691ffe04a8ed0ad651ae7533d7759ccf3b759"
+        },
+        "preview_fixed_rear_shelter.png": {
+          "expected": "95a282a1b0903c5edfd98093b8c43cd7254fd004e7d8b6e9e31bc0612c3b478f",
+          "actual": "95a282a1b0903c5edfd98093b8c43cd7254fd004e7d8b6e9e31bc0612c3b478f"
+        },
+        "preview_top.png": {
+          "expected": "447c31cabb0d2bda129bcb22fa9d47517a162afc6eb25c4e2cc18f83873d2413",
+          "actual": "447c31cabb0d2bda129bcb22fa9d47517a162afc6eb25c4e2cc18f83873d2413"
+        },
+        "qa.json": {
+          "expected": "4f6aa4998316705e82688379639f13e47986bc9bfec2340fb88aed5570e4be66",
+          "actual": "4f6aa4998316705e82688379639f13e47986bc9bfec2340fb88aed5570e4be66"
+        },
+        "roundtrip_fixed_rear.png": {
+          "expected": "1085471dc1ce0ca00b250b8e268bf4bb7903d42bab5f0d21b72ccaa1ba94519a",
+          "actual": "1085471dc1ce0ca00b250b8e268bf4bb7903d42bab5f0d21b72ccaa1ba94519a"
+        },
+        "roundtrip_top.png": {
+          "expected": "ff59641a3aa68608e6ee78f226bd45dc4965e750c69cd192bf482be47f5dbfa2",
+          "actual": "ff59641a3aa68608e6ee78f226bd45dc4965e750c69cd192bf482be47f5dbfa2"
+        },
+        "s5_layout.json": {
+          "expected": "f6d275c0582ac485e02030a256fc4016a02b3751d2f86a880e73dd131123576b",
+          "actual": "f6d275c0582ac485e02030a256fc4016a02b3751d2f86a880e73dd131123576b"
+        },
+        "textures/ft_goose_env_s5_shelter_basecolor_alpha.png": {
+          "expected": "1aa6cb16df47e76a219db6e12c3365d41fccfbb685b7b55e6aaa968ee79cca78",
+          "actual": "1aa6cb16df47e76a219db6e12c3365d41fccfbb685b7b55e6aaa968ee79cca78"
+        },
+        "textures/ft_goose_env_s5_shelter_cue_alpha.png": {
+          "expected": "f6768f5f591931b02d53988c88586a87e60bfa65e37abb8724cf717b23e247c3",
+          "actual": "f6768f5f591931b02d53988c88586a87e60bfa65e37abb8724cf717b23e247c3"
+        },
+        "textures/ft_goose_env_s5_shelter_path_basecolor_alpha.png": {
+          "expected": "560fc09d381eb333f31c2244cbca712836006e6c77600e4bd1e9b0d235519080",
+          "actual": "560fc09d381eb333f31c2244cbca712836006e6c77600e4bd1e9b0d235519080"
+        },
+        "textures/ft_goose_fx_s5_cloud_shadow_alpha.png": {
+          "expected": "4e086ed5544312c513698264e63e0aecd084749710366ee7a27bd0d030698f40",
+          "actual": "4e086ed5544312c513698264e63e0aecd084749710366ee7a27bd0d030698f40"
+        }
+      },
+      "qa_top_level_fields": [
+        "GLB_transport",
+        "app_baseline",
+        "candidate_food_collision_authority",
+        "dependency_files",
+        "id",
+        "independent_delivery_recheck",
+        "pending",
+        "redline_review",
+        "source_gates",
+        "source_graybox_scope",
+        "source_motion",
+        "status",
+        "version"
+      ]
+    },
+    {
+      "asset": "LVL-S6",
+      "status": "pass",
+      "problems": [],
+      "candidate_status": "needs_review",
+      "blends": [
+        "LVL-S6_S6_Landing.blend"
+      ],
+      "glbs": {
+        "LVL-S6_S6_Landing.glb": {
+          "meshes": 3,
+          "nodes": 19,
+          "images": 9,
+          "animations": []
+        }
+      },
+      "videos": {
+        "preview_fixed_rear.mp4": {
+          "frames_decoded": 90,
+          "width": 852,
+          "height": 394,
+          "duration_s": 7.5,
+          "audio_tracks": 0
+        }
+      },
+      "linked_files": [
+        "../../../../../../docs/references/asset-ledger.md",
+        "../../../../../../plans/active/goose-preview-model-cleanup.md",
+        "../../../../../../完整AI建模任务包/羽与潮_斑头雁_资源任务清单_v1.0.json",
+        "../../../../../docs/asset-index.json",
+        "../../../../../docs/asset-ledger.md",
+        "LVL-S6_S6_Landing.blend",
+        "LVL-S6_S6_Landing.glb",
+        "LVL-S6_generate.py",
+        "asset_manifest.json",
+        "graybox_fixed_rear.png",
+        "graybox_top.png",
+        "preview_comparison_feather_disabled.png",
+        "preview_comparison_water_ripples_disabled.png",
+        "preview_fixed_rear.mp4",
+        "preview_fixed_rear_all_landed.png",
+        "preview_fixed_rear_approach.png",
+        "preview_fixed_rear_eleven_landed.png",
+        "preview_fixed_rear_feather_motes.png",
+        "preview_fixed_rear_leader_wait.png",
+        "preview_fixed_rear_rest.png",
+        "preview_fixed_rear_water_ripples.png",
+        "preview_top_landing_basin.png",
+        "qa.json",
+        "roundtrip_comparison_water_ripples_disabled.png",
+        "roundtrip_fixed_rear.png",
+        "roundtrip_fixed_rear_rest.png",
+        "roundtrip_top.png",
+        "roundtrip_water_contact.png",
+        "s6_layout.json"
+      ],
+      "checked_hashes": {
+        "LVL-S6_S6_Landing.blend": {
+          "expected": "c00256ea8e97de07a82a74e0e2665b30ccc998f6e995e29c61a026d5116361ee",
+          "actual": "c00256ea8e97de07a82a74e0e2665b30ccc998f6e995e29c61a026d5116361ee"
+        },
+        "LVL-S6_S6_Landing.glb": {
+          "expected": "5cf4a4dd86f24c2f9bdb28a6b7657e5e588c06d917d526f8eb692786e40f90d8",
+          "actual": "5cf4a4dd86f24c2f9bdb28a6b7657e5e588c06d917d526f8eb692786e40f90d8"
+        },
+        "LVL-S6_generate.py": {
+          "expected": "082f10cdad16927f6cb5d2efc39c18f410c4afaf6d143e1c062a681b52e11edb",
+          "actual": "082f10cdad16927f6cb5d2efc39c18f410c4afaf6d143e1c062a681b52e11edb"
+        },
+        "README.md": {
+          "expected": "5aae407f63745b2f0afd9e6bc266d74fd5ca062b36e5817f21a4c5520982c255",
+          "actual": "5aae407f63745b2f0afd9e6bc266d74fd5ca062b36e5817f21a4c5520982c255"
+        },
+        "graybox_fixed_rear.png": {
+          "expected": "2d689430b4435538fe5395fe6badc96e491107ae02efc313a48a88135e435b67",
+          "actual": "2d689430b4435538fe5395fe6badc96e491107ae02efc313a48a88135e435b67"
+        },
+        "graybox_top.png": {
+          "expected": "c68e248f0e7c71f4344e73ae2be3f824b71f1f7c45958f0b222c8175314dec55",
+          "actual": "c68e248f0e7c71f4344e73ae2be3f824b71f1f7c45958f0b222c8175314dec55"
+        },
+        "preview_comparison_feather_disabled.png": {
+          "expected": "2ac78756c43bc6f863c6c5196209a7d767c402244a26181ce7a2b782ce3e88a4",
+          "actual": "2ac78756c43bc6f863c6c5196209a7d767c402244a26181ce7a2b782ce3e88a4"
+        },
+        "preview_comparison_water_ripples_disabled.png": {
+          "expected": "ac531d3e8e310b4e58cf1676094125ab144e8afb6ab7a9850aa9d76ce624de3d",
+          "actual": "ac531d3e8e310b4e58cf1676094125ab144e8afb6ab7a9850aa9d76ce624de3d"
+        },
+        "preview_fixed_rear.mp4": {
+          "expected": "58daf39c93e442ba88c9e81861e7404401f84b2bd36f9e8627b178a83272b113",
+          "actual": "58daf39c93e442ba88c9e81861e7404401f84b2bd36f9e8627b178a83272b113"
+        },
+        "preview_fixed_rear_all_landed.png": {
+          "expected": "a541a77dc022b25981aa03fa87cea6c1503d57af8db819e9c6de8c9b66d9d4eb",
+          "actual": "a541a77dc022b25981aa03fa87cea6c1503d57af8db819e9c6de8c9b66d9d4eb"
+        },
+        "preview_fixed_rear_approach.png": {
+          "expected": "f7ec794675b5b5b509470b494df4e2eb41337e1caaa772a455b8228576cb8833",
+          "actual": "f7ec794675b5b5b509470b494df4e2eb41337e1caaa772a455b8228576cb8833"
+        },
+        "preview_fixed_rear_eleven_landed.png": {
+          "expected": "be281d6256a5f117c821a640444ec5bbf06925396041cac3bbe59eb7c8c4605a",
+          "actual": "be281d6256a5f117c821a640444ec5bbf06925396041cac3bbe59eb7c8c4605a"
+        },
+        "preview_fixed_rear_feather_motes.png": {
+          "expected": "dad11b128b560c4ab519e9dd28699d09af14c208b4c1c105bae6158c8a32cddc",
+          "actual": "dad11b128b560c4ab519e9dd28699d09af14c208b4c1c105bae6158c8a32cddc"
+        },
+        "preview_fixed_rear_leader_wait.png": {
+          "expected": "5c6cacaba641d1c8312977a98db52af52061c075c98876621a5d6fe96112c904",
+          "actual": "5c6cacaba641d1c8312977a98db52af52061c075c98876621a5d6fe96112c904"
+        },
+        "preview_fixed_rear_rest.png": {
+          "expected": "5e606f2a8a5272d3ba7790fb6d656e01437240a8ed1b43412235ff5e4e4083de",
+          "actual": "5e606f2a8a5272d3ba7790fb6d656e01437240a8ed1b43412235ff5e4e4083de"
+        },
+        "preview_fixed_rear_water_ripples.png": {
+          "expected": "3dcfa8956bca28e88c76642fe1ef2a087ca22bad083610a035e2905fdc49bcff",
+          "actual": "3dcfa8956bca28e88c76642fe1ef2a087ca22bad083610a035e2905fdc49bcff"
+        },
+        "preview_top_landing_basin.png": {
+          "expected": "b5d0173640ebadea08e362bcff6cf53b7e353c5d195ff26e8a1c119af0f600bd",
+          "actual": "b5d0173640ebadea08e362bcff6cf53b7e353c5d195ff26e8a1c119af0f600bd"
+        },
+        "qa.json": {
+          "expected": "7459c5a5b78cb99ab4b0ad4d61c75e79227e2d56378ab688c036102badd96163",
+          "actual": "7459c5a5b78cb99ab4b0ad4d61c75e79227e2d56378ab688c036102badd96163"
+        },
+        "roundtrip_comparison_water_ripples_disabled.png": {
+          "expected": "21c42c8fa3adac364ecd7fd5ab50a30a6918d550714c86439426a81cfd52b621",
+          "actual": "21c42c8fa3adac364ecd7fd5ab50a30a6918d550714c86439426a81cfd52b621"
+        },
+        "roundtrip_fixed_rear.png": {
+          "expected": "51893d75e87c06587fc59f7e0e8b9b0df00fa5ddce5d4ac7763b0e5e14c8f1e8",
+          "actual": "51893d75e87c06587fc59f7e0e8b9b0df00fa5ddce5d4ac7763b0e5e14c8f1e8"
+        },
+        "roundtrip_fixed_rear_rest.png": {
+          "expected": "fd0f27f0910fd202735d825ef2b58b9ddf291513f2708b21303ec3632935f275",
+          "actual": "fd0f27f0910fd202735d825ef2b58b9ddf291513f2708b21303ec3632935f275"
+        },
+        "roundtrip_top.png": {
+          "expected": "4eb696b18ccdb88b324fc1664cbb07c8a9ca7b566b605c3c13ce9f7e4fb16db9",
+          "actual": "4eb696b18ccdb88b324fc1664cbb07c8a9ca7b566b605c3c13ce9f7e4fb16db9"
+        },
+        "roundtrip_water_contact.png": {
+          "expected": "5af3ba4228242d7e059f873b10d00228f1a3dc212e2a0339afa56c14814028d6",
+          "actual": "5af3ba4228242d7e059f873b10d00228f1a3dc212e2a0339afa56c14814028d6"
+        },
+        "s6_layout.json": {
+          "expected": "5c5244b2f66c4b51ded1a2f162e8b7df32f24184e1bec7c1f06ca1789640aff8",
+          "actual": "5c5244b2f66c4b51ded1a2f162e8b7df32f24184e1bec7c1f06ca1789640aff8"
+        }
+      },
+      "qa_top_level_fields": [
+        "app_graybox_baseline",
+        "id",
+        "independent_reimported_glb",
+        "independent_reopened_master",
+        "offline_result",
+        "pending",
+        "redline_check",
+        "status",
+        "version",
+        "video"
+      ]
+    }
+  ]
+}

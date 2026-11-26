@@ -1,0 +1,33 @@
+{
+  "style_board": "SB-2026-11-07-v1",
+  "line": "deer",
+  "swaps": {
+    "normal": {
+      "sat": 1.0,
+      "warm": 0.0,
+      "note": "正常苔原"
+    },
+    "mine_dust": {
+      "sat": 0.7,
+      "warm": 0.1,
+      "tint": "#8A8078",
+      "note": "矿尘褐灰"
+    },
+    "false_spring": {
+      "sat": 0.9,
+      "warm": 0.05,
+      "ice": "#C9D6DF",
+      "note": "假春坚冰"
+    },
+    "night_lights": {
+      "sat": 0.85,
+      "glow": "#E8D080",
+      "note": "林缘夜灯克制"
+    },
+    "regreen": {
+      "sat": 1.05,
+      "tint": "#A8B58A",
+      "note": "复绿回暖"
+    }
+  }
+}

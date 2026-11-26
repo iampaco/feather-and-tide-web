@@ -1,0 +1,122 @@
+{
+  "id": "FX-001",
+  "version": "v001",
+  "status": "needs_review",
+  "name": "顺风流线",
+  "priority": "P0",
+  "level": "S1",
+  "specification_pdf_page": 14,
+  "blender": "5.2.2 LTS",
+  "upstream": {
+    "MAT-001": {
+      "status": "done",
+      "files": {
+        "MAT-001/v001/MAT-001_watercolor_master.blend": "9fc0305a78264733d2a2f5747a67833158c59470eff3e3d71c4f6da5b9d11de0",
+        "MAT-001/v001/textures/ft_goose_mat_soft_stone_basecolor.png": "931bb3b12c975c2dbbe37a695bf8dc1d49cf29e3b92bf3296c9896b6e0c5022f",
+        "MAT-001/v001/textures/ft_goose_mat_water_fallback_basecolor.png": "1ba5ac1025aef815fee0c717947aceba763a393a4c0e5f6aab5beb19877dc5b9"
+      }
+    }
+  },
+  "review_only_sources": {
+    "CHR-001/v001/CHR-001_goose_rig.glb": "cd11419a47a2c8e2d67d636015675540581a74720a83c23ef8531437c7161b81",
+    "ANM-001/v001/ANM-001_cruise_flap.glb": "4f890f71264c9995480b9c759deb78352457a4d26ae82369631e7303a89a5033"
+  },
+  "source_camera_sha256": {
+    "Sources/FeatherTide/Systems/Camera/ThirdPersonRig.swift": "274b58f0b910a280c676540dde54343c35e2e0709744e20e7e5ee4f9515476a2",
+    "Sources/FeatherTide/Rendering/PlayfieldView.swift": "8c37c08a35b8b299cc9af9f9e63e64ef5d50947e12822356fee8de398bc110dc"
+  },
+  "source": "程序化原创带状网格，项目内 MAT-001 SoftStone 纸纹抽样与浅金／乳白着色。",
+  "license": "Feather & Tide 项目内原创与既有项目自有候选，无新增外部素材或署名。",
+  "scale": {
+    "beak_to_tail_BU": 0.99,
+    "game_units": 27.5,
+    "BU_per_game_unit": 0.036
+  },
+  "camera": {
+    "distance_game_units": 180,
+    "pitch_rad": 0.48,
+    "vertical_fov_deg": 50,
+    "target_height_game_units": 6,
+    "lead_height_game_units": 8,
+    "follower_height_game_units": 6,
+    "frame_size": [
+      852,
+      393
+    ]
+  },
+  "variants": {
+    "WindTail_Long": {
+      "length": 2.8,
+      "width": 0.18,
+      "bend": 0.19,
+      "segments": 36,
+      "color": [
+        235,
+        218,
+        163
+      ],
+      "alpha": 0.37,
+      "size": [
+        512,
+        64
+      ],
+      "mesh_triangles": 72,
+      "texture": "textures/ft_goose_fx_wind_tail_long_rgba.png",
+      "file": "FX-001_WindTail_Long.glb"
+    },
+    "WindTail_Short": {
+      "length": 1.4,
+      "width": 0.13,
+      "bend": 0.105,
+      "segments": 24,
+      "color": [
+        239,
+        231,
+        194
+      ],
+      "alpha": 0.34,
+      "size": [
+        256,
+        64
+      ],
+      "mesh_triangles": 48,
+      "texture": "textures/ft_goose_fx_wind_tail_short_rgba.png",
+      "file": "FX-001_WindTail_Short.glb"
+    }
+  },
+  "runtime_inputs": {
+    "worldPosition": "Ground-space stroke anchor. Convert from game units by multiplying 0.036.",
+    "worldWindDirection": "Finite nonzero horizontal unit vector. Align local forward to it.",
+    "windSpeedBUPerSecond": "Nonnegative drift along wind direction. Omit stroke if wind is calm.",
+    "elapsedSeconds": "Monotonic controller time.",
+    "phaseOffsetBU": "Independent stroke/slot phase as downstream distance.",
+    "formationWeight": "0–1. Ease local heading/sway variation into wind alignment. Game supplies it.",
+    "opacityMultiplier": "Multiply source straight alpha. Feather on release or recycle.",
+    "side_clearance": "Keep transparent geometry outside projected goose silhouettes.",
+    "tiling": "Repeat upstream pivot at n × variant length along wind. Clear alpha at both edges.",
+    "reverse": "Rotate the instance 180° about up for opposite wind. Preserve mesh/UV and positive scale.",
+    "coordinates": "Blender +Y forward/+Z up → GLB -Z forward/+Y up, X unchanged.",
+    "uv": "U=0 upstream, U=1 downstream. V across, left 0 to right 1.",
+    "export_animation": "None. Blender controls and animation are review only."
+  },
+  "files": {
+    "FX-001_WindTail.blend": "932ad55537a700a8f537433e2c0dc0b7eba3f8eefdcd408ddbd727b33224ef79",
+    "FX-001_WindTail_Long.glb": "eef2690a871f9ac2b16bdc30835f4382931938be0f1b423a611bc68d4d51a9a9",
+    "FX-001_WindTail_Short.glb": "ba34c0ae5a0d7376ac97a1a7c4819721054313ae9737d977691dcb8b6ca6fc67",
+    "FX-001_generate.py": "f9079d62c0b3afd38f0eeda4fc7f8075d49218c245e8baaf6bed9367df1c1aff",
+    "README.md": "4ed6aee4ba46c0e0d543e7813dc44de7c44f772317a590781887d8a09e5ea011",
+    "comparison_without_fx.png": "798a0b6dffac59337b5338360644423a44b73cb10730b1cbe08b01e4a4c8d617",
+    "graybox_fixed_rear.png": "93dea578b70c91ab87192178b4dad2a082bcfb49d308026d23200f7285543f7a",
+    "graybox_top.png": "14ee98ac7e503d32043dff797f3f4bfe255a643dbd399eeec634f0b0835ccc52",
+    "preview_fixed_rear.mp4": "815e1ad5743ce27528463619063df39959756daa71f3fa8da48babd75e8b9ade",
+    "preview_fixed_rear_aligned.png": "05b52f68fbdc9d9607082569e79a840f12014871f9fc7ff09aa42c412afabeed",
+    "preview_fixed_rear_forming.png": "3492aeb89ffb8fc94d6a0b37a54e8fcd74913f8af67f03cd547cfbeb091770b0",
+    "preview_fixed_rear_loose.png": "6e4bf3d7468924767ecdb643aa524869b2599a6515123a97b0f0f94537b502b2",
+    "preview_fixed_rear_reduced.png": "c94e5263b1dd2e366cab0e0c20dc7700b4ab2621bfa2d2ca500311a6ceca9ee0",
+    "preview_top.png": "bc82ff034fb1ce3fa232176856962926ea5b23c37ca1b7d9f5336e3b51c563c6",
+    "qa.json": "54595b7fffdefb1f5489f99b0f63e43946312ab6d97e3d2d5c0a4a143ff4eda2",
+    "roundtrip_fixed_rear.png": "6c2387a77f057e13dbad3a75a8e5db6adb6801543638ba5c55db0d08cdb098a5",
+    "textures/ft_goose_fx_wind_tail_long_rgba.png": "572e351d9a0dbb81f08a31ad4a0f7e53346376bb2ec2750351e7f553598cdc80",
+    "textures/ft_goose_fx_wind_tail_short_rgba.png": "11b5e75d0d1f0647429cbc3f69c48783ff2e24f837af057b9643f736870dfb6d"
+  }
+}

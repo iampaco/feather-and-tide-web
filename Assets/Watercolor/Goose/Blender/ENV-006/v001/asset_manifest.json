@@ -1,0 +1,130 @@
+{
+  "id": "ENV-006",
+  "version": "v001",
+  "status": "needs_review",
+  "execution_order_1_based": 50,
+  "depends": [
+    "MAT-001/v001"
+  ],
+  "variants": [
+    "Grass_A",
+    "Grass_B",
+    "Grass_C"
+  ],
+  "root_blender_BU": [
+    0,
+    0,
+    0
+  ],
+  "blender_xyz_to_gltf": [
+    "x",
+    "z",
+    "-y"
+  ],
+  "textures": {
+    "FogLeaf": {
+      "path_relative_to_candidate": "../../MAT-001/v001/textures/ft_goose_mat_plant_opaque_basecolor.png",
+      "sha256": "a4fbb2db73897427d8172297edb7b59d80a17707b3a3f1a198857f4996e6ed26",
+      "sRGB_tint": "FFFFFF"
+    },
+    "SedgeLeaf": {
+      "path_relative_to_candidate": "../../MAT-001/v001/textures/ft_goose_mat_plant_opaque_basecolor.png",
+      "sha256": "a4fbb2db73897427d8172297edb7b59d80a17707b3a3f1a198857f4996e6ed26",
+      "sRGB_tint": "D3D6A0"
+    },
+    "DrySedge": {
+      "path_relative_to_candidate": "../../MAT-001/v001/textures/ft_goose_mat_dry_ground_basecolor.png",
+      "sha256": "e201e626c70ba88af6cbeae9662dc76375930208e121c4af5dbdfc52cfcefab0",
+      "sRGB_tint": "E9BC83"
+    },
+    "SeedHead": {
+      "path_relative_to_candidate": "../../MAT-001/v001/textures/ft_goose_mat_dry_ground_basecolor.png",
+      "sha256": "e201e626c70ba88af6cbeae9662dc76375930208e121c4af5dbdfc52cfcefab0",
+      "sRGB_tint": "FFFFFF"
+    }
+  },
+  "source_library_sha256": "9fc0305a78264733d2a2f5747a67833158c59470eff3e3d71c4f6da5b9d11de0",
+  "rights": "Project-original geometry with project-owned MAT-001 PlantOpaque and DryGround.",
+  "geometry": {
+    "Grass_A": {
+      "triangles": 98,
+      "vertices": 91,
+      "bounds_BU": [
+        [
+          -0.17474296689033508,
+          0.058856088668107986
+        ],
+        [
+          -0.13472826778888702,
+          0.1780005544424057
+        ],
+        [
+          0.0,
+          0.20499999821186066
+        ]
+      ],
+      "height_BU": 0.20499999821186066,
+      "max_horizontal_radius_BU": 0.19074390115306009
+    },
+    "Grass_B": {
+      "triangles": 126,
+      "vertices": 117,
+      "bounds_BU": [
+        [
+          -0.19500350952148438,
+          0.17791813611984253
+        ],
+        [
+          -0.1593003273010254,
+          0.14824165403842926
+        ],
+        [
+          0.0,
+          0.28200000524520874
+        ]
+      ],
+      "height_BU": 0.28200000524520874,
+      "max_horizontal_radius_BU": 0.22133268808427067
+    },
+    "Grass_C": {
+      "triangles": 112,
+      "vertices": 104,
+      "bounds_BU": [
+        [
+          -0.15329530835151672,
+          0.11330997943878174
+        ],
+        [
+          -0.16390758752822876,
+          0.16972015798091888
+        ],
+        [
+          0.0,
+          0.24500000476837158
+        ]
+      ],
+      "height_BU": 0.24500000476837158,
+      "max_horizontal_radius_BU": 0.18055222568048487
+    }
+  },
+  "blender": "5.2.2 LTS",
+  "glb_files": [
+    "ENV-006_Grass_A.glb",
+    "ENV-006_Grass_B.glb",
+    "ENV-006_Grass_C.glb"
+  ],
+  "blender_file": "ENV-006_grass.blend",
+  "files": {
+    "ENV-006_Grass_A.glb": "10aa0b083f5819c0e73bb69d905244ee77becc3e4cc0e9c4dea167a5d0401184",
+    "ENV-006_Grass_B.glb": "7f3ce3dbec13c6f9c2c65cf93e1d007e9ab7f6985170140e40f4bb825f9844d9",
+    "ENV-006_Grass_C.glb": "1203bde3ca826925ccc356c55d151b1102fa8500787f50185e5d2329f3c0b030",
+    "ENV-006_generate.py": "41457d56aa9243b1c1038bf8b29769eb3c0978659e03db64ea05dd6aeca66e36",
+    "ENV-006_grass.blend": "6324b461da066600063c5a91635bfd128b94d49cdfb5b441593220436abbcc9b",
+    "README.md": "303d919fbe7227bd06fe9f99050fa2142dd05fc4788f9b36fec221e38712701b",
+    "graybox_lineup.png": "57c177323e7a55d3e2eb809ccdbe2ee81b00b5763b0c10cbe2f86fd1a48f28be",
+    "preview_fixed_rear.png": "2f9f6f83b304124d9455fa1e92dfc9aaaea4ac34f12262af5fcee58a5adcd859",
+    "preview_glb_roundtrip.png": "ef001fbcafeae101a7c0e6c5033823e1efb8cd578e3b712ee57a4f60d7a4c31b",
+    "preview_lineup.png": "4fb703adfc4f27ab1601ec9c23444957f84cee26069cb440438658e4ffd52b6d",
+    "qa.json": "a147712027917c7b59062a480bdfeb920758095995687b3843633826b3f71c49"
+  }
+}

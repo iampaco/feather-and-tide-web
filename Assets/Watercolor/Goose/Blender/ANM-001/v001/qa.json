@@ -1,0 +1,321 @@
+{
+  "id": "ANM-001",
+  "version": "v001",
+  "status": "done",
+  "blender": {
+    "cycle": {
+      "samples": 105,
+      "sample_step_frames": 0.5,
+      "tested_nonadjacent_pairs": 14,
+      "shoulder_attachment_all_samples": "pass",
+      "tested_intersections": "pass",
+      "edge_length_ratio_range": [
+        0.6658982061432129,
+        1.2651668266828127
+      ],
+      "left_right_mirror_error_BU": 2.980232238769531e-07,
+      "seam_position_error_BU": 0.0,
+      "seam_velocity_finite_difference_BU_per_s": 0.0025141646136358367,
+      "root_stationary_and_heading_preserved": "pass",
+      "lowest": {
+        "frame": 29.0,
+        "min_z_BU": -0.18340632319450378,
+        "leader_clearance": 2.905434595785871,
+        "follower_clearance": 1.9243476766286962,
+        "body_z_BU": 0.0059654442593455315,
+        "root_x_deg": -22.999999501668448,
+        "wrist_x_deg": 8.31999942328604,
+        "bounds_px": [
+          374.9947978856764,
+          158.5992419022749,
+          477.00520595598147,
+          209.59606411729462
+        ]
+      },
+      "leader_clearance_game_units": 2.905434595785871,
+      "follower_clearance_game_units": 1.9243476766286962,
+      "root_peak_frame": 11.0,
+      "root_low_frame": 29.0,
+      "wrist_release_peak_frame": 35.0,
+      "wrist_lag_after_root_low_s": 0.125,
+      "body_lift_range_BU": [
+        -0.009999999776482582,
+        0.014000000432133675
+      ],
+      "screen_bbox_envelope_px": [
+        371.3076767740853,
+        158.35292590411288,
+        480.6923231068063,
+        209.59606411729462
+      ]
+    },
+    "glb": {
+      "name": "Cruise_Flap_Loop",
+      "duration_s": 1.0833333333333333,
+      "channels": 13,
+      "animated_targets": [
+        "Body.rotation",
+        "Body.translation",
+        "Elbow.L.rotation",
+        "Elbow.R.rotation",
+        "Head.rotation",
+        "Neck.rotation",
+        "Tail.rotation",
+        "Tip.L.rotation",
+        "Tip.R.rotation",
+        "WingRoot.L.rotation",
+        "WingRoot.R.rotation",
+        "Wrist.L.rotation",
+        "Wrist.R.rotation"
+      ],
+      "quaternion_seam_error": 0,
+      "translation_seam_error": 0.0,
+      "root_channels": 0,
+      "same_joint_rest_transforms": "pass",
+      "same_packed_texture_bytes": "pass",
+      "same_exported_mesh_and_skin_attributes": "pass"
+    },
+    "roundtrip": {
+      "duration_s": 1.0833333333333333,
+      "samples": 105,
+      "max_vertex_error_keyframes_BU": 1.3340544914889848e-06,
+      "max_vertex_error_half_frames_BU": 0.0028485633018631765,
+      "loop_seam_error_BU": 0.0,
+      "same_hierarchy_and_local_axes": "pass",
+      "root_fixed": "pass"
+    },
+    "flock": {
+      "sampled_frames": 52,
+      "leader": 1,
+      "followers": 11,
+      "mesh_datablocks": 1,
+      "phase_offsets_frames": [
+        9,
+        20,
+        5,
+        31,
+        15,
+        37,
+        13,
+        45,
+        24,
+        43,
+        29
+      ],
+      "follower_positions_game_xy": [
+        [
+          -45,
+          -25
+        ],
+        [
+          45,
+          -25
+        ],
+        [
+          0,
+          -30
+        ],
+        [
+          -76,
+          -48
+        ],
+        [
+          -25,
+          -49
+        ],
+        [
+          25,
+          -49
+        ],
+        [
+          76,
+          -48
+        ],
+        [
+          -71,
+          -69
+        ],
+        [
+          -23,
+          -71
+        ],
+        [
+          23,
+          -72
+        ],
+        [
+          71,
+          -71
+        ]
+      ],
+      "frame_envelope_px": [
+        86.19640051259594,
+        158.35292590411288,
+        771.5386874194548,
+        339.59625096435377
+      ],
+      "min_screen_margin_px": 53.40374903564623,
+      "all_poses_match_phase_shifted_source": "pass"
+    },
+    "reopen_source": {
+      "status": "pass",
+      "active_action": "Cruise_Flap_Loop",
+      "source_action_fps": 48,
+      "verified_key_frames": [
+        11,
+        29,
+        53
+      ],
+      "independently_bound_followers": 11,
+      "mesh_datablocks": 1,
+      "preserved_chr_qa_poses": 5
+    }
+  },
+  "preview_review": {
+    "top_and_rear_detail": "pass — 顶视与后上方抽帧可辨上举、下压与复位。腕部在翼根过峰后仍有独立弯折，双肩连续。",
+    "fixed_rear_1x": "pass — 上举、下压、复位均能区分双纹和翼后缘深飞羽。另对 MP4 抽帧检查。",
+    "fixed_rear_half": "pass_for_blender_stills — 三个关键姿势均保留两道暗带和中间亮区。前纹约 1 px，飞羽可辨为深边。移动端实际播放待验证。",
+    "fixed_rear_flock_12": "pass_for_blender_preview — 52 帧逐帧检查 12 个骨架的错相姿势和画幅，抽查 MP4 画面。使用审阅摆位。",
+    "video_decode": "pass",
+    "videos": {
+      "preview_gameplay_1x_loop.mp4": {
+        "codec_name": "h264",
+        "width": 852,
+        "height": 394,
+        "r_frame_rate": "24/1",
+        "duration": "1.083333",
+        "nb_frames": "26"
+      },
+      "preview_gameplay_flock_12_loop.mp4": {
+        "codec_name": "h264",
+        "width": 852,
+        "height": 394,
+        "r_frame_rate": "24/1",
+        "duration": "1.083333",
+        "nb_frames": "26"
+      },
+      "preview_rear_detail_loop.mp4": {
+        "codec_name": "h264",
+        "width": 960,
+        "height": 624,
+        "r_frame_rate": "24/1",
+        "duration": "1.083333",
+        "nb_frames": "26"
+      }
+    },
+    "crown_center_samples": {
+      "1x_upstroke": {
+        "column_x": 426,
+        "rows_y": [
+          159,
+          162,
+          166
+        ],
+        "front_bar_gap_rear_bar_luma_rgb8": [
+          83.2,
+          176.0,
+          50.0
+        ]
+      },
+      "1x_downstroke": {
+        "column_x": 426,
+        "rows_y": [
+          159,
+          162,
+          166
+        ],
+        "front_bar_gap_rear_bar_luma_rgb8": [
+          64.8,
+          175.2,
+          50.2
+        ]
+      },
+      "1x_recovery": {
+        "column_x": 426,
+        "rows_y": [
+          159,
+          162,
+          166
+        ],
+        "front_bar_gap_rear_bar_luma_rgb8": [
+          64.1,
+          174.2,
+          50.2
+        ]
+      },
+      "half_upstroke": {
+        "column_x": 426,
+        "rows_y": [
+          175,
+          177,
+          179
+        ],
+        "front_bar_gap_rear_bar_luma_rgb8": [
+          111.6,
+          173.9,
+          51.2
+        ]
+      },
+      "half_downstroke": {
+        "column_x": 426,
+        "rows_y": [
+          175,
+          177,
+          179
+        ],
+        "front_bar_gap_rear_bar_luma_rgb8": [
+          100.9,
+          173.2,
+          62.4
+        ]
+      },
+      "half_recovery": {
+        "column_x": 426,
+        "rows_y": [
+          175,
+          177,
+          179
+        ],
+        "front_bar_gap_rear_bar_luma_rgb8": [
+          102.0,
+          172.1,
+          64.4
+        ]
+      }
+    }
+  },
+  "realitykit": {
+    "status": "pending",
+    "checks": [
+      "USDZ 导入和循环接缝",
+      "运行时速度、12 只动态错相与队形",
+      "转向和俯仰叠加下的翼尖离地"
+    ]
+  },
+  "iphone_ipad": {
+    "status": "pending",
+    "checks": [
+      "显示辨识度与运动观感",
+      "性能与发热"
+    ]
+  },
+  "simulator": {
+    "status": "pass",
+    "scope": "App 灰盒基线",
+    "device": "iPhone 18 Pro",
+    "os": "iOS 27.2",
+    "build": "./Scripts/build.sh",
+    "test": "./Scripts/test.sh",
+    "tests": 340,
+    "failures": 0,
+    "xcresult": "Test-FeatherTide-2026.11.14_01-24-32-+0800.xcresult"
+  },
+  "art_review": {
+    "status": "pass",
+    "scope": "ANM-001/v001 动作制作验收",
+    "reviewer": "Paco",
+    "date": "2026-11-14"
+  },
+  "redline_check": "已对照红线清单。交付范围为原创动作和素材库审阅证据，真机项目标为待验证。",
+  "next_asset": "ANM-002"
+}

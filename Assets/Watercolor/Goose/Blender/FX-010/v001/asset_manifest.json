@@ -1,0 +1,219 @@
+{
+  "id": "FX-010",
+  "version": "v001",
+  "status": "needs_review",
+  "variant": "RotorFootprint",
+  "execution_order_1_based": 38,
+  "blender_version": "5.2.2 LTS",
+  "assets": {
+    "blend": "FX-010_RotorFootprint.blend",
+    "glb": "FX-010_RotorFootprint.glb"
+  },
+  "project_scope": "Offline VFX model candidate",
+  "source_layout": "Assets/Watercolor/Goose/Blender/STR-002/v001/farm_layout.json",
+  "source_layout_identity": {
+    "bytes": 2448,
+    "sha256": "85db55e5a9dc4e7f72ab5141ff5c1da52be4d1e9aab7977382841354eedc8657"
+  },
+  "model": {
+    "root": "RotorFootprint",
+    "root_blender_xyz_BU": [
+      0,
+      0,
+      0
+    ],
+    "blender_to_glb": "(x,z,-y)",
+    "union_candidate_radius_game_units": 78,
+    "BU_per_game_unit": 0.036,
+    "surface_height_BU": 0.021,
+    "pressure_height_BU": 0.034,
+    "collision_enabled": false,
+    "physics_authority": "Game Collider/Zone",
+    "render_geometry": {
+      "boundary_vertices": 2031,
+      "surface_triangles": 2029,
+      "pressure_triangles_per_instance": 108,
+      "pressure_instances": 7,
+      "unique_meshes": 2
+    }
+  },
+  "animation": {
+    "name": "RotorPressureLoop",
+    "duration_seconds": 9,
+    "channels": 7,
+    "target": "Pressure translation only; use the same phase clock as STR-002.",
+    "rotor_phase_degrees": {
+      "T01": 14,
+      "T02": 51,
+      "T03": 88,
+      "T04": 125,
+      "T05": 163,
+      "T06": 201,
+      "T07": 238
+    }
+  },
+  "rights": "In-project procedural geometry and textures derived from MAT-001 SoftStone; no third-party imagery.",
+  "sources": {
+    "Assets/Watercolor/Goose/Blender/MAT-001/v001/textures/ft_goose_mat_soft_stone_basecolor.png": {
+      "bytes": 238107,
+      "sha256": "931bb3b12c975c2dbbe37a695bf8dc1d49cf29e3b92bf3296c9896b6e0c5022f"
+    },
+    "Assets/Watercolor/Goose/Blender/STR-001/v001/STR-001_Main_Turbine.blend": {
+      "bytes": 5280248,
+      "sha256": "06742dcb9716563369f8efd8025829c1b252b963dc9ef6f8786b2d9e7a3575b7"
+    },
+    "Assets/Watercolor/Goose/Blender/STR-001/v001/STR-001_generate.py": {
+      "bytes": 27244,
+      "sha256": "e6f8d496e1364c62f8e727d23d34546839a323872a828546c49b23feee466f9e"
+    },
+    "Assets/Watercolor/Goose/Blender/STR-002/v001/farm_layout.json": {
+      "bytes": 2448,
+      "sha256": "85db55e5a9dc4e7f72ab5141ff5c1da52be4d1e9aab7977382841354eedc8657"
+    },
+    "Assets/Watercolor/Goose/Blender/STR-002/v001/STR-002_CurvedFarm_Layout.glb": {
+      "bytes": 1308944,
+      "sha256": "9a37ce637b0996059f2d547a7c515fa4952aa08d933eea923d5acfe45f11ceb6"
+    },
+    "Assets/Watercolor/Goose/Blender/STR-002/v001/STR-002_generate.py": {
+      "bytes": 40090,
+      "sha256": "9372f5a485180c3fe5a305450e65e3db73a207c2a469fdd0011cfaca722266c4"
+    },
+    "Assets/Watercolor/Goose/Blender/STR-002/v001/qa.json": {
+      "bytes": 27774,
+      "sha256": "d41bc3c37947ddc314cb055e0338a6b82f97af2f71a901e08f00df3613d64932"
+    },
+    "Assets/Watercolor/Goose/Blender/ENV-001/v001/ENV-001_generate.py": {
+      "bytes": 44556,
+      "sha256": "ba9f27275913d194b1df183bf2554885a76cd110d0920e81dbc620f51ffaf06f"
+    },
+    "Assets/Watercolor/Goose/Blender/ENV-001/v001/ENV-001_terrain.blend": {
+      "bytes": 9186184,
+      "sha256": "9979e7606a115a16e9dc35fdf81684d5285b649692cd969692f195dfc1e3743d"
+    },
+    "Assets/Watercolor/Goose/Blender/ENV-016/v001/ENV-016_generate.py": {
+      "bytes": 29527,
+      "sha256": "dea57b1c3b6652a3b11aea5efe8018ec97f21a0d57bc2de4616d84a91608e7ab"
+    },
+    "Assets/Watercolor/Goose/Blender/ENV-016/v001/ENV-016_protected_marsh.blend": {
+      "bytes": 22130359,
+      "sha256": "228583827b45d44c1bc877c3ed4decab177a121a4e374f0ef5da09a1c37c01d8"
+    },
+    "Assets/Watercolor/Goose/Blender/ENV-016/v001/ENV-016_ProtectedMarsh.glb": {
+      "bytes": 8745192,
+      "sha256": "a6c9ed997539d4c82f135c3101349a6729c75fbb4d5b3a0c5e7d10af21ccce23"
+    },
+    "Assets/Watercolor/Goose/Blender/ENV-018/v001/ENV-018_atmosphere_cards.blend": {
+      "bytes": 54295652,
+      "sha256": "b731176f235bc14666b504915df8756a4d66eaefa1cf6c49e9730c3d17e995fd"
+    },
+    "Assets/Watercolor/Goose/Blender/ENV-018/v001/ENV-018_generate.py": {
+      "bytes": 29400,
+      "sha256": "35c436513ecd84cb1cb052ab2d4dac62e4c2de3051628637cfe8a94bfbae7538"
+    },
+    "Assets/Watercolor/Goose/Blender/CHR-001/v001/CHR-001_goose_rig.blend": {
+      "bytes": 3847685,
+      "sha256": "db0c8d55c5efc499c99f7787228967451d071f36294962b12dc4b34d02f350f5"
+    },
+    "Assets/Watercolor/Goose/Blender/ANM-007/v001/ANM-007_landing.blend": {
+      "bytes": 3939567,
+      "sha256": "bf8ed361fb9e06706e4a78e7fcbf2d4f61edc8cdbeea6018f2339dfecc35e5f0"
+    }
+  },
+  "textures": [
+    {
+      "file": "textures/ft_goose_fx_rotor_footprint_basecolor_alpha.png",
+      "dimensions": [
+        768,
+        2048
+      ],
+      "input_stone_paper": "Assets/Watercolor/Goose/Blender/MAT-001/v001/textures/ft_goose_mat_soft_stone_basecolor.png",
+      "mapping": "XY projection over the analytic union; inside-only dark feather and tinted paper",
+      "bytes": 1152702,
+      "sha256": "fbb4de247fad5028aedcdc0dd7a5da7f8dd078954c1849193042c1dfb3406e6b"
+    },
+    {
+      "file": "textures/ft_goose_fx_rotor_pressure_flow_basecolor_alpha.png",
+      "dimensions": [
+        512,
+        128
+      ],
+      "mapping": "Parametric violet streak with soft U and V falloff",
+      "bytes": 4303,
+      "sha256": "98c4b6d401a9804b566ec5f1ee3b74a34c5eb6ee1ddfee341887af02e8795895"
+    }
+  ],
+  "files": {
+    "FX-010_RotorFootprint.blend": {
+      "bytes": 18426684,
+      "sha256": "d59e7499d7b57ce19309647905773b8db3289ff0c60e6291034c24361efb52d5"
+    },
+    "FX-010_RotorFootprint.glb": {
+      "bytes": 1263880,
+      "sha256": "ebb1b43e237e2d3102baf98ab7c0a489b4a2f724a8a846280bbe2d9a92b5460d"
+    },
+    "FX-010_generate.py": {
+      "bytes": 29245,
+      "sha256": "eef19197cd7758502b5abd7523bf37ccb6148fc9dcacdbf45409132596d0ff48"
+    },
+    "README.md": {
+      "bytes": 4910,
+      "sha256": "8377f384062c7c2bc42beec1915f8e16d06c4bb3658e5ecf9a792171656d4366"
+    },
+    "comparison_without_fx.png": {
+      "bytes": 368153,
+      "sha256": "a88cf569ed4859f726a6e31ce33f0300f958f4f7ac21d7f9093b602609d1178e"
+    },
+    "graybox_fixed_rear.png": {
+      "bytes": 308515,
+      "sha256": "416b8269b07cfc1f92d7749b61cdfcf9ad35ee68e000d42971f33d77149ac75a"
+    },
+    "graybox_top.png": {
+      "bytes": 816768,
+      "sha256": "f28fcc7bec429d58afccac2eb87831f48f8a09770a5edf3e0d9b153bccc37847"
+    },
+    "preview_boundary_detail.png": {
+      "bytes": 849765,
+      "sha256": "769a388cbc945d24ac07c60bcf3e59ffc1231427cbb0083e7edeec6a50338d40"
+    },
+    "preview_fixed_rear.mp4": {
+      "bytes": 700194,
+      "sha256": "ef5546bbabdc2539a045b35bf3ae95e8a777c1465dc7f7fa5211f1d0b86aee70"
+    },
+    "preview_fog_default.png": {
+      "bytes": 369157,
+      "sha256": "f9b8a11d39e9182b5295b68a14e47a16ac03c6a5280937ec355f82c72f7e2dfe"
+    },
+    "preview_fog_off.png": {
+      "bytes": 369311,
+      "sha256": "ea400a7d6ca7987284c88e0734ccb9dc65f003d32efc805d695ba810b04f5a3f"
+    },
+    "preview_fog_reduced.png": {
+      "bytes": 369344,
+      "sha256": "9ad521fa3d2aa0bf17562f1d64cb55b1e1b34c6eb62348800018fbe172f7b7a7"
+    },
+    "preview_top.png": {
+      "bytes": 1098746,
+      "sha256": "177aeb95c846d2687c94453a815dc6e66e43e5543016660debba9837eefab7a6"
+    },
+    "qa.json": {
+      "bytes": 24012,
+      "sha256": "f05119b1b019616ed582ef2c4604670d294bcfbeb9fc3c0ec1f42ca3f7a3bb71"
+    },
+    "roundtrip_fixed_rear.png": {
+      "bytes": 369277,
+      "sha256": "09fa563d2f6400fad66d595748fab9dcc3cfeb93dc3730430322451e152a87d8"
+    },
+    "roundtrip_top.png": {
+      "bytes": 1100110,
+      "sha256": "6ba34b8596c5d04dd199097736e6e5acfff185ff5f2d1b198cceccbf6c070e55"
+    },
+    "textures/ft_goose_fx_rotor_footprint_basecolor_alpha.png": {
+      "bytes": 1152702,
+      "sha256": "fbb4de247fad5028aedcdc0dd7a5da7f8dd078954c1849193042c1dfb3406e6b"
+    },
+    "textures/ft_goose_fx_rotor_pressure_flow_basecolor_alpha.png": {
+      "bytes": 4303,
+      "sha256": "98c4b6d401a9804b566ec5f1ee3b74a34c5eb6ee1ddfee341887af02e8795895"
+    }
+  }
+}

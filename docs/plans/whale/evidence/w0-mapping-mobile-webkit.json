@@ -1,0 +1,1757 @@
+{
+  "order": ["B", "A"],
+  "A": {
+    "straight": {
+      "revision": "whale-p2-1",
+      "species": "whale",
+      "tick": 47,
+      "phase": "playing",
+      "mode": "roam",
+      "segment": "W0",
+      "route": null,
+      "failure": null,
+      "x": 0,
+      "z": 0.9468333333333332,
+      "heading": 0,
+      "energy": 1,
+      "speed": 2.913333333333333,
+      "occupied": ["bay-rest"],
+      "dive": {
+        "layer": "surface",
+        "direction": null,
+        "progress": 0,
+        "depth": 0,
+        "breath": 1,
+        "forced": false,
+        "needsRelease": false
+      },
+      "actors": [
+        {
+          "pos": {
+            "x": 0,
+            "z": 0.9468333333333332
+          },
+          "heading": 0,
+          "id": "whale-0",
+          "speed": 2.913333333333333,
+          "status": "following",
+          "rescueTicks": null,
+          "rescueProgress": 0,
+          "dive": {
+            "layer": "surface",
+            "direction": null,
+            "progress": 0,
+            "depth": 0,
+            "breath": 1,
+            "forced": false,
+            "needsRelease": false
+          }
+        },
+        {
+          "pos": {
+            "x": 4.95,
+            "z": -6.0491908516462845
+          },
+          "heading": 0,
+          "id": "whale-1",
+          "speed": 1.4254997838333998,
+          "status": "following",
+          "rescueTicks": null,
+          "rescueProgress": 0,
+          "dive": {
+            "layer": "surface",
+            "direction": null,
+            "progress": 0,
+            "depth": 0,
+            "breath": 1,
+            "forced": false,
+            "needsRelease": false
+          }
+        },
+        {
+          "pos": {
+            "x": -4.95,
+            "z": -6.0491908516462845
+          },
+          "heading": 0,
+          "id": "whale-2",
+          "speed": 1.4254997838333998,
+          "status": "following",
+          "rescueTicks": null,
+          "rescueProgress": 0,
+          "dive": {
+            "layer": "surface",
+            "direction": null,
+            "progress": 0,
+            "depth": 0,
+            "breath": 1,
+            "forced": false,
+            "needsRelease": false
+          }
+        },
+        {
+          "pos": {
+            "x": 6.300000000000001,
+            "z": -12.449190851646282
+          },
+          "heading": 0,
+          "id": "whale-3",
+          "speed": 1.4254997838333958,
+          "status": "following",
+          "rescueTicks": null,
+          "rescueProgress": 0,
+          "dive": {
+            "layer": "surface",
+            "direction": null,
+            "progress": 0,
+            "depth": 0,
+            "breath": 1,
+            "forced": false,
+            "needsRelease": false
+          }
+        },
+        {
+          "pos": {
+            "x": -6.300000000000001,
+            "z": -12.449190851646282
+          },
+          "heading": 0,
+          "id": "whale-4",
+          "speed": 1.4254997838333958,
+          "status": "following",
+          "rescueTicks": null,
+          "rescueProgress": 0,
+          "dive": {
+            "layer": "surface",
+            "direction": null,
+            "progress": 0,
+            "depth": 0,
+            "breath": 1,
+            "forced": false,
+            "needsRelease": false
+          }
+        },
+        {
+          "pos": {
+            "x": 7.65,
+            "z": -18.849190851646288
+          },
+          "heading": 0,
+          "id": "whale-5",
+          "speed": 1.425499783833408,
+          "status": "following",
+          "rescueTicks": null,
+          "rescueProgress": 0,
+          "dive": {
+            "layer": "surface",
+            "direction": null,
+            "progress": 0,
+            "depth": 0,
+            "breath": 1,
+            "forced": false,
+            "needsRelease": false
+          }
+        }
+      ],
+      "checkpoint": "start",
+      "basis": {
+        "right": {
+          "x": -1,
+          "z": 0
+        },
+        "up": {
+          "x": 0,
+          "z": 1.3250129933488113
+        }
+      },
+      "camera": {
+        "yaw": 0,
+        "pitch": 49,
+        "requestedPitch": 49,
+        "profile": "classic",
+        "mode": "Follow"
+      },
+      "scenery": {
+        "WL-CHR-001": "model",
+        "ocean": "painted-sea"
+      }
+    },
+    "turning": {
+      "revision": "whale-p2-1",
+      "species": "whale",
+      "tick": 66,
+      "phase": "playing",
+      "mode": "roam",
+      "segment": "W0",
+      "route": null,
+      "failure": null,
+      "x": 0.15794798972468224,
+      "z": 2.09792135181144,
+      "heading": 0.255,
+      "energy": 1,
+      "speed": 4.369999999999997,
+      "occupied": ["bay-rest"],
+      "dive": {
+        "layer": "surface",
+        "direction": null,
+        "progress": 0,
+        "depth": 0,
+        "breath": 1,
+        "forced": false,
+        "needsRelease": false
+      },
+      "actors": [
+        {
+          "pos": {
+            "x": 0.15794798972468224,
+            "z": 2.09792135181144
+          },
+          "heading": 0.255,
+          "id": "whale-0",
+          "speed": 4.369999999999997,
+          "status": "following",
+          "rescueTicks": null,
+          "rescueProgress": 0,
+          "dive": {
+            "layer": "surface",
+            "direction": null,
+            "progress": 0,
+            "depth": 0,
+            "breath": 1,
+            "forced": false,
+            "needsRelease": false
+          }
+        },
+        {
+          "pos": {
+            "x": 4.6277391936828005,
+            "z": -5.5933990395010555
+          },
+          "heading": -1.0499999999999998,
+          "id": "whale-1",
+          "speed": 2.9821099585894504,
+          "status": "following",
+          "rescueTicks": null,
+          "rescueProgress": 0,
+          "dive": {
+            "layer": "surface",
+            "direction": null,
+            "progress": 0,
+            "depth": 0,
+            "breath": 1,
+            "forced": false,
+            "needsRelease": false
+          }
+        },
+        {
+          "pos": {
+            "x": -5.277014496233647,
+            "z": -5.1679800396263875
+          },
+          "heading": -0.3955476534429156,
+          "id": "whale-2",
+          "speed": 4.485472292119785,
+          "status": "following",
+          "rescueTicks": null,
+          "rescueProgress": 0,
+          "dive": {
+            "layer": "surface",
+            "direction": null,
+            "progress": 0,
+            "depth": 0,
+            "breath": 1,
+            "forced": false,
+            "needsRelease": false
+          }
+        },
+        {
+          "pos": {
+            "x": 5.904151706174044,
+            "z": -11.912463530404123
+          },
+          "heading": -1.0499999999999998,
+          "id": "whale-3",
+          "speed": 3.596525674248868,
+          "status": "following",
+          "rescueTicks": null,
+          "rescueProgress": 0,
+          "dive": {
+            "layer": "surface",
+            "direction": null,
+            "progress": 0,
+            "depth": 0,
+            "breath": 1,
+            "forced": false,
+            "needsRelease": false
+          }
+        },
+        {
+          "pos": {
+            "x": -6.767986195052771,
+            "z": -11.65261948072518
+          },
+          "heading": -0.6821714295773376,
+          "id": "whale-4",
+          "speed": 4.485472292119779,
+          "status": "following",
+          "rescueTicks": null,
+          "rescueProgress": 0,
+          "dive": {
+            "layer": "surface",
+            "direction": null,
+            "progress": 0,
+            "depth": 0,
+            "breath": 1,
+            "forced": false,
+            "needsRelease": false
+          }
+        },
+        {
+          "pos": {
+            "x": 7.235427643736855,
+            "z": -18.289477307815154
+          },
+          "heading": -1.0499999999999998,
+          "id": "whale-5",
+          "speed": 3.7292920190403325,
+          "status": "following",
+          "rescueTicks": null,
+          "rescueProgress": 0,
+          "dive": {
+            "layer": "surface",
+            "direction": null,
+            "progress": 0,
+            "depth": 0,
+            "breath": 1,
+            "forced": false,
+            "needsRelease": false
+          }
+        }
+      ],
+      "checkpoint": "start",
+      "basis": {
+        "right": {
+          "x": -0.7656864807878727,
+          "z": 0.6432139715045706
+        },
+        "up": {
+          "x": 0.8522668697470481,
+          "z": 1.0145445358754563
+        }
+      },
+      "camera": {
+        "yaw": 40.03189689743352,
+        "pitch": 49,
+        "requestedPitch": 49,
+        "profile": "classic",
+        "mode": "Explore"
+      },
+      "scenery": {
+        "WL-CHR-001": "model",
+        "ocean": "painted-sea"
+      }
+    },
+    "orbit": {
+      "revision": "whale-p2-1",
+      "species": "whale",
+      "tick": 117,
+      "phase": "playing",
+      "mode": "roam",
+      "segment": "W0",
+      "route": null,
+      "failure": null,
+      "x": 2.926763918007521,
+      "z": 6.216945418725225,
+      "heading": 0.7199977408096633,
+      "energy": 1,
+      "speed": 6.419524462733963,
+      "occupied": ["bay-rest"],
+      "dive": {
+        "layer": "surface",
+        "direction": null,
+        "progress": 0,
+        "depth": 0,
+        "breath": 1,
+        "forced": false,
+        "needsRelease": false
+      },
+      "actors": [
+        {
+          "pos": {
+            "x": 2.926763918007521,
+            "z": 6.216945418725225
+          },
+          "heading": 0.7199977408096633,
+          "id": "whale-0",
+          "speed": 6.419524462733963,
+          "status": "following",
+          "rescueTicks": null,
+          "rescueProgress": 0,
+          "dive": {
+            "layer": "surface",
+            "direction": null,
+            "progress": 0,
+            "depth": 0,
+            "breath": 1,
+            "forced": false,
+            "needsRelease": false
+          }
+        },
+        {
+          "pos": {
+            "x": 2.2565956675332073,
+            "z": -3.5215917941325787
+          },
+          "heading": 0.1027995085277071,
+          "id": "whale-1",
+          "speed": 3.9985353181146333,
+          "status": "following",
+          "rescueTicks": null,
+          "rescueProgress": 0,
+          "dive": {
+            "layer": "surface",
+            "direction": null,
+            "progress": 0,
+            "depth": 0,
+            "breath": 1,
+            "forced": false,
+            "needsRelease": false
+          }
+        },
+        {
+          "pos": {
+            "x": -5.8182193773903315,
+            "z": 1.4343001153019637
+          },
+          "heading": 0.24344495292593638,
+          "id": "whale-2",
+          "speed": 7.9722219658483375,
+          "status": "following",
+          "rescueTicks": null,
+          "rescueProgress": 0,
+          "dive": {
+            "layer": "surface",
+            "direction": null,
+            "progress": 0,
+            "depth": 0,
+            "breath": 1,
+            "forced": false,
+            "needsRelease": false
+          }
+        },
+        {
+          "pos": {
+            "x": 0.5194301629986955,
+            "z": -9.484564939713158
+          },
+          "heading": -0.5928579517726017,
+          "id": "whale-3",
+          "speed": 6.639202983736938,
+          "status": "following",
+          "rescueTicks": null,
+          "rescueProgress": 0,
+          "dive": {
+            "layer": "surface",
+            "direction": null,
+            "progress": 0,
+            "depth": 0,
+            "breath": 1,
+            "forced": false,
+            "needsRelease": false
+          }
+        },
+        {
+          "pos": {
+            "x": -9.508765599745816,
+            "z": -4.9053202272801
+          },
+          "heading": -0.13032482892443542,
+          "id": "whale-4",
+          "speed": 11.5,
+          "status": "following",
+          "rescueTicks": null,
+          "rescueProgress": 0,
+          "dive": {
+            "layer": "surface",
+            "direction": null,
+            "progress": 0,
+            "depth": 0,
+            "breath": 1,
+            "forced": false,
+            "needsRelease": false
+          }
+        },
+        {
+          "pos": {
+            "x": 0.8048525803486457,
+            "z": -16.240573013636897
+          },
+          "heading": -1.0141948637911695,
+          "id": "whale-5",
+          "speed": 11.5,
+          "status": "following",
+          "rescueTicks": null,
+          "rescueProgress": 0,
+          "dive": {
+            "layer": "surface",
+            "direction": null,
+            "progress": 0,
+            "depth": 0,
+            "breath": 1,
+            "forced": false,
+            "needsRelease": false
+          }
+        }
+      ],
+      "checkpoint": "start",
+      "basis": {
+        "right": {
+          "x": -0.7518069784081918,
+          "z": 0.6593832476009265
+        },
+        "up": {
+          "x": 0.873691370667764,
+          "z": 0.9961540148811634
+        }
+      },
+      "camera": {
+        "yaw": 41.252852696970386,
+        "pitch": 49,
+        "requestedPitch": 49,
+        "profile": "classic",
+        "mode": "Explore"
+      },
+      "scenery": {
+        "WL-CHR-001": "model",
+        "ocean": "painted-sea"
+      }
+    },
+    "stopped": {
+      "revision": "whale-p2-1",
+      "species": "whale",
+      "tick": 309,
+      "phase": "playing",
+      "mode": "roam",
+      "segment": "W0",
+      "route": null,
+      "failure": null,
+      "x": 6.887636385402847,
+      "z": 10.733004573234593,
+      "heading": 0.7199977408096633,
+      "energy": 1,
+      "speed": 0,
+      "occupied": ["bay-rest"],
+      "dive": {
+        "layer": "surface",
+        "direction": null,
+        "progress": 0,
+        "depth": 0,
+        "breath": 1,
+        "forced": false,
+        "needsRelease": false
+      },
+      "actors": [
+        {
+          "pos": {
+            "x": 6.887636385402847,
+            "z": 10.733004573234593
+          },
+          "heading": 0.7199977408096633,
+          "id": "whale-0",
+          "speed": 0,
+          "status": "following",
+          "rescueTicks": null,
+          "rescueProgress": 0,
+          "dive": {
+            "layer": "surface",
+            "direction": null,
+            "progress": 0,
+            "depth": 0,
+            "breath": 1,
+            "forced": false,
+            "needsRelease": false
+          }
+        },
+        {
+          "pos": {
+            "x": 6.375515963005591,
+            "z": 2.634586465909953
+          },
+          "heading": 0.7199977408096633,
+          "id": "whale-1",
+          "speed": 0.06356689631417986,
+          "status": "following",
+          "rescueTicks": null,
+          "rescueProgress": 0,
+          "dive": {
+            "layer": "surface",
+            "direction": null,
+            "progress": 0,
+            "depth": 0,
+            "breath": 1,
+            "forced": false,
+            "needsRelease": false
+          }
+        },
+        {
+          "pos": {
+            "x": -1.0658418852577753,
+            "z": 9.160330495419357
+          },
+          "heading": 0.7199977408096633,
+          "id": "whale-2",
+          "speed": 0.06632498541818237,
+          "status": "following",
+          "rescueTicks": null,
+          "rescueProgress": 0,
+          "dive": {
+            "layer": "surface",
+            "direction": null,
+            "progress": 0,
+            "depth": 0,
+            "breath": 1,
+            "forced": false,
+            "needsRelease": false
+          }
+        },
+        {
+          "pos": {
+            "x": 3.1758472478585715,
+            "z": -3.0701216387385957
+          },
+          "heading": 0.7199977408096633,
+          "id": "whale-3",
+          "speed": 0.06462711824791234,
+          "status": "following",
+          "rescueTicks": null,
+          "rescueProgress": 0,
+          "dive": {
+            "layer": "surface",
+            "direction": null,
+            "progress": 0,
+            "depth": 0,
+            "breath": 1,
+            "forced": false,
+            "needsRelease": false
+          }
+        },
+        {
+          "pos": {
+            "x": -6.288624116818735,
+            "z": 5.2321117171336855
+          },
+          "heading": 0.7199977408096633,
+          "id": "whale-4",
+          "speed": 0.07549682217003374,
+          "status": "following",
+          "rescueTicks": null,
+          "rescueProgress": 0,
+          "dive": {
+            "layer": "surface",
+            "direction": null,
+            "progress": 0,
+            "depth": 0,
+            "breath": 1,
+            "forced": false,
+            "needsRelease": false
+          }
+        },
+        {
+          "pos": {
+            "x": -0.01659614928952841,
+            "z": -8.77593808852576
+          },
+          "heading": 0.7199977408096633,
+          "id": "whale-5",
+          "speed": 0.07151772295843394,
+          "status": "following",
+          "rescueTicks": null,
+          "rescueProgress": 0,
+          "dive": {
+            "layer": "surface",
+            "direction": null,
+            "progress": 0,
+            "depth": 0,
+            "breath": 1,
+            "forced": false,
+            "needsRelease": false
+          }
+        }
+      ],
+      "checkpoint": "start",
+      "basis": {
+        "right": {
+          "x": -0.7518057291408952,
+          "z": 0.6593846719714729
+        },
+        "up": {
+          "x": 0.8736932579772453,
+          "z": 0.9961523595857632
+        }
+      },
+      "camera": {
+        "yaw": 41.25296124941925,
+        "pitch": 49,
+        "requestedPitch": 49,
+        "profile": "classic",
+        "mode": "Explore"
+      },
+      "scenery": {
+        "WL-CHR-001": "model",
+        "ocean": "painted-sea"
+      }
+    },
+    "reset": {
+      "revision": "whale-p2-1",
+      "species": "whale",
+      "tick": 352,
+      "phase": "playing",
+      "mode": "roam",
+      "segment": "W0",
+      "route": null,
+      "failure": null,
+      "x": 6.887636385402847,
+      "z": 10.733004573234593,
+      "heading": 0.7199977408096633,
+      "energy": 1,
+      "speed": 0,
+      "occupied": ["bay-rest"],
+      "dive": {
+        "layer": "surface",
+        "direction": null,
+        "progress": 0,
+        "depth": 0,
+        "breath": 1,
+        "forced": false,
+        "needsRelease": false
+      },
+      "actors": [
+        {
+          "pos": {
+            "x": 6.887636385402847,
+            "z": 10.733004573234593
+          },
+          "heading": 0.7199977408096633,
+          "id": "whale-0",
+          "speed": 0,
+          "status": "following",
+          "rescueTicks": null,
+          "rescueProgress": 0,
+          "dive": {
+            "layer": "surface",
+            "direction": null,
+            "progress": 0,
+            "depth": 0,
+            "breath": 1,
+            "forced": false,
+            "needsRelease": false
+          }
+        },
+        {
+          "pos": {
+            "x": 6.39031317393137,
+            "z": 2.6514577689909427
+          },
+          "heading": 0.7199977408096633,
+          "id": "whale-1",
+          "speed": 0.01453014897344197,
+          "status": "following",
+          "rescueTicks": null,
+          "rescueProgress": 0,
+          "dive": {
+            "layer": "surface",
+            "direction": null,
+            "progress": 0,
+            "depth": 0,
+            "breath": 1,
+            "forced": false,
+            "needsRelease": false
+          }
+        },
+        {
+          "pos": {
+            "x": -1.0497683424001218,
+            "z": 9.178657031041306
+          },
+          "heading": 0.7199977408096633,
+          "id": "whale-2",
+          "speed": 0.01833277019567762,
+          "status": "following",
+          "rescueTicks": null,
+          "rescueProgress": 0,
+          "dive": {
+            "layer": "surface",
+            "direction": null,
+            "progress": 0,
+            "depth": 0,
+            "breath": 1,
+            "forced": false,
+            "needsRelease": false
+          }
+        },
+        {
+          "pos": {
+            "x": 3.193016499289976,
+            "z": -3.0505458115083237
+          },
+          "heading": 0.7199977408096633,
+          "id": "whale-3",
+          "speed": 0.025364866585785004,
+          "status": "following",
+          "rescueTicks": null,
+          "rescueProgress": 0,
+          "dive": {
+            "layer": "surface",
+            "direction": null,
+            "progress": 0,
+            "depth": 0,
+            "breath": 1,
+            "forced": false,
+            "needsRelease": false
+          }
+        },
+        {
+          "pos": {
+            "x": -6.262571932910274,
+            "z": 5.261815577735929
+          },
+          "heading": 0.7199977408096633,
+          "id": "whale-4",
+          "speed": 0.059322225902626514,
+          "status": "following",
+          "rescueTicks": null,
+          "rescueProgress": 0,
+          "dive": {
+            "layer": "surface",
+            "direction": null,
+            "progress": 0,
+            "depth": 0,
+            "breath": 1,
+            "forced": false,
+            "needsRelease": false
+          }
+        },
+        {
+          "pos": {
+            "x": 0.011610640714944939,
+            "z": -8.743777615481601
+          },
+          "heading": 0.7199977408096633,
+          "id": "whale-5",
+          "speed": 0.07364175347323956,
+          "status": "following",
+          "rescueTicks": null,
+          "rescueProgress": 0,
+          "dive": {
+            "layer": "surface",
+            "direction": null,
+            "progress": 0,
+            "depth": 0,
+            "breath": 1,
+            "forced": false,
+            "needsRelease": false
+          }
+        }
+      ],
+      "checkpoint": "start",
+      "basis": {
+        "right": {
+          "x": -0.9999999657697239,
+          "z": 0.000261649672090988
+        },
+        "up": {
+          "x": 0.0003466892152260149,
+          "z": 1.3250129479932509
+        }
+      },
+      "camera": {
+        "yaw": 0.014991422092849042,
+        "pitch": 49,
+        "requestedPitch": 49,
+        "profile": "classic",
+        "mode": "Follow"
+      },
+      "scenery": {
+        "WL-CHR-001": "model",
+        "ocean": "painted-sea"
+      }
+    }
+  },
+  "B": {
+    "straight": {
+      "revision": "whale-p2-1",
+      "species": "whale",
+      "tick": 44,
+      "phase": "playing",
+      "mode": "roam",
+      "segment": "W0",
+      "route": null,
+      "failure": null,
+      "x": 0,
+      "z": 0.9468333333333332,
+      "heading": 0,
+      "energy": 1,
+      "speed": 2.913333333333333,
+      "occupied": ["bay-rest"],
+      "dive": {
+        "layer": "surface",
+        "direction": null,
+        "progress": 0,
+        "depth": 0,
+        "breath": 1,
+        "forced": false,
+        "needsRelease": false
+      },
+      "actors": [
+        {
+          "pos": {
+            "x": 0,
+            "z": 0.9468333333333332
+          },
+          "heading": 0,
+          "id": "whale-0",
+          "speed": 2.913333333333333,
+          "status": "following",
+          "rescueTicks": null,
+          "rescueProgress": 0,
+          "dive": {
+            "layer": "surface",
+            "direction": null,
+            "progress": 0,
+            "depth": 0,
+            "breath": 1,
+            "forced": false,
+            "needsRelease": false
+          }
+        },
+        {
+          "pos": {
+            "x": 4.95,
+            "z": -6.0491908516462845
+          },
+          "heading": 0,
+          "id": "whale-1",
+          "speed": 1.4254997838333998,
+          "status": "following",
+          "rescueTicks": null,
+          "rescueProgress": 0,
+          "dive": {
+            "layer": "surface",
+            "direction": null,
+            "progress": 0,
+            "depth": 0,
+            "breath": 1,
+            "forced": false,
+            "needsRelease": false
+          }
+        },
+        {
+          "pos": {
+            "x": -4.95,
+            "z": -6.0491908516462845
+          },
+          "heading": 0,
+          "id": "whale-2",
+          "speed": 1.4254997838333998,
+          "status": "following",
+          "rescueTicks": null,
+          "rescueProgress": 0,
+          "dive": {
+            "layer": "surface",
+            "direction": null,
+            "progress": 0,
+            "depth": 0,
+            "breath": 1,
+            "forced": false,
+            "needsRelease": false
+          }
+        },
+        {
+          "pos": {
+            "x": 6.300000000000001,
+            "z": -12.449190851646282
+          },
+          "heading": 0,
+          "id": "whale-3",
+          "speed": 1.4254997838333958,
+          "status": "following",
+          "rescueTicks": null,
+          "rescueProgress": 0,
+          "dive": {
+            "layer": "surface",
+            "direction": null,
+            "progress": 0,
+            "depth": 0,
+            "breath": 1,
+            "forced": false,
+            "needsRelease": false
+          }
+        },
+        {
+          "pos": {
+            "x": -6.300000000000001,
+            "z": -12.449190851646282
+          },
+          "heading": 0,
+          "id": "whale-4",
+          "speed": 1.4254997838333958,
+          "status": "following",
+          "rescueTicks": null,
+          "rescueProgress": 0,
+          "dive": {
+            "layer": "surface",
+            "direction": null,
+            "progress": 0,
+            "depth": 0,
+            "breath": 1,
+            "forced": false,
+            "needsRelease": false
+          }
+        },
+        {
+          "pos": {
+            "x": 7.65,
+            "z": -18.849190851646288
+          },
+          "heading": 0,
+          "id": "whale-5",
+          "speed": 1.425499783833408,
+          "status": "following",
+          "rescueTicks": null,
+          "rescueProgress": 0,
+          "dive": {
+            "layer": "surface",
+            "direction": null,
+            "progress": 0,
+            "depth": 0,
+            "breath": 1,
+            "forced": false,
+            "needsRelease": false
+          }
+        }
+      ],
+      "checkpoint": "start",
+      "basis": {
+        "right": {
+          "x": -1,
+          "z": 0
+        },
+        "up": {
+          "x": 0,
+          "z": 1.3250129933488113
+        }
+      },
+      "camera": {
+        "yaw": 0,
+        "pitch": 49,
+        "requestedPitch": 49,
+        "profile": "classic",
+        "mode": "Follow"
+      },
+      "scenery": {
+        "WL-CHR-001": "model",
+        "ocean": "painted-sea"
+      }
+    },
+    "turning": {
+      "revision": "whale-p2-1",
+      "species": "whale",
+      "tick": 63,
+      "phase": "playing",
+      "mode": "roam",
+      "segment": "W0",
+      "route": null,
+      "failure": null,
+      "x": 0,
+      "z": 2.112166666666666,
+      "heading": 0,
+      "energy": 1,
+      "speed": 4.369999999999997,
+      "occupied": ["bay-rest"],
+      "dive": {
+        "layer": "surface",
+        "direction": null,
+        "progress": 0,
+        "depth": 0,
+        "breath": 1,
+        "forced": false,
+        "needsRelease": false
+      },
+      "actors": [
+        {
+          "pos": {
+            "x": 0,
+            "z": 2.112166666666666
+          },
+          "heading": 0,
+          "id": "whale-0",
+          "speed": 4.369999999999997,
+          "status": "following",
+          "rescueTicks": null,
+          "rescueProgress": 0,
+          "dive": {
+            "layer": "surface",
+            "direction": null,
+            "progress": 0,
+            "depth": 0,
+            "breath": 1,
+            "forced": false,
+            "needsRelease": false
+          }
+        },
+        {
+          "pos": {
+            "x": 4.95,
+            "z": -5.397470239070578
+          },
+          "heading": 0,
+          "id": "whale-1",
+          "speed": 2.6538976255067523,
+          "status": "following",
+          "rescueTicks": null,
+          "rescueProgress": 0,
+          "dive": {
+            "layer": "surface",
+            "direction": null,
+            "progress": 0,
+            "depth": 0,
+            "breath": 1,
+            "forced": false,
+            "needsRelease": false
+          }
+        },
+        {
+          "pos": {
+            "x": -4.95,
+            "z": -5.397470239070578
+          },
+          "heading": 0,
+          "id": "whale-2",
+          "speed": 2.6538976255067523,
+          "status": "following",
+          "rescueTicks": null,
+          "rescueProgress": 0,
+          "dive": {
+            "layer": "surface",
+            "direction": null,
+            "progress": 0,
+            "depth": 0,
+            "breath": 1,
+            "forced": false,
+            "needsRelease": false
+          }
+        },
+        {
+          "pos": {
+            "x": 6.300000000000001,
+            "z": -11.797470239070579
+          },
+          "heading": 0,
+          "id": "whale-3",
+          "speed": 2.6538976255067563,
+          "status": "following",
+          "rescueTicks": null,
+          "rescueProgress": 0,
+          "dive": {
+            "layer": "surface",
+            "direction": null,
+            "progress": 0,
+            "depth": 0,
+            "breath": 1,
+            "forced": false,
+            "needsRelease": false
+          }
+        },
+        {
+          "pos": {
+            "x": -6.300000000000001,
+            "z": -11.797470239070579
+          },
+          "heading": 0,
+          "id": "whale-4",
+          "speed": 2.6538976255067563,
+          "status": "following",
+          "rescueTicks": null,
+          "rescueProgress": 0,
+          "dive": {
+            "layer": "surface",
+            "direction": null,
+            "progress": 0,
+            "depth": 0,
+            "breath": 1,
+            "forced": false,
+            "needsRelease": false
+          }
+        },
+        {
+          "pos": {
+            "x": 7.65,
+            "z": -18.197470239070583
+          },
+          "heading": 0,
+          "id": "whale-5",
+          "speed": 2.6538976255067603,
+          "status": "following",
+          "rescueTicks": null,
+          "rescueProgress": 0,
+          "dive": {
+            "layer": "surface",
+            "direction": null,
+            "progress": 0,
+            "depth": 0,
+            "breath": 1,
+            "forced": false,
+            "needsRelease": false
+          }
+        }
+      ],
+      "checkpoint": "start",
+      "basis": {
+        "right": {
+          "x": -0.7656864807878727,
+          "z": 0.6432139715045706
+        },
+        "up": {
+          "x": 0.8522668697470481,
+          "z": 1.0145445358754563
+        }
+      },
+      "camera": {
+        "yaw": 40.03189689743352,
+        "pitch": 49,
+        "requestedPitch": 49,
+        "profile": "classic",
+        "mode": "Explore"
+      },
+      "scenery": {
+        "WL-CHR-001": "model",
+        "ocean": "painted-sea"
+      }
+    },
+    "orbit": {
+      "revision": "whale-p2-1",
+      "species": "whale",
+      "tick": 114,
+      "phase": "playing",
+      "mode": "roam",
+      "segment": "W0",
+      "route": null,
+      "failure": null,
+      "x": 0,
+      "z": 7.129135192805971,
+      "heading": 0,
+      "energy": 1,
+      "speed": 6.419524462734339,
+      "occupied": ["bay-rest"],
+      "dive": {
+        "layer": "surface",
+        "direction": null,
+        "progress": 0,
+        "depth": 0,
+        "breath": 1,
+        "forced": false,
+        "needsRelease": false
+      },
+      "actors": [
+        {
+          "pos": {
+            "x": 0,
+            "z": 7.129135192805971
+          },
+          "heading": 0,
+          "id": "whale-0",
+          "speed": 6.419524462734339,
+          "status": "following",
+          "rescueTicks": null,
+          "rescueProgress": 0,
+          "dive": {
+            "layer": "surface",
+            "direction": null,
+            "progress": 0,
+            "depth": 0,
+            "breath": 1,
+            "forced": false,
+            "needsRelease": false
+          }
+        },
+        {
+          "pos": {
+            "x": 4.95,
+            "z": -1.6552638742935264
+          },
+          "heading": 0,
+          "id": "whale-1",
+          "speed": 5.702722205541258,
+          "status": "following",
+          "rescueTicks": null,
+          "rescueProgress": 0,
+          "dive": {
+            "layer": "surface",
+            "direction": null,
+            "progress": 0,
+            "depth": 0,
+            "breath": 1,
+            "forced": false,
+            "needsRelease": false
+          }
+        },
+        {
+          "pos": {
+            "x": -4.95,
+            "z": -1.6552638742935264
+          },
+          "heading": 0,
+          "id": "whale-2",
+          "speed": 5.702722205541258,
+          "status": "following",
+          "rescueTicks": null,
+          "rescueProgress": 0,
+          "dive": {
+            "layer": "surface",
+            "direction": null,
+            "progress": 0,
+            "depth": 0,
+            "breath": 1,
+            "forced": false,
+            "needsRelease": false
+          }
+        },
+        {
+          "pos": {
+            "x": 6.300000000000001,
+            "z": -8.055263874293527
+          },
+          "heading": 0,
+          "id": "whale-3",
+          "speed": 5.7027222055412565,
+          "status": "following",
+          "rescueTicks": null,
+          "rescueProgress": 0,
+          "dive": {
+            "layer": "surface",
+            "direction": null,
+            "progress": 0,
+            "depth": 0,
+            "breath": 1,
+            "forced": false,
+            "needsRelease": false
+          }
+        },
+        {
+          "pos": {
+            "x": -6.300000000000001,
+            "z": -8.055263874293527
+          },
+          "heading": 0,
+          "id": "whale-4",
+          "speed": 5.7027222055412565,
+          "status": "following",
+          "rescueTicks": null,
+          "rescueProgress": 0,
+          "dive": {
+            "layer": "surface",
+            "direction": null,
+            "progress": 0,
+            "depth": 0,
+            "breath": 1,
+            "forced": false,
+            "needsRelease": false
+          }
+        },
+        {
+          "pos": {
+            "x": 7.65,
+            "z": -14.455263874293532
+          },
+          "heading": 0,
+          "id": "whale-5",
+          "speed": 5.702722205541266,
+          "status": "following",
+          "rescueTicks": null,
+          "rescueProgress": 0,
+          "dive": {
+            "layer": "surface",
+            "direction": null,
+            "progress": 0,
+            "depth": 0,
+            "breath": 1,
+            "forced": false,
+            "needsRelease": false
+          }
+        }
+      ],
+      "checkpoint": "start",
+      "basis": {
+        "right": {
+          "x": -0.7518069784081918,
+          "z": 0.6593832476009265
+        },
+        "up": {
+          "x": 0.873691370667764,
+          "z": 0.9961540148811634
+        }
+      },
+      "camera": {
+        "yaw": 41.252852696970386,
+        "pitch": 49,
+        "requestedPitch": 49,
+        "profile": "classic",
+        "mode": "Explore"
+      },
+      "scenery": {
+        "WL-CHR-001": "model",
+        "ocean": "painted-sea"
+      }
+    },
+    "stopped": {
+      "revision": "whale-p2-1",
+      "species": "whale",
+      "tick": 306,
+      "phase": "playing",
+      "mode": "roam",
+      "segment": "W0",
+      "route": null,
+      "failure": null,
+      "x": 0,
+      "z": 13.13607293095565,
+      "heading": 0,
+      "energy": 1,
+      "speed": 0,
+      "occupied": ["bay-rest"],
+      "dive": {
+        "layer": "surface",
+        "direction": null,
+        "progress": 0,
+        "depth": 0,
+        "breath": 1,
+        "forced": false,
+        "needsRelease": false
+      },
+      "actors": [
+        {
+          "pos": {
+            "x": 0,
+            "z": 13.13607293095565
+          },
+          "heading": 0,
+          "id": "whale-0",
+          "speed": 0,
+          "status": "following",
+          "rescueTicks": null,
+          "rescueProgress": 0,
+          "dive": {
+            "layer": "surface",
+            "direction": null,
+            "progress": 0,
+            "depth": 0,
+            "breath": 1,
+            "forced": false,
+            "needsRelease": false
+          }
+        },
+        {
+          "pos": {
+            "x": 4.95,
+            "z": 6.709153683839354
+          },
+          "heading": 0,
+          "id": "whale-1",
+          "speed": 0.06438225480154233,
+          "status": "following",
+          "rescueTicks": null,
+          "rescueProgress": 0,
+          "dive": {
+            "layer": "surface",
+            "direction": null,
+            "progress": 0,
+            "depth": 0,
+            "breath": 1,
+            "forced": false,
+            "needsRelease": false
+          }
+        },
+        {
+          "pos": {
+            "x": -4.95,
+            "z": 6.709153683839354
+          },
+          "heading": 0,
+          "id": "whale-2",
+          "speed": 0.06438225480154233,
+          "status": "following",
+          "rescueTicks": null,
+          "rescueProgress": 0,
+          "dive": {
+            "layer": "surface",
+            "direction": null,
+            "progress": 0,
+            "depth": 0,
+            "breath": 1,
+            "forced": false,
+            "needsRelease": false
+          }
+        },
+        {
+          "pos": {
+            "x": 6.300000000000001,
+            "z": 0.3091536838393531
+          },
+          "heading": 0,
+          "id": "whale-3",
+          "speed": 0.06438225480154208,
+          "status": "following",
+          "rescueTicks": null,
+          "rescueProgress": 0,
+          "dive": {
+            "layer": "surface",
+            "direction": null,
+            "progress": 0,
+            "depth": 0,
+            "breath": 1,
+            "forced": false,
+            "needsRelease": false
+          }
+        },
+        {
+          "pos": {
+            "x": -6.300000000000001,
+            "z": 0.3091536838393531
+          },
+          "heading": 0,
+          "id": "whale-4",
+          "speed": 0.06438225480154208,
+          "status": "following",
+          "rescueTicks": null,
+          "rescueProgress": 0,
+          "dive": {
+            "layer": "surface",
+            "direction": null,
+            "progress": 0,
+            "depth": 0,
+            "breath": 1,
+            "forced": false,
+            "needsRelease": false
+          }
+        },
+        {
+          "pos": {
+            "x": 7.65,
+            "z": -6.09084631616065
+          },
+          "heading": 0,
+          "id": "whale-5",
+          "speed": 0.06438225480154437,
+          "status": "following",
+          "rescueTicks": null,
+          "rescueProgress": 0,
+          "dive": {
+            "layer": "surface",
+            "direction": null,
+            "progress": 0,
+            "depth": 0,
+            "breath": 1,
+            "forced": false,
+            "needsRelease": false
+          }
+        }
+      ],
+      "checkpoint": "start",
+      "basis": {
+        "right": {
+          "x": -0.7518057291408952,
+          "z": 0.6593846719714729
+        },
+        "up": {
+          "x": 0.8736932579772453,
+          "z": 0.9961523595857632
+        }
+      },
+      "camera": {
+        "yaw": 41.25296124941925,
+        "pitch": 49,
+        "requestedPitch": 49,
+        "profile": "classic",
+        "mode": "Explore"
+      },
+      "scenery": {
+        "WL-CHR-001": "model",
+        "ocean": "painted-sea"
+      }
+    },
+    "reset": {
+      "revision": "whale-p2-1",
+      "species": "whale",
+      "tick": 349,
+      "phase": "playing",
+      "mode": "roam",
+      "segment": "W0",
+      "route": null,
+      "failure": null,
+      "x": 0,
+      "z": 13.13607293095565,
+      "heading": 0,
+      "energy": 1,
+      "speed": 0,
+      "occupied": ["bay-rest"],
+      "dive": {
+        "layer": "surface",
+        "direction": null,
+        "progress": 0,
+        "depth": 0,
+        "breath": 1,
+        "forced": false,
+        "needsRelease": false
+      },
+      "actors": [
+        {
+          "pos": {
+            "x": 0,
+            "z": 13.13607293095565
+          },
+          "heading": 0,
+          "id": "whale-0",
+          "speed": 0,
+          "status": "following",
+          "rescueTicks": null,
+          "rescueProgress": 0,
+          "dive": {
+            "layer": "surface",
+            "direction": null,
+            "progress": 0,
+            "depth": 0,
+            "breath": 1,
+            "forced": false,
+            "needsRelease": false
+          }
+        },
+        {
+          "pos": {
+            "x": 4.95,
+            "z": 6.731059683887817
+          },
+          "heading": 0,
+          "id": "whale-1",
+          "speed": 0.011990088307816914,
+          "status": "following",
+          "rescueTicks": null,
+          "rescueProgress": 0,
+          "dive": {
+            "layer": "surface",
+            "direction": null,
+            "progress": 0,
+            "depth": 0,
+            "breath": 1,
+            "forced": false,
+            "needsRelease": false
+          }
+        },
+        {
+          "pos": {
+            "x": -4.95,
+            "z": 6.731059683887817
+          },
+          "heading": 0,
+          "id": "whale-2",
+          "speed": 0.011990088307816914,
+          "status": "following",
+          "rescueTicks": null,
+          "rescueProgress": 0,
+          "dive": {
+            "layer": "surface",
+            "direction": null,
+            "progress": 0,
+            "depth": 0,
+            "breath": 1,
+            "forced": false,
+            "needsRelease": false
+          }
+        },
+        {
+          "pos": {
+            "x": 6.300000000000001,
+            "z": 0.3310596838878173
+          },
+          "heading": 0,
+          "id": "whale-3",
+          "speed": 0.011990088307814872,
+          "status": "following",
+          "rescueTicks": null,
+          "rescueProgress": 0,
+          "dive": {
+            "layer": "surface",
+            "direction": null,
+            "progress": 0,
+            "depth": 0,
+            "breath": 1,
+            "forced": false,
+            "needsRelease": false
+          }
+        },
+        {
+          "pos": {
+            "x": -6.300000000000001,
+            "z": 0.3310596838878173
+          },
+          "heading": 0,
+          "id": "whale-4",
+          "speed": 0.011990088307814872,
+          "status": "following",
+          "rescueTicks": null,
+          "rescueProgress": 0,
+          "dive": {
+            "layer": "surface",
+            "direction": null,
+            "progress": 0,
+            "depth": 0,
+            "breath": 1,
+            "forced": false,
+            "needsRelease": false
+          }
+        },
+        {
+          "pos": {
+            "x": 7.65,
+            "z": -6.068940316112186
+          },
+          "heading": 0,
+          "id": "whale-5",
+          "speed": 0.011990088307816914,
+          "status": "following",
+          "rescueTicks": null,
+          "rescueProgress": 0,
+          "dive": {
+            "layer": "surface",
+            "direction": null,
+            "progress": 0,
+            "depth": 0,
+            "breath": 1,
+            "forced": false,
+            "needsRelease": false
+          }
+        }
+      ],
+      "checkpoint": "start",
+      "basis": {
+        "right": {
+          "x": -0.9999999657697239,
+          "z": 0.000261649672090988
+        },
+        "up": {
+          "x": 0.0003466892152260149,
+          "z": 1.3250129479932509
+        }
+      },
+      "camera": {
+        "yaw": 0.014991422092849042,
+        "pitch": 49,
+        "requestedPitch": 49,
+        "profile": "classic",
+        "mode": "Follow"
+      },
+      "scenery": {
+        "WL-CHR-001": "model",
+        "ocean": "painted-sea"
+      }
+    }
+  }
+}

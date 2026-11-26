@@ -1,0 +1,532 @@
+{
+  "id": "ANM-003",
+  "version": "v001",
+  "status": "needs_review",
+  "blender": {
+    "loops": {
+      "Glide_Loop": {
+        "frames": [
+          1,
+          73
+        ],
+        "samples": 145,
+        "step_frames": 0.5,
+        "root_object_and_heading": "pass",
+        "shoulder_attachment": "pass",
+        "specified_intersections": "pass",
+        "nonadjacent_pairs": [
+          [
+            "Body and crown",
+            "Flight feather 7.L"
+          ],
+          [
+            "Body and crown",
+            "Flight feather 8.L"
+          ],
+          [
+            "Body and crown",
+            "Flight feather 9.L"
+          ],
+          [
+            "Body and crown",
+            "Outer primary.L"
+          ],
+          [
+            "Body and crown",
+            "Flight feather 7.R"
+          ],
+          [
+            "Body and crown",
+            "Flight feather 8.R"
+          ],
+          [
+            "Body and crown",
+            "Flight feather 9.R"
+          ],
+          [
+            "Body and crown",
+            "Outer primary.R"
+          ],
+          [
+            "Wing.L",
+            "Wing.R"
+          ],
+          [
+            "Foot.L",
+            "Foot.R"
+          ],
+          [
+            "Bill",
+            "Wing.L"
+          ],
+          [
+            "Foot.L",
+            "Wing.L"
+          ],
+          [
+            "Bill",
+            "Wing.R"
+          ],
+          [
+            "Foot.R",
+            "Wing.R"
+          ]
+        ],
+        "edge_length_ratio_range": [
+          0.9670452503005931,
+          1.02911905278688
+        ],
+        "head_forward_deviation_max_deg": 0.0,
+        "body_bank_range_deg_positive_right_down": [
+          8.663480240050675e-14,
+          8.663480240050675e-14
+        ],
+        "min_clearance_game_units_by_part": {
+          "all": {
+            "leader": 5.083364731248114,
+            "follower": 3.6666917849984917
+          },
+          "L": {
+            "leader": 9.543487928780529,
+            "follower": 7.2347903430244225
+          },
+          "R": {
+            "leader": 9.54348813573888,
+            "follower": 7.234790508591104
+          }
+        },
+        "max_half_frame_vertex_travel_BU": 0.0006220901742317577,
+        "loop_seam": {
+          "position_BU": 0.0,
+          "velocity_delta_BU_per_s": 0.0011506784350773932,
+          "step_frames": 0.02
+        }
+      },
+      "Circle_Loop": {
+        "frames": [
+          1,
+          97
+        ],
+        "samples": 193,
+        "step_frames": 0.5,
+        "root_object_and_heading": "pass",
+        "shoulder_attachment": "pass",
+        "specified_intersections": "pass",
+        "nonadjacent_pairs": [
+          [
+            "Body and crown",
+            "Flight feather 7.L"
+          ],
+          [
+            "Body and crown",
+            "Flight feather 8.L"
+          ],
+          [
+            "Body and crown",
+            "Flight feather 9.L"
+          ],
+          [
+            "Body and crown",
+            "Outer primary.L"
+          ],
+          [
+            "Body and crown",
+            "Flight feather 7.R"
+          ],
+          [
+            "Body and crown",
+            "Flight feather 8.R"
+          ],
+          [
+            "Body and crown",
+            "Flight feather 9.R"
+          ],
+          [
+            "Body and crown",
+            "Outer primary.R"
+          ],
+          [
+            "Wing.L",
+            "Wing.R"
+          ],
+          [
+            "Foot.L",
+            "Foot.R"
+          ],
+          [
+            "Bill",
+            "Wing.L"
+          ],
+          [
+            "Foot.L",
+            "Wing.L"
+          ],
+          [
+            "Bill",
+            "Wing.R"
+          ],
+          [
+            "Foot.R",
+            "Wing.R"
+          ]
+        ],
+        "edge_length_ratio_range": [
+          0.9185310146384554,
+          1.047407425154484
+        ],
+        "head_forward_deviation_max_deg": 0.0,
+        "body_bank_range_deg_positive_right_down": [
+          -8.249995938368755,
+          -6.750002782248361
+        ],
+        "min_clearance_game_units_by_part": {
+          "all": {
+            "leader": 4.89748943472111,
+            "follower": 3.5179915477768877
+          },
+          "L": {
+            "leader": 6.1664930560945255,
+            "follower": 4.53319444487562
+          },
+          "R": {
+            "leader": 11.967548042816631,
+            "follower": 9.174038434253305
+          }
+        },
+        "max_half_frame_vertex_travel_BU": 0.0007600001625133774,
+        "loop_seam": {
+          "position_BU": 0.0,
+          "velocity_delta_BU_per_s": 0.0008796482474505074,
+          "step_frames": 0.02
+        }
+      }
+    },
+    "transitions": {
+      "frames": [
+        49,
+        137
+      ],
+      "samples": 177,
+      "step_frames": 0.5,
+      "root_object_and_heading": "pass",
+      "shoulder_attachment": "pass",
+      "specified_intersections": "pass",
+      "nonadjacent_pairs": [
+        [
+          "Body and crown",
+          "Flight feather 7.L"
+        ],
+        [
+          "Body and crown",
+          "Flight feather 8.L"
+        ],
+        [
+          "Body and crown",
+          "Flight feather 9.L"
+        ],
+        [
+          "Body and crown",
+          "Outer primary.L"
+        ],
+        [
+          "Body and crown",
+          "Flight feather 7.R"
+        ],
+        [
+          "Body and crown",
+          "Flight feather 8.R"
+        ],
+        [
+          "Body and crown",
+          "Flight feather 9.R"
+        ],
+        [
+          "Body and crown",
+          "Outer primary.R"
+        ],
+        [
+          "Wing.L",
+          "Wing.R"
+        ],
+        [
+          "Foot.L",
+          "Foot.R"
+        ],
+        [
+          "Bill",
+          "Wing.L"
+        ],
+        [
+          "Foot.L",
+          "Wing.L"
+        ],
+        [
+          "Bill",
+          "Wing.R"
+        ],
+        [
+          "Foot.R",
+          "Wing.R"
+        ]
+      ],
+      "edge_length_ratio_range": [
+        0.9203200456093789,
+        1.0437677312469436
+      ],
+      "head_forward_deviation_max_deg": 0.05233915597547922,
+      "body_bank_range_deg_positive_right_down": [
+        -7.5591201328851305,
+        8.663480240050675e-14
+      ],
+      "min_clearance_game_units_by_part": {
+        "all": {
+          "leader": 4.915380570219648,
+          "follower": 3.532304456175718
+        },
+        "L": {
+          "leader": 6.488308634820211,
+          "follower": 4.790646907856168
+        },
+        "R": {
+          "leader": 8.946301950469346,
+          "follower": 6.757041560375477
+        }
+      },
+      "max_half_frame_vertex_travel_BU": 0.010551344139922586,
+      "joins": {
+        "49": {
+          "position_BU": 0.0,
+          "velocity_delta_BU_per_s": 0.004111019461722227,
+          "step_frames": 0.02,
+          "adjacent_action_pose_error_BU": 0.0
+        },
+        "65": {
+          "position_BU": 0.0,
+          "velocity_delta_BU_per_s": 0.0011506784350773932,
+          "step_frames": 0.02,
+          "adjacent_action_pose_error_BU": 0.0
+        },
+        "113": {
+          "position_BU": 0.0,
+          "velocity_delta_BU_per_s": 0.001149427319525828,
+          "step_frames": 0.02,
+          "adjacent_action_pose_error_BU": 0.0
+        },
+        "137": {
+          "position_BU": 0.0,
+          "velocity_delta_BU_per_s": 0.0008818264965489831,
+          "step_frames": 0.02,
+          "adjacent_action_pose_error_BU": 0.0
+        }
+      },
+      "circle_entry_bank_start_end_deg": [
+        8.663480240050675e-14,
+        -7.4999994097331255
+      ],
+      "circle_entry_peak_roll_deg_per_s": 29.324035740294676
+    },
+    "glb": {
+      "clips": {
+        "Circle_Loop": {
+          "duration_s": 2.0,
+          "rotation_targets": [
+            "Body",
+            "Elbow.L",
+            "Elbow.R",
+            "Head",
+            "Neck",
+            "Tip.L",
+            "Tip.R",
+            "WingRoot.L",
+            "WingRoot.R",
+            "Wrist.L",
+            "Wrist.R"
+          ],
+          "root_and_object_channels": 0,
+          "quaternion_seam_error": 0.0
+        },
+        "Glide_Loop": {
+          "duration_s": 1.5,
+          "rotation_targets": [
+            "Elbow.L",
+            "Elbow.R",
+            "Tip.L",
+            "Tip.R",
+            "WingRoot.L",
+            "WingRoot.R",
+            "Wrist.L",
+            "Wrist.R"
+          ],
+          "root_and_object_channels": 0,
+          "quaternion_seam_error": 0.0
+        }
+      },
+      "same_base_mesh_uv_weights_bind_axes_and_variants": "pass",
+      "four_embedded_textures_match_CHR_bytes": "pass"
+    },
+    "glb_roundtrip": {
+      "clips": {
+        "Glide_Loop": {
+          "action_name_in_blender": "Glide_Loop",
+          "duration_s": 1.5,
+          "samples": 145,
+          "max_integer_vertex_error_BU": 4.050814276655968e-07,
+          "max_half_frame_vertex_error_BU": 1.4076655030831697e-05,
+          "loop_seam": {
+            "position_BU": 0.0,
+            "velocity_delta_BU_per_s": 0.0034670526215026184,
+            "step_frames": 1
+          },
+          "root_fixed": "pass"
+        },
+        "Circle_Loop": {
+          "action_name_in_blender": "Circle_Loop",
+          "duration_s": 2.0,
+          "samples": 193,
+          "max_integer_vertex_error_BU": 4.918653015345049e-07,
+          "max_half_frame_vertex_error_BU": 1.228123351925301e-05,
+          "loop_seam": {
+            "position_BU": 0.0,
+            "velocity_delta_BU_per_s": 0.0019789239147561337,
+            "step_frames": 1
+          },
+          "root_fixed": "pass"
+        }
+      },
+      "blender_mesh_skin_uv_materials_axes_scale_and_pivot": "pass"
+    },
+    "flock": {
+      "frames": 232,
+      "birds": 12,
+      "mesh_datablocks": 1,
+      "follower_delays_frames": [
+        3,
+        9,
+        5,
+        16,
+        7,
+        20,
+        12,
+        22,
+        14,
+        4,
+        18
+      ],
+      "follower_xy_game_units": [
+        [
+          -45,
+          -25
+        ],
+        [
+          45,
+          -25
+        ],
+        [
+          0,
+          -30
+        ],
+        [
+          -76,
+          -48
+        ],
+        [
+          -25,
+          -49
+        ],
+        [
+          25,
+          -49
+        ],
+        [
+          76,
+          -48
+        ],
+        [
+          -71,
+          -69
+        ],
+        [
+          -23,
+          -71
+        ],
+        [
+          23,
+          -72
+        ],
+        [
+          71,
+          -71
+        ]
+      ],
+      "minimum_screen_margin_px": 53.40374903564623,
+      "minimum_ground_clearance_game_units": 1.9243465325487845
+    },
+    "editable_source_reopened": {
+      "status": "pass",
+      "active_action": "Glide_Loop",
+      "selectable_actions": [
+        "Glide_Loop",
+        "Circle_Loop"
+      ],
+      "review_scene_and_timeline": "pass",
+      "shared_mesh_across_preview_actors": "pass",
+      "packed_plumage_images": 4
+    }
+  },
+  "visual_review": {
+    "method": "Inspect Blender render keyframes at native size and decoded video frame sequences.",
+    "rear_1x": "Both crown bars are visible and separated. Dark flight feather edge reads.",
+    "rear_half": "Both bars are distinguishable in sampled stills. The forward bar is faint at about one pixel. Dark feather edge reads, individual feathers are harder to separate.",
+    "top": "Extended silhouette, layered dark flight feathers and both crown bars read.",
+    "review_formation": "Fixed staging offsets and delayed animation; runtime flock placement is simulated.",
+    "paco_signoff": "pending"
+  },
+  "preview_video_decode": {
+    "status": "pass",
+    "streams": {
+      "preview_rear_detail.mp4": {
+        "codec_name": "h264",
+        "width": 864,
+        "height": 480,
+        "r_frame_rate": "24/1",
+        "duration": "4.833333",
+        "nb_frames": "116"
+      },
+      "preview_rear_flock_12.mp4": {
+        "codec_name": "h264",
+        "width": 852,
+        "height": 394,
+        "r_frame_rate": "24/1",
+        "duration": "4.833333",
+        "nb_frames": "116"
+      }
+    },
+    "rear_padding": "393 px content plus one black bottom row"
+  },
+  "app_graybox_simulator": {
+    "date": "2026-11-14 Asia/Shanghai",
+    "device": "iPhone 18 Pro",
+    "ios": "27.2",
+    "commands": [
+      "./Scripts/build.sh",
+      "./Scripts/test.sh"
+    ],
+    "build": "pass",
+    "tests": "pass",
+    "test_count": 340,
+    "failures": 0,
+    "xcresult": "/Users/pacoramirez/Library/Developer/Xcode/DerivedData/FeatherTide-bjxcplhjeiulklfoeorevomninlb/Logs/Test/Test-FeatherTide-2026.11.14_13-03-28-+0800.xcresult",
+    "scope": "Existing App graybox baseline. Animation assets reside in Assets."
+  },
+  "redline_review": {
+    "scope": "Animation, asset library and technical review only.",
+    "player_ui_copy_science_audio_rewards_and_rules": "No new content.",
+    "runtime_performance": "待真机验证"
+  },
+  "pending": {
+    "paco": "Motion timing, left bank look, half-size markings; separate MAT-002 review.",
+    "realitykit_usdz": "Resource conversion and playback, state handoffs, runtime bank ownership, dynamic heading and terrain clearance.",
+    "iphone_ipad": "Actual screen readability, touch and camera, animation of 12 birds and measured performance.",
+    "next_task": "ANM-004"
+  }
+}

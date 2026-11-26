@@ -1,0 +1,88 @@
+{
+  "CHR-001": {
+    "version": "v001",
+    "status": "done",
+    "files": {
+      "CHR-001_goose_rig.blend": "db0c8d55c5efc499c99f7787228967451d071f36294962b12dc4b34d02f350f5",
+      "CHR-001_goose_rig.glb": "cd11419a47a2c8e2d67d636015675540581a74720a83c23ef8531437c7161b81",
+      "README.md": "fca1e84b2f0c7dfdac8ffa4cd929cd20a529b2dcd18a71821249b7315d31f659",
+      "qa.json": "de7e7d6eed73a5aa4d993113b4713e81f470480d982d981e80ef58acb56488ea",
+      "asset_manifest.json": "8daa953c8b45b97f750e45e33a751869470f9baead7182d253e5bf7fd1441921"
+    }
+  },
+  "ANM-002": {
+    "version": "v001",
+    "status": "needs_review",
+    "files": {
+      "ANM-002_takeoff_climb.blend": "aa60a2915f9a708bfb6598f805bddd47a79a0012b5d1d87f71c750f74d8c3d8c",
+      "ANM-002_takeoff_climb.glb": "eac0c9a74ab3211626bf84f89c5273b144b687ab1184f0807bce7829ff27fde0",
+      "README.md": "a20e50c2c8cf7bd6f877d6bbe3b1b7a8b9a3dec4e610ea9e3a2e2d6b5ec75a0c",
+      "qa.json": "2ff7ef6d6b89e821c7512c2579f73d908e416e27eb9c9e76e348f5792d0ee879",
+      "asset_manifest.json": "6c4d308ac6a5162264243177b0e4c5ab1c0a23db666483936ba5a8d144f754cf"
+    }
+  },
+  "ANM-003": {
+    "version": "v001",
+    "status": "needs_review",
+    "files": {
+      "ANM-003_glide_circle.blend": "c0ecaf4173afdc9dd989720f560311202e3c97635a91bf538021c00cb3110261",
+      "ANM-003_glide_circle.glb": "c307c082ebaebfed781ba22f066b4ebce57627d4e0496e152706c933b997d17c",
+      "README.md": "c6b1bd0e88f6782c7b15045225e34c86e2f30f92d1320eb1d5fba81a7c8b97a0",
+      "qa.json": "3e52da8ef333aeb27dadf4a7c3af5e956ef824fbfc4b97105da6efeb06712534",
+      "asset_manifest.json": "bce314ee1b05ad085b45e1c03b50b8451ff23dce521eefdd1c5fc5919a82d431"
+    }
+  },
+  "ENV-002": {
+    "version": "v001",
+    "status": "needs_review",
+    "files": {
+      "ENV-002_StartMudflat.glb": "1d7c96a6d09cc4c10dc7bc2df04760ce169888a89830aa20c42db985bf57345b",
+      "README.md": "07c4af1fada5a8da5762a8d4767f611ecfe72e1b1f8013c418d71323c8cdb676",
+      "qa.json": "e29f45177ba195a6b58b658ba313859bd9f2c0310cfb7604aae2ae33aaafddbf",
+      "asset_manifest.json": "e98c748a2bd6804b5070ee93ce79ffbbfa2c2acd464138311c80ddc49402fa33"
+    }
+  },
+  "ENV-003": {
+    "version": "v001",
+    "status": "needs_review",
+    "files": {
+      "ENV-003_ShallowPool_StartMudflat.glb": "a9dc5a4869c070d5fb4b7a8718c6f04f59f4a5a036c1830b0ef0e8ebc7623cc3",
+      "README.md": "3db486c8fd411e4c775b46c9cc11f4cda933313d213ec5a687dfb2bff31250fe",
+      "qa.json": "9046684ec0c78aef1258e39b36f46447b4b6dceebfafe2e1e9fc58e50ea3af92",
+      "asset_manifest.json": "4d5db9022003d041f7efe47efc14942d3b1bd140cbd263b4f1815be8055174c1"
+    }
+  },
+  "ENV-005": {
+    "version": "v001",
+    "status": "needs_review",
+    "files": {
+      "ENV-005_Sparse.glb": "8eeed7e031b9a0631e477b368ea39c04a1a8c3cae0d89aa68352f24ffe8e1a3f",
+      "ENV-005_ShoreEdge.glb": "e74510ff59a20a778559a4c7371de7f84f6a10618901a19137ab0abcdeb2e66d",
+      "README.md": "4f8ece421b22b08e9b922b57c036247feb912019fa3ff38694946c831b47df05",
+      "qa.json": "05643006b9e8d8b4c387b9af387b43a9012c7d231ff9815c8937995a4aa73f85",
+      "asset_manifest.json": "899ac063728db89252e1aa7777be6041eb5819f651a905521885c26608169788"
+    }
+  },
+  "FX-004": {
+    "version": "v001",
+    "status": "needs_review",
+    "files": {
+      "FX-004_Fog_Start.glb": "ddcbe2c03c76b35cb1cff4d10a8f8808255bcd0edf42da377ebd403b67e38778",
+      "README.md": "f21897a6346d0fbfc249b232030a46c95ea4991116766ef2e149896e44fd8647",
+      "qa.json": "2c261b8f7a7fe82e8e8d2b50fb559859a06fb35b93dae694b84a78e671d01db6",
+      "asset_manifest.json": "444e46da838d6abef284610ee16e7481c45db53d51375e4b4b5e5d479c676d75"
+    }
+  },
+  "ENV-009": {
+    "version": "v001",
+    "status": "needs_review",
+    "files": {
+      "ENV-009_FarRidge_A.glb": "c189468f2995e9f4c6bd7543fa15d6c1f22d09e0d18579eba8699396647fd649",
+      "ENV-009_FarRidge_B.glb": "06f796b8e8c7c4c3a4d6b7cdd872a7b4ea95a274dd4d416b58752f44024393b8",
+      "ENV-009_FarRidge_C.glb": "b2c78606fc1229e4e70526b27fb067141a78644e95498f4c27d1428a8455898e",
+      "README.md": "8705cb75fd70ae07342347607969e26dd8377cb10937b3932f51278797459a6f",
+      "qa.json": "4a0c241fb63fe7838dd485761cd2bf7e25ab2c120f0607509c81f6ee828e1d7b",
+      "asset_manifest.json": "ee064fbe3b05f67cc485c78b3427c7cbc71aa280b9a5a16ba510badeb20d2e08"
+    }
+  }
+}

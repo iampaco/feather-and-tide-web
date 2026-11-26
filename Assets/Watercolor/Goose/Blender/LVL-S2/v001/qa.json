@@ -1,0 +1,420 @@
+{
+  "id": "LVL-S2",
+  "version": "v001",
+  "status": "needs_review",
+  "independent_delivery_recheck": {
+    "status": "pass",
+    "reopened_mother": {
+      "routes": {
+        "pass": {
+          "distance_BU": 82.9227296828505,
+          "ray_count": 3916,
+          "tested_static_goose_span_BU": 1.6004365682601929,
+          "min_clearance_BU": 0.11173067548385701,
+          "tightest_probe": [
+            -0.06152354180812836,
+            0.1145201027393341,
+            0.0,
+            -0.06152354180812836,
+            0.1145201027393341,
+            0,
+            0
+          ]
+        },
+        "lake": {
+          "distance_BU": 106.93833840210651,
+          "ray_count": 5037,
+          "tested_static_goose_span_BU": 1.6004365682601929,
+          "min_clearance_BU": 0.11149244501929123,
+          "tightest_probe": [
+            -1.9913816452026367,
+            1.9677152633666992,
+            1.9073486328125e-06,
+            0.08967664837837219,
+            0.09410414099693298,
+            -2.0,
+            -0.8002182841300964
+          ]
+        },
+        "rest_detour": {
+          "distance_BU": 25.745118241155946,
+          "ray_count": 408,
+          "tested_static_goose_span_BU": 1.6004365682601929,
+          "min_clearance_BU": 1.0309981108307837,
+          "tightest_probe": [
+            6.247664928436279,
+            9.79675579071045,
+            1.9073486328125e-06,
+            6.0421624183654785,
+            9.023374557495117,
+            0,
+            0.8002182841300964
+          ]
+        }
+      },
+      "gates": {
+        "S2_Entry": {
+          "position_BU": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "direction_BU": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "dry_samples": 388,
+          "max_abs_height_BU": 1.9073486328125e-06
+        },
+        "S2_Merge": {
+          "position_BU": [
+            0.0,
+            76.0,
+            0.0
+          ],
+          "direction_BU": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "dry_samples": 388,
+          "max_abs_height_BU": 1.9073486328125e-06
+        }
+      },
+      "shared_entrance_view": {
+        "pass_opening": {
+          "visible": 13,
+          "tested": 13,
+          "pixel_box": [
+            [
+              192.563,
+              272.832
+            ],
+            [
+              42.661,
+              42.661
+            ]
+          ]
+        },
+        "lake_forebay": {
+          "visible": 9,
+          "tested": 9,
+          "pixel_box": [
+            [
+              677.767,
+              765.567
+            ],
+            [
+              73.301,
+              82.102
+            ]
+          ]
+        },
+        "lakeside_pad": {
+          "visible": 25,
+          "tested": 25,
+          "pixel_box": [
+            [
+              488.804,
+              561.442
+            ],
+            [
+              73.498,
+              92.88
+            ]
+          ]
+        }
+      },
+      "rest_patch_seam": {
+        "matched_vertices": 49,
+        "max_height_delta_BU": 0.0
+      },
+      "fixed_camera": {
+        "size": [
+          852,
+          393
+        ],
+        "distance_game_units": 180,
+        "pitch_parameter_rad": 0.48,
+        "aim_height_game_units": 6,
+        "default_leader_height_game_units": 8,
+        "field_of_view_degrees_measured": 49.99999977905367
+      },
+      "max_water_height_diff_BU": 7.152557379708213e-09
+    },
+    "GLB_reimport": {
+      "routes": {
+        "pass": {
+          "distance_BU": 82.9227296828505,
+          "ray_count": 3916,
+          "tested_static_goose_span_BU": 1.6004365682601929,
+          "min_clearance_BU": 0.11173067548385701,
+          "tightest_probe": [
+            -0.06152354180812836,
+            0.1145201027393341,
+            0.0,
+            -0.06152354180812836,
+            0.1145201027393341,
+            0,
+            0
+          ]
+        },
+        "lake": {
+          "distance_BU": 106.93833840210651,
+          "ray_count": 5037,
+          "tested_static_goose_span_BU": 1.6004365682601929,
+          "min_clearance_BU": 0.11149244501929123,
+          "tightest_probe": [
+            -1.9913816452026367,
+            1.9677152633666992,
+            1.9073486328125e-06,
+            0.08967664837837219,
+            0.09410414099693298,
+            -2.0,
+            -0.8002182841300964
+          ]
+        },
+        "rest_detour": {
+          "distance_BU": 25.745118241155946,
+          "ray_count": 408,
+          "tested_static_goose_span_BU": 1.6004365682601929,
+          "min_clearance_BU": 1.0309981108307837,
+          "tightest_probe": [
+            6.247664928436279,
+            9.79675579071045,
+            1.9073486328125e-06,
+            6.0421624183654785,
+            9.023374557495117,
+            0,
+            0.8002182841300964
+          ]
+        }
+      },
+      "gates": {
+        "S2_Entry": {
+          "position_BU": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "direction_BU": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "dry_samples": 388,
+          "max_abs_height_BU": 1.9073486328125e-06
+        },
+        "S2_Merge": {
+          "position_BU": [
+            0.0,
+            76.0,
+            0.0
+          ],
+          "direction_BU": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "dry_samples": 388,
+          "max_abs_height_BU": 1.9073486328125e-06
+        }
+      },
+      "shared_entrance_view": {
+        "pass_opening": {
+          "visible": 13,
+          "tested": 13,
+          "pixel_box": [
+            [
+              192.563,
+              272.832
+            ],
+            [
+              42.661,
+              42.661
+            ]
+          ]
+        },
+        "lake_forebay": {
+          "visible": 9,
+          "tested": 9,
+          "pixel_box": [
+            [
+              677.767,
+              765.567
+            ],
+            [
+              73.301,
+              82.102
+            ]
+          ]
+        },
+        "lakeside_pad": {
+          "visible": 25,
+          "tested": 25,
+          "pixel_box": [
+            [
+              488.804,
+              561.442
+            ],
+            [
+              73.498,
+              92.88
+            ]
+          ]
+        }
+      },
+      "rest_patch_seam": {
+        "matched_vertices": 49,
+        "max_height_delta_BU": 0.0
+      },
+      "fixed_camera": {
+        "size": [
+          852,
+          393
+        ],
+        "distance_game_units": 180,
+        "pitch_parameter_rad": 0.48,
+        "aim_height_game_units": 6,
+        "default_leader_height_game_units": 8,
+        "field_of_view_degrees_measured": 49.99999977905367
+      },
+      "max_water_height_diff_BU": 7.152557379708213e-09
+    },
+    "mother_shared_wind": {
+      "tree_rigs": 8,
+      "effect_instances": 7,
+      "world_downwind": [
+        -0.9798040390014648,
+        0.19996000826358795,
+        0.0
+      ],
+      "measured_translation_BU": 0.6434999784216362,
+      "speed_BU_s": 1.9499999346110186,
+      "crown_downwind_probes": [
+        {
+          "band_position": [
+            -7.491062164306641,
+            20.638992309570312,
+            1.4800000190734863
+          ],
+          "tree_downwind_bend_angle_deg": 13.408048100196782,
+          "axis_dot": 1.0000088922679424
+        },
+        {
+          "band_position": [
+            -8.121565818786621,
+            20.767667770385742,
+            1.4800000190734863
+          ],
+          "tree_downwind_bend_angle_deg": 14.73538864368298,
+          "axis_dot": 1.0000014416873455
+        }
+      ],
+      "lake_branch_quiet": true,
+      "review_distance_ramp": {
+        "vegetation_onset_y": 9,
+        "warning_band_onset_y": 13,
+        "gust_onset_y": 19
+      }
+    },
+    "GLB_shared_wind": {
+      "tree_rigs": 8,
+      "effect_instances": 7,
+      "world_downwind": [
+        -0.9798040390014648,
+        0.19996000826358795,
+        0.0
+      ],
+      "measured_translation_BU": 0.6434999784216362,
+      "speed_BU_s": 1.9499999346110186,
+      "crown_downwind_probes": [
+        {
+          "band_position": [
+            -7.491062164306641,
+            20.638992309570312,
+            1.4800000190734863
+          ],
+          "tree_downwind_bend_angle_deg": 13.408048100196782,
+          "axis_dot": 1.0000088922679424
+        },
+        {
+          "band_position": [
+            -8.121565818786621,
+            20.767667770385742,
+            1.4800000190734863
+          ],
+          "tree_downwind_bend_angle_deg": 14.73538864368298,
+          "axis_dot": 1.0000014416873455
+        }
+      ],
+      "lake_branch_quiet": true,
+      "review_distance_ramp": {
+        "vegetation_onset_y": 9,
+        "warning_band_onset_y": 13,
+        "gust_onset_y": 19
+      }
+    },
+    "retained_source_image_hashes": [
+      "013fbde91649c3a2dbd5e4d1adb71649b479c88fc5b83ae4d960b9773ebf6200",
+      "0343b68d4e256fca7b747c65b2fcebc74c46f3aa2334044051ac862e4e02c5b1",
+      "0b96c63edf1a33a3015b3341112aeb154a7700dfd3e82e93a923103f6c981995",
+      "10670b355497a7e1f53116859dd31128377e892f263ce8f0de58d125cff265c7",
+      "19f58d27f5cc0b06c1ffe6534d5beb4ee0fa72d7a15cf14a95c5c78eed9f329f",
+      "4670d95b818253c1e5a4110d8a2f00ed6160e258a0ee9e056704fa43986e2393",
+      "580db4fab27d71595eec97ebd3bb95600f7875c822ca6b7017e483aff10ce7c0",
+      "8fef579ec6eb2cab8b34693ff698a8f647bf6ef3121c6b67eb83f3bb656ce066",
+      "906631aa073af79112dd3c84a3c877ec77653fc4238d76de2a82f6d7712026ec",
+      "9e03d79c4a047cf999b95220f4233f2add4f7785336162be2917726318c43b0e",
+      "a4fbb2db73897427d8172297edb7b59d80a17707b3a3f1a198857f4996e6ed26",
+      "bd12529acd7f63aefad1df09111aa6b9a84c95161bbdb1d0c64f1cbc66d2c6f7",
+      "e06d76e88c90a29ad97a810ed7578ce67f79da1b915940d5406750228f36996b",
+      "e201e626c70ba88af6cbeae9662dc76375930208e121c4af5dbdfc52cfcefab0",
+      "fb7ba1defecfa9afe0a42bc4178589fe17185639f3c2a6d307976e6e44ceb728"
+    ],
+    "GLB_embedded_image_hashes": [
+      "013fbde91649c3a2dbd5e4d1adb71649b479c88fc5b83ae4d960b9773ebf6200",
+      "0343b68d4e256fca7b747c65b2fcebc74c46f3aa2334044051ac862e4e02c5b1",
+      "0b96c63edf1a33a3015b3341112aeb154a7700dfd3e82e93a923103f6c981995",
+      "10670b355497a7e1f53116859dd31128377e892f263ce8f0de58d125cff265c7",
+      "19f58d27f5cc0b06c1ffe6534d5beb4ee0fa72d7a15cf14a95c5c78eed9f329f",
+      "4670d95b818253c1e5a4110d8a2f00ed6160e258a0ee9e056704fa43986e2393",
+      "580db4fab27d71595eec97ebd3bb95600f7875c822ca6b7017e483aff10ce7c0",
+      "8fef579ec6eb2cab8b34693ff698a8f647bf6ef3121c6b67eb83f3bb656ce066",
+      "906631aa073af79112dd3c84a3c877ec77653fc4238d76de2a82f6d7712026ec",
+      "9e03d79c4a047cf999b95220f4233f2add4f7785336162be2917726318c43b0e",
+      "a4fbb2db73897427d8172297edb7b59d80a17707b3a3f1a198857f4996e6ed26",
+      "bd12529acd7f63aefad1df09111aa6b9a84c95161bbdb1d0c64f1cbc66d2c6f7",
+      "e06d76e88c90a29ad97a810ed7578ce67f79da1b915940d5406750228f36996b",
+      "e201e626c70ba88af6cbeae9662dc76375930208e121c4af5dbdfc52cfcefab0",
+      "fb7ba1defecfa9afe0a42bc4178589fe17185639f3c2a6d307976e6e44ceb728"
+    ],
+    "skeletal_tree_instances": 8,
+    "full_video_decode": {
+      "status": "pass",
+      "decoded_frames": 64,
+      "audio_streams": 0,
+      "source_resolution": [
+        852,
+        393
+      ],
+      "encoded_resolution": [
+        852,
+        394
+      ],
+      "duration_s": 8.0
+    }
+  },
+  "evidence_scope": "Offline evaluated mesh, route rays, camera projections and named gates. Branch trajectories and climate visual controls are review settings.",
+  "app_baseline": "Existing iPhone 18 Pro iOS 27.2 simulator build and 340 passing tests in active plan.",
+  "pending": [
+    "art review",
+    "human branch contrast glance",
+    "runtime collision, full flock formation and branch gameplay",
+    "Checkpoint A retry/refill, energy and wind response",
+    "USDZ / RealityKit / App",
+    "iPhone / iPad"
+  ],
+  "redline_review": "Checked against plans/_templates/redline-checklist.md; environmental and route visuals only, dry-area patches and visual examples; device experience remains pending."
+}

@@ -1,0 +1,758 @@
+{
+  "id": "CHR-001",
+  "version": "v001",
+  "status": "done",
+  "blender": "5.2.2 LTS",
+  "dependencies": {
+    "MAT-001/v001": "done",
+    "MAT-002/v001": "needs_review"
+  },
+  "source": "Original procedural geometry, skin weights, pose tests and lighting; append MAT-002/v001 plumage.",
+  "rights": "Original project production; no external textures or third-party attribution.",
+  "reference": [
+    "完整AI建模任务包/羽与潮_斑头雁_Blender资源制作规格书_v1.0.pdf (pp. 3, 6–7)",
+    "Sources/FeatherTide/Systems/Camera/ThirdPersonRig.swift",
+    "Sources/FeatherTide/Rendering/PlayfieldView.swift"
+  ],
+  "dimensions_BU": {
+    "wingspan": 1.6004365682601929,
+    "bill_to_tail": 0.9900106265544891,
+    "height": 0.46399999999999997
+  },
+  "scale_objects": [
+    1,
+    1,
+    1
+  ],
+  "pivot_BU": [
+    0,
+    0,
+    0
+  ],
+  "axes_blender": {
+    "right": "+X",
+    "up": "+Z",
+    "forward": "+Y"
+  },
+  "axes_gltf": {
+    "right": "+X",
+    "up": "+Y",
+    "forward": "-Z"
+  },
+  "gltf_from_blender": "(x,y,z) → (x,z,-y)",
+  "triangles_lod0": 3940,
+  "bones": {
+    "Root": {
+      "parent": null,
+      "deform": false,
+      "connected": false,
+      "head_BU": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tail_BU": [
+        0.0,
+        0.13,
+        0.0
+      ],
+      "local_axes_in_blender": {
+        "X": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "Y": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "Z": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    "Body": {
+      "parent": "Root",
+      "deform": true,
+      "connected": false,
+      "head_BU": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tail_BU": [
+        0.0,
+        0.154,
+        0.048
+      ],
+      "local_axes_in_blender": {
+        "X": [
+          1.0,
+          0.0,
+          -0.0
+        ],
+        "Y": [
+          0.0,
+          0.9547004,
+          0.2975689
+        ],
+        "Z": [
+          0.0,
+          -0.2975689,
+          0.9547004
+        ]
+      }
+    },
+    "Neck": {
+      "parent": "Body",
+      "deform": true,
+      "connected": true,
+      "head_BU": [
+        0.0,
+        0.154,
+        0.048
+      ],
+      "tail_BU": [
+        0.0,
+        0.344,
+        0.244
+      ],
+      "local_axes_in_blender": {
+        "X": [
+          1.0,
+          1e-07,
+          -1e-07
+        ],
+        "Y": [
+          -0.0,
+          0.6960315,
+          0.7180114
+        ],
+        "Z": [
+          1e-07,
+          -0.7180114,
+          0.6960314
+        ]
+      }
+    },
+    "Head": {
+      "parent": "Neck",
+      "deform": true,
+      "connected": true,
+      "head_BU": [
+        0.0,
+        0.344,
+        0.244
+      ],
+      "tail_BU": [
+        0.0,
+        0.536,
+        0.249
+      ],
+      "local_axes_in_blender": {
+        "X": [
+          1.0,
+          0.0,
+          -0.0
+        ],
+        "Y": [
+          -0.0,
+          0.9996613,
+          0.0260328
+        ],
+        "Z": [
+          0.0,
+          -0.0260327,
+          0.9996612
+        ]
+      }
+    },
+    "Tail": {
+      "parent": "Body",
+      "deform": true,
+      "connected": false,
+      "head_BU": [
+        0.0,
+        -0.184,
+        -0.012
+      ],
+      "tail_BU": [
+        0.0,
+        -0.376,
+        -0.016
+      ],
+      "local_axes_in_blender": {
+        "X": [
+          -1.0,
+          0.0,
+          -2e-07
+        ],
+        "Y": [
+          -0.0,
+          -0.9997831,
+          -0.0208288
+        ],
+        "Z": [
+          -2e-07,
+          -0.020829,
+          0.9997822
+        ]
+      }
+    },
+    "WingRoot.L": {
+      "parent": "Body",
+      "deform": true,
+      "connected": false,
+      "head_BU": [
+        -0.121,
+        -0.08,
+        0.035
+      ],
+      "tail_BU": [
+        -0.307,
+        -0.066,
+        0.038
+      ],
+      "local_axes_in_blender": {
+        "X": [
+          0.0750565,
+          0.9971793,
+          1e-07
+        ],
+        "Y": [
+          -0.9970503,
+          0.0750468,
+          0.0160814
+        ],
+        "Z": [
+          0.0160361,
+          -0.001207,
+          0.9998707
+        ]
+      }
+    },
+    "Elbow.L": {
+      "parent": "WingRoot.L",
+      "deform": true,
+      "connected": true,
+      "head_BU": [
+        -0.307,
+        -0.066,
+        0.038
+      ],
+      "tail_BU": [
+        -0.502,
+        -0.086,
+        0.043
+      ],
+      "local_axes_in_blender": {
+        "X": [
+          -0.1020289,
+          0.9947814,
+          1e-07
+        ],
+        "Y": [
+          -0.994458,
+          -0.1019957,
+          0.0254989
+        ],
+        "Z": [
+          0.0253659,
+          0.0026016,
+          0.9996747
+        ]
+      }
+    },
+    "Wrist.L": {
+      "parent": "Elbow.L",
+      "deform": true,
+      "connected": true,
+      "head_BU": [
+        -0.502,
+        -0.086,
+        0.043
+      ],
+      "tail_BU": [
+        -0.668,
+        -0.119,
+        0.051
+      ],
+      "local_axes_in_blender": {
+        "X": [
+          -0.1949797,
+          0.9808074,
+          1e-07
+        ],
+        "Y": [
+          -0.9797134,
+          -0.1947623,
+          0.0472151
+        ],
+        "Z": [
+          0.0463089,
+          0.009206,
+          0.9988846
+        ]
+      }
+    },
+    "Tip.L": {
+      "parent": "Wrist.L",
+      "deform": true,
+      "connected": true,
+      "head_BU": [
+        -0.668,
+        -0.119,
+        0.051
+      ],
+      "tail_BU": [
+        -0.8,
+        -0.177,
+        0.058
+      ],
+      "local_axes_in_blender": {
+        "X": [
+          -0.4022735,
+          0.9155197,
+          1e-07
+        ],
+        "Y": [
+          -0.9144424,
+          -0.4018003,
+          0.0484931
+        ],
+        "Z": [
+          0.0443964,
+          0.0195075,
+          0.9988234
+        ]
+      }
+    },
+    "Foot.L": {
+      "parent": "Body",
+      "deform": true,
+      "connected": false,
+      "head_BU": [
+        -0.068,
+        -0.169,
+        -0.066
+      ],
+      "tail_BU": [
+        -0.068,
+        -0.274,
+        -0.089
+      ],
+      "local_axes_in_blender": {
+        "X": [
+          -1.0,
+          -1e-07,
+          4e-07
+        ],
+        "Y": [
+          0.0,
+          -0.9768391,
+          -0.2139742
+        ],
+        "Z": [
+          4e-07,
+          -0.2139761,
+          0.9768531
+        ]
+      }
+    },
+    "WingRoot.R": {
+      "parent": "Body",
+      "deform": true,
+      "connected": false,
+      "head_BU": [
+        0.121,
+        -0.08,
+        0.035
+      ],
+      "tail_BU": [
+        0.307,
+        -0.066,
+        0.038
+      ],
+      "local_axes_in_blender": {
+        "X": [
+          0.0750565,
+          -0.9971793,
+          -1e-07
+        ],
+        "Y": [
+          0.9970503,
+          0.0750468,
+          0.0160814
+        ],
+        "Z": [
+          -0.0160361,
+          -0.0012071,
+          0.9998707
+        ]
+      }
+    },
+    "Elbow.R": {
+      "parent": "WingRoot.R",
+      "deform": true,
+      "connected": true,
+      "head_BU": [
+        0.307,
+        -0.066,
+        0.038
+      ],
+      "tail_BU": [
+        0.502,
+        -0.086,
+        0.043
+      ],
+      "local_axes_in_blender": {
+        "X": [
+          -0.1020289,
+          -0.9947814,
+          -0.0
+        ],
+        "Y": [
+          0.994458,
+          -0.1019957,
+          0.0254989
+        ],
+        "Z": [
+          -0.0253659,
+          0.0026016,
+          0.9996749
+        ]
+      }
+    },
+    "Wrist.R": {
+      "parent": "Elbow.R",
+      "deform": true,
+      "connected": true,
+      "head_BU": [
+        0.502,
+        -0.086,
+        0.043
+      ],
+      "tail_BU": [
+        0.668,
+        -0.119,
+        0.051
+      ],
+      "local_axes_in_blender": {
+        "X": [
+          -0.1949797,
+          -0.9808074,
+          -0.0
+        ],
+        "Y": [
+          0.9797134,
+          -0.1947623,
+          0.0472151
+        ],
+        "Z": [
+          -0.0463089,
+          0.009206,
+          0.9988847
+        ]
+      }
+    },
+    "Tip.R": {
+      "parent": "Wrist.R",
+      "deform": true,
+      "connected": true,
+      "head_BU": [
+        0.668,
+        -0.119,
+        0.051
+      ],
+      "tail_BU": [
+        0.8,
+        -0.177,
+        0.058
+      ],
+      "local_axes_in_blender": {
+        "X": [
+          -0.4022736,
+          -0.9155197,
+          -0.0
+        ],
+        "Y": [
+          0.9144424,
+          -0.4018004,
+          0.0484931
+        ],
+        "Z": [
+          -0.0443964,
+          0.0195075,
+          0.9988235
+        ]
+      }
+    },
+    "Foot.R": {
+      "parent": "Body",
+      "deform": true,
+      "connected": false,
+      "head_BU": [
+        0.068,
+        -0.169,
+        -0.066
+      ],
+      "tail_BU": [
+        0.068,
+        -0.274,
+        -0.089
+      ],
+      "local_axes_in_blender": {
+        "X": [
+          -1.0,
+          -1e-07,
+          4e-07
+        ],
+        "Y": [
+          0.0,
+          -0.9768391,
+          -0.2139742
+        ],
+        "Z": [
+          4e-07,
+          -0.2139761,
+          0.9768531
+        ]
+      }
+    }
+  },
+  "pose_tests_degrees_local_xyz": {
+    "Neutral": {},
+    "Upstroke": {
+      "WingRoot.L": [
+        39,
+        0,
+        0
+      ],
+      "Elbow.L": [
+        13,
+        0,
+        0
+      ],
+      "Wrist.L": [
+        -14,
+        0,
+        0
+      ],
+      "Tip.L": [
+        -10,
+        0,
+        0
+      ],
+      "WingRoot.R": [
+        39,
+        0,
+        0
+      ],
+      "Elbow.R": [
+        13,
+        0,
+        0
+      ],
+      "Wrist.R": [
+        -14,
+        0,
+        0
+      ],
+      "Tip.R": [
+        -10,
+        0,
+        0
+      ]
+    },
+    "Downstroke": {
+      "WingRoot.L": [
+        -34,
+        0,
+        0
+      ],
+      "Elbow.L": [
+        -12,
+        0,
+        0
+      ],
+      "Wrist.L": [
+        19,
+        0,
+        0
+      ],
+      "Tip.L": [
+        10,
+        0,
+        0
+      ],
+      "WingRoot.R": [
+        -34,
+        0,
+        0
+      ],
+      "Elbow.R": [
+        -12,
+        0,
+        0
+      ],
+      "Wrist.R": [
+        19,
+        0,
+        0
+      ],
+      "Tip.R": [
+        10,
+        0,
+        0
+      ]
+    },
+    "Wrist flex": {
+      "Wrist.L": [
+        25,
+        0,
+        16
+      ],
+      "Tip.L": [
+        13,
+        0,
+        7
+      ],
+      "Wrist.R": [
+        19,
+        0,
+        -13
+      ],
+      "Tip.R": [
+        9,
+        0,
+        -6
+      ]
+    },
+    "Neck turn": {
+      "Neck": [
+        4,
+        0,
+        -24
+      ],
+      "Head": [
+        -4,
+        0,
+        11
+      ]
+    }
+  },
+  "variants": {
+    "Leader": [
+      1.0,
+      0.976,
+      0.925,
+      1.0
+    ],
+    "Follower A": [
+      0.965,
+      0.985,
+      1.0,
+      1.0
+    ],
+    "Follower B": [
+      0.91,
+      0.925,
+      0.94,
+      1.0
+    ],
+    "Follower C": [
+      0.98,
+      0.96,
+      0.94,
+      1.0
+    ]
+  },
+  "texture_mapping": {
+    "ft_goose_mat_billfeet_basecolor.png": {
+      "from": "Assets/Watercolor/Goose/Blender/MAT-002/v001/textures/ft_goose_mat_billfeet_basecolor.png",
+      "sha256": "ccf80ec9272f2dd56733c69d9536ccf7b41fabde7a9b396847f185c2dd8b97d0",
+      "embedded_in": [
+        ".blend",
+        ".glb"
+      ]
+    },
+    "ft_goose_mat_body_basecolor.png": {
+      "from": "Assets/Watercolor/Goose/Blender/MAT-002/v001/textures/ft_goose_mat_body_basecolor.png",
+      "sha256": "593d054ebf19385359ced9af9faa15c9e02ded94763481bf4ececfe14b8a8cc5",
+      "embedded_in": [
+        ".blend",
+        ".glb"
+      ]
+    },
+    "ft_goose_mat_flightfeather_basecolor.png": {
+      "from": "Assets/Watercolor/Goose/Blender/MAT-002/v001/textures/ft_goose_mat_flightfeather_basecolor.png",
+      "sha256": "2c0d67e50dfdb29a423cdcd1a000c0139588e1957cbb032d6696eca83c551014",
+      "embedded_in": [
+        ".blend",
+        ".glb"
+      ]
+    },
+    "ft_goose_mat_head_basecolor.png": {
+      "from": "Assets/Watercolor/Goose/Blender/MAT-002/v001/textures/ft_goose_mat_head_basecolor.png",
+      "sha256": "7d7bb772387c9d48517cd35e3554a9690791b2fa21af0f9241a18fad8592c205",
+      "embedded_in": [
+        ".blend",
+        ".glb"
+      ]
+    }
+  },
+  "source_dependency_hashes": {
+    "MAT-002_goose_plumage.blend": "7754ae22aa16fd882e87ac81c187e94fb49f37fd2ad21a3eb391251585331459",
+    "MAT-001_watercolor_master_generate.py": "16bf8aaa6ecb2e52cc575c91d36d5256494df72c72a727741e5542de5b14364d"
+  },
+  "camera": {
+    "distance_game_units": 180,
+    "pitch_parameter_rad": 0.48,
+    "vertical_fov_deg": 50,
+    "aim_height_game_units": 6,
+    "leader_height_game_units": 8,
+    "follower_height_game_units": 6,
+    "leader_bill_to_tail_game_units": 27.5,
+    "preview_game_units_per_BU": 27.777479617271997,
+    "render_px": [
+      852,
+      393
+    ],
+    "camera_location_BU": [
+      0.0,
+      -5.747788906097412,
+      2.7043581008911133
+    ]
+  },
+  "files": {
+    "CHR-001_goose_rig.blend": "db0c8d55c5efc499c99f7787228967451d071f36294962b12dc4b34d02f350f5",
+    "CHR-001_goose_rig.glb": "cd11419a47a2c8e2d67d636015675540581a74720a83c23ef8531437c7161b81",
+    "preview_gameplay_1x.png": "1529085526e603ca5da2fe68d8fcda0eb38390143b06779beb46691b209bedc2",
+    "preview_gameplay_1x_cool.png": "c7e3fa7924c682bf28bee4e7fd9ada0b06eb95e3d70c5ce57bd8f017d8748955",
+    "preview_gameplay_flock_12.png": "24771bad5244c2993e161dffeac4b56dd27c3c1d20a30988341054c1ea96d94e",
+    "preview_gameplay_half.png": "2fec63cf5760e9a5b371f29d6123fa36cea04ce9161b8ee306e75736b015ac54",
+    "preview_gameplay_half_cool.png": "0ac275c257531acf8f9ce3d9dd10cc2538b41accf8640ba3bc2c03d11f49aa92",
+    "preview_glb_roundtrip.png": "f54285055c45f29cdc21de1803bf9d113eb64926e507ecbbc5b234c281c1efe2",
+    "preview_graybox_gameplay.png": "8fe1bd39da73b99b496bdb8bd5663b9e0c06b95879df9058c5ecf44410fe3243",
+    "preview_graybox_rear.png": "b01348eed3bdeb63d3574b4172f756f513a893d352da9a7d2966ee82047200cb",
+    "preview_graybox_top.png": "5b66bfcbc442346bd4f76b7ae75df3fff899dad4c908bced319295fe0f04fc69",
+    "preview_pose_downstroke.png": "fda8ec6b0a51f9906cec8eec5de1bd9eb99f9b2f323d17e94ae9e1a798dde80f",
+    "preview_pose_neck_turn.png": "27b88e033d213f9a88214c22df8e0b5a21b8b8195da282411eecd3f4d3cc0d57",
+    "preview_pose_upstroke.png": "387e47b930374f9b6efb46b52d818897723ed9a93aca7d3ab16e1d24571fbfa1",
+    "preview_pose_wrist_flex.png": "32711a6ff24db80f42f632feb8a656e528740087240a3b312c8b5e92cc896ebc",
+    "preview_rear_detail.png": "7b65d9d24753ead93707190397fcb208387dd30a27fbbcfcc8339b987459a90e",
+    "preview_side.png": "a16a73490ba09345e2ff9e5936cfab07a6b4f2868d3a0e0e3276a29614efabc6",
+    "preview_top.png": "cb82c036f690459d45a6daf843dc670195f2de6deefd78c0a3dac4743f36f839",
+    "CHR-001_goose_rig_generate.py": "9c56676574b80c6642dc11f4015f9460a14eb0ca6407acee440c9732071b4a90",
+    "README.md": "fca1e84b2f0c7dfdac8ffa4cd929cd20a529b2dcd18a71821249b7315d31f659",
+    "qa.json": "de7e7d6eed73a5aa4d993113b4713e81f470480d982d981e80ef58acb56488ea"
+  },
+  "production_approval": {
+    "by": "Paco",
+    "date": "2026-11-14",
+    "scope": "CHR-001/v001 素材制作"
+  }
+}

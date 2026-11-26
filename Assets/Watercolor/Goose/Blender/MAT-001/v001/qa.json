@@ -1,0 +1,38 @@
+{
+  "id": "MAT-001",
+  "version": "v001",
+  "status": "done",
+  "automated_checks": {
+    "five_asset_materials": "pass",
+    "nondegenerate_triangles_uvs_unit_scale": "pass",
+    "pbr_parameters_embedded_png_alpha_modes": "pass",
+    "glb_import_objects_materials_alpha_socket": "pass",
+    "glb_import_max_world_bounds_error_bu": 0.0,
+    "embedded_pngs": 5,
+    "embedded_texture_pixels_match_source": {
+      "DryGround": true,
+      "PlantAlpha": true,
+      "PlantOpaque": true,
+      "SoftStone": true,
+      "WaterFallback": true
+    },
+    "plant_alpha_transparent_soft_edge_opaque": "pass",
+    "render_roundtrip_rgb8": {
+      "width": 1440,
+      "height": 984,
+      "mean_absolute_channel_difference": 0.001937,
+      "p99_absolute_channel_difference": 0.0,
+      "max_absolute_channel_difference": 4
+    }
+  },
+  "runtime": "Blender 材质母版验收通过。RealityKit / iPhone / iPad 待接入时验证。",
+  "visual_checks": [
+    "斜视、顶视样张均已目视复核。暖褐泥地、灰绿芦苇、冷灰石和浅青水面可区分，样块间距及标签清晰。",
+    "斜视样张和 GLB 回导渲染均保留叶缘、叶片间透明空隙和水面横向色带。"
+  ],
+  "pending": [
+    "RealityKit 导入与 iPhone/iPad 真机效果待后续 App 接入时验证。"
+  ],
+  "redline_check": "按 plans/_templates/redline-checklist.md 自查。交付仅含材质样板与制作证据。",
+  "art_approval": "Paco 于 2026-11-14 在对话中确认色阶和纸纹可用。"
+}

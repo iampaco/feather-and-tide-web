@@ -1,0 +1,159 @@
+{
+  "axes_blender": "+X right, +Y forward, +Z up",
+  "axes_gltf_and_ground": "Blender (x,y,z) -> (x,z,-y)",
+  "game_units_per_BU": 27.777479617271997,
+  "scale_reference": "CHR-001/v001 actual 0.9900 BU bill-to-tail maps to 27.5 game units",
+  "camera": {
+    "viewport_px": [
+      852,
+      393
+    ],
+    "distance_game_units": 180,
+    "pitch_parameter_rad": 0.48,
+    "vertical_fov_deg": 50,
+    "aim_height_game_units": 6,
+    "source": "Sources/FeatherTide/Systems/Camera/ThirdPersonRig.swift"
+  },
+  "Ripple_Idle": {
+    "inputs": [
+      "positionOnWaterPlaneBU",
+      "timeSeconds",
+      "driftDirectionXZ",
+      "waterAlpha",
+      "strength"
+    ],
+    "placement": "Use existing MAT-004 water coverage; combine into water shader where possible",
+    "texture": "textures/ft_goose_vfx_ripple_idle_basecolor_alpha.png",
+    "tile_dimensions_BU": [
+      3.2,
+      2.4
+    ],
+    "tile_dimensions_game_units": [
+      88.8879347752704,
+      66.66595108145279
+    ],
+    "default_uv_velocity_tiles_per_sec": [
+      0.0625,
+      0
+    ],
+    "uv": "Repeat; project a common world origin across adjoining patches, then add wrapped time offset",
+    "default_pigment_gain": 2.4,
+    "pigment_mix_weight": "clamp(textureAlpha * waterAlpha * strength, 0, 1); preserve the water pass alpha"
+  },
+  "Ripple_Landing": {
+    "inputs": [
+      "gooseID",
+      "waterContactPositionWorld",
+      "eventTimestampSeconds",
+      "contactStrength"
+    ],
+    "trigger": "Fire once per actual shallow-water Land contact; allocate an independent pooled instance for each goose.",
+    "texture": "textures/ft_goose_vfx_ripple_landing_basecolor_alpha.png",
+    "pivot": "Bottom-centred in the water plane. Apply world position using the real contact point.",
+    "card_width_BU": 2.2,
+    "min_above_water_BU": 0.009,
+    "seconds": 1.8,
+    "envelope": [
+      {
+        "ageSeconds": 0,
+        "scale": 0.19,
+        "opacity": 0
+      },
+      {
+        "ageSeconds": 0.1,
+        "scale": 0.36,
+        "opacity": 0.73
+      },
+      {
+        "ageSeconds": 0.32,
+        "scale": 0.55,
+        "opacity": 1
+      },
+      {
+        "ageSeconds": 0.65,
+        "scale": 0.76,
+        "opacity": 0.72
+      },
+      {
+        "ageSeconds": 1.1,
+        "scale": 0.93,
+        "opacity": 0.31
+      },
+      {
+        "ageSeconds": 1.8,
+        "scale": 1.12,
+        "opacity": 0
+      }
+    ],
+    "interpolation": "Monotone, eased curves in Blender; smooth interpolation through the same envelope",
+    "opacity": "textureAlpha * waterBoundsMask * clamp(contactStrength, 0, 1) * envelopeOpacity",
+    "reset": "At age >= 1.8 seconds set alpha to zero and release the instance",
+    "pool_preview_capacity": 12
+  },
+  "review": {
+    "contact_frame_48fps": 51,
+    "contact_points_blender_BU": [
+      [
+        -0.06800004839897156,
+        -0.21784237027168274,
+        0.0
+      ],
+      [
+        -1.554400086402893,
+        0.4357261657714844,
+        1.4901161193847656e-08
+      ],
+      [
+        1.4855998754501343,
+        0.4157261252403259,
+        1.4901161193847656e-08
+      ],
+      [
+        -3.324399948120117,
+        1.4157260656356812,
+        1.4901161193847656e-08
+      ],
+      [
+        3.3055999279022217,
+        1.3057260513305664,
+        1.4901161193847656e-08
+      ],
+      [
+        -4.854400157928467,
+        3.1857261657714844,
+        -3.2782554626464844e-07
+      ],
+      [
+        4.535600185394287,
+        3.225726366043091,
+        1.4901161193847656e-08
+      ],
+      [
+        -2.3043999671936035,
+        2.945725917816162,
+        1.4901161193847656e-07
+      ],
+      [
+        2.045599937438965,
+        3.4357259273529053,
+        3.129243850708008e-07
+      ],
+      [
+        0.21559998393058777,
+        2.395726203918457,
+        1.4901161193847656e-08
+      ],
+      [
+        -1.1844000816345215,
+        4.475726127624512,
+        1.4901161193847656e-08
+      ],
+      [
+        1.535599946975708,
+        4.925725936889648,
+        1.4901161193847656e-08
+      ]
+    ],
+    "stress_pairwise_layer_step_BU": 0.001
+  }
+}

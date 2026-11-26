@@ -1,0 +1,1085 @@
+{
+  "id": "ENV-014",
+  "version": "v001",
+  "status": "needs_review",
+  "graybox": {
+    "flight": {
+      "positions_checked": 1494,
+      "min_CHR001_neutral_lower_bound_clearance_BU": 0.18299976485967634,
+      "root_lane_x_BU": [
+        -1.48,
+        0.0,
+        1.48
+      ],
+      "wing_span_BU": 1.6004365682601929,
+      "measured_tip_height_BU": 0.18300000327825544,
+      "method": "Downward land and upward reed BVH rays for 3 lateral paths, their center and both wingtips."
+    },
+    "flock": {
+      "goose_count": 12,
+      "pair_count": 66,
+      "min_hull_gap_BU": 0.10814619064331055,
+      "slots": [
+        {
+          "xy_BU": [
+            -0.4821940621268945,
+            -2.0877827823356467
+          ],
+          "yaw_degrees": 0.0,
+          "scale": 1,
+          "root_z_BU": 0.16895467042922974,
+          "min_mesh_vertex_clearance_BU": 0.0,
+          "feet": [
+            {
+              "sample_count": 65,
+              "contact_gap_BU": 0.0,
+              "max_sole_probe_gap_BU": 0.004282742738723755,
+              "min_ground_above_water_BU": 0.18
+            },
+            {
+              "sample_count": 65,
+              "contact_gap_BU": 0.0,
+              "max_sole_probe_gap_BU": 0.004282712936401367,
+              "min_ground_above_water_BU": 0.18
+            }
+          ]
+        },
+        {
+          "xy_BU": [
+            -1.79,
+            -2.2
+          ],
+          "yaw_degrees": -12.000000000000002,
+          "scale": 1,
+          "root_z_BU": 0.16895467042922974,
+          "min_mesh_vertex_clearance_BU": 0.0,
+          "feet": [
+            {
+              "sample_count": 65,
+              "contact_gap_BU": 0.0,
+              "max_sole_probe_gap_BU": 0.004282742738723755,
+              "min_ground_above_water_BU": 0.18
+            },
+            {
+              "sample_count": 65,
+              "contact_gap_BU": 0.0,
+              "max_sole_probe_gap_BU": 0.004282712936401367,
+              "min_ground_above_water_BU": 0.18
+            }
+          ]
+        },
+        {
+          "xy_BU": [
+            0.7173016397555955,
+            -2.3133048504137665
+          ],
+          "yaw_degrees": -11.0,
+          "scale": 1,
+          "root_z_BU": 0.16895467042922974,
+          "min_mesh_vertex_clearance_BU": 0.0,
+          "feet": [
+            {
+              "sample_count": 65,
+              "contact_gap_BU": 0.0,
+              "max_sole_probe_gap_BU": 0.004282742738723755,
+              "min_ground_above_water_BU": 0.18
+            },
+            {
+              "sample_count": 65,
+              "contact_gap_BU": 0.0,
+              "max_sole_probe_gap_BU": 0.004282712936401367,
+              "min_ground_above_water_BU": 0.18
+            }
+          ]
+        },
+        {
+          "xy_BU": [
+            -1.650438896016451,
+            -0.6406087719749735
+          ],
+          "yaw_degrees": 2.0,
+          "scale": 1,
+          "root_z_BU": 0.16895467042922974,
+          "min_mesh_vertex_clearance_BU": 0.0,
+          "feet": [
+            {
+              "sample_count": 65,
+              "contact_gap_BU": 0.0,
+              "max_sole_probe_gap_BU": 0.004282742738723755,
+              "min_ground_above_water_BU": 0.18
+            },
+            {
+              "sample_count": 65,
+              "contact_gap_BU": 0.0,
+              "max_sole_probe_gap_BU": 0.004282712936401367,
+              "min_ground_above_water_BU": 0.18
+            }
+          ]
+        },
+        {
+          "xy_BU": [
+            -0.5339157242194164,
+            -0.7445945138836723
+          ],
+          "yaw_degrees": -10.0,
+          "scale": 1,
+          "root_z_BU": 0.16895467042922974,
+          "min_mesh_vertex_clearance_BU": 0.0,
+          "feet": [
+            {
+              "sample_count": 65,
+              "contact_gap_BU": 0.0,
+              "max_sole_probe_gap_BU": 0.004282742738723755,
+              "min_ground_above_water_BU": 0.18
+            },
+            {
+              "sample_count": 65,
+              "contact_gap_BU": 0.0,
+              "max_sole_probe_gap_BU": 0.004282712936401367,
+              "min_ground_above_water_BU": 0.18
+            }
+          ]
+        },
+        {
+          "xy_BU": [
+            0.521849869188202,
+            -0.8648491052436199
+          ],
+          "yaw_degrees": 3.0000000000000004,
+          "scale": 1,
+          "root_z_BU": 0.16895467042922974,
+          "min_mesh_vertex_clearance_BU": 0.0,
+          "feet": [
+            {
+              "sample_count": 65,
+              "contact_gap_BU": 0.0,
+              "max_sole_probe_gap_BU": 0.004282742738723755,
+              "min_ground_above_water_BU": 0.18
+            },
+            {
+              "sample_count": 65,
+              "contact_gap_BU": 0.0,
+              "max_sole_probe_gap_BU": 0.004282712936401367,
+              "min_ground_above_water_BU": 0.18
+            }
+          ]
+        },
+        {
+          "xy_BU": [
+            -1.8120843971800547,
+            0.8382086654873386
+          ],
+          "yaw_degrees": -9.0,
+          "scale": 1,
+          "root_z_BU": 0.16895467042922974,
+          "min_mesh_vertex_clearance_BU": 0.0,
+          "feet": [
+            {
+              "sample_count": 65,
+              "contact_gap_BU": 0.0,
+              "max_sole_probe_gap_BU": 0.0042826831340789795,
+              "min_ground_above_water_BU": 0.18
+            },
+            {
+              "sample_count": 65,
+              "contact_gap_BU": 0.0,
+              "max_sole_probe_gap_BU": 0.004282712936401367,
+              "min_ground_above_water_BU": 0.18
+            }
+          ]
+        },
+        {
+          "xy_BU": [
+            -0.7282632311449236,
+            0.6136239755616266
+          ],
+          "yaw_degrees": 4.0,
+          "scale": 1,
+          "root_z_BU": 0.16895467042922974,
+          "min_mesh_vertex_clearance_BU": 0.0,
+          "feet": [
+            {
+              "sample_count": 65,
+              "contact_gap_BU": 0.0,
+              "max_sole_probe_gap_BU": 0.004282742738723755,
+              "min_ground_above_water_BU": 0.18
+            },
+            {
+              "sample_count": 65,
+              "contact_gap_BU": 0.0,
+              "max_sole_probe_gap_BU": 0.004282712936401367,
+              "min_ground_above_water_BU": 0.18
+            }
+          ]
+        },
+        {
+          "xy_BU": [
+            0.4734825580886538,
+            0.7091983776337254
+          ],
+          "yaw_degrees": -8.0,
+          "scale": 1,
+          "root_z_BU": 0.16895467042922974,
+          "min_mesh_vertex_clearance_BU": 0.0,
+          "feet": [
+            {
+              "sample_count": 65,
+              "contact_gap_BU": 0.0,
+              "max_sole_probe_gap_BU": 0.004282742738723755,
+              "min_ground_above_water_BU": 0.18
+            },
+            {
+              "sample_count": 65,
+              "contact_gap_BU": 0.0,
+              "max_sole_probe_gap_BU": 0.004282712936401367,
+              "min_ground_above_water_BU": 0.18
+            }
+          ]
+        },
+        {
+          "xy_BU": [
+            -1.926066429716255,
+            2.1883456010477826
+          ],
+          "yaw_degrees": 5.0,
+          "scale": 1,
+          "root_z_BU": 0.16895467042922974,
+          "min_mesh_vertex_clearance_BU": 0.0,
+          "feet": [
+            {
+              "sample_count": 65,
+              "contact_gap_BU": 0.008418440818786621,
+              "max_sole_probe_gap_BU": 0.013831168413162231,
+              "min_ground_above_water_BU": 0.17045157432556152
+            },
+            {
+              "sample_count": 65,
+              "contact_gap_BU": 0.0,
+              "max_sole_probe_gap_BU": 0.004282712936401367,
+              "min_ground_above_water_BU": 0.18
+            }
+          ]
+        },
+        {
+          "xy_BU": [
+            -0.6457876740817637,
+            2.0496440912973948
+          ],
+          "yaw_degrees": -7.0,
+          "scale": 1,
+          "root_z_BU": 0.16895467042922974,
+          "min_mesh_vertex_clearance_BU": 0.0,
+          "feet": [
+            {
+              "sample_count": 65,
+              "contact_gap_BU": 0.0,
+              "max_sole_probe_gap_BU": 0.004282742738723755,
+              "min_ground_above_water_BU": 0.18
+            },
+            {
+              "sample_count": 65,
+              "contact_gap_BU": 0.0,
+              "max_sole_probe_gap_BU": 0.004282712936401367,
+              "min_ground_above_water_BU": 0.18
+            }
+          ]
+        },
+        {
+          "xy_BU": [
+            0.6765880579428233,
+            2.27317682230039
+          ],
+          "yaw_degrees": 6.000000000000001,
+          "scale": 1,
+          "root_z_BU": 0.16895467042922974,
+          "min_mesh_vertex_clearance_BU": 0.0,
+          "feet": [
+            {
+              "sample_count": 65,
+              "contact_gap_BU": 0.0,
+              "max_sole_probe_gap_BU": 0.004282742738723755,
+              "min_ground_above_water_BU": 0.18
+            },
+            {
+              "sample_count": 65,
+              "contact_gap_BU": 0.0,
+              "max_sole_probe_gap_BU": 0.004282712936401367,
+              "min_ground_above_water_BU": 0.18
+            }
+          ]
+        }
+      ],
+      "worst_foot_contact_gap_BU": 0.008418440818786621,
+      "root_units": "BU",
+      "pose": "ANM-007 Land_Mudflat frame 81, 12 birds at 1x",
+      "fixed_rear_projection_per_bird": [
+        {
+          "pixel_width": 53.29151523113251,
+          "pixel_height": 41.68904006481171
+        },
+        {
+          "pixel_width": 56.2987414598465,
+          "pixel_height": 42.452472031116486
+        },
+        {
+          "pixel_width": 55.374107122421265,
+          "pixel_height": 43.221057415008545
+        },
+        {
+          "pixel_width": 45.85576915740967,
+          "pixel_height": 34.23532426357269
+        },
+        {
+          "pixel_width": 46.01479661464691,
+          "pixel_height": 34.70512855052948
+        },
+        {
+          "pixel_width": 47.1454074382782,
+          "pixel_height": 35.23504042625427
+        },
+        {
+          "pixel_width": 39.90375459194183,
+          "pixel_height": 28.89179241657257
+        },
+        {
+          "pixel_width": 39.44353222846985,
+          "pixel_height": 29.59778720140457
+        },
+        {
+          "pixel_width": 39.14695858955383,
+          "pixel_height": 29.298467338085175
+        },
+        {
+          "pixel_width": 34.68390619754791,
+          "pixel_height": 25.256126582622528
+        },
+        {
+          "pixel_width": 35.138288497924805,
+          "pixel_height": 25.59013831615448
+        },
+        {
+          "pixel_width": 34.87426686286926,
+          "pixel_height": 25.05912548303604
+        }
+      ]
+    },
+    "fork": null
+  },
+  "snapped_tile_joins": [
+    {
+      "label": "Flat tile -20,-20 → Flat tile -10,-20",
+      "samples": 17,
+      "max_gap_BU": 0.0,
+      "max_normal_error_deg": 0.0,
+      "max_uv_modulo_error": 0.0
+    },
+    {
+      "label": "Flat tile -20,-20 → Flat tile -20,-10",
+      "samples": 17,
+      "max_gap_BU": 0.0,
+      "max_normal_error_deg": 0.0,
+      "max_uv_modulo_error": 0.0
+    },
+    {
+      "label": "Flat tile -20,-10 → CentralBasin",
+      "samples": 17,
+      "max_gap_BU": 0.0,
+      "max_normal_error_deg": 0.005105663474775975,
+      "max_uv_modulo_error": 0.0
+    },
+    {
+      "label": "Flat tile -20,-10 → Flat tile -20,0",
+      "samples": 17,
+      "max_gap_BU": 0.0,
+      "max_normal_error_deg": 0.0,
+      "max_uv_modulo_error": 0.0
+    },
+    {
+      "label": "Flat tile -20,0 → Flat tile -10,0",
+      "samples": 17,
+      "max_gap_BU": 0.0,
+      "max_normal_error_deg": 0.0,
+      "max_uv_modulo_error": 0.0
+    },
+    {
+      "label": "Flat tile -10,-20 → Flat tile 0,-20",
+      "samples": 17,
+      "max_gap_BU": 0.0,
+      "max_normal_error_deg": 0.0,
+      "max_uv_modulo_error": 0.0
+    },
+    {
+      "label": "Flat tile -10,-20 → CentralBasin",
+      "samples": 17,
+      "max_gap_BU": 0.0,
+      "max_normal_error_deg": 0.0,
+      "max_uv_modulo_error": 0.0
+    },
+    {
+      "label": "Flat tile -10,0 → RestPatch tile 0,0",
+      "samples": 17,
+      "max_gap_BU": 0.0,
+      "max_normal_error_deg": 0.0,
+      "max_uv_modulo_error": 0.0
+    },
+    {
+      "label": "Flat tile 0,-20 → Flat tile 10,-20",
+      "samples": 17,
+      "max_gap_BU": 0.0,
+      "max_normal_error_deg": 0.0,
+      "max_uv_modulo_error": 0.0
+    },
+    {
+      "label": "Flat tile 0,-20 → StartMudflat tile 0,-10",
+      "samples": 17,
+      "max_gap_BU": 0.0,
+      "max_normal_error_deg": 0.0,
+      "max_uv_modulo_error": 0.0
+    },
+    {
+      "label": "StartMudflat tile 0,-10 → Flat tile 10,-10",
+      "samples": 17,
+      "max_gap_BU": 0.0,
+      "max_normal_error_deg": 0.0,
+      "max_uv_modulo_error": 0.0
+    },
+    {
+      "label": "StartMudflat tile 0,-10 → RestPatch tile 0,0",
+      "samples": 17,
+      "max_gap_BU": 0.0,
+      "max_normal_error_deg": 0.0,
+      "max_uv_modulo_error": 0.0
+    },
+    {
+      "label": "RestPatch tile 0,0 → Flat tile 10,0",
+      "samples": 17,
+      "max_gap_BU": 0.0,
+      "max_normal_error_deg": 0.0,
+      "max_uv_modulo_error": 0.0
+    },
+    {
+      "label": "Flat tile 10,-20 → Flat tile 10,-10",
+      "samples": 17,
+      "max_gap_BU": 0.0,
+      "max_normal_error_deg": 0.0,
+      "max_uv_modulo_error": 0.0
+    },
+    {
+      "label": "Flat tile 10,-10 → Flat tile 10,0",
+      "samples": 17,
+      "max_gap_BU": 0.0,
+      "max_normal_error_deg": 0.0,
+      "max_uv_modulo_error": 0.0
+    },
+    {
+      "label": "CentralBasin → StartMudflat tile 0,-10",
+      "samples": 17,
+      "max_gap_BU": 0.0,
+      "max_normal_error_deg": 0.003363612291409204,
+      "max_uv_modulo_error": 0.0
+    },
+    {
+      "label": "CentralBasin → Flat tile -10,0",
+      "samples": 17,
+      "max_gap_BU": 0.0,
+      "max_normal_error_deg": 0.0019063448545659594,
+      "max_uv_modulo_error": 0.0
+    }
+  ],
+  "layer_water_proof": {
+    "Basin_Water": {
+      "triangles": 358,
+      "wet_area_BU2": 54.84319552965462,
+      "max_dry_penetration_BU": 6.484985351495887e-07
+    },
+    "ShallowPool_StartMudflat | placement": {
+      "triangles": 42,
+      "wet_area_BU2": 2.4700053948326968,
+      "max_dry_penetration_BU": 1.7166137694646366e-07
+    },
+    "ShallowPool_RestPatch | placement": {
+      "triangles": 72,
+      "wet_area_BU2": 5.991221887648862,
+      "max_dry_penetration_BU": 1.7166137694646366e-07
+    }
+  },
+  "reed_scatter": {
+    "instances": 136,
+    "prototypes": {
+      "Reed_B_Height_M": 21,
+      "Reed_C_Height_S": 22,
+      "Reed_B_Height_S": 32,
+      "Reed_A_Height_M": 23,
+      "Reed_A_Height_S": 26,
+      "Reed_C_Height_M": 12
+    },
+    "triangles": 16710,
+    "seed": 14025,
+    "min_mesh_vertex_buffer_to_exclusion_BU": 0.3942702770233155,
+    "min_root_height_above_water_BU": 0.03806250572204589,
+    "exclusion_boxes_center_xy_half_extents_BU": [
+      [
+        -0.65,
+        -0.04,
+        2.2,
+        3.2
+      ],
+      [
+        -1.55,
+        -12.5,
+        4.15,
+        10
+      ],
+      [
+        -0.4,
+        1.25,
+        3.0,
+        3.95
+      ]
+    ]
+  },
+  "material_review": {
+    "flight": {
+      "positions_checked": 1494,
+      "min_CHR001_neutral_lower_bound_clearance_BU": 0.18299976485967634,
+      "root_lane_x_BU": [
+        -1.48,
+        0.0,
+        1.48
+      ],
+      "wing_span_BU": 1.6004365682601929,
+      "measured_tip_height_BU": 0.18300000327825544,
+      "method": "Downward land and upward reed BVH rays for 3 lateral paths, their center and both wingtips."
+    },
+    "flock": {
+      "goose_count": 12,
+      "pair_count": 66,
+      "min_hull_gap_BU": 0.10814619064331055,
+      "slots": [
+        {
+          "xy_BU": [
+            -0.4821940621268945,
+            -2.0877827823356467
+          ],
+          "yaw_degrees": 0.0,
+          "scale": 1,
+          "root_z_BU": 0.16895467042922974,
+          "min_mesh_vertex_clearance_BU": 0.0,
+          "feet": [
+            {
+              "sample_count": 65,
+              "contact_gap_BU": 0.0,
+              "max_sole_probe_gap_BU": 0.004282742738723755,
+              "min_ground_above_water_BU": 0.18
+            },
+            {
+              "sample_count": 65,
+              "contact_gap_BU": 0.0,
+              "max_sole_probe_gap_BU": 0.004282712936401367,
+              "min_ground_above_water_BU": 0.18
+            }
+          ]
+        },
+        {
+          "xy_BU": [
+            -1.79,
+            -2.2
+          ],
+          "yaw_degrees": -12.000000000000002,
+          "scale": 1,
+          "root_z_BU": 0.16895467042922974,
+          "min_mesh_vertex_clearance_BU": 0.0,
+          "feet": [
+            {
+              "sample_count": 65,
+              "contact_gap_BU": 0.0,
+              "max_sole_probe_gap_BU": 0.004282742738723755,
+              "min_ground_above_water_BU": 0.18
+            },
+            {
+              "sample_count": 65,
+              "contact_gap_BU": 0.0,
+              "max_sole_probe_gap_BU": 0.004282712936401367,
+              "min_ground_above_water_BU": 0.18
+            }
+          ]
+        },
+        {
+          "xy_BU": [
+            0.7173016397555955,
+            -2.3133048504137665
+          ],
+          "yaw_degrees": -11.0,
+          "scale": 1,
+          "root_z_BU": 0.16895467042922974,
+          "min_mesh_vertex_clearance_BU": 0.0,
+          "feet": [
+            {
+              "sample_count": 65,
+              "contact_gap_BU": 0.0,
+              "max_sole_probe_gap_BU": 0.004282742738723755,
+              "min_ground_above_water_BU": 0.18
+            },
+            {
+              "sample_count": 65,
+              "contact_gap_BU": 0.0,
+              "max_sole_probe_gap_BU": 0.004282712936401367,
+              "min_ground_above_water_BU": 0.18
+            }
+          ]
+        },
+        {
+          "xy_BU": [
+            -1.650438896016451,
+            -0.6406087719749735
+          ],
+          "yaw_degrees": 2.0,
+          "scale": 1,
+          "root_z_BU": 0.16895467042922974,
+          "min_mesh_vertex_clearance_BU": 0.0,
+          "feet": [
+            {
+              "sample_count": 65,
+              "contact_gap_BU": 0.0,
+              "max_sole_probe_gap_BU": 0.004282742738723755,
+              "min_ground_above_water_BU": 0.18
+            },
+            {
+              "sample_count": 65,
+              "contact_gap_BU": 0.0,
+              "max_sole_probe_gap_BU": 0.004282712936401367,
+              "min_ground_above_water_BU": 0.18
+            }
+          ]
+        },
+        {
+          "xy_BU": [
+            -0.5339157242194164,
+            -0.7445945138836723
+          ],
+          "yaw_degrees": -10.0,
+          "scale": 1,
+          "root_z_BU": 0.16895467042922974,
+          "min_mesh_vertex_clearance_BU": 0.0,
+          "feet": [
+            {
+              "sample_count": 65,
+              "contact_gap_BU": 0.0,
+              "max_sole_probe_gap_BU": 0.004282742738723755,
+              "min_ground_above_water_BU": 0.18
+            },
+            {
+              "sample_count": 65,
+              "contact_gap_BU": 0.0,
+              "max_sole_probe_gap_BU": 0.004282712936401367,
+              "min_ground_above_water_BU": 0.18
+            }
+          ]
+        },
+        {
+          "xy_BU": [
+            0.521849869188202,
+            -0.8648491052436199
+          ],
+          "yaw_degrees": 3.0000000000000004,
+          "scale": 1,
+          "root_z_BU": 0.16895467042922974,
+          "min_mesh_vertex_clearance_BU": 0.0,
+          "feet": [
+            {
+              "sample_count": 65,
+              "contact_gap_BU": 0.0,
+              "max_sole_probe_gap_BU": 0.004282742738723755,
+              "min_ground_above_water_BU": 0.18
+            },
+            {
+              "sample_count": 65,
+              "contact_gap_BU": 0.0,
+              "max_sole_probe_gap_BU": 0.004282712936401367,
+              "min_ground_above_water_BU": 0.18
+            }
+          ]
+        },
+        {
+          "xy_BU": [
+            -1.8120843971800547,
+            0.8382086654873386
+          ],
+          "yaw_degrees": -9.0,
+          "scale": 1,
+          "root_z_BU": 0.16895467042922974,
+          "min_mesh_vertex_clearance_BU": 0.0,
+          "feet": [
+            {
+              "sample_count": 65,
+              "contact_gap_BU": 0.0,
+              "max_sole_probe_gap_BU": 0.0042826831340789795,
+              "min_ground_above_water_BU": 0.18
+            },
+            {
+              "sample_count": 65,
+              "contact_gap_BU": 0.0,
+              "max_sole_probe_gap_BU": 0.004282712936401367,
+              "min_ground_above_water_BU": 0.18
+            }
+          ]
+        },
+        {
+          "xy_BU": [
+            -0.7282632311449236,
+            0.6136239755616266
+          ],
+          "yaw_degrees": 4.0,
+          "scale": 1,
+          "root_z_BU": 0.16895467042922974,
+          "min_mesh_vertex_clearance_BU": 0.0,
+          "feet": [
+            {
+              "sample_count": 65,
+              "contact_gap_BU": 0.0,
+              "max_sole_probe_gap_BU": 0.004282742738723755,
+              "min_ground_above_water_BU": 0.18
+            },
+            {
+              "sample_count": 65,
+              "contact_gap_BU": 0.0,
+              "max_sole_probe_gap_BU": 0.004282712936401367,
+              "min_ground_above_water_BU": 0.18
+            }
+          ]
+        },
+        {
+          "xy_BU": [
+            0.4734825580886538,
+            0.7091983776337254
+          ],
+          "yaw_degrees": -8.0,
+          "scale": 1,
+          "root_z_BU": 0.16895467042922974,
+          "min_mesh_vertex_clearance_BU": 0.0,
+          "feet": [
+            {
+              "sample_count": 65,
+              "contact_gap_BU": 0.0,
+              "max_sole_probe_gap_BU": 0.004282742738723755,
+              "min_ground_above_water_BU": 0.18
+            },
+            {
+              "sample_count": 65,
+              "contact_gap_BU": 0.0,
+              "max_sole_probe_gap_BU": 0.004282712936401367,
+              "min_ground_above_water_BU": 0.18
+            }
+          ]
+        },
+        {
+          "xy_BU": [
+            -1.926066429716255,
+            2.1883456010477826
+          ],
+          "yaw_degrees": 5.0,
+          "scale": 1,
+          "root_z_BU": 0.16895467042922974,
+          "min_mesh_vertex_clearance_BU": 0.0,
+          "feet": [
+            {
+              "sample_count": 65,
+              "contact_gap_BU": 0.008418440818786621,
+              "max_sole_probe_gap_BU": 0.013831168413162231,
+              "min_ground_above_water_BU": 0.17045157432556152
+            },
+            {
+              "sample_count": 65,
+              "contact_gap_BU": 0.0,
+              "max_sole_probe_gap_BU": 0.004282712936401367,
+              "min_ground_above_water_BU": 0.18
+            }
+          ]
+        },
+        {
+          "xy_BU": [
+            -0.6457876740817637,
+            2.0496440912973948
+          ],
+          "yaw_degrees": -7.0,
+          "scale": 1,
+          "root_z_BU": 0.16895467042922974,
+          "min_mesh_vertex_clearance_BU": 0.0,
+          "feet": [
+            {
+              "sample_count": 65,
+              "contact_gap_BU": 0.0,
+              "max_sole_probe_gap_BU": 0.004282742738723755,
+              "min_ground_above_water_BU": 0.18
+            },
+            {
+              "sample_count": 65,
+              "contact_gap_BU": 0.0,
+              "max_sole_probe_gap_BU": 0.004282712936401367,
+              "min_ground_above_water_BU": 0.18
+            }
+          ]
+        },
+        {
+          "xy_BU": [
+            0.6765880579428233,
+            2.27317682230039
+          ],
+          "yaw_degrees": 6.000000000000001,
+          "scale": 1,
+          "root_z_BU": 0.16895467042922974,
+          "min_mesh_vertex_clearance_BU": 0.0,
+          "feet": [
+            {
+              "sample_count": 65,
+              "contact_gap_BU": 0.0,
+              "max_sole_probe_gap_BU": 0.004282742738723755,
+              "min_ground_above_water_BU": 0.18
+            },
+            {
+              "sample_count": 65,
+              "contact_gap_BU": 0.0,
+              "max_sole_probe_gap_BU": 0.004282712936401367,
+              "min_ground_above_water_BU": 0.18
+            }
+          ]
+        }
+      ],
+      "worst_foot_contact_gap_BU": 0.008418440818786621,
+      "root_units": "BU",
+      "pose": "ANM-007 Land_Mudflat frame 81, 12 birds at 1x",
+      "fixed_rear_projection_per_bird": [
+        {
+          "pixel_width": 53.29151523113251,
+          "pixel_height": 41.68904006481171
+        },
+        {
+          "pixel_width": 56.2987414598465,
+          "pixel_height": 42.452472031116486
+        },
+        {
+          "pixel_width": 55.374107122421265,
+          "pixel_height": 43.221057415008545
+        },
+        {
+          "pixel_width": 45.85576915740967,
+          "pixel_height": 34.23532426357269
+        },
+        {
+          "pixel_width": 46.01479661464691,
+          "pixel_height": 34.70512855052948
+        },
+        {
+          "pixel_width": 47.1454074382782,
+          "pixel_height": 35.23504042625427
+        },
+        {
+          "pixel_width": 39.90375459194183,
+          "pixel_height": 28.89179241657257
+        },
+        {
+          "pixel_width": 39.44353222846985,
+          "pixel_height": 29.59778720140457
+        },
+        {
+          "pixel_width": 39.14695858955383,
+          "pixel_height": 29.298467338085175
+        },
+        {
+          "pixel_width": 34.68390619754791,
+          "pixel_height": 25.256126582622528
+        },
+        {
+          "pixel_width": 35.138288497924805,
+          "pixel_height": 25.59013831615448
+        },
+        {
+          "pixel_width": 34.87426686286926,
+          "pixel_height": 25.05912548303604
+        }
+      ]
+    },
+    "fork": {
+      "pass_opening": {
+        "unoccluded": 13,
+        "sampled": 13,
+        "x_px": [
+          187.43319404125214,
+          272.3731030225754
+        ]
+      },
+      "lake_forebay": {
+        "unoccluded": 9,
+        "sampled": 9,
+        "x_px": [
+          680.0768201351166,
+          784.7875771522522
+        ]
+      },
+      "dry_lake_rest": {
+        "unoccluded": 9,
+        "sampled": 9,
+        "x_px": [
+          501.8680057525635,
+          583.3704535961151
+        ]
+      }
+    }
+  },
+  "roundtrip": {
+    "layer_geometry": {
+      "CheckpointA_Ground": {
+        "triangles": 6144,
+        "max_normal_delta_deg": 0.024709531991911206,
+        "axis_checked_gltf_xyz_bounds_BU": [
+          [
+            -25,
+            15
+          ],
+          [
+            -0.64955073595047,
+            0
+          ],
+          [
+            -5,
+            25
+          ]
+        ]
+      },
+      "CheckpointA_Water": {
+        "triangles": 472,
+        "max_normal_delta_deg": 0.0,
+        "axis_checked_gltf_xyz_bounds_BU": [
+          [
+            -14.260602951049805,
+            3.9004359245300293
+          ],
+          [
+            -0.18000000715255737,
+            -0.18000000715255737
+          ],
+          [
+            -2.7754740715026855,
+            13.686296463012695
+          ]
+        ]
+      },
+      "CheckpointA_Reeds": {
+        "triangles": 16710,
+        "max_normal_delta_deg": 0.004331783922719519,
+        "axis_checked_gltf_xyz_bounds_BU": [
+          [
+            -23.942087173461914,
+            14.783509254455566
+          ],
+          [
+            -0.14160174131393433,
+            1.3317326307296753
+          ],
+          [
+            -4.5047454833984375,
+            25.02817153930664
+          ]
+        ]
+      }
+    },
+    "identical_GLTF_embedded_PNG_SHA256": {
+      "GrassFlat": "e06d76e88c90a29ad97a810ed7578ce67f79da1b915940d5406750228f36996b",
+      "MudBank": "0343b68d4e256fca7b747c65b2fcebc74c46f3aa2334044051ac862e4e02c5b1",
+      "ShallowMargin": "bd12529acd7f63aefad1df09111aa6b9a84c95161bbdb1d0c64f1cbc66d2c6f7",
+      "MossStone": "10670b355497a7e1f53116859dd31128377e892f263ce8f0de58d125cff265c7",
+      "FogLeaf": "a4fbb2db73897427d8172297edb7b59d80a17707b3a3f1a198857f4996e6ed26",
+      "SedgeLeaf": "a4fbb2db73897427d8172297edb7b59d80a17707b3a3f1a198857f4996e6ed26",
+      "SeedHead": "e201e626c70ba88af6cbeae9662dc76375930208e121c4af5dbdfc52cfcefab0",
+      "CheckpointBasinWater": "fdb2ecbafdf57471aa36973258cbeb1da538753a197c29f5966460fee0acec1e",
+      "ENV003_ShallowPool_StartMudflat": "915bf85fc4c0f2271c73b3d14fb1a324182a07ebe757138696263312d5f17dc5",
+      "ENV003_ShallowPool_RestPatch": "2d51dc4509c523d3d7f9f030f42e456ee60c963eb54b57df49629b94c9954341"
+    },
+    "water": {
+      "CheckpointA_Water.001": {
+        "triangles": 472,
+        "wet_area_BU2": 63.30442258722178,
+        "max_dry_penetration_BU": 6.484985351495887e-07
+      }
+    },
+    "flight": {
+      "positions_checked": 1494,
+      "min_CHR001_neutral_lower_bound_clearance_BU": 0.18299976485967634,
+      "root_lane_x_BU": [
+        -1.48,
+        0.0,
+        1.48
+      ],
+      "wing_span_BU": 1.6004365682601929,
+      "measured_tip_height_BU": 0.18300000327825544,
+      "method": "Downward land and upward reed BVH rays for 3 lateral paths, their center and both wingtips."
+    }
+  },
+  "checkpoint_review_anchors_BU": {
+    "Checkpoint_A": [
+      0,
+      0,
+      0
+    ],
+    "Dry_Pad": [
+      -0.65,
+      -0.04,
+      0
+    ],
+    "Pass_Exit": [
+      -9.15,
+      12,
+      0
+    ],
+    "Lake_Exit": [
+      11.5,
+      12,
+      -0.18
+    ]
+  },
+  "main_pool_area_BU2": 54.84319552965462,
+  "pending": [
+    "S1/S2 runtime landing, resource replenishment, persistence and retry, choice of both paths.",
+    "Transparency sorting, integration of motion, USDZ / RealityKit and iPhone/iPad."
+  ],
+  "independent_reopen": {
+    "result": "pass",
+    "glb_count": 1,
+    "mesh_layer_count": 3,
+    "readback_matches": true
+  },
+  "motion_preview": {
+    "result": "pass",
+    "source_px": [
+      852,
+      393
+    ],
+    "frames": 24,
+    "preview_only": true,
+    "heading_changes_only_as_leader_turns": true,
+    "h264_decode": "pass"
+  },
+  "design_redline_check": {
+    "result": "pass",
+    "scope": "offline terrain, visual proof and separate game logic."
+  },
+  "app_baseline": {
+    "os": "iOS 27.2",
+    "device": "iPhone 18 Pro simulator",
+    "prior_tests": 340,
+    "source": "plans/active/goose-preview-model-cleanup.md",
+    "rerun_in_this_task": false
+  },
+  "render_comparison": {
+    "preview_top.png": {
+      "reimport": "roundtrip_top.png",
+      "mean_absolute_channel_difference_RGB8": 0.01495840220385675,
+      "p99_channel_delta": 1
+    },
+    "preview_fixed_rear_rest.png": {
+      "reimport": "roundtrip_fixed_rear_rest.png",
+      "mean_absolute_channel_difference_RGB8": 0.007981021554830823,
+      "p99_channel_delta": 0
+    }
+  }
+}

@@ -1,0 +1,574 @@
+{
+  "id": "LVL-S3",
+  "version": "v001",
+  "status": "needs_review",
+  "independent_delivery_recheck": {
+    "status": "pass",
+    "method": "Separate headless Blender opens actual editable scene, then reloads static delivery GLB in a fresh scene and reconstructs preview inputs only",
+    "mother_filename": "LVL-S3_S3_Rescue.blend",
+    "GLB_filename": "LVL-S3_S3_Rescue.glb",
+    "reopened_blend_geometry": {
+      "gate_ground_samples": 970,
+      "gate_max_abs_z_error_BU": 9.5367431640625e-07,
+      "gate_ground_width_BU": 24.0,
+      "gate_checked_inward_BU": 1.99,
+      "water_triangles": 840,
+      "water_max_level_error_BU": 7.152557379708213e-09,
+      "openbank_dry_samples": 880,
+      "openbank_floor_z_range_BU": [
+        -9.5367431640625e-07,
+        9.5367431640625e-07
+      ],
+      "openbank_area_BU2": 15.395199999999994,
+      "apron_beacon_support_samples": 81,
+      "escort_corridor_samples": 305,
+      "escort_corridor_width_BU": 1.3,
+      "escort_min_terrain_above_water_BU": 0.1799995231628418,
+      "review_separation_to_escort_seconds": 12.0833333333,
+      "review_return_path_length_BU": 21.351954535307403,
+      "escort_window_seconds": 2.0
+    },
+    "reopened_blend_cues": {
+      "first_readable_tree_seconds": 0.5,
+      "first_visible_warning_seconds": 0.75,
+      "first_visible_gust_seconds": 1.4166666666666667,
+      "scripted_separation_seconds": 1.9166666667,
+      "tree_lead_before_warning_seconds": 0.25,
+      "gust_lead_before_scripted_separation_seconds": 0.5000000000333333,
+      "tree_screen_displacement_peak_px": 23.901266303234365,
+      "visibility_rays_passed": {
+        "wind_phase": 2465,
+        "escort_phase": 7735
+      },
+      "clearance_bbox": {
+        "wind_to_marker_px": 287.8098130514882,
+        "vegetation_to_marker_px": 105.21222230833037,
+        "marker_size_px": 22.98914539613574
+      },
+      "tail_checkpoints_seconds_position_slot_offset_BU": [
+        [
+          1.9166666667,
+          [
+            2.938109874725342,
+            19.14004898071289,
+            0.6159999966621399
+          ],
+          0.0
+        ],
+        [
+          3.375,
+          [
+            2.3399999141693115,
+            22.25,
+            0.5099999904632568
+          ],
+          1.4061914183415047
+        ],
+        [
+          14.0,
+          [
+            2.3399999141693115,
+            22.25,
+            0.5099999904632568
+          ],
+          5.102271381730731
+        ],
+        [
+          16.0,
+          [
+            -0.66206955909729,
+            24.524051666259766,
+            0.6159999966621399
+          ],
+          0.0
+        ]
+      ],
+      "tail_world_x_displacement_on_separation_BU": -0.5981099605560303,
+      "min_downwind_vector_dot": 0.9999998845160007,
+      "camera_pose_position_error_BU": 0.0013949065037639904,
+      "camera_axis_error_rad": 0.0,
+      "note": "LOS is computed over the frames in each test interval with the full beacon box in-frame. Off-frame portions of the return are deliberate in this offline path."
+    },
+    "GLB_geometry": {
+      "gate_ground_samples": 970,
+      "gate_max_abs_z_error_BU": 9.5367431640625e-07,
+      "gate_ground_width_BU": 24.0,
+      "gate_checked_inward_BU": 1.99,
+      "water_triangles": 840,
+      "water_max_level_error_BU": 7.152557379708213e-09,
+      "openbank_dry_samples": 880,
+      "openbank_floor_z_range_BU": [
+        -9.5367431640625e-07,
+        9.5367431640625e-07
+      ],
+      "openbank_area_BU2": 15.395199999999994,
+      "apron_beacon_support_samples": 81,
+      "escort_corridor_samples": 305,
+      "escort_corridor_width_BU": 1.3,
+      "escort_min_terrain_above_water_BU": 0.1799995231628418,
+      "review_separation_to_escort_seconds": 12.0833333333,
+      "review_return_path_length_BU": 21.351954535307403,
+      "escort_window_seconds": 2.0
+    },
+    "GLB_cues": {
+      "first_readable_tree_seconds": 0.5,
+      "first_visible_warning_seconds": 0.75,
+      "first_visible_gust_seconds": 1.4166666666666667,
+      "scripted_separation_seconds": 1.9166666667,
+      "tree_lead_before_warning_seconds": 0.25,
+      "gust_lead_before_scripted_separation_seconds": 0.5000000000333333,
+      "tree_screen_displacement_peak_px": 23.90130260499209,
+      "visibility_rays_passed": {
+        "wind_phase": 2465,
+        "escort_phase": 7735
+      },
+      "clearance_bbox": {
+        "wind_to_marker_px": 287.8098130514882,
+        "vegetation_to_marker_px": 105.21219926495776,
+        "marker_size_px": 22.98914539613574
+      },
+      "tail_checkpoints_seconds_position_slot_offset_BU": [
+        [
+          1.9166666667,
+          [
+            2.938109874725342,
+            19.14004898071289,
+            0.6159999966621399
+          ],
+          0.0
+        ],
+        [
+          3.375,
+          [
+            2.3399999141693115,
+            22.25,
+            0.5099999904632568
+          ],
+          1.4061914183415047
+        ],
+        [
+          14.0,
+          [
+            2.3399999141693115,
+            22.25,
+            0.5099999904632568
+          ],
+          5.102271381730731
+        ],
+        [
+          16.0,
+          [
+            -0.66206955909729,
+            24.524051666259766,
+            0.6159999966621399
+          ],
+          0.0
+        ]
+      ],
+      "tail_world_x_displacement_on_separation_BU": -0.5981099605560303,
+      "min_downwind_vector_dot": 0.9999998845160007,
+      "camera_pose_position_error_BU": 0.0013949065037639904,
+      "camera_axis_error_rad": 0.0,
+      "note": "LOS is computed over the frames in each test interval with the full beacon box in-frame. Off-frame portions of the return are deliberate in this offline path."
+    },
+    "cross_format_measurement_delta": {
+      "gate_max_abs_z_error_BU": 0.0,
+      "escort_min_terrain_above_water_BU": 0.0,
+      "first_readable_tree_seconds": 0.0,
+      "first_visible_warning_seconds": 0.0,
+      "first_visible_gust_seconds": 0.0
+    },
+    "direct_GLTF_transport": {
+      "root": "S3_Rescue",
+      "node_count": 65,
+      "mesh_count": 27,
+      "animated_tree_skin_count": 8,
+      "wind_instance_count": 15,
+      "anchors_GLTF_xyz": {
+        "S3_Entry": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "S3_Exit": [
+          0.0,
+          0.0,
+          -64.0
+        ],
+        "S3_WindZone": [
+          -2.75,
+          0.0,
+          -22.5
+        ],
+        "S3_SeparationSample": [
+          -1.399999976158142,
+          0.0,
+          -21.399999618530273
+        ],
+        "S3_RescueAnchor": [
+          2.4000000953674316,
+          0.03799999877810478,
+          -21.780000686645508
+        ],
+        "S3_ApproachSample": [
+          2.5199999809265137,
+          0.0,
+          -23.6200008392334
+        ]
+      },
+      "embedded_images": {
+        "ft_goose_mat_grass_flat_basecolor": {
+          "sha256": "e06d76e88c90a29ad97a810ed7578ce67f79da1b915940d5406750228f36996b",
+          "bytes": 984555,
+          "mime": "image/png"
+        },
+        "ft_goose_mat_mud_bank_basecolor": {
+          "sha256": "0343b68d4e256fca7b747c65b2fcebc74c46f3aa2334044051ac862e4e02c5b1",
+          "bytes": 939661,
+          "mime": "image/png"
+        },
+        "ft_goose_mat_shallow_margin_basecolor": {
+          "sha256": "bd12529acd7f63aefad1df09111aa6b9a84c95161bbdb1d0c64f1cbc66d2c6f7",
+          "bytes": 1217622,
+          "mime": "image/png"
+        },
+        "ft_goose_mat_moss_stone_basecolor": {
+          "sha256": "10670b355497a7e1f53116859dd31128377e892f263ce8f0de58d125cff265c7",
+          "bytes": 1164248,
+          "mime": "image/png"
+        },
+        "ft_goose_mat_water_river_basecolor_alpha": {
+          "sha256": "f470fd1a2c206a618f27c177f7d6d613a4681135a47207103fa0b353c923fcaf",
+          "bytes": 1670653,
+          "mime": "image/png"
+        },
+        "ft_goose_fx_crosswind_crown_rgba": {
+          "sha256": "fb7ba1defecfa9afe0a42bc4178589fe17185639f3c2a6d307976e6e44ceb728",
+          "bytes": 18755,
+          "mime": "image/png"
+        },
+        "ft_goose_fx_crosswind_gust_rgba": {
+          "sha256": "8fef579ec6eb2cab8b34693ff698a8f647bf6ef3121c6b67eb83f3bb656ce066",
+          "bytes": 35302,
+          "mime": "image/png"
+        },
+        "ft_goose_fx_crosswind_leaf_rgba": {
+          "sha256": "013fbde91649c3a2dbd5e4d1adb71649b479c88fc5b83ae4d960b9773ebf6200",
+          "bytes": 4787,
+          "mime": "image/png"
+        },
+        "ft_goose_mat_plant_opaque_basecolor": {
+          "sha256": "a4fbb2db73897427d8172297edb7b59d80a17707b3a3f1a198857f4996e6ed26",
+          "bytes": 282773,
+          "mime": "image/png"
+        },
+        "ft_goose_mat_dry_ground_basecolor": {
+          "sha256": "e201e626c70ba88af6cbeae9662dc76375930208e121c4af5dbdfc52cfcefab0",
+          "bytes": 265420,
+          "mime": "image/png"
+        },
+        "ft_goose_fx_rescue_ring_basecolor_alpha": {
+          "sha256": "93c304b734d347de420ffe310e75670e52569f5edff080f81b76431adc3de36f",
+          "bytes": 67818,
+          "mime": "image/png"
+        },
+        "ft_goose_fx_rescue_soft_point_basecolor_alpha": {
+          "sha256": "e191004155e832ed81915923bf9c04786f43f5d4e39a16116a3b95bfe81b0aaf",
+          "bytes": 22397,
+          "mime": "image/png"
+        },
+        "ft_goose_fx_crosswind_warn_rgba": {
+          "sha256": "580db4fab27d71595eec97ebd3bb95600f7875c822ca6b7017e483aff10ce7c0",
+          "bytes": 18754,
+          "mime": "image/png"
+        }
+      },
+      "unique_source_FX_texture_byte_match_count": 6,
+      "unique_source_FX_texture_total": 6,
+      "alpha_blend_effect_material_count": 6
+    },
+    "video_full_decode": {
+      "status": "pass",
+      "source_px": [
+        852,
+        393
+      ],
+      "coded_px": [
+        852,
+        394
+      ],
+      "decoded_frames": 137,
+      "audio_streams": 0,
+      "fps": 8
+    },
+    "reimport_review_actor_counts": {
+      "review_geese": 12,
+      "shelter_tree_rigs": 8,
+      "water_meshes": 7
+    },
+    "reimport_still_FE_comparison_RGB8": {
+      "rescue": {
+        "mean_RGB8_abs_channel_difference": 0.24985465521429395,
+        "fraction_RGB8_channels_at_least_4": 0.010966562735189764,
+        "max_abs_channel_difference": 110
+      },
+      "return": {
+        "mean_RGB8_abs_channel_difference": 0.00024987356994668036,
+        "fraction_RGB8_channels_at_least_4": 1.89147323864021e-05,
+        "max_abs_channel_difference": 8
+      }
+    }
+  },
+  "dependencies": {
+    "ENV-001": {
+      "role": "additional in-project assembly/review dependency",
+      "version": "v001",
+      "status": "needs_review",
+      "files": {
+        "README.md": {
+          "sha256": "73cb0cc48ec23519a7f81fe2c10a8e1627d6af013b631e14272cc3109a12b289",
+          "bytes": 8831
+        },
+        "qa.json": {
+          "sha256": "cf2ad6c4bf148065880ff9364b8ae2b0c30cfaba867e0b87357e19446e865f2e",
+          "bytes": 41259
+        },
+        "asset_manifest.json": {
+          "sha256": "423ff2934f001f2ff08eeb60901f183197dc6aa045c2c207fb2d41a684c41f3e",
+          "bytes": 8337
+        },
+        "ENV-001_Flat.glb": {
+          "sha256": "4c25aa571191e283e25532ead5415fbde94270259afd2d39b7a223f6a23e4363",
+          "bytes": 998368
+        }
+      }
+    },
+    "ENV-005": {
+      "role": "additional in-project assembly/review dependency",
+      "version": "v001",
+      "status": "needs_review",
+      "files": {
+        "README.md": {
+          "sha256": "4f8ece421b22b08e9b922b57c036247feb912019fa3ff38694946c831b47df05",
+          "bytes": 3933
+        },
+        "qa.json": {
+          "sha256": "05643006b9e8d8b4c387b9af387b43a9012c7d231ff9815c8937995a4aa73f85",
+          "bytes": 5026
+        },
+        "asset_manifest.json": {
+          "sha256": "899ac063728db89252e1aa7777be6041eb5819f651a905521885c26608169788",
+          "bytes": 3102
+        },
+        "ENV-005_Sparse.glb": {
+          "sha256": "8eeed7e031b9a0631e477b368ea39c04a1a8c3cae0d89aa68352f24ffe8e1a3f",
+          "bytes": 1416040
+        }
+      }
+    },
+    "ENV-007": {
+      "role": "spec dependency",
+      "version": "v001",
+      "status": "needs_review",
+      "files": {
+        "README.md": {
+          "sha256": "9f7360dd16b499f1c73862ffd4634b5abe6363d6b59bbdead7d3f518c30658ec",
+          "bytes": 4902
+        },
+        "qa.json": {
+          "sha256": "039f9fb3796025318cd75f400a25c19ea048f5bceb91e41f6706ea29e986cead",
+          "bytes": 33287
+        },
+        "asset_manifest.json": {
+          "sha256": "2880cdf68f775267896aadf6ded3b4fe2b69c760d2fae637462b3f7530257783",
+          "bytes": 6316
+        },
+        "ENV-007_Straight.glb": {
+          "sha256": "cc472484c96e45858a07e742bd17d6b53ab12a541e7b8b369a20f4ed08a01579",
+          "bytes": 6001480
+        },
+        "ENV-007_Bend.glb": {
+          "sha256": "5ee1c9ee6aa0a2c8c29b6be7b3edcb6c99b5cc4d74a60baa44b3c8839122eb62",
+          "bytes": 6001440
+        },
+        "ENV-007_OpenBank.glb": {
+          "sha256": "f135d7a2cca11d385cd2b318794dcd8ca42b2961805e4a317d8ce67266b857f4",
+          "bytes": 6001120
+        }
+      }
+    },
+    "ENV-012": {
+      "role": "spec dependency",
+      "version": "v001",
+      "status": "needs_review",
+      "files": {
+        "README.md": {
+          "sha256": "7ae5c671ecf1236b9cce6144f7e0e64d1b5373ec458d6b6e95e1d952f2c01dbb",
+          "bytes": 5194
+        },
+        "qa.json": {
+          "sha256": "098122706080e59d9f836a870edb8aeee5ee1e1f36c9038367263519576a4886",
+          "bytes": 11121
+        },
+        "asset_manifest.json": {
+          "sha256": "41894113f70811fd5c328324b2825e9e5236db0a36cd607cc47e634eafa5c606",
+          "bytes": 5809
+        },
+        "ENV-012_RiverTree_A.glb": {
+          "sha256": "30b5f3a1615ce4540108b04f51a4237be1dcfc08b29ef00d8b1e81766b9e1eba",
+          "bytes": 589800
+        },
+        "ENV-012_RiverTree_B.glb": {
+          "sha256": "bcb584473b5b9ea54faf901f2afa5b795ca6580eb0deed251a4a0bb634874120",
+          "bytes": 584704
+        },
+        "ENV-012_LeaningTree.glb": {
+          "sha256": "a830633f430641a08db94e59d7d871c2ea1060aed8e819c08daa1060babe8f51",
+          "bytes": 589800
+        }
+      }
+    },
+    "FX-002": {
+      "role": "spec dependency",
+      "version": "v001",
+      "status": "needs_review",
+      "files": {
+        "README.md": {
+          "sha256": "24be305c985f97b349391c40fef136bf2cae7d56f3d6c5db5f3bbc3a7451eeab",
+          "bytes": 5547
+        },
+        "qa.json": {
+          "sha256": "5a8c320f7ab4e2417da06273faced992c23900ef6f20cbc0df7fd4c30d2b349c",
+          "bytes": 6109
+        },
+        "asset_manifest.json": {
+          "sha256": "f86ea40a0ee9a4ae0804124ce6a4c182d8bbe17ff799a677a4ee51a3339649ed",
+          "bytes": 5936
+        },
+        "FX-002_CrosswindWarn.glb": {
+          "sha256": "f6de2291d0603c3cefa67a905cd0f9d785be1bb4fa514a6ba5b0ceb605cadb65",
+          "bytes": 44108
+        },
+        "FX-002_Gust.glb": {
+          "sha256": "8e881781be05a625f07943a690530336108be33b2ed0198d58e5d099178481d1",
+          "bytes": 46732
+        },
+        "runtime_mapping.json": {
+          "sha256": "8ff3ac1be37f9a0151e030b0aa4d613ca498bcd8cf29645f54ebc73867ff9c17",
+          "bytes": 4124
+        }
+      }
+    },
+    "FX-009": {
+      "role": "spec dependency",
+      "version": "v001",
+      "status": "needs_review",
+      "files": {
+        "README.md": {
+          "sha256": "316885ef893ac04b9d108114c6858a5233bcf14d80fbb4859da0db37f261d549",
+          "bytes": 4057
+        },
+        "qa.json": {
+          "sha256": "3385d1235526f4b7630a62116102c25c9188e216484353155ebc7b58ddf84b80",
+          "bytes": 3883
+        },
+        "asset_manifest.json": {
+          "sha256": "fa672ea3baffeb86a4b695048aca7a9cb8e2ce378b4701fb1eacd58159e338ed",
+          "bytes": 3547
+        },
+        "FX-009_RescueBeacon.glb": {
+          "sha256": "4be20c1d4d3ca056edb8a49f6de18ed92cc0d7f8c4074f264cff38abebebc932",
+          "bytes": 99536
+        },
+        "runtime_mapping.json": {
+          "sha256": "e3c6cac97e161323a032c3ca80b0d4fc1ad3e91e6ad08812a91a720a2752adb4",
+          "bytes": 1541
+        }
+      }
+    },
+    "ANM-009": {
+      "role": "spec dependency",
+      "version": "v001",
+      "status": "needs_review",
+      "files": {
+        "README.md": {
+          "sha256": "1aa1a707b07443c3ff218adf62cad5e5ed1ea1bed1897937d939253ba09d0958",
+          "bytes": 3077
+        },
+        "qa.json": {
+          "sha256": "a1ee8f2f18a134867e09b7003304dd7d051f240157bf563fb2ba1e98bfab74dd",
+          "bytes": 9244
+        },
+        "asset_manifest.json": {
+          "sha256": "95f1608052b7f9a7ea2e0803b8e3d010da7328b97f848eef42c693f9209c7d9a",
+          "bytes": 6071
+        },
+        "ANM-009_call_rejoin.glb": {
+          "sha256": "9b4eacbfbe8c52afbf4ca923ae40d69bd0db7141a4d605316237fd1aa5a632f0",
+          "bytes": 3858452
+        }
+      }
+    },
+    "ANM-001": {
+      "role": "additional in-project assembly/review dependency",
+      "version": "v001",
+      "status": "done",
+      "files": {
+        "README.md": {
+          "sha256": "9d88b5a97b18e429efb73413fa21d44e37409224c73a758fd8c1c8e2e4e099ac",
+          "bytes": 3691
+        },
+        "qa.json": {
+          "sha256": "5763a9da01f1284912a7eb9f4dec7d63e49cda20ea2fefc37096b89b29a5c2f3",
+          "bytes": 7853
+        },
+        "asset_manifest.json": {
+          "sha256": "625c3e4e31e095fac83c72aa2064bf1bd0bc547a228490563dcb7232fc66fd26",
+          "bytes": 14558
+        },
+        "ANM-001_cruise_flap.glb": {
+          "sha256": "4f890f71264c9995480b9c759deb78352457a4d26ae82369631e7303a89a5033",
+          "bytes": 3841128
+        }
+      }
+    },
+    "ENV-009": {
+      "role": "additional in-project assembly/review dependency",
+      "version": "v001",
+      "status": "needs_review",
+      "files": {
+        "README.md": {
+          "sha256": "8705cb75fd70ae07342347607969e26dd8377cb10937b3932f51278797459a6f",
+          "bytes": 4448
+        },
+        "qa.json": {
+          "sha256": "4a0c241fb63fe7838dd485761cd2bf7e25ab2c120f0607509c81f6ee828e1d7b",
+          "bytes": 7115
+        },
+        "asset_manifest.json": {
+          "sha256": "ee064fbe3b05f67cc485c78b3427c7cbc71aa280b9a5a16ba510badeb20d2e08",
+          "bytes": 5728
+        },
+        "ENV-009_FarRidge_A.glb": {
+          "sha256": "c189468f2995e9f4c6bd7543fa15d6c1f22d09e0d18579eba8699396647fd649",
+          "bytes": 108076
+        },
+        "ENV-009_FarRidge_B.glb": {
+          "sha256": "06f796b8e8c7c4c3a4d6b7cdd872a7b4ea95a274dd4d416b58752f44024393b8",
+          "bytes": 108280
+        }
+      }
+    }
+  },
+  "camera_swift_sha256": {
+    "Sources/FeatherTide/Systems/Camera/ThirdPersonRig.swift": "274b58f0b910a280c676540dde54343c35e2e0709744e20e7e5ee4f9515476a2",
+    "Sources/FeatherTide/Rendering/PlayfieldView.swift": "8c37c08a35b8b299cc9af9f9e63e64ef5d50947e12822356fee8de398bc110dc"
+  },
+  "redline_review": "Quiet foliage, slate sidewind and warm recovery anchor follow project palette and redline checklist.",
+  "app_baseline_reference": "Existing iPhone 18 Pro iOS 27.2 simulator, 340 tests documented in active plan.",
+  "pending": [
+    "Owner visual and small screen reading review",
+    "Runtime wind, collision, physical reachability, rescue activation, escort, retry from A and timing",
+    "USDZ, RealityKit/App integration and real iPhone/iPad validation"
+  ]
+}

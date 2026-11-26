@@ -1,0 +1,59 @@
+{
+  "variant": "CurvedFarm_Layout",
+  "asset_version": "v001",
+  "status": "needs_review",
+  "coordinate_axes": "Blender XY ground, +Z up, +Y route; GLB (x,z,-y)",
+  "BU_per_game_unit": 0.036,
+  "anchor": {
+    "graybox_origin_relative_game_xy": [920, -10],
+    "candidate_xy_BU": [18.6, 9.2],
+    "candidate_anchor_instance": "T04",
+    "mapping": "candidate_xy = [18.6,9.2] + 0.036 * (birth_relative_game_xy - [920,-10]); invert for candidate proposals"
+  },
+  "sweep": {
+    "radius_game_units": 78,
+    "center": "instance base XY",
+    "radius_scales_with_visual_instance": false,
+    "zone_rule_proposal": "union of inclusive ground-plane discs",
+    "render_subdivision_max_angle_degrees": 0.75,
+    "outline_width_BU": 0.19,
+    "fill_opacity": 0.15,
+    "minimum_nearest_overlap_BU": 0.5,
+    "geometric_tolerance_BU": 0.005,
+    "collision_authority": "runtime Zone; FX-010 integration pending"
+  },
+  "instances": [
+    {"id":"T01","center_BU":[20.9,-3.0,0],"yaw_deg":-12,"scale":0.96,"rotor_phase_deg":14},
+    {"id":"T02","center_BU":[19.65,1.1,0],"yaw_deg":-7,"scale":1.00,"rotor_phase_deg":51},
+    {"id":"T03","center_BU":[18.87,5.15,0],"yaw_deg":-3,"scale":0.98,"rotor_phase_deg":88},
+    {"id":"T04","center_BU":[18.6,9.2,0],"yaw_deg":0,"scale":1.00,"rotor_phase_deg":125},
+    {"id":"T05","center_BU":[18.3,13.28,0],"yaw_deg":4,"scale":0.97,"rotor_phase_deg":163},
+    {"id":"T06","center_BU":[19.64,17.36,0],"yaw_deg":8,"scale":1.00,"rotor_phase_deg":201},
+    {"id":"T07","center_BU":[20.87,21.45,0],"yaw_deg":13,"scale":0.98,"rotor_phase_deg":238}
+  ],
+  "review_route": {
+    "wetland_root_BU":[0,0,0],
+    "leader_x_BU":2.0,
+    "extent_y_BU":[-28.0,35.0],
+    "wetland_gate_y_BU":[-14.0,22.0],
+    "western_reserved_edge_x_BU":-18.6,
+    "technical_lane_markers_z_BU":0.034,
+    "overflight_lift_game_units":48,
+    "width_target_flock_ratio":2.0,
+    "ratio_tolerance":0.01,
+    "top_camera_bounds_BU":[-29,29,-32,36],
+    "exposure_poses_y_BU":[-25,-19,-12,-5,3,10,17,24,30],
+    "fixed_rear_motion_extent_y_BU":[-26,33]
+  },
+  "review_atmosphere": {
+    "drift_period_seconds":12,
+    "levels":{"default":1.0,"reduced":0.35,"off":0.0},
+    "candidate_alpha_caps":{"default":0.075,"reduced":0.028,"off":0},
+    "cards":[
+      ["MistLow",35,8.3,0.62,1.22,1.0,0.68],
+      ["MistLow",-23,11,0.74,0.93,1.04,0.73],
+      ["CloudPatch",-18,34,1.05,2.18,0.53,0.74],
+      ["CloudStreak",30,43,1.23,1.35,0.72,0.85]
+    ]
+  }
+}

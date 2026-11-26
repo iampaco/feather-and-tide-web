@@ -1,0 +1,450 @@
+{
+  "id": "ENV-012",
+  "status": "needs_review",
+  "blender": "5.2.2 LTS",
+  "authoring_order": "graybox geometric and rig audits precede material assignment",
+  "source_motion": {
+    "RiverTree_A": {
+      "triangles": 984,
+      "vertices": 510,
+      "height_BU": 1.9479153156280518,
+      "base_bounds_XY_BU": [
+        [
+          -0.17971521615982056,
+          0.20407149195671082
+        ],
+        [
+          -0.2136649638414383,
+          0.17012174427509308
+        ]
+      ],
+      "bone_vertex_counts": {
+        "Root": 24,
+        "Stem": 238,
+        "Crown": 452
+      },
+      "weight_sum_max_error": 2.9802322387695312e-08,
+      "vertex_root_shift_max_BU": 0.0,
+      "crown_tip_peak_left_displacement_BU": 0.43419109284877777,
+      "cue_first_frame_above_0_06_BU": 12,
+      "lead_time_to_review_wind_field_seconds": 0.4166666666666667,
+      "pose_samples": 49
+    },
+    "RiverTree_B": {
+      "triangles": 828,
+      "vertices": 430,
+      "height_BU": 1.721881628036499,
+      "base_bounds_XY_BU": [
+        [
+          -0.17971521615982056,
+          0.20407149195671082
+        ],
+        [
+          -0.2136649638414383,
+          0.17012174427509308
+        ]
+      ],
+      "bone_vertex_counts": {
+        "Root": 24,
+        "Stem": 244,
+        "Crown": 372
+      },
+      "weight_sum_max_error": 2.9802322387695312e-08,
+      "vertex_root_shift_max_BU": 0.0,
+      "crown_tip_peak_left_displacement_BU": 0.41870254278182983,
+      "cue_first_frame_above_0_06_BU": 12,
+      "lead_time_to_review_wind_field_seconds": 0.4166666666666667,
+      "pose_samples": 49
+    },
+    "LeaningTree": {
+      "triangles": 984,
+      "vertices": 510,
+      "height_BU": 2.175612211227417,
+      "base_bounds_XY_BU": [
+        [
+          -0.17971521615982056,
+          0.20407149195671082
+        ],
+        [
+          -0.2136649638414383,
+          0.17012174427509308
+        ]
+      ],
+      "bone_vertex_counts": {
+        "Root": 24,
+        "Stem": 228,
+        "Crown": 452
+      },
+      "weight_sum_max_error": 2.9802322387695312e-08,
+      "vertex_root_shift_max_BU": 0.0,
+      "crown_tip_peak_left_displacement_BU": 0.4607255458831787,
+      "cue_first_frame_above_0_06_BU": 12,
+      "lead_time_to_review_wind_field_seconds": 0.4166666666666667,
+      "pose_samples": 49
+    }
+  },
+  "graybox_visibility": {
+    "pass": {
+      "cue_before_wind_screen_tip_movement_left_px": [
+        14.759007453918457,
+        8.834949016571045,
+        11.438449144363403,
+        7.414467930793762,
+        5.042767524719238
+      ],
+      "peak_screen_tip_movement_left_px": [
+        21.04525136947632,
+        13.103146433830261,
+        17.03581953048706,
+        10.28097403049469,
+        7.292004346847534
+      ],
+      "frame_before_review_wind_field": 21,
+      "review_wind_field_frame": 22,
+      "tree_count": 6,
+      "rescue_visibility_frames": 0,
+      "rescue_total_terrain_and_tree_rays_each": 0,
+      "rescue_projected_bbox_px": null,
+      "rescue_clear_box_min_tree_vertex_gap_BU": null
+    },
+    "river": {
+      "cue_before_wind_screen_tip_movement_left_px": [
+        11.050897479057312,
+        10.102547407150269,
+        9.150718688964844,
+        7.670542001724243,
+        5.938912510871887,
+        7.405606269836426
+      ],
+      "peak_screen_tip_movement_left_px": [
+        15.136745274066925,
+        15.400906562805176,
+        13.123002648353577,
+        10.76775598526001,
+        8.86557126045227,
+        10.906089305877686
+      ],
+      "frame_before_review_wind_field": 21,
+      "review_wind_field_frame": 22,
+      "tree_count": 6,
+      "rescue_visibility_frames": 49,
+      "rescue_total_terrain_and_tree_rays_each": 3234,
+      "rescue_projected_bbox_px": [
+        [
+          413.8991861343384,
+          438.89206624031067
+        ],
+        [
+          285.78640311956406,
+          303.77810829877853
+        ]
+      ],
+      "rescue_clear_box_min_tree_vertex_gap_BU": 0.6258404541015619
+    }
+  },
+  "fixed_rear_visibility": {
+    "pass": {
+      "cue_before_wind_screen_tip_movement_left_px": [
+        14.759007453918457,
+        8.834949016571045,
+        11.438449144363403,
+        7.414467930793762,
+        5.042767524719238
+      ],
+      "peak_screen_tip_movement_left_px": [
+        21.04525136947632,
+        13.103146433830261,
+        17.03581953048706,
+        10.28097403049469,
+        7.292004346847534
+      ],
+      "frame_before_review_wind_field": 21,
+      "review_wind_field_frame": 22,
+      "tree_count": 6,
+      "rescue_visibility_frames": 0,
+      "rescue_total_terrain_and_tree_rays_each": 0,
+      "rescue_projected_bbox_px": null,
+      "rescue_clear_box_min_tree_vertex_gap_BU": null
+    },
+    "river": {
+      "cue_before_wind_screen_tip_movement_left_px": [
+        11.050897479057312,
+        10.102547407150269,
+        9.150718688964844,
+        7.670542001724243,
+        5.938912510871887,
+        7.405606269836426
+      ],
+      "peak_screen_tip_movement_left_px": [
+        15.136745274066925,
+        15.400906562805176,
+        13.123002648353577,
+        10.76775598526001,
+        8.86557126045227,
+        10.906089305877686
+      ],
+      "frame_before_review_wind_field": 21,
+      "review_wind_field_frame": 22,
+      "tree_count": 6,
+      "rescue_visibility_frames": 49,
+      "rescue_total_terrain_and_tree_rays_each": 3234,
+      "rescue_projected_bbox_px": [
+        [
+          413.8991861343384,
+          438.89206624031067
+        ],
+        [
+          285.78640311956406,
+          303.77810829877853
+        ]
+      ],
+      "rescue_clear_box_min_tree_vertex_gap_BU": 0.6258404541015619
+    }
+  },
+  "glb_roundtrip": {
+    "RiverTree_A": {
+      "triangles": 984,
+      "raw_weight_sum_max_error": 2.9802322387695312e-08,
+      "animated_joint_sample_counts": {
+        "Stem": 49,
+        "Crown": 49
+      },
+      "texture_hashes": {
+        "TreeBark": "e201e626c70ba88af6cbeae9662dc76375930208e121c4af5dbdfc52cfcefab0",
+        "CanopyShade": "a4fbb2db73897427d8172297edb7b59d80a17707b3a3f1a198857f4996e6ed26",
+        "CanopyLeaf": "a4fbb2db73897427d8172297edb7b59d80a17707b3a3f1a198857f4996e6ed26",
+        "CanopyLight": "a4fbb2db73897427d8172297edb7b59d80a17707b3a3f1a198857f4996e6ed26"
+      },
+      "axis_verified": "x,z,-y",
+      "per_pose_max_deformed_vertex_delta_BU": 3.769728732309794e-07,
+      "vertex_comparison_sample_frames": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "max_uv_delta": 2.9802322387695312e-08,
+      "max_normal_angle_degrees": 7.344438390603839e-06,
+      "roundtrip_split_vertex_count": 510
+    },
+    "RiverTree_B": {
+      "triangles": 828,
+      "raw_weight_sum_max_error": 2.9802322387695312e-08,
+      "animated_joint_sample_counts": {
+        "Stem": 49,
+        "Crown": 49
+      },
+      "texture_hashes": {
+        "TreeBark": "e201e626c70ba88af6cbeae9662dc76375930208e121c4af5dbdfc52cfcefab0",
+        "CanopyShade": "a4fbb2db73897427d8172297edb7b59d80a17707b3a3f1a198857f4996e6ed26",
+        "CanopyLeaf": "a4fbb2db73897427d8172297edb7b59d80a17707b3a3f1a198857f4996e6ed26",
+        "CanopyLight": "a4fbb2db73897427d8172297edb7b59d80a17707b3a3f1a198857f4996e6ed26"
+      },
+      "axis_verified": "x,z,-y",
+      "per_pose_max_deformed_vertex_delta_BU": 3.384893146634265e-07,
+      "vertex_comparison_sample_frames": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "max_uv_delta": 2.9802322387695312e-08,
+      "max_normal_angle_degrees": 8.543070917123281e-06,
+      "roundtrip_split_vertex_count": 430
+    },
+    "LeaningTree": {
+      "triangles": 984,
+      "raw_weight_sum_max_error": 2.9802322387695312e-08,
+      "animated_joint_sample_counts": {
+        "Stem": 49,
+        "Crown": 49
+      },
+      "texture_hashes": {
+        "TreeBark": "e201e626c70ba88af6cbeae9662dc76375930208e121c4af5dbdfc52cfcefab0",
+        "CanopyShade": "a4fbb2db73897427d8172297edb7b59d80a17707b3a3f1a198857f4996e6ed26",
+        "CanopyLeaf": "a4fbb2db73897427d8172297edb7b59d80a17707b3a3f1a198857f4996e6ed26",
+        "CanopyLight": "a4fbb2db73897427d8172297edb7b59d80a17707b3a3f1a198857f4996e6ed26"
+      },
+      "axis_verified": "x,z,-y",
+      "per_pose_max_deformed_vertex_delta_BU": 5.094802676820385e-07,
+      "vertex_comparison_sample_frames": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "max_uv_delta": 2.9802322387695312e-08,
+      "max_normal_angle_degrees": 8.62269054624282e-06,
+      "roundtrip_split_vertex_count": 510
+    }
+  },
+  "video": {
+    "result": "pass",
+    "Blender_rendered_frames": 34,
+    "frame_width_before_codec_padding": 852,
+    "frame_height_before_codec_padding": 393,
+    "scene_order": [
+      "S2 pass",
+      "S3 open bank"
+    ],
+    "sampled_frames_per_scene": 17
+  },
+  "pending": [
+    "Runtime wind event lead time and directions; visibility across real player headings/screen layout; USDZ / RealityKit and iPhone/iPad."
+  ],
+  "independent_reopen": {
+    "result": "pass",
+    "glbs": 3,
+    "deformation_samples_per_glb": 49
+  },
+  "design_redline_check": {
+    "result": "pass",
+    "scope": "Offline models, winds and noninteractive review study."
+  },
+  "app_baseline": {
+    "source": "plans/active/goose-preview-model-cleanup.md",
+    "simulator": "iPhone 18 Pro",
+    "os": "iOS 27.2",
+    "previous_tests": 340,
+    "rerun_in_this_task": false
+  },
+  "roundtrip_peak_images": {
+    "mean_absolute_RGB8": 0.7060098881082487,
+    "method": "Source sample versus real imported GLB peak, each presented with the same display yaw."
+  }
+}

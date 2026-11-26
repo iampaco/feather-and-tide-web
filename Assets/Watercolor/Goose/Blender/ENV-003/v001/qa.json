@@ -1,0 +1,97 @@
+{
+  "status": "needs_review",
+  "graybox": {
+    "ShallowPool_StartMudflat": {
+      "triangles": 42,
+      "vertices": 38,
+      "wet_area_BU2": 2.4700053948326968,
+      "max_plane_error_BU": 7.152557379708213e-09,
+      "max_dry_intrusion_BU": 5.245208739568241e-08,
+      "projected_area_error_BU2": 8.71190053430837e-09
+    },
+    "ShallowPool_RestPatch": {
+      "triangles": 72,
+      "vertices": 65,
+      "wet_area_BU2": 5.991221887648862,
+      "max_plane_error_BU": 7.152557379708213e-09,
+      "max_dry_intrusion_BU": 1.7166137694646366e-07,
+      "projected_area_error_BU2": 9.379034793255414e-08
+    },
+    "Channel": {
+      "triangles": 296,
+      "vertices": 222,
+      "wet_area_BU2": 38.56518185566529,
+      "max_plane_error_BU": 7.152557379708213e-09,
+      "max_dry_intrusion_BU": 1.7166137694646366e-07,
+      "projected_area_error_BU2": 9.480589113763926e-08
+    }
+  },
+  "roundtrip": {
+    "ShallowPool_StartMudflat": {
+      "triangles": 42,
+      "vertices": 38,
+      "wet_area_BU2": 2.4700053948326968,
+      "max_plane_error_BU": 7.152557379708213e-09,
+      "max_dry_intrusion_BU": 5.245208739568241e-08,
+      "projected_area_error_BU2": 8.71190053430837e-09,
+      "alpha_mode": "BLEND",
+      "embedded_rgba_exact": true
+    },
+    "ShallowPool_RestPatch": {
+      "triangles": 72,
+      "vertices": 65,
+      "wet_area_BU2": 5.991221887648862,
+      "max_plane_error_BU": 7.152557379708213e-09,
+      "max_dry_intrusion_BU": 1.7166137694646366e-07,
+      "projected_area_error_BU2": 9.379034793255414e-08,
+      "alpha_mode": "BLEND",
+      "embedded_rgba_exact": true
+    },
+    "Channel": {
+      "triangles": 296,
+      "vertices": 222,
+      "wet_area_BU2": 38.56518185566529,
+      "max_plane_error_BU": 7.152557379708213e-09,
+      "max_dry_intrusion_BU": 1.7166137694646366e-07,
+      "projected_area_error_BU2": 9.480589113763926e-08,
+      "alpha_mode": "BLEND",
+      "embedded_rgba_exact": true
+    }
+  },
+  "fade_depth_BU": 0.165,
+  "tolerances": {
+    "height_BU": 1e-06,
+    "area_BU2": 1e-05
+  },
+  "pending": [
+    "Art review; transparent sorting and water shaders in RealityKit; iPhone / iPad; FX-006."
+  ],
+  "id": "ENV-003",
+  "version": "v001",
+  "blender": "5.2.2 LTS",
+  "independent_reopen": {
+    "result": "pass",
+    "original_reports_match": true,
+    "verified_glb_count": 3
+  },
+  "visual_review": {
+    "observation": "Both pool groups and the channel follow the wet terrain. Material bands on the low-poly bed remain visible in the close view.",
+    "source_and_roundtrip_render_rgb8": {
+      "source": "preview_top.png",
+      "reimport": "preview_glb_roundtrip_top.png",
+      "mean_absolute_channel_difference": 0.052852630615234375,
+      "p99_channel_difference": 1
+    }
+  },
+  "app_baseline": {
+    "source": "plans/active/goose-preview-model-cleanup.md",
+    "simulator": "iPhone 18 Pro",
+    "os": "iOS 27.2",
+    "prior_test_count": 340,
+    "rerun_in_this_task": false
+  },
+  "design_redline_check": {
+    "result": "pass",
+    "scope": "offline candidate assets and review evidence"
+  }
+}

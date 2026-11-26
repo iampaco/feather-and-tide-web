@@ -1,0 +1,192 @@
+{
+  "ft_goose_actor_cruise": {
+    "source": "Assets/Watercolor/Goose/Blender/ANM-001/v001/ANM-001_cruise_flap.glb",
+    "clip": "Cruise_Flap_Loop",
+    "m10aSHA256": "fe6d61ac8f8eac2753eb6a3fff2178597028e1dd210807fe86517d565350f559",
+    "exportSHA256": "fe6d61ac8f8eac2753eb6a3fff2178597028e1dd210807fe86517d565350f559",
+    "filename": "ft_goose_actor_cruise.usdz"
+  },
+  "ft_goose_actor_takeoff": {
+    "source": "Assets/Watercolor/Goose/Blender/ANM-002/v001/ANM-002_takeoff_climb.glb",
+    "clip": "Takeoff_Climb",
+    "m10aSHA256": "a32f157aae08e2efa38bb163fa0657900070c118be5cb7ad825f85d9244c0fcb",
+    "exportSHA256": "a32f157aae08e2efa38bb163fa0657900070c118be5cb7ad825f85d9244c0fcb",
+    "filename": "ft_goose_actor_takeoff.usdz"
+  },
+  "ft_goose_actor_glide": {
+    "source": "Assets/Watercolor/Goose/Blender/ANM-003/v001/ANM-003_glide_circle.glb",
+    "clip": "Glide_Loop",
+    "m10aSHA256": "6d35094f5af4ae50bd9f29b7623f905b08e1be3de80fd23e0b10d64bab01b4ae",
+    "exportSHA256": "6d35094f5af4ae50bd9f29b7623f905b08e1be3de80fd23e0b10d64bab01b4ae",
+    "filename": "ft_goose_actor_glide.usdz"
+  },
+  "ft_goose_actor_form": {
+    "source": "Assets/Watercolor/Goose/Blender/ANM-006/v001/ANM-006_formation_blend.glb",
+    "clip": "Formation_Blend",
+    "m10aSHA256": "b8f49a2034b25fb5e7da266d08d94ee5343239b819277775d04907f5197c93a6",
+    "exportSHA256": "b8f49a2034b25fb5e7da266d08d94ee5343239b819277775d04907f5197c93a6",
+    "filename": "ft_goose_actor_form.usdz"
+  },
+  "ft_goose_actor_land": {
+    "source": "Assets/Watercolor/Goose/Blender/ANM-007/v001/ANM-007_landing.glb",
+    "clip": "Land_Mudflat",
+    "m10aSHA256": "958bbd39c9e2e94e1fa7fc56348272dd14b054da8cfaa8521faa023761bb95b8",
+    "exportSHA256": "958bbd39c9e2e94e1fa7fc56348272dd14b054da8cfaa8521faa023761bb95b8",
+    "filename": "ft_goose_actor_land.usdz"
+  },
+  "ft_goose_actor_water": {
+    "source": "Assets/Watercolor/Goose/Blender/ANM-007/v001/ANM-007_landing.glb",
+    "clip": "Land_ShallowWater",
+    "m10aSHA256": "8808f2e21a7af9c318a45d126408b95a057c485d36d9df4a452081e22ad9fb63",
+    "exportSHA256": "8808f2e21a7af9c318a45d126408b95a057c485d36d9df4a452081e22ad9fb63",
+    "filename": "ft_goose_actor_water.usdz"
+  },
+  "ft_goose_actor_rest": {
+    "source": "Assets/Watercolor/Goose/Blender/ANM-008/v001/ANM-008_rest_idle.glb",
+    "clip": "Rest_Idle",
+    "m10aSHA256": "c4c3affd0c16339e62448e973138d02b49fcc31e6356d1f6bbeed12d2fde5ee4",
+    "exportSHA256": "c4c3affd0c16339e62448e973138d02b49fcc31e6356d1f6bbeed12d2fde5ee4",
+    "filename": "ft_goose_actor_rest.usdz"
+  },
+  "ft_goose_scene_s0": {
+    "source": "Assets/Watercolor/Goose/Blender/LVL-S0/v001/LVL-S0_S0_StartWetland.glb",
+    "baselineSHA256": "929abdc04c013b3473aa42bce5a519ba784a7eb8fe5f53af6e92c21d5dfc0369",
+    "riverAtlasSHA256": "90e6d12e0298c45fc7a0d8f863546c8ad63f86855a7de9e5e13eb85c84ad9285",
+    "materialInputs": {
+      "Assets/Watercolor/Goose/Blender/MAT-003/v001/textures/ft_goose_mat_grass_flat_basecolor.png": "e06d76e88c90a29ad97a810ed7578ce67f79da1b915940d5406750228f36996b",
+      "Assets/Watercolor/Goose/Blender/MAT-003/v001/textures/ft_goose_mat_mud_bank_basecolor.png": "0343b68d4e256fca7b747c65b2fcebc74c46f3aa2334044051ac862e4e02c5b1",
+      "Assets/Watercolor/Goose/Blender/MAT-004/v001/textures/ft_goose_mat_water_shallow_basecolor_alpha.png": "ac34951540216c795b54b25d1dfd929d282dcc9a741f8d53b562621b29dead79",
+      "Assets/Watercolor/Goose/Blender/MAT-004/v001/textures/ft_goose_mat_water_river_basecolor_alpha.png": "f470fd1a2c206a618f27c177f7d6d613a4681135a47207103fa0b353c923fcaf"
+    },
+    "exportSHA256": "69cee58f968069328cc2d03f0e61cdd0967c8081d621946beda576833e873e45",
+    "treatment": "Single contact floor with an illuminated channel framed by staggered low reed banks",
+    "recipes": {
+      "Assets/Processed/Goose/LinearRoutePolish/opening.py": "80270c019ef265a2b6be123400113b721c63fcb53e02ed32030c1a18a60cb523"
+    },
+    "layout": "Sources/FeatherTide/Systems/Chapter/GooseLinearLayout.swift",
+    "layoutSHA256": "158e58fe866770a28ad11e69d6528e1ea441cb01b3472c653bb751c5d29a2ce2",
+    "filename": "ft_goose_scene_s0.usdz"
+  },
+  "ft_goose_scene_s1": {
+    "source": "Assets/Watercolor/Goose/Blender/LVL-S1/v001/LVL-S1_S1_Tailwind.glb",
+    "baselineSHA256": "256e91410be9cd37087a75e216a3874bc31f8f91e6eb8080d2fda08cc34f5967",
+    "materialInputs": {
+      "Assets/Watercolor/Goose/Blender/MAT-003/v001/textures/ft_goose_mat_grass_flat_basecolor.png": "e06d76e88c90a29ad97a810ed7578ce67f79da1b915940d5406750228f36996b",
+      "Assets/Watercolor/Goose/Blender/MAT-003/v001/textures/ft_goose_mat_mud_bank_basecolor.png": "0343b68d4e256fca7b747c65b2fcebc74c46f3aa2334044051ac862e4e02c5b1",
+      "Assets/Watercolor/Goose/Blender/MAT-004/v001/textures/ft_goose_mat_water_shallow_basecolor_alpha.png": "ac34951540216c795b54b25d1dfd929d282dcc9a741f8d53b562621b29dead79",
+      "Assets/Watercolor/Goose/Blender/MAT-004/v001/textures/ft_goose_mat_water_river_basecolor_alpha.png": "f470fd1a2c206a618f27c177f7d6d613a4681135a47207103fa0b353c923fcaf"
+    },
+    "exportSHA256": "06c94b3071ec2d313147bcea09c07c77b686ff6462a71ae18c882cf03d7e827a",
+    "treatment": "First-shore landing tongue, retained rocks and raised east reeds over S0",
+    "recipes": {
+      "Assets/Processed/Goose/LinearRoutePolish/opening.py": "80270c019ef265a2b6be123400113b721c63fcb53e02ed32030c1a18a60cb523"
+    },
+    "layout": "Sources/FeatherTide/Systems/Chapter/GooseLinearLayout.swift",
+    "layoutSHA256": "158e58fe866770a28ad11e69d6528e1ea441cb01b3472c653bb751c5d29a2ce2",
+    "filename": "ft_goose_scene_s1.usdz"
+  },
+  "ft_goose_linear_turbine": {
+    "source": "Assets/Watercolor/Goose/Blender/STR-001/v001/STR-001_Main_Turbine.glb",
+    "sourceSHA256": "c6276d8c507bb1d90c5690b2792284c1201a48d134bb01f309ab3ae8eaa3482a",
+    "exportSHA256": "e068c9fbfae43dbbe4871d419660130b6a4a02065b6669a93d64b71e31ece91e",
+    "verticesLowered": 0,
+    "verticesFlattened": 0,
+    "filename": "ft_goose_linear_turbine.usdz"
+  },
+  "ft_goose_linear_marsh": {
+    "source": "Assets/Watercolor/Goose/Blender/ENV-016/v001/ENV-016_ProtectedMarsh.glb",
+    "sourceSHA256": "a6c9ed997539d4c82f135c3101349a6729c75fbb4d5b3a0c5e7d10af21ccce23",
+    "exportSHA256": "355a2a97e88e4b67f0cb88182b4c65e985dd77785ddc76dd8d4cbf628d25fe2a",
+    "verticesLowered": 34317,
+    "verticesFlattened": 1293,
+    "filename": "ft_goose_linear_marsh.usdz"
+  },
+  "ft_goose_linear_ridge": {
+    "source": "Assets/Watercolor/Goose/Blender/ENV-009/v001/ENV-009_FarRidge_A.glb",
+    "sourceSHA256": "c189468f2995e9f4c6bd7543fa15d6c1f22d09e0d18579eba8699396647fd649",
+    "exportSHA256": "0e2b19ac3131a27fc984fafaa053d7ca43893358653360bcbe5cb521f976c2ea",
+    "verticesLowered": 0,
+    "verticesFlattened": 0,
+    "filename": "ft_goose_linear_ridge.usdz"
+  },
+  "ft_goose_linear_basin": {
+    "source": "Assets/Watercolor/Goose/Blender/LVL-S6/v001/LVL-S6_S6_Landing.glb",
+    "m10aSHA256": "060ecddf28879a2ce5c0fbe81d0faefd469fcc603ee65188d3117487fe654770",
+    "layout": "Sources/FeatherTide/Systems/Chapter/GooseLinearLayout.swift",
+    "upstreamAtlasSHA256": "90e6d12e0298c45fc7a0d8f863546c8ad63f86855a7de9e5e13eb85c84ad9285",
+    "textureSources": {
+      "Assets/Watercolor/Goose/Blender/MAT-003/v001/textures/ft_goose_mat_grass_flat_basecolor.png": "e06d76e88c90a29ad97a810ed7578ce67f79da1b915940d5406750228f36996b",
+      "Assets/Watercolor/Goose/Blender/MAT-003/v001/textures/ft_goose_mat_mud_bank_basecolor.png": "0343b68d4e256fca7b747c65b2fcebc74c46f3aa2334044051ac862e4e02c5b1",
+      "Assets/Watercolor/Goose/Blender/MAT-003/v001/textures/ft_goose_mat_shallow_margin_basecolor.png": "bd12529acd7f63aefad1df09111aa6b9a84c95161bbdb1d0c64f1cbc66d2c6f7",
+      "Assets/Watercolor/Goose/Blender/MAT-004/v001/textures/ft_goose_mat_water_river_basecolor_alpha.png": "f470fd1a2c206a618f27c177f7d6d613a4681135a47207103fa0b353c923fcaf",
+      "Assets/Watercolor/Goose/Blender/MAT-004/v001/textures/ft_goose_mat_water_shallow_basecolor_alpha.png": "ac34951540216c795b54b25d1dfd929d282dcc9a741f8d53b562621b29dead79"
+    },
+    "exportSHA256": "29a18f1215b46ba445f57c60802f1f26dd15cb7a692f5d1e999838b5ece1653f",
+    "terrainTriangles": 25460,
+    "waterTriangles": 8082,
+    "recipes": {
+      "Assets/Processed/Goose/LinearRoutePolish/basin.py": "360cb2ef15cc15789971f2921ec29818569ec0853d85f0d8a898ab27ab8bfd18"
+    },
+    "layoutSHA256": "158e58fe866770a28ad11e69d6528e1ea441cb01b3472c653bb751c5d29a2ce2",
+    "filename": "ft_goose_linear_basin.usdz"
+  },
+  "ft_goose_linear_river": {
+    "source": "Assets/Watercolor/Goose/Blender/MAT-004/v001/textures/ft_goose_mat_water_river_basecolor_alpha.png",
+    "extension": "png",
+    "sourceSHA256": "f470fd1a2c206a618f27c177f7d6d613a4681135a47207103fa0b353c923fcaf",
+    "exportSHA256": "f470fd1a2c206a618f27c177f7d6d613a4681135a47207103fa0b353c923fcaf",
+    "filename": "ft_goose_linear_river.png"
+  },
+  "ft_goose_opening_terrain_s0": {
+    "extension": "jpg",
+    "exportSHA256": "fd30d905d8761af5a39828fe4b5012a44080ad0d14588931e7c0a97a76809cb0",
+    "samePixelsIn": "ft_goose_scene_s0.usdz",
+    "filename": "ft_goose_opening_terrain_s0.jpg"
+  },
+  "ft_goose_linear_landscape.usdz": {
+    "source": "Assets/Watercolor/Goose/Blender/ENV-016/v001/ENV-016_ProtectedMarsh.glb",
+    "treatment": "Continuous riverbank relief with level rest aprons and clustered shoreline reeds",
+    "recipes": {
+      "Assets/Processed/Goose/LinearRoutePolish/landscape.py": "25ca1b6a5eb4d14163b577e8fec7c972c8f37acd55c533afc5d7a4f9640a7c62",
+      "Assets/Processed/Goose/LinearRoutePolish/landscape_usdz.py": "891bea9963e68c07a88d983ade5152b0f569f39468800536e8b032bd3ec75470"
+    },
+    "layout": "Sources/FeatherTide/Systems/Chapter/GooseLinearLayout.swift",
+    "layoutSHA256": "158e58fe866770a28ad11e69d6528e1ea441cb01b3472c653bb751c5d29a2ce2",
+    "filename": "ft_goose_linear_landscape.usdz",
+    "exportSHA256": "b6c6abeca7c17137d1d843b3b9020633c49ed13e59af7f3827a219907db7f609"
+  },
+  "ft_goose_linear_landscape.jpg": {
+    "sources": {
+      "Assets/Watercolor/Goose/Blender/MAT-003/v001/textures/ft_goose_mat_mud_bank_basecolor.png": "0343b68d4e256fca7b747c65b2fcebc74c46f3aa2334044051ac862e4e02c5b1",
+      "Assets/Watercolor/Goose/Blender/MAT-003/v001/textures/ft_goose_mat_grass_flat_basecolor.png": "e06d76e88c90a29ad97a810ed7578ce67f79da1b915940d5406750228f36996b",
+      "Assets/Watercolor/Goose/Blender/MAT-004/v001/textures/ft_goose_mat_water_river_basecolor_alpha.png": "f470fd1a2c206a618f27c177f7d6d613a4681135a47207103fa0b353c923fcaf",
+      "Assets/Watercolor/Goose/Blender/MAT-004/v001/textures/ft_goose_mat_water_shallow_basecolor_alpha.png": "ac34951540216c795b54b25d1dfd929d282dcc9a741f8d53b562621b29dead79"
+    },
+    "treatment": "Baked river depth, shallows, wet mud and grass; turbine waterlines follow runtime anchors",
+    "recipes": {
+      "Assets/Processed/Goose/LinearRoutePolish/landscape.py": "25ca1b6a5eb4d14163b577e8fec7c972c8f37acd55c533afc5d7a4f9640a7c62"
+    },
+    "layout": "Sources/FeatherTide/Systems/Chapter/GooseLinearLayout.swift",
+    "layoutSHA256": "158e58fe866770a28ad11e69d6528e1ea441cb01b3472c653bb751c5d29a2ce2",
+    "filename": "ft_goose_linear_landscape.jpg",
+    "exportSHA256": "90e6d12e0298c45fc7a0d8f863546c8ad63f86855a7de9e5e13eb85c84ad9285"
+  },
+  "ft_goose_linear_basin_paint.png": {
+    "source": "ft_goose_linear_basin.usdz#textures/ft_goose_linear_basin_paint.png",
+    "treatment": "Same embedded texels, shared unlit response with river and opening terrain",
+    "filename": "ft_goose_linear_basin_paint.png",
+    "exportSHA256": "fad0c61f5edf03c612462a4af817aec5efcd95747a036426ff3e6ec7e4282818"
+  },
+  "ft_goose_linear_ridge_b": {
+    "source": "Assets/Watercolor/Goose/Blender/ENV-009/v001/ENV-009_FarRidge_B.glb",
+    "sourceSHA256": "06f796b8e8c7c4c3a4d6b7cdd872a7b4ea95a274dd4d416b58752f44024393b8",
+    "filename": "ft_goose_linear_ridge_b.usdz",
+    "exportSHA256": "d301f48f06977d54bb9519fb7fd01a76f193742eb1cd1d16f264d08aac8a80ae"
+  },
+  "ft_goose_linear_ridge_c": {
+    "source": "Assets/Watercolor/Goose/Blender/ENV-009/v001/ENV-009_FarRidge_C.glb",
+    "sourceSHA256": "b2c78606fc1229e4e70526b27fb067141a78644e95498f4c27d1428a8455898e",
+    "filename": "ft_goose_linear_ridge_c.usdz",
+    "exportSHA256": "50ee9b77a69c3d83fab6f0bb4c5b26691984dcef472d7de4a0f63818ff5827bc"
+  }
+}

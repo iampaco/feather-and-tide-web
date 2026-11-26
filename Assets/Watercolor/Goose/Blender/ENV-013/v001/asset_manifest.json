@@ -1,0 +1,130 @@
+{
+  "id": "ENV-013",
+  "version": "v001",
+  "status": "needs_review",
+  "execution_order_1_based": 52,
+  "depends": [
+    "MAT-001/v001"
+  ],
+  "variants": [
+    "Shrub_A",
+    "Shrub_B"
+  ],
+  "blender_file": "ENV-013_riparian_shrubs.blend",
+  "glb_files": [
+    "ENV-013_Shrub_A.glb",
+    "ENV-013_Shrub_B.glb"
+  ],
+  "preview_uses": [
+    "ENV-001/v001",
+    "ENV-007/v001",
+    "CHR-001/v001",
+    "ANM-007/v001"
+  ],
+  "camera_source": {
+    "distance_game_units": 180,
+    "pitch_radians": 0.48,
+    "vertical_fov_degrees": 50,
+    "look_height_game_units": 6,
+    "leader_height_game_units": 8,
+    "game_units_per_BU_preview": 27.77777777777778,
+    "size_px": [
+      852,
+      393
+    ]
+  },
+  "source_hashes": {
+    "MAT-001.blend": "9fc0305a78264733d2a2f5747a67833158c59470eff3e3d71c4f6da5b9d11de0",
+    "ENV-007.blend": "b5e4d3665c433751273051507009528f0350ee7395e949c4d11ef2e3dbf33d58",
+    "ENV-001.blend": "9979e7606a115a16e9dc35fdf81684d5285b649692cd969692f195dfc1e3743d",
+    "CHR-001.blend": "db0c8d55c5efc499c99f7787228967451d071f36294962b12dc4b34d02f350f5"
+  },
+  "textures": {
+    "Shrub_A": {
+      "texture": "textures/ft_goose_vegetation_shrub_a_basecolor.png",
+      "sha256": "8d68a05424eead744d55761e2d40cf4f6b4933d7cece8e11d9c4dd519c0bdc6f",
+      "palette_srgb": [
+        "46584D",
+        "708474",
+        "9CAA8A"
+      ],
+      "source_project_png": "textures/ft_goose_mat_plant_opaque_basecolor.png",
+      "source_png_sha256": "a4fbb2db73897427d8172297edb7b59d80a17707b3a3f1a198857f4996e6ed26",
+      "derived_from_material": "PlantOpaque",
+      "size": [
+        256,
+        256
+      ]
+    },
+    "Shrub_B": {
+      "texture": "textures/ft_goose_vegetation_shrub_b_basecolor.png",
+      "sha256": "e99628241d7d0e16f58c2c53ad7facd9d7fe5705aa71cf4284344e4d8be6826c",
+      "palette_srgb": [
+        "526044",
+        "849066",
+        "AFB180"
+      ],
+      "source_project_png": "textures/ft_goose_mat_plant_opaque_basecolor.png",
+      "source_png_sha256": "a4fbb2db73897427d8172297edb7b59d80a17707b3a3f1a198857f4996e6ed26",
+      "derived_from_material": "PlantOpaque",
+      "size": [
+        256,
+        256
+      ]
+    },
+    "Stem": {
+      "texture": "textures/ft_goose_vegetation_stem_basecolor.png",
+      "sha256": "d56f5f3af79b18a4cc52242162e4f75e87b3ecab1205f3feea6fe39aabf824fc",
+      "palette_srgb": [
+        "554D44",
+        "716356",
+        "968471"
+      ],
+      "source_project_png": "textures/ft_goose_mat_dry_ground_basecolor.png",
+      "source_png_sha256": "e201e626c70ba88af6cbeae9662dc76375930208e121c4af5dbdfc52cfcefab0",
+      "derived_from_material": "DryGround",
+      "size": [
+        256,
+        256
+      ]
+    }
+  },
+  "pivot_BU": [
+    0,
+    0,
+    0
+  ],
+  "blender_to_gltf_xyz": [
+    "x",
+    "z",
+    "-y"
+  ],
+  "breeze": {
+    "shape": "Wind_sway_X",
+    "basis": "zero at origin and at ground contact",
+    "seconds": 3.3333333333333335
+  },
+  "rights": "Project-original shrub mesh and baked palette, derived from project-owned MAT-001 washes.",
+  "blender": "5.2.2 LTS",
+  "files": {
+    "ENV-013_Shrub_A.glb": "05ca46b25835c126b09c9461f2ab7494c279ca6e9ac1a6880608e7abf98cfbec",
+    "ENV-013_Shrub_B.glb": "201e3045cdaba9a6d0d99a314ddb9b105803175d0306784c0e2553a3562065f3",
+    "ENV-013_breeze_preview.py": "d1b9fb73716c299191054249c2fe3b60e130a3b125ab679fa0ee3d16fe1acf38",
+    "ENV-013_generate.py": "4eb14f898644af1ae3639aa34a546bfadafeaa5ed89b5004dce4f4dc686d55c1",
+    "ENV-013_riparian_shrubs.blend": "d2fda8091f1696d578d12b806678adcbe3104e8073674f7da98d0cf80feee3b4",
+    "README.md": "11d7c41243e257ebc6e4d2db79e91f4794a32f12b7a6d8a6643c17332b2d97af",
+    "graybox_fixed_rear.png": "d2537fc859b053eb5c3a39682609cf3edd992e66038fbf36ee1dd5d77356f8ff",
+    "graybox_lineup.png": "73134d91321c8c8c69c43a3d6cc86880f3f1277cf1d50a1547e2a31b3974bd11",
+    "preview_breeze_fixed_rear.mp4": "c4c4d96b1517c767863091a79974002b9b3a0101c4645d27fa6b003e852fdb5d",
+    "preview_fixed_rear.png": "c95d67540f42ac8b38e0d13a90ad019120168f64e3beb428fdc5edfd8959aa80",
+    "preview_fixed_rear_entry.png": "e763c2b373b1f449e7a0b6c85f93238ced5caf43ed23969bfdb0853d6cbc31c3",
+    "preview_fixed_rear_rescue.png": "c37d241d867ffb18b6ff0265ec4fd462b17f326b5da00664a74631d7d67a443b",
+    "preview_glb_roundtrip.png": "77987ecb5089a1201ef92de58297f7e57d731e00f592fea4308a340d3751492c",
+    "preview_lineup.png": "5a161556b71ba512f2be63306de5cce3305bc1ecb2426aaca693727772941592",
+    "preview_open_bank_overhead.png": "2febe2df38566f02a8a89bd0a576f91f3494eb81d30d472c480dee00afdec5e5",
+    "qa.json": "04eedc76096add6f626319702ff9d29b431318fd03c94c2b6258e9844974ef20",
+    "textures/ft_goose_vegetation_shrub_a_basecolor.png": "8d68a05424eead744d55761e2d40cf4f6b4933d7cece8e11d9c4dd519c0bdc6f",
+    "textures/ft_goose_vegetation_shrub_b_basecolor.png": "e99628241d7d0e16f58c2c53ad7facd9d7fe5705aa71cf4284344e4d8be6826c",
+    "textures/ft_goose_vegetation_stem_basecolor.png": "d56f5f3af79b18a4cc52242162e4f75e87b3ecab1205f3feea6fe39aabf824fc"
+  }
+}

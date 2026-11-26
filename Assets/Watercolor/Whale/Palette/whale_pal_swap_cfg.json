@@ -1,0 +1,28 @@
+{
+  "style_board": "SB-2026-11-07-v1",
+  "line": "whale",
+  "swaps": {
+    "normal": {
+      "sat": 1.0,
+      "warm": 0.0,
+      "note": "正常青绿"
+    },
+    "turbid": {
+      "sat": 0.75,
+      "warm": 0.25,
+      "tint": "#A8B070",
+      "note": "浑浊暖水"
+    },
+    "port_night": {
+      "sat": 0.85,
+      "warm": 0.15,
+      "glow": "#E8D080",
+      "note": "港口夜光克制"
+    },
+    "clear_upwell": {
+      "sat": 1.05,
+      "warm": -0.05,
+      "note": "上升流清带"
+    }
+  }
+}

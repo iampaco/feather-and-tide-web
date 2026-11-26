@@ -1,0 +1,400 @@
+{
+  "surface": {
+    "connected_components": 1,
+    "vertices": 1698,
+    "faces": 1760,
+    "triangles": 3392,
+    "boundary_or_non_manifold_edges": 0,
+    "minimum_triangle_area_BU2": 7.619700772920623e-05,
+    "weight_sum_max_error": 2.9802322387695312e-08,
+    "max_weights_per_vertex": 3,
+    "uv_atlas": "Whale_Atlas"
+  },
+  "poses": {
+    "Neutral": {
+      "root_BU": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "local_euler_XYZ_deg": {},
+      "tail_center_delta_BU": [
+        1.0942358071413237e-16,
+        4.76837158203125e-07,
+        -9.313225746154785e-09
+      ],
+      "self_intersections_non_neighbor_triangle_pairs": 0,
+      "minimum_triangle_area_ratio": 0.9999982049113261,
+      "junction_edge_length_ratios": {
+        "Pectoral.R": [
+          0.9999990587792881,
+          1.0000002369251084
+        ],
+        "Pectoral.L": [
+          0.9999990587792881,
+          1.0000002369251084
+        ],
+        "Fluke.R": [
+          0.9999999463484638,
+          1.0000000762926458
+        ],
+        "Fluke.L": [
+          0.9999999463484638,
+          1.0000000762926458
+        ],
+        "TailStock": [
+          0.9999993526866302,
+          1.0000000001056462
+        ]
+      }
+    },
+    "Tail up": {
+      "root_BU": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "local_euler_XYZ_deg": {
+        "Spine.02": [
+          12,
+          0,
+          0
+        ],
+        "TailStock": [
+          34,
+          0,
+          0
+        ],
+        "Flukes": [
+          15,
+          0,
+          0
+        ]
+      },
+      "tail_center_delta_BU": [
+        -1.2979285202163737e-07,
+        0.5723719596862793,
+        1.491972140967846
+      ],
+      "self_intersections_non_neighbor_triangle_pairs": 0,
+      "minimum_triangle_area_ratio": 0.7482782277281039,
+      "junction_edge_length_ratios": {
+        "Pectoral.R": [
+          0.9999990587792881,
+          1.0000002369251084
+        ],
+        "Pectoral.L": [
+          0.9999990587792881,
+          1.0000002369251084
+        ],
+        "Fluke.R": [
+          0.9190838460394342,
+          1.059144945839674
+        ],
+        "Fluke.L": [
+          0.9190841758746605,
+          1.059144945839674
+        ],
+        "TailStock": [
+          0.7825754322309931,
+          1.1951222780168265
+        ]
+      }
+    },
+    "Tail down": {
+      "root_BU": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "local_euler_XYZ_deg": {
+        "Spine.02": [
+          -12,
+          0,
+          0
+        ],
+        "TailStock": [
+          -34,
+          0,
+          0
+        ],
+        "Flukes": [
+          -15,
+          0,
+          0
+        ]
+      },
+      "tail_center_delta_BU": [
+        1.308920047904394e-07,
+        0.5891909599304199,
+        -1.4898195937275887
+      ],
+      "self_intersections_non_neighbor_triangle_pairs": 0,
+      "minimum_triangle_area_ratio": 0.7369113506052859,
+      "junction_edge_length_ratios": {
+        "Pectoral.R": [
+          0.9999990587792881,
+          1.0000002369251084
+        ],
+        "Pectoral.L": [
+          0.9999990587792881,
+          1.0000002369251084
+        ],
+        "Fluke.R": [
+          0.933835332426147,
+          1.0821058041271208
+        ],
+        "Fluke.L": [
+          0.9338350154254624,
+          1.0821058041271208
+        ],
+        "TailStock": [
+          0.7826643981750415,
+          1.189932560952978
+        ]
+      }
+    },
+    "Bend left": {
+      "root_BU": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "local_euler_XYZ_deg": {
+        "Spine.01": [
+          0,
+          0,
+          -22
+        ],
+        "Spine.02": [
+          0,
+          0,
+          -24
+        ],
+        "TailStock": [
+          0,
+          0,
+          -18
+        ]
+      },
+      "tail_center_delta_BU": [
+        -3.042640209197998,
+        1.445420265197754,
+        -0.007196148857474327
+      ],
+      "self_intersections_non_neighbor_triangle_pairs": 0,
+      "minimum_triangle_area_ratio": 0.6965122827833643,
+      "junction_edge_length_ratios": {
+        "Pectoral.R": [
+          0.9942975321370071,
+          1.104193955120023
+        ],
+        "Pectoral.L": [
+          0.9126743355929929,
+          1.0267696363768053
+        ],
+        "Fluke.R": [
+          0.9999944421512497,
+          1.0000050127602924
+        ],
+        "Fluke.L": [
+          0.9999931631057338,
+          1.0000097791299039
+        ],
+        "TailStock": [
+          0.8834729708608281,
+          1.1095796887011593
+        ]
+      }
+    },
+    "Bend right": {
+      "root_BU": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "local_euler_XYZ_deg": {
+        "Spine.01": [
+          0,
+          0,
+          22
+        ],
+        "Spine.02": [
+          0,
+          0,
+          24
+        ],
+        "TailStock": [
+          0,
+          0,
+          18
+        ]
+      },
+      "tail_center_delta_BU": [
+        3.042640209197998,
+        1.445420265197754,
+        -0.007195452228188515
+      ],
+      "self_intersections_non_neighbor_triangle_pairs": 0,
+      "minimum_triangle_area_ratio": 0.6968302045714028,
+      "junction_edge_length_ratios": {
+        "Pectoral.R": [
+          0.9126743355929929,
+          1.0267696247793998
+        ],
+        "Pectoral.L": [
+          0.9942975322948787,
+          1.104193955120023
+        ],
+        "Fluke.R": [
+          0.9999932013158456,
+          1.0000097116568176
+        ],
+        "Fluke.L": [
+          0.9999944793919575,
+          1.0000050127602924
+        ],
+        "TailStock": [
+          0.8834729655218412,
+          1.1095796847444237
+        ]
+      }
+    },
+    "Rise and trim": {
+      "root_BU": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "local_euler_XYZ_deg": {
+        "Body": [
+          18,
+          0,
+          0
+        ],
+        "TailStock": [
+          -10,
+          0,
+          0
+        ],
+        "Pectoral.L": [
+          28,
+          -10,
+          9
+        ],
+        "Pectoral.R": [
+          -26,
+          11,
+          -8
+        ]
+      },
+      "tail_center_delta_BU": [
+        2.4114243046824413e-08,
+        0.3411426544189453,
+        -1.7464526370167732
+      ],
+      "self_intersections_non_neighbor_triangle_pairs": 0,
+      "minimum_triangle_area_ratio": 0.6329070626930844,
+      "junction_edge_length_ratios": {
+        "Pectoral.R": [
+          0.7653711911519387,
+          1.188691207618195
+        ],
+        "Pectoral.L": [
+          0.6730854106060129,
+          1.1959124868492483
+        ],
+        "Fluke.R": [
+          0.9999893609355432,
+          1.0000065161111615
+        ],
+        "Fluke.L": [
+          0.9999893609355432,
+          1.0000065161111615
+        ],
+        "TailStock": [
+          0.9354986001447155,
+          1.0611402893356012
+        ]
+      }
+    },
+    "Dive and trim": {
+      "root_BU": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "local_euler_XYZ_deg": {
+        "Body": [
+          -18,
+          0,
+          0
+        ],
+        "Spine.01": [
+          7,
+          0,
+          -12
+        ],
+        "TailStock": [
+          24,
+          0,
+          -10
+        ],
+        "Flukes": [
+          -11,
+          0,
+          0
+        ],
+        "Fluke.L": [
+          12,
+          0,
+          0
+        ],
+        "Fluke.R": [
+          11,
+          0,
+          0
+        ],
+        "Pectoral.L": [
+          -24,
+          12,
+          -9
+        ],
+        "Pectoral.R": [
+          28,
+          -11,
+          8
+        ]
+      },
+      "tail_center_delta_BU": [
+        -1.151847243309021,
+        0.9573400020599365,
+        2.441251687705517
+      ],
+      "self_intersections_non_neighbor_triangle_pairs": 0,
+      "minimum_triangle_area_ratio": 0.7077357993293386,
+      "junction_edge_length_ratios": {
+        "Pectoral.R": [
+          0.7825150864266079,
+          1.3214040757526315
+        ],
+        "Pectoral.L": [
+          0.808468160126741,
+          1.1969615341363236
+        ],
+        "Fluke.R": [
+          0.9521675431999995,
+          1.0547924740973447
+        ],
+        "Fluke.L": [
+          0.952167117116216,
+          1.0547933586974987
+        ],
+        "TailStock": [
+          0.833437052993689,
+          1.1534999993287935
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "id": "FX-009",
+  "name": "离队同伴呼唤光点",
+  "version": "v001",
+  "status": "needs_review",
+  "blender": "5.2.2 LTS",
+  "variants": [
+    "RescueBeacon"
+  ],
+  "dependencies": {
+    "ANM-009/v001": {
+      "status": "needs_review",
+      "scope": "12-bird call and rejoin review plate only"
+    }
+  },
+  "source_hashes": {
+    "Assets/Watercolor/Goose/Blender/ANM-009/v001/ANM-009_call_rejoin.blend": "1a50f83605cd881b74aa985859d782f466250aad88bfa342c17067a702abc83b",
+    "Assets/Watercolor/Goose/Blender/ANM-009/v001/ANM-009_call_rejoin.glb": "9b4eacbfbe8c52afbf4ca923ae40d69bd0db7141a4d605316237fd1aa5a632f0",
+    "Assets/Watercolor/Goose/Blender/ANM-009/v001/README.md": "1aa1a707b07443c3ff218adf62cad5e5ed1ea1bed1897937d939253ba09d0958",
+    "Assets/Watercolor/Goose/Blender/ANM-009/v001/qa.json": "a1ee8f2f18a134867e09b7003304dd7d051f240157bf563fb2ba1e98bfab74dd",
+    "Assets/Watercolor/Goose/Blender/ANM-009/v001/asset_manifest.json": "95f1608052b7f9a7ea2e0803b8e3d010da7328b97f848eef42c693f9209c7d9a",
+    "Sources/FeatherTide/Systems/Camera/ThirdPersonRig.swift": "274b58f0b910a280c676540dde54343c35e2e0709744e20e7e5ee4f9515476a2"
+  },
+  "rights": "Project-original procedural mesh and two seeded watercolor-opacity textures. Character and animation in the review scene derive from project-owned ANM-009 and its existing texture chain.",
+  "export": {
+    "blend": "FX-009_RescueBeacon.blend",
+    "glb": "FX-009_RescueBeacon.glb",
+    "mapping": "runtime_mapping.json",
+    "animated_shader_in_blend_only": true,
+    "embed_textures": true,
+    "material_extensions": [
+      "KHR_materials_unlit"
+    ],
+    "alpha_mode": "BLEND",
+    "mesh_triangles": {
+      "RescueBeacon_Ring": 128,
+      "RescueBeacon_SoftPoint": 38
+    },
+    "collision_enabled": false
+  },
+  "files": {
+    "FX-009_RescueBeacon.blend": "2158a77dcf3b1017e84f3fcc72084d7dd3fd93b5c21cb48e6486f5e49176fc74",
+    "FX-009_RescueBeacon.glb": "4be20c1d4d3ca056edb8a49f6de18ed92cc0d7f8c4074f264cff38abebebc932",
+    "FX-009_generate.py": "286420d9c2f93794883eca1c5dbc7b3837295365c1667b4174faa72f3f0312cb",
+    "README.md": "316885ef893ac04b9d108114c6858a5233bcf14d80fbb4859da0db37f261d549",
+    "comparison_without_cue.png": "d73ea149d69a6ff3c3d58c8a7162cacd98d149a832a038b0d1ac9c5e65ebffea",
+    "graybox_fixed_rear.png": "d01c52f4108f2f7cadee0655525ec459e4c9f1e1edac1b726c91be67054eaccb",
+    "graybox_overhead.png": "037303045f7a328de7f9bc613f934719786843b890664602985a2b83ed23d9b8",
+    "preview_fixed_rear_call.png": "f8235b1853671c737a2e3d9a339656177fb00edbd1c8c05f1d2c2daec2681f45",
+    "preview_fixed_rear_escort.png": "372bf029a25d3d4608e6c855eb0899933dde23514bfee8e047825cc65257407d",
+    "preview_fixed_rear_rejoined.png": "99aebc4e25d4010450613b6702926f0fe9bb73f3286dd1119dc1313cfde2562d",
+    "preview_fixed_rear_silent.mp4": "7b4181cb32c5903069edbff0f9c8ba55b6d8c4d0dda877366859f3a653ae1f8c",
+    "preview_overhead_call.png": "cee2a65f34ce82ddc86e94fd7789f6d8bddd814f57f5eee1fb01a54e853ab7dd",
+    "qa.json": "3385d1235526f4b7630a62116102c25c9188e216484353155ebc7b58ddf84b80",
+    "roundtrip_fixed_rear.png": "97b570f80ac6b50fb550864f74f3f637d9fef480f80d36468941f4aecae9bf41",
+    "runtime_mapping.json": "e3c6cac97e161323a032c3ca80b0d4fc1ad3e91e6ad08812a91a720a2752adb4",
+    "textures/ft_goose_fx_rescue_ring_basecolor_alpha.png": "93c304b734d347de420ffe310e75670e52569f5edff080f81b76431adc3de36f",
+    "textures/ft_goose_fx_rescue_soft_point_basecolor_alpha.png": "e191004155e832ed81915923bf9c04786f43f5d4e39a16116a3b95bfe81b0aaf"
+  }
+}

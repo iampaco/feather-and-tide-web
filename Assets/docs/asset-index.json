@@ -1,0 +1,1464 @@
+{
+  "style_board": "SB-2026-11-07-v1",
+  "date_hk": "2026-11-07",
+  "png_count": 202,
+  "json_count": 6,
+  "ref_count": 9,
+  "by_line_png": {
+    "deer": 58,
+    "goose": 89,
+    "shared": 5,
+    "whale": 50
+  },
+  "assets": [
+    {
+      "id": "deer_char_forage_01",
+      "path": "Assets/Watercolor/Deer/Characters/deer_char_forage_01.png",
+      "line": "deer",
+      "category": "Characters"
+    },
+    {
+      "id": "deer_char_forage_02",
+      "path": "Assets/Watercolor/Deer/Characters/deer_char_forage_02.png",
+      "line": "deer",
+      "category": "Characters"
+    },
+    {
+      "id": "deer_char_forage_03",
+      "path": "Assets/Watercolor/Deer/Characters/deer_char_forage_03.png",
+      "line": "deer",
+      "category": "Characters"
+    },
+    {
+      "id": "deer_char_forage_04",
+      "path": "Assets/Watercolor/Deer/Characters/deer_char_forage_04.png",
+      "line": "deer",
+      "category": "Characters"
+    },
+    {
+      "id": "deer_char_parts_antler_01",
+      "path": "Assets/Watercolor/Deer/Characters/deer_char_parts_antler_01.png",
+      "line": "deer",
+      "category": "Characters"
+    },
+    {
+      "id": "deer_char_parts_antler_02",
+      "path": "Assets/Watercolor/Deer/Characters/deer_char_parts_antler_02.png",
+      "line": "deer",
+      "category": "Characters"
+    },
+    {
+      "id": "deer_char_parts_head_noantler",
+      "path": "Assets/Watercolor/Deer/Characters/deer_char_parts_head_noantler.png",
+      "line": "deer",
+      "category": "Characters"
+    },
+    {
+      "id": "deer_char_rest_01",
+      "path": "Assets/Watercolor/Deer/Characters/deer_char_rest_01.png",
+      "line": "deer",
+      "category": "Characters"
+    },
+    {
+      "id": "deer_char_rest_02",
+      "path": "Assets/Watercolor/Deer/Characters/deer_char_rest_02.png",
+      "line": "deer",
+      "category": "Characters"
+    },
+    {
+      "id": "deer_char_run_01",
+      "path": "Assets/Watercolor/Deer/Characters/deer_char_run_01.png",
+      "line": "deer",
+      "category": "Characters"
+    },
+    {
+      "id": "deer_char_run_02",
+      "path": "Assets/Watercolor/Deer/Characters/deer_char_run_02.png",
+      "line": "deer",
+      "category": "Characters"
+    },
+    {
+      "id": "deer_char_run_03",
+      "path": "Assets/Watercolor/Deer/Characters/deer_char_run_03.png",
+      "line": "deer",
+      "category": "Characters"
+    },
+    {
+      "id": "deer_char_run_04",
+      "path": "Assets/Watercolor/Deer/Characters/deer_char_run_04.png",
+      "line": "deer",
+      "category": "Characters"
+    },
+    {
+      "id": "deer_char_run_05",
+      "path": "Assets/Watercolor/Deer/Characters/deer_char_run_05.png",
+      "line": "deer",
+      "category": "Characters"
+    },
+    {
+      "id": "deer_char_run_06",
+      "path": "Assets/Watercolor/Deer/Characters/deer_char_run_06.png",
+      "line": "deer",
+      "category": "Characters"
+    },
+    {
+      "id": "deer_char_top_leg_01",
+      "path": "Assets/Watercolor/Deer/Characters/deer_char_top_leg_01.png",
+      "line": "deer",
+      "category": "Characters"
+    },
+    {
+      "id": "deer_char_top_leg_02",
+      "path": "Assets/Watercolor/Deer/Characters/deer_char_top_leg_02.png",
+      "line": "deer",
+      "category": "Characters"
+    },
+    {
+      "id": "deer_char_top_sil",
+      "path": "Assets/Watercolor/Deer/Characters/deer_char_top_sil.png",
+      "line": "deer",
+      "category": "Characters"
+    },
+    {
+      "id": "deer_char_walk_01",
+      "path": "Assets/Watercolor/Deer/Characters/deer_char_walk_01.png",
+      "line": "deer",
+      "category": "Characters"
+    },
+    {
+      "id": "deer_char_walk_02",
+      "path": "Assets/Watercolor/Deer/Characters/deer_char_walk_02.png",
+      "line": "deer",
+      "category": "Characters"
+    },
+    {
+      "id": "deer_char_walk_03",
+      "path": "Assets/Watercolor/Deer/Characters/deer_char_walk_03.png",
+      "line": "deer",
+      "category": "Characters"
+    },
+    {
+      "id": "deer_char_walk_04",
+      "path": "Assets/Watercolor/Deer/Characters/deer_char_walk_04.png",
+      "line": "deer",
+      "category": "Characters"
+    },
+    {
+      "id": "deer_char_walk_05",
+      "path": "Assets/Watercolor/Deer/Characters/deer_char_walk_05.png",
+      "line": "deer",
+      "category": "Characters"
+    },
+    {
+      "id": "deer_char_walk_06",
+      "path": "Assets/Watercolor/Deer/Characters/deer_char_walk_06.png",
+      "line": "deer",
+      "category": "Characters"
+    },
+    {
+      "id": "deer_char_walk_07",
+      "path": "Assets/Watercolor/Deer/Characters/deer_char_walk_07.png",
+      "line": "deer",
+      "category": "Characters"
+    },
+    {
+      "id": "deer_char_walk_08",
+      "path": "Assets/Watercolor/Deer/Characters/deer_char_walk_08.png",
+      "line": "deer",
+      "category": "Characters"
+    },
+    {
+      "id": "deer_scene_edge_far",
+      "path": "Assets/Watercolor/Deer/Scenes/EDGE/deer_scene_edge_far.png",
+      "line": "deer",
+      "category": "Scenes"
+    },
+    {
+      "id": "deer_scene_edge_fog",
+      "path": "Assets/Watercolor/Deer/Scenes/EDGE/deer_scene_edge_fog.png",
+      "line": "deer",
+      "category": "Scenes"
+    },
+    {
+      "id": "deer_scene_edge_mid",
+      "path": "Assets/Watercolor/Deer/Scenes/EDGE/deer_scene_edge_mid.png",
+      "line": "deer",
+      "category": "Scenes"
+    },
+    {
+      "id": "deer_scene_edge_near",
+      "path": "Assets/Watercolor/Deer/Scenes/EDGE/deer_scene_edge_near.png",
+      "line": "deer",
+      "category": "Scenes"
+    },
+    {
+      "id": "deer_scene_edge_sky",
+      "path": "Assets/Watercolor/Deer/Scenes/EDGE/deer_scene_edge_sky.png",
+      "line": "deer",
+      "category": "Scenes"
+    },
+    {
+      "id": "deer_scene_edge_water",
+      "path": "Assets/Watercolor/Deer/Scenes/EDGE/deer_scene_edge_water.png",
+      "line": "deer",
+      "category": "Scenes"
+    },
+    {
+      "id": "deer_scene_tund_far",
+      "path": "Assets/Watercolor/Deer/Scenes/TUND/deer_scene_tund_far.png",
+      "line": "deer",
+      "category": "Scenes"
+    },
+    {
+      "id": "deer_scene_tund_fog",
+      "path": "Assets/Watercolor/Deer/Scenes/TUND/deer_scene_tund_fog.png",
+      "line": "deer",
+      "category": "Scenes"
+    },
+    {
+      "id": "deer_scene_tund_mid",
+      "path": "Assets/Watercolor/Deer/Scenes/TUND/deer_scene_tund_mid.png",
+      "line": "deer",
+      "category": "Scenes"
+    },
+    {
+      "id": "deer_scene_tund_near",
+      "path": "Assets/Watercolor/Deer/Scenes/TUND/deer_scene_tund_near.png",
+      "line": "deer",
+      "category": "Scenes"
+    },
+    {
+      "id": "deer_scene_tund_sky",
+      "path": "Assets/Watercolor/Deer/Scenes/TUND/deer_scene_tund_sky.png",
+      "line": "deer",
+      "category": "Scenes"
+    },
+    {
+      "id": "deer_scene_tund_water",
+      "path": "Assets/Watercolor/Deer/Scenes/TUND/deer_scene_tund_water.png",
+      "line": "deer",
+      "category": "Scenes"
+    },
+    {
+      "id": "deer_scene_val_far",
+      "path": "Assets/Watercolor/Deer/Scenes/VAL/deer_scene_val_far.png",
+      "line": "deer",
+      "category": "Scenes"
+    },
+    {
+      "id": "deer_scene_val_fog",
+      "path": "Assets/Watercolor/Deer/Scenes/VAL/deer_scene_val_fog.png",
+      "line": "deer",
+      "category": "Scenes"
+    },
+    {
+      "id": "deer_scene_val_mid",
+      "path": "Assets/Watercolor/Deer/Scenes/VAL/deer_scene_val_mid.png",
+      "line": "deer",
+      "category": "Scenes"
+    },
+    {
+      "id": "deer_scene_val_near",
+      "path": "Assets/Watercolor/Deer/Scenes/VAL/deer_scene_val_near.png",
+      "line": "deer",
+      "category": "Scenes"
+    },
+    {
+      "id": "deer_scene_val_sky",
+      "path": "Assets/Watercolor/Deer/Scenes/VAL/deer_scene_val_sky.png",
+      "line": "deer",
+      "category": "Scenes"
+    },
+    {
+      "id": "deer_scene_val_water",
+      "path": "Assets/Watercolor/Deer/Scenes/VAL/deer_scene_val_water.png",
+      "line": "deer",
+      "category": "Scenes"
+    },
+    {
+      "id": "deer_good_overpass",
+      "path": "Assets/Watercolor/Deer/Traces/deer_good_overpass.png",
+      "line": "deer",
+      "category": "Traces"
+    },
+    {
+      "id": "deer_trace_fence",
+      "path": "Assets/Watercolor/Deer/Traces/deer_trace_fence.png",
+      "line": "deer",
+      "category": "Traces"
+    },
+    {
+      "id": "deer_trace_mine_dust",
+      "path": "Assets/Watercolor/Deer/Traces/deer_trace_mine_dust.png",
+      "line": "deer",
+      "category": "Traces"
+    },
+    {
+      "id": "deer_trace_mine_scar",
+      "path": "Assets/Watercolor/Deer/Traces/deer_trace_mine_scar.png",
+      "line": "deer",
+      "category": "Traces"
+    },
+    {
+      "id": "deer_trace_road",
+      "path": "Assets/Watercolor/Deer/Traces/deer_trace_road.png",
+      "line": "deer",
+      "category": "Traces"
+    },
+    {
+      "id": "deer_trace_road_glow",
+      "path": "Assets/Watercolor/Deer/Traces/deer_trace_road_glow.png",
+      "line": "deer",
+      "category": "Traces"
+    },
+    {
+      "id": "deer_ui_antler",
+      "path": "Assets/Watercolor/Deer/UI/deer_ui_antler.png",
+      "line": "deer",
+      "category": "UI"
+    },
+    {
+      "id": "deer_ui_antler_pressed",
+      "path": "Assets/Watercolor/Deer/UI/deer_ui_antler_pressed.png",
+      "line": "deer",
+      "category": "UI"
+    },
+    {
+      "id": "deer_ui_footprint",
+      "path": "Assets/Watercolor/Deer/UI/deer_ui_footprint.png",
+      "line": "deer",
+      "category": "UI"
+    },
+    {
+      "id": "deer_ui_waypoint",
+      "path": "Assets/Watercolor/Deer/UI/deer_ui_waypoint.png",
+      "line": "deer",
+      "category": "UI"
+    },
+    {
+      "id": "deer_fx_breath_01",
+      "path": "Assets/Watercolor/Deer/VFX/deer_fx_breath_01.png",
+      "line": "deer",
+      "category": "VFX"
+    },
+    {
+      "id": "deer_fx_dust_01",
+      "path": "Assets/Watercolor/Deer/VFX/deer_fx_dust_01.png",
+      "line": "deer",
+      "category": "VFX"
+    },
+    {
+      "id": "deer_fx_kicksnow_01",
+      "path": "Assets/Watercolor/Deer/VFX/deer_fx_kicksnow_01.png",
+      "line": "deer",
+      "category": "VFX"
+    },
+    {
+      "id": "deer_fx_snow_01",
+      "path": "Assets/Watercolor/Deer/VFX/deer_fx_snow_01.png",
+      "line": "deer",
+      "category": "VFX"
+    },
+    {
+      "id": "goose_char_feed_01",
+      "path": "Assets/Watercolor/Goose/Characters/goose_char_feed_01.png",
+      "line": "goose",
+      "category": "Characters"
+    },
+    {
+      "id": "goose_char_feed_02",
+      "path": "Assets/Watercolor/Goose/Characters/goose_char_feed_02.png",
+      "line": "goose",
+      "category": "Characters"
+    },
+    {
+      "id": "goose_char_feed_03",
+      "path": "Assets/Watercolor/Goose/Characters/goose_char_feed_03.png",
+      "line": "goose",
+      "category": "Characters"
+    },
+    {
+      "id": "goose_char_feed_04",
+      "path": "Assets/Watercolor/Goose/Characters/goose_char_feed_04.png",
+      "line": "goose",
+      "category": "Characters"
+    },
+    {
+      "id": "goose_char_fly_side_01",
+      "path": "Assets/Watercolor/Goose/Characters/goose_char_fly_side_01.png",
+      "line": "goose",
+      "category": "Characters"
+    },
+    {
+      "id": "goose_char_fly_side_02",
+      "path": "Assets/Watercolor/Goose/Characters/goose_char_fly_side_02.png",
+      "line": "goose",
+      "category": "Characters"
+    },
+    {
+      "id": "goose_char_fly_side_03",
+      "path": "Assets/Watercolor/Goose/Characters/goose_char_fly_side_03.png",
+      "line": "goose",
+      "category": "Characters"
+    },
+    {
+      "id": "goose_char_fly_side_04",
+      "path": "Assets/Watercolor/Goose/Characters/goose_char_fly_side_04.png",
+      "line": "goose",
+      "category": "Characters"
+    },
+    {
+      "id": "goose_char_fly_side_05",
+      "path": "Assets/Watercolor/Goose/Characters/goose_char_fly_side_05.png",
+      "line": "goose",
+      "category": "Characters"
+    },
+    {
+      "id": "goose_char_fly_side_06",
+      "path": "Assets/Watercolor/Goose/Characters/goose_char_fly_side_06.png",
+      "line": "goose",
+      "category": "Characters"
+    },
+    {
+      "id": "goose_char_fly_side_07",
+      "path": "Assets/Watercolor/Goose/Characters/goose_char_fly_side_07.png",
+      "line": "goose",
+      "category": "Characters"
+    },
+    {
+      "id": "goose_char_fly_side_08",
+      "path": "Assets/Watercolor/Goose/Characters/goose_char_fly_side_08.png",
+      "line": "goose",
+      "category": "Characters"
+    },
+    {
+      "id": "goose_char_glide_01",
+      "path": "Assets/Watercolor/Goose/Characters/goose_char_glide_01.png",
+      "line": "goose",
+      "category": "Characters"
+    },
+    {
+      "id": "goose_char_glide_02",
+      "path": "Assets/Watercolor/Goose/Characters/goose_char_glide_02.png",
+      "line": "goose",
+      "category": "Characters"
+    },
+    {
+      "id": "goose_char_juvenile_fly_01",
+      "path": "Assets/Watercolor/Goose/Characters/goose_char_juvenile_fly_01.png",
+      "line": "goose",
+      "category": "Characters"
+    },
+    {
+      "id": "goose_char_juvenile_fly_02",
+      "path": "Assets/Watercolor/Goose/Characters/goose_char_juvenile_fly_02.png",
+      "line": "goose",
+      "category": "Characters"
+    },
+    {
+      "id": "goose_char_juvenile_fly_03",
+      "path": "Assets/Watercolor/Goose/Characters/goose_char_juvenile_fly_03.png",
+      "line": "goose",
+      "category": "Characters"
+    },
+    {
+      "id": "goose_char_juvenile_fly_04",
+      "path": "Assets/Watercolor/Goose/Characters/goose_char_juvenile_fly_04.png",
+      "line": "goose",
+      "category": "Characters"
+    },
+    {
+      "id": "goose_char_land_01",
+      "path": "Assets/Watercolor/Goose/Characters/goose_char_land_01.png",
+      "line": "goose",
+      "category": "Characters"
+    },
+    {
+      "id": "goose_char_land_02",
+      "path": "Assets/Watercolor/Goose/Characters/goose_char_land_02.png",
+      "line": "goose",
+      "category": "Characters"
+    },
+    {
+      "id": "goose_char_land_03",
+      "path": "Assets/Watercolor/Goose/Characters/goose_char_land_03.png",
+      "line": "goose",
+      "category": "Characters"
+    },
+    {
+      "id": "goose_char_land_04",
+      "path": "Assets/Watercolor/Goose/Characters/goose_char_land_04.png",
+      "line": "goose",
+      "category": "Characters"
+    },
+    {
+      "id": "goose_char_land_05",
+      "path": "Assets/Watercolor/Goose/Characters/goose_char_land_05.png",
+      "line": "goose",
+      "category": "Characters"
+    },
+    {
+      "id": "goose_char_land_06",
+      "path": "Assets/Watercolor/Goose/Characters/goose_char_land_06.png",
+      "line": "goose",
+      "category": "Characters"
+    },
+    {
+      "id": "goose_char_lowenergy",
+      "path": "Assets/Watercolor/Goose/Characters/goose_char_lowenergy.png",
+      "line": "goose",
+      "category": "Characters"
+    },
+    {
+      "id": "goose_char_rest_float_01",
+      "path": "Assets/Watercolor/Goose/Characters/goose_char_rest_float_01.png",
+      "line": "goose",
+      "category": "Characters"
+    },
+    {
+      "id": "goose_char_rest_float_02",
+      "path": "Assets/Watercolor/Goose/Characters/goose_char_rest_float_02.png",
+      "line": "goose",
+      "category": "Characters"
+    },
+    {
+      "id": "goose_char_stagger_01",
+      "path": "Assets/Watercolor/Goose/Characters/goose_char_stagger_01.png",
+      "line": "goose",
+      "category": "Characters"
+    },
+    {
+      "id": "goose_char_stagger_02",
+      "path": "Assets/Watercolor/Goose/Characters/goose_char_stagger_02.png",
+      "line": "goose",
+      "category": "Characters"
+    },
+    {
+      "id": "goose_char_stagger_03",
+      "path": "Assets/Watercolor/Goose/Characters/goose_char_stagger_03.png",
+      "line": "goose",
+      "category": "Characters"
+    },
+    {
+      "id": "goose_char_takeoff_01",
+      "path": "Assets/Watercolor/Goose/Characters/goose_char_takeoff_01.png",
+      "line": "goose",
+      "category": "Characters"
+    },
+    {
+      "id": "goose_char_takeoff_02",
+      "path": "Assets/Watercolor/Goose/Characters/goose_char_takeoff_02.png",
+      "line": "goose",
+      "category": "Characters"
+    },
+    {
+      "id": "goose_char_takeoff_03",
+      "path": "Assets/Watercolor/Goose/Characters/goose_char_takeoff_03.png",
+      "line": "goose",
+      "category": "Characters"
+    },
+    {
+      "id": "goose_char_takeoff_04",
+      "path": "Assets/Watercolor/Goose/Characters/goose_char_takeoff_04.png",
+      "line": "goose",
+      "category": "Characters"
+    },
+    {
+      "id": "goose_char_takeoff_05",
+      "path": "Assets/Watercolor/Goose/Characters/goose_char_takeoff_05.png",
+      "line": "goose",
+      "category": "Characters"
+    },
+    {
+      "id": "goose_char_takeoff_06",
+      "path": "Assets/Watercolor/Goose/Characters/goose_char_takeoff_06.png",
+      "line": "goose",
+      "category": "Characters"
+    },
+    {
+      "id": "goose_char_top_sil",
+      "path": "Assets/Watercolor/Goose/Characters/goose_char_top_sil.png",
+      "line": "goose",
+      "category": "Characters"
+    },
+    {
+      "id": "goose_char_top_wing_01",
+      "path": "Assets/Watercolor/Goose/Characters/goose_char_top_wing_01.png",
+      "line": "goose",
+      "category": "Characters"
+    },
+    {
+      "id": "goose_char_top_wing_02",
+      "path": "Assets/Watercolor/Goose/Characters/goose_char_top_wing_02.png",
+      "line": "goose",
+      "category": "Characters"
+    },
+    {
+      "id": "goose_scene_cst_far",
+      "path": "Assets/Watercolor/Goose/Scenes/CST/goose_scene_cst_far.png",
+      "line": "goose",
+      "category": "Scenes"
+    },
+    {
+      "id": "goose_scene_cst_fog",
+      "path": "Assets/Watercolor/Goose/Scenes/CST/goose_scene_cst_fog.png",
+      "line": "goose",
+      "category": "Scenes"
+    },
+    {
+      "id": "goose_scene_cst_mid",
+      "path": "Assets/Watercolor/Goose/Scenes/CST/goose_scene_cst_mid.png",
+      "line": "goose",
+      "category": "Scenes"
+    },
+    {
+      "id": "goose_scene_cst_near",
+      "path": "Assets/Watercolor/Goose/Scenes/CST/goose_scene_cst_near.png",
+      "line": "goose",
+      "category": "Scenes"
+    },
+    {
+      "id": "goose_scene_cst_sky",
+      "path": "Assets/Watercolor/Goose/Scenes/CST/goose_scene_cst_sky.png",
+      "line": "goose",
+      "category": "Scenes"
+    },
+    {
+      "id": "goose_scene_cst_water",
+      "path": "Assets/Watercolor/Goose/Scenes/CST/goose_scene_cst_water.png",
+      "line": "goose",
+      "category": "Scenes"
+    },
+    {
+      "id": "goose_scene_mtn_far",
+      "path": "Assets/Watercolor/Goose/Scenes/MTN/goose_scene_mtn_far.png",
+      "line": "goose",
+      "category": "Scenes"
+    },
+    {
+      "id": "goose_scene_mtn_fog",
+      "path": "Assets/Watercolor/Goose/Scenes/MTN/goose_scene_mtn_fog.png",
+      "line": "goose",
+      "category": "Scenes"
+    },
+    {
+      "id": "goose_scene_mtn_mid",
+      "path": "Assets/Watercolor/Goose/Scenes/MTN/goose_scene_mtn_mid.png",
+      "line": "goose",
+      "category": "Scenes"
+    },
+    {
+      "id": "goose_scene_mtn_near",
+      "path": "Assets/Watercolor/Goose/Scenes/MTN/goose_scene_mtn_near.png",
+      "line": "goose",
+      "category": "Scenes"
+    },
+    {
+      "id": "goose_scene_mtn_sky",
+      "path": "Assets/Watercolor/Goose/Scenes/MTN/goose_scene_mtn_sky.png",
+      "line": "goose",
+      "category": "Scenes"
+    },
+    {
+      "id": "goose_scene_mtn_water",
+      "path": "Assets/Watercolor/Goose/Scenes/MTN/goose_scene_mtn_water.png",
+      "line": "goose",
+      "category": "Scenes"
+    },
+    {
+      "id": "goose_scene_opt4_far",
+      "path": "Assets/Watercolor/Goose/Scenes/OPT4/goose_scene_opt4_far.png",
+      "line": "goose",
+      "category": "Scenes"
+    },
+    {
+      "id": "goose_scene_opt4_fog",
+      "path": "Assets/Watercolor/Goose/Scenes/OPT4/goose_scene_opt4_fog.png",
+      "line": "goose",
+      "category": "Scenes"
+    },
+    {
+      "id": "goose_scene_opt4_mid",
+      "path": "Assets/Watercolor/Goose/Scenes/OPT4/goose_scene_opt4_mid.png",
+      "line": "goose",
+      "category": "Scenes"
+    },
+    {
+      "id": "goose_scene_opt4_near",
+      "path": "Assets/Watercolor/Goose/Scenes/OPT4/goose_scene_opt4_near.png",
+      "line": "goose",
+      "category": "Scenes"
+    },
+    {
+      "id": "goose_scene_opt4_sky",
+      "path": "Assets/Watercolor/Goose/Scenes/OPT4/goose_scene_opt4_sky.png",
+      "line": "goose",
+      "category": "Scenes"
+    },
+    {
+      "id": "goose_scene_opt4_water",
+      "path": "Assets/Watercolor/Goose/Scenes/OPT4/goose_scene_opt4_water.png",
+      "line": "goose",
+      "category": "Scenes"
+    },
+    {
+      "id": "goose_scene_wet_far",
+      "path": "Assets/Watercolor/Goose/Scenes/WET/goose_scene_wet_far.png",
+      "line": "goose",
+      "category": "Scenes"
+    },
+    {
+      "id": "goose_scene_wet_fog",
+      "path": "Assets/Watercolor/Goose/Scenes/WET/goose_scene_wet_fog.png",
+      "line": "goose",
+      "category": "Scenes"
+    },
+    {
+      "id": "goose_scene_wet_mid",
+      "path": "Assets/Watercolor/Goose/Scenes/WET/goose_scene_wet_mid.png",
+      "line": "goose",
+      "category": "Scenes"
+    },
+    {
+      "id": "goose_scene_wet_near",
+      "path": "Assets/Watercolor/Goose/Scenes/WET/goose_scene_wet_near.png",
+      "line": "goose",
+      "category": "Scenes"
+    },
+    {
+      "id": "goose_scene_wet_sky",
+      "path": "Assets/Watercolor/Goose/Scenes/WET/goose_scene_wet_sky.png",
+      "line": "goose",
+      "category": "Scenes"
+    },
+    {
+      "id": "goose_scene_wet_water",
+      "path": "Assets/Watercolor/Goose/Scenes/WET/goose_scene_wet_water.png",
+      "line": "goose",
+      "category": "Scenes"
+    },
+    {
+      "id": "goose_mask_climate_dry",
+      "path": "Assets/Watercolor/Goose/Traces/goose_mask_climate_dry.png",
+      "line": "goose",
+      "category": "Traces"
+    },
+    {
+      "id": "goose_mask_climate_wet",
+      "path": "Assets/Watercolor/Goose/Traces/goose_mask_climate_wet.png",
+      "line": "goose",
+      "category": "Traces"
+    },
+    {
+      "id": "goose_trace_city_glow_01",
+      "path": "Assets/Watercolor/Goose/Traces/goose_trace_city_glow_01.png",
+      "line": "goose",
+      "category": "Traces"
+    },
+    {
+      "id": "goose_trace_city_glow_02",
+      "path": "Assets/Watercolor/Goose/Traces/goose_trace_city_glow_02.png",
+      "line": "goose",
+      "category": "Traces"
+    },
+    {
+      "id": "goose_trace_farm_mach",
+      "path": "Assets/Watercolor/Goose/Traces/goose_trace_farm_mach.png",
+      "line": "goose",
+      "category": "Traces"
+    },
+    {
+      "id": "goose_trace_farm_ridge",
+      "path": "Assets/Watercolor/Goose/Traces/goose_trace_farm_ridge.png",
+      "line": "goose",
+      "category": "Traces"
+    },
+    {
+      "id": "goose_trace_glass_facade",
+      "path": "Assets/Watercolor/Goose/Traces/goose_trace_glass_facade.png",
+      "line": "goose",
+      "category": "Traces"
+    },
+    {
+      "id": "goose_trace_glass_spec",
+      "path": "Assets/Watercolor/Goose/Traces/goose_trace_glass_spec.png",
+      "line": "goose",
+      "category": "Traces"
+    },
+    {
+      "id": "goose_trace_landfill_mask",
+      "path": "Assets/Watercolor/Goose/Traces/goose_trace_landfill_mask.png",
+      "line": "goose",
+      "category": "Traces"
+    },
+    {
+      "id": "goose_trace_pollute_oil",
+      "path": "Assets/Watercolor/Goose/Traces/goose_trace_pollute_oil.png",
+      "line": "goose",
+      "category": "Traces"
+    },
+    {
+      "id": "goose_trace_wind_blade",
+      "path": "Assets/Watercolor/Goose/Traces/goose_trace_wind_blade.png",
+      "line": "goose",
+      "category": "Traces"
+    },
+    {
+      "id": "goose_trace_wind_forage",
+      "path": "Assets/Watercolor/Goose/Traces/goose_trace_wind_forage.png",
+      "line": "goose",
+      "category": "Traces"
+    },
+    {
+      "id": "goose_trace_wind_tower",
+      "path": "Assets/Watercolor/Goose/Traces/goose_trace_wind_tower.png",
+      "line": "goose",
+      "category": "Traces"
+    },
+    {
+      "id": "goose_ui_feather",
+      "path": "Assets/Watercolor/Goose/UI/goose_ui_feather.png",
+      "line": "goose",
+      "category": "UI"
+    },
+    {
+      "id": "goose_ui_feather_pressed",
+      "path": "Assets/Watercolor/Goose/UI/goose_ui_feather_pressed.png",
+      "line": "goose",
+      "category": "UI"
+    },
+    {
+      "id": "goose_ui_stroke_gold",
+      "path": "Assets/Watercolor/Goose/UI/goose_ui_stroke_gold.png",
+      "line": "goose",
+      "category": "UI"
+    },
+    {
+      "id": "goose_ui_stroke_tradition",
+      "path": "Assets/Watercolor/Goose/UI/goose_ui_stroke_tradition.png",
+      "line": "goose",
+      "category": "UI"
+    },
+    {
+      "id": "goose_ui_yearmap",
+      "path": "Assets/Watercolor/Goose/UI/goose_ui_yearmap.png",
+      "line": "goose",
+      "category": "UI"
+    },
+    {
+      "id": "goose_fx_feather_pt_01",
+      "path": "Assets/Watercolor/Goose/VFX/goose_fx_feather_pt_01.png",
+      "line": "goose",
+      "category": "VFX"
+    },
+    {
+      "id": "goose_fx_feather_pt_02",
+      "path": "Assets/Watercolor/Goose/VFX/goose_fx_feather_pt_02.png",
+      "line": "goose",
+      "category": "VFX"
+    },
+    {
+      "id": "goose_fx_fog_pt_01",
+      "path": "Assets/Watercolor/Goose/VFX/goose_fx_fog_pt_01.png",
+      "line": "goose",
+      "category": "VFX"
+    },
+    {
+      "id": "goose_fx_ripple_01",
+      "path": "Assets/Watercolor/Goose/VFX/goose_fx_ripple_01.png",
+      "line": "goose",
+      "category": "VFX"
+    },
+    {
+      "id": "goose_fx_ripple_02",
+      "path": "Assets/Watercolor/Goose/VFX/goose_fx_ripple_02.png",
+      "line": "goose",
+      "category": "VFX"
+    },
+    {
+      "id": "goose_fx_smoke_01",
+      "path": "Assets/Watercolor/Goose/VFX/goose_fx_smoke_01.png",
+      "line": "goose",
+      "category": "VFX"
+    },
+    {
+      "id": "goose_fx_smoke_02",
+      "path": "Assets/Watercolor/Goose/VFX/goose_fx_smoke_02.png",
+      "line": "goose",
+      "category": "VFX"
+    },
+    {
+      "id": "goose_fx_speckle_01",
+      "path": "Assets/Watercolor/Goose/VFX/goose_fx_speckle_01.png",
+      "line": "goose",
+      "category": "VFX"
+    },
+    {
+      "id": "shr_glow_soft_01",
+      "path": "Assets/Watercolor/Shared/shr_glow_soft_01.png",
+      "line": "shared",
+      "category": "Shared"
+    },
+    {
+      "id": "shr_glow_soft_02",
+      "path": "Assets/Watercolor/Shared/shr_glow_soft_02.png",
+      "line": "shared",
+      "category": "Shared"
+    },
+    {
+      "id": "shr_particle_noise_01",
+      "path": "Assets/Watercolor/Shared/shr_particle_noise_01.png",
+      "line": "shared",
+      "category": "Shared"
+    },
+    {
+      "id": "shr_particle_soft_01",
+      "path": "Assets/Watercolor/Shared/shr_particle_soft_01.png",
+      "line": "shared",
+      "category": "Shared"
+    },
+    {
+      "id": "shr_particle_soft_02",
+      "path": "Assets/Watercolor/Shared/shr_particle_soft_02.png",
+      "line": "shared",
+      "category": "Shared"
+    },
+    {
+      "id": "whale_char_body_01",
+      "path": "Assets/Watercolor/Whale/Characters/whale_char_body_01.png",
+      "line": "whale",
+      "category": "Characters"
+    },
+    {
+      "id": "whale_char_body_02",
+      "path": "Assets/Watercolor/Whale/Characters/whale_char_body_02.png",
+      "line": "whale",
+      "category": "Characters"
+    },
+    {
+      "id": "whale_char_body_03",
+      "path": "Assets/Watercolor/Whale/Characters/whale_char_body_03.png",
+      "line": "whale",
+      "category": "Characters"
+    },
+    {
+      "id": "whale_char_body_04",
+      "path": "Assets/Watercolor/Whale/Characters/whale_char_body_04.png",
+      "line": "whale",
+      "category": "Characters"
+    },
+    {
+      "id": "whale_char_breach_01",
+      "path": "Assets/Watercolor/Whale/Characters/whale_char_breach_01.png",
+      "line": "whale",
+      "category": "Characters"
+    },
+    {
+      "id": "whale_char_breach_02",
+      "path": "Assets/Watercolor/Whale/Characters/whale_char_breach_02.png",
+      "line": "whale",
+      "category": "Characters"
+    },
+    {
+      "id": "whale_char_breach_03",
+      "path": "Assets/Watercolor/Whale/Characters/whale_char_breach_03.png",
+      "line": "whale",
+      "category": "Characters"
+    },
+    {
+      "id": "whale_char_breach_04",
+      "path": "Assets/Watercolor/Whale/Characters/whale_char_breach_04.png",
+      "line": "whale",
+      "category": "Characters"
+    },
+    {
+      "id": "whale_char_calf_01",
+      "path": "Assets/Watercolor/Whale/Characters/whale_char_calf_01.png",
+      "line": "whale",
+      "category": "Characters"
+    },
+    {
+      "id": "whale_char_calf_02",
+      "path": "Assets/Watercolor/Whale/Characters/whale_char_calf_02.png",
+      "line": "whale",
+      "category": "Characters"
+    },
+    {
+      "id": "whale_char_pectoral",
+      "path": "Assets/Watercolor/Whale/Characters/whale_char_pectoral.png",
+      "line": "whale",
+      "category": "Characters"
+    },
+    {
+      "id": "whale_char_rest_01",
+      "path": "Assets/Watercolor/Whale/Characters/whale_char_rest_01.png",
+      "line": "whale",
+      "category": "Characters"
+    },
+    {
+      "id": "whale_char_rest_02",
+      "path": "Assets/Watercolor/Whale/Characters/whale_char_rest_02.png",
+      "line": "whale",
+      "category": "Characters"
+    },
+    {
+      "id": "whale_char_tail",
+      "path": "Assets/Watercolor/Whale/Characters/whale_char_tail.png",
+      "line": "whale",
+      "category": "Characters"
+    },
+    {
+      "id": "whale_char_top_sil",
+      "path": "Assets/Watercolor/Whale/Characters/whale_char_top_sil.png",
+      "line": "whale",
+      "category": "Characters"
+    },
+    {
+      "id": "whale_char_top_tail_01",
+      "path": "Assets/Watercolor/Whale/Characters/whale_char_top_tail_01.png",
+      "line": "whale",
+      "category": "Characters"
+    },
+    {
+      "id": "whale_char_top_tail_02",
+      "path": "Assets/Watercolor/Whale/Characters/whale_char_top_tail_02.png",
+      "line": "whale",
+      "category": "Characters"
+    },
+    {
+      "id": "whale_scene_lane_far",
+      "path": "Assets/Watercolor/Whale/Scenes/LANE/whale_scene_lane_far.png",
+      "line": "whale",
+      "category": "Scenes"
+    },
+    {
+      "id": "whale_scene_lane_fog",
+      "path": "Assets/Watercolor/Whale/Scenes/LANE/whale_scene_lane_fog.png",
+      "line": "whale",
+      "category": "Scenes"
+    },
+    {
+      "id": "whale_scene_lane_mid",
+      "path": "Assets/Watercolor/Whale/Scenes/LANE/whale_scene_lane_mid.png",
+      "line": "whale",
+      "category": "Scenes"
+    },
+    {
+      "id": "whale_scene_lane_near",
+      "path": "Assets/Watercolor/Whale/Scenes/LANE/whale_scene_lane_near.png",
+      "line": "whale",
+      "category": "Scenes"
+    },
+    {
+      "id": "whale_scene_lane_sky",
+      "path": "Assets/Watercolor/Whale/Scenes/LANE/whale_scene_lane_sky.png",
+      "line": "whale",
+      "category": "Scenes"
+    },
+    {
+      "id": "whale_scene_lane_water",
+      "path": "Assets/Watercolor/Whale/Scenes/LANE/whale_scene_lane_water.png",
+      "line": "whale",
+      "category": "Scenes"
+    },
+    {
+      "id": "whale_scene_nurse_far",
+      "path": "Assets/Watercolor/Whale/Scenes/NURSE/whale_scene_nurse_far.png",
+      "line": "whale",
+      "category": "Scenes"
+    },
+    {
+      "id": "whale_scene_nurse_fog",
+      "path": "Assets/Watercolor/Whale/Scenes/NURSE/whale_scene_nurse_fog.png",
+      "line": "whale",
+      "category": "Scenes"
+    },
+    {
+      "id": "whale_scene_nurse_mid",
+      "path": "Assets/Watercolor/Whale/Scenes/NURSE/whale_scene_nurse_mid.png",
+      "line": "whale",
+      "category": "Scenes"
+    },
+    {
+      "id": "whale_scene_nurse_near",
+      "path": "Assets/Watercolor/Whale/Scenes/NURSE/whale_scene_nurse_near.png",
+      "line": "whale",
+      "category": "Scenes"
+    },
+    {
+      "id": "whale_scene_nurse_sky",
+      "path": "Assets/Watercolor/Whale/Scenes/NURSE/whale_scene_nurse_sky.png",
+      "line": "whale",
+      "category": "Scenes"
+    },
+    {
+      "id": "whale_scene_nurse_water",
+      "path": "Assets/Watercolor/Whale/Scenes/NURSE/whale_scene_nurse_water.png",
+      "line": "whale",
+      "category": "Scenes"
+    },
+    {
+      "id": "whale_scene_open_far",
+      "path": "Assets/Watercolor/Whale/Scenes/OPEN/whale_scene_open_far.png",
+      "line": "whale",
+      "category": "Scenes"
+    },
+    {
+      "id": "whale_scene_open_fog",
+      "path": "Assets/Watercolor/Whale/Scenes/OPEN/whale_scene_open_fog.png",
+      "line": "whale",
+      "category": "Scenes"
+    },
+    {
+      "id": "whale_scene_open_mid",
+      "path": "Assets/Watercolor/Whale/Scenes/OPEN/whale_scene_open_mid.png",
+      "line": "whale",
+      "category": "Scenes"
+    },
+    {
+      "id": "whale_scene_open_near",
+      "path": "Assets/Watercolor/Whale/Scenes/OPEN/whale_scene_open_near.png",
+      "line": "whale",
+      "category": "Scenes"
+    },
+    {
+      "id": "whale_scene_open_sky",
+      "path": "Assets/Watercolor/Whale/Scenes/OPEN/whale_scene_open_sky.png",
+      "line": "whale",
+      "category": "Scenes"
+    },
+    {
+      "id": "whale_scene_open_water",
+      "path": "Assets/Watercolor/Whale/Scenes/OPEN/whale_scene_open_water.png",
+      "line": "whale",
+      "category": "Scenes"
+    },
+    {
+      "id": "whale_trace_net_far",
+      "path": "Assets/Watercolor/Whale/Traces/whale_trace_net_far.png",
+      "line": "whale",
+      "category": "Traces"
+    },
+    {
+      "id": "whale_trace_net_near",
+      "path": "Assets/Watercolor/Whale/Traces/whale_trace_net_near.png",
+      "line": "whale",
+      "category": "Traces"
+    },
+    {
+      "id": "whale_trace_noise_wall",
+      "path": "Assets/Watercolor/Whale/Traces/whale_trace_noise_wall.png",
+      "line": "whale",
+      "category": "Traces"
+    },
+    {
+      "id": "whale_trace_port_lights",
+      "path": "Assets/Watercolor/Whale/Traces/whale_trace_port_lights.png",
+      "line": "whale",
+      "category": "Traces"
+    },
+    {
+      "id": "whale_trace_ship_sil_01",
+      "path": "Assets/Watercolor/Whale/Traces/whale_trace_ship_sil_01.png",
+      "line": "whale",
+      "category": "Traces"
+    },
+    {
+      "id": "whale_trace_ship_sil_02",
+      "path": "Assets/Watercolor/Whale/Traces/whale_trace_ship_sil_02.png",
+      "line": "whale",
+      "category": "Traces"
+    },
+    {
+      "id": "whale_ui_flute",
+      "path": "Assets/Watercolor/Whale/UI/whale_ui_flute.png",
+      "line": "whale",
+      "category": "UI"
+    },
+    {
+      "id": "whale_ui_flute_pressed",
+      "path": "Assets/Watercolor/Whale/UI/whale_ui_flute_pressed.png",
+      "line": "whale",
+      "category": "UI"
+    },
+    {
+      "id": "whale_ui_stroke_ink",
+      "path": "Assets/Watercolor/Whale/UI/whale_ui_stroke_ink.png",
+      "line": "whale",
+      "category": "UI"
+    },
+    {
+      "id": "whale_fx_bubble_01",
+      "path": "Assets/Watercolor/Whale/VFX/whale_fx_bubble_01.png",
+      "line": "whale",
+      "category": "VFX"
+    },
+    {
+      "id": "whale_fx_plankton_01",
+      "path": "Assets/Watercolor/Whale/VFX/whale_fx_plankton_01.png",
+      "line": "whale",
+      "category": "VFX"
+    },
+    {
+      "id": "whale_fx_speckle_01",
+      "path": "Assets/Watercolor/Whale/VFX/whale_fx_speckle_01.png",
+      "line": "whale",
+      "category": "VFX"
+    },
+    {
+      "id": "whale_fx_spout_01",
+      "path": "Assets/Watercolor/Whale/VFX/whale_fx_spout_01.png",
+      "line": "whale",
+      "category": "VFX"
+    },
+    {
+      "id": "whale_fx_spout_02",
+      "path": "Assets/Watercolor/Whale/VFX/whale_fx_spout_02.png",
+      "line": "whale",
+      "category": "VFX"
+    },
+    {
+      "id": "whale_fx_wave_01",
+      "path": "Assets/Watercolor/Whale/VFX/whale_fx_wave_01.png",
+      "line": "whale",
+      "category": "VFX"
+    },
+    {
+      "id": "deer_pal_main",
+      "path": "Assets/Watercolor/Deer/Palette/deer_pal_main.json",
+      "line": "deer",
+      "category": "Palette"
+    },
+    {
+      "id": "deer_pal_swap_cfg",
+      "path": "Assets/Watercolor/Deer/Palette/deer_pal_swap_cfg.json",
+      "line": "deer",
+      "category": "Palette"
+    },
+    {
+      "id": "goose_pal_main",
+      "path": "Assets/Watercolor/Goose/Palette/goose_pal_main.json",
+      "line": "goose",
+      "category": "Palette"
+    },
+    {
+      "id": "goose_pal_swap_cfg",
+      "path": "Assets/Watercolor/Goose/Palette/goose_pal_swap_cfg.json",
+      "line": "goose",
+      "category": "Palette"
+    },
+    {
+      "id": "whale_pal_main",
+      "path": "Assets/Watercolor/Whale/Palette/whale_pal_main.json",
+      "line": "whale",
+      "category": "Palette"
+    },
+    {
+      "id": "whale_pal_swap_cfg",
+      "path": "Assets/Watercolor/Whale/Palette/whale_pal_swap_cfg.json",
+      "line": "whale",
+      "category": "Palette"
+    },
+    {
+      "id": "SB-2026-11-07-v1_deer_herd",
+      "path": "Assets/refs/SB-2026-11-07-v1_deer_herd.jpg",
+      "line": "style",
+      "category": "refs"
+    },
+    {
+      "id": "SB-2026-11-07-v1_deer_side",
+      "path": "Assets/refs/SB-2026-11-07-v1_deer_side.jpg",
+      "line": "style",
+      "category": "refs"
+    },
+    {
+      "id": "SB-2026-11-07-v1_goose_flock_dusk",
+      "path": "Assets/refs/SB-2026-11-07-v1_goose_flock_dusk.jpg",
+      "line": "style",
+      "category": "refs"
+    },
+    {
+      "id": "SB-2026-11-07-v1_goose_side",
+      "path": "Assets/refs/SB-2026-11-07-v1_goose_side.jpg",
+      "line": "style",
+      "category": "refs"
+    },
+    {
+      "id": "SB-2026-11-07-v1_wetland_parallax",
+      "path": "Assets/refs/SB-2026-11-07-v1_wetland_parallax.jpg",
+      "line": "style",
+      "category": "refs"
+    },
+    {
+      "id": "SB-2026-11-07-v1_whale_pod",
+      "path": "Assets/refs/SB-2026-11-07-v1_whale_pod.jpg",
+      "line": "style",
+      "category": "refs"
+    },
+    {
+      "id": "SB-2026-11-07-v1_whale_side",
+      "path": "Assets/refs/SB-2026-11-07-v1_whale_side.jpg",
+      "line": "style",
+      "category": "refs"
+    },
+    {
+      "id": "SB-2026-11-07-v1_gameplay_schematic_goose",
+      "path": "Assets/refs/SB-2026-11-07-v1_gameplay_schematic_goose.jpg",
+      "line": "style",
+      "category": "refs"
+    },
+    {
+      "id": "SB-2026-11-07-v1_moodboard_triptych",
+      "path": "Assets/refs/SB-2026-11-07-v1_moodboard_triptych.jpg",
+      "line": "style",
+      "category": "refs"
+    }
+  ],
+  "path_base": "project_root",
+  "library_root": "Assets",
+  "blender_assets": [
+    {
+      "id": "MAT-001",
+      "version": "v001",
+      "path": "Assets/Watercolor/Goose/Blender/MAT-001/v001/MAT-001_watercolor_master.blend",
+      "manifest": "Assets/Watercolor/Goose/Blender/MAT-001/v001/asset_manifest.json",
+      "line": "goose",
+      "category": "Blender",
+      "status": "done"
+    },
+    {
+      "id": "MAT-002",
+      "version": "v001",
+      "path": "Assets/Watercolor/Goose/Blender/MAT-002/v001/MAT-002_goose_plumage.blend",
+      "manifest": "Assets/Watercolor/Goose/Blender/MAT-002/v001/asset_manifest.json",
+      "line": "goose",
+      "category": "Blender",
+      "status": "needs_review"
+    },
+    {
+      "id": "MAT-003",
+      "version": "v001",
+      "path": "Assets/Watercolor/Goose/Blender/MAT-003/v001/MAT-003_wetland_rock.blend",
+      "manifest": "Assets/Watercolor/Goose/Blender/MAT-003/v001/asset_manifest.json",
+      "line": "goose",
+      "category": "Blender",
+      "status": "needs_review"
+    },
+    {
+      "id": "MAT-004",
+      "version": "v001",
+      "path": "Assets/Watercolor/Goose/Blender/MAT-004/v001/MAT-004_water_surfaces.blend",
+      "manifest": "Assets/Watercolor/Goose/Blender/MAT-004/v001/asset_manifest.json",
+      "line": "goose",
+      "category": "Blender",
+      "status": "needs_review"
+    },
+    {
+      "id": "CHR-001",
+      "version": "v001",
+      "path": "Assets/Watercolor/Goose/Blender/CHR-001/v001/CHR-001_goose_rig.blend",
+      "manifest": "Assets/Watercolor/Goose/Blender/CHR-001/v001/asset_manifest.json",
+      "line": "goose",
+      "category": "Blender",
+      "status": "done"
+    },
+    {
+      "id": "ANM-001",
+      "version": "v001",
+      "path": "Assets/Watercolor/Goose/Blender/ANM-001/v001/ANM-001_cruise_flap.blend",
+      "manifest": "Assets/Watercolor/Goose/Blender/ANM-001/v001/asset_manifest.json",
+      "line": "goose",
+      "category": "Blender",
+      "status": "done"
+    },
+    {
+      "id": "ANM-002",
+      "version": "v001",
+      "path": "Assets/Watercolor/Goose/Blender/ANM-002/v001/ANM-002_takeoff_climb.blend",
+      "manifest": "Assets/Watercolor/Goose/Blender/ANM-002/v001/asset_manifest.json",
+      "line": "goose",
+      "category": "Blender",
+      "status": "needs_review"
+    },
+    {
+      "id": "ANM-003",
+      "version": "v001",
+      "path": "Assets/Watercolor/Goose/Blender/ANM-003/v001/ANM-003_glide_circle.blend",
+      "manifest": "Assets/Watercolor/Goose/Blender/ANM-003/v001/asset_manifest.json",
+      "line": "goose",
+      "category": "Blender",
+      "status": "needs_review"
+    },
+    {
+      "id": "ANM-004",
+      "version": "v001",
+      "path": "Assets/Watercolor/Goose/Blender/ANM-004/v001/ANM-004_bank_left.blend",
+      "manifest": "Assets/Watercolor/Goose/Blender/ANM-004/v001/asset_manifest.json",
+      "line": "goose",
+      "category": "Blender",
+      "status": "needs_review"
+    },
+    {
+      "id": "ANM-005",
+      "version": "v001",
+      "path": "Assets/Watercolor/Goose/Blender/ANM-005/v001/ANM-005_bank_right.blend",
+      "manifest": "Assets/Watercolor/Goose/Blender/ANM-005/v001/asset_manifest.json",
+      "line": "goose",
+      "category": "Blender",
+      "status": "needs_review"
+    },
+    {
+      "id": "ANM-006",
+      "version": "v001",
+      "path": "Assets/Watercolor/Goose/Blender/ANM-006/v001/ANM-006_formation_blend.blend",
+      "manifest": "Assets/Watercolor/Goose/Blender/ANM-006/v001/asset_manifest.json",
+      "line": "goose",
+      "category": "Blender",
+      "status": "needs_review"
+    },
+    {
+      "id": "ANM-007",
+      "version": "v001",
+      "path": "Assets/Watercolor/Goose/Blender/ANM-007/v001/ANM-007_landing.blend",
+      "manifest": "Assets/Watercolor/Goose/Blender/ANM-007/v001/asset_manifest.json",
+      "line": "goose",
+      "category": "Blender",
+      "status": "needs_review"
+    },
+    {
+      "id": "ANM-008",
+      "version": "v001",
+      "path": "Assets/Watercolor/Goose/Blender/ANM-008/v001/ANM-008_rest_idle.blend",
+      "manifest": "Assets/Watercolor/Goose/Blender/ANM-008/v001/asset_manifest.json",
+      "line": "goose",
+      "category": "Blender",
+      "status": "needs_review"
+    },
+    {
+      "id": "ANM-009",
+      "version": "v001",
+      "path": "Assets/Watercolor/Goose/Blender/ANM-009/v001/ANM-009_call_rejoin.blend",
+      "manifest": "Assets/Watercolor/Goose/Blender/ANM-009/v001/asset_manifest.json",
+      "line": "goose",
+      "category": "Blender",
+      "status": "needs_review"
+    },
+    {
+      "id": "WL-CHR-001",
+      "version": "v001",
+      "path": "Assets/Watercolor/Whale/Blender/WL-CHR-001/v001/WL-CHR-001_whale_rig.blend",
+      "manifest": "Assets/Watercolor/Whale/Blender/WL-CHR-001/v001/asset_manifest.json",
+      "line": "whale",
+      "category": "Blender",
+      "status": "needs_review"
+    }
+  ],
+  "rights_confirmation": {
+    "date": "2026-11-08 Asia/Shanghai",
+    "confirmed_by": "Paco",
+    "scope": "Grok Imagine batch: use and process for Feather & Tide",
+    "basis": "explicit user confirmation in current conversation",
+    "limits": "not a general commercial-license or attribution determination; source terms not independently archived"
+  },
+  "processed_manifest": "Assets/Processed/Goose/2026-11-08/manifest.json"
+}

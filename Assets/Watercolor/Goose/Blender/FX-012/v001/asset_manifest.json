@@ -1,0 +1,61 @@
+{
+  "id": "FX-012",
+  "version": "v001",
+  "status": "needs_review",
+  "variant": "RestCue",
+  "kind": "vfx_guide",
+  "priority": "P1",
+  "stages": [
+    "S1",
+    "S2",
+    "S4"
+  ],
+  "production_spec_page": 16,
+  "blender": "5.2.2 LTS",
+  "depends": [
+    "ENV-014/v001",
+    "ENV-015/v001",
+    "ENV-016/v001"
+  ],
+  "blender_file": "FX-012_RestCue.blend",
+  "glb_files": [
+    "FX-012_RestCue_S1.glb",
+    "FX-012_RestCue_S2.glb",
+    "FX-012_RestCue_S4.glb"
+  ],
+  "files": {
+    "FX-012_RestCue.blend": "d939b627ffd2e95c18b7c8268a6f59681103410b0dd58cdc5596e4cc7a4ba76f",
+    "FX-012_RestCue_S1.glb": "f49070d98a549dbf7e470170fc5f3ed225cd03c57383a63d205b6ad4b94f7e7c",
+    "FX-012_RestCue_S2.glb": "ecb5f9f7817f96876990c933c9a7dc310a677655601e114cc00456028a4dec43",
+    "FX-012_RestCue_S4.glb": "d1b07474ea0b813c54c4d01aab3ce2ae873d3c293d611694becf5a7f144d9449",
+    "FX-012_generate.py": "6e9be27a7e4979f6e9fe8a6b657c480c4767d586b27115222423e8b4c88104aa",
+    "README.md": "b1dcca35e83835839a37fa71afddb6e1e156fd9c9f1e5a940fe89f85b1b60bf1",
+    "graybox_s4_fixed.png": "aa88f3f0f54d4303032b7aa1d07651d5ae1a00fd73cb29f04c74f11134e71cf7",
+    "preview_fixed_rear.mp4": "b2d953f13ecddb685dce541fa6b19992ec554026d7b088eb0af97d7a42b74696",
+    "preview_s1_restoring.png": "43e01f08d5ca388fc2a1d96507b77c8c34fe838f67ecbad4b929e1ac3d0f9500",
+    "preview_s2_restoring.png": "e01ffd1def11010ef0a27768eafadb1b12ba96e2dbb004040bc87b1f777f263d",
+    "preview_s4_available_idle.png": "054767a215864694bd89d0b89c39e6b484bbcc6d0966b16181b8e125fa45343b",
+    "preview_s4_exhausted_reentry.png": "da2af6d1de068a257a72340cb89e731d76b1eb2cc27794ee5a04c0aeeffcaf68",
+    "preview_s4_release.png": "49c47f0b3880df13c66b04f42d526a08f63cc2f5f5fc4a773dd905536aae1d6b",
+    "preview_s4_restoring.png": "2a2e8d7e392e3862263031ef4e0134aa63035061d24d61676afed35b3af0398e",
+    "qa.json": "a0002c9e8d74a063027429cc5ac8485e0d5de0a69f54a6683d17f699aeba2c4f",
+    "rest_cue_interface.json": "9048b3c98d0fdd8030d3b24e1001b37cda580901ad9c8aba33b9ef1b52648129",
+    "textures/ft_goose_fx_rest_cue_reeds.png": "cc0d131e63856fb72c33eddb60e760fa97b519605c106b8a325c4c19ee0b809a",
+    "textures/ft_goose_fx_rest_cue_water.png": "90775995b42543beda5c7189df6f33d42549e5e610023db4adb6b10f4180abba"
+  },
+  "previews": [
+    "preview_fixed_rear.mp4",
+    "preview_s1_restoring.png",
+    "preview_s2_restoring.png",
+    "preview_s4_available_idle.png",
+    "preview_s4_exhausted_reentry.png",
+    "preview_s4_release.png",
+    "preview_s4_restoring.png"
+  ],
+  "graybox": [
+    "graybox_s4_fixed.png"
+  ],
+  "texture_and_runtime_interface": "rest_cue_interface.json",
+  "qa": "qa.json",
+  "rights": "Project-original alpha masks and authored control curves. Scene assets and ANM-007 pose are reused through project-owned wetland dependency masters."
+}

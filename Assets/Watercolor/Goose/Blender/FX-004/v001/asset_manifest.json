@@ -1,0 +1,306 @@
+{
+  "id": "FX-004",
+  "version": "v001",
+  "status": "needs_review",
+  "variant": "Fog_Start",
+  "priority": "P0",
+  "task_execution_order_1_based": 33,
+  "levels": [
+    "S0"
+  ],
+  "delivery_style": "render-only static cards with engine-driven presentation controls",
+  "dependency": {
+    "asset": "ENV-018/v001",
+    "upstream_status": "needs_review",
+    "reference_placements_review_only": [
+      {
+        "name": "CloudPatch",
+        "translation_BU": [
+          -24,
+          55,
+          3.3
+        ],
+        "scale": [
+          2.12,
+          1,
+          1
+        ]
+      },
+      {
+        "name": "CloudStreak",
+        "translation_BU": [
+          35,
+          74,
+          2.1
+        ],
+        "scale": [
+          1.64,
+          1,
+          1.28
+        ]
+      }
+    ],
+    "reference_assets_and_packed_masks_sha256": {
+      "Assets/Watercolor/Goose/Blender/ENV-018/v001/ENV-018_atmosphere_cards.blend": "b731176f235bc14666b504915df8756a4d66eaefa1cf6c49e9730c3d17e995fd",
+      "Assets/Watercolor/Goose/Blender/ENV-018/v001/ENV-018_MistLow.glb": "eae8b5ca368803d98d63f7599ce587bd763761115cc6188666c64e3e2f47f3df",
+      "Assets/Watercolor/Goose/Blender/ENV-018/v001/ENV-018_CloudPatch.glb": "97dd9b491fbabec642f820af27b0f16edae33efd8dc77947a317276d527393d3",
+      "Assets/Watercolor/Goose/Blender/ENV-018/v001/ENV-018_CloudStreak.glb": "a1e57fba2d50049415c321d8afc1aa143b30eca22bfc30a5340366c97bdfe2e7",
+      "Assets/Watercolor/Goose/Blender/ENV-018/v001/README.md": "f08866c7d80229658dc09f6f8f17c2486f7acd9da90cd188b607740f0d7a897e",
+      "Assets/Watercolor/Goose/Blender/ENV-018/v001/qa.json": "e4fbb1855954d8ad8fbace0c65eb7acb604911c7ed124fe4a7a0034af7effeab",
+      "Assets/Watercolor/Goose/Blender/ENV-018/v001/textures/ft_shared_atmosphere_mistlow_basecolor_alpha.png": "e46d57f0f08886c4a0a412b520099ba5fc0a53247e2fc69455f42587f4175560",
+      "Assets/Watercolor/Goose/Blender/ENV-018/v001/textures/ft_shared_atmosphere_cloudpatch_basecolor_alpha.png": "fd6b200b9557a4c2bd29c92aa7bfab29c19e53f6c926a47eb906e8b065ddc60e",
+      "Assets/Watercolor/Goose/Blender/ENV-018/v001/textures/ft_shared_atmosphere_cloudstreak_basecolor_alpha.png": "0b96c63edf1a33a3015b3341112aeb154a7700dfd3e82e93a923103f6c981995",
+      "Assets/Watercolor/Goose/Blender/ENV-018/v001/asset_manifest.json": "4227064d8cb97461019ff82d9a6294aba3a0026567944045067a828b3aa83ff4"
+    }
+  },
+  "mother_file": "FX-004_Fog_Start.blend",
+  "glb": "FX-004_Fog_Start.glb",
+  "qa": "qa.json",
+  "textures": {
+    "low_blue": {
+      "path": "textures/ft_goose_fx_fog_start_low_blue_basecolor_alpha.png",
+      "sha256": "0a24b950e6575f9632ff625ca407dd1d2a9b67ad26505f66235e14560ed6280e",
+      "alpha_max_rgb8": 82,
+      "nonzero_alpha_pixels": 152801,
+      "width_height_px": [
+        512,
+        512
+      ],
+      "source": "ft_shared_atmosphere_mistlow_basecolor_alpha.png",
+      "source_packed_sha256": "e46d57f0f08886c4a0a412b520099ba5fc0a53247e2fc69455f42587f4175560"
+    },
+    "shore_warm": {
+      "path": "textures/ft_goose_fx_fog_start_shore_warm_basecolor_alpha.png",
+      "sha256": "dcb813eb8c45677dd201fbe44087b8ac31235c54b99c49ab9b7b8495c60cd286",
+      "alpha_max_rgb8": 120,
+      "nonzero_alpha_pixels": 156921,
+      "width_height_px": [
+        512,
+        512
+      ],
+      "source": "ft_shared_atmosphere_cloudpatch_basecolor_alpha.png",
+      "source_packed_sha256": "fd6b200b9557a4c2bd29c92aa7bfab29c19e53f6c926a47eb906e8b065ddc60e"
+    },
+    "distance_wash": {
+      "path": "textures/ft_goose_fx_fog_start_distance_wash_basecolor_alpha.png",
+      "sha256": "1c4cd29f99fe0f50c59eeed76681afc890c39233da8b75f4f98fe78ecbe3e4f6",
+      "alpha_max_rgb8": 90,
+      "nonzero_alpha_pixels": 179323,
+      "width_height_px": [
+        512,
+        512
+      ],
+      "source": "ft_shared_atmosphere_cloudstreak_basecolor_alpha.png",
+      "source_packed_sha256": "0b96c63edf1a33a3015b3341112aeb154a7700dfd3e82e93a923103f6c981995"
+    }
+  },
+  "rights": "Project-original programmatic masks using packed project ENV-018 textures",
+  "scene_names": {
+    "main": "FX-004 | S0 fixed rear review",
+    "component": "Fog_Start | editable runtime cards"
+  },
+  "axis_contract": {
+    "Blender": "+X right, +Y forward, +Z up",
+    "GLB": "(x,z,-y), +Y up, -Z forward",
+    "unit_scale": 1,
+    "reference_BU_to_game_units": 27.77777777777778,
+    "origin_BU": [
+      0,
+      0,
+      0
+    ]
+  },
+  "camera": {
+    "source_hashes": {
+      "Sources/FeatherTide/Systems/Camera/ThirdPersonRig.swift": "274b58f0b910a280c676540dde54343c35e2e0709744e20e7e5ee4f9515476a2",
+      "Sources/FeatherTide/Rendering/PlayfieldView.swift": "8c37c08a35b8b299cc9af9f9e63e64ef5d50947e12822356fee8de398bc110dc",
+      "Sources/FeatherTide/Systems/Input/PlayfieldPilot.swift": "95162d30d29f1fea8d36c67430d1073af297656eb84a8b1a2a0c3d1a9997e621"
+    },
+    "distance_game_units": 180,
+    "pitch_parameter_radians": 0.48,
+    "vertical_fov_degrees": 50,
+    "target_height_game_units": 6,
+    "review_leader_height_game_units": 8,
+    "review_frame_px": [
+      852,
+      393
+    ]
+  },
+  "runtime_interface": {
+    "owner": "S0 scene presentation",
+    "root_node": "Fog_Start",
+    "placement": "World-space transform at S0 takeoff origin; local +Y forward (Blender).",
+    "inputs": {
+      "elapsedSeconds": "Engine monotonic scene time",
+      "opacityStrength": "0...1; straight alpha multiplier",
+      "motionStrength": "0...1; horizontal drift amplitude multiplier",
+      "periodSeconds": "1...60; smooth drift loop duration, default 12",
+      "phaseTurns": "Normalized offset 0...1, default 0"
+    },
+    "drift_formula": "base_x_BU + amplitude_BU * motionStrength * sin(2*pi * (elapsedSeconds/periodSeconds + phaseTurns + card.phase_turns))",
+    "presets": {
+      "default": {
+        "opacityStrength": 1,
+        "motionStrength": 1
+      },
+      "reduced": {
+        "opacityStrength": 0.35,
+        "motionStrength": 0.35
+      },
+      "off": {
+        "opacityStrength": 0,
+        "motionStrength": 0
+      }
+    },
+    "card_fields_from_GLTF_extras": [
+      "base_x_BU",
+      "amplitude_BU",
+      "phase_turns"
+    ],
+    "collision_enabled": false,
+    "render_mode": "KHR_materials_unlit / double-sided / BLEND / clamp",
+    "total_triangles": 96,
+    "geometry": {
+      "Fog_LowWest": {
+        "triangles": 16,
+        "center_glTF": [
+          -6.95,
+          0.24,
+          -10.25
+        ],
+        "width_height_BU": [
+          7.1,
+          0.63
+        ],
+        "image_sha256": "0a24b950e6575f9632ff625ca407dd1d2a9b67ad26505f66235e14560ed6280e",
+        "double_sided": true,
+        "alpha_mode": "BLEND",
+        "wrap": "CLAMP_TO_EDGE"
+      },
+      "Fog_LowEast": {
+        "triangles": 16,
+        "center_glTF": [
+          6.7,
+          0.3,
+          -11.8
+        ],
+        "width_height_BU": [
+          7.25,
+          0.74
+        ],
+        "image_sha256": "0a24b950e6575f9632ff625ca407dd1d2a9b67ad26505f66235e14560ed6280e",
+        "double_sided": true,
+        "alpha_mode": "BLEND",
+        "wrap": "CLAMP_TO_EDGE"
+      },
+      "Fog_ShoreWest": {
+        "triangles": 16,
+        "center_glTF": [
+          -9.2,
+          0.57,
+          -14.0
+        ],
+        "width_height_BU": [
+          13.4,
+          1.36
+        ],
+        "image_sha256": "dcb813eb8c45677dd201fbe44087b8ac31235c54b99c49ab9b7b8495c60cd286",
+        "double_sided": true,
+        "alpha_mode": "BLEND",
+        "wrap": "CLAMP_TO_EDGE"
+      },
+      "Fog_ShoreEast": {
+        "triangles": 16,
+        "center_glTF": [
+          10.0,
+          0.83,
+          -17.6
+        ],
+        "width_height_BU": [
+          14.6,
+          1.72
+        ],
+        "image_sha256": "dcb813eb8c45677dd201fbe44087b8ac31235c54b99c49ab9b7b8495c60cd286",
+        "double_sided": true,
+        "alpha_mode": "BLEND",
+        "wrap": "CLAMP_TO_EDGE"
+      },
+      "Fog_DistantWest": {
+        "triangles": 16,
+        "center_glTF": [
+          -15.0,
+          1.06,
+          -25.0
+        ],
+        "width_height_BU": [
+          22.2,
+          2.02
+        ],
+        "image_sha256": "1c4cd29f99fe0f50c59eeed76681afc890c39233da8b75f4f98fe78ecbe3e4f6",
+        "double_sided": true,
+        "alpha_mode": "BLEND",
+        "wrap": "CLAMP_TO_EDGE"
+      },
+      "Fog_DistantEast": {
+        "triangles": 16,
+        "center_glTF": [
+          17.5,
+          1.25,
+          -33.0
+        ],
+        "width_height_BU": [
+          24.0,
+          2.4
+        ],
+        "image_sha256": "1c4cd29f99fe0f50c59eeed76681afc890c39233da8b75f4f98fe78ecbe3e4f6",
+        "double_sided": true,
+        "alpha_mode": "BLEND",
+        "wrap": "CLAMP_TO_EDGE"
+      }
+    }
+  },
+  "previews": [
+    "graybox_fixed_rear.png",
+    "graybox_layout.png",
+    "preview_fixed_rear_default.png",
+    "preview_fixed_rear_drift.png",
+    "preview_fixed_rear_off.png",
+    "preview_fixed_rear_reduced.png",
+    "preview_glb_roundtrip.png",
+    "preview_layout.png",
+    "roundtrip_native_reference.png",
+    "preview_fixed_rear.mp4"
+  ],
+  "scripts": [
+    "FX-004_generate.py",
+    "FX-004_finalize.py"
+  ],
+  "pending": {
+    "art_approval_and_new_player_readability": "pending",
+    "USDZ_and_RealityKit_import_compositing_and_depth": "pending",
+    "S0_final_layout_runtime_safety_accessibility_and_stick_composition": "pending",
+    "iPhone_iPad_visual_touch_performance": "pending",
+    "asset_index_ledgers_task_json_active_plan": "pending"
+  },
+  "files": {
+    "FX-004_Fog_Start.blend": "181ba2882f206462d2be8dd5a6470f4addb3f4580f36446055a601bfb3043955",
+    "FX-004_Fog_Start.glb": "ddcbe2c03c76b35cb1cff4d10a8f8808255bcd0edf42da377ebd403b67e38778",
+    "FX-004_finalize.py": "82d5c4f26b933ee5a3faa40a73d24462976c66d3a6c8374fbc39f5176a88f39d",
+    "FX-004_generate.py": "b8ce7da9a2364caaeda9782879da4f01f0affb3139bb454b5d7913eea8bb6f0d",
+    "README.md": "f21897a6346d0fbfc249b232030a46c95ea4991116766ef2e149896e44fd8647",
+    "graybox_fixed_rear.png": "9320046a52ba737bf86b12c81fc02c76290e9dcf9166d0587f8e70d91a049858",
+    "graybox_layout.png": "8a38c922974a236e7c910b5941ed2bc915eb8c47eb2f6bbdf255a68f831becb1",
+    "preview_fixed_rear.mp4": "78c3a89e216792f6634c7d19a80f7407e4e61952d35cc208c02d34d8e69fff45",
+    "preview_fixed_rear_default.png": "1fd220baf8b495771eb3c05d8151034c698db0a08d5e877bcd5c89f16901c43e",
+    "preview_fixed_rear_drift.png": "5ba27617e52ac9e4daa602e5188632d9dcb4a1edefbdb200c9c90e99e596e3f4",
+    "preview_fixed_rear_off.png": "0bb566b37ad02b1889f9b7ab7a54ddd87d6bffd4115069d169835964397325d2",
+    "preview_fixed_rear_reduced.png": "21e91f8aaacdaa56bbd2e14452d2638083076447727394c72d64594911d15e43",
+    "preview_glb_roundtrip.png": "1e873358103cc71df4d2a775d9618a1c6cd077095eca196bb533447740194cb7",
+    "preview_layout.png": "30911ef3284fa6a66801abaa2c75f2397e849b61c7c32dab0fd1fdcb547cd86f",
+    "qa.json": "2c261b8f7a7fe82e8e8d2b50fb559859a06fb35b93dae694b84a78e671d01db6",
+    "roundtrip_native_reference.png": "6a01eddebab76a41ca47dbacfce2a5c9bc6257e75f5618fd65f7dbb609efa4ce",
+    "textures/ft_goose_fx_fog_start_distance_wash_basecolor_alpha.png": "1c4cd29f99fe0f50c59eeed76681afc890c39233da8b75f4f98fe78ecbe3e4f6",
+    "textures/ft_goose_fx_fog_start_low_blue_basecolor_alpha.png": "0a24b950e6575f9632ff625ca407dd1d2a9b67ad26505f66235e14560ed6280e",
+    "textures/ft_goose_fx_fog_start_shore_warm_basecolor_alpha.png": "dcb813eb8c45677dd201fbe44087b8ac31235c54b99c49ab9b7b8495c60cd286"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "browser": "27.2",
+  "gpu": "Apple GPU",
+  "viewport": {
+    "width": 852,
+    "height": 393
+  },
+  "leader": {
+    "x": -75,
+    "z": 1150.531710028975
+  },
+  "segment": "W3",
+  "phase": "playing",
+  "tick": 12705,
+  "samples": 152,
+  "medianMs": 16,
+  "p95Ms": 18,
+  "calls": 39,
+  "triangles": 30910,
+  "geometries": 81,
+  "textures": 74,
+  "width": 1704,
+  "height": 786,
+  "quality": "standard"
+}

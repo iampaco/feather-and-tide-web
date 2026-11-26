@@ -1,0 +1,148 @@
+{
+  "date": "2026-11-08 Asia/Shanghai",
+  "rights_confirmation": {
+    "date": "2026-11-08 Asia/Shanghai",
+    "confirmed_by": "Paco",
+    "scope": "Grok Imagine batch: use and process for Feather & Tide",
+    "basis": "explicit user confirmation in current conversation",
+    "limits": "not a general commercial-license or attribution determination; source terms not independently archived"
+  },
+  "style": "SB-2026-11-07-v1 derived from library; wetland-only integration, pending human comparison with V07 selected direction",
+  "outputs": [
+    {
+      "id": "ft_goose_atlas_poses_v1",
+      "path": "Assets/Processed/Goose/2026-11-08/ft_goose_atlas_poses_v1.png",
+      "sha256": "0048ff2dfd100e8be3a37ba0397c4ab92b41cd11075fd04fe68dd18dca99127b",
+      "source_ids": [
+        "goose_char_fly_side_02",
+        "goose_char_top_wing_02",
+        "goose_char_rest_float_01"
+      ],
+      "sources": [
+        {
+          "path": "Assets/Watercolor/Goose/Characters/goose_char_fly_side_02.png",
+          "sha256": "aeca5201055e9f446d27ee2b8da19f7834816360d925ab509f2ae9d451fdded7"
+        },
+        {
+          "path": "Assets/Watercolor/Goose/Characters/goose_char_top_wing_02.png",
+          "sha256": "ef6ed1726be227d89d41b02438f79ca56fed690989c617972204ff85e0833e6a"
+        },
+        {
+          "path": "Assets/Watercolor/Goose/Characters/goose_char_rest_float_01.png",
+          "sha256": "f6cd9ef9a26b4fd14d3472df2000890f7eaf00aa75a5bc1def75704e3f8f97c3"
+        }
+      ],
+      "tool": "built-in image_gen",
+      "prompt_path": "Assets/Processed/Goose/2026-11-08/goose-atlas.txt",
+      "runtime_export": "Sources/FeatherTide/Resources/Assets.xcassets/ft_goose_atlas_poses_v1.imageset/ft_goose_atlas_poses_v1.png",
+      "status": "processed, licensed for this project by owner confirmation; technical validation in report; human art/device acceptance pending",
+      "modifications": "true alpha cutout, remove baked text/background, atlas composition and consistent pigment; runtime geometry/alignment in LibraryArtwork.swift",
+      "attribution": "no new requirement supplied by owner; source terms evidence pending archive, not assumed attribution-free",
+      "prompt_sha256": "a0497ba09c0811575c4c9aae0abd9f061af9fcbb8c2a12cab0e256775bba6a43"
+    },
+    {
+      "id": "ft_goose_atlas_wetland_v1",
+      "path": "Assets/Processed/Goose/2026-11-08/ft_goose_atlas_wetland_v1.png",
+      "sha256": "80226e6a6fa18b4dc127f819535eedc908cff3254da56bad2b3597cb96816770",
+      "source_ids": [
+        "goose_scene_wet_far",
+        "goose_scene_wet_mid",
+        "goose_scene_wet_near"
+      ],
+      "sources": [
+        {
+          "path": "Assets/Watercolor/Goose/Scenes/WET/goose_scene_wet_far.png",
+          "sha256": "7db9d815b1b34c50f69d98a837625d810982a17f393a9fe0ffb87d87d021d989"
+        },
+        {
+          "path": "Assets/Watercolor/Goose/Scenes/WET/goose_scene_wet_mid.png",
+          "sha256": "09c23e93fe5f6a4f19ceccd1487a66a75850476756342d957bad89d6ccdbbd56"
+        },
+        {
+          "path": "Assets/Watercolor/Goose/Scenes/WET/goose_scene_wet_near.png",
+          "sha256": "49ef651b29d9ee79543d7069eb783d6c82dca81a1024810b2a37557dd8e3f8ba"
+        }
+      ],
+      "tool": "built-in image_gen",
+      "prompt_path": "Assets/Processed/Goose/2026-11-08/wetland-atlas.txt",
+      "runtime_export": "Sources/FeatherTide/Resources/Assets.xcassets/ft_goose_atlas_wetland_v1.imageset/ft_goose_atlas_wetland_v1.png",
+      "status": "processed, licensed for this project by owner confirmation; technical validation in report; human art/device acceptance pending",
+      "modifications": "true alpha cutout, remove baked text/background, atlas composition and consistent pigment; runtime geometry/alignment in LibraryArtwork.swift",
+      "attribution": "no new requirement supplied by owner; source terms evidence pending archive, not assumed attribution-free",
+      "prompt_sha256": "89427213cc0bfc1aa217145ec815aeb67c6a6eea35dc8fdad9b51e039235187d"
+    },
+    {
+      "id": "ft_goose_atlas_props_v1",
+      "path": "Assets/Processed/Goose/2026-11-08/ft_goose_atlas_props_v1.png",
+      "sha256": "58e6e694c5cda0028117de967f6d7285ac951ee6d6a57116f1c338e7dc53fe1b",
+      "source_ids": [
+        "goose_trace_glass_facade",
+        "goose_trace_wind_tower",
+        "goose_trace_wind_blade",
+        "goose_ui_feather"
+      ],
+      "sources": [
+        {
+          "path": "Assets/Watercolor/Goose/Traces/goose_trace_glass_facade.png",
+          "sha256": "f33d465307a251fd8ae456467ee38e81a8e7952a35ccd2438306e559673045b8"
+        },
+        {
+          "path": "Assets/Watercolor/Goose/Traces/goose_trace_wind_tower.png",
+          "sha256": "3170556ae8e421a1aba7e93ff25caf9199354da20e556184461227150d7072f8"
+        },
+        {
+          "path": "Assets/Watercolor/Goose/Traces/goose_trace_wind_blade.png",
+          "sha256": "111659c775d870a4329112b3a7c0ca5ce51e958b7f64cc9b100d51ac53744f3f"
+        },
+        {
+          "path": "Assets/Watercolor/Goose/UI/goose_ui_feather.png",
+          "sha256": "eb6b36bc19cfc33872eb06cc8018a08ff3050abc0c71ebe2f349b6ba3a5c7095"
+        }
+      ],
+      "tool": "built-in image_gen",
+      "prompt_path": "Assets/Processed/Goose/2026-11-08/props-atlas.txt",
+      "runtime_export": "Sources/FeatherTide/Resources/Assets.xcassets/ft_goose_atlas_props_v1.imageset/ft_goose_atlas_props_v1.png",
+      "status": "processed, licensed for this project by owner confirmation; technical validation in report; human art/device acceptance pending",
+      "modifications": "true alpha cutout, remove baked text/background, atlas composition and consistent pigment; runtime geometry/alignment in LibraryArtwork.swift",
+      "attribution": "no new requirement supplied by owner; source terms evidence pending archive, not assumed attribution-free",
+      "prompt_sha256": "552cf87f4cd685141f5aed6a4861d4515c3a096075ff4c4e03450ad9e124237e"
+    },
+    {
+      "id": "ft_goose_library_wetland_sky",
+      "source_ids": [
+        "goose_scene_wet_sky"
+      ],
+      "sources": [
+        {
+          "path": "Assets/Watercolor/Goose/Scenes/WET/goose_scene_wet_sky.png",
+          "sha256": "f16cdb0f9d8ed4d8e0f2f4917b447471aaed40e9418464d19a824413a0001f50"
+        }
+      ],
+      "runtime_export": "Sources/FeatherTide/Resources/Assets.xcassets/ft_goose_library_wetland_sky.imageset/ft_goose_library_wetland_sky.png",
+      "sha256": "f16cdb0f9d8ed4d8e0f2f4917b447471aaed40e9418464d19a824413a0001f50",
+      "tool": "unchanged copy",
+      "modifications": "none; opaque base used directly, no burned text observed",
+      "status": "technical integration; human art/device acceptance pending"
+    },
+    {
+      "id": "ft_goose_library_wetland_water",
+      "source_ids": [
+        "goose_scene_wet_water"
+      ],
+      "sources": [
+        {
+          "path": "Assets/Watercolor/Goose/Scenes/WET/goose_scene_wet_water.png",
+          "sha256": "587cc9d764a0bb11cc04f95cb5a3806fedcb8ccb810e94817e759c0b3a29c4b4"
+        }
+      ],
+      "runtime_export": "Sources/FeatherTide/Resources/Assets.xcassets/ft_goose_library_wetland_water.imageset/ft_goose_library_wetland_water.png",
+      "sha256": "587cc9d764a0bb11cc04f95cb5a3806fedcb8ccb810e94817e759c0b3a29c4b4",
+      "tool": "unchanged copy",
+      "modifications": "none; opaque base used directly, no burned text observed",
+      "status": "technical integration; human art/device acceptance pending"
+    }
+  ],
+  "runtime_recipe": "Sources/FeatherTide/Rendering/LibraryArtwork.swift",
+  "fallback": "FT_LIBRARY_ART=0 uses preserved pre-integration art; absent new assets fall back by role",
+  "reproducibility": "AI generation is not byte-for-byte reproducible. Preserved alpha atlases and hashes are recipe inputs; atlas slicing and pose alignment are deterministic runtime composition. Prompts retained verbatim."
+}

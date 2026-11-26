@@ -1,0 +1,327 @@
+{
+  "id": "FX-011",
+  "version": "v001",
+  "status": "needs_review",
+  "source": {
+    "geometry_and_timing": {
+      "boundary_anchor_xy_BU": [
+        19.19999885559082,
+        -5.23491907119751
+      ],
+      "analytic_contact_to_FX010_Boundary_delta_BU": 3.2044024689505465e-05,
+      "max_animated_vertex_outside_union_BU": 0,
+      "max_approach_edge_axis_error_BU": 6.092015581682375e-05,
+      "authored_prewarning_seconds": 3.0,
+      "sampled_half_frames": 241,
+      "review_first_analytic_entry_frame": 84.0,
+      "independent_single_playbacks": [
+        {
+          "mesh": "ApproachEdge",
+          "positive_width_start_end_frames": [
+            12.5,
+            83.5
+          ],
+          "nonzero_intervals": 1,
+          "max_planar_area_BU2": 2.3044474866453983
+        },
+        {
+          "mesh": "ContactPressure",
+          "positive_width_start_end_frames": [
+            84.5,
+            109.5
+          ],
+          "nonzero_intervals": 1,
+          "max_planar_area_BU2": 0.5955179637904725
+        }
+      ],
+      "note": "Offline programmed crossing. Collision, timing and rearming use game Zone."
+    },
+    "visibility": {
+      "pixels_changed_by_at_least_12_vs_idle": 546,
+      "median_default_local_rgb_delta_8bit": 93.00000205636024,
+      "fog_at_warn_samples": {
+        "default": {
+          "visible_projected_samples": 59,
+          "max_fog_alpha_at_warn_vertices": 0.0
+        },
+        "reduced": {
+          "visible_projected_samples": 59,
+          "max_fog_alpha_at_warn_vertices": 0.0
+        },
+        "off": {
+          "visible_projected_samples": 59,
+          "max_fog_alpha_at_warn_vertices": 0.0
+        }
+      }
+    },
+    "wetland_and_formation": {
+      "adjacent_overlap": [
+        {
+          "pair": [
+            "T01",
+            "T02"
+          ],
+          "center_distance_BU": 4.2863153717315745,
+          "overlap_axial_BU": 1.3296846282684252,
+          "common_chord_width_BU": 3.628630118110361
+        },
+        {
+          "pair": [
+            "T02",
+            "T03"
+          ],
+          "center_distance_BU": 4.1244272499110295,
+          "overlap_axial_BU": 1.4915727500889702,
+          "common_chord_width_BU": 3.8116342768150435
+        },
+        {
+          "pair": [
+            "T03",
+            "T04"
+          ],
+          "center_distance_BU": 4.058989836867462,
+          "overlap_axial_BU": 1.5570101631325377,
+          "common_chord_width_BU": 3.881244324209267
+        },
+        {
+          "pair": [
+            "T04",
+            "T05"
+          ],
+          "center_distance_BU": 4.091014450395063,
+          "overlap_axial_BU": 1.5249855496049367,
+          "common_chord_width_BU": 3.847474076151622
+        },
+        {
+          "pair": [
+            "T05",
+            "T06"
+          ],
+          "center_distance_BU": 4.29441596673294,
+          "overlap_axial_BU": 1.3215840332670599,
+          "common_chord_width_BU": 3.619039583186289
+        },
+        {
+          "pair": [
+            "T06",
+            "T07"
+          ],
+          "center_distance_BU": 4.27094899307818,
+          "overlap_axial_BU": 1.3450510069218193,
+          "common_chord_width_BU": 3.646704087052372
+        }
+      ],
+      "conservative_landing_AABB_gap_BU": 15.045706203625336,
+      "landing_mesh_vertex_gap_BU": 15.190480282313821,
+      "landing_goose_count": 12,
+      "wetland_layer_AABB_min_sweep_gap_BU": {
+        "ProtectedMarsh_Ground": 0.49199923706054705,
+        "ProtectedMarsh_Water": 2.013571582193647,
+        "ProtectedMarsh_Reeds": 0.19627055358886736
+      },
+      "whole_flock_tracks": {
+        "ingress": {
+          "min_gap_BU": 17.51526404946453,
+          "turbine": "T01",
+          "bird_slot": 6
+        },
+        "inside_marsh": {
+          "min_gap_BU": 6.192588967734563,
+          "turbine": "T05",
+          "bird_slot": 10
+        },
+        "egress": {
+          "min_gap_BU": 6.444828118258565,
+          "turbine": "T05",
+          "bird_slot": 10
+        }
+      },
+      "whole_track_min_gap_BU": 6.192588967734563,
+      "reused_CHR001_wingtip_X_BU": [
+        -0.8002182841300964,
+        0.8002182841300964
+      ],
+      "full_V_count": 12,
+      "rank_spacing_BU": 1.296,
+      "V_formation_width_BU": 15.856436610221863,
+      "bird_conservative_planar_radius_BU": 0.8194102502524975,
+      "minimum_reserved_lane_width_BU": 34.09199923706055,
+      "minimum_at_y_BU": 13.279999732971191,
+      "limiting_turbine": "T05",
+      "minimum_width_to_formation_ratio": 2.1500416565903033,
+      "width_target_BU": 31.712873220443726,
+      "width_margin_BU": 2.379126016616823,
+      "geometry_tolerance_BU": 0.005,
+      "overflight_clearance_above_marsh_geometry_BU": 0.5234286951422689,
+      "ratio_tolerance": 0.01,
+      "lane_west_edge_X_BU": -18.6,
+      "route_centerline_distances_BU": {
+        "west": 20.6,
+        "sweep": 13.491999237060547
+      },
+      "anchor_relative_game_centers": {
+        "T01": [
+          983.8888782925076,
+          -348.8888888888889
+        ],
+        "T02": [
+          949.1666560702853,
+          -234.99999933772617
+        ],
+        "T03": [
+          927.5000233120388,
+          -122.49999735090466
+        ],
+        "T04": [
+          920.0000105963812,
+          -10.000005298190628
+        ],
+        "T05": [
+          911.666645473904,
+          103.33332591586645
+        ],
+        "T06": [
+          948.8888719346788,
+          216.66668362087677
+        ],
+        "T07": [
+          983.0555788675944,
+          330.2777989705404
+        ]
+      }
+    },
+    "source_graybox": {
+      "radius_BU": 2.808,
+      "radius_game_units": 78.0,
+      "rank_spacing_BU": 1.296,
+      "rank_spacing_game_units": 36.0,
+      "source_sha256": {
+        "Sources/FeatherTide/Data/GrayboxPlaces.swift": "48b5d730b06e4d0a05e32a4f823290aa3a53cec28f30682a23e1b7fca8d5e308",
+        "Sources/FeatherTide/Data/FlockTuning.swift": "37b15ad66a1164738ecf651dde6c507ae6db2ffbba7f8e4c4394f87b655080b1",
+        "Sources/FeatherTide/Systems/Flock/FlockFormation.swift": "6c5347ca2fa050afdd4573c01dda97b617b2f0e82ff06e38df9bde71f3014eb9",
+        "Sources/FeatherTide/Systems/Trace/TraceOverlay.swift": "dbe7c063be8c1e11a00a66ae11c4f52a8e6ee9457b9ecef8cdfcccc433689273",
+        "Sources/FeatherTide/Rendering/PlayfieldView.swift": "8c37c08a35b8b299cc9af9f9e63e64ef5d50947e12822356fee8de398bc110dc",
+        "Sources/FeatherTide/Systems/Camera/ThirdPersonRig.swift": "274b58f0b910a280c676540dde54343c35e2e0709744e20e7e5ee4f9515476a2"
+      },
+      "source_sweep_rule": "Swift tests leader XY against a radius of 78 game units.",
+      "flight_height_leader_and_followers_game_units": [
+        8,
+        6
+      ],
+      "camera": {
+        "distance_game_units": 180,
+        "pitch_radians": 0.48,
+        "vertical_fov_degrees": 50,
+        "target_height_game_units": 6,
+        "source_px": [
+          852,
+          393
+        ]
+      },
+      "proxy_placement_xy_BU": [
+        18.600000381469727,
+        9.199999809265137
+      ],
+      "review_formation_count": 12,
+      "graybox_default_followers": 8
+    }
+  },
+  "independent_delivery_recheck": {
+    "status": "pass",
+    "blender": "5.2.2 LTS",
+    "two_animation_tracks_and_embedded_PNGs": "pass",
+    "triangles_uv_normals_and_transforms": "pass",
+    "source_checks": {
+      "boundary_anchor_xy_BU": [
+        19.19999885559082,
+        -5.23491907119751
+      ],
+      "analytic_contact_to_FX010_Boundary_delta_BU": 3.2044024689505465e-05,
+      "max_animated_vertex_outside_union_BU": 0,
+      "max_approach_edge_axis_error_BU": 6.092015581682375e-05,
+      "authored_prewarning_seconds": 3.0,
+      "sampled_half_frames": 241,
+      "review_first_analytic_entry_frame": 84.0,
+      "independent_single_playbacks": [
+        {
+          "mesh": "ApproachEdge",
+          "positive_width_start_end_frames": [
+            12.5,
+            83.5
+          ],
+          "nonzero_intervals": 1,
+          "max_planar_area_BU2": 2.3044474866453983
+        },
+        {
+          "mesh": "ContactPressure",
+          "positive_width_start_end_frames": [
+            84.5,
+            109.5
+          ],
+          "nonzero_intervals": 1,
+          "max_planar_area_BU2": 0.5955179637904725
+        }
+      ],
+      "note": "Offline programmed crossing. Collision, timing and rearming use game Zone."
+    },
+    "glb_checks": {
+      "boundary_anchor_xy_BU": [
+        19.19999885559082,
+        -5.23491907119751
+      ],
+      "analytic_contact_to_FX010_Boundary_delta_BU": 3.2044024689505465e-05,
+      "max_animated_vertex_outside_union_BU": 0,
+      "max_approach_edge_axis_error_BU": 6.092015581682375e-05,
+      "authored_prewarning_seconds": 3.0,
+      "sampled_half_frames": 241,
+      "review_first_analytic_entry_frame": 84.0,
+      "independent_single_playbacks": [
+        {
+          "mesh": "ApproachEdge",
+          "positive_width_start_end_frames": [
+            12.5,
+            83.5
+          ],
+          "nonzero_intervals": 1,
+          "max_planar_area_BU2": 2.3044474866453983
+        },
+        {
+          "mesh": "ContactPressure",
+          "positive_width_start_end_frames": [
+            84.5,
+            109.5
+          ],
+          "nonzero_intervals": 1,
+          "max_planar_area_BU2": 0.5955179637904725
+        }
+      ],
+      "note": "Offline programmed crossing. Collision, timing and rearming use game Zone."
+    },
+    "max_source_GLTF_animated_area_delta_BU2": 0.0,
+    "FX010_marsh_and_flock_distances_delta_BU": {
+      "minimum_reserved_lane_width_BU": 0.0,
+      "whole_track_min_gap_BU": 0.0,
+      "conservative_landing_AABB_gap_BU": 0.0
+    },
+    "same_shot_default_preview_mean_error_8bit": 0.005000458098948002,
+    "video_silent_full_decode": {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 852,
+      "height": 394,
+      "r_frame_rate": "8/1",
+      "duration": "5.000000",
+      "nb_read_frames": "40"
+    }
+  },
+  "pending": [
+    "Owner art approval",
+    "Actual Zone triggers once, resets, and agrees with FX-010 perimeter",
+    "About three seconds of reaction at runtime approach speeds",
+    "RealityKit material sorting and mesh morph playback",
+    "USDZ and App integration",
+    "iPhone/iPad physical devices"
+  ],
+  "redline_review": "Reviewed against plans/_templates/redline-checklist.md; muted visual cue and no audio in the sample.",
+  "app_baseline": "Existing iOS 27.2 and 340 tests in the active plan; Blender-only verification in this delivery."
+}

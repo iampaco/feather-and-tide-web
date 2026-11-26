@@ -1,0 +1,2024 @@
+{
+  "schemaVersion": 1,
+  "levelRevision": "whale-p2-11",
+  "id": "whale",
+  "title": "安静航道",
+  "titleEn": "Quiet Passage",
+  "species": "whale",
+  "modes": ["journey"],
+  "routes": ["shipping", "quiet"],
+  "bounds": {
+    "min": {
+      "x": -142,
+      "z": 12
+    },
+    "max": {
+      "x": 142,
+      "z": 1600
+    }
+  },
+  "spawn": {
+    "x": 0,
+    "z": 48
+  },
+  "spawnSegment": "W0",
+  "segments": [
+    {
+      "id": "W0",
+      "title": "海湾起游",
+      "titleEn": "Leaving the Bay",
+      "start": 12,
+      "wind": {
+        "x": 0,
+        "z": 0
+      },
+      "color": "#76a8a6"
+    },
+    {
+      "id": "W1",
+      "title": "船舶航线",
+      "titleEn": "Shipping Lane",
+      "start": 270,
+      "wind": {
+        "x": 0,
+        "z": 0
+      },
+      "color": "#708e9d"
+    },
+    {
+      "id": "W2",
+      "title": "渔网区",
+      "titleEn": "Fishing Nets",
+      "start": 625,
+      "wind": {
+        "x": 0,
+        "z": 0
+      },
+      "color": "#668493"
+    },
+    {
+      "id": "W3",
+      "title": "两条航道",
+      "titleEn": "Two Channels",
+      "start": 930,
+      "wind": {
+        "x": 0,
+        "z": 0
+      },
+      "color": "#72979c"
+    },
+    {
+      "id": "W4",
+      "title": "外海汇合",
+      "titleEn": "Offshore Reunion",
+      "start": 1320,
+      "wind": {
+        "x": 0,
+        "z": 0
+      },
+      "color": "#839eb2"
+    }
+  ],
+  "zones": [
+    {
+      "id": "bay-rest",
+      "kind": "sanctuary",
+      "label": "海湾 · 可停留换气",
+      "labelEn": "Bay · Stop to Breathe",
+      "points": [
+        {
+          "x": -142,
+          "z": 12
+        },
+        {
+          "x": 142,
+          "z": 12
+        },
+        {
+          "x": 142,
+          "z": 270
+        },
+        {
+          "x": -142,
+          "z": 270
+        },
+        {
+          "x": -142,
+          "z": 12
+        }
+      ]
+    },
+    {
+      "id": "bay-current",
+      "kind": "current",
+      "label": "沿礁借流",
+      "labelEn": "Ride the Current Along the Reef",
+      "points": [
+        {
+          "x": 8,
+          "z": 145
+        },
+        {
+          "x": 34,
+          "z": 145
+        },
+        {
+          "x": 34,
+          "z": 192
+        },
+        {
+          "x": 8,
+          "z": 192
+        },
+        {
+          "x": 8,
+          "z": 145
+        }
+      ],
+      "direction": {
+        "x": 0,
+        "z": 1
+      },
+      "minAlignment": 0.78,
+      "speedAssist": 1.8,
+      "fullAssistAt": 0.42,
+      "energySaving": 0.3
+    },
+    {
+      "id": "waiting-water",
+      "kind": "sanctuary",
+      "label": "待航水域 · 观察船的航向",
+      "labelEn": "Holding Waters · Watch the Ship’s Heading",
+      "points": [
+        {
+          "x": -142,
+          "z": 270
+        },
+        {
+          "x": 142,
+          "z": 270
+        },
+        {
+          "x": 142,
+          "z": 382
+        },
+        {
+          "x": -142,
+          "z": 382
+        },
+        {
+          "x": -142,
+          "z": 270
+        }
+      ]
+    },
+    {
+      "id": "ship-approach-breakwater-warning",
+      "kind": "warning",
+      "label": "湾口防波堤在前",
+      "labelEn": "Bay Breakwater Ahead",
+      "points": [
+        {
+          "x": -42,
+          "z": 270
+        },
+        {
+          "x": 42,
+          "z": 270
+        },
+        {
+          "x": 42,
+          "z": 340
+        },
+        {
+          "x": -42,
+          "z": 340
+        },
+        {
+          "x": -42,
+          "z": 270
+        }
+      ],
+      "hazardId": "ship-approach-breakwater"
+    },
+    {
+      "id": "ship-approach-breakwater",
+      "kind": "hazard",
+      "label": "湾口防波堤",
+      "labelEn": "Bay Breakwater",
+      "points": [
+        {
+          "x": -10,
+          "z": 310
+        },
+        {
+          "x": 10,
+          "z": 310
+        },
+        {
+          "x": 10,
+          "z": 322
+        },
+        {
+          "x": -10,
+          "z": 322
+        },
+        {
+          "x": -10,
+          "z": 310
+        }
+      ],
+      "cost": 0,
+      "depthMask": 7,
+      "structure": "breakwater"
+    },
+    {
+      "id": "ship-approach",
+      "kind": "warning",
+      "label": "船道在前 · 水面／浅潜受阻",
+      "labelEn": "Shipping Lane Ahead · Surface and Shallow Blocked",
+      "points": [
+        {
+          "x": -142,
+          "z": 357
+        },
+        {
+          "x": 142,
+          "z": 357
+        },
+        {
+          "x": 142,
+          "z": 448
+        },
+        {
+          "x": -142,
+          "z": 448
+        },
+        {
+          "x": -142,
+          "z": 357
+        }
+      ],
+      "hazardId": "cargo-ship"
+    },
+    {
+      "id": "cargo-ship",
+      "kind": "hazard",
+      "label": "船体 · 水面／浅潜",
+      "labelEn": "Ship Hull · Surface and Shallow",
+      "points": [
+        {
+          "x": -136,
+          "z": 418
+        },
+        {
+          "x": -130,
+          "z": 408
+        },
+        {
+          "x": -112,
+          "z": 408
+        },
+        {
+          "x": -106,
+          "z": 418
+        },
+        {
+          "x": -112,
+          "z": 428
+        },
+        {
+          "x": -130,
+          "z": 428
+        },
+        {
+          "x": -136,
+          "z": 418
+        }
+      ],
+      "cost": 0.16,
+      "depthMask": 3,
+      "motion": {
+        "travel": {
+          "x": 242,
+          "z": 0
+        },
+        "periodTicks": 6000,
+        "phaseTicks": 900
+      }
+    },
+    {
+      "id": "crossing-rest",
+      "kind": "sanctuary",
+      "label": "船后静水 · 可上浮换气",
+      "labelEn": "Calm Water Beyond the Ship · Surface to Breathe",
+      "points": [
+        {
+          "x": -142,
+          "z": 459
+        },
+        {
+          "x": 142,
+          "z": 459
+        },
+        {
+          "x": 142,
+          "z": 622
+        },
+        {
+          "x": -142,
+          "z": 622
+        },
+        {
+          "x": -142,
+          "z": 459
+        }
+      ]
+    },
+    {
+      "id": "C1",
+      "kind": "checkpoint",
+      "label": "检查点 1 · 船后静水",
+      "labelEn": "Checkpoint 1 · Calm Water Beyond the Ship",
+      "points": [
+        {
+          "x": -142,
+          "z": 485
+        },
+        {
+          "x": 142,
+          "z": 485
+        },
+        {
+          "x": 142,
+          "z": 610
+        },
+        {
+          "x": -142,
+          "z": 610
+        },
+        {
+          "x": -142,
+          "z": 485
+        }
+      ]
+    },
+    {
+      "id": "shelf-current",
+      "kind": "current",
+      "label": "明沙浅槽 · 可借流",
+      "labelEn": "Sandy Channel · Optional Current",
+      "points": [
+        {
+          "x": -19,
+          "z": 526
+        },
+        {
+          "x": 12,
+          "z": 526
+        },
+        {
+          "x": 46,
+          "z": 622
+        },
+        {
+          "x": 17,
+          "z": 622
+        },
+        {
+          "x": -19,
+          "z": 526
+        }
+      ],
+      "direction": {
+        "x": 0.34,
+        "z": 0.9404254356406998
+      },
+      "minAlignment": 0.77,
+      "fullAssistAt": 0.42,
+      "speedAssist": 1.95,
+      "energySaving": 0.3
+    },
+    {
+      "id": "net-approach",
+      "kind": "warning",
+      "label": "全深渔网 · 从东侧航标绕行",
+      "labelEn": "Full-Depth Nets · Follow the Markers East",
+      "points": [
+        {
+          "x": -142,
+          "z": 661
+        },
+        {
+          "x": 62,
+          "z": 661
+        },
+        {
+          "x": 62,
+          "z": 792
+        },
+        {
+          "x": -142,
+          "z": 792
+        },
+        {
+          "x": -142,
+          "z": 661
+        }
+      ],
+      "hazardId": "drift-net"
+    },
+    {
+      "id": "drift-net",
+      "kind": "hazard",
+      "label": "渔网 · 三层阻挡",
+      "labelEn": "Fishing Nets · Block All Depths",
+      "points": [
+        {
+          "x": -142,
+          "z": 748
+        },
+        {
+          "x": 58,
+          "z": 748
+        },
+        {
+          "x": 58,
+          "z": 774
+        },
+        {
+          "x": -142,
+          "z": 774
+        },
+        {
+          "x": -142,
+          "z": 748
+        }
+      ],
+      "cost": 0.14,
+      "depthMask": 7
+    },
+    {
+      "id": "net-divider-approach",
+      "kind": "warning",
+      "label": "网具分隔 · 短网口与外侧宽线",
+      "labelEn": "Nets Ahead · Narrow Gap or Wide Outer Route",
+      "points": [
+        {
+          "x": 86,
+          "z": 680
+        },
+        {
+          "x": 108,
+          "z": 680
+        },
+        {
+          "x": 108,
+          "z": 792
+        },
+        {
+          "x": 86,
+          "z": 792
+        },
+        {
+          "x": 86,
+          "z": 680
+        }
+      ],
+      "hazardId": "net-divider"
+    },
+    {
+      "id": "net-divider",
+      "kind": "hazard",
+      "label": "渔网 · 三层阻挡",
+      "labelEn": "Fishing Nets · Block All Depths",
+      "points": [
+        {
+          "x": 91,
+          "z": 748
+        },
+        {
+          "x": 102,
+          "z": 748
+        },
+        {
+          "x": 102,
+          "z": 774
+        },
+        {
+          "x": 91,
+          "z": 774
+        },
+        {
+          "x": 91,
+          "z": 748
+        }
+      ],
+      "cost": 0.14,
+      "depthMask": 7
+    },
+    {
+      "id": "net-rest",
+      "kind": "sanctuary",
+      "label": "外侧静水 · 接应与换气",
+      "labelEn": "Calm Outer Water · Rescue and Breathe",
+      "points": [
+        {
+          "x": 115,
+          "z": 792
+        },
+        {
+          "x": 142,
+          "z": 792
+        },
+        {
+          "x": 142,
+          "z": 938
+        },
+        {
+          "x": 115,
+          "z": 938
+        },
+        {
+          "x": 115,
+          "z": 792
+        }
+      ]
+    },
+    {
+      "id": "net-kelp",
+      "kind": "supply",
+      "label": "海藻湾 · 带队靠拢后补给",
+      "labelEn": "Kelp Bay · Regroup to Refuel",
+      "points": [
+        {
+          "x": 15,
+          "z": 835
+        },
+        {
+          "x": 62,
+          "z": 835
+        },
+        {
+          "x": 62,
+          "z": 903
+        },
+        {
+          "x": 15,
+          "z": 903
+        },
+        {
+          "x": 15,
+          "z": 835
+        }
+      ],
+      "capacity": 0.38
+    },
+    {
+      "id": "junction-rest",
+      "kind": "sanctuary",
+      "label": "分岔水域 · 停留选路",
+      "labelEn": "Channel Fork · Stop to Choose",
+      "points": [
+        {
+          "x": -142,
+          "z": 938
+        },
+        {
+          "x": 142,
+          "z": 938
+        },
+        {
+          "x": 142,
+          "z": 1040
+        },
+        {
+          "x": -142,
+          "z": 1040
+        },
+        {
+          "x": -142,
+          "z": 938
+        }
+      ]
+    },
+    {
+      "id": "shipping-hold-water",
+      "kind": "sanctuary",
+      "label": "近航道静水 · 等候队尾",
+      "labelEn": "Calm Water by the Short Channel · Wait for the Pod",
+      "points": [
+        {
+          "x": 89,
+          "z": 1045
+        },
+        {
+          "x": 140,
+          "z": 1045
+        },
+        {
+          "x": 140,
+          "z": 1088
+        },
+        {
+          "x": 89,
+          "z": 1088
+        },
+        {
+          "x": 89,
+          "z": 1045
+        }
+      ]
+    },
+    {
+      "id": "shipping-noise",
+      "kind": "interference",
+      "label": "近航道 · 噪声带影响三个水层",
+      "labelEn": "Short Channel · Noise Reaches All Depths",
+      "points": [
+        {
+          "x": -36,
+          "z": 1090
+        },
+        {
+          "x": 142,
+          "z": 1090
+        },
+        {
+          "x": 142,
+          "z": 1126
+        },
+        {
+          "x": -36,
+          "z": 1126
+        },
+        {
+          "x": -36,
+          "z": 1090
+        }
+      ],
+      "strain": 1,
+      "cycle": {
+        "periodTicks": 1200,
+        "activeTicks": 420,
+        "phaseTicks": 0,
+        "followSpeed": 7,
+        "cohesionLoss": 0.07
+      }
+    },
+    {
+      "id": "shipping-refill",
+      "kind": "supply",
+      "label": "船道外缘 · 换气与补给",
+      "labelEn": "Shipping Lane Edge · Breathe and Refuel",
+      "points": [
+        {
+          "x": 38,
+          "z": 1128
+        },
+        {
+          "x": 114,
+          "z": 1128
+        },
+        {
+          "x": 114,
+          "z": 1174
+        },
+        {
+          "x": 38,
+          "z": 1174
+        },
+        {
+          "x": 38,
+          "z": 1128
+        }
+      ],
+      "capacity": 0.42
+    },
+    {
+      "id": "dredge-rest",
+      "kind": "sanctuary",
+      "label": "疏浚区外 · 清水换气湾",
+      "labelEn": "Beyond the Dredging Area · Clear Water for Breathing",
+      "points": [
+        {
+          "x": 19,
+          "z": 1244
+        },
+        {
+          "x": 111,
+          "z": 1244
+        },
+        {
+          "x": 111,
+          "z": 1280
+        },
+        {
+          "x": 19,
+          "z": 1280
+        },
+        {
+          "x": 19,
+          "z": 1244
+        }
+      ]
+    },
+    {
+      "id": "quiet-rest",
+      "kind": "sanctuary",
+      "label": "安静航道 · 可停留换气",
+      "labelEn": "Quiet Passage · Stop to Breathe",
+      "points": [
+        {
+          "x": -142,
+          "z": 1092
+        },
+        {
+          "x": -44,
+          "z": 1092
+        },
+        {
+          "x": -44,
+          "z": 1210
+        },
+        {
+          "x": -142,
+          "z": 1210
+        },
+        {
+          "x": -142,
+          "z": 1092
+        }
+      ]
+    },
+    {
+      "id": "reef-current",
+      "kind": "current",
+      "label": "第一段顺流",
+      "labelEn": "First Current",
+      "points": [
+        {
+          "x": -104,
+          "z": 1128
+        },
+        {
+          "x": -87,
+          "z": 1128
+        },
+        {
+          "x": -65,
+          "z": 1178
+        },
+        {
+          "x": -82,
+          "z": 1178
+        },
+        {
+          "x": -104,
+          "z": 1128
+        }
+      ],
+      "direction": {
+        "x": 22,
+        "z": 50
+      },
+      "minAlignment": 0.86,
+      "speedAssist": 1.85,
+      "fullAssistAt": 0.42,
+      "energySaving": 0.48
+    },
+    {
+      "id": "reef-eddy",
+      "kind": "sanctuary",
+      "label": "礁间静水 · 换气集队",
+      "labelEn": "Calm Reef Waters · Breathe and Regroup",
+      "points": [
+        {
+          "x": -96,
+          "z": 1178
+        },
+        {
+          "x": -45,
+          "z": 1178
+        },
+        {
+          "x": -45,
+          "z": 1214
+        },
+        {
+          "x": -96,
+          "z": 1214
+        },
+        {
+          "x": -96,
+          "z": 1178
+        }
+      ]
+    },
+    {
+      "id": "reef-current-east",
+      "kind": "current",
+      "label": "第二段顺流",
+      "labelEn": "Second Current",
+      "points": [
+        {
+          "x": -76,
+          "z": 1214
+        },
+        {
+          "x": -54,
+          "z": 1214
+        },
+        {
+          "x": -10,
+          "z": 1243
+        },
+        {
+          "x": -32,
+          "z": 1243
+        },
+        {
+          "x": -76,
+          "z": 1214
+        }
+      ],
+      "direction": {
+        "x": 44,
+        "z": 29
+      },
+      "minAlignment": 0.82,
+      "speedAssist": 2,
+      "fullAssistAt": 0.42,
+      "energySaving": 0.48
+    },
+    {
+      "id": "merge-rest",
+      "kind": "sanctuary",
+      "label": "汇流水域 · 安全休整",
+      "labelEn": "Channel Junction · Safe to Rest",
+      "points": [
+        {
+          "x": -142,
+          "z": 1267
+        },
+        {
+          "x": 142,
+          "z": 1267
+        },
+        {
+          "x": 142,
+          "z": 1407
+        },
+        {
+          "x": -142,
+          "z": 1407
+        },
+        {
+          "x": -142,
+          "z": 1267
+        }
+      ]
+    },
+    {
+      "id": "C2",
+      "kind": "checkpoint",
+      "label": "检查点 2 · 汇流水域",
+      "labelEn": "Checkpoint 2 · Channel Junction",
+      "points": [
+        {
+          "x": -142,
+          "z": 1320
+        },
+        {
+          "x": 142,
+          "z": 1320
+        },
+        {
+          "x": 142,
+          "z": 1406
+        },
+        {
+          "x": -142,
+          "z": 1406
+        },
+        {
+          "x": -142,
+          "z": 1320
+        }
+      ]
+    },
+    {
+      "id": "offshore-breakwater-warning",
+      "kind": "warning",
+      "label": "前方防波堤 · 朝东侧水道",
+      "labelEn": "Breakwater Ahead · Head for the East Channel",
+      "hazardId": "offshore-breakwater",
+      "points": [
+        {
+          "x": -142,
+          "z": 1368
+        },
+        {
+          "x": 46,
+          "z": 1374
+        },
+        {
+          "x": 46,
+          "z": 1434
+        },
+        {
+          "x": -142,
+          "z": 1434
+        },
+        {
+          "x": -142,
+          "z": 1368
+        }
+      ]
+    },
+    {
+      "id": "offshore-breakwater",
+      "kind": "hazard",
+      "label": "防波堤 · 三层均不可通行",
+      "labelEn": "Breakwater · Blocks All Depths",
+      "structure": "breakwater",
+      "cost": 0.035,
+      "depthMask": 7,
+      "points": [
+        {
+          "x": -142,
+          "z": 1404
+        },
+        {
+          "x": -65,
+          "z": 1407
+        },
+        {
+          "x": 2,
+          "z": 1410
+        },
+        {
+          "x": 32,
+          "z": 1415
+        },
+        {
+          "x": 33,
+          "z": 1422
+        },
+        {
+          "x": -24,
+          "z": 1426
+        },
+        {
+          "x": -142,
+          "z": 1419
+        },
+        {
+          "x": -142,
+          "z": 1404
+        }
+      ]
+    },
+    {
+      "id": "breakwater-cross-current",
+      "kind": "crossCurrent",
+      "label": "堤头横流 · 向东推移",
+      "labelEn": "Breakwater Crosscurrent · Pushes East",
+      "velocity": {
+        "x": 3.1,
+        "z": 0
+      },
+      "points": [
+        {
+          "x": 30,
+          "z": 1422
+        },
+        {
+          "x": 76,
+          "z": 1418
+        },
+        {
+          "x": 75,
+          "z": 1440
+        },
+        {
+          "x": 67,
+          "z": 1459
+        },
+        {
+          "x": 21,
+          "z": 1459
+        },
+        {
+          "x": 20,
+          "z": 1442
+        },
+        {
+          "x": 30,
+          "z": 1422
+        }
+      ]
+    },
+    {
+      "id": "offshore-current",
+      "kind": "current",
+      "label": "外海顺流带",
+      "labelEn": "Offshore Current",
+      "points": [
+        {
+          "x": 82,
+          "z": 1409
+        },
+        {
+          "x": 112,
+          "z": 1409
+        },
+        {
+          "x": 97,
+          "z": 1461
+        },
+        {
+          "x": 67,
+          "z": 1461
+        },
+        {
+          "x": 82,
+          "z": 1409
+        }
+      ],
+      "direction": {
+        "x": -15,
+        "z": 52
+      },
+      "minAlignment": 0.82,
+      "speedAssist": 1.9,
+      "energySaving": 0.42
+    },
+    {
+      "id": "offshore-rest",
+      "kind": "sanctuary",
+      "label": "外海静水 · 准备全队上浮",
+      "labelEn": "Calm Offshore Waters · Prepare to Surface Together",
+      "points": [
+        {
+          "x": -142,
+          "z": 1461
+        },
+        {
+          "x": 142,
+          "z": 1461
+        },
+        {
+          "x": 142,
+          "z": 1600
+        },
+        {
+          "x": -142,
+          "z": 1600
+        },
+        {
+          "x": -142,
+          "z": 1461
+        }
+      ]
+    },
+    {
+      "id": "watching-rest",
+      "kind": "sanctuary",
+      "label": "观鲸船减速区 · 内侧静水",
+      "labelEn": "Whale-Watching Slow Zone · Calm Water Inside",
+      "points": [
+        {
+          "x": 67,
+          "z": 1463
+        },
+        {
+          "x": 126,
+          "z": 1463
+        },
+        {
+          "x": 126,
+          "z": 1516
+        },
+        {
+          "x": 67,
+          "z": 1516
+        },
+        {
+          "x": 67,
+          "z": 1463
+        }
+      ]
+    },
+    {
+      "id": "offshore-goal",
+      "kind": "goal",
+      "label": "外海汇合 · 六鲸水面集合",
+      "labelEn": "Offshore Reunion · All Six Whales Surface",
+      "points": [
+        {
+          "x": 24,
+          "z": 1518
+        },
+        {
+          "x": 136,
+          "z": 1518
+        },
+        {
+          "x": 136,
+          "z": 1590
+        },
+        {
+          "x": 24,
+          "z": 1590
+        },
+        {
+          "x": 24,
+          "z": 1518
+        }
+      ]
+    }
+  ],
+  "triggers": [
+    {
+      "id": "ship-gate",
+      "kind": "route",
+      "label": "近航道 · 短线受噪声影响",
+      "labelEn": "Short Channel · Noise Affects the Route",
+      "points": [
+        {
+          "x": -36,
+          "z": 1024
+        },
+        {
+          "x": 142,
+          "z": 1024
+        },
+        {
+          "x": 142,
+          "z": 1048
+        },
+        {
+          "x": -36,
+          "z": 1048
+        },
+        {
+          "x": -36,
+          "z": 1024
+        }
+      ],
+      "route": "shipping",
+      "crossingZ": 1040
+    },
+    {
+      "id": "quiet-gate",
+      "kind": "route",
+      "label": "安静航道 · 长线队伍稳定",
+      "labelEn": "Quiet Passage · Longer Route Keeps the Pod Close",
+      "points": [
+        {
+          "x": -142,
+          "z": 1024
+        },
+        {
+          "x": -36,
+          "z": 1024
+        },
+        {
+          "x": -36,
+          "z": 1048
+        },
+        {
+          "x": -142,
+          "z": 1048
+        },
+        {
+          "x": -142,
+          "z": 1024
+        }
+      ],
+      "route": "quiet",
+      "crossingZ": 1040
+    },
+    {
+      "id": "whale-merge",
+      "kind": "merge",
+      "label": "航道汇合 · 记录所选航线",
+      "labelEn": "Channel Junction · Route Recorded",
+      "points": [
+        {
+          "x": -142,
+          "z": 1290
+        },
+        {
+          "x": 142,
+          "z": 1290
+        },
+        {
+          "x": 142,
+          "z": 1319
+        },
+        {
+          "x": -142,
+          "z": 1319
+        },
+        {
+          "x": -142,
+          "z": 1290
+        }
+      ]
+    }
+  ],
+  "landmarks": [
+    {
+      "id": "bay-bend-entry",
+      "pos": {
+        "x": -19,
+        "z": 74
+      },
+      "label": "海蚀拱内湾 · 练习滑停",
+      "labelEn": "Inner Bay · Glide to a Stop",
+      "kind": "beacon"
+    },
+    {
+      "id": "bay-turn",
+      "pos": {
+        "x": -33,
+        "z": 105
+      },
+      "label": "内湾弯标 · 准备松手",
+      "labelEn": "Inner Bay Bend · Prepare to Release",
+      "kind": "beacon"
+    },
+    {
+      "id": "bay-stop",
+      "pos": {
+        "x": -44,
+        "z": 131
+      },
+      "label": "海湾静水 · 松手停稳",
+      "labelEn": "Calm Bay Waters · Release to Stop",
+      "kind": "water"
+    },
+    {
+      "id": "bay-observe",
+      "pos": {
+        "x": 91,
+        "z": 112
+      },
+      "label": "海蚀岩",
+      "labelEn": "Sea Arch",
+      "kind": "peak"
+    },
+    {
+      "id": "bay-shoal",
+      "pos": {
+        "x": 5,
+        "z": 118
+      },
+      "label": "银鱼群",
+      "labelEn": "Shoal of Silver Fish",
+      "kind": "shoal"
+    },
+    {
+      "id": "bay-surface-turn",
+      "kind": "beacon",
+      "label": "从水面绕过鱼群",
+      "labelEn": "Bank Around the Shoal at the Surface",
+      "pos": {
+        "x": -18,
+        "z": 139
+      }
+    },
+    {
+      "id": "bay-refill",
+      "pos": {
+        "x": 14,
+        "z": 218
+      },
+      "label": "湾口亮水",
+      "labelEn": "Bright Water at the Bay Mouth",
+      "kind": "water"
+    },
+    {
+      "id": "bay-exit",
+      "pos": {
+        "x": 0,
+        "z": 248
+      },
+      "label": "出湾航标",
+      "labelEn": "Bay Exit",
+      "kind": "beacon"
+    },
+    {
+      "id": "ship-bend-in",
+      "kind": "beacon",
+      "label": "沿浮标绕防波堤",
+      "labelEn": "Bank Around the Breakwater",
+      "pos": {
+        "x": 29,
+        "z": 290
+      }
+    },
+    {
+      "id": "ship-bend-out",
+      "kind": "beacon",
+      "label": "绕过堤尾，再转向",
+      "labelEn": "Clear the Breakwater Before Turning",
+      "pos": {
+        "x": 29,
+        "z": 335
+      }
+    },
+    {
+      "id": "ship-west-bend-in",
+      "kind": "beacon",
+      "label": "沿浮标绕防波堤",
+      "labelEn": "Bank Around the Breakwater",
+      "pos": {
+        "x": -29,
+        "z": 290
+      }
+    },
+    {
+      "id": "ship-west-bend-out",
+      "kind": "beacon",
+      "label": "绕过堤尾，再转向",
+      "labelEn": "Clear the Breakwater Before Turning",
+      "pos": {
+        "x": -29,
+        "z": 335
+      }
+    },
+    {
+      "id": "ship-wait",
+      "pos": {
+        "x": 0,
+        "z": 340
+      },
+      "label": "待航水域",
+      "labelEn": "Holding Waters",
+      "kind": "water"
+    },
+    {
+      "id": "ship-dive",
+      "pos": {
+        "x": 0,
+        "z": 380
+      },
+      "label": "船道入口",
+      "labelEn": "Shipping Lane Entrance",
+      "kind": "beacon"
+    },
+    {
+      "id": "ship-clear",
+      "pos": {
+        "x": 0,
+        "z": 465
+      },
+      "label": "穿越后可在这里上浮",
+      "labelEn": "Surface Here After Crossing",
+      "kind": "water"
+    },
+    {
+      "id": "first-checkpoint",
+      "pos": {
+        "x": 0,
+        "z": 528
+      },
+      "label": "检查点 1",
+      "labelEn": "Checkpoint 1",
+      "kind": "beacon"
+    },
+    {
+      "id": "net-preview-short",
+      "pos": {
+        "x": 22,
+        "z": 555
+      },
+      "label": "短网口 · 提前收速",
+      "labelEn": "Narrow Net Gap · Slow Early",
+      "kind": "beacon"
+    },
+    {
+      "id": "net-preview-wide",
+      "pos": {
+        "x": 59,
+        "z": 569
+      },
+      "label": "外侧宽线 · 可巡航",
+      "labelEn": "Wide Outer Route · Cruise Through",
+      "kind": "beacon"
+    },
+    {
+      "id": "net-detour",
+      "pos": {
+        "x": 38,
+        "z": 648
+      },
+      "label": "网前分岔 · 提前选路",
+      "labelEn": "Fork Before the Nets · Choose Early",
+      "kind": "beacon"
+    },
+    {
+      "id": "net-short-entry",
+      "pos": {
+        "x": 75,
+        "z": 705
+      },
+      "label": "短口前 · 提前对准",
+      "labelEn": "Line Up Before the Gap",
+      "kind": "beacon"
+    },
+    {
+      "id": "net-wide-entry",
+      "pos": {
+        "x": 114,
+        "z": 708
+      },
+      "label": "外侧弧线 · 向静水",
+      "labelEn": "Outer Curve · Toward Calm Water",
+      "kind": "beacon"
+    },
+    {
+      "id": "net-gap",
+      "pos": {
+        "x": 75,
+        "z": 760
+      },
+      "label": "短网口 · 对准后缓游",
+      "labelEn": "Narrow Net Gap · Line Up and Swim Slowly",
+      "kind": "beacon"
+    },
+    {
+      "id": "net-wide",
+      "pos": {
+        "x": 124,
+        "z": 760
+      },
+      "label": "外侧宽线 · 可巡航绕行",
+      "labelEn": "Wide Outer Route · Cruise Around the Nets",
+      "kind": "beacon"
+    },
+    {
+      "id": "net-runout",
+      "pos": {
+        "x": 75,
+        "z": 807
+      },
+      "label": "沿短网口直游 · 等队尾清网",
+      "labelEn": "Swim Straight Through the Gap · Wait for the Pod",
+      "kind": "beacon"
+    },
+    {
+      "id": "net-wide-out",
+      "pos": {
+        "x": 124,
+        "z": 807
+      },
+      "label": "无网水道 · 等队尾清网",
+      "labelEn": "Net-Free Channel · Wait for the Pod",
+      "kind": "beacon"
+    },
+    {
+      "id": "net-short-clear",
+      "pos": {
+        "x": 70,
+        "z": 907
+      },
+      "label": "短网口出口 · 前往分岔",
+      "labelEn": "Net Gap Exit · Toward the Fork",
+      "kind": "beacon"
+    },
+    {
+      "id": "net-clear",
+      "pos": {
+        "x": 126,
+        "z": 865
+      },
+      "label": "无网水道 · 静水换气",
+      "labelEn": "Net-Free Channel · Surface in Calm Water",
+      "kind": "water"
+    },
+    {
+      "id": "net-wide-merge",
+      "pos": {
+        "x": 100,
+        "z": 908
+      },
+      "label": "沿静水缓转 · 海藻湾或分岔",
+      "labelEn": "Turn Gently Through Calm Water · Kelp Bay or Fork",
+      "kind": "beacon"
+    },
+    {
+      "id": "kelp-short-entry",
+      "pos": {
+        "x": 72,
+        "z": 831
+      },
+      "label": "短切进湾 · 提前收速",
+      "labelEn": "Shortcut Into the Bay · Slow Early",
+      "kind": "beacon"
+    },
+    {
+      "id": "kelp-short-bend",
+      "pos": {
+        "x": 53,
+        "z": 848
+      },
+      "label": "短切弯标 · 缓游进湾",
+      "labelEn": "Shortcut Turn · Swim Slowly Into the Bay",
+      "kind": "beacon"
+    },
+    {
+      "id": "kelp-center",
+      "pos": {
+        "x": 39,
+        "z": 875
+      },
+      "label": "海藻湾 · 补给",
+      "labelEn": "Kelp Bay · Supplies",
+      "kind": "water"
+    },
+    {
+      "id": "net-recovery-dock",
+      "pos": {
+        "x": 142,
+        "z": 830
+      },
+      "label": "渔具回收码头",
+      "labelEn": "Fishing Gear Recovery Pier",
+      "kind": "peak"
+    },
+    {
+      "id": "kelp-arc-entry",
+      "pos": {
+        "x": 104,
+        "z": 837
+      },
+      "label": "外侧缓弧 · 带队靠拢",
+      "labelEn": "Wide Outer Curve · Regroup",
+      "kind": "beacon"
+    },
+    {
+      "id": "kelp-arc-bend",
+      "pos": {
+        "x": 108,
+        "z": 861
+      },
+      "label": "沿外弧缓转",
+      "labelEn": "Turn Gently Along the Outer Curve",
+      "kind": "beacon"
+    },
+    {
+      "id": "kelp-arc-approach",
+      "pos": {
+        "x": 91,
+        "z": 883
+      },
+      "label": "沿外弧靠拢",
+      "labelEn": "Regroup Along the Outer Curve",
+      "kind": "beacon"
+    },
+    {
+      "id": "kelp-arc-mouth",
+      "pos": {
+        "x": 65,
+        "z": 892
+      },
+      "label": "外弧入湾口",
+      "labelEn": "Outer Bay Entrance",
+      "kind": "beacon"
+    },
+    {
+      "id": "kelp-arc-end",
+      "pos": {
+        "x": 34,
+        "z": 894
+      },
+      "label": "继续进湾 · 给队尾留空间",
+      "labelEn": "Swim Farther Into the Bay · Make Room for the Pod",
+      "kind": "beacon"
+    },
+    {
+      "id": "branch-overlook",
+      "pos": {
+        "x": 34,
+        "z": 955
+      },
+      "label": "前方分岔 · 可先停下观察",
+      "labelEn": "Fork Ahead · You Can Stop and Look",
+      "kind": "beacon"
+    },
+    {
+      "id": "shipping-entry",
+      "pos": {
+        "x": 51,
+        "z": 1006
+      },
+      "label": "近航道 · 看空档",
+      "labelEn": "Short Channel · Watch for a Quiet Window",
+      "kind": "beacon"
+    },
+    {
+      "id": "shipping-wait",
+      "pos": {
+        "x": 62,
+        "z": 1083
+      },
+      "label": "待航 · 观察空档",
+      "labelEn": "Holding Waters · Watch for a Quiet Window",
+      "kind": "beacon"
+    },
+    {
+      "id": "shipping-hold",
+      "pos": {
+        "x": 112,
+        "z": 1072
+      },
+      "label": "静水湾 · 等队尾",
+      "labelEn": "Calm Bay · Wait for the Pod",
+      "kind": "water"
+    },
+    {
+      "id": "quiet-entry",
+      "pos": {
+        "x": -71,
+        "z": 1006
+      },
+      "label": "安静航道 · 绕浅礁",
+      "labelEn": "Quiet Passage · Skirt the Shallow Reef",
+      "kind": "beacon"
+    },
+    {
+      "id": "shipping-supply",
+      "pos": {
+        "x": 74,
+        "z": 1151
+      },
+      "label": "换气及补给",
+      "labelEn": "Breathe and Refuel",
+      "kind": "water"
+    },
+    {
+      "id": "dredge-plume-a",
+      "pos": {
+        "x": 142,
+        "z": 1182
+      },
+      "label": "泥沙带东南边缘",
+      "labelEn": "Southeast Edge of the Silt",
+      "kind": "water"
+    },
+    {
+      "id": "dredge-plume-b",
+      "pos": {
+        "x": 142,
+        "z": 1226
+      },
+      "label": "泥沙带东北边缘",
+      "labelEn": "Northeast Edge of the Silt",
+      "kind": "water"
+    },
+    {
+      "id": "dredge-plume-c",
+      "pos": {
+        "x": 98,
+        "z": 1240
+      },
+      "label": "泥沙带北侧边缘",
+      "labelEn": "North Edge of the Silt",
+      "kind": "water"
+    },
+    {
+      "id": "dredge-plume-d",
+      "pos": {
+        "x": 43,
+        "z": 1235
+      },
+      "label": "泥沙带西北边缘",
+      "labelEn": "Northwest Edge of the Silt",
+      "kind": "water"
+    },
+    {
+      "id": "dredge-plume-e",
+      "pos": {
+        "x": 37,
+        "z": 1213
+      },
+      "label": "泥沙带西侧边缘",
+      "labelEn": "West Edge of the Silt",
+      "kind": "water"
+    },
+    {
+      "id": "dredge-plume-f",
+      "pos": {
+        "x": 42,
+        "z": 1193
+      },
+      "label": "泥沙带西南边缘",
+      "labelEn": "Southwest Edge of the Silt",
+      "kind": "water"
+    },
+    {
+      "id": "dredge-plume-g",
+      "pos": {
+        "x": 92,
+        "z": 1182
+      },
+      "label": "泥沙带南侧边缘",
+      "labelEn": "South Edge of the Silt",
+      "kind": "water"
+    },
+    {
+      "id": "dredge-works",
+      "pos": {
+        "x": 142,
+        "z": 1201
+      },
+      "label": "港口疏浚作业区",
+      "labelEn": "Harbor Dredging Area",
+      "kind": "peak"
+    },
+    {
+      "id": "dredge-surface-entry",
+      "pos": {
+        "x": 69,
+        "z": 1174
+      },
+      "label": "水面浮标线",
+      "labelEn": "Surface Buoy Line",
+      "kind": "beacon"
+    },
+    {
+      "id": "dredge-surface-mid",
+      "pos": {
+        "x": 70,
+        "z": 1194
+      },
+      "label": "沿浮标直游",
+      "labelEn": "Swim Straight Along the Buoys",
+      "kind": "beacon"
+    },
+    {
+      "id": "dredge-surface-bend",
+      "pos": {
+        "x": 72,
+        "z": 1215
+      },
+      "label": "保持水面巡航",
+      "labelEn": "Keep Cruising at the Surface",
+      "kind": "beacon"
+    },
+    {
+      "id": "dredge-surface-exit",
+      "pos": {
+        "x": 73,
+        "z": 1235
+      },
+      "label": "浮标线出口",
+      "labelEn": "Buoy Line Exit",
+      "kind": "beacon"
+    },
+    {
+      "id": "dredge-clear-entry",
+      "pos": {
+        "x": 27,
+        "z": 1174
+      },
+      "label": "清水边线 · 可浅潜",
+      "labelEn": "Clear Water Edge · Dive Shallow",
+      "kind": "beacon"
+    },
+    {
+      "id": "dredge-clear-mid",
+      "pos": {
+        "x": 22,
+        "z": 1199
+      },
+      "label": "沿清水边缓转",
+      "labelEn": "Turn Gently Along the Clear Water",
+      "kind": "beacon"
+    },
+    {
+      "id": "dredge-clear-bend",
+      "pos": {
+        "x": 23,
+        "z": 1224
+      },
+      "label": "泥沙外侧 · 可上浮",
+      "labelEn": "Beyond the Silt · Surface Here",
+      "kind": "beacon"
+    },
+    {
+      "id": "dredge-clear-exit",
+      "pos": {
+        "x": 36,
+        "z": 1248
+      },
+      "label": "清水边线出口",
+      "labelEn": "Clear Water Route Exit",
+      "kind": "beacon"
+    },
+    {
+      "id": "dredge-regroup",
+      "pos": {
+        "x": 66,
+        "z": 1265
+      },
+      "label": "清水换气湾 · 等队尾",
+      "labelEn": "Clear Bay · Breathe and Wait for the Pod",
+      "kind": "water"
+    },
+    {
+      "id": "quiet-mid",
+      "pos": {
+        "x": -82,
+        "z": 1114
+      },
+      "label": "安静航道",
+      "labelEn": "Quiet Passage",
+      "kind": "beacon"
+    },
+    {
+      "id": "quiet-arc",
+      "pos": {
+        "x": -109,
+        "z": 1165
+      },
+      "label": "水面宽线 · 沿浅礁缓转",
+      "labelEn": "Wide Surface Route · Turn Along the Shallow Reef",
+      "kind": "beacon"
+    },
+    {
+      "id": "quiet-pool",
+      "pos": {
+        "x": -68,
+        "z": 1165
+      },
+      "label": "浅礁静水湾 · 可换气",
+      "labelEn": "Sheltered Reef Bay · Breathe Here",
+      "kind": "water"
+    },
+    {
+      "id": "current-eddy-entry",
+      "pos": {
+        "x": -90,
+        "z": 1186
+      },
+      "label": "礁间静水 · 换气",
+      "labelEn": "Calm Reef Waters · Breathe",
+      "kind": "water"
+    },
+    {
+      "id": "current-eddy",
+      "pos": {
+        "x": -68,
+        "z": 1206
+      },
+      "label": "礁间静水 · 上浮集队",
+      "labelEn": "Calm Reef Waters · Surface and Regroup",
+      "kind": "water"
+    },
+    {
+      "id": "quiet-bend",
+      "pos": {
+        "x": -102,
+        "z": 1218
+      },
+      "label": "安静航道 · 向汇流处转弯",
+      "labelEn": "Quiet Passage · Turn Toward the Junction",
+      "kind": "beacon"
+    },
+    {
+      "id": "merge-here",
+      "pos": {
+        "x": 53,
+        "z": 1297
+      },
+      "label": "两条航道汇合",
+      "labelEn": "Channel Junction",
+      "kind": "beacon"
+    },
+    {
+      "id": "second-checkpoint",
+      "pos": {
+        "x": 62,
+        "z": 1359
+      },
+      "label": "检查点 2",
+      "labelEn": "Checkpoint 2",
+      "kind": "beacon"
+    },
+    {
+      "id": "breakwater-preview",
+      "pos": {
+        "x": 61,
+        "z": 1395
+      },
+      "label": "防波堤前 · 先看横流和宽线",
+      "labelEn": "Breakwater Ahead · Look for the Crosscurrent and Outer Route",
+      "kind": "beacon"
+    },
+    {
+      "id": "breakwater-cross",
+      "pos": {
+        "x": 58,
+        "z": 1414
+      },
+      "label": "横流短线",
+      "labelEn": "Crosscurrent Shortcut",
+      "kind": "beacon"
+    },
+    {
+      "id": "breakwater-wide",
+      "pos": {
+        "x": 94,
+        "z": 1422
+      },
+      "label": "外侧宽线 · 保持巡航",
+      "labelEn": "Wide Outer Route · Keep Cruising",
+      "kind": "beacon"
+    },
+    {
+      "id": "breakwater-clear",
+      "pos": {
+        "x": 65,
+        "z": 1470
+      },
+      "label": "外海静水 · 看队尾并换气",
+      "labelEn": "Calm Offshore Waters · Check the Pod and Breathe",
+      "kind": "water"
+    },
+    {
+      "id": "surface-here",
+      "pos": {
+        "x": 63,
+        "z": 1476
+      },
+      "label": "外海静水 · 上浮等候",
+      "labelEn": "Calm Offshore Waters · Surface and Wait",
+      "kind": "water"
+    },
+    {
+      "id": "watching-entry",
+      "pos": {
+        "x": 83,
+        "z": 1469
+      },
+      "label": "观鲸船减速区 · 可沿内侧缓行",
+      "labelEn": "Whale-Watching Slow Zone · Swim Slowly Inside",
+      "kind": "beacon"
+    },
+    {
+      "id": "watching-coast",
+      "pos": {
+        "x": 100,
+        "z": 1491
+      },
+      "label": "静水观景 · 可滑停",
+      "labelEn": "Calm Waters · Glide to a Stop and Look Around",
+      "kind": "water"
+    },
+    {
+      "id": "watching-exit",
+      "pos": {
+        "x": 94,
+        "z": 1510
+      },
+      "label": "前往外海汇合",
+      "labelEn": "Toward the Offshore Reunion",
+      "kind": "beacon"
+    },
+    {
+      "id": "watching-buoy-near",
+      "pos": {
+        "x": 126,
+        "z": 1463
+      },
+      "label": "观鲸船外侧浮标线",
+      "labelEn": "Outer Buoy Line for Whale-Watching Boats",
+      "kind": "beacon"
+    },
+    {
+      "id": "watching-buoy-far",
+      "pos": {
+        "x": 126,
+        "z": 1516
+      },
+      "label": "观鲸船外侧浮标线",
+      "labelEn": "Outer Buoy Line for Whale-Watching Boats",
+      "kind": "beacon"
+    },
+    {
+      "id": "offshore-marker",
+      "pos": {
+        "x": 79,
+        "z": 1552
+      },
+      "label": "亮水中央 · 松手滑停",
+      "labelEn": "Bright Water Center · Release to Glide to a Stop",
+      "kind": "beacon"
+    }
+  ]
+}

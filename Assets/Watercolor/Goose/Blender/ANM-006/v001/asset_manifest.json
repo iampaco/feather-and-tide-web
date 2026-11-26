@@ -1,0 +1,187 @@
+{
+  "id": "ANM-006",
+  "version": "v001",
+  "status": "needs_review",
+  "blender": "5.2.2 LTS",
+  "dependencies": {
+    "CHR-001/v001": "done",
+    "ANM-001/v001": "done"
+  },
+  "source_hashes": {
+    "CHR-001/v001/CHR-001_goose_rig.blend": "db0c8d55c5efc499c99f7787228967451d071f36294962b12dc4b34d02f350f5",
+    "CHR-001/v001/CHR-001_goose_rig.glb": "cd11419a47a2c8e2d67d636015675540581a74720a83c23ef8531437c7161b81",
+    "ANM-001/v001/ANM-001_cruise_flap.blend": "b7faafee6aa4f0fd9e3c05224162fa5ff73b8bbd8c01818e101e5cdad0676111",
+    "ANM-001/v001/ANM-001_cruise_flap_generate.py": "ff7613de9a9a61ca857b0f363ab16ea6e3cf2dce894c9e0cbcad9d45312acd66",
+    "ANM-003/v001/ANM-003_glide_circle_generate.py": "4f17c8a2391ff11dc4861d9c407dde516d8bd74bde4cd2aaa53883d46c5eaee2",
+    "CHR-001/v001/CHR-001_goose_rig_generate.py": "9c56676574b80c6642dc11f4015f9460a14eb0ca6407acee440c9732071b4a90"
+  },
+  "source": "Phase-aligned reduced-amplitude flap derived from the accepted Cruise_Flap_Loop source curves.",
+  "rights": "Project-original animation and existing CHR-001 packed plumage.",
+  "clip": {
+    "name": "Formation_Blend",
+    "frames": [
+      1,
+      53
+    ],
+    "fps": 48,
+    "duration_s": 1.0833333333333333,
+    "seam_frame": 53,
+    "loop": true,
+    "root_motion": false,
+    "local_body_lift": true,
+    "same_phase_as": "Cruise_Flap_Loop"
+  },
+  "review": {
+    "formation_start_frame": 53,
+    "fully_formed_frame": 149,
+    "phase_blend_seconds": 2.0,
+    "weight_curve": "quintic smootherstep",
+    "lead_entry_cruise_frame": 1,
+    "lead_exit_formation_frame": 45,
+    "camera": {
+      "distance_game_units": 180,
+      "pitch_parameter_rad": 0.48,
+      "vertical_fov_deg": 50,
+      "aim_height_game_units": 6,
+      "leader_height_game_units": 8,
+      "follower_height_game_units": 6,
+      "leader_bill_to_tail_game_units": 27.5,
+      "preview_game_units_per_BU": 27.777479617271997,
+      "render_px": [
+        852,
+        393
+      ],
+      "camera_location_BU": [
+        0.0,
+        -5.747788906097412,
+        2.7043581008911133
+      ]
+    },
+    "follower_scale": 0.8,
+    "placement": "Review-only animated Empty carriers, 26 lateral at first rank, then 6 lateral and 13 trailing game units per V rank.",
+    "follower_phase_offsets_frames": [
+      0,
+      9,
+      20,
+      5,
+      31,
+      15,
+      37,
+      13,
+      45,
+      24,
+      43,
+      29
+    ]
+  },
+  "character": {
+    "triangles_lod0": 3940,
+    "bones": 15,
+    "pivot_BU": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ],
+    "axes_blender": {
+      "right": "+X",
+      "up": "+Z",
+      "forward": "+Y"
+    },
+    "axes_gltf": {
+      "right": "+X",
+      "up": "+Y",
+      "forward": "-Z"
+    }
+  },
+  "variants": {
+    "Leader": [
+      1.0,
+      0.976,
+      0.925,
+      1.0
+    ],
+    "Follower A": [
+      0.965,
+      0.985,
+      1.0,
+      1.0
+    ],
+    "Follower B": [
+      0.91,
+      0.925,
+      0.94,
+      1.0
+    ],
+    "Follower C": [
+      0.98,
+      0.96,
+      0.94,
+      1.0
+    ]
+  },
+  "texture_mapping": {
+    "ft_goose_mat_billfeet_basecolor.png": {
+      "from": "Assets/Watercolor/Goose/Blender/MAT-002/v001/textures/ft_goose_mat_billfeet_basecolor.png",
+      "sha256": "ccf80ec9272f2dd56733c69d9536ccf7b41fabde7a9b396847f185c2dd8b97d0",
+      "embedded_in": [
+        ".blend",
+        ".glb"
+      ]
+    },
+    "ft_goose_mat_body_basecolor.png": {
+      "from": "Assets/Watercolor/Goose/Blender/MAT-002/v001/textures/ft_goose_mat_body_basecolor.png",
+      "sha256": "593d054ebf19385359ced9af9faa15c9e02ded94763481bf4ececfe14b8a8cc5",
+      "embedded_in": [
+        ".blend",
+        ".glb"
+      ]
+    },
+    "ft_goose_mat_flightfeather_basecolor.png": {
+      "from": "Assets/Watercolor/Goose/Blender/MAT-002/v001/textures/ft_goose_mat_flightfeather_basecolor.png",
+      "sha256": "2c0d67e50dfdb29a423cdcd1a000c0139588e1957cbb032d6696eca83c551014",
+      "embedded_in": [
+        ".blend",
+        ".glb"
+      ]
+    },
+    "ft_goose_mat_head_basecolor.png": {
+      "from": "Assets/Watercolor/Goose/Blender/MAT-002/v001/textures/ft_goose_mat_head_basecolor.png",
+      "sha256": "7d7bb772387c9d48517cd35e3554a9690791b2fa21af0f9241a18fad8592c205",
+      "embedded_in": [
+        ".blend",
+        ".glb"
+      ]
+    }
+  },
+  "files": {
+    "ANM-006_formation_blend.blend": "b4690d3f11dd225f51413c0dbf2f75fe900e630222432568b37d426f924f1cb5",
+    "ANM-006_formation_blend.glb": "f66466196668e7aaa8f36cde867a7ada83d87d56acfb121c7428aad4d7c129fe",
+    "ANM-006_formation_blend_generate.py": "db8c1d4ffe84c19435f68727ff5695880b4f33c459ee17121c41d9ead02dedda",
+    "README.md": "5d2a7fc1c485b688f62ac61c9c4859b6e1a39297bcbf70e3a61d2d9db3620ace",
+    "preview_glb_roundtrip.png": "b06fd8e7cb5cc1fbda8742a3420ecd903d7c1274c10b2c54a4a4e6638d02d058",
+    "preview_rear_1x_cruise.png": "65cc6833bf460c879f2d53946faea6f14038cf73cca0fc7ac426f8115c5bec84",
+    "preview_rear_1x_formed.png": "8b10393fe3abc6f68986bf489959a38d55ba8e8b855f6fc96833aaa426e95a8b",
+    "preview_rear_1x_formed_downstroke.png": "fdc7c3350cd9aa117a406aac615cd04e7b1057e66754a4fb4bff4dd3757bf698",
+    "preview_rear_detail.mp4": "29d85afc5cb541306009f4cd284d952854acf8dade5302ae117319e9908a51ea",
+    "preview_rear_flock_12.mp4": "a56d73d3165cd6186d79f97949a1ba029081881f434db48b4ff577395f44f488",
+    "preview_rear_flock_12.png": "ca47763370b426f1b407ae98821f36a572dfd28cee32090acc4cc32edfe5d149",
+    "preview_rear_half_formed.png": "e856dad90957eaffc7eb3d1150618993746ddc29bce00bd1659b75bb52e40d6b",
+    "preview_top_1x_formed.png": "25e8e5083eee2c1e359a75f9973d152dbb3425141c9450ba10f2d7579c5601fc",
+    "preview_top_flock_formed.png": "5c7d4da66fceca2796ffdf603282e0b17460a48aca228011d31be13e3ce9828a",
+    "preview_top_flock_forming.png": "796d241bfbb10790b4f32424d73e0ec16157239654a81ce6d582cd523d947fd1",
+    "preview_top_flock_loose.png": "daf591d5be6b9445113ad3769007e3d66e4e18933c55b0f03214fa9ab459942b",
+    "preview_top_formation.mp4": "6dda0c59876cd68f5e4dadc97b6fec025572677cf83f3c6ff840956d74100f50",
+    "preview_top_half_formed.png": "5f2016cdace447f22575210a9108a981135dec3f7d3c3de170d1e4c8c7f0f0b0",
+    "qa.json": "b45884f33e3d91d28a764e8154d0e743c2a22042b11672541157f1eb6865ab71"
+  },
+  "texture_dependency": {
+    "packed_from": "CHR-001/v001",
+    "original_texture_task": "MAT-002/v001",
+    "material_review": "pending"
+  }
+}

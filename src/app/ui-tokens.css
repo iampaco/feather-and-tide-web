@@ -1,0 +1,82 @@
+:root {
+  color-scheme: light;
+  --font-ui: "PingFang SC", "Noto Sans CJK SC", system-ui, sans-serif;
+  --serif: "Songti SC", "Noto Serif CJK SC", Georgia, serif;
+  --text-body: 1rem;
+  --text-caption: 0.875rem;
+  --text-instruction: clamp(0.9375rem, 1.65vw, 1rem);
+  --text-cue: clamp(1.125rem, 1.8vw, 1.375rem);
+  --text-title: clamp(1.55rem, 3vw, 2.15rem);
+  --text-result: clamp(1.25rem, 2.8vw, 1.7rem);
+
+  --ink: #243a32;
+  --ink-deep: #192d26;
+  --paper: #f4e9cf;
+  --cream: #fff5df;
+  --gold: #ffdc96;
+  --text-earth: #725734;
+  --rule: #9b8868;
+  --surface-scene: #263e39;
+  --surface-note: #fff5dff5;
+  --surface-danger: #382b23;
+  --surface-rescue: var(--ink-deep);
+  --surface-wayfinding: #263f34;
+  --surface-hover: #354f3816;
+  --surface-pressed: #354f382b;
+  --surface-highlight: #f4e9cf23;
+  --surface-highlight-pressed: #f4e9cf37;
+  --surface-tool-pressed: #e7d6b6;
+  --surface-action: #294136;
+  --surface-action-hover: #3a5649;
+  --surface-action-pressed: #132d24;
+  --surface-locked: #4d5151;
+  --text-locked: #edebe6;
+  --rule-locked: #a8a5a0;
+  --surface-scrim: #192d2666;
+  --surface-scrim-edge: #192d2659;
+  --surface-scrim-result: #1c302945;
+  --track-stamina: #dcd4bc;
+  --fill-stamina: #526849;
+  --fill-stamina-low: #896427;
+  --fill-stamina-critical: #963e32;
+  --fill-stamina-resting: #436a60;
+
+  --opacity-disabled: 0.55;
+  --opacity-ability-track: 0.42;
+  --shadow-hud: 0 2px 9px #1d30282e;
+  --shadow-panel: 0 10px 40px #16282145;
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --radius-paper: 5px;
+  --radius-label: 3px;
+  --radius-pill: 999px;
+  --target: 44px;
+  --target-large: 52px;
+  --layer-world: 1;
+  --layer-readout: 2;
+  --layer-control: 3;
+
+  --pad-top: max(12px, env(safe-area-inset-top));
+  --pad-left: max(16px, env(safe-area-inset-left));
+  --pad-right: max(16px, env(safe-area-inset-right));
+  --pad-bottom: max(12px, env(safe-area-inset-bottom));
+  --motion-fast: 120ms;
+  --motion-panel: 180ms;
+}
+
+.reduced-motion {
+  --motion-fast: 0ms;
+  --motion-panel: 0ms;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --motion-fast: 0ms;
+    --motion-panel: 0ms;
+  }
+}

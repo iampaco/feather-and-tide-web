@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "levelRevision": "flight-1",
+  "id": "playground",
+  "title": "飞行实验场",
+  "titleEn": "Flight Playground",
+  "species": "goose",
+  "modes": ["journey"],
+  "bounds": {
+    "min": {
+      "x": -80,
+      "z": -32
+    },
+    "max": {
+      "x": 80,
+      "z": 195
+    }
+  },
+  "spawn": {
+    "x": 0,
+    "z": 0
+  },
+  "spawnSegment": "practice",
+  "segments": [
+    {
+      "id": "practice",
+      "title": "飞行实验场",
+      "titleEn": "Flight Playground",
+      "start": -32,
+      "wind": {
+        "x": 0,
+        "z": 0
+      },
+      "color": "#759c91"
+    }
+  ],
+  "zones": [
+    {
+      "id": "rest",
+      "kind": "sanctuary",
+      "label": "浅水湿地",
+      "labelEn": "Shallow Wetlands",
+      "points": [
+        {
+          "x": -75,
+          "z": -30
+        },
+        {
+          "x": 75,
+          "z": -30
+        },
+        {
+          "x": 75,
+          "z": 185
+        },
+        {
+          "x": -75,
+          "z": 185
+        },
+        {
+          "x": -75,
+          "z": -30
+        }
+      ]
+    }
+  ],
+  "triggers": [],
+  "landmarks": [
+    {
+      "id": "start",
+      "kind": "reed",
+      "label": "湿地",
+      "labelEn": "Wetlands",
+      "pos": {
+        "x": 12,
+        "z": 13
+      }
+    },
+    {
+      "id": "first",
+      "kind": "beacon",
+      "label": "直线航标",
+      "labelEn": "Straight Flight Marker",
+      "pos": {
+        "x": 0,
+        "z": 43
+      }
+    },
+    {
+      "id": "bend",
+      "kind": "beacon",
+      "label": "宽弯",
+      "labelEn": "Wide Bend",
+      "pos": {
+        "x": 25,
+        "z": 84
+      }
+    },
+    {
+      "id": "far",
+      "kind": "peak",
+      "label": "远山",
+      "labelEn": "Distant Mountains",
+      "pos": {
+        "x": -50,
+        "z": 115
+      }
+    },
+    {
+      "id": "pool",
+      "kind": "water",
+      "label": "回望水域",
+      "labelEn": "Look Back Over the Water",
+      "pos": {
+        "x": 38,
+        "z": 118
+      }
+    }
+  ]
+}

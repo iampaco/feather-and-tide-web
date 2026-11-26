@@ -1,0 +1,34 @@
+{
+  "revision": "reindeer-p3-2",
+  "forkEnergy": 0.8,
+  "merge": {
+    "greenbelt": {
+      "seconds": 69.21666666666667,
+      "energy": 0.9629713132969171,
+      "cohesion": 1
+    },
+    "dust": {
+      "seconds": 53.75,
+      "energy": 0.8054441420765435,
+      "cohesion": 1
+    }
+  },
+  "lowEnergy": {
+    "start": 0.15,
+    "merge": 0.5918103897996707
+  },
+  "journeys": [
+    {
+      "route": "dust",
+      "seconds": 241.61666666666667,
+      "callSeconds": 34.2,
+      "phase": "landing"
+    },
+    {
+      "route": "greenbelt",
+      "seconds": 221.91666666666666,
+      "callSeconds": 0,
+      "phase": "landing"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "chromium": {
+    "equivalentJourneyStartTick": 3310,
+    "yaw": 0,
+    "warningTick": 24,
+    "warningZ": 372,
+    "lastClearTick": 366,
+    "lastClearZ": 405.2041264289029,
+    "firstContactSampleTick": 380,
+    "contactZ": 406.21618404207175,
+    "approachSpeed": 6.661865569272975,
+    "nominalCruiseSeconds": 4.882959768956308,
+    "boundsSeconds": [5.7, 5.933333333333334]
+  },
+  "mobile-webkit": {
+    "equivalentJourneyStartTick": 3310,
+    "yaw": 0,
+    "warningTick": 24,
+    "warningZ": 372,
+    "lastClearTick": 366,
+    "lastClearZ": 405.2041264289029,
+    "firstContactSampleTick": 380,
+    "contactZ": 406.21618404207175,
+    "approachSpeed": 6.661865569272975,
+    "nominalCruiseSeconds": 4.882959768956308,
+    "boundsSeconds": [5.7, 5.933333333333334]
+  }
+}

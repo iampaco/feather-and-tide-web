@@ -1,0 +1,46 @@
+{
+  "source": "Headless Chromium via Playwright on the Mac host",
+  "revision": "reindeer-p3-1",
+  "sampling": "Standard quality at 1280x720 and two Playwright workers",
+  "segments": [
+    {
+      "segment": "R1",
+      "phase": "playing",
+      "tick": 1338,
+      "samples": 71,
+      "medianMs": 50,
+      "p95Ms": 50.099999999998545,
+      "calls": 104,
+      "triangles": 58612,
+      "width": 1280,
+      "height": 720,
+      "quality": "standard"
+    },
+    {
+      "segment": "R2",
+      "phase": "playing",
+      "tick": 3697,
+      "samples": 180,
+      "medianMs": 50,
+      "p95Ms": 50.099999999998545,
+      "calls": 101,
+      "triangles": 61902,
+      "width": 1280,
+      "height": 720,
+      "quality": "standard"
+    },
+    {
+      "segment": "R4",
+      "phase": "playing",
+      "tick": 7885,
+      "samples": 120,
+      "medianMs": 33.40000000000873,
+      "p95Ms": 50.10000000000582,
+      "calls": 74,
+      "triangles": 52030,
+      "width": 1280,
+      "height": 720,
+      "quality": "standard"
+    }
+  ]
+}

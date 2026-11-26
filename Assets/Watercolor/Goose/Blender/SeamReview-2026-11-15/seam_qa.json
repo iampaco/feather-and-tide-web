@@ -1,0 +1,1005 @@
+{
+  "contract": {
+    "version": "v001",
+    "status": "needs_review",
+    "axes": {
+      "blender": "+X right, +Y forward, +Z up",
+      "glb": "(x,z,-y)",
+      "BU_per_game_unit": 0.036
+    },
+    "camera": {
+      "source": "Sources/FeatherTide/Systems/Camera/ThirdPersonRig.swift",
+      "distance_game_units": 180,
+      "pitch_parameter_radians": 0.48,
+      "vertical_fov_deg": 50,
+      "target_lift_game_units": 6,
+      "resolution": [
+        852,
+        393
+      ],
+      "preview_base_lead_height_game_units": 8,
+      "altitude_input": "scene depthLift added to eye, aim and lead base planes"
+    },
+    "gate": {
+      "width_BU": 24,
+      "half_width_BU": 12,
+      "dry_flat_ground_z_BU": 0,
+      "reference_water_z_BU": -0.18,
+      "water_crosses_gate": false,
+      "flat_clearance_inward_BU": 2,
+      "heading_blender": [
+        0,
+        1,
+        0
+      ]
+    },
+    "layout": {
+      "LVL-S0": {
+        "entry": [
+          0,
+          0,
+          0
+        ],
+        "exit": [
+          0,
+          36,
+          0
+        ],
+        "entry_node": "S0_Entry",
+        "exit_node": "S0_Exit_to_S1",
+        "glb": "LVL-S0_S0_StartWetland.glb"
+      },
+      "LVL-S1": {
+        "entry": [
+          0,
+          0,
+          0
+        ],
+        "exit": [
+          0,
+          60,
+          0
+        ],
+        "exit_semantic": "Checkpoint_A",
+        "entry_node": "Entry",
+        "exit_node": "Checkpoint_A",
+        "glb": "LVL-S1_S1_Tailwind.glb"
+      },
+      "LVL-S2": {
+        "entry": [
+          0,
+          0,
+          0
+        ],
+        "exit": [
+          0,
+          76,
+          0
+        ],
+        "exit_semantic": "Merge",
+        "entry_node": "S2_Entry",
+        "exit_node": "S2_Merge",
+        "glb": "LVL-S2_S2_Fork.glb"
+      },
+      "LVL-S3": {
+        "entry": [
+          0,
+          0,
+          0
+        ],
+        "exit": [
+          0,
+          64,
+          0
+        ],
+        "entry_node": "S3_Entry",
+        "exit_node": "S3_Exit",
+        "glb": "LVL-S3_S3_Rescue.glb"
+      },
+      "LVL-S4": {
+        "entry": [
+          2,
+          -45,
+          0
+        ],
+        "exit": [
+          2,
+          45,
+          0
+        ],
+        "anchor_source": "MarshStitch external bounds / s4_layout.json outer_lane_and_marsh.leader_x_BU",
+        "internal_gates_y_BU": [
+          -14,
+          22
+        ],
+        "glb": "LVL-S4_S4_WindFarm.glb"
+      },
+      "LVL-S5": {
+        "entry": [
+          0,
+          0,
+          0
+        ],
+        "exit": [
+          0,
+          64,
+          0
+        ],
+        "entry_node": "S5_Entry",
+        "exit_node": "S5_Exit",
+        "glb": "LVL-S5_S5_Headwind.glb"
+      },
+      "LVL-S6": {
+        "entry": [
+          0,
+          0,
+          0
+        ],
+        "terminal_semantic": "LandingBasin",
+        "entry_node": "S6_Entry",
+        "terminal": [
+          0,
+          21,
+          0
+        ],
+        "terminal_node": "S6_Terminal",
+        "glb": "LVL-S6_S6_Landing.glb"
+      }
+    }
+  },
+  "world_placements_BU": {
+    "LVL-S0": {
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "entry": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "exit": [
+        0.0,
+        36.0,
+        0.0
+      ]
+    },
+    "LVL-S1": {
+      "translation": [
+        0.0,
+        36.0,
+        0.0
+      ],
+      "entry": [
+        0.0,
+        36.0,
+        0.0
+      ],
+      "exit": [
+        0.0,
+        96.0,
+        0.0
+      ]
+    },
+    "LVL-S2": {
+      "translation": [
+        0.0,
+        96.0,
+        0.0
+      ],
+      "entry": [
+        0.0,
+        96.0,
+        0.0
+      ],
+      "exit": [
+        0.0,
+        172.0,
+        0.0
+      ]
+    },
+    "LVL-S3": {
+      "translation": [
+        0.0,
+        172.0,
+        0.0
+      ],
+      "entry": [
+        0.0,
+        172.0,
+        0.0
+      ],
+      "exit": [
+        0.0,
+        236.0,
+        0.0
+      ]
+    },
+    "LVL-S4": {
+      "translation": [
+        -2.0,
+        281.0,
+        0.0
+      ],
+      "entry": [
+        0.0,
+        236.0,
+        0.0
+      ],
+      "exit": [
+        0.0,
+        326.0,
+        0.0
+      ]
+    },
+    "LVL-S5": {
+      "translation": [
+        0.0,
+        326.0,
+        0.0
+      ],
+      "entry": [
+        0.0,
+        326.0,
+        0.0
+      ],
+      "exit": [
+        0.0,
+        390.0,
+        0.0
+      ]
+    },
+    "LVL-S6": {
+      "translation": [
+        0.0,
+        390.0,
+        0.0
+      ],
+      "entry": [
+        0.0,
+        390.0,
+        0.0
+      ]
+    }
+  },
+  "method": "Independent Blender GLB reimports, evaluated triangles, separate side BVHs, dry gate probes and crossing-mesh checks",
+  "neighbor_intrusion_search": {
+    "width_BU": 24,
+    "depth_BU": [
+      0.01,
+      12
+    ],
+    "z_BU": [
+      -1,
+      8
+    ]
+  },
+  "height_tolerance_BU": 3e-05,
+  "lateral_probe_offsets_BU": [
+    -11.947,
+    -11.698104166666665,
+    -11.449208333333333,
+    -11.200312499999999,
+    -10.951416666666667,
+    -10.702520833333333,
+    -10.453624999999999,
+    -10.204729166666667,
+    -9.955833333333333,
+    -9.706937499999999,
+    -9.458041666666666,
+    -9.209145833333332,
+    -8.96025,
+    -8.711354166666666,
+    -8.462458333333332,
+    -8.2135625,
+    -7.964666666666666,
+    -7.715770833333333,
+    -7.466874999999999,
+    -7.217979166666666,
+    -6.969083333333333,
+    -6.7201875,
+    -6.471291666666666,
+    -6.222395833333333,
+    -5.9735000000000005,
+    -5.7246041666666665,
+    -5.475708333333333,
+    -5.2268125,
+    -4.977916666666666,
+    -4.729020833333333,
+    -4.480125,
+    -4.231229166666666,
+    -3.982333333333333,
+    -3.733437499999999,
+    -3.484541666666667,
+    -3.235645833333333,
+    -2.986749999999999,
+    -2.7378541666666667,
+    -2.4889583333333327,
+    -2.2400624999999987,
+    -1.9911666666666665,
+    -1.7422708333333343,
+    -1.4933750000000003,
+    -1.2444791666666664,
+    -0.9955833333333324,
+    -0.7466874999999984,
+    -0.4977916666666662,
+    -0.2488958333333322,
+    -1.7763568394002505e-15,
+    0.2488958333333322,
+    0.4977916666666662,
+    0.7466874999999984,
+    0.9955833333333324,
+    1.2444791666666664,
+    1.4933749999999986,
+    1.7422708333333325,
+    1.9911666666666665,
+    2.2400624999999987,
+    2.4889583333333327,
+    2.7378541666666667,
+    2.986749999999999,
+    3.235645833333333,
+    3.484541666666667,
+    3.733437499999999,
+    3.982333333333333,
+    4.231229166666665,
+    4.480125000000001,
+    4.729020833333333,
+    4.977916666666665,
+    5.226812500000001,
+    5.475708333333333,
+    5.724604166666666,
+    5.973500000000001,
+    6.222395833333334,
+    6.471291666666666,
+    6.7201875000000015,
+    6.969083333333334,
+    7.217979166666666,
+    7.466875000000002,
+    7.715770833333334,
+    7.964666666666666,
+    8.213562499999998,
+    8.46245833333333,
+    8.711354166666666,
+    8.960249999999998,
+    9.20914583333333,
+    9.458041666666666,
+    9.706937499999999,
+    9.955833333333334,
+    10.204729166666667,
+    10.453625000000002,
+    10.702520833333331,
+    10.951416666666667,
+    11.200312499999999,
+    11.449208333333335,
+    11.698104166666667,
+    11.946999999999996
+  ],
+  "inward_probe_offsets_BU": [
+    0.002,
+    0.043,
+    0.31,
+    0.79,
+    1.43,
+    1.99
+  ],
+  "pairs": [
+    {
+      "pair": "S0_S1",
+      "status": "pass",
+      "world_seam_BU": [
+        0.0,
+        36.0,
+        0.0
+      ],
+      "sides": {
+        "LVL-S0": {
+          "GLB": "Assets/Watercolor/Goose/Blender/LVL-S0/v001/LVL-S0_S0_StartWetland.glb",
+          "GLB_sha256": "f8a276e67465414dc3f7906162039e0d65f053e8f80159c3f78c7de44d4df2ea",
+          "asset_local_gate_BU": [
+            0,
+            36,
+            0
+          ],
+          "imported_anchor": {
+            "node": "S0_Exit_to_S1",
+            "position_BU": [
+              0.0,
+              36.0,
+              0.0
+            ],
+            "heading_blender": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "position_error_BU": 0.0,
+            "heading_error": 0.0,
+            "status": "pass"
+          },
+          "anchor_source": "GLB named node",
+          "gate_probe": {
+            "status": "pass",
+            "ray_count": 582,
+            "flat_edge_signed_distance_inward_BU": -0.0,
+            "max_abs_ground_error_BU": 9.5367431640625e-07,
+            "visual_terrain_object_and_material": [
+              [
+                "S0_Contact_Continued",
+                "S0 Bank | grass texture with painted wash"
+              ]
+            ],
+            "bad_rays": [],
+            "uncovered_ground_intervals_x_BU": [],
+            "water_at_gate": [],
+            "ground_protrudes_through_gate": []
+          },
+          "visual_meshes_inside_neighbor_corridor": []
+        },
+        "LVL-S1": {
+          "GLB": "Assets/Watercolor/Goose/Blender/LVL-S1/v001/LVL-S1_S1_Tailwind.glb",
+          "GLB_sha256": "178619ad95cea01ded6cbca210cbf8b38422ed0ae6384ea2cd1916936bc08d56",
+          "asset_local_gate_BU": [
+            0,
+            0,
+            0
+          ],
+          "imported_anchor": {
+            "node": "Entry",
+            "position_BU": [
+              0.0,
+              36.0,
+              0.0
+            ],
+            "heading_blender": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "position_error_BU": 0.0,
+            "heading_error": 0.0,
+            "status": "pass"
+          },
+          "anchor_source": "GLB named node",
+          "gate_probe": {
+            "status": "pass",
+            "ray_count": 582,
+            "flat_edge_signed_distance_inward_BU": 0.0,
+            "max_abs_ground_error_BU": 9.5367431640625e-07,
+            "visual_terrain_object_and_material": [
+              [
+                "Approach_+00_05",
+                "GrassFlat.001"
+              ],
+              [
+                "Approach_+10_05",
+                "GrassFlat.001"
+              ],
+              [
+                "Approach_-10_05",
+                "GrassFlat.001"
+              ]
+            ],
+            "bad_rays": [],
+            "uncovered_ground_intervals_x_BU": [],
+            "water_at_gate": [],
+            "ground_protrudes_through_gate": []
+          },
+          "visual_meshes_inside_neighbor_corridor": []
+        }
+      }
+    },
+    {
+      "pair": "S1_S2",
+      "status": "pass",
+      "world_seam_BU": [
+        0.0,
+        96.0,
+        0.0
+      ],
+      "sides": {
+        "LVL-S1": {
+          "GLB": "Assets/Watercolor/Goose/Blender/LVL-S1/v001/LVL-S1_S1_Tailwind.glb",
+          "GLB_sha256": "178619ad95cea01ded6cbca210cbf8b38422ed0ae6384ea2cd1916936bc08d56",
+          "asset_local_gate_BU": [
+            0,
+            60,
+            0
+          ],
+          "imported_anchor": {
+            "node": "Checkpoint_A",
+            "position_BU": [
+              0.0,
+              96.0,
+              0.0
+            ],
+            "heading_blender": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "position_error_BU": 0.0,
+            "heading_error": 0.0,
+            "status": "pass"
+          },
+          "anchor_source": "GLB named node",
+          "gate_probe": {
+            "status": "pass",
+            "ray_count": 582,
+            "flat_edge_signed_distance_inward_BU": -0.0,
+            "max_abs_ground_error_BU": 9.5367431640625e-07,
+            "visual_terrain_object_and_material": [
+              [
+                "Exit_Apron_+00",
+                "GrassFlat"
+              ],
+              [
+                "Exit_Apron_+10",
+                "GrassFlat"
+              ],
+              [
+                "Exit_Apron_-10",
+                "GrassFlat"
+              ]
+            ],
+            "bad_rays": [],
+            "uncovered_ground_intervals_x_BU": [],
+            "water_at_gate": [],
+            "ground_protrudes_through_gate": []
+          },
+          "visual_meshes_inside_neighbor_corridor": []
+        },
+        "LVL-S2": {
+          "GLB": "Assets/Watercolor/Goose/Blender/LVL-S2/v001/LVL-S2_S2_Fork.glb",
+          "GLB_sha256": "1ea7b93a8b70ca3edc169425d11e2a5926f793c8cac561d7c0e7802f85428b49",
+          "asset_local_gate_BU": [
+            0,
+            0,
+            0
+          ],
+          "imported_anchor": {
+            "node": "S2_Entry",
+            "position_BU": [
+              0.0,
+              96.0,
+              0.0
+            ],
+            "heading_blender": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "position_error_BU": 0.0,
+            "heading_error": 0.0,
+            "status": "pass"
+          },
+          "anchor_source": "GLB named node",
+          "gate_probe": {
+            "status": "pass",
+            "ray_count": 582,
+            "flat_edge_signed_distance_inward_BU": 0.0,
+            "max_abs_ground_error_BU": 9.5367431640625e-07,
+            "visual_terrain_object_and_material": [
+              [
+                "Central divider join",
+                "GrassFlat.004"
+              ],
+              [
+                "LakeShore",
+                "GrassFlat.004"
+              ],
+              [
+                "South pass apron",
+                "GrassFlat.004"
+              ]
+            ],
+            "bad_rays": [],
+            "uncovered_ground_intervals_x_BU": [],
+            "water_at_gate": [],
+            "ground_protrudes_through_gate": []
+          },
+          "visual_meshes_inside_neighbor_corridor": []
+        }
+      }
+    },
+    {
+      "pair": "S2_S3",
+      "status": "pass",
+      "world_seam_BU": [
+        0.0,
+        172.0,
+        0.0
+      ],
+      "sides": {
+        "LVL-S2": {
+          "GLB": "Assets/Watercolor/Goose/Blender/LVL-S2/v001/LVL-S2_S2_Fork.glb",
+          "GLB_sha256": "1ea7b93a8b70ca3edc169425d11e2a5926f793c8cac561d7c0e7802f85428b49",
+          "asset_local_gate_BU": [
+            0,
+            76,
+            0
+          ],
+          "imported_anchor": {
+            "node": "S2_Merge",
+            "position_BU": [
+              0.0,
+              172.0,
+              0.0
+            ],
+            "heading_blender": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "position_error_BU": 0.0,
+            "heading_error": 0.0,
+            "status": "pass"
+          },
+          "anchor_source": "GLB named node",
+          "gate_probe": {
+            "status": "pass",
+            "ray_count": 582,
+            "flat_edge_signed_distance_inward_BU": -0.0,
+            "max_abs_ground_error_BU": 9.5367431640625e-07,
+            "visual_terrain_object_and_material": [
+              [
+                "Central divider join",
+                "GrassFlat"
+              ],
+              [
+                "North merge apron",
+                "GrassFlat"
+              ],
+              [
+                "North pass apron",
+                "GrassFlat"
+              ]
+            ],
+            "bad_rays": [],
+            "uncovered_ground_intervals_x_BU": [],
+            "water_at_gate": [],
+            "ground_protrudes_through_gate": []
+          },
+          "visual_meshes_inside_neighbor_corridor": []
+        },
+        "LVL-S3": {
+          "GLB": "Assets/Watercolor/Goose/Blender/LVL-S3/v001/LVL-S3_S3_Rescue.glb",
+          "GLB_sha256": "7c8426006eeda428ef81d7372e8ca11236e4dec9f71c0894d310864721971e74",
+          "asset_local_gate_BU": [
+            0,
+            0,
+            0
+          ],
+          "imported_anchor": {
+            "node": "S3_Entry",
+            "position_BU": [
+              0.0,
+              172.0,
+              0.0
+            ],
+            "heading_blender": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "position_error_BU": 0.0,
+            "heading_error": 0.0,
+            "status": "pass"
+          },
+          "anchor_source": "GLB named node",
+          "gate_probe": {
+            "status": "pass",
+            "ray_count": 582,
+            "flat_edge_signed_distance_inward_BU": 0.0,
+            "max_abs_ground_error_BU": 9.5367431640625e-07,
+            "visual_terrain_object_and_material": [
+              [
+                "S3_BedCap_South",
+                "GrassFlat.004"
+              ],
+              [
+                "S3_GrassLand_East",
+                "GrassFlat.006"
+              ],
+              [
+                "S3_GrassLand_West",
+                "GrassFlat.006"
+              ]
+            ],
+            "bad_rays": [],
+            "uncovered_ground_intervals_x_BU": [],
+            "water_at_gate": [],
+            "ground_protrudes_through_gate": []
+          },
+          "visual_meshes_inside_neighbor_corridor": []
+        }
+      }
+    },
+    {
+      "pair": "S3_S4",
+      "status": "pass",
+      "world_seam_BU": [
+        0.0,
+        236.0,
+        0.0
+      ],
+      "sides": {
+        "LVL-S3": {
+          "GLB": "Assets/Watercolor/Goose/Blender/LVL-S3/v001/LVL-S3_S3_Rescue.glb",
+          "GLB_sha256": "7c8426006eeda428ef81d7372e8ca11236e4dec9f71c0894d310864721971e74",
+          "asset_local_gate_BU": [
+            0,
+            64,
+            0
+          ],
+          "imported_anchor": {
+            "node": "S3_Exit",
+            "position_BU": [
+              0.0,
+              236.0,
+              0.0
+            ],
+            "heading_blender": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "position_error_BU": 0.0,
+            "heading_error": 0.0,
+            "status": "pass"
+          },
+          "anchor_source": "GLB named node",
+          "gate_probe": {
+            "status": "pass",
+            "ray_count": 582,
+            "flat_edge_signed_distance_inward_BU": -0.0,
+            "max_abs_ground_error_BU": 9.5367431640625e-07,
+            "visual_terrain_object_and_material": [
+              [
+                "S3_BedCap_North",
+                "GrassFlat.001"
+              ],
+              [
+                "S3_GrassLand_East",
+                "GrassFlat"
+              ],
+              [
+                "S3_GrassLand_West",
+                "GrassFlat"
+              ]
+            ],
+            "bad_rays": [],
+            "uncovered_ground_intervals_x_BU": [],
+            "water_at_gate": [],
+            "ground_protrudes_through_gate": []
+          },
+          "visual_meshes_inside_neighbor_corridor": []
+        },
+        "LVL-S4": {
+          "GLB": "Assets/Watercolor/Goose/Blender/LVL-S4/v001/LVL-S4_S4_WindFarm.glb",
+          "GLB_sha256": "8a07962c9c2fecff8e17a7bfab135dffbf8362b94eab119648eb9eab0069caed",
+          "asset_local_gate_BU": [
+            2,
+            -45,
+            0
+          ],
+          "imported_anchor": null,
+          "anchor_source": "MarshStitch external bounds / s4_layout.json outer_lane_and_marsh.leader_x_BU",
+          "gate_probe": {
+            "status": "pass",
+            "ray_count": 582,
+            "flat_edge_signed_distance_inward_BU": 0.0,
+            "max_abs_ground_error_BU": 9.5367431640625e-07,
+            "visual_terrain_object_and_material": [
+              [
+                "Terrain -10,-40",
+                "GrassFlat.005"
+              ],
+              [
+                "Terrain 0,-40",
+                "GrassFlat.005"
+              ],
+              [
+                "Terrain 10,-40",
+                "GrassFlat.005"
+              ]
+            ],
+            "bad_rays": [],
+            "uncovered_ground_intervals_x_BU": [],
+            "water_at_gate": [],
+            "ground_protrudes_through_gate": []
+          },
+          "visual_meshes_inside_neighbor_corridor": []
+        }
+      }
+    },
+    {
+      "pair": "S4_S5",
+      "status": "pass",
+      "world_seam_BU": [
+        0.0,
+        326.0,
+        0.0
+      ],
+      "sides": {
+        "LVL-S4": {
+          "GLB": "Assets/Watercolor/Goose/Blender/LVL-S4/v001/LVL-S4_S4_WindFarm.glb",
+          "GLB_sha256": "8a07962c9c2fecff8e17a7bfab135dffbf8362b94eab119648eb9eab0069caed",
+          "asset_local_gate_BU": [
+            2,
+            45,
+            0
+          ],
+          "imported_anchor": null,
+          "anchor_source": "MarshStitch external bounds / s4_layout.json outer_lane_and_marsh.leader_x_BU",
+          "gate_probe": {
+            "status": "pass",
+            "ray_count": 582,
+            "flat_edge_signed_distance_inward_BU": -0.0,
+            "max_abs_ground_error_BU": 9.5367431640625e-07,
+            "visual_terrain_object_and_material": [
+              [
+                "Terrain -10,40",
+                "GrassFlat.001"
+              ],
+              [
+                "Terrain 0,40",
+                "GrassFlat.001"
+              ],
+              [
+                "Terrain 10,40",
+                "GrassFlat.001"
+              ]
+            ],
+            "bad_rays": [],
+            "uncovered_ground_intervals_x_BU": [],
+            "water_at_gate": [],
+            "ground_protrudes_through_gate": []
+          },
+          "visual_meshes_inside_neighbor_corridor": []
+        },
+        "LVL-S5": {
+          "GLB": "Assets/Watercolor/Goose/Blender/LVL-S5/v001/LVL-S5_S5_Headwind.glb",
+          "GLB_sha256": "da2df05dad85326994cee8f5fcabde790b3ba3b787eb4517c5903128c21acb0f",
+          "asset_local_gate_BU": [
+            0,
+            0,
+            0
+          ],
+          "imported_anchor": {
+            "node": "S5_Entry",
+            "position_BU": [
+              0.0,
+              326.0,
+              0.0
+            ],
+            "heading_blender": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "position_error_BU": 0.0,
+            "heading_error": 0.0,
+            "status": "pass"
+          },
+          "anchor_source": "GLB named node",
+          "gate_probe": {
+            "status": "pass",
+            "ray_count": 582,
+            "flat_edge_signed_distance_inward_BU": 0.0,
+            "max_abs_ground_error_BU": 4.76837158203125e-07,
+            "visual_terrain_object_and_material": [
+              [
+                "S5_Terrain_Entry_gate",
+                "GrassFlat.002"
+              ]
+            ],
+            "bad_rays": [],
+            "uncovered_ground_intervals_x_BU": [],
+            "water_at_gate": [],
+            "ground_protrudes_through_gate": []
+          },
+          "visual_meshes_inside_neighbor_corridor": []
+        }
+      }
+    },
+    {
+      "pair": "S5_S6",
+      "status": "pass",
+      "world_seam_BU": [
+        0.0,
+        390.0,
+        0.0
+      ],
+      "sides": {
+        "LVL-S5": {
+          "GLB": "Assets/Watercolor/Goose/Blender/LVL-S5/v001/LVL-S5_S5_Headwind.glb",
+          "GLB_sha256": "da2df05dad85326994cee8f5fcabde790b3ba3b787eb4517c5903128c21acb0f",
+          "asset_local_gate_BU": [
+            0,
+            64,
+            0
+          ],
+          "imported_anchor": {
+            "node": "S5_Exit",
+            "position_BU": [
+              0.0,
+              390.0,
+              0.0
+            ],
+            "heading_blender": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "position_error_BU": 0.0,
+            "heading_error": 0.0,
+            "status": "pass"
+          },
+          "anchor_source": "GLB named node",
+          "gate_probe": {
+            "status": "pass",
+            "ray_count": 582,
+            "flat_edge_signed_distance_inward_BU": -0.0,
+            "max_abs_ground_error_BU": 4.76837158203125e-07,
+            "visual_terrain_object_and_material": [
+              [
+                "S5_Terrain_Exit_gate",
+                "GrassFlat"
+              ]
+            ],
+            "bad_rays": [],
+            "uncovered_ground_intervals_x_BU": [],
+            "water_at_gate": [],
+            "ground_protrudes_through_gate": []
+          },
+          "visual_meshes_inside_neighbor_corridor": []
+        },
+        "LVL-S6": {
+          "GLB": "Assets/Watercolor/Goose/Blender/LVL-S6/v001/LVL-S6_S6_Landing.glb",
+          "GLB_sha256": "5cf4a4dd86f24c2f9bdb28a6b7657e5e588c06d917d526f8eb692786e40f90d8",
+          "asset_local_gate_BU": [
+            0,
+            0,
+            0
+          ],
+          "imported_anchor": {
+            "node": "S6_Entry",
+            "position_BU": [
+              0.0,
+              390.0,
+              0.0
+            ],
+            "heading_blender": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "position_error_BU": 0.0,
+            "heading_error": 0.0,
+            "status": "pass"
+          },
+          "anchor_source": "GLB named node",
+          "gate_probe": {
+            "status": "pass",
+            "ray_count": 582,
+            "flat_edge_signed_distance_inward_BU": 0.0,
+            "max_abs_ground_error_BU": 9.5367431640625e-07,
+            "visual_terrain_object_and_material": [
+              [
+                "LandingBasin_Ground",
+                "GrassFlat.004"
+              ]
+            ],
+            "bad_rays": [],
+            "uncovered_ground_intervals_x_BU": [],
+            "water_at_gate": [],
+            "ground_protrudes_through_gate": []
+          },
+          "visual_meshes_inside_neighbor_corridor": []
+        }
+      }
+    }
+  ],
+  "status": "pass"
+}

@@ -1,0 +1,146 @@
+{
+  "id": "FX-008",
+  "version": "v001",
+  "status": "needs_review",
+  "independent_delivery_recheck": {
+    "status": "pass",
+    "blender": "5.2.2 LTS",
+    "verified_directory": "Assets/Watercolor/Goose/Blender/FX-008/v001",
+    "input_sha256": {
+      "FX-008_FormationGuide.blend": "6f2eee2c6c87d2925dc9e72505785a4b711d10b57d7ce39285227ca521204c99",
+      "FX-008_FormationGuide.glb": "46499e9e1aa509a8db8d2d05efef67d0ed1b36b03296135b30cddaa2d37aa2a9",
+      "ft_goose_fx_formation_guide_basecolor_alpha.png": "ab0c275ec6f22a8dfa4c94c87135bb0159bdd924f89d5ef4cd3e3cf4c875b8d6"
+    },
+    "dependency_evidence": {
+      "CHR-001": {
+        "status": "done",
+        "qa_status": "done",
+        "sha256": {
+          "CHR-001_goose_rig.blend": "db0c8d55c5efc499c99f7787228967451d071f36294962b12dc4b34d02f350f5",
+          "CHR-001_goose_rig.glb": "cd11419a47a2c8e2d67d636015675540581a74720a83c23ef8531437c7161b81",
+          "README.md": "fca1e84b2f0c7dfdac8ffa4cd929cd20a529b2dcd18a71821249b7315d31f659",
+          "asset_manifest.json": "8daa953c8b45b97f750e45e33a751869470f9baead7182d253e5bf7fd1441921",
+          "qa.json": "de7e7d6eed73a5aa4d993113b4713e81f470480d982d981e80ef58acb56488ea"
+        }
+      },
+      "ANM-006": {
+        "status": "needs_review",
+        "qa_status": "needs_review",
+        "sha256": {
+          "ANM-006_formation_blend.blend": "b4690d3f11dd225f51413c0dbf2f75fe900e630222432568b37d426f924f1cb5",
+          "ANM-006_formation_blend.glb": "f66466196668e7aaa8f36cde867a7ada83d87d56acfb121c7428aad4d7c129fe",
+          "README.md": "5d2a7fc1c485b688f62ac61c9c4859b6e1a39297bcbf70e3a61d2d9db3620ace",
+          "asset_manifest.json": "f6965e0925ac5f5822c9a1930ce607bed2c16287d1a868998b0d689849257a61",
+          "qa.json": "b45884f33e3d91d28a764e8154d0e743c2a22042b11672541157f1eb6865ab71"
+        }
+      }
+    },
+    "master_camera_flock_and_timing": {
+      "visible_ribbons_L_and_R": [
+        5,
+        4
+      ],
+      "flock": 12,
+      "triangle_mesh_instances": 1,
+      "sampled_half_frames": 383,
+      "min_source_frame_margin_px_for_visible_guides": 43.37276700139046,
+      "min_ribbon_outward_spacing_BU": 0.9099998474121094,
+      "max_fixed_rig_position_delta_BU": 9.610960183499514e-07,
+      "max_shader_driver_error_vs_linear_keys": 8.762029953944828e-05,
+      "max_baked_half_frame_delta_vs_continuous_envelope": 0.04595544457780831,
+      "sample_opacity_by_frame_24fps": {
+        "1": 0.0,
+        "13": 0.0,
+        "37": 0.5,
+        "61": 1.0,
+        "73": 1.0,
+        "85": 0.5,
+        "97": 0.0,
+        "103": 0.0,
+        "151": 1.0,
+        "163": 1.0,
+        "167": 0.0,
+        "169": 0.0,
+        "192": 0.0
+      }
+    },
+    "portable_GLTF": {
+      "nodes": 1,
+      "mesh_primitives": 1,
+      "triangles": 10,
+      "review_objects_exported": 0,
+      "texture_embedded_byte_match": true,
+      "material_alpha": "BLEND",
+      "material_extension": "KHR_materials_unlit",
+      "double_sided": true,
+      "positions_min_gltf": [
+        -0.06786061823368073,
+        0,
+        -0.3199999928474426
+      ],
+      "positions_max_gltf": [
+        0.09507082402706146,
+        0,
+        0.3199999928474426
+      ]
+    },
+    "texture": {
+      "dimensions_px": [
+        256,
+        64
+      ],
+      "alpha_peak_8bit": 100,
+      "zero_alpha_outer_border": true
+    },
+    "GLB_reimport_UV_positions_and_normals": "pass",
+    "alternate_slot_positions_and_ground_clamp": "pass",
+    "formed_cancelled_comparison": {
+      "formed": {
+        "peak_8bit_delta": 41.999996185302734,
+        "mean_8bit_delta": 0.22806686162948608,
+        "pixels_delta_at_least_6_of_255": 854,
+        "left_pixels_delta_at_least_6_of_255": 574,
+        "right_pixels_delta_at_least_6_of_255": 280
+      },
+      "broken": {
+        "peak_8bit_delta": 4.999999523162842,
+        "mean_8bit_delta": 0.008523575030267239,
+        "pixels_delta_at_least_6_of_255": 0,
+        "left_pixels_delta_at_least_6_of_255": 0,
+        "right_pixels_delta_at_least_6_of_255": 0
+      },
+      "released": {
+        "peak_8bit_delta": 1.9999998807907104,
+        "mean_8bit_delta": 0.008051702752709389,
+        "pixels_delta_at_least_6_of_255": 0,
+        "left_pixels_delta_at_least_6_of_255": 0,
+        "right_pixels_delta_at_least_6_of_255": 0
+      }
+    },
+    "roundtrip_same_scene_error": {
+      "peak_8bit_delta": 1.0000075101852417,
+      "mean_8bit_delta": 0.004515642765909433,
+      "pixels_delta_at_least_6_of_255": 0,
+      "left_pixels_delta_at_least_6_of_255": 0,
+      "right_pixels_delta_at_least_6_of_255": 0
+    },
+    "silent_video_full_decode": {
+      "codec_name": "prores",
+      "codec_type": "video",
+      "width": 852,
+      "height": 393,
+      "pix_fmt": "yuv422p10le",
+      "r_frame_rate": "12/1",
+      "duration": "8.000000",
+      "nb_read_frames": "96"
+    }
+  },
+  "redline_review": "Reviewed plans/_templates/redline-checklist.md. The sample introduces only a muted silent visual guide.",
+  "app_baseline": "Existing iPhone 18 Pro (iOS 27.2) simulator baseline in the active plan, 340 tests. This asset's checks ran offline.",
+  "pending": {
+    "art": "Owner art review, and legibility over final backgrounds and any combined adjacent effects.",
+    "runtime": "RealityKit visibility, texture/shader transparency and ordering, actual flock anchors, timing and route.",
+    "usdz_app": "USDZ and App integration.",
+    "hardware": "iPhone and iPad visual read, controls, frame rate, thermal behavior, and memory."
+  }
+}

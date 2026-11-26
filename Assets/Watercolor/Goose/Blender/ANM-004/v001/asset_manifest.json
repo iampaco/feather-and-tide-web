@@ -1,0 +1,178 @@
+{
+  "id": "ANM-004",
+  "version": "v001",
+  "status": "needs_review",
+  "blender": "5.2.2 LTS",
+  "dependencies": {
+    "CHR-001/v001": "done"
+  },
+  "review_reference": "ANM-001/v001",
+  "source_hashes": {
+    "CHR-001/v001/CHR-001_goose_rig.blend": "db0c8d55c5efc499c99f7787228967451d071f36294962b12dc4b34d02f350f5",
+    "CHR-001/v001/CHR-001_goose_rig.glb": "cd11419a47a2c8e2d67d636015675540581a74720a83c23ef8531437c7161b81",
+    "ANM-001/v001/ANM-001_cruise_flap.blend": "b7faafee6aa4f0fd9e3c05224162fa5ff73b8bbd8c01818e101e5cdad0676111",
+    "ANM-003/v001/ANM-003_glide_circle_generate.py": "4f17c8a2391ff11dc4861d9c407dde516d8bd74bde4cd2aaa53883d46c5eaee2",
+    "ANM-001/v001/ANM-001_cruise_flap_generate.py": "ff7613de9a9a61ca857b0f363ab16ea6e3cf2dce894c9e0cbcad9d45312acd66",
+    "CHR-001/v001/CHR-001_goose_rig_generate.py": "9c56676574b80c6642dc11f4015f9460a14eb0ca6407acee440c9732071b4a90"
+  },
+  "source": "Original keyframed turn response on accepted CHR-001 mesh and armature.",
+  "rights": "Project-original animation, reuses project CHR-001 packed plumage.",
+  "clip": {
+    "name": "Bank_L",
+    "frames": [
+      1,
+      25
+    ],
+    "fps": 48,
+    "duration_s": 0.5,
+    "loop": false,
+    "sampling": "t=0.5s × normalized left-turn strength, hold sample",
+    "bank_left_deg": 12,
+    "root_motion": false
+  },
+  "review": {
+    "cruise_entry_frame": 49,
+    "cruise_entry_phase": 0.9230769230769231,
+    "cruise_exit_frame": 52,
+    "entry_s": 0.5,
+    "hold_s": 0.5833333333333334,
+    "exit_s": 0.5833333333333334,
+    "base_pose_blend_in_s": 0.375,
+    "base_pose_blend_out_s": 0.3333333333333333,
+    "camera": {
+      "distance_game_units": 180,
+      "pitch_parameter_rad": 0.48,
+      "vertical_fov_deg": 50,
+      "aim_height_game_units": 6,
+      "leader_height_game_units": 8,
+      "follower_height_game_units": 6,
+      "leader_bill_to_tail_game_units": 27.5,
+      "preview_game_units_per_BU": 27.777479617271997,
+      "render_px": [
+        852,
+        393
+      ],
+      "camera_location_BU": [
+        0.0,
+        -5.747788906097412,
+        2.7043581008911133
+      ]
+    },
+    "follower_scale": 0.8,
+    "preview_carrier": {
+      "speed_game_units_per_s": 30.0,
+      "peak_yaw_rate_rad_s": 0.6,
+      "heading_change_deg": 38.674651854349484
+    },
+    "runtime_bank_handoff": "Fade entity roll out while fading the Bank_L pose in. Keep game heading and pitch."
+  },
+  "character": {
+    "triangles_lod0": 3940,
+    "bones": 15,
+    "pivot_BU": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ],
+    "axes_blender": {
+      "right": "+X",
+      "up": "+Z",
+      "forward": "+Y"
+    },
+    "axes_gltf": {
+      "right": "+X",
+      "up": "+Y",
+      "forward": "-Z"
+    }
+  },
+  "variants": {
+    "Leader": [
+      1.0,
+      0.976,
+      0.925,
+      1.0
+    ],
+    "Follower A": [
+      0.965,
+      0.985,
+      1.0,
+      1.0
+    ],
+    "Follower B": [
+      0.91,
+      0.925,
+      0.94,
+      1.0
+    ],
+    "Follower C": [
+      0.98,
+      0.96,
+      0.94,
+      1.0
+    ]
+  },
+  "texture_mapping": {
+    "ft_goose_mat_billfeet_basecolor.png": {
+      "from": "Assets/Watercolor/Goose/Blender/MAT-002/v001/textures/ft_goose_mat_billfeet_basecolor.png",
+      "sha256": "ccf80ec9272f2dd56733c69d9536ccf7b41fabde7a9b396847f185c2dd8b97d0",
+      "embedded_in": [
+        ".blend",
+        ".glb"
+      ]
+    },
+    "ft_goose_mat_body_basecolor.png": {
+      "from": "Assets/Watercolor/Goose/Blender/MAT-002/v001/textures/ft_goose_mat_body_basecolor.png",
+      "sha256": "593d054ebf19385359ced9af9faa15c9e02ded94763481bf4ececfe14b8a8cc5",
+      "embedded_in": [
+        ".blend",
+        ".glb"
+      ]
+    },
+    "ft_goose_mat_flightfeather_basecolor.png": {
+      "from": "Assets/Watercolor/Goose/Blender/MAT-002/v001/textures/ft_goose_mat_flightfeather_basecolor.png",
+      "sha256": "2c0d67e50dfdb29a423cdcd1a000c0139588e1957cbb032d6696eca83c551014",
+      "embedded_in": [
+        ".blend",
+        ".glb"
+      ]
+    },
+    "ft_goose_mat_head_basecolor.png": {
+      "from": "Assets/Watercolor/Goose/Blender/MAT-002/v001/textures/ft_goose_mat_head_basecolor.png",
+      "sha256": "7d7bb772387c9d48517cd35e3554a9690791b2fa21af0f9241a18fad8592c205",
+      "embedded_in": [
+        ".blend",
+        ".glb"
+      ]
+    }
+  },
+  "files": {
+    "ANM-004_bank_left.blend": "cd92656884de8f2b7c067f3aa6db71b1d7651e82227837836fc6a74309783d76",
+    "ANM-004_bank_left.glb": "9a96cd72e24fefb6b89d2e685010cb8996e1ef7b8d2bae1bb850848138b3a2de",
+    "ANM-004_bank_left_generate.py": "d8a099c61d29965f5ca1779c76c1e7ab23fce705847f919eda27eaa07eb597c3",
+    "README.md": "2324c41f7567f094e66dc1c42a18bdcc1e7da9adf892fe78ab40613838fbe46d",
+    "preview_glb_full_bank.png": "e218504fe9279fa6c2306a7e7bb549fdfadcf601338c1b795de283229dfd4fc0",
+    "preview_rear_1x_cruise.png": "0779fbdc9cec918804e51cfbe50473641e257513044740938a18ed673e2a4ecc",
+    "preview_rear_1x_entry.png": "81d06e88ccd4990e82042dd6d303b7da5ec9e107ab0db1851a2ba211ef06655d",
+    "preview_rear_1x_full_bank.png": "3f0aedf03ab6bdcf5ff79db303a246425a82b011866e2a30c293d7b6f103be89",
+    "preview_rear_1x_release.png": "d38293da629358ba3452a7fb7fe67c22a306d879d13cdb1315814100878a13bf",
+    "preview_rear_detail.mp4": "a148092ad34301086b30bddc12715f7aad20c981b88d94a5c8f8ed69357ad7b8",
+    "preview_rear_flock_12.mp4": "7d8109bbc926eab926cc64937cda784182d5f538b32dba6bf533ed6239204ab3",
+    "preview_rear_flock_12.png": "00e2646d2d8545ab8ce3131ef257c8f00347b0678a622f7d08b4b354907a7fdd",
+    "preview_rear_half_full_bank.png": "8c8b328ca1e88e8b4861c7cbd92f643e62f078861c319caa7cc8e04183f83af5",
+    "preview_top_flock_12.png": "c08055c7be0cd49c2f2bd630a8d8b1ddb607d35c3b734bcaaab6f284c8b66c80",
+    "preview_top_full_bank.png": "f82806cb32918cf1f9fae8a999f067f824df53167672c2f9cde034716d1c4b0c",
+    "preview_top_half_full_bank.png": "8e86a8f846c682e3018790557a2464292fd613a1102a741e989afc64ec7973dd",
+    "preview_top_world_trajectory.png": "7a2047465996db947508bf4943d38e7694a37079ec31925c0b718a13da04687e",
+    "qa.json": "349aead20baf0a2b75f96a1c51c947139db9f5767f3339bb6e00d377f7eb8eb3"
+  },
+  "texture_dependency": {
+    "packed_from": "CHR-001/v001",
+    "original_texture_task": "MAT-002/v001",
+    "material_review": "pending"
+  }
+}

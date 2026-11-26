@@ -1,0 +1,183 @@
+{
+  "id": "MAT-002",
+  "version": "v001",
+  "depends": [
+    "MAT-001/v001"
+  ],
+  "blender": "5.2.2 LTS",
+  "source": "原创程序化羽色、简化雁形和布光。复用 MAT-001/v001 的 DryGround 节点与水彩噪声工具。",
+  "dependency_hashes": {
+    "MAT-001_watercolor_master.blend": "9fc0305a78264733d2a2f5747a67833158c59470eff3e3d71c4f6da5b9d11de0",
+    "MAT-001_watercolor_master_generate.py": "16bf8aaa6ecb2e52cc575c91d36d5256494df72c72a727741e5542de5b14364d"
+  },
+  "materials": {
+    "Head": {
+      "png": "textures/ft_goose_mat_head_basecolor.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "color_space": "sRGB",
+      "palette_srgb": [
+        "#CFC1A7",
+        "#E3DAC4",
+        "#F1E9D7"
+      ],
+      "roughness": 0.88,
+      "metallic": 0
+    },
+    "Body": {
+      "png": "textures/ft_goose_mat_body_basecolor.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "color_space": "sRGB",
+      "palette_srgb": [
+        "#87817B",
+        "#A79E91",
+        "#C5BAAA"
+      ],
+      "roughness": 0.9,
+      "metallic": 0
+    },
+    "FlightFeather": {
+      "png": "textures/ft_goose_mat_flightfeather_basecolor.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "color_space": "sRGB",
+      "palette_srgb": [
+        "#393635",
+        "#55504D",
+        "#736C64"
+      ],
+      "roughness": 0.91,
+      "metallic": 0
+    },
+    "BillFeet": {
+      "png": "textures/ft_goose_mat_billfeet_basecolor.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "color_space": "sRGB",
+      "palette_srgb": [
+        "#935735",
+        "#BD7E4B",
+        "#D59B63"
+      ],
+      "roughness": 0.8,
+      "metallic": 0
+    }
+  },
+  "variants": {
+    "Leader": {
+      "body": "Body_Leader",
+      "linear_tint": [
+        1.0,
+        0.976,
+        0.925,
+        1.0
+      ]
+    },
+    "Follower": {
+      "body": "Body_Follower",
+      "linear_tint": [
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  },
+  "objects": {
+    "Body_Proxy": 812,
+    "Head_Proxy": 2636,
+    "Neck_Proxy": 276,
+    "Bill_Proxy": 156,
+    "Tail_Proxy": 140,
+    "Eye_L": 212,
+    "Foot_L": 248,
+    "Body_WingL": 656,
+    "Eye_R": 212,
+    "Foot_R": 248,
+    "Body_WingR": 656,
+    "FlightFeather_WingTips": 192
+  },
+  "gameplay_review": {
+    "reference": "ThirdPersonRig.graybox / PlayfieldView leader marker",
+    "camera_distance_game_units": 180,
+    "camera_pitch_radians": 0.48,
+    "vertical_fov_degrees": 50,
+    "target_height": 6,
+    "leader_height": 8,
+    "leader_proxy_length_game_units": 27.5,
+    "canvas_px": [
+      852,
+      393
+    ],
+    "projected_band_samples_px": {
+      "1x": {
+        "front_white": [
+          425.5,
+          160.22
+        ],
+        "bar_1": [
+          425.5,
+          161.4
+        ],
+        "white_gap": [
+          425.5,
+          163.97
+        ],
+        "bar_2": [
+          425.5,
+          167.05
+        ],
+        "rear_white": [
+          425.5,
+          169.33
+        ]
+      },
+      "0.5x": {
+        "front_white": [
+          425.5,
+          175.79
+        ],
+        "bar_1": [
+          425.5,
+          176.42
+        ],
+        "white_gap": [
+          425.5,
+          177.75
+        ],
+        "bar_2": [
+          425.5,
+          179.31
+        ],
+        "rear_white": [
+          425.5,
+          180.46
+        ]
+      }
+    }
+  },
+  "files": {
+    "MAT-002_goose_plumage.blend": "7754ae22aa16fd882e87ac81c187e94fb49f37fd2ad21a3eb391251585331459",
+    "MAT-002_goose_plumage.glb": "26df7c9b3284e7a7487f0594e44076e27ad40703da9fdf5aeced247a70cd6cd8",
+    "preview_gameplay_1x.png": "59c4cb1767d8cbd54ff5022d6d115f24cccd1e45e2b71b0f81d4c8beb30264a4",
+    "preview_gameplay_cool.png": "142a510fa031b0ac3f2d5a7a99f1e444b6db835b14c0bfe6c276995db06799f8",
+    "preview_gameplay_half.png": "10c08c10c5d277be364c9e1ded7a076056789d6807db22b5f8b94c5839cca77c",
+    "preview_glb_roundtrip.png": "435a8d87e3cb38ac57c819f05498c225c83ebe287ac64f7fa55e06d6288f51aa",
+    "preview_rear_detail.png": "c6b8b76592e50d52867860ceef6248fa766afcdf07234d25c199c83d8d49efb4",
+    "preview_top.png": "5c64b84d2c5fcef9a0dd76031cc87d2ce0a381389e0c504ac1d7616409d073f8",
+    "textures/ft_goose_mat_head_basecolor.png": "7d7bb772387c9d48517cd35e3554a9690791b2fa21af0f9241a18fad8592c205",
+    "textures/ft_goose_mat_body_basecolor.png": "593d054ebf19385359ced9af9faa15c9e02ded94763481bf4ececfe14b8a8cc5",
+    "textures/ft_goose_mat_flightfeather_basecolor.png": "2c0d67e50dfdb29a423cdcd1a000c0139588e1957cbb032d6696eca83c551014",
+    "textures/ft_goose_mat_billfeet_basecolor.png": "ccf80ec9272f2dd56733c69d9536ccf7b41fabde7a9b396847f185c2dd8b97d0",
+    "MAT-002_goose_plumage_generate.py": "431f3eb2b791ce1cb7e3df5adbc54159a5e597a2d06a610ed1a9e45a76f6038b"
+  }
+}

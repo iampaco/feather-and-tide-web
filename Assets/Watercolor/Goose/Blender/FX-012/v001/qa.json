@@ -1,0 +1,187 @@
+{
+  "asset_id": "FX-012",
+  "version": "v001",
+  "status": "needs_review",
+  "blender": "5.2.2 LTS",
+  "independent_master_reopen": "pass",
+  "verified_from": "/Users/pacoramirez/Desktop/feather & tide/Assets/Watercolor/Goose/Blender/FX-012/v001",
+  "per_stage": {
+    "S1": {
+      "status": "pass",
+      "overlay_fit": {
+        "water_samples": 376,
+        "max_water_lift_error_BU": 3.01361083985055e-07,
+        "nearest_reed_BU_per_veil": [
+          0.16861216723918915,
+          0.044111620634794235,
+          0.1595292091369629
+        ]
+      },
+      "fixed_rear_in_frame": {
+        "shallow_water": 238,
+        "reed_veil": 12,
+        "landed_bird_centers": 12
+      },
+      "state_response": {
+        "status": "pass",
+        "evaluated_frames": 148,
+        "available_idle_sample": 0.27000001072883606,
+        "restoring_sample_frame_50": 0.9195880889892578,
+        "exit_sample_frame_75": 0.35857051610946655,
+        "exit_sample_frame_89": 0.28984740376472473,
+        "exhausted_reentry_frame_145": 0.0,
+        "feather_materials_driven": 4
+      },
+      "glb_roundtrip": {
+        "status": "pass",
+        "triangles_by_draw_layer": {
+          "RestCue_S1_ReedHalo": 6,
+          "RestCue_S1_ShallowLight": 94
+        },
+        "exact_embedded_png_sha256": [
+          "90775995b42543beda5c7189df6f33d42549e5e610023db4adb6b10f4180abba",
+          "cc0d131e63856fb72c33eddb60e760fa97b519605c106b8a325c4c19ee0b809a"
+        ],
+        "alpha_mode": "BLEND",
+        "extension": "KHR_materials_unlit"
+      }
+    },
+    "S2": {
+      "status": "pass",
+      "overlay_fit": {
+        "water_samples": 660,
+        "max_water_lift_error_BU": 4.138946533196325e-07,
+        "nearest_reed_BU_per_veil": [
+          0.030562985688447952,
+          0.11408919095993042,
+          0.023515503853559494
+        ]
+      },
+      "fixed_rear_in_frame": {
+        "shallow_water": 399,
+        "reed_veil": 12,
+        "landed_bird_centers": 12
+      },
+      "state_response": {
+        "status": "pass",
+        "evaluated_frames": 148,
+        "available_idle_sample": 0.27000001072883606,
+        "restoring_sample_frame_50": 0.9195880889892578,
+        "exit_sample_frame_75": 0.35857051610946655,
+        "exit_sample_frame_89": 0.28984740376472473,
+        "exhausted_reentry_frame_145": 0.0,
+        "feather_materials_driven": 4
+      },
+      "glb_roundtrip": {
+        "status": "pass",
+        "triangles_by_draw_layer": {
+          "RestCue_S2_ReedHalo": 6,
+          "RestCue_S2_ShallowLight": 165
+        },
+        "exact_embedded_png_sha256": [
+          "90775995b42543beda5c7189df6f33d42549e5e610023db4adb6b10f4180abba",
+          "cc0d131e63856fb72c33eddb60e760fa97b519605c106b8a325c4c19ee0b809a"
+        ],
+        "alpha_mode": "BLEND",
+        "extension": "KHR_materials_unlit"
+      }
+    },
+    "S4": {
+      "status": "pass",
+      "overlay_fit": {
+        "water_samples": 528,
+        "max_water_lift_error_BU": 3.01361083985055e-07,
+        "nearest_reed_BU_per_veil": [
+          0.015237259678542614,
+          0.15388743579387665,
+          0.35470905900001526
+        ]
+      },
+      "fixed_rear_in_frame": {
+        "shallow_water": 334,
+        "reed_veil": 12,
+        "landed_bird_centers": 12
+      },
+      "state_response": {
+        "status": "pass",
+        "evaluated_frames": 148,
+        "available_idle_sample": 0.27000001072883606,
+        "restoring_sample_frame_50": 0.9195880889892578,
+        "exit_sample_frame_75": 0.35857051610946655,
+        "exit_sample_frame_89": 0.28984740376472473,
+        "exhausted_reentry_frame_145": 0.0,
+        "feather_materials_driven": 4
+      },
+      "glb_roundtrip": {
+        "status": "pass",
+        "triangles_by_draw_layer": {
+          "RestCue_S4_ReedHalo": 6,
+          "RestCue_S4_ShallowLight": 132
+        },
+        "exact_embedded_png_sha256": [
+          "90775995b42543beda5c7189df6f33d42549e5e610023db4adb6b10f4180abba",
+          "cc0d131e63856fb72c33eddb60e760fa97b519605c106b8a325c4c19ee0b809a"
+        ],
+        "alpha_mode": "BLEND",
+        "extension": "KHR_materials_unlit"
+      }
+    }
+  },
+  "states_pixel_comparison": {
+    "status": "pass",
+    "compared_to_exhausted_reentry": {
+      "available_idle": 632,
+      "restoring": 3032,
+      "release": 1297
+    },
+    "threshold": "max of channel differences > 8/255"
+  },
+  "video": {
+    "status": "pass",
+    "codec": "h264",
+    "resolution": [
+      852,
+      393
+    ],
+    "decoded_frames": 37,
+    "duration_seconds": 6.166667,
+    "audio_streams": 0
+  },
+  "pending": [
+    "Owner art review",
+    "USDZ and RealityKit transparency ordering",
+    "App capacity, flock and Zone binding",
+    "iPhone and iPad readability and performance"
+  ],
+  "app_baseline": "Existing iPhone 18 Pro / iOS 27.2 build and 340 tests from active plan",
+  "redline_review": "No UI, scoring, alarms, coins, or capacity change; warm low-saturation recovery rendering only.",
+  "visual_review": {
+    "decoded_contact_sheet": "Four frames sampled and viewed at fixed rear perspective.",
+    "observed": "Shallow warmth is strongest during restoration; exhausted re-entry returns to the source water palette. Reed halo and feather tint remain intentionally subtle at the gameplay camera.",
+    "owner_art_review": "pending"
+  },
+  "authored_texture_alpha": {
+    "ft_goose_fx_rest_cue_water.png": {
+      "status": "pass",
+      "pixel_dimensions": [
+        192,
+        192
+      ],
+      "extrema_8bit": [
+        0,
+        139
+      ]
+    },
+    "ft_goose_fx_rest_cue_reeds.png": {
+      "status": "pass",
+      "pixel_dimensions": [
+        192,
+        192
+      ],
+      "extrema_8bit": [
+        0,
+        61
+      ]
+    }
+  }
+}

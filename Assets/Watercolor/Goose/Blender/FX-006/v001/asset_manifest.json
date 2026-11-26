@@ -1,0 +1,100 @@
+{
+  "id": "FX-006",
+  "version": "v001",
+  "status": "needs_review",
+  "blender": "5.2.2 LTS",
+  "source": "Project-original procedural ripples. MAT-004 and ANM-007 project context for offline review.",
+  "rights": "项目原创程序化资产和项目内依赖，未引入外部素材。",
+  "dependencies": {
+    "MAT-004/v001": {
+      "role": "正式制作依赖，追加母版可编辑水面材质。浅水用于预览。",
+      "review_state": "needs_review",
+      "master_sha256_actual": "ce6b3f7d9130ce6379659331a0d41c86804553aa5ae3a8ab9fdf6758e7bd7baa",
+      "master_sha256_declared": "50b0904e119b759d05befe89b5bc9844b5a527a879b966cdbba4d981cab1111b",
+      "master_hash_matches_manifest": false,
+      "portable_glb_sha256": "c0eebcfb148d113e616e5d2e600fcdb71e7860f7c5bbed1b99fd2ca2f6121496",
+      "three_packed_material_images_match_declared_PNG_and_GLB_bytes": {
+        "Water_Shallow": "ac34951540216c795b54b25d1dfd929d282dcc9a741f8d53b562621b29dead79",
+        "Water_Lake": "b6c2e797b1fe6124ad5de03e1f259c43659844b709d78d0489fa542134226610",
+        "Water_River": "f470fd1a2c206a618f27c177f7d6d613a4681135a47207103fa0b353c923fcaf"
+      }
+    },
+    "ANM-007/v001": {
+      "role": "仅用于预览。实际引擎以独立落水接触事件触发。",
+      "master_sha256": "bf8ed361fb9e06706e4a78e7fcbf2d4f61edc8cdbeea6018f2339dfecc35e5f0",
+      "clip": "Land_ShallowWater",
+      "review_contact_frame": 51
+    }
+  },
+  "axes_blender": "+X right, +Y forward, +Z up",
+  "axes_gltf": "Blender (x,y,z) -> (x,z,-y)",
+  "camera": {
+    "viewport_px": [
+      852,
+      393
+    ],
+    "distance_game_units": 180,
+    "pitch_parameter_rad": 0.48,
+    "vertical_fov_deg": 50,
+    "aim_height_game_units": 6,
+    "source": "Sources/FeatherTide/Systems/Camera/ThirdPersonRig.swift"
+  },
+  "master": "FX-006_ripples.blend",
+  "export": "FX-006_ripples.glb",
+  "controls": "ripple_controls.json",
+  "settings": {
+    "GLB": "Two standalone textured cards with static pivots, no animation payload",
+    "preview": "Editable rigs and shaders in the .blend, no hard-coded game state."
+  },
+  "textures": {
+    "Ripple_Idle": {
+      "file": "textures/ft_goose_vfx_ripple_idle_basecolor_alpha.png",
+      "color_space": "sRGB pigment + straight linear alpha",
+      "sample_mode": "repeat",
+      "resolution": [
+        512,
+        512
+      ],
+      "alpha_max_8bit": 85,
+      "alpha_soft_pixels": 25245,
+      "wrap_RGBA_error_8bit": [
+        0,
+        0
+      ]
+    },
+    "Ripple_Landing": {
+      "file": "textures/ft_goose_vfx_ripple_landing_basecolor_alpha.png",
+      "color_space": "sRGB pigment + straight linear alpha",
+      "sample_mode": "clamp",
+      "resolution": [
+        512,
+        512
+      ],
+      "alpha_max_8bit": 163,
+      "alpha_soft_pixels": 85409,
+      "wrap_RGBA_error_8bit": null
+    }
+  },
+  "files": {
+    "FX-006_generate.py": "deb8cee7d93e3d449afb8c985eb3d6b4272122dfba9680b03074455203e5b276",
+    "FX-006_ripples.blend": "f356f13c6bf793919855e95045d13a6ecbb3d6a01b51404f4acba9974b5b0871",
+    "FX-006_ripples.glb": "55ea5c1eea7886c9ef3e6860a87c1daa767a51ec21f0c54c457c22a3888b7b48",
+    "README.md": "768f5ab26d69c32a7edcec3917d2e052845c815cd893d3105f4c408512ec91da",
+    "comparison_without_idle.png": "fee3bbc378f3c8d92f5abdfece3c16429282bfec912925052e7f0be30e28c743",
+    "comparison_without_landing.png": "1b86342eaf94b0f5047022abad7e2eaa8b56768fe42efe216b8990b90da927db",
+    "graybox_fixed_rear.png": "e0c9201ac6fef7d1ac672ac38f1939a040c6ba70f293f60394e216fe06c9da1d",
+    "graybox_top.png": "09b01e3e7197006532010e53da7610a18335a6fa978812d8303bbba6c2b19a84",
+    "preview_fixed_rear.mp4": "a46d0f1194d6210c7da063b56b66499dccd850e299c8d2a89c6ae62ee772c4d0",
+    "preview_idle_fixed_rear.png": "5ae7dce0d742a24f6b673c2831c3cf01275dbce61380508cb8be6da2d11166e1",
+    "preview_landing_detail.png": "da0fddd1ff16216a00b5d6ca793ccdb0890f7720f2356142161768826f05b099",
+    "preview_landing_fixed_rear.png": "9f3b7aa53354da1027cae6b9835167f4d3998612fefa0a7a877981ab771d769b",
+    "preview_landing_top.png": "89c5840df90a4e150c2f83a6e726418521a7bbfb97d90c0471728ad7fd077ff3",
+    "qa.json": "17c5a58587ded4fb8238ceea7ae00241785d7328fe8b10b9d014b84652a2c9ff",
+    "ripple_controls.json": "a791db618e13092ab8f6387bd71508527829b0256b4ce77f0986f90e84a13d04",
+    "roundtrip_idle_drift.png": "f3442c245df8b8a6a7fbd8f5f1cdc02c96cfa58aa54d1886a123953536a28989",
+    "roundtrip_landing_fixed_rear.png": "d6680e28e742b026f78c598efaee888c29e8c03236b5eb2b2b3cbfb45ed913e0",
+    "textures/ft_goose_vfx_ripple_idle_basecolor_alpha.png": "31e1799aeae30017dee7ba509b6f9d0b7d43b2b4477f3339ca15d19af3f1309f",
+    "textures/ft_goose_vfx_ripple_landing_basecolor_alpha.png": "696a32ed109b570bf528e620fb62cb34a9a487e991c2175aed784a30643bafa2"
+  },
+  "verification_status": "pass_offline"
+}

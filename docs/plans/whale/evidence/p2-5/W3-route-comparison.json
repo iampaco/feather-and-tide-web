@@ -1,0 +1,40 @@
+[
+  {
+    "path": "continuous",
+    "startTick": 8800,
+    "checkpointTick": 10992,
+    "secondsToC2": 36.53333333333333,
+    "minimumBreath": 0.18749999999998934,
+    "maximumTailGap": 24.607684335850806,
+    "energyAtC2": 1,
+    "airBeforeRest": 0.7433333333333341,
+    "assistedSeconds": {
+      "reef-current": 5.683333333333334,
+      "reef-current-east": 4.666666666666667
+    }
+  },
+  {
+    "path": "regroup",
+    "startTick": 8800,
+    "checkpointTick": 11118,
+    "secondsToC2": 38.63333333333333,
+    "minimumBreath": 0.6633333333333349,
+    "maximumTailGap": 24.60561027584938,
+    "energyAtC2": 1,
+    "airBeforeRest": 0.7433333333333341,
+    "assistedSeconds": {
+      "reef-current": 5.683333333333334,
+      "reef-current-east": 4.933333333333334
+    }
+  },
+  {
+    "path": "surface",
+    "startTick": 8800,
+    "checkpointTick": 11301,
+    "secondsToC2": 41.68333333333333,
+    "minimumBreath": 1,
+    "maximumTailGap": 24.384679887920065,
+    "energyAtC2": 1,
+    "assistedSeconds": {}
+  }
+]

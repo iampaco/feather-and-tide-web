@@ -1,0 +1,51 @@
+{
+  "id": "FX-008",
+  "variant": "FormationGuide",
+  "status": "needs_review",
+  "mesh": "FX-008_FormationGuide.glb#FormationGuide",
+  "base_color_and_alpha": "textures/ft_goose_fx_formation_guide_basecolor_alpha.png",
+  "shape": {
+    "pivot": "centre of one horizontal brushstroke, with positive length axis toward the leader",
+    "length_BU": 0.64,
+    "axis_mapping": "(x,y,z) Blender to (x,z,-y) GLB and RealityKit",
+    "display_units_per_BU": 27.77777777777778,
+    "maximum_cross_section_width_BU": 0.155,
+    "overall_lateral_bounds_width_BU": 0.1629314422607422
+  },
+  "visual_inputs_proposed": {
+    "formationCompletion": "Finite 0...1 visual completion from SpeciesAbilityState.completion. Playback duration around 2 s is already governed by game state.",
+    "formationState": "Game-provided loose, forming, formed, releasing or broken event. Current activation is a feather-button toggle. Game code owns trigger semantics and sharp-turn threshold.",
+    "heading": "Current horizontal leader heading for orientation and outward direction.",
+    "slotsBySide": "Game-provided world anchors partitioned by wing and sorted nearest-to-farthest from leader, with height and assigned follower validity. May use current body poses to avoid drawing an ideal V over a departing bird.",
+    "terrainHeight": "Site surface height or min-safe visual guide plane in the same units as slot anchors.",
+    "opacityScale": "Optional finite 0...1 art/accessibility multiplier. Default 1. Can be set to 0 to hide."
+  },
+  "material": {
+    "mode": "unlit straight-alpha normal blend",
+    "ink": "warm gray-gold, soft ends and clear 1 px texture border",
+    "blend": "textureAlpha * opacityScale * envelope",
+    "realitykit": "Validate UnlitMaterial or an equivalent shader with texture-driven alpha. No bloom or additive blend required."
+  },
+  "placement": {
+    "eligibility": "Pair consecutive valid anchors on each wing. Skip any gap with a missing rank, coincident or nonfinite position; require at least two valid adjacent anchors on that wing.",
+    "pivot_formula": "centroid(anchorA,anchorB) + side * horizontalLeaderRight * outsideOffset; clamp displayed height to at least sampled terrain+clearance",
+    "orientation": "Point local +Y (GLB -Z) toward the near anchor along the gap, preserve world up.",
+    "length_formula": "horizontal gap length * dashFillRatio; map to 0.64 BU mesh before instancing. Width is independently controlled.",
+    "outsideOffset_BU": 0.91,
+    "verticalOffset_BU": -0.12,
+    "minimumTerrainClearance_BU": 0.025,
+    "dashFillRatio": 0.67,
+    "width_BU": 0.155,
+    "release": "Keep last valid route for the fade or continue updating only still-eligible anchors. Cut when an anchor no longer exists.",
+    "drawLayer": "Depth test against opaque birds and terrain. Runtime transparent layer ordering awaits RealityKit verification."
+  },
+  "envelope": {
+    "smootherstep": "s(u)=u^3*(10+u*(-15+6*u)); clamp u to [0,1]",
+    "forming": "s(formationCompletion)",
+    "formed": "1",
+    "released": "cachedEnvelope * (1-s(elapsed/1.0))",
+    "broken": "cachedEnvelope * (1-s(elapsed/0.15))",
+    "loose": "0; cull instances",
+    "note": "All timing knobs are visual candidate settings. Formation gameplay stays in Swift. Review timing and bird poses are in .blend, while GLB contains the single static dab."
+  }
+}

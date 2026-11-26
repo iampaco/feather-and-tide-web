@@ -1,0 +1,401 @@
+{
+  "id": "ENV-013",
+  "version": "v001",
+  "status": "needs_review",
+  "geometry": {
+    "Shrub_A": {
+      "triangles": 474,
+      "vertices_source": 255,
+      "bounds_BU": [
+        [
+          -0.677539050579071,
+          0.7543395757675171
+        ],
+        [
+          -0.46237051486968994,
+          0.5413956642150879
+        ],
+        [
+          0.0,
+          0.7565000057220459
+        ]
+      ],
+      "fully_closed": true,
+      "max_wind_delta_BU": 0.10342629525403356,
+      "max_low_root_wind_delta_BU": 0.0
+    },
+    "Shrub_B": {
+      "triangles": 440,
+      "vertices_source": 238,
+      "bounds_BU": [
+        [
+          -0.6239337921142578,
+          0.7641414403915405
+        ],
+        [
+          -0.4302060008049011,
+          0.5207087993621826
+        ],
+        [
+          0.0,
+          1.2940000295639038
+        ]
+      ],
+      "fully_closed": true,
+      "max_wind_delta_BU": 0.1414849858394068,
+      "max_low_root_wind_delta_BU": 0.0
+    }
+  },
+  "graybox_open_bank": {
+    "fixed_rear_poses": [
+      [
+        3.4,
+        0.5,
+        0.03
+      ],
+      [
+        3.42,
+        3.6,
+        0.019
+      ],
+      [
+        3.86,
+        5.7,
+        -0.075
+      ]
+    ],
+    "seeds": [
+      14013,
+      14031,
+      14053,
+      14071,
+      14107,
+      14143,
+      14159,
+      14177,
+      14197,
+      14221,
+      14243,
+      14263
+    ],
+    "expected_breeze_phases": 4,
+    "targets_per_view": 16,
+    "total_shrub_visibility_rays": 2304,
+    "occluded_rays": 0,
+    "terrain_visibility_rays": 48,
+    "projected_target_bounds_xy": [
+      [
+        0.43447452783584595,
+        0.529657781124115,
+        0.7434459328651428,
+        0.8286190032958984
+      ],
+      [
+        0.4221877157688141,
+        0.5436050891876221,
+        0.6679263114929199,
+        0.7904553413391113
+      ],
+      [
+        0.39342185854911804,
+        0.5409170389175415,
+        0.5864136815071106,
+        0.7550316452980042
+      ]
+    ],
+    "seeded_counts": [
+      27,
+      27,
+      27,
+      27,
+      27,
+      27,
+      27,
+      27,
+      27,
+      27,
+      27,
+      27
+    ],
+    "minimum_mesh_clearance_outside_reserved_rectangles_BU": 0.15616018295288114,
+    "open_corridor_xy_BU": [
+      2.21,
+      4.68,
+      -6.0,
+      17.5
+    ],
+    "reserved_rescue_xy_BU": [
+      1.72,
+      4.55,
+      7.28,
+      12.72
+    ]
+  },
+  "material_open_bank": {
+    "fixed_rear_poses": [
+      [
+        3.4,
+        0.5,
+        0.03
+      ],
+      [
+        3.42,
+        3.6,
+        0.019
+      ],
+      [
+        3.86,
+        5.7,
+        -0.075
+      ]
+    ],
+    "seeds": [
+      14013,
+      14031,
+      14053,
+      14071,
+      14107,
+      14143,
+      14159,
+      14177,
+      14197,
+      14221,
+      14243,
+      14263
+    ],
+    "expected_breeze_phases": 4,
+    "targets_per_view": 16,
+    "total_shrub_visibility_rays": 2304,
+    "occluded_rays": 0,
+    "terrain_visibility_rays": 48,
+    "projected_target_bounds_xy": [
+      [
+        0.43447452783584595,
+        0.529657781124115,
+        0.7434459328651428,
+        0.8286190032958984
+      ],
+      [
+        0.4221877157688141,
+        0.5436050891876221,
+        0.6679263114929199,
+        0.7904553413391113
+      ],
+      [
+        0.39342185854911804,
+        0.5409170389175415,
+        0.5864136815071106,
+        0.7550316452980042
+      ]
+    ],
+    "seeded_counts": [
+      27,
+      27,
+      27,
+      27,
+      27,
+      27,
+      27,
+      27,
+      27,
+      27,
+      27,
+      27
+    ],
+    "minimum_mesh_clearance_outside_reserved_rectangles_BU": 0.15616018295288114,
+    "open_corridor_xy_BU": [
+      2.21,
+      4.68,
+      -6.0,
+      17.5
+    ],
+    "reserved_rescue_xy_BU": [
+      1.72,
+      4.55,
+      7.28,
+      12.72
+    ]
+  },
+  "roundtrip_reassembly_open_bank": {
+    "fixed_rear_poses": [
+      [
+        3.4,
+        0.5,
+        0.03
+      ],
+      [
+        3.42,
+        3.6,
+        0.019
+      ],
+      [
+        3.86,
+        5.7,
+        -0.075
+      ]
+    ],
+    "seeds": [
+      14013,
+      14031,
+      14053,
+      14071,
+      14107,
+      14143,
+      14159,
+      14177,
+      14197,
+      14221,
+      14243,
+      14263
+    ],
+    "expected_breeze_phases": 4,
+    "targets_per_view": 16,
+    "total_shrub_visibility_rays": 2304,
+    "occluded_rays": 0,
+    "terrain_visibility_rays": 48,
+    "projected_target_bounds_xy": [
+      [
+        0.43447452783584595,
+        0.529657781124115,
+        0.7434459328651428,
+        0.8286190032958984
+      ],
+      [
+        0.4221877157688141,
+        0.5436050891876221,
+        0.6679263114929199,
+        0.7904553413391113
+      ],
+      [
+        0.39342185854911804,
+        0.5409170389175415,
+        0.5864136815071106,
+        0.7550316452980042
+      ]
+    ],
+    "seeded_counts": [
+      27,
+      27,
+      27,
+      27,
+      27,
+      27,
+      27,
+      27,
+      27,
+      27,
+      27,
+      27
+    ],
+    "minimum_mesh_clearance_outside_reserved_rectangles_BU": 0.15616018295288114,
+    "open_corridor_xy_BU": [
+      2.21,
+      4.68,
+      -6.0,
+      17.5
+    ],
+    "reserved_rescue_xy_BU": [
+      1.72,
+      4.55,
+      7.28,
+      12.72
+    ]
+  },
+  "glb_roundtrip": {
+    "Shrub_A": {
+      "embedded_PNG_verified": {
+        "ENV013_Shrub_A": "8d68a05424eead744d55761e2d40cf4f6b4933d7cece8e11d9c4dd519c0bdc6f",
+        "ENV013_Stem": "d56f5f3af79b18a4cc52242162e4f75e87b3ecab1205f3feea6fe39aabf824fc"
+      },
+      "triangles": 474,
+      "orientation_and_pivot_match": true,
+      "position_error_at_1e_5_precision": 0,
+      "max_normal_error_degrees": 0.0,
+      "max_uv_error": 2.9802322387695312e-08,
+      "max_morph_vector_error_BU": 0.0,
+      "verified_animation": {
+        "duration_s": 3.3333333333333335,
+        "baked_frames": 81,
+        "max_channel_match_error": 0.0,
+        "loop_boundary_error": 0.0
+      }
+    },
+    "Shrub_B": {
+      "embedded_PNG_verified": {
+        "ENV013_Shrub_B": "e99628241d7d0e16f58c2c53ad7facd9d7fe5705aa71cf4284344e4d8be6826c",
+        "ENV013_Stem": "d56f5f3af79b18a4cc52242162e4f75e87b3ecab1205f3feea6fe39aabf824fc"
+      },
+      "triangles": 440,
+      "orientation_and_pivot_match": true,
+      "position_error_at_1e_5_precision": 0,
+      "max_normal_error_degrees": 0.0,
+      "max_uv_error": 2.9802322387695312e-08,
+      "max_morph_vector_error_BU": 0.0,
+      "verified_animation": {
+        "duration_s": 3.3333333333333335,
+        "baked_frames": 81,
+        "max_channel_match_error": 0.0,
+        "loop_boundary_error": 0.0
+      }
+    }
+  },
+  "target_ANM007_contact": {
+    "xy_BU": [
+      3.19,
+      1.65
+    ],
+    "yaw_degrees": -15.469860468532229,
+    "scale": 0.8,
+    "root_z_BU": 0.13516373932361603,
+    "min_mesh_vertex_clearance_BU": 2.9802322831784522e-09,
+    "feet": [
+      {
+        "sample_count": 65,
+        "contact_gap_BU": 0.0,
+        "max_sole_probe_gap_BU": 0.003426194190979004,
+        "min_ground_above_water_BU": 0.18
+      },
+      {
+        "sample_count": 65,
+        "contact_gap_BU": 0.0,
+        "max_sole_probe_gap_BU": 0.00342617928981781,
+        "min_ground_above_water_BU": 0.18
+      }
+    ]
+  },
+  "pending": [
+    "Art review, runtime placement/route and dynamic rescue occlusion, RealityKit morph and wind, and iPhone/iPad."
+  ],
+  "blender": "5.2.2 LTS",
+  "independent_delivered_directory_verification": {
+    "result": "pass",
+    "matches_candidate_metrics": true,
+    "GLBs": 2
+  },
+  "visual_review": {
+    "observation": "The small standing target stays ahead of the approach marks. The rows of plant clusters are broken by staggered gaps.",
+    "source_to_reimport_lineup_mean_abs_rgb8_delta": 2.4856096284667712e-05,
+    "source_to_reimport_lineup_p99_rgb8_delta": 0
+  },
+  "breeze_video": {
+    "result": "pass",
+    "frames_rendered": 30,
+    "source_size_px": [
+      852,
+      393
+    ],
+    "planted_review_instances": 27,
+    "review_motion": "asynchronous sinusoidal weights; source GLB clip independently checked frame by frame",
+    "video_decode": "pass"
+  },
+  "app_baseline": {
+    "source": "plans/active/goose-preview-model-cleanup.md",
+    "prior_tests": 340,
+    "os": "iOS 27.2",
+    "rerun": false
+  },
+  "design_redline_check": {
+    "result": "pass",
+    "scope": "offline geometry, shader and motion candidate"
+  }
+}

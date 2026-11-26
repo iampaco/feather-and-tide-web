@@ -1,0 +1,41 @@
+{
+  "id": "FX-009",
+  "variant": "RescueBeacon",
+  "coordinates": {
+    "blender": [
+      "+X right",
+      "+Y forward",
+      "+Z up"
+    ],
+    "gltf_realitykit": [
+      "+X right",
+      "-Z forward",
+      "+Y up"
+    ]
+  },
+  "game_units_per_BU": 27.77777777777778,
+  "source_scale": "CHR-001 bill to tail .9900 BU = 27.5",
+  "pivot": "Anchor at ring center, horizontal world plane",
+  "ring_outer_radius_BU": 0.4,
+  "ring_inner_radius_BU": 0.31,
+  "point_radius_BU": 0.155,
+  "point_lift_BU": 0.18,
+  "preview_attachment_offset_BU": [
+    1.11,
+    1.24,
+    0.0
+  ],
+  "collision_enabled": false,
+  "runtime_inputs": {
+    "companionID": "Stable game-owned identifier for the separated goose. Optional placement suggestions may use the companion’s horizontal heading.",
+    "rescueAnchorWorld": "World point selected by the game in reachable space near companionID. Project into current fixed camera to steer any separate offscreen indicator.",
+    "escortProgress": "Clamped 0–1 progress from game; remap with smoothstep to drive scale = 1 - .58s and whole-cue opacity = 1 - s.",
+    "state": "Separated: fade in over .33 s; escorting: converge and fade with progress; rejoined/invalid/unsafe anchor: disable the entity.",
+    "safeAnchor": "Host validates world placement against game Zone and traversability before enabling the cue.",
+    "cameraFacing": "Ring remains horizontal; rotate only the point about world up to face camera."
+  },
+  "review_seconds": {
+    "appearance": 0.3333333333333333,
+    "escort": 2.0
+  }
+}

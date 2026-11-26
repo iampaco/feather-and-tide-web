@@ -1,0 +1,41 @@
+{
+  "straight": {
+    "oldRevision": "goose-p0-8",
+    "newRevision": "goose-p0-9",
+    "inputTicks": 1432,
+    "oldCheckpoint": "A",
+    "newCheckpoint": "A",
+    "segmentAtEnd": "S2",
+    "firstDisruption": {
+      "tick": 988,
+      "actors": ["goose-1"]
+    },
+    "minimumEnergy": 0.9292059563494437,
+    "energyAtEnd": 1
+  },
+  "outer": {
+    "oldRevision": "goose-p0-8",
+    "newRevision": "goose-p0-9",
+    "inputTicks": 1482,
+    "oldCheckpoint": "A",
+    "newCheckpoint": "A",
+    "segmentAtEnd": "S2",
+    "firstDisruption": {
+      "tick": 1137,
+      "actors": ["goose-11"]
+    },
+    "minimumEnergy": 0.9293562425950022,
+    "energyAtEnd": 1
+  },
+  "yield": {
+    "oldRevision": "goose-p0-8",
+    "newRevision": "goose-p0-9",
+    "inputTicks": 1510,
+    "oldCheckpoint": "A",
+    "newCheckpoint": "A",
+    "segmentAtEnd": "S2",
+    "firstDisruption": null,
+    "minimumEnergy": 0.9543396089921137,
+    "energyAtEnd": 1
+  }
+}
